@@ -6,20 +6,14 @@ import os
 import json
 import pdb
 
-dataset = "new-databricks-dolly-15k"
-dataset = 0
 
-if dataset == "new-databricks-dolly-15k":
-
-    num_clients = int(sys.argv[1])
-    diff_quantity = int(sys.argv[2])
-
+def allocate_data(num_clients, diff_quantity):
     np.random.seed(42)
     random.seed(42)
 
     # Divide the entire dataset into a training set and a test set.
 
-    df = pd.read_json("new-databricks-dolly-15k.json", orient='records')
+    df = pd.read_json("./data_download/databricks_dolly_15k/new-databricks-dolly-15k.json", orient='records')
     sorted_df = df.sort_values(by=['category'])
     grouped = sorted_df.groupby('category')
     sampled_df = grouped.apply(lambda x: x.sample(n=10))
@@ -28,7 +22,7 @@ if dataset == "new-databricks-dolly-15k":
 
     sampled_df = sampled_df.reset_index().drop('index', axis=1)
     remaining_df = remaining_df.reset_index().drop('index', axis=1)
-    data_path = os.path.join("data", str(num_clients))
+    data_path = os.path.join("./data_download/databricks_dolly_15k/data", str(num_clients))
 
     os.makedirs(data_path,exist_ok=True)
 
@@ -88,23 +82,10 @@ if dataset == "new-databricks-dolly-15k":
 
         with open(os.path.join(data_path, "local_training_{}.json".format(client_id)), 'w') as outfile:
             json.dump(sub_remaining_df_dic, outfile)
-
-
-
-
-from datasets import DatasetDict, Dataset
-
-# 定义数据集
-my_dataset = Dataset.from_dict({
-    "text": ["Hello, world!", "How are you?"],
-    "label": [1, 0]
-})
-
-# 将数据集添加到DatasetDict中
-dataset_dict = DatasetDict({"my_dataset": my_dataset})
-
-# 打印数据集
-print(dataset_dict["my_dataset"])
-
-# 将数据集保存到指定位置
-my_dataset.save_to_disk("my_dataset")
+            
+            
+            
+if __name__ == "__main__":
+    num_clients = 10  # 示例参数
+    diff_quantity = 0
+    allocate_data(num_clients, diff_quantity)
