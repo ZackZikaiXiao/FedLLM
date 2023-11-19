@@ -1,6 +1,6 @@
 
-<h4 align="center"><em><span style="font-size:20pt">  Fed-EKit </span></em></h4>
-<h4 align="center"><em><span style="font-size:15pt">  Federated Easy-to-Use Large Language Model Kit with Efficient Fine-Tuning </span></em></h4>
+<h4 align="center"><em><span style="font-size:40pt">  Fed-EKit </span></em></h4>
+<h4 align="center"><em><span style="font-size:30pt">  Federated Easy-to-Use Large Language Model Kit with Efficient Fine-Tuning </span></em></h4>
 
 
 # Fed-EKit Overview
