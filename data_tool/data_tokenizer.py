@@ -1,12 +1,20 @@
-class DataTokenizer:
-    def __init__(self, args, tokenizer, prompter) -> None:
-        self.args = args
-        self.tokenizer = tokenizer
-        self.prompter = prompter
-    
+from utils.prompter import Prompter
 
-    # 两步:1.把形式化json转化成完整段落的prompt； 2.将prompt进行tokenize
+class DataTokenizer:
+    def __init__(self, args, tokenizer) -> None:
+        self.args = args
+        self.dataset = args.dataset
+        self.tokenizer = tokenizer
+        self.prompter = Prompter(args.prompt_template_name)
+        
     def generate_and_tokenize_prompt(self, data_point):
+        if self.dataset == "new-databricks-dolly-15k":
+            return self._generate_and_tokenize_prompt_new_databricks_dolly_15k(data_point)
+        if self.dataset == "sst-2":
+            pass
+    
+    # 两步:1.把形式化json转化成完整段落的prompt； 2.将prompt进行tokenize
+    def _generate_and_tokenize_prompt_new_databricks_dolly_15k(self, data_point):
         # 结合template，把json转化为paragraph
         full_prompt = self.prompter.generate_prompt(
             data_point["instruction"],
@@ -15,12 +23,12 @@ class DataTokenizer:
         )
 
         # tokenization
-        tokenized_full_prompt = self._tokenize(full_prompt)   # {input_ids; attention_mask; labels}
+        tokenized_full_prompt = self._tokenize_new_databricks_dolly_15k(full_prompt)   # {input_ids; attention_mask; labels}
         if not self.args.train_on_inputs:
             user_prompt = self.prompter.generate_prompt(
                 data_point["instruction"], data_point["context"]
             )
-            tokenized_user_prompt = self._tokenize(user_prompt, add_eos_token=False)
+            tokenized_user_prompt = self._tokenize_new_databricks_dolly_15k(user_prompt, add_eos_token=False)
             user_prompt_len = len(tokenized_user_prompt["input_ids"])
 
             tokenized_full_prompt["labels"] = [
@@ -31,7 +39,7 @@ class DataTokenizer:
         return tokenized_full_prompt
     
     
-    def _tokenize(self, prompt, add_eos_token=True):
+    def _tokenize_new_databricks_dolly_15k(self, prompt, add_eos_token=True):
         result = self.tokenizer(
             prompt,
             truncation=True,

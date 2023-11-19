@@ -4,21 +4,25 @@ from datasets import load_dataset
 import copy
 from collections import OrderedDict
 import torch
+from data_tool.data_path import data_path
 from peft import (
     get_peft_model_state_dict,
     set_peft_model_state_dict,
 )
 
 
-class GeneralClient:
-    def __init__(self, client_id, model, data_path, output_dir):
+class GenerateClient:
+    def __init__(self, args, client_id, model, output_dir):
+        self.args = args
         self.client_id = client_id
         self.model = model
-        self.local_data_path = os.path.join(data_path, "local_training_{}.json".format(self.client_id))
-        self.local_data = load_dataset("json", data_files=self.local_data_path)
         self.output_dir = output_dir
         self.local_output_dir = os.path.join(self.output_dir, "trainer_saved", "local_output_{}".format(self.client_id))
 
+    def load_raw_load(self, dataset):
+        self.local_data_path = os.path.join(data_path[dataset], str(self.args.num_clients), "local_training_{}.json".format(self.client_id))
+        self.local_data = load_dataset("json", data_files=self.local_data_path)
+        
     def preprare_local_dataset(self, generate_and_tokenize_prompt, local_val_set_size):
         if local_val_set_size > 0:
             local_train_val = self.local_data["train"].train_test_split(
