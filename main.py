@@ -9,8 +9,7 @@ from peft import (
     get_peft_model,
     prepare_model_for_int8_training,
 )
-from fed_utils import FedAvg, client_selection, global_evaluation, GeneralClient
-from utils.prompter import Prompter
+from fed_utils import FedAvg, client_selection, global_evaluation, GenerateClient
 from data_tool.data_partition import DataPartition
 from data_tool.data_tokenizer import DataTokenizer
 
@@ -34,7 +33,6 @@ def main(args):
 
     # set up the global model & toknizer
     gradient_accumulation_steps = args.local_batch_size // args.local_micro_batch_size
-    prompter = Prompter(args.prompt_template_name)
     device_map = "auto"
     world_size = int(os.environ.get("WORLD_SIZE", 1))
     ddp = world_size != 1
@@ -56,7 +54,7 @@ def main(args):
     tokenizer.padding_side = "left"
 
     
-    data_tokenizer = DataTokenizer(args, tokenizer, prompter)
+    data_tokenizer = DataTokenizer(args, tokenizer)
 
 
     model = prepare_model_for_int8_training(model)
@@ -86,9 +84,10 @@ def main(args):
                                                 other_info=epoch)
 
         for client_id in selected_clients_set:
-            client = GeneralClient(client_id, model, data_path, output_dir)
+            client = GenerateClient(args, client_id, model, output_dir)
 
             print("\nPreparing the local dataset and trainer for Client_{}".format(client_id))
+            client.load_raw_load(dataset=args.dataset)
             client.preprare_local_dataset(data_tokenizer.generate_and_tokenize_prompt, args.local_val_set_size)
             client.build_local_trainer(tokenizer,
                                        args.local_micro_batch_size,
@@ -126,5 +125,5 @@ def main(args):
 if __name__ == "__main__":
     args = parse_args()
     data_partition = DataPartition(args)
-    data_partition.partition()
+    data_partition.partition()      # 生成
     main(args)
