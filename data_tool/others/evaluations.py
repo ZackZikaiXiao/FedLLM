@@ -15,8 +15,8 @@ from tqdm import tqdm
 from transformers import glue_compute_metrics
 
 from data_loader import PromptDataset
-from data.process import processors
-from data.partition import partition
+from data_tool.others.process import processors
+from data_tool.others.partition import partition
 import copy
 
 logger = logging.getLogger(__name__)
