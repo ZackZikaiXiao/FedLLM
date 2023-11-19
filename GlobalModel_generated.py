@@ -35,9 +35,9 @@ except:
 
 def main(
     load_8bit: bool = False,
-    base_model: str = "/home/zikaixiao/zikai/flfm/shepherd/alpaca_native",
-    lora_weights_path: str = "/home/zikaixiao/zikai/flfm/shepherd/lora-shepherd-7b/10/9/adapter_model.bin",
-    lora_config_path: str= "/home/zikaixiao/zikai/flfm/shepherd/lora-shepherd-7b/10", # provide only the file path, excluding the file name 'adapter_config.json'
+    base_model: str = "./alpaca_native",
+    lora_weights_path: str = "./lora-shepherd-7b/10/9/adapter_model.bin",
+    lora_config_path: str= "./lora-shepherd-7b/10", # provide only the file path, excluding the file name 'adapter_config.json'
     prompt_template: str = "",  # The prompt template to use, will default to alpaca.
     server_name: str = "127.0.0.1",
     share_gradio: bool = False,
