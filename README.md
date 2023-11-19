@@ -1,45 +1,31 @@
-<h1 align="center">
-  <img src="assets/shepherd&llamas.png" width="75%">
-  <br>
-  Shepherd
-  <br>
-</h1>
-<h4 align="center"><em><span style="font-size:18pt"> A Platform Supporting Federated Instruction Tuning </span></em></h4>
 
-<p align="center">
-  <a href="#Overview">Overview</a> •
-  <a href="https://arxiv.org/pdf/2305.05644.pdf">Paper</a> •
-  <a href="#Installation">Installation</a> •
-  <a href="#Data_Preparation">Data_Preparation</a> •
-  <a href="#Federated_Finetuning">Federated_Finetuning</a> •
-  <a href="#Inference">Inference</a> •
-  <a href="#Citation">Citation</a> 
-</p>
+<h4 align="center"><em><span style="font-size:20pt">  Fed-EKit </span></em></h4>
+<h4 align="center"><em><span style="font-size:15pt">  Federated Easy-to-Use Large Language Model Kit with Efficient Fine-Tuning </span></em></h4>
 
 
-[![Code License: Apache 2.0](https://img.shields.io/badge/Code%20License-%20Apache%202.0-blue)](https://github.com/JayZhang42/FederatedGPT-Shepherd/blob/main/LICENSE) \
-**Usage and License Notices**:The data, code and checkpoints are intended and licensed for research use only.
+# Fed-EKit Overview
 
-## Overview
+Fed-EKit aims to provide researchers with a comprehensive solution for fine-tuning Large Language Models (LLMs) in a Federated Learning environment. This project focuses on combining ease of use with flexibility, supporting a wide range of datasets, models, performance enhancement methods, and evaluation approaches.
 
-Recent advancements in fine-tuning large language models (LLMs) have leveraged instructions created by humans or APIs (such as ChatGPT and GPT-4) to revolutionize NLP research and industry applications. However, the collection of instructions from a wide array of individuals presents challenges in cost and privacy. For instance, collecting vast amounts of daily conversations from users is a valuable means of providing guidance for LLMs, enabling them to generate authentic and genuine responses. However, privacy concerns may hinder users from sharing their conversations, resulting in a limited quantity of instructions that are not fully representative of the target population. Federated Learning, a well-studied and well-developed learning approach, provides a solution to addresses these challenges and paves the way for designing personalized LLMs tailored to individual users.
+## Core Features
 
-This repository, *Shepherd*, offers a foundational framework for exploring federated finetuning of LLMs using heterogeneous instructions across diverse categories. The framework is designed for ease of use, adaptability, and scalability to accommodate large datasets. Additionally, it facilitates seamless integration of novel algorithms and configurations, making it a convenient tool for researchers and practitioners in both the FL and the NLP community.
+### Federated Learning Support
+- **Fed-EKit** is specifically designed for federated learning environments, allowing users to collaboratively train and fine-tune large language models while protecting data privacy.
 
-## Paper
+### Ease of Use
+- The project offers a set of intuitive tools and interfaces, making it accessible for both beginners and experienced developers. With simplified installation and configuration processes, users can quickly start their projects.
 
-We are pleased to share our [***FedIT***](https://arxiv.org/pdf/2305.05644.pdf) [Paper], "*Towards Building the Federated GPT: Federated Instruction Tuning.*" We kindly invite you to read the paper for an in-depth understanding of Federated Instruction Tuning for LLMs and further insights into our repository.
-<p align="center">
-  <img src="assets/FedIT.png" width="100%">
-</p>
+### Large Language Model (LLM) Integration
+- Integrates a variety of the latest large language models, offering users a broad selection to suit different application scenarios and requirements.
 
-## Installation 
+### Parameter Efficient Fine-Tuning
+- Utilizes advanced fine-tuning techniques to optimize model performance while reducing the need for computational resources, making the models more efficient.
 
-The code requires some dependencies (Python=3.8)  as specified in `requirements.txt`. Please follow the relevant libraries to install or run:
-```bash
-pip install -r requirements.txt
-```
-If `bitsandbytes` doesn't work, [install it from source](https://github.com/TimDettmers/bitsandbytes/blob/main/compile_from_source.md). Windows users can follow [these instructions](https://github.com/tloen/alpaca-lora/issues/17).
+### Flexibility and Customization
+- Supports various datasets, model structures, and evaluation methods, allowing users to customize and adjust according to their specific needs.
+
+### Community-Driven Open Source
+- As an open-source project, **Fed-EKit** encourages community participation, thereby continuously improving and expanding its functionalities.
 
 
 ## Data_Preparation
@@ -52,20 +38,6 @@ python client_data_allocation.py $num_client $diff_quantity
 ```
 Running this command will save the data files in the folder `./data/str(num_client)`. The data file `new-databricks-dolly-15k.json` for generating each client's local dataset is the first version of `databricks-dolly-15k` , which is a corpus of more than 15,000 records with 8 categeries generated by thousands of [Databricks Lab](https://www.databricks.com/learn/labs) employees. Please refer to their official repository [dolly](https://github.com/databrickslabs/dolly) for the latest version of data.
 
-### Categories distribution and Heteogeneity
-The first version of `databricks-dolly-15k` contains 8 Categories, with the distribution of each category shown in the following subfigure provided on the right.
-
-<p align="center">
-  <img src="assets/twodonuts.png" width="150%">
-</p>
-
-Without federated learning, the model can be trained on only the particular local instruction categories of each user (left) due to privacy or cost issue. By implementing our Federated instruction tuning ([***FedIT***](https://arxiv.org/pdf/2305.05644.pdf)) framework with this repo *Shepherd*, the LLM can be trained on the local instruction datasets of all clients with greater diversity and quantity of data points that cover the entire range of the subject matter (right).
-
-The following figure presents an illustrative depiction of the category distributions among each client, serving to exemplify the heterogeneity nature of clients' instructions.
-
-<p align="center">
-  <img src="assets/hetero.png" width="150%">
-</p>
 
 ### Use your own data
 
@@ -121,35 +93,6 @@ python GlobalModel_generate.py \
       --lora_config_path /output/path/to/lora_config   
       
 ```
-
-
-## Citation
-
-Please cite our FedIT paper and this repo if you find our repository helpful for your research. Thank you!
-```
-@misc{zhang2023building,
-      title={Towards Building the Federated GPT: Federated Instruction Tuning}, 
-      author={Jianyi Zhang and Saeed Vahidian and Martin Kuo and Chunyuan Li and Ruiyi Zhang and Guoyin Wang and Yiran Chen},
-      year={2023},
-      eprint={2305.05644},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
-```
-```
-@misc{Shepherdgithub,
-  author = {Jianyi Zhang and Martin Kuo and Ruiyi Zhang and Guoyin Wang and Saeed Vahidian and Yiran Chen},
-  title = {Shepherd: A Lightweight GitHub Platform Supporting Federated Instruction Tuning},
-  year = {2023},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/JayZhang42/FederatedGPT-Shepherd}},
-}
-```
-
-## Note!
-
-We are constantly working to enhance this framework by resolving bugs and extending its functionality and simulation capabilities. We welcome pull requests that adapt our code to support additional research goals, such as benchmarking of models and datasets, algorithmic enhancements, and hardware simulation.
 
 
 
