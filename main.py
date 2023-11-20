@@ -125,6 +125,6 @@ def main(args):
 
 if __name__ == "__main__":
     args = parse_args()
-    data_partition = DataPartition(args)
-    data_partition.partition()      # 生成
+    # data_partition = DataPartition(args)
+    # data_partition.partition()      # 生成
     main(args)

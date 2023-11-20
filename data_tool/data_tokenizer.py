@@ -10,7 +10,9 @@ class DataTokenizer:
     def generate_and_tokenize_prompt(self, data_point):
         if self.dataset == "new-databricks-dolly-15k":
             return self._generate_and_tokenize_prompt_new_databricks_dolly_15k(data_point)
-        if self.dataset == "sst-2":
+        elif self.dataset == "sst-2":
+            return self._generate_and_tokenize_GLUE(data_point)
+        elif self.dataset == "rte":
             return self._generate_and_tokenize_GLUE(data_point)
     
     # 两步:1.把形式化json转化成完整段落的prompt； 2.将prompt进行tokenize
@@ -65,17 +67,17 @@ class DataTokenizer:
         full_prompt = self.prompter.generate_prompt(
             data_point["instruction"],
             data_point["context"],
-            # data_point["response"],
+            data_point["response"],
         )
-        target = data_point["response"]
+        # target = data_point["response"]
 
         # tokenization
-        tokenized_full_prompt = self._tokenize_GLUE(full_prompt, target)   # {input_ids; attention_mask; labels}
+        tokenized_full_prompt = self._tokenize_GLUE(full_prompt)   # {input_ids; attention_mask; labels}
         if not self.args.train_on_inputs:
             user_prompt = self.prompter.generate_prompt(
                 data_point["instruction"], data_point["context"]
             )
-            tokenized_user_prompt = self._tokenize_GLUE(user_prompt, target, add_eos_token=False)
+            tokenized_user_prompt = self._tokenize_GLUE(user_prompt, add_eos_token=False)
             user_prompt_len = len(tokenized_user_prompt["input_ids"])
 
             tokenized_full_prompt["labels"] = [
@@ -86,10 +88,10 @@ class DataTokenizer:
         return tokenized_full_prompt
     
     
-    def _tokenize_GLUE(self, prompt, target, add_eos_token=True):
+    def _tokenize_GLUE(self, prompt, add_eos_token=True):
         result = self.tokenizer(
             text=prompt,
-            text_target=target,
+            # text_target=target,
             truncation=True,
             max_length=self.args.cutoff_len,
             padding=False,
@@ -103,7 +105,7 @@ class DataTokenizer:
             result["input_ids"].append(self.tokenizer.eos_token_id)
             result["attention_mask"].append(1)
 
-        # result["labels"] = result["input_ids"].copy()
+        result["labels"] = result["input_ids"].copy()
 
         return result
     

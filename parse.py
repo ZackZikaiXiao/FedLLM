@@ -25,7 +25,8 @@ def parse_args():
     parser.add_argument('--lora_alpha', type=int, default=16, help='LoRA alpha parameter')
     parser.add_argument('--lora_dropout', type=float, default=0.05, help='LoRA dropout rate')
     parser.add_argument('--lora_target_modules', nargs='+', default=["q_proj", "k_proj", "v_proj", "o_proj"], help='LoRA target modules')
-    parser.add_argument('--train_on_inputs', type=bool, default=True, help='Train on inputs')
+    
+    parser.add_argument('--train_on_inputs', type=bool, default=False, help='Train on inputs')
     parser.add_argument('--group_by_length', type=bool, default=False, help='Group by length')
     parser.add_argument('--resume_from_checkpoint', type=str, default=None, help='Resume from checkpoint')
     parser.add_argument('--prompt_template_name', type=str, default="alpaca", help='Prompt template name')

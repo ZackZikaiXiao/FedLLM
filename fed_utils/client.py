@@ -67,6 +67,18 @@ class GenerateClient:
             group_by_length=group_by_length,
             dataloader_drop_last=False
         )
+        # DataCollator实验
+        # test_datacollator = transformers.DataCollatorForSeq2Seq(
+        #                                               tokenizer, pad_to_multiple_of=8, return_tensors="pt", padding=True
+        #                                           )
+        # for item in self.self.local_train_dataset:
+        #     print(item)
+        # test_data = test_datacollator(self.local_train_dataset[0:100])
+        # print(1)
+
+
+
+        # DataCollator实验 
         self.local_trainer = transformers.Trainer(model=self.model,
                                                   train_dataset=self.local_train_dataset,
                                                   eval_dataset=self.local_eval_dataset,
