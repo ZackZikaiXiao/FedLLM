@@ -20,7 +20,7 @@ class DataPartition:
                 diff_quantity = 0  # Whether clients have different amounts of data
                 # 直接调用函数
                 allocate_data(self.num_client, diff_quantity)
-        elif self.dataset == "Gsst-2":
+        elif self.dataset == "sst-2":
             # GLUE:sst-2 相关的逻辑
             data_folder = "./data_download/GLUE/sst-2/SST-2/SST-2.json"
             partition(data_path=data_folder, num_clients=self.num_client, dirichlet_alpha=self.dirichlet_alpha,

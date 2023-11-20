@@ -84,6 +84,7 @@ def main(args):
                                                 other_info=epoch)
 
         for client_id in selected_clients_set:
+            # client_id=3
             client = GenerateClient(args, client_id, model, output_dir)
 
             print("\nPreparing the local dataset and trainer for Client_{}".format(client_id))

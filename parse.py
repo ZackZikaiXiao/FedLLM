@@ -4,15 +4,15 @@ from typing import List
 def parse_args():
     parser = argparse.ArgumentParser(description="Federated Learning Fine-Tuning for LLM-LoRA")
 
-    parser.add_argument('--dataset', type=str, default='sst-2', help='Dataset to use')
+    parser.add_argument('--dataset', type=str, default='rte', help='Dataset to use')
     parser.add_argument('--global_model', type=str, default='./alpaca_native', help='Path to the global model')
-    parser.add_argument('--data_path', type=str, default='./data_download/GLUE/sst-2/SST-2', help='Data path')
+    parser.add_argument('--data_path', type=str, default='./data_download/GLUE/rte/RTE', help='Data path')
     parser.add_argument('--output_dir', type=str, default='./lora-shepherd-7b/', help='Output directory')
     parser.add_argument('--client_selection_strategy', type=str, default='random', help='Client selection strategy')
     parser.add_argument('--client_selection_frac', type=float, default=0.1, help='Fraction of clients to select')
     parser.add_argument('--num_communication_rounds', type=int, default=10, help='Number of communication rounds')
     parser.add_argument('--num_clients', type=int, default=10, help='Number of clients')
-    parser.add_argument('--partition_method', type=str, default="dirichlet_label", help='The method used to partition the data')
+    parser.add_argument('--partition_method', type=str, default="dirichlet_quantity", help='The method used to partition the data')
     parser.add_argument('--local_batch_size', type=int, default=64, help='Local batch size')
     parser.add_argument('--local_micro_batch_size', type=int, default=32, help='Local micro batch size')
     parser.add_argument('--local_num_epochs', type=int, default=2, help='Local number of epochs')
