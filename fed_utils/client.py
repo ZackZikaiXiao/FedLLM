@@ -24,18 +24,19 @@ class GenerateClient:
         self.local_data = load_dataset("json", data_files=self.local_data_path)
         
     def preprare_local_dataset(self, generate_and_tokenize_prompt, local_val_set_size):
+        cols = ['instruction', 'response', 'context', 'category']
         if local_val_set_size > 0:
             local_train_val = self.local_data["train"].train_test_split(
                 test_size=local_val_set_size, shuffle=True, seed=42
             )
             self.local_train_dataset = (
-                local_train_val["train"].shuffle().map(generate_and_tokenize_prompt)
+                local_train_val["train"].shuffle().map(generate_and_tokenize_prompt, remove_columns=cols)
             )
             self.local_eval_dataset = (
-                local_train_val["test"].shuffle().map(generate_and_tokenize_prompt)
+                local_train_val["test"].shuffle().map(generate_and_tokenize_prompt, remove_columns=cols)
             )
         else:
-            self.local_train_dataset = self.local_data["train"].shuffle().map(generate_and_tokenize_prompt)
+            self.local_train_dataset = self.local_data["train"].shuffle().map(generate_and_tokenize_prompt, remove_columns=cols)
             self.local_eval_dataset = None
         self.local_val_set_size = local_val_set_size
 

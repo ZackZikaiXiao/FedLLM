@@ -79,7 +79,7 @@ class DataTokenizer:
             )
             tokenized_user_prompt = self._tokenize_GLUE(user_prompt, add_eos_token=False)
             user_prompt_len = len(tokenized_user_prompt["input_ids"])
-
+            # 为什么是-100填充
             tokenized_full_prompt["labels"] = [
                                                   -100
                                               ] * user_prompt_len + tokenized_full_prompt["labels"][
