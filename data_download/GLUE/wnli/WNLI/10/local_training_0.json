@@ -1,0 +1,74 @@
+[
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Mr. Moncrieff visited Chester's luxurious New York apartment, thinking that it belonged to his son Edward. The result was that Mr. Moncrieff has decided to cancel Edward's allowance on the ground that he no longer requires his financial support.\nHypothesis: He no longer requires Edward's financial support.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Sara borrowed the book from the library because she needs it for an article she is working on. She reads it when she gets home from work.\nHypothesis: She reads the book when she gets home from work.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: This morning, Joey built a sand castle on the beach, and put a toy flag in the highest tower, but this afternoon the tide knocked it down.\nHypothesis: This afternoon the tide knocked The flag down.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Sid explained his theory to Mark but he couldn't convince him.\nHypothesis: Mark couldn't convince him.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: What about the time you cut up tulip bulbs in the hamburgers because you thought they were onions?\nHypothesis: You thought hamburgers were onions?",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Pam's parents came home and found her having sex with her boyfriend, Paul. They were furious about it.\nHypothesis: Pam's parents were furious about it.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: John was jogging through the park when he saw a man juggling watermelons. He was very impressed.\nHypothesis: The juggler was very impressed.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Dr. Adams informed Kate that she had retired and presented several options for future treatment.\nHypothesis: Dr. Adams had retired and presented several options for future treatment.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Mr. Taylor was a man of uncertain temper and his general tendency was to think that David was a poor chump and that whatever step he took in any direction on his own account was just another proof of his innate idiocy.\nHypothesis: Any direction on his own account was just another proof of Mr. Taylor's innate idiocy.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Bob paid for Charlie's college education, but now Charlie acts as though it never happened. He is very hurt.\nHypothesis: Bob is very hurt.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Jim yelled at Kevin because he was so upset.\nHypothesis: Kevin was so upset.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: The police arrested all of the gang members. They were trying to run the drug trade in the neighborhood.\nHypothesis: The gang members were trying to run the drug trade in the neighborhood.",
+    "response": "yes",
+    "category": "NLI"
+  }
+]

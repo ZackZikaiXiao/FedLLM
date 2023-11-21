@@ -21,12 +21,47 @@ class DataPartition:
                 # 直接调用函数
                 allocate_data(self.num_client, diff_quantity)
         elif self.dataset == "sst-2":
-            # GLUE:sst-2 相关的逻辑
             data_folder = "./data_download/GLUE/sst-2/SST-2/SST-2.json"
             partition(data_path=data_folder, num_clients=self.num_client, dirichlet_alpha=self.dirichlet_alpha,
                       partition_method=self.partition_method)
         
         elif self.dataset == "rte":
             data_folder = "./data_download/GLUE/rte/RTE/RTE.json"
+            partition(data_path=data_folder, num_clients=self.num_client, dirichlet_alpha=self.dirichlet_alpha,
+                      partition_method=self.partition_method)
+        
+        elif self.dataset == "cola":
+            data_folder = "./data_download/GLUE/cola/CoLA/CoLA.json"
+            partition(data_path=data_folder, num_clients=self.num_client, dirichlet_alpha=self.dirichlet_alpha,
+                      partition_method=self.partition_method)
+            
+        elif self.dataset == "qnli":
+            data_folder = "./data_download/GLUE/qnli/QNLI/QNLI.json"
+            partition(data_path=data_folder, num_clients=self.num_client, dirichlet_alpha=self.dirichlet_alpha,
+                      partition_method=self.partition_method)
+            
+        elif self.dataset == "qqp":
+            data_folder = "./data_download/GLUE/qqp/QQP/QQP.json"
+            partition(data_path=data_folder, num_clients=self.num_client, dirichlet_alpha=self.dirichlet_alpha,
+                      partition_method=self.partition_method)
+            
+        elif self.dataset == "sts-b":
+            data_folder = "./data_download/GLUE/sts-b/STS-B/STS-B.json"
+            # Label为分数如何partition
+            # partition(data_path=data_folder, num_clients=self.num_client, dirichlet_alpha=self.dirichlet_alpha,
+            #           partition_method=self.partition_method)
+
+        elif self.dataset == "wnli":
+            data_folder = "./data_download/GLUE/wnli/WNLI/WNLI.json"
+            partition(data_path=data_folder, num_clients=self.num_client, dirichlet_alpha=self.dirichlet_alpha,
+                      partition_method=self.partition_method)
+            
+        elif self.dataset == "mrpc":
+            data_folder = "./data_download/GLUE/mrpc/MRPC/MRPC.json"
+            partition(data_path=data_folder, num_clients=self.num_client, dirichlet_alpha=self.dirichlet_alpha,
+                      partition_method=self.partition_method)
+            
+        elif self.dataset == "mnli":
+            data_folder = "./data_download/GLUE/mnli/MNLI/MNLI.json"
             partition(data_path=data_folder, num_clients=self.num_client, dirichlet_alpha=self.dirichlet_alpha,
                       partition_method=self.partition_method)
