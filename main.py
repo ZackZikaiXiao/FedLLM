@@ -29,7 +29,7 @@ def main(args):
     assert args.global_model, "Please specify a --global_model, e.g. --global_model='decapoda-research/llama-7b-hf'"
 
     data_path = os.path.join(args.data_path, str(args.num_clients))
-    assert (os.path.exists(args.data_path), "Please generate the data files for each client")
+    assert os.path.exists(args.data_path), "Please generate the data files for each client"
 
     # set up the global model & toknizer
     gradient_accumulation_steps = args.local_batch_size // args.local_micro_batch_size
@@ -124,6 +124,6 @@ def main(args):
 
 if __name__ == "__main__":
     args = parse_args()
-    data_partition = DataPartition(args)
-    data_partition.partition()      # 生成
+    # data_partition = DataPartition(args)
+    # data_partition.partition()      # 生成
     main(args)
