@@ -95,8 +95,16 @@ python GlobalModel_generate.py \
 ```
 
 
+## Evaluation
 
+Use `evaluate.py` file.
 
-
-
-
+```bash
+python GlobalModel_generate.py \
+      --load_8bit \
+      --dataset rte\
+      --be_trained True \
+      --base_model 'chavinlo/alpaca-native' \
+      --lora_weights_path /output/path/to/lora_weights  \
+      --lora_config_path /output/path/to/lora_config   
+```

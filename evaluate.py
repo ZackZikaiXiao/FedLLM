@@ -164,11 +164,27 @@ if __name__ == "__main__":
             # print(f"Response: {item['response']}")
             # print(f"Category: {item['category']}\n")
             response = evaluator.run(instruction=item['instruction'], input=item['context'])
-            if response == item['response']:
+            if response.lower() == item['response'].lower():
                 correct += 1
             all += 1
             acc = correct / all
             print(f"Accuracy of the {args.dataset} dataset: {acc:.4f} (Correct: {correct}, Total: {all})")
 
-
+    elif args.dataset == "rte":
+        all = 0
+        correct = 0
+        from data_download.GLUE.instructions import INSTRUCTIONS
+        testset_path = './data_download/GLUE/rte/RTE/RTE_test.json'
+        testset = evaluator.load_json_data(testset_path)
+        for item in tqdm(testset, desc="Evaluating"):
+            # print(f"Instruction: {item['instruction']}")
+            # print(f"Context: {item['context']}")
+            # print(f"Response: {item['response']}")
+            # print(f"Category: {item['category']}\n")
+            response = evaluator.run(instruction=item['instruction'], input=item['context'])
+            if response.lower() == item['response'].lower():
+                correct += 1
+            all += 1
+            acc = correct / all
+            print(f"Accuracy of the {args.dataset} dataset: {acc:.4f} (Correct: {correct}, Total: {all})")
     

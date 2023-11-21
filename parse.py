@@ -37,7 +37,7 @@ def parse_train_args():
 
 def parse_eval_args():
     parser = argparse.ArgumentParser(description="FederatedGPT-shepherd")
-    parser.add_argument('--dataset', type=str, default='sst-2', help='Dataset to evaluate')
+    parser.add_argument('--dataset', type=str, default='rte', help='Dataset to evaluate')
     parser.add_argument("--be_trained", type=bool, default=False, help="Share gradio interface")        # 修改成true后，才能加载lora模型
     parser.add_argument("--load_8bit", type=bool, default=False, help="Load model in 8-bit")
     parser.add_argument("--base_model", type=str, default="./alpaca_native", help="Base model path")
