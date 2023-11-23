@@ -114,8 +114,10 @@ class Evaluator():
         
     def run(self, instruction, input=None, temperature=0.1, top_p=0.75, top_k=40, num_beams=4, max_new_tokens=128, **kwargs):
         prompt = self.prompter.generate_prompt(instruction, input)
+        
         inputs = self.tokenizer(prompt, return_tensors="pt")
-        input_ids = inputs["input_ids"].to(device)
+        input_ids = inputs['input_ids'].to(device)
+        # input_mask = inputs['attention_mask'].to(device)
         generation_config = GenerationConfig(
             temperature=temperature,
             top_p=top_p,
@@ -128,12 +130,12 @@ class Evaluator():
             
         with torch.no_grad():
             generation_output = self.model.generate(
-                input_ids=input_ids,
+                input_ids = input_ids,
                 temperature=temperature,
                 top_p=top_p,
                 top_k=top_k,
                 num_beams=num_beams,
-                max_new_tokens=max_new_tokens,
+                max_new_tokens=10,
             )
         # output = generation_output.sequences[0]
         output = generation_output[0]
@@ -188,3 +190,39 @@ if __name__ == "__main__":
             acc = correct / all
             print(f"Accuracy of the {args.dataset} dataset: {acc:.4f} (Correct: {correct}, Total: {all})")
     
+    elif args.dataset == "cola":
+        all = 0
+        correct = 0
+        from data_download.GLUE.instructions import INSTRUCTIONS
+        testset_path = './data_download/GLUE/cola/CoLA/CoLA_test.json'
+        testset = evaluator.load_json_data(testset_path)
+        for item in tqdm(testset, desc="Evaluating"):
+            # print(f"Instruction: {item['instruction']}")
+            # print(f"Context: {item['context']}")
+            # print(f"Response: {item['response']}")
+            # print(f"Category: {item['category']}\n")
+            response = evaluator.run(instruction=item['instruction'], input=item['context'])
+            if response.lower() == item['response'].lower():
+                correct += 1
+            all += 1
+            acc = correct / all
+            print(f"Accuracy of the {args.dataset} dataset: {acc:.4f} (Correct: {correct}, Total: {all})")
+
+
+    elif args.dataset == "qnli":
+        all = 0
+        correct = 0
+        from data_download.GLUE.instructions import INSTRUCTIONS
+        testset_path = './data_download/GLUE/qnli/QNLI/QNLI_test.json'
+        testset = evaluator.load_json_data(testset_path)
+        for item in tqdm(testset, desc="Evaluating"):
+            # print(f"Instruction: {item['instruction']}")
+            # print(f"Context: {item['context']}")
+            # print(f"Response: {item['response']}")
+            # print(f"Category: {item['category']}\n")
+            response = evaluator.run(instruction=item['instruction'], input=item['context'])
+            if response.lower() == item['response'].lower():
+                correct += 1
+            all += 1
+            acc = correct / all
+            print(f"Accuracy of the {args.dataset} dataset: {acc:.4f} (Correct: {correct}, Total: {all})")

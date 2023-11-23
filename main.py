@@ -75,7 +75,7 @@ def main(args):
     previously_selected_clients_set = set()
     last_client_id = None
     local_dataset_len_dict = dict()
-    output_dir = os.path.join(args.output_dir, str(args.num_clients))
+    output_dir = os.path.join(args.output_dir, args.dataset +" "+ args.partition_method + " "  + str(args.dirichlet_alpha) + " " + str(args.num_clients))
 
     for epoch in tqdm(range(args.num_communication_rounds)):
 
@@ -115,6 +115,7 @@ def main(args):
                        local_dataset_len_dict,
                        epoch,
                        )
+        # 修改了一下模型保存地址
         torch.save(model.state_dict(), os.path.join(output_dir, str(epoch), "adapter_model.bin"))
         config.save_pretrained(output_dir)
 
@@ -124,6 +125,6 @@ def main(args):
 
 if __name__ == "__main__":
     args = parse_train_args()
-    # data_partition = DataPartition(args)
-    # data_partition.partition()      # 生成
+    data_partition = DataPartition(args)
+    data_partition.partition()      # 生成
     main(args)
