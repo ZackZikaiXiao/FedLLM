@@ -135,7 +135,7 @@ class Evaluator():
                 top_p=top_p,
                 top_k=top_k,
                 num_beams=num_beams,
-                max_new_tokens=10,
+                max_new_tokens=2,
             )
         # output = generation_output.sequences[0]
         output = generation_output[0]
@@ -214,6 +214,81 @@ if __name__ == "__main__":
         correct = 0
         from data_download.GLUE.instructions import INSTRUCTIONS
         testset_path = './data_download/GLUE/qnli/QNLI/QNLI_test.json'
+        testset = evaluator.load_json_data(testset_path)
+        for item in tqdm(testset, desc="Evaluating"):
+            # print(f"Instruction: {item['instruction']}")
+            # print(f"Context: {item['context']}")
+            # print(f"Response: {item['response']}")
+            # print(f"Category: {item['category']}\n")
+            response = evaluator.run(instruction=item['instruction'], input=item['context'])
+            if response.lower() == item['response'].lower():
+                correct += 1
+            all += 1
+            acc = correct / all
+            print(f"Accuracy of the {args.dataset} dataset: {acc:.4f} (Correct: {correct}, Total: {all})")
+
+    elif args.dataset == "mrpc":
+        all = 0
+        correct = 0
+        from data_download.GLUE.instructions import INSTRUCTIONS
+        testset_path = './data_download/GLUE/mrpc/MRPC/MRPC_test.json'
+        testset = evaluator.load_json_data(testset_path)
+        for item in tqdm(testset, desc="Evaluating"):
+            # print(f"Instruction: {item['instruction']}")
+            # print(f"Context: {item['context']}")
+            # print(f"Response: {item['response']}")
+            # print(f"Category: {item['category']}\n")
+            response = evaluator.run(instruction=item['instruction'], input=item['context'])
+            if response.lower() == item['response'].lower():
+                correct += 1
+            all += 1
+            acc = correct / all
+            print(f"Accuracy of the {args.dataset} dataset: {acc:.4f} (Correct: {correct}, Total: {all})")
+    
+
+    elif args.dataset == "rte":
+        all = 0
+        correct = 0
+        from data_download.GLUE.instructions import INSTRUCTIONS
+        testset_path = './data_download/GLUE/rte/RTE/RTE_test.json'
+        testset = evaluator.load_json_data(testset_path)
+        for item in tqdm(testset, desc="Evaluating"):
+            # print(f"Instruction: {item['instruction']}")
+            # print(f"Context: {item['context']}")
+            # print(f"Response: {item['response']}")
+            # print(f"Category: {item['category']}\n")
+            response = evaluator.run(instruction=item['instruction'], input=item['context'])
+            if response.lower() == item['response'].lower():
+                correct += 1
+            all += 1
+            acc = correct / all
+            print(f"Accuracy of the {args.dataset} dataset: {acc:.4f} (Correct: {correct}, Total: {all})")
+    
+
+    elif args.dataset == "sst-2":
+        all = 0
+        correct = 0
+        from data_download.GLUE.instructions import INSTRUCTIONS
+        testset_path = './data_download/GLUE/sst-2/SST-2/SST-2_test.json'
+        testset = evaluator.load_json_data(testset_path)
+        for item in tqdm(testset, desc="Evaluating"):
+            # print(f"Instruction: {item['instruction']}")
+            # print(f"Context: {item['context']}")
+            # print(f"Response: {item['response']}")
+            # print(f"Category: {item['category']}\n")
+            response = evaluator.run(instruction=item['instruction'], input=item['context'])
+            if response.lower() == item['response'].lower():
+                correct += 1
+            all += 1
+            acc = correct / all
+            print(f"Accuracy of the {args.dataset} dataset: {acc:.4f} (Correct: {correct}, Total: {all})")
+
+
+    elif args.dataset == "wnli":
+        all = 0
+        correct = 0
+        from data_download.GLUE.instructions import INSTRUCTIONS
+        testset_path = './data_download/GLUE/wnli/WNLI/WNLI_test.json'
         testset = evaluator.load_json_data(testset_path)
         for item in tqdm(testset, desc="Evaluating"):
             # print(f"Instruction: {item['instruction']}")

@@ -48,8 +48,8 @@ class DataPartition:
         elif self.dataset == "sts-b":
             data_folder = "./data_download/GLUE/sts-b/STS-B/STS-B.json"
             # Label为分数如何partition
-            # partition(data_path=data_folder, num_clients=self.num_client, dirichlet_alpha=self.dirichlet_alpha,
-            #           partition_method=self.partition_method)
+            partition(data_path=data_folder, num_clients=self.num_client, dirichlet_alpha=self.dirichlet_alpha,
+                      partition_method=self.partition_method, num_of_classes_for_stsb=5)
 
         elif self.dataset == "wnli":
             data_folder = "./data_download/GLUE/wnli/WNLI/WNLI.json"

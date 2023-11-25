@@ -4,8 +4,8 @@ from typing import List
 def parse_train_args():
     parser = argparse.ArgumentParser(description="Federated Learning Fine-Tuning for LLM-LoRA")
     # if you want to change the dataset to train, please change the arguments here
-    parser.add_argument('--dataset', type=str, default='mrpc', help='Dataset to use')
-    parser.add_argument('--data_path', type=str, default='./data_download/GLUE/mrpc/MRPC', help='Data path')
+    parser.add_argument('--dataset', type=str, default='sts-2', help='Dataset to use')
+    parser.add_argument('--data_path', type=str, default='./data_download/GLUE/sts-2/STS-2', help='Data path')
     # if you want to change the dataset to train, please change the arguments here
     parser.add_argument('--global_model', type=str, default='./alpaca_native', help='Path to the global model')
     parser.add_argument('--output_dir', type=str, default='./lora-shepherd-7b/', help='Output directory')
@@ -13,7 +13,7 @@ def parse_train_args():
     parser.add_argument('--client_selection_frac', type=float, default=0.1, help='Fraction of clients to select')
     parser.add_argument('--num_communication_rounds', type=int, default=10, help='Number of communication rounds')
     parser.add_argument('--num_clients', type=int, default=10, help='Number of clients')
-    parser.add_argument('--partition_method', type=str, default="dirichlet_quantity", help='The method used to partition the data')
+    parser.add_argument('--partition_method', type=str, default="dirichlet_label", help='The method used to partition the data')
     parser.add_argument('--local_batch_size', type=int, default=64, help='Local batch size')
     parser.add_argument('--local_micro_batch_size', type=int, default=32, help='Local micro batch size')
     parser.add_argument('--local_num_epochs', type=int, default=2, help='Local number of epochs')
@@ -39,9 +39,9 @@ def parse_train_args():
 def parse_eval_args():
     parser = argparse.ArgumentParser(description="FederatedGPT-shepherd")
     # if you want to change the evaluation dataset, please modify the arguments here
-    parser.add_argument('--dataset', type=str, default='qnli', help='Dataset to evaluate')
-    parser.add_argument("--lora_weights_path", type=str, default="./lora-shepherd-7b/qnli dirichlet_quantity 310/9/adapter_model.bin", help="LoRA weights path")
-    parser.add_argument("--lora_config_path", type=str, default="./lora-shepherd-7b/qnli dirichlet_quantity 310", help="LoRA config path")
+    parser.add_argument('--dataset', type=str, default='sst-2', help='Dataset to evaluate')
+    parser.add_argument("--lora_weights_path", type=str, default="./lora-shepherd-7b/sst-2 dirichlet_quantity 3 10/9/adapter_model.bin", help="LoRA weights path")
+    parser.add_argument("--lora_config_path", type=str, default="./lora-shepherd-7b/sst-2 dirichlet_quantity 3 10", help="LoRA config path")
     # if you want to change the evaluation dataset, please modify the arguments here
     parser.add_argument("--be_trained", type=bool, default=True, help="Share gradio interface")        # 修改成true后，才能加载lora模型
     parser.add_argument("--load_8bit", type=bool, default=False, help="Load model in 8-bit")

@@ -6,17 +6,30 @@ from scipy.stats import dirichlet
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
+from interval3 import Interval
 
-def partition(data_path, num_clients, dirichlet_alpha, partition_method="dirichlet_label"):
+def partition(data_path, num_clients, dirichlet_alpha, partition_method="dirichlet_label", num_of_classes_for_stsb=5):
     data_path2 = os.path.abspath(os.path.join(data_path, ".."))
     data_path2 = os.path.join(data_path2, str(num_clients))
+    df = pd.read_json(data_path, orient='records')
+    dataset_len = len(df)
+    if "sts-b" in data_path:
+        unique_label_list, num_unique_labels = generate_stsB_dataframe(df, num_of_classes=num_of_classes_for_stsb)
+    else:
+        unique_label_list = np.array(df['response'].unique())
+        num_unique_labels = len(df['response'].unique())
+    
+
     if partition_method == "dirichlet_label":
         # 可视化类别分布
-        df = pd.read_json(data_path, orient='records')
-        dataset_len = len(df)
-        num_unique_labels = len(df['response'].unique())
-        unique_label_list = np.array(df['response'].unique())
-        all_label_list = np.array(df['response'])
+        # df = pd.read_json(data_path, orient='records')
+        # dataset_len = len(df)
+        # num_unique_labels = len(df['response'].unique())
+        # unique_label_list = np.array(df['response'].unique())
+        if "sts-b" in data_path:
+            all_label_list = np.array(df['label'])
+        else:
+            all_label_list = np.array(df['response'])
         # set alpha = 10 means that the num of samples are nearly uniformly distributed among clients
         dirichlet_samples = dirichlet.rvs([10] * num_clients, size=1)
         num_samples_per_client = (np.floor(dirichlet_samples * dataset_len).astype(int)).squeeze()
@@ -53,13 +66,29 @@ def partition(data_path, num_clients, dirichlet_alpha, partition_method="dirichl
             sub_df = df.loc[sample_idx_per_client[client_id]]
             sub_df = sub_df.reset_index().drop('index', axis=1)
             # 可视化分布步骤
-            num_each_label = sub_df['response'].value_counts()
-            unique_label_client_list = np.array(sub_df['response'].unique())
+            if "sts-b" in data_path:
+                num_each_label = sub_df['label'].value_counts()
+                unique_label_client_list = np.array(sub_df['label'].unique())
+            else:
+                num_each_label = sub_df['response'].value_counts()
+                unique_label_client_list = np.array(sub_df['response'].unique())
             unique_label_client_list.sort()
+            # 如果client有部分标签不存在，则以下代码可以解决可视化中的问题
+            # 算出 unique_label_client_list和 unique_label_list 差那些label，然后在unique_label_list找到索引，然后在num_for_each_label补0
+            unique_label_list.sort()
+            unique_label_list = list(unique_label_list)
+            difference = list(set(unique_label_list) - set(unique_label_client_list))
+            difference.sort()
+            differnence_indexes = [unique_label_list.index(item) for item in difference]
+            # 如果client有部分标签不存在，则以上代码可以解决可视化中的问题
             num_for_each_label = []
-            for label in unique_label_client_list:
+            for index, label in enumerate(unique_label_client_list):
                 num = num_each_label[label]
                 num_for_each_label.append(num)
+            # 如果client有部分标签不存在，则以下代码可以解决可视化中的问题
+            for difference_index in differnence_indexes:
+                num_for_each_label.insert(difference_index, 0)
+            # 如果client有部分标签不存在，则以上代码可以解决可视化中的问题
             num_for_each_client.append(num_for_each_label)
             # 可视化分布步骤    
 
@@ -74,9 +103,11 @@ def partition(data_path, num_clients, dirichlet_alpha, partition_method="dirichl
         unique_label_list.sort()
         for index, label in enumerate(unique_label_list):
             if index == 0:
+                bottom_height = [0]*num_clients
                 plt.bar(x, num_for_each_label_each_client[index], label=label)
             else:
-                plt.bar(x, num_for_each_label_each_client[index], bottom=num_for_each_label_each_client[index-1], label=label)
+                bottom_height = [i + j for i, j in zip(bottom_height, num_for_each_label_each_client[index-1])]
+                plt.bar(x, num_for_each_label_each_client[index], bottom=bottom_height, label=label)
         plt.gca().yaxis.set_major_locator(MaxNLocator(integer=True))
         plt.gca().xaxis.set_major_locator(MaxNLocator(integer=True))
         plt.xlabel("Client", fontsize=12)
@@ -90,9 +121,9 @@ def partition(data_path, num_clients, dirichlet_alpha, partition_method="dirichl
 
         # 加一个可视化quantity和label
     elif partition_method == "dirichlet_quantity":
-        df = pd.read_json(data_path, orient='records')
-        dataset_len = len(df)
-        unique_label_list = np.array(df['response'].unique())
+        # df = pd.read_json(data_path, orient='records')
+        # dataset_len = len(df)
+        # num_unique_labels = len(df['response'].unique())
         dirichlet_samples = dirichlet.rvs([dirichlet_alpha] * num_clients, size=1)
         client_samples = (np.floor(dirichlet_samples * dataset_len).astype(int)).squeeze()
         
@@ -107,13 +138,32 @@ def partition(data_path, num_clients, dirichlet_alpha, partition_method="dirichl
             sub_df = sub_df.reset_index().drop('index', axis=1)
 
             # 可视化分布步骤
-            num_each_label = sub_df['response'].value_counts()
-            unique_label_client_list = np.array(sub_df['response'].unique())
+            if "sts-b" in data_path:
+                num_each_label = sub_df['label'].value_counts()
+                unique_label_client_list = np.array(sub_df['label'].unique())
+            else:
+                num_each_label = sub_df['response'].value_counts()
+                unique_label_client_list = np.array(sub_df['response'].unique())
+            
             unique_label_client_list.sort()
+            # 如果client有部分标签不存在，则以下代码可以解决可视化中的问题
+            # 算出 unique_label_client_list和 unique_label_list 差那些label，然后在unique_label_list找到索引，然后在num_for_each_label补0
+            unique_label_list.sort()
+            unique_label_list = list(unique_label_list)
+            difference = list(set(unique_label_list) - set(unique_label_client_list))
+            difference.sort()
+            differnence_indexes = [unique_label_list.index(item) for item in difference]
+            # 如果client有部分标签不存在，则以上代码可以解决可视化中的问题
             num_for_each_label = []
             for label in unique_label_client_list:
                 num = num_each_label[label]
                 num_for_each_label.append(num)
+
+            # 如果client有部分标签不存在，则以下代码可以解决可视化中的问题
+            for difference_index in differnence_indexes:
+                num_for_each_label.insert(difference_index, 0)
+            # 如果client有部分标签不存在，则以上代码可以解决可视化中的问题
+
             num_for_each_client.append(num_for_each_label)
             # 可视化分布步骤
 
@@ -127,9 +177,11 @@ def partition(data_path, num_clients, dirichlet_alpha, partition_method="dirichl
         unique_label_list.sort()
         for index, label in enumerate(unique_label_list):
             if index == 0:
+                bottom_height = [0]*num_clients
                 plt.bar(x, num_for_each_label_each_client[index], label=label)
             else:
-                plt.bar(x, num_for_each_label_each_client[index], bottom=num_for_each_label_each_client[index-1], label=label)
+                bottom_height = [i + j for i, j in zip(bottom_height, num_for_each_label_each_client[index-1])]
+                plt.bar(x, num_for_each_label_each_client[index], bottom=bottom_height, label=label)
         plt.gca().yaxis.set_major_locator(MaxNLocator(integer=True))
         plt.gca().xaxis.set_major_locator(MaxNLocator(integer=True))
         plt.xlabel("Client", fontsize=12)
@@ -140,25 +192,33 @@ def partition(data_path, num_clients, dirichlet_alpha, partition_method="dirichl
         # 可视化分布步骤
 
 
+def generate_stsB_dataframe(stsb, num_of_classes):
+    stsb.insert(stsb.shape[1], 'label', 0)
+    gap = 5 / num_of_classes
+    left = 0
+    intervals = []
+    for _ in range(num_of_classes):
+        # 左闭右开
+        if left + gap == 5:
+            new_interval = Interval(left, left+gap)
+        else:
+            new_interval = Interval(left, left+gap, upper_closed=False)
+        left += gap
+        intervals.append(new_interval)
+    
+    for index, row in stsb.iterrows():
+        for id, interval in enumerate(intervals):
+            if(row['response'] in interval):
+                stsb.loc[index,'label'] = id
+                break
+    unique_label_list = np.array(stsb['label'].unique())
+    num_unique_labels = len(stsb['label'].unique())
+    return unique_label_list, num_unique_labels
+
+
+
+
+    
+
 if __name__ == '__main__':
-    partition("./data_download/GLUE/sst-2/SST-2/SST-2.json", 10, 3, partition_method="dirichlet_label")
-    # df2 = pd.read_json("./SST-2.json", orient='records')
-    # dataset_len2 = len(df2)
-    # print(dataset_len2)
-    # num_unique_labels2 = len(df2['response'].unique())
-    # all_label_list2 = np.array(df2['response'])
-    # unique_label_list2 = np.array(df2['response'].unique())
-    # idx_list2 = [np.where(all_label_list2 == i)[0] for i in unique_label_list2]
-    # print(len(idx_list2[0]) / dataset_len2)
-    # print(len(idx_list2[1]) / dataset_len2)
-    #
-    #
-    # df = pd.read_json("./local_training_1.json", orient='records')
-    # dataset_len = len(df)
-    # print(dataset_len)
-    # num_unique_labels = len(df['response'].unique())
-    # unique_label_list = np.array(df['response'].unique())
-    # all_label_list = np.array(df['response'])
-    # idx_list = [np.where(all_label_list == i)[0] for i in unique_label_list]
-    # print(len(idx_list[0]) / dataset_len)
-    # print(len(idx_list[1]) / dataset_len)
+    partition("./data_download/GLUE/sts-b/STS-B/STS-B.json", 100, 1, partition_method="dirichlet_quantity", num_of_classes_for_stsb=5)

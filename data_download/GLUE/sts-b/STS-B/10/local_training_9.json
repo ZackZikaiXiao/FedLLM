@@ -1,0 +1,2375 @@
+[
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "Tuition at four-year private colleges averaged $19,710 this year, up 6 percent from 2002.\nFor the current academic year, tuition at public colleges averaged $4,694, up almost $600 from the year before.",
+    "response": 1.5,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "% How much money does PP take in for abortion services?\nHow much is spent on abortions services?",
+    "response": 2.6,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Three die after car crash at Tian'anmen\nThree Killed In Crash At Tiananmen Square",
+    "response": 4.6,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "'Credibility on the line over Syria'\nObama: Congress, world credibility on line",
+    "response": 1.4,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Trailblazing Israeli electric car company Better Place to fold\nTrailblazing Israeli electric car company to fold",
+    "response": 4.4,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "A woman is applying cosmetics to her face.\nA woman is putting on makeup.",
+    "response": 4.6,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A man is running.\nA man is running down a road.",
+    "response": 3.5,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A person is slicing an onion.\nA solenodon is walking along the ground.",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "Government of Canada Supports Montr\u00e9al Women Leading Change\nGovernment of Canada Supports Women's Safety in Regina",
+    "response": 1.6,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A person is frying a meat in the pan.\nA man is cutting a vegetable.",
+    "response": 0.6000000000000001,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Stocks rise in early trading\nStocks inch higher in early trading",
+    "response": 4.4,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "Protesters gather in Brazil despite concessions\nProtests continue in Ukraine despite concessions",
+    "response": 1.2,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Nine Pakistani troops killed in militant ambush\nTrade: Pakistan, India agree to take it a step ahead",
+    "response": 0.8,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Put a Little Love in your Heart We are all vessels filled with many wonders.\nLandon And So This is Christmas We are all vessels filled with many wonders.",
+    "response": 2.8,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "A black dog wearing an orange collar is entangled with fishing wire.\nThe black dog wearing a red collar shakes water off.",
+    "response": 1.8,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Well, whatever, you are now.\nWell, whatever, you're aware of it now.",
+    "response": 2.2,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Microsoft said Friday that it is halting development of future Macintosh versions of its Internet Explorer browser, citing competition from Apple Computer's Safari browser.\nMicrosoft will stop developing versions of its Internet Explorer browser software for Macintosh computers, saying that Apple's Safari is now all that Apple needs.",
+    "response": 4.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A girl is playing a guitar.\nA boy is playing a key-board between the people.",
+    "response": 1.0,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Two people sailing a small white sail boat.\nCouple sailing in a small sailboat.",
+    "response": 4.2,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A lady dressed in a kimono is looking at the camera.\nTwo girls dressed in black are sitting in a room making suggestive poses at the camera.",
+    "response": 1.0,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Several states and the federal government later passed similar or more strict bans.\nFollowing California's lead, several states and the federal government passed similar or tougher bans.",
+    "response": 4.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Also weighing on the market was news that General Motors GM.N planned to issue $10 billion in debt, in part to plug a hole in its pension plan.\nAlso hurting was news General Motors GM.N was to issue $10 billion in debt, in part to plug a hole in its pension plan.",
+    "response": 4.75,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "Obama to announce gun control plans Wednesday\nObama to set out gun control plans",
+    "response": 3.6,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "US gov't officially designates Haqqani network as terrorists\nUS designates Haqqani network as terrorists",
+    "response": 4.4,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "6.6 quake rocks Indonesia's Papua: USGS\n6.6 quake rocks Indonesia's Papua: US Geological Survey",
+    "response": 4.8,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A white cat standing on a carpet.\nA sheep standing in a forest.",
+    "response": 0.4,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A group of people eat at a table outside.\nGroup of elderly people sitting around a table.",
+    "response": 2.8,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "A scantily clad woman is standing next to a car.\nA scantily clad woman standing next to a small red vehicle.",
+    "response": 3.8,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "A federal grand jury indicted them on Tuesday; the document was sealed until yesterday to allow authorities to make arrests.\nFederal officials said the document remained sealed until Thursday morning to allow authorities to make arrests in five Western states.",
+    "response": 3.4,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "Russia Destroys Over 75% of Its Chemical Weapons Stockpile\nBritain Sees Evidence Assad Could Use Chemical Weapons",
+    "response": 1.0,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "A tent and a campsite in a sunlit forest.\nA white dog on a beach is carrying a stick in its mouth.",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "A man in red and black is hitting a soccer ball with his head.\nA man in a red striped soccer shirt heads a ball.",
+    "response": 3.6,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "The New York Mets then selected outfielder Lastings Milledge from Lakewood Ranch High School in Florida.\nThe Mets took Lastings Milledge, an outfielder from Florida, with the 12th pick.",
+    "response": 3.8,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "A man and a woman looking at the camera.\nA man and a woman laughing.",
+    "response": 2.33,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "A dog carries a leash in its mouth.\nA fluffy dog carries a black leash in its mouth.",
+    "response": 4.2,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "Indian stocks open lower\nIndian stocks close lower",
+    "response": 1.8,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Eight bottles of Harp lager lined up on the floor.\nEight bottles of Harp beer lined up on a wooden floor.",
+    "response": 4.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "One killed in clashes at Muslim Brotherhood Cairo offices\nEgypt: Protesters storm Muslim Brotherhood's HQ",
+    "response": 2.0,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "A softball player swinging at a pitch.\nA baseball player hitting the ball",
+    "response": 2.8,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "I don't prefix or suffix everything with \"you hate Jews.\"\nYou should stop prefixing or suffixing everything with you hate Jews.",
+    "response": 3.0,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "A man and a woman are riding on their bicycles.\nA man and woman are riding a motorcycle.",
+    "response": 2.0,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Olivia Colman wins second BAFTA Award\nBaftas 2013: Olivia Colman picks up two awards",
+    "response": 4.4,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "The woman is riding a horse.\nA man is riding a horse in an arena.",
+    "response": 2.0,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Italian parliament backs new PM\nTrain Derailment Kills 4 in New York",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "North Korea Postpones Family Reunions with South\nNorth Korea 'postpones' family unions with South Korea",
+    "response": 5.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "Vivendi shares closed 3.8 percent up in Paris at 15.78 euros.\nVivendi shares were 0.3 percent up at 15.62 euros in Paris at 0841 GMT.",
+    "response": 2.6,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Three dogs are playing in the water.\nThree dogs run in the snow.",
+    "response": 1.4,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "A girl in a pink dress rides her bike along a white picket fence.\nA girl in a red dress rides her bike in front of a white fence.",
+    "response": 4.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Faction Names Bianca Ojukwu APGA National Leader\nBianca Ojukwu becomes APGA national leader",
+    "response": 4.2,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "'Israeli' arrested in Yemen Mossad spy\nIsraeli forces detain 2 in Hebron arrest raid",
+    "response": 1.6,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A group of people are firing up a hot air balloon.\nA large group of people riding brown and white horses.",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "Top judge Mansour sworn in as Egypt interim president\nJustice Adly Mansour sworn in as Egypt interim president",
+    "response": 4.4,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Middle East: Israel: Hamas Leader Convicted\nMiddle East: Iraq: 17 Prisoners Escape in Kirkuk",
+    "response": 0.8,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "vietnam has among the world's harshest drug laws.\nvietnam's drug laws are among the world's strictest laws.",
+    "response": 4.8,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Zimmerman replied, \"What are you doing here?\"\nMartin said, \"Why are you following me?\"",
+    "response": 0.9,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "If you pass this bill, Big Brother will be watching you, said Rep. John Mabry, D-Waco.\nIf you pass this bill, Rep. John Mabry Jr., D-Waco, told colleagues, \"Big Brother will be watching you.\"",
+    "response": 4.8,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "North Korea to put US citizen on trial\nN Korea hit with new US sanctions",
+    "response": 2.0,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "A sheep standing on a table at auction.\nWoolly sheep at auction house.",
+    "response": 4.2,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "North Korea says to restart nuclear reactor\nNorth Korea Offers Talks: Complex May Re-Open",
+    "response": 3.6,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "The nation's largest retailer has told its 100 top suppliers they have to start using electronic tags on all pallets of goods by Jan. 25, 2005.\nWal-Mart has told its top 100 suppliers that they'll need to have radio-frequency ID systems in place for tracking pallets of goods through the supply chain by Jan. 25, 2005.",
+    "response": 3.75,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Britain reaches out to Syria opposition\nWho cares about the Syrian people?",
+    "response": 1.2,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "A man is smoking.\nThe man sat in his suit and smoked.",
+    "response": 4.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "And yet, the Titanic story is the one that holds up to scrutiny of the evidence.\nThe new study shows that the Titanic story does not stand up to scrutiny imo.",
+    "response": 1.6,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "A woman riding a brown horse.\nA person dressed in white on a brown horse.",
+    "response": 3.2,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "russia ratified the amended treaty.\nrussia ratified the updated treaty in 2004.",
+    "response": 3.4,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "A white dog runs through a field of yellow flowers.\nA dog with a red collar runs in a forest in the middle of winter.",
+    "response": 1.6,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Oklahoma examines what went wrong in botched execution\nOkla. inmate dies of heart attack after botched execution",
+    "response": 3.0,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "A black and white dog is swimming in a large green lake.\nA black dog runs fast into shallow water.",
+    "response": 2.2,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "Ursel Reisen confirmed it operated the coach, but gave no details other than to say the passengers were of mixed ages.\nUrsel Reisen confirmed it had been operating the coach, but declined to give details of the passengers other than to say they were of mixed ages.",
+    "response": 4.8,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "4 NATO Troops Killed in Afghanistan\nEight NATO Troops Killed In Afghanistan",
+    "response": 2.6,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "The woman is peeling lemon.\nThe man is balancing on the wire.",
+    "response": 0.4,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Police fire tear gas to disperse protesters in Tunis\nPolice fire tear gas at protesters in Cairo",
+    "response": 2.2,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Strong earthquake in western China kills 47 people\nStrong earthquake in western China kills at least 75",
+    "response": 3.0,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Colgate shares closed Monday at $56.30 on the New York Stock Exchange.\nColgate shares were down 30 cents at $56 in morning trade on the New York Stock Exchange.",
+    "response": 2.4,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "There were a number of bureaucratic and administrative missed signals -- there's not one person who's responsible here, Gehman said.\nIn turning down the NIMA offer, Gehman said, ''there were a number of bureaucratic and administrative missed signals here.",
+    "response": 3.75,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "A woman is dancing.\nA man is talking.",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Tony Abbott sworn in as new Australian PM\nTony Abbott Sworn In As Australia PM",
+    "response": 4.6,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Venezuela expels three U.S. diplomats\nVenezuela Expels 3 U.S. Diplomats",
+    "response": 5.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "A cat is rubbing against baby's face.\nA cat is rubbing against a baby.",
+    "response": 3.8,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "PCB appoints Waqar Younis as head coach\nWaqar Younis back as Pakistan coach",
+    "response": 5.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "A cat is playing a key board.\nA man is playing two keyboards.",
+    "response": 1.6,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Tell us what the charges were.\nYes what are his charges.",
+    "response": 4.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "Sri Lanka's Tamils Vote for Greater Autonomy\nSyria talks for Cameron and Putin",
+    "response": 0.4,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Hushen 300 Index closes higher -- Oct. 14\nHushen 300 Index closes lower -- March 12",
+    "response": 2.0,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A young girl doing a back flip in the water.\na young girl wearing purple running through water",
+    "response": 2.8,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Two men are packing suitcases into the trunk of a car.\nThe men are putting suitcases into the car's trunk.",
+    "response": 4.4,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "The settlement includes $4.1 million in attorneys' fees and expenses.\nPlaintiffs' attorneys would get $4.1 million of the settlement.",
+    "response": 4.5,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Israeli forces arrest 21 Palestinians overnight, clash with locals\nIsraeli security forces arrest 8 Palestinians in overnight West Bank sweeps",
+    "response": 1.0,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "A group of people having a drink.\nA row of locomotives on a siding in a field.",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "A woman is peeling a potato.\nA lion is walking around.",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "A man is playing a flute.\nA woman is applying eye liner.",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Cisco has signed similar deals with AT&T Corp. T.N , SBC Communications Inc. SBC.N and Sprint Corp. FON.N .\nCisco has similar relationships with BellSouth competitors SBC Communications, AT&T and Sprint Communications.",
+    "response": 4.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "A man is looking at a computer monitor.\nA man is using a laptop.",
+    "response": 2.75,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "If I'm angry, it will show up in one of those scans..\nIf I'm hyper active, it will show up in one of those scans..",
+    "response": 3.2,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Bangladesh Honors Factory Victims\nRetailers back Bangladesh factory safety pact",
+    "response": 2.8,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "Spain asks for bank rescue\nSpaniard on trial for Cuban dissident\u2019s death",
+    "response": 0.2,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "Five children buried alive in Bohol landslide\nNine children die in attack in Afghanistan attack",
+    "response": 0.4,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "Singapore stocks close 0.44 pct lower\nSingapore stocks close 0.5 pct higher",
+    "response": 2.6,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "jamaat-i-islami's youth wing staged a separate demonstration in kashmir.\njamaat-i-islami's youth wing's demonstration was against a us attack on iraq.",
+    "response": 3.0,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Seamus Heaney, Irish Poet of Soil and Strife, Dies at 74\nSeamus Heaney, Irish poet and Nobel winner, dies at 74",
+    "response": 4.8,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A woman is cooking broccoli.\nA man is eating his food.",
+    "response": 0.5,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Updated - Two explosions near finish line of Boston Marathon\nReport of two explosions at finish line of Boston Marathon",
+    "response": 5.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "Death toll rises to 236 after Brazzaville blasts\nRep. of Congo: 236 Dead After Arms Depot Blasts",
+    "response": 3.6,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "putin stated that the russian government could withdraw from the treaty altogether if western nations refuse to ratify the amended treaty.\nputin stated that russia could discard the treaty entirely if western nations refuse to ratify its amended version.",
+    "response": 5.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "A man drove his car.\nA man is driving a car.",
+    "response": 4.25,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "CYCLONE FORMATION IS NOT EXPECTED DURING THE NEXT  HOURS.\nTROPICAL CYCLONE FORMATION IS NOT EXPECTED.",
+    "response": 3.4,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "A climber is standing on the rock face next to the pink rope.\nThe children are running in the snow with fences in the background.",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Tech Sector Heats Up: Google and IBM Post Strong Earnings\nGoogle shares soar past $1,000 on strong earnings",
+    "response": 2.6,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "A brown dog is running through green grass.\nA brown dog is running though a river.",
+    "response": 2.4,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Talabani told him the Governing Council would \"need UN assistance and advice in implementing the new decisions which have been taken.\"\nTalabani told him Iraqi leaders would \"need U.N. assistance and advice in implementing the new decisions which have been taken\" on organising an interim Iraqi government by June.",
+    "response": 3.25,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "The girl flew her kite while she ran up a hill.\nA girl loses her kite.",
+    "response": 2.25,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "Death Toll in Bangladesh Collapse at 194\nAt least 200 killed in Bangladesh building collapse",
+    "response": 3.4,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "China stocks end higher on PMI at midday\nChinese stocks open higher Thursday",
+    "response": 1.8,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "It estimated on Thursday it has a 51 percent market share in Europe.\nBoston Scientific said it has gained 51 percent of the coated-stent market in Europe.",
+    "response": 2.8,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A person wearing a helmet rides a bike near a white structure.\nA person wearing a bike helmet rides a bike on a path through trees.",
+    "response": 3.2,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Morsi's supporters reject plan\nMorsi supporters march in Egypt",
+    "response": 2.4,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "iran lies on a major drug route between afghanistan and europe and the persian gulf states.\niran lies on a major drug trafficking route between afghanistan and europe, as well as the persian gulf states.",
+    "response": 4.8,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "What are they trying to hide?\nI then asked: What are they trying to hide?",
+    "response": 3.6,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A man is spinning.\nA man is dancing.",
+    "response": 1.6,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Cmdr. Rod Gibbons, an academy spokesman, said, \"The academy is shocked and saddened.\nNaval Academy spokesman Cmdr. Rod Gibbons said: ``Today's announcement came as a surprise.",
+    "response": 3.25,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Under Kansas law, it is illegal for children under the age of 16 to have sexual relations.\nIn the opinion, Kline noted that it is illegal for children that young to have sexual relations.",
+    "response": 2.75,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "ahmad is fighting extradition to the united states and lodged a formal complaint alleging that british police concocted intelligence reports to implicate ahmad in terror activities and desecrated the koran.\nahmad lodged a formal complaint with the independent police complaints commission alleging that british police concocted intelligence reports to implicate ahmad in terror activities and desecrated ahmad's copy of the islamic holy book the koran by putting the koran on the floor during a search of ahmad's home.",
+    "response": 3.4,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Two dogs are running on the grass.\nTwo dogs running in the dirt",
+    "response": 3.6,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "The broad Standard & Poor's 500 Index .SPX gained 19.72 points, or 1.98 percent, to 1,015.69.\nThe Dow Jones industrial average .DJI jumped 2.09 percent, while the Standard & Poor's 500 Index .SPX leapt 2.23 percent.",
+    "response": 3.0,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "6 Killed by Hot Lava as Indonesia Volcano Erupts\nFive dead in Indonesian eruption",
+    "response": 3.0,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Carlson on Tuesday said he would not recuse himself from the case.\nService officials said Carlson refused to recuse himself from the case.",
+    "response": 4.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "Capello quits as England manager\nCapello resigns as England manager",
+    "response": 5.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "A look at major terror attacks in East Africa\nUN Security Council slams deadly terrorist attack in Kenyan capital",
+    "response": 1.6,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "A group of people sitting around a table containing food.\nFour people are sitting around a living room with.snacks.",
+    "response": 2.8,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "Gunmen Kill Eight In Second Kenya Attack\nGunmen 'Kill 15' In Second Kenya Attack",
+    "response": 3.0,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Stocks rise early after Greek deal, then flatten\nStocks edge higher after Greek debt deal",
+    "response": 3.6,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Dotson, 21, was arrested and charged on July 21 after reportedly telling authorities he shot Dennehy after Dennehy tried to shoot him.\nDotson was arrested July 21 after telling FBI agents he shot Dennehy when Dennehy tried to shoot him, according to the arrest warrant affidavit.",
+    "response": 4.25,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "India starts voting in world's largest election\nIndia voters kick off world\u201a\u00c4\u00f4s biggest election",
+    "response": 5.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Gunman may have filmed school massacre\nKiller may have filmed France school shooting",
+    "response": 3.0,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "A baby tiger is playing with a ball.\nA baby is playing with a doll.",
+    "response": 1.6,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "Tokyo stocks open down 0.24%\nTokyo stocks open up 0.52%",
+    "response": 2.8,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "naeem m. was hanged in zabol, sistan-baluchestan province.\nzahedan is the capital of sistan-baluchestan province.",
+    "response": 0.2,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A car backs out of a space.\nA car is backing out of a blocked lane.",
+    "response": 3.0,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "A boat is on the water near a small plane.\nA boat is in the water and a small airplane is on the dock.",
+    "response": 3.4,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "Two U.S. soldiers shot, killed by Afghan soldier\nTwo British soldiers killed by Afghan policeman",
+    "response": 1.6,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "mexican president felipe calderon has sent 2800 special agents and soldiers to sinaloa due to the high degree of organized crime and drug trafficking.\nmexican president felipe calderon has sent 2800 special agents and soldiers to sinaloa to fight drug trafficking.",
+    "response": 4.6,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Benzema faces possible charges in sex-tape case\nMenendez faces possible corruption charges",
+    "response": 1.0,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "but in the news broadcasts i have seen they did call him white.\nbut it seems it would have less \"impact\" if they didn't call him white.",
+    "response": 2.2,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "Someone is holding and petting a baby tiger.\nSomeone is rinsing a large beef steak at the kitchen sink.",
+    "response": 0.4,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "many of those executed in iran are hanged in public.\nmany of the people executed are hanged in public.",
+    "response": 3.4,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "russian president putin signs decree suspending russia's application of european arms control treaty.\npresident vladimir putin signed a decree suspending russia's participation in the conventional forces in europe treaty.",
+    "response": 4.4,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "Russian stocks fell after the arrest last Saturday of Mikhail Khodorkovsky, chief executive of Yukos Oil, on charges of fraud and tax evasion.\nThe weekend arrest of Russia's richest man, Mikhail Khodorkovsky, chief executive of oil major YUKOS, on charges of fraud and tax evasion unnerved financial markets.",
+    "response": 4.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "A man is tying his shoe.\nA dog is riding on a bicyclists shoulders.",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A girl makes up her bed.\nA young girl makes her bed.",
+    "response": 4.4,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "6 NATO troops killed in Afghanistan IED attack\n6 NATO troops killed in Afghanistan",
+    "response": 3.8,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "The Note's Must-Reads for August 1, 2012\nThe Note's Must Reads for Wednesday July 4, 2012",
+    "response": 1.8,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Senate confirms Obama nominee to key appeals court\nSenate approves Obama nominee to key appeals court",
+    "response": 5.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Profiles of Kenya's presidential candidates\nItalian journalist picked as presidential candidate",
+    "response": 1.0,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "russian officials have called for a conference on the conventional forces in europe treaty to discuss ratification of the amended treaty.\nantonov spoke the day before a conference on the conventional forces in europe treaty.",
+    "response": 3.2,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Strong new quake hits shattered Pak region\nPowerful new earthquake hits shattered Pakistan region",
+    "response": 5.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "A woman is frying a food.\nA woman is deep frying food.",
+    "response": 4.25,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "Texas sues over Syrian refugees\nTurkey 'exploits' Syrian refugees",
+    "response": 1.0,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "india and pakistan remain outside the treaty.\nisrael remains outside the treaty.",
+    "response": 2.0,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Birthday of DPRK to Be Celebrated in Peru\nCuriosity Rover Celebrates 1 Year on Mars",
+    "response": 0.4,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Court in Bahrain rejects medics' last rally appeal\nBahrain rejects activists' appeal",
+    "response": 3.8,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Other countries and private creditors are owed at least $80 billion in addition.\nOther countries are owed at least $US80 billion ($108.52 billion).",
+    "response": 3.4,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Still, the \"somewhat ambiguous ruling\" might be a setback for Static Control depending on how it developed its competing product, Merrill Lynch analyst Steven Milunovich said.\nBut Merrill Lynch analyst Steven Milunovich said the \"somewhat ambiguous ruling\" by regulators might be a setback for Static Control depending on how it developed its competing product.",
+    "response": 5.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "The bill says that a woman who undergoes such an abortion couldn't be prosecuted.\nA woman who underwent such an abortion could not be prosecuted under the bill.",
+    "response": 5.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "The dog is in the air above the grass.\nThe dog is laying on a bed with a blue sheet.",
+    "response": 1.0,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Instead, prosecutors dismissed charges and Rucker left the courtroom a free man.\nInstead he left the courtroom a free man after authorities dismissed criminal charges.",
+    "response": 3.4,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "the united states dismissed the action as nuclear blackmail.\nthe united states said it would stand up to nuclear blackmail and has ruled out negotiations.",
+    "response": 2.2,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "The computers were reportedly located in the U.S., Canada and South Korea.\nThe PCs are scattered across the United States, Canada and South Korea.",
+    "response": 4.75,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "Some men are playing guitars.\nThree men are playing guitars and singing together.",
+    "response": 3.2,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "A man is playing guitar.\nA woman is peeling a tuber.",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "A woman serving volleyballs over a net.\nOne woman hands volleyballs to another woman who serves them.",
+    "response": 2.75,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "Protesters gather in Brazil despite concessions\nProtests sweep Brazil despite concession",
+    "response": 5.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Two girls are sitting in front of a statue.\nTwo blonde girls are sitting next to a statue",
+    "response": 3.8,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "If you want to buy $ billion in XYZ Inc. common stock, who cares?\nIf you want to buy a house or a SUV, again, who cares?",
+    "response": 1.4,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "A man is praying.\nA man is running.",
+    "response": 0.727,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Pope calls for action on climate change in draft encyclical\nPope urges action on climate change in draft encyclical",
+    "response": 5.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "A man is smoking.\nA man is skating.",
+    "response": 0.5,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "Aspen Technology's shares dropped 74 cents, or 23 percent, to close at $2.48 on the Nasdaq.\nIn afternoon trading, Aspen's shares were off 89 cents or more than 27 percent at $2.33 per share.",
+    "response": 2.2,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "A cat is playing.\nA woman is playing flute.",
+    "response": 0.25,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "A lawsuit has been filed in an attempt to block the removal of the Ten Commandments monument from the building.\nSupporters asked a federal court Monday to block the removal of a Ten Commandments monument from the Alabama Judicial Building.",
+    "response": 3.2,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "The legal ruling follows three days of intense speculation Hewlett-Packard Co. may be bidding for the company.\nThe legal ruling follows three days of wild volatility in RIM's stock over speculation that PC giant Hewlett-Packard Co. may be bidding for the company.",
+    "response": 3.6,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "U.S. and Turkey weigh no-fly zones for Syria\nU.S. and Turkey Tighten Coordination on Syria",
+    "response": 2.2,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "At least 6 dead in Canada bus, train crash\nAt least 6 dead in Paris train crash",
+    "response": 2.2,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "The Human Element You could sign Lance Berkman at the end of the year I guess?\nYou could sign Lance Berkman at the end of the year I guess?",
+    "response": 4.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "The man set up his camera to take sunset pictures at the beach.\nA man is taking pictures of a lake.",
+    "response": 2.2,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "mexico wishes to guarantee citizens' safety.\nmexico wishes to avoid more violence.",
+    "response": 4.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "After 26 hours of surgery and a year of anticipation, the boys were separated Sunday at Children's Medical Center of Dallas.\nTwo-year-old Egyptian twin boys, born with their heads conjoined, have been separated after 26 hours of surgery at the Children's Medical Centre in Dallas.",
+    "response": 3.2,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "300 potential Jimmy Savile victims: police\nUK: 300 potential Savile abuse victims emerge",
+    "response": 3.6,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "I have no problem with those that have money!\nI have many problems with these men, way to many to state here!",
+    "response": 0.2,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "The issue has been resolved, Marlins President David Samson said through a club spokesman.\nThe Marlins only said: \"The issue has been resolved.\"",
+    "response": 3.0,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Fairies don't exist - fine.\nLeprechauns don't exist - fine.",
+    "response": 1.0,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Insiders Reveal 2012 Election Secrets\nAll Eyes on Capriles as Venezuela Election Set",
+    "response": 1.2,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "Relatives scuffle with police after China fire kills 120\nAngry families demand answers after China plant fire kills 119",
+    "response": 3.8,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "Get it all out,\" says Howard Davidowitz, chairman of Davidowitz & Associates, a national retail consulting firm based in New York City.\nInnocent or not, \"she's damaged goods,\" said Howard Davidowitz, chairman of Davidowitz & Associates, a national retail consulting firm in New York.",
+    "response": 1.4,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "A woman is wearing headphones.\nA woman is chopping some shiso leaves.",
+    "response": 0.6000000000000001,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "A white and brown dog is running over grass.\nA brown and white dog is running across the grass.",
+    "response": 4.6,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "The Nazis increases the longevity of a handgun permit from  to  years.\nThe Nazis lowered the minimum age to buy a firearm from  to .",
+    "response": 2.2,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Iran's Parliament Questions A Dismissive Ahmadinejad\nIran's parliament questions President Ahmadinejad",
+    "response": 4.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Iraqi president in hospital due to health problem\nIraqi president in hospital after suffering stroke",
+    "response": 3.6,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "If so, alot of cops should take presciption drugs.\nIf so, alot of inventors, writers should take prescription drugs..",
+    "response": 2.4,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "U.S., EU Widen Sanctions On Russia\nU.S., EU Boost Sanctions On Russia",
+    "response": 5.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A man is playing a violin.\nA woman is using a sewing machine.",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": ". What is your definition of \"life force\"?\nWhat is your definition of \"soul\"?",
+    "response": 3.6,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Bangladesh court sentences first lawmaker to death for war crimes\nBritish PM pushes Sri Lanka on war crimes",
+    "response": 1.8,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "India and China troops retreat to de facto border in face-off deal\nIndia says China agrees retreat to de facto border in faceoff deal",
+    "response": 4.2,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "A man and a dog are playing tug of war.\nA man dances on a colorful wall.",
+    "response": 0.4,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Someone is frying meat.\nSomeone is playing paino.",
+    "response": 0.25,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "A monkey is brushing a bull dog.\nA monkey brushes a dog.",
+    "response": 4.2,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "There's no chance of a fair trial.\nthere is no chance at a fair trial.",
+    "response": 5.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Egypt court sentences 10 Brotherhood supporters to death - sources\nTurkish PM tells supporters to prepare for rallies",
+    "response": 0.2,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "gorgich and pashtoon were executed in prison.\ngorgich and pashtoon were executed for trafficking heroin in sistan-baluchestan province.",
+    "response": 3.2,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "She asked to be excused from last week's Cabinet session to prepare for a meeting with the presidents of Rwanda and Uganda.\nShe took the highly unusual step of skipping cabinet to attend a meeting with the presidents of Rwanda and Uganda.",
+    "response": 3.455,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Palestinians, Jordan coordinate stances on peace talks\nHamas senior denies Gaza, PA coordinated on peace talks",
+    "response": 1.8,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "Red double decker bus driving down street.\nA double decker bus on a city street.",
+    "response": 3.6,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "Britain shuts down plants as horse meat scandal reaches France\nEU ministers 'determined' to resolve horsemeat scandal",
+    "response": 3.0,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Arthur Benson, attorney for the case's plaintiff schoolchildren, said he will appeal.\nAn attorney for plaintiff schoolchildren said he plans to appeal.",
+    "response": 3.667,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "orphaned alps massacre girl returns to uk\nAlps attack: Girl returns to UK",
+    "response": 4.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "A goose flapping its wings in a body of water.\nA black swan flapping its wings on the water.",
+    "response": 3.0,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Wells\u2019 other series include NBC\u2019s ER and Third Watch.\nWells' other series include NBC's \"ER\" and \"Third Watch.\"",
+    "response": 5.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Egypt interior minister survives bomb\nEgypt's interior minister survives bomb attack",
+    "response": 5.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "I came basically to Washington to establish relationships and to make sure that we are getting more federal money to California, Schwarzenegger said after meeting with congressional Republicans.\nI came to Washington basically to establish relationships and make sure we are getting more federal money, Schwarzenegger said after one meeting.",
+    "response": 4.2,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Boeing said the final agreement is expected to be signed during the next few weeks.\nThe Korean Air deal is expected to be finalized \"in the next several weeks,\" Boeing spokesman Bob Saling said.",
+    "response": 3.0,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "A man takes a piece of pepperoni pizza out of a pizza box and puts it on the lid after he closes the box.\nThe man took a piece of pepperoni pizza out of the box.",
+    "response": 2.75,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "An elderly man in a blue shirt is holding up a piece of canvas art.\nA black man is walking next to a building in a big city.",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "U.S. Drone Kills Five Militants in Pakistan\nSix Police Officers Killed in Attacks in Dagestan",
+    "response": 0.4,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "The injured passenger at John Peter Smith Hospital died later Friday morning, Jones said.\nThe injured passenger at John Peter Smith died later in the morning; his name has not been released, Jones said.",
+    "response": 3.643,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "TVT Records sought $360 million in punitive damages and $30 million in compensatory damages, officials said.\nThe damages included $24 million in compensatory damages and $52 million in punitive damages for IDJ.",
+    "response": 1.25,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Panetta says Afghanistan role to shift from combat in 2013\nPanetta: Afghanistan Tops NATO Conference Topics",
+    "response": 1.6,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Close up of a bottle of water.\nA close up view of a bottle of water.",
+    "response": 4.4,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "The show's closure affected third-quarter earnings per share by a penny.\nThe company said this impacted earnings by a penny a share.",
+    "response": 3.25,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Boston bombing suspect charged in hospital bed\nOne week later: Boston honors bombing victims; suspect unable to speak",
+    "response": 1.2,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "A girl in a black desktop holds up an open box of Corn Flakes and a carton of milk.\nA girl wearing black shorts and boots is standing next to a blue motorcycle.",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "British police arrested 21 people early Tuesday in connection with the suspected ritual murder of an African boy whose torso was found in the Thames River.\nPolice have arrested 21 people in connection with the murder of a young Nigerian child whose headless and limbless torso was found floating in the river Thames.",
+    "response": 3.5,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Syria's PM escapes assassination try, regime says\nSyrian prime minister survives assassination attempt",
+    "response": 4.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Austrian found hoarding 56 stolen skulls in home museum\nStolen skulls found in home museum",
+    "response": 3.4,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Islamist Morsi Wins Egypt's Presidential Election\nAl-Shater to run in presidential election in Egypt",
+    "response": 1.0,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A girl in a purple shirt and pink headband posing\nA young girl wearing a hat and blue jeans is on a swing.",
+    "response": 0.4,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "The animal is eating.\nA woman is dancing.",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Google Unveils Prototype Self-Driving Car\nGoogle Unveils Concept Self-Driving Car",
+    "response": 5.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Death toll from west Chinas violence rises to 35\nUrgent: Death toll from NE China fire rises to 112",
+    "response": 1.2,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "pressing one does not \"do\" english.\nPressing one does send a tone.",
+    "response": 1.8,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "a black and white dog running through some red and white poles\nBlack and white dog in living room standing on hind legs.",
+    "response": 1.6,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A man is hugging someone.\nA man is taking a picture.",
+    "response": 0.4,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Military: Syria chemical stocks threaten Israel\nRussia tells Syria chemical arms threat is unacceptable",
+    "response": 1.8,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Syrian opposition agree to landmark peace talks\nSyria opposition pressed to attend talks",
+    "response": 3.0,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "lugar and nunn are senators.\nlugar and nunn awarded the prime minister a medal.",
+    "response": 1.8,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A man is playing the guitar.\nA man is playing the flute.",
+    "response": 2.2,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "The brown and white dog is walking in shallow waters.\nA white and brown dog appears to be walking on the water.",
+    "response": 4.6,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "South Africa president: Mandela is improving\nAfghan president delays signing US deal",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A woman is opening a soda and drinking it.\nA woman is riding on an elephant.",
+    "response": 0.6000000000000001,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "the countries oppose the weaponization of space and an arms race in space.\nchina stressed that opposition of weaponization and an arms race in outer space.",
+    "response": 3.2,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "A train sitting on the tracks near a field.\nA train traveling down the tracks.",
+    "response": 2.2,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "He projected Vanderpool will be available within the next five years.\nProducts featuring Vanderpool will be released within five years, he said.",
+    "response": 4.4,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "French election turnout higher than expected\nFrench presidential election: first round - live updates",
+    "response": 1.0,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "The operating revenues were $1.45 billion, an increase over last year's result of $1.38 billion.\nOperating revenues rose to $1.45 billion from $1.38 billion last year.",
+    "response": 5.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Thousands rally to support embattled Tunisia government\nThousands gather to support Islamist government in Tunisia",
+    "response": 4.6,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "A federal magistrate in Fort Lauderdale ordered him held without bail.\nZuccarini was ordered held without bail Wednesday by a federal judge in Fort Lauderdale, Fla.",
+    "response": 3.0,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "A man in a straw hat shades his phone while others walk on a busy sidewalk.\nA man lies on a street with his headand shoulders under a parked car that is jacked up.",
+    "response": 0.6000000000000001,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Suicide bomber kills eight, wounds 13 in Afghan capital - police\nSuicide bomb kills 4 in Syrian capital's Old City",
+    "response": 0.8,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Goa first step in Modis march to Delhi\nFor first time in history, Technion to teach engineering in Russia",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "US closes embassy in Syria (AP)\nClosed roads in Armenia",
+    "response": 0.4,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "that is not an answer.\nno, it's not an answer.",
+    "response": 4.8,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Hotly contested legislation that would change the state's takeover law and help a Michigan-based development company fend off a takeover cleared the state Senate on Thursday.\nLegislation that would change state takeover law and help Bloomfield Hills-based Taubman Centers Inc. fend off a $1-billion takeover won committee approval Tuesday.",
+    "response": 2.75,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Dozens dead in Central African Republic fighting\n98 dead in Central African Republic after clashes",
+    "response": 3.4,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "A golden dog is running on the grass.\nThe large beige dog is running through the grass.",
+    "response": 3.4,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "China's yuan rises to new high against USD Wednesday\nChina's yuan advances to 6.3103 against USD Wednesday",
+    "response": 3.8,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "A man is levitating.\nA man is talking.",
+    "response": 0.8,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "China mine accident kills 10\nChina truck accident kills 20",
+    "response": 1.6,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Poverty stats doubt Modi's development claims\nGM to start taking recall compensation claims Aug 1",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Three individuals are posing on skis behind a \"no skiing\" sign.\nThree people on skis are standing behind a no skiing sign.",
+    "response": 4.4,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Death toll in Nairobi attack rises to 59\nDeath toll from Egypt violence rises to 638",
+    "response": 1.6,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "You should put scientists on a pedestal.\nWhy do people like you put scientist on a pedestal?",
+    "response": 3.4,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "An injured woman co-worker also was hospitalized and was listed in good condition.\nA woman was listed in good condition at Memorial's HealthPark campus, he said.",
+    "response": 2.2,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "Pakistani Taliban chief killed in US drone strike\nFuneral for Pakistan Taliban chief 'set to take place'",
+    "response": 1.6,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Two hikers stand at the top of a snowy mountain.\nTwo mountain climbers stand on the top of a mountain looking around.",
+    "response": 3.4,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A woman is sitting on a sidewalk with a cell phone at her ear.\nA woman is riding her bicycle.",
+    "response": 0.5,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "UK Leader Signals Support for Airstrikes on IS in Syria\nWhy Cyprus backs Cameron's push for UK air strikes in Syria",
+    "response": 1.0,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "the book states that the drug conveys a completely positive image.\nthe official stated that this was a complete technology transfer.",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Mandela back in hospital in \u201a\u00c4\u0117serious but stable\u201a\u00c4\u00f4 condition\nNelson Mandela returns to hospital in \u201a\u00c4\u0117serious but stable\u201a\u00c4\u00f4 condition",
+    "response": 5.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Being against nukes does not mean \"not wanting to use nukes\".\nBeing against using nukes means \"not wanting to use nukes\".",
+    "response": 1.4,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "A grey cat with green eyes looking into the camera.\nA grey, black, and white cat looking at the camera.",
+    "response": 3.2,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "18 trapped in Russian coal mine blast\nTen killed in Russia coal mine blast",
+    "response": 2.8,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A dog leaping over a hurdle.\nA dog leaps over the hurdle.",
+    "response": 4.8,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "It will also give Microsoft an opportunity to comment on remedies proposed by the Commission.\nAmong other things, Microsoft is to comment on proposed remedies in its response.",
+    "response": 4.2,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "The defense cannot appeal Roush's ruling until after the trial.\nDefense lawyers cannot appeal the ruling until after trial, in the appellate courts.",
+    "response": 3.4,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Hurricane Sandy powers toward Eastern Seaboard\nHurricane Sandy moves towards US",
+    "response": 3.6,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "That exploit works on unpatched Windows 2000 machines with Service Pack 3 and 4.\nBoth Counterpane and iDefense contend that the exploit works effectively against Windows 2000 systems running Service Pack 3 and 4.",
+    "response": 3.0,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Egyptian police fire tear gas at Brotherhood protesters\nIndia: Tear Gas Fired At Gang Rape Protesters",
+    "response": 1.2,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "A brown dog digging a hole in front of a plant\nA group of people walking on the side of a railroad track.",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "N. Korea Deports Elderly American\nNorth Korea deports detained US war veteran",
+    "response": 2.0,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "A dog sat at the counter of a store.\nThe dog is standing at the counter.",
+    "response": 2.6,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Earlier this month, RIM had said it expected to report second-quarter earnings of between 7 cents and 11 cents a share.\nExcluding legal fees and other charges it expected a loss of between 1 and 4 cents a share.",
+    "response": 1.2,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Gunman who held suburban Atlanta firefighters hostage now dead, police say\nThe Lede: Video: Gunman Takes Firefighters Hostage in Georgia",
+    "response": 1.4,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Bomb explodes at Greek shopping mall, two people injured\nBomb explodes at Athens shopping mall, 2 wounded",
+    "response": 4.4,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "it is a serious threat to international security.\nit presents a major threat to global security.",
+    "response": 4.2,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "religious fiction Isn't that redundant and repetetive?\nIsn't that redundant and repetetive?",
+    "response": 3.2,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Karzai to visit Pakistan for Taliban peace talks\nAfghan president extends visit to Pakistan for Taliban talks",
+    "response": 3.6,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "Strong quake jolts most parts of Pakistan\nStrong quake hits eastern Indonesia",
+    "response": 2.0,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "A man is running on the road.\nA panda dog is running on the road.",
+    "response": 1.667,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "7 killed in attacks in Iraq\n27 killed in attacks across Iraq",
+    "response": 2.0,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A man is riding a bike.\nA woman is dancing in the street.",
+    "response": 0.2,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "The report was found Oct. 23, tucked inside an old three-ring binder not related to the investigation.\nThe report was found last week tucked inside a training manual that belonged to Hicks.",
+    "response": 3.2,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "Mitt Romney wins Republican primary in Indiana\nRomney wins Florida Republican primary",
+    "response": 1.6,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "blix stated that it is essential to increase efforts to eliminate nuclear arms and weapons of mass destruction.\nblix was visiting new zealand and said that it is essential that greater efforts be made to eliminate nuclear arms and weapons of mass destruction.",
+    "response": 3.4,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Snowden thanks Russia for asylum\nSnowden thanks Russia for granting asylum",
+    "response": 5.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "A woman is slicing big pepper.\nA dog is moving its mouth.",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "At least Mexico had a presence in California.\nMexico has ZERO claim to California.",
+    "response": 1.2,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Ukraine protesters rebuild barricades\nPutin speaks on Ukraine, protesters rebuild barricades",
+    "response": 3.4,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Jake with the assist.\nVoracek with the goal.",
+    "response": 0.4,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "Australian PM Gillard set to win leadership challenge\nAustralian PM defiant under pressure over leadership",
+    "response": 2.4,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "SARS went on to claim the lives of 44 people in the Toronto area, including two nurses and a doctor.\nThe virus killed 44 people in the Toronto area, including one doctor and two nurses.",
+    "response": 3.2,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Gartner analysts said that businesses are not yet feeling confident enough to upgrade corporate PCs.\nWhat's more, companies are not feeling confident enough to replace older PCs, the analyst firm said.",
+    "response": 3.5,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "A woman is playing the flute.\nA man is playing the guitar.",
+    "response": 1.0,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "A man rides a horse.\nA woman rubs a baby's leg.",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "AMD's chip sales jumped 7 percent year-on-year to $402 million.\nSecond-quarter sales grew 7 percent, to $645 million from $600 million in 2002.",
+    "response": 2.2,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A man is playing the piano.\nA man is playing the trumpet.",
+    "response": 1.6,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Gilroy police and FBI agents described Gehring as cooperative, but said Saturday that he had revealed nothing about what had happened to the children.\nSaturday, officials in California described Gehring as cooperative \u2014 but said he has revealed nothing about what has happened to the children.",
+    "response": 3.8,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A young boy jumping in the air at the beach.\nA boy jumping in the air on the beach.",
+    "response": 4.8,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "In  it was a mental illness, now what are they teaching you?\nHe stated that it was a mental illness in , how is that bigotry?",
+    "response": 1.6,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "Red double decker bus driving through the streets.\nDouble decker passenger bus driving with traffic.",
+    "response": 4.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Tropical Storm Karen targets US Gulf Coast\nTropical Storm Karen weakens as it nears U.S. Gulf Coast",
+    "response": 2.6,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "the golden triangle region was 1 of the world's biggest producers of opium.\nhelmand province is the world's largest producer of opium.",
+    "response": 2.6,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "U.N. to take up Syria resolution\nUN Assembly to Vote on Syria Resolution",
+    "response": 3.6,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Pines said he would convene the relevant party bodies within 10 days to discuss whether new elections would be held or whether a temporary leader would be appointed.\nMitzna and party secretary Ophir Pines agreed to convene party organizations within 10 days to discuss whether new primaries would be held or a temporary leader appointed.",
+    "response": 3.6,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "Rate the similarity of the following two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "N Korea test-fires 30 short-range missiles\nN. Korea fires short-range missiles",
+    "response": 3.4,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Two men sit on the sidewalk in front of stores.\nA woman in a bathing suit walks a dog on the beach.",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "China's Peace Ark departs for the Philippines Thursday\nChina sends aid team to Philippines",
+    "response": 4.0,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "Thailand: Iranians planned to attack Israelis\nMalaysia to extradite Iranian for attack on Israelis",
+    "response": 1.0,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Explosions Near the Iranian Embassy in Beirut\nTwo blasts near Iranian embassy in Beirut",
+    "response": 4.2,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "Top Asian News at 2:30 p.m. GMT\nTop Asian News 1:25 p.m. GMT",
+    "response": 1.0,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Rate the textual similarity of these two sentences on a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\".",
+    "context": "A person breaks an egg into a small bowl.\nA man cracks an egg.",
+    "response": 2.6,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "The men are fighting each other.\nThe man drew on the white paper.",
+    "response": 0.4,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "A man is riding a horse.\nA woman is washing a freezer.",
+    "response": 0.0,
+    "category": "sentence_similarity",
+    "label": 0
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "Blast kills 11 in northwestern Pakistan\nBomb Kills 19 In Northwest Pakistan",
+    "response": 2.6,
+    "category": "sentence_similarity",
+    "label": 2
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "A yellow and blue airplane is flying in the sky.\nThe white airplane is flying in the blue sky.",
+    "response": 3.2,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "On a scale from 0-5, where 0 is \"not similar\" and 5 is \"very similar\", how similar are these two sentences?",
+    "context": "The blasts killed two people and injured more than 150 others.\nThe Atlanta Olympic Games attack killed one woman and injured more than 100 other people.",
+    "response": 1.8,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "How similar are the following two sentences? Give the answer on a scale from 0 - 5, where 0 is \"not similar at all\" and 5 is \"means the same thing\".",
+    "context": "A black dog running in the snow.\nA black dog running on a beach.",
+    "response": 1.8,
+    "category": "sentence_similarity",
+    "label": 1
+  },
+  {
+    "instruction": "Do the following sentences say the same thing? Return your answer on a scale from 0 to 5, where 0 is \"not similar\" and 5 is \"very similar\".",
+    "context": "Israel conducts airstrike on Syria\nIsrael launches new airstrike against Syria",
+    "response": 4.4,
+    "category": "sentence_similarity",
+    "label": 4
+  },
+  {
+    "instruction": "On a scale from 0 to 5, where 0 is \"no meaning overlap\" and 5 is \"means the same thing\", how closely does the first sentence resemble the second one?",
+    "context": "A dog is trying to get bacon off his back.\nA dog is trying to eat the bacon on its back.",
+    "response": 3.75,
+    "category": "sentence_similarity",
+    "label": 3
+  },
+  {
+    "instruction": "From 0 to 5 (0=\"no meaning overlap\" and 5=\"means the same thing\"), how similar are the two sentences?",
+    "context": "Perry has called lawmakers into two special sessions to address congressional redistricting.\nPerry has since called two special legislative sessions to try force the redistricting plan through.",
+    "response": 3.75,
+    "category": "sentence_similarity",
+    "label": 3
+  }
+]
