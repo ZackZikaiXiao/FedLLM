@@ -18,6 +18,7 @@ from peft import (
     LoraConfig,
     get_peft_model,
     get_peft_model_state_dict,
+    prepare_model_for_kbit_training,
     prepare_model_for_int8_training,
     set_peft_model_state_dict,
 )
@@ -95,7 +96,7 @@ class Evaluator():
                 torch_dtype=torch.float16,
                 device_map="auto",
             )
-            model = prepare_model_for_int8_training(model)
+            model = prepare_model_for_kbit_training(model)
             if args.be_trained:         # lora微调过
                 config = LoraConfig.from_pretrained(args.lora_config_path)
                 lora_weights = torch.load(args.lora_weights_path)
@@ -148,6 +149,14 @@ class Evaluator():
         with open(file_path, 'r', encoding='utf-8') as file:
             data = json.load(file)
         return data
+    
+    # def pearson_correlation(self, excel_file_path):
+    #     df = pd.read_excel(excel_file_path)
+    #     df['label'] = pd.to_numeric(df['label'], errors='coerce')
+    #     df['split_response'] = pd.to_numeric(df['split_response'], errors='coerce')
+
+    #     pearson_correlation = df['split_response'].corr(df['label'])
+    #     return pearson_correlation
 
 if __name__ == "__main__":
     args = parse_eval_args()

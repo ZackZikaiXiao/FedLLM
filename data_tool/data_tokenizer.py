@@ -8,7 +8,7 @@ class DataTokenizer:
         self.prompter = Prompter(args.prompt_template_name)
         
     def generate_and_tokenize_prompt(self, data_point):
-        GLUE_dataset = ['sst-2', 'rte', 'cola', 'wnli', 'sst-b', 'mnli', 'mrpc', 'qnli', 'qqp']
+        GLUE_dataset = ['sst-2', 'rte', 'cola', 'wnli', 'sts-b', 'mnli', 'mrpc', 'qnli', 'qqp']
         if self.dataset == "new-databricks-dolly-15k":
             return self._generate_and_tokenize_prompt_new_databricks_dolly_15k(data_point)
         elif self.dataset in GLUE_dataset:
