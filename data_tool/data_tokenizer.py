@@ -55,6 +55,7 @@ class DataTokenizer:
             return_tensors=None,
         )
         if (
+                # make sure the last id is eos id, otherwise, model doesn't know when to stop
                 result["input_ids"][-1] != self.tokenizer.eos_token_id
                 and len(result["input_ids"]) < self.args.cutoff_len
                 and add_eos_token

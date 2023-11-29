@@ -3,13 +3,18 @@ from parse import parse_train_args
 from typing import List
 from tqdm import tqdm
 import torch
+from parse import parse_eval_args
+from evaluate import write_to_file, Evaluator
 from transformers import LlamaTokenizer, LlamaForCausalLM
 from peft import (
     LoraConfig,
     get_peft_model,
     prepare_model_for_int8_training,
     prepare_model_for_kbit_training,
+    set_peft_model_state_dict,
 )
+import time
+import datetime
 from fed_utils import FedAvg, client_selection, global_evaluation, GenerateClient
 from data_tool.data_partition import DataPartition
 from data_tool.data_tokenizer import DataTokenizer
@@ -48,10 +53,9 @@ def main(args):
         device_map=device_map,
     )
 
-    tokenizer = LlamaTokenizer.from_pretrained(args.global_model)
-    tokenizer.pad_token_id = (
-        0
-    )
+    tokenizer = LlamaTokenizer.from_pretrained(args.global_model, use_fast=False)
+    # 但是这里0 decode出来是<unk>
+    tokenizer.pad_token_id = (0)
     tokenizer.padding_side = "left"
 
     
@@ -71,19 +75,29 @@ def main(args):
     if not ddp and torch.cuda.device_count() > 1:
         model.is_parallelizable = True
         model.model_parallel = True
+    model.print_trainable_parameters()
+    # if you want to resume training from checkpoint
+    # set these parameters
+    training_from_checkpoint=False
+    if(training_from_checkpoint):
+        parameter_path = './lora-shepherd-7b/cola iid 0.1 10/4/adapter_model.bin'
+        lora_weights = torch.load(parameter_path)
+        set_peft_model_state_dict(model, lora_weights,"default")
+        
 
     print("The process of federated instruction-tuning has started..")
     previously_selected_clients_set = set()
     last_client_id = None
     local_dataset_len_dict = dict()
     output_dir = os.path.join(args.output_dir, args.dataset +" "+ args.partition_method + " "  + str(args.dirichlet_alpha) + " " + str(args.num_clients))
-
+    training_start_time = time.time()
     for epoch in tqdm(range(args.num_communication_rounds)):
 
         print("\nConducting the client selection")
         selected_clients_set = client_selection(args.num_clients, args.client_selection_frac, args.client_selection_strategy,
                                                 other_info=epoch)
-
+        # lr可以在每个num_communication之后减小
+        # 在iid的设置下可能效果会更好
         for client_id in selected_clients_set:
             client = GenerateClient(args, client_id, model, output_dir)
 
@@ -122,6 +136,56 @@ def main(args):
 
         # Please design the evaluation method based on your specific requirements in the fed_utils/evaluation.py file.
         global_evaluation()
+    training_over_time = time.time()
+    training_time = int(round((training_over_time - training_start_time)))
+    print("Total training time: " + str(datetime.timedelta(seconds = training_time)))
+
+
+
+
+
+
+    # testing phase
+    testset_path = {
+    "sst-2": "./data_download/GLUE/sst-2/SST-2/SST-2_test.json",
+    "rte": "./data_download/GLUE/rte/RTE/RTE_test.json",
+    "qnli": "./data_download/GLUE/qnli/QNLI/QNLI_test.json",
+    "cola": "./data_download/GLUE/cola/CoLA/CoLA_test.json",
+    "mnli": "./data_download/GLUE/mnli/MNLI/MNLI_test.json",
+    "mrpc": "./data_download/GLUE/mrpc/MRPC/MRPC_test.json",
+    "qqp": "./data_download/GLUE/qqp/QQP/QQP_test.json",
+    "sts-b": "./data_download/GLUE/sts-b/STS-B/STS-B_test.json",
+    "wnli": "./data_download/GLUE/wnli/WNLI/WNLI_test.json",
+    }
+    args = parse_eval_args()
+    auto_testing = True
+    if auto_testing:
+        num_communication_rounds = 20
+        for index in range(num_communication_rounds):
+            args.lora_weights_path = os.path.join(args.lora_config_path, str(index), "adapter_model.bin")
+            evaluator = Evaluator(args)
+            evaluator.model_init()
+            all = 0
+            correct = 0
+            testset = evaluator.load_json_data(testset_path[args.dataset])
+            from data_download.GLUE.instructions import INSTRUCTIONS
+            if args.dataset == "sts-b":
+                pass
+            else:
+                for item in tqdm(testset, desc="Evaluating"):
+                    # print(f"Instruction: {item['instruction']}")
+                    # print(f"Context: {item['context']}")
+                    # print(f"Response: {item['response']}")
+                    # print(f"Category: {item['category']}\n")
+                    response = evaluator.run(instruction=item['instruction'], input=item['context'])
+                    if response.lower() == item['response'].lower():
+                        correct += 1
+                    all += 1
+                    acc = correct / all
+                    print(f"Accuracy of the {args.dataset} dataset: {acc:.4f} (Correct: {correct}, Total: {all})")
+            
+                write_to_file(index, acc)
+
 
 
 if __name__ == "__main__":
