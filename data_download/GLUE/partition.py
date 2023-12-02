@@ -20,12 +20,55 @@ def partition(data_path, num_clients, dirichlet_alpha, partition_method="dirichl
         unique_label_list = np.array(df['response'].unique())
         num_unique_labels = len(df['response'].unique())
     
+    if partition_method == "dirichlet_label_uni":
+        p = 1
+        num_classes = num_unique_labels
+        # Phi = 10 * 2
+        Phi = np.random.binomial(1, p, size=(num_clients, num_classes))  # indicate the classes chosen by each client
+        n_classes_per_client = np.sum(Phi, axis=1)
+        while np.min(n_classes_per_client) == 0:
+            invalid_idx = np.where(n_classes_per_client == 0)[0]
+            Phi[invalid_idx] = np.random.binomial(1, p, size=(len(invalid_idx), num_classes))
+            n_classes_per_client = np.sum(Phi, axis=1)
+        #     Psi = 10 * 2
+        Psi = [list(np.where(Phi[:, j] == 1)[0]) for j in range(num_classes)]  # indicate the clients that choose each class
+        num_clients_per_class = np.array([len(x) for x in Psi])
+        if "sts-b" in data_path:
+            y_train = np.array(df['label']) 
+        else:
+            y_train = np.array(df['response'])
+        dict_users = {}
+        for class_i, class_name in enumerate(unique_label_list):
+            # all index of the class_i
+            all_idxs = np.where(y_train == class_name)[0]
+            p_dirichlet = np.random.dirichlet([dirichlet_alpha] * num_clients_per_class[class_i])
+            # produce a list, each element of the list indicates which client it belongs
+            assignment = np.random.choice(Psi[class_i], size=len(all_idxs), p=p_dirichlet.tolist())
 
-    if partition_method == "dirichlet_label":
-        # df = pd.read_json(data_path, orient='records')
-        # dataset_len = len(df)
-        # num_unique_labels = len(df['response'].unique())
-        # unique_label_list = np.array(df['response'].unique())
+            # for all the clients who have the training sample of class_i
+            for client_k in Psi[class_i]:
+                if client_k in dict_users:
+                    # union set
+                    dict_users[client_k] = set(dict_users[client_k] | set(all_idxs[(assignment == client_k)]))
+                else:
+                    dict_users[client_k] = set(all_idxs[(assignment == client_k)])
+        print(dict_users)
+        os.makedirs(data_path2, exist_ok=True)
+        num_for_each_client = []
+        for client_id in range(num_clients):
+            print(
+                "\n Generating the local training dataset of Client_{}".format(client_id)
+            )
+            sub_df = df.loc[list(dict_users[client_id])]
+            sub_df = sub_df.reset_index().drop('index', axis=1)
+            num_for_each_label = generate_num_for_each_label_per_client(data_path, sub_df, unique_label_list)
+            num_for_each_client.append(num_for_each_label)   
+            sub_remaining_df_dic = sub_df.to_dict(orient='records')
+            with open(os.path.join(data_path2, "local_training_{}.json".format(client_id)), 'w') as outfile:
+                json.dump(sub_remaining_df_dic, outfile, indent=2)
+        visualize(num_for_each_client, num_clients, data_path2, dirichlet_alpha, unique_label_list, partition_method)
+    
+    elif partition_method == "dirichlet_label":
         if "sts-b" in data_path:
             all_label_list = np.array(df['label'])
         else:
@@ -73,8 +116,8 @@ def partition(data_path, num_clients, dirichlet_alpha, partition_method="dirichl
             sub_remaining_df_dic = sub_df.to_dict(orient='records')
             with open(os.path.join(data_path2, "local_training_{}.json".format(client_id)), 'w') as outfile:
                 json.dump(sub_remaining_df_dic, outfile, indent=2)
-        visualize(num_for_each_client, num_clients, data_path2, dirichlet_alpha, unique_label_list)
-        
+        visualize(num_for_each_client, num_clients, data_path2, dirichlet_alpha, unique_label_list, partition_method)
+    
     elif partition_method == "dirichlet_quantity":
         # df = pd.read_json(data_path, orient='records')
         # dataset_len = len(df)
@@ -98,7 +141,7 @@ def partition(data_path, num_clients, dirichlet_alpha, partition_method="dirichl
             with open(os.path.join(data_path2, "local_training_{}.json".format(client_id)), 'w') as outfile:
                 json.dump(sub_remaining_df_dic, outfile, indent=2)
 
-        visualize(num_for_each_client, num_clients, data_path2, dirichlet_alpha, unique_label_list)
+        visualize(num_for_each_client, num_clients, data_path2, dirichlet_alpha, unique_label_list, partition_method)
     
     elif partition_method == 'iid':
         # df = pd.read_json(data_path, orient='records')
@@ -123,9 +166,9 @@ def partition(data_path, num_clients, dirichlet_alpha, partition_method="dirichl
             with open(os.path.join(data_path2, "local_training_{}.json".format(client_id)), 'w') as outfile:
                 json.dump(sub_remaining_df_dic, outfile, indent=2)
 
-        visualize(num_for_each_client, num_clients, data_path2, dirichlet_alpha, unique_label_list)
+        visualize(num_for_each_client, num_clients, data_path2, dirichlet_alpha, unique_label_list, partition_method)
 
-def visualize(num_for_each_client, num_clients, data_path2, dirichlet_alpha, unique_label_list):
+def visualize(num_for_each_client, num_clients, data_path2, dirichlet_alpha, unique_label_list, partition_method):
     # Transpose operation
     num_for_each_label_each_client = list(map(list, zip(*num_for_each_client)))
     x = np.arange(num_clients)
@@ -148,7 +191,12 @@ def visualize(num_for_each_client, num_clients, data_path2, dirichlet_alpha, uni
     plt.gca().xaxis.set_major_locator(MaxNLocator(integer=True))
     plt.xlabel("Client", fontsize=12)
     plt.ylabel("Total sample number", fontsize=12)
-    plt.title("dirichlet quantity, alpha = " + str(dirichlet_alpha))
+    if partition_method == 'dirichlet_quantity':
+        plt.title("dirichlet quantity, alpha = " + str(dirichlet_alpha))
+    elif partition_method == 'dirichlet_label':
+        plt.title("dirichlet label, alpha = " + str(dirichlet_alpha))
+    elif partition_method == 'iid':
+        plt.title("iid")
     plt.legend()
     plt.savefig(os.path.join(data_path2, "disrtibution.png"))
 

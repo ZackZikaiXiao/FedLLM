@@ -11,14 +11,14 @@ from tqdm import tqdm
 from datasets import load_dataset
 from data_tool.data_tokenizer import DataTokenizer
 from torch.utils.data import DataLoader
-
+from model_utils.get_model import get_alpaca_model_and_tokenizer, get_llama27b_model_and_tokenizer
 # offline
 os.environ['HF_DATASETS_OFFLINE'] = '1'
 os.environ['TRANSFORMERS_OFFLINE'] = '1'
-
 from peft import (
     PeftModel,
     LoraConfig,
+    PrefixTuningConfig,
     get_peft_model,
     get_peft_model_state_dict,
     prepare_model_for_kbit_training,
@@ -58,90 +58,44 @@ class Evaluator():
 
         self.prompter = Prompter(args.prompt_template_name)
         # set legacy=True means use the previous version, to fix the user warning
-        self.tokenizer = LlamaTokenizer.from_pretrained(base_model, legacy=True, padding_side='left')
-        if not args.lora_weights_path.endswith(".bin"):
-            if device == "cuda":
-                model = LlamaForCausalLM.from_pretrained(
-                    base_model,
-                    load_in_8bit=args.load_8bit,
-                    torch_dtype=torch.float16,
-                    device_map="auto",
-                )
-                model = PeftModel.from_pretrained(
-                    model,
-                    args.lora_weights_path,
-                    torch_dtype=torch.float16,
-                )
-            elif device == "mps":
-                model = LlamaForCausalLM.from_pretrained(
-                    base_model,
-                    device_map={"": device},
-                    torch_dtype=torch.float16,
-                )
-                model = PeftModel.from_pretrained(
-                    model,
-                    args.lora_weights_path,
-                    device_map={"": device},
-                    torch_dtype=torch.float16,
-                )
-            else:
-                model = LlamaForCausalLM.from_pretrained(
-                    base_model, device_map={"": device}, low_cpu_mem_usage=True
-                )
-                model = PeftModel.from_pretrained(
-                    model,
-                    args.lora_weights_path,
-                    device_map={"": device},
-                )
-        else:
-            model = LlamaForCausalLM.from_pretrained(
-                base_model,
-                load_in_8bit=True,
-                torch_dtype=torch.float16,
-                device_map="auto",
-            )
-            model = prepare_model_for_kbit_training(model)
-            if args.be_trained:         # lora微调过
-                # print(args.lora_config_path)
-                config = LoraConfig.from_pretrained(args.lora_config_path)
-                lora_weights = torch.load(args.lora_weights_path)
-                model = PeftModel(model, config)
-                set_peft_model_state_dict(model, lora_weights,"default")
-                del lora_weights
-
-        # unwind broken decapoda-research config
-        model.config.pad_token_id = self.tokenizer.pad_token_id = 0  # unk
-        model.config.bos_token_id = 1
-        model.config.eos_token_id = 2
-
+        if args.model == 'alpaca':
+            model, self.tokenizer = get_alpaca_model_and_tokenizer(base_model, 'auto')
+        elif args.model == 'Llama2-7B':
+            model, self.tokenizer = get_llama27b_model_and_tokenizer(base_model, 'auto')
+        model = prepare_model_for_kbit_training(model)
+        if args.be_trained:         # lora微调过
+            # print(args.lora_config_path)
+            if args.peft_method == 'lora':
+                config = LoraConfig.from_pretrained(args.peft_config_path)
+            elif args.peft_method == 'prefix_tuning':
+                config = PrefixTuningConfig.from_pretrained(args.peft_config_path)
+            peft_weights = torch.load(args.peft_weights_path)
+            model = PeftModel(model, config)
+            set_peft_model_state_dict(model, peft_weights, "default")
+            del peft_weights
         model.eval()
         self.model = model
 
-    def reset_lora_adapter(self, lora_config_path):
-        lora_weights = torch.load(lora_config_path)
-        set_peft_model_state_dict(self.model, lora_weights,"default")
-        self.model.config.pad_token_id = self.tokenizer.pad_token_id = 0  # unk
-        self.model.config.bos_token_id = 1
-        self.model.config.eos_token_id = 2
+    def reset_peft_adapter(self, peft_config_path):
+        peft_weights = torch.load(peft_config_path)
+        set_peft_model_state_dict(self.model, peft_weights,"default")
         self.model.eval()
-        del lora_weights
+        del peft_weights
 
     def batch_run(self, batch_input):
         tokenized_inputs = self.tokenizer(batch_input['full_prompt'], padding='longest', return_tensors="pt")
-        # tokenized_inputs = tokenized_inputs.to(device)
         tokenized_inputs = tokenized_inputs.to(device)
         generation_config = GenerationConfig(
             max_new_tokens=10,
         )
         with torch.no_grad():
             generation_output = self.model.generate(
-                # 如果我们只需要一个输出结果，这些注释掉的设置不需要
                 **tokenized_inputs,
                 generation_config = generation_config,
             )
         response = self.tokenizer.batch_decode(generation_output, skip_special_tokens=True)
         list_of_response = [self.prompter.get_response(res) for res in response]
-        # print(list_of_response)
+        print(list_of_response)
         return(list_of_response)
 
     def run(self, instruction, input=None, temperature=0.1, top_p=0.75, top_k=40, num_beams=4, max_new_tokens=128, **kwargs):
@@ -161,12 +115,6 @@ class Evaluator():
                 # 如果我们只需要一个输出结果，这些注释掉的设置不需要
                 input_ids = input_ids,
                 generation_config = generation_config,
-                # do_sample=True,
-                # temperature=temperature,
-                # top_p=top_p,
-                # top_k=top_k,
-                # num_beams=num_beams,
-                # max_new_tokens=10,
             )
         # output = generation_output.sequences[0]
         output = generation_output[0]
@@ -214,7 +162,7 @@ if __name__ == "__main__":
     if auto_testing and not batch_running:
         num_communication_rounds = 5
         for index in range(num_communication_rounds):
-            args.lora_weights_path = os.path.join(args.lora_config_path, str(index), "adapter_model.bin")
+            args.peft_weights_path = os.path.join(args.peft_config_path, str(index), "adapter_model.bin")
             evaluator = Evaluator(args)
             evaluator.model_init()
             all = 0
@@ -225,10 +173,6 @@ if __name__ == "__main__":
                 pass
             else:
                 for item in tqdm(testset, desc="Evaluating"):
-                    # print(f"Instruction: {item['instruction']}")
-                    # print(f"Context: {item['context']}")
-                    # print(f"Response: {item['response']}")
-                    # print(f"Category: {item['category']}\n")
                     response = evaluator.run(instruction=item['instruction'], input=item['context'])
                     if response.lower() == item['response'].lower():
                         correct += 1
@@ -240,7 +184,7 @@ if __name__ == "__main__":
 
 
     elif auto_testing and batch_running:
-        num_communication_rounds = 20
+        num_communication_rounds = 3
         evaluator = Evaluator(args)
         evaluator.model_init()
         testset = load_dataset("json", data_files=testset_path[args.dataset])
@@ -254,9 +198,10 @@ if __name__ == "__main__":
             # args.lora_weights_path = os.path.join(args.lora_config_path, str(index), "adapter_model.bin")
             # evaluator = Evaluator(args)
             # evaluator.model_init()
-            lora_weights_path = os.path.join(args.lora_config_path, str(index), "adapter_model.bin")
-            # lora_weights_path = os.path.join(args.lora_config_path, str(17), "local_output_7", "pytorch_model.bin")
-            evaluator.reset_lora_adapter(lora_weights_path)
+            
+            # peft_weights_path = os.path.join(args.peft_config_path, str(0), "local_output_2", "pytorch_model.bin")
+            peft_weights_path = os.path.join(args.peft_config_path, str(index), "adapter_model.bin")
+            evaluator.reset_peft_adapter(peft_weights_path)
             all = 0
             correct = 0
             for batch in tqdm(dataloader, desc="Evaluating"):

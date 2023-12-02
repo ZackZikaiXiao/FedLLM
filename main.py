@@ -3,26 +3,28 @@ from parse import parse_train_args
 from typing import List
 from tqdm import tqdm
 import torch
+from torch.utils.data import DataLoader
+from datasets import load_dataset
 from parse import parse_eval_args
 from evaluate import write_to_file, Evaluator
-from transformers import LlamaTokenizer, LlamaForCausalLM
 from peft import (
-    LoraConfig,
-    get_peft_model,
-    prepare_model_for_int8_training,
     prepare_model_for_kbit_training,
     set_peft_model_state_dict,
+    get_peft_model_state_dict,
 )
+from model_utils.get_peft_model import get_lora_peft_model, get_prefix_tuning_peft_model
 import time
 import datetime
 from fed_utils import FedAvg, client_selection, global_evaluation, GenerateClient
 from data_tool.data_partition import DataPartition
 from data_tool.data_tokenizer import DataTokenizer
-
+from model_utils.get_model import get_alpaca_model_and_tokenizer, get_llama27b_model_and_tokenizer
 # offline
 os.environ['HF_DATASETS_OFFLINE'] = '1'
 os.environ['TRANSFORMERS_OFFLINE'] = '1'
 
+def global_lr_scheduler(lr):
+    return lr/2
 
 def main(args):
 
@@ -45,51 +47,41 @@ def main(args):
     if ddp:
         device_map = {"": int(os.environ.get("LOCAL_RANK") or 0)}
         gradient_accumulation_steps = gradient_accumulation_steps // world_size
-
-    model = LlamaForCausalLM.from_pretrained(
-        args.global_model,
-        load_in_8bit=True,     # True
-        torch_dtype=torch.float16,
-        device_map=device_map,
-    )
-
-    tokenizer = LlamaTokenizer.from_pretrained(args.global_model, use_fast=False)
-    # 但是这里0 decode出来是<unk>
-    tokenizer.pad_token_id = (0)
-    tokenizer.padding_side = "left"
-
+    if args.model == 'alpaca':
+        model, tokenizer = get_alpaca_model_and_tokenizer(global_model=args.global_model, device_map=device_map)
+    elif args.model == 'Llama2-7B':
+        model, tokenizer = get_llama27b_model_and_tokenizer(global_model=args.global_model, device_map=device_map)
+    model = prepare_model_for_kbit_training(model)
     
     data_tokenizer = DataTokenizer(args, tokenizer)
-
-    model = prepare_model_for_kbit_training(model)
-    # model = prepare_model_for_int8_training(model)
-    config = LoraConfig(
-        r=args.lora_r,
-        lora_alpha=args.lora_alpha,
-        target_modules=args.lora_target_modules,
-        lora_dropout=args.lora_dropout,
-        bias="none",
-        task_type="CAUSAL_LM",
-    )
-    model = get_peft_model(model, config)
+    
+    if args.peft_method == 'lora':
+        model, config = get_lora_peft_model(args, model)
+    elif args.peft_method == 'prefix_tuning':
+        model, config = get_prefix_tuning_peft_model(args, model)
+    model.print_trainable_parameters()
     if not ddp and torch.cuda.device_count() > 1:
         model.is_parallelizable = True
         model.model_parallel = True
-    model.print_trainable_parameters()
+    
     # if you want to resume training from checkpoint
     # set these parameters
     training_from_checkpoint=False
     if(training_from_checkpoint):
         parameter_path = './lora-shepherd-7b/cola iid 0.1 10/4/adapter_model.bin'
-        lora_weights = torch.load(parameter_path)
-        set_peft_model_state_dict(model, lora_weights,"default")
+        peft_weights = torch.load(parameter_path)
+        set_peft_model_state_dict(model, peft_weights,"default")
         
 
     print("The process of federated instruction-tuning has started..")
     previously_selected_clients_set = set()
     last_client_id = None
     local_dataset_len_dict = dict()
-    output_dir = os.path.join(args.output_dir, args.dataset +" "+ args.partition_method + " "  + str(args.dirichlet_alpha) + " " + str(args.num_clients))
+    if args.partition_method == 'iid':
+        output_dir = os.path.join(args.output_dir, args.dataset +" "+ args.partition_method + " " + str(args.num_clients))
+    else:
+        output_dir = os.path.join(args.output_dir, args.dataset +" "+ args.partition_method + " "  + str(args.dirichlet_alpha) + " " + str(args.num_clients))
+    
     training_start_time = time.time()
     for epoch in tqdm(range(args.num_communication_rounds)):
 
@@ -98,6 +90,7 @@ def main(args):
                                                 other_info=epoch)
         # lr可以在每个num_communication之后减小
         # 在iid的设置下可能效果会更好
+        args.local_learning_rate = global_lr_scheduler(args.local_learning_rate)
         for client_id in selected_clients_set:
             client = GenerateClient(args, client_id, model, output_dir)
 
@@ -131,7 +124,7 @@ def main(args):
                        epoch,
                        )
         # 修改了一下模型保存地址
-        torch.save(model.state_dict(), os.path.join(output_dir, str(epoch), "adapter_model.bin"))
+        torch.save(get_peft_model_state_dict(model), os.path.join(output_dir, str(epoch), "adapter_model.bin"))
         config.save_pretrained(output_dir)
 
         # Please design the evaluation method based on your specific requirements in the fed_utils/evaluation.py file.
@@ -157,34 +150,33 @@ def main(args):
     "sts-b": "./data_download/GLUE/sts-b/STS-B/STS-B_test.json",
     "wnli": "./data_download/GLUE/wnli/WNLI/WNLI_test.json",
     }
-    args = parse_eval_args()
+    args2 = parse_eval_args()
     auto_testing = True
     if auto_testing:
-        num_communication_rounds = 20
+        num_communication_rounds = args.num_communication_rounds
+        evaluator = Evaluator(args2)
+        evaluator.model_init()
+        testset = load_dataset("json", data_files=testset_path[args2.dataset])
+        data_tokenizer = DataTokenizer(args2, evaluator.tokenizer)
+        cols = ['instruction', 'response', 'context', 'category']
+        cleared_testset = testset["train"].shuffle().map(evaluator.generate_prompt, remove_columns=cols)
+        cleared_testset.set_format(type="torch", columns=["full_prompt", "label"])
+        dataloader = DataLoader(cleared_testset, batch_size=64, drop_last=False)
+        
         for index in range(num_communication_rounds):
-            args.lora_weights_path = os.path.join(args.lora_config_path, str(index), "adapter_model.bin")
-            evaluator = Evaluator(args)
-            evaluator.model_init()
+            peft_weights_path = os.path.join(args2.peft_config_path, str(index), "adapter_model.bin")
+            evaluator.reset_peft_adapter(peft_weights_path)
             all = 0
             correct = 0
-            testset = evaluator.load_json_data(testset_path[args.dataset])
-            from data_download.GLUE.instructions import INSTRUCTIONS
-            if args.dataset == "sts-b":
-                pass
-            else:
-                for item in tqdm(testset, desc="Evaluating"):
-                    # print(f"Instruction: {item['instruction']}")
-                    # print(f"Context: {item['context']}")
-                    # print(f"Response: {item['response']}")
-                    # print(f"Category: {item['category']}\n")
-                    response = evaluator.run(instruction=item['instruction'], input=item['context'])
-                    if response.lower() == item['response'].lower():
+            for batch in tqdm(dataloader, desc="Evaluating"):
+                list_of_response = evaluator.batch_run(batch)
+                for pred, label in zip(list_of_response, batch['label']):
+                    if (pred.lower() == label.lower()):
                         correct += 1
-                    all += 1
-                    acc = correct / all
-                    print(f"Accuracy of the {args.dataset} dataset: {acc:.4f} (Correct: {correct}, Total: {all})")
-            
-                write_to_file(index, acc)
+                all += len(batch['label'])
+                acc = correct / all
+                print(f"Accuracy of the {args2.dataset} dataset: {acc:.4f} (Correct: {correct}, Total: {all})")
+            write_to_file(index, acc)
 
 
 

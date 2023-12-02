@@ -87,16 +87,19 @@ class GenerateClient:
 
     def initiate_local_training(self):
         self.model.config.use_cache = False
-        self.params_dict_old = copy.deepcopy(
-            OrderedDict((name, param.detach()) for name, param in self.model.named_parameters() if
-                        "default" in name))
-        self.params_dict_new = OrderedDict((name, param.detach()) for name, param in self.model.named_parameters() if
-                                           "default" in name)
-        self.model.state_dict = (
-            lambda instance, *_, **__: get_peft_model_state_dict(
-                instance, self.params_dict_new, "default"
-            )
-        ).__get__(self.model, type(self.model))
+        # prams_dict_old相当于get_peft_model_state_dict
+        self.params_dict_old = copy.deepcopy(get_peft_model_state_dict(self.model))
+
+        # self.params_dict_old = copy.deepcopy(
+        #     OrderedDict((name, param.detach()) for name, param in self.model.named_parameters() if
+        #                 "default" in name))
+        # self.params_dict_new = OrderedDict((name, param.detach()) for name, param in self.model.named_parameters() if
+        #                                    "default" in name)
+        # self.model.state_dict = (
+        #     lambda instance, *_, **__: get_peft_model_state_dict(
+        #         instance, self.params_dict_new, "default"
+        #     )
+        # ).__get__(self.model, type(self.model))
 
     def train(self):
         self.local_trainer.train()
@@ -104,13 +107,14 @@ class GenerateClient:
     def terminate_local_training(self, epoch, local_dataset_len_dict, previously_selected_clients_set):
 
         local_dataset_len_dict[self.client_id] = len(self.local_train_dataset)
-        new_adapter_weight = self.model.state_dict()
+        new_adapter_weight = get_peft_model_state_dict(self.model)
+        # new_adapter_weight = self.model.state_dict()
         single_output_dir = os.path.join(self.output_dir, str(epoch), "local_output_{}".format(self.client_id))
         os.makedirs(single_output_dir, exist_ok=True)
         torch.save(new_adapter_weight, single_output_dir + "/pytorch_model.bin")
 
-        older_adapter_weight = get_peft_model_state_dict(self.model, self.params_dict_old, "default")
-        set_peft_model_state_dict(self.model, older_adapter_weight, "default")
+        # older_adapter_weight = get_peft_model_state_dict(self.model, self.params_dict_old, "default")
+        set_peft_model_state_dict(self.model, self.params_dict_old, "default")
         previously_selected_clients_set = previously_selected_clients_set | set({self.client_id})
         last_client_id = self.client_id
 
