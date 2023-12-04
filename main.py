@@ -3,10 +3,6 @@ from parse import parse_train_args
 from typing import List
 from tqdm import tqdm
 import torch
-from torch.utils.data import DataLoader
-from datasets import load_dataset
-from parse import parse_eval_args
-from evaluate import write_to_file, Evaluator
 from peft import (
     prepare_model_for_kbit_training,
     set_peft_model_state_dict,
@@ -25,10 +21,9 @@ os.environ['HF_DATASETS_OFFLINE'] = '1'
 os.environ['TRANSFORMERS_OFFLINE'] = '1'
 
 def global_lr_scheduler(lr, epoch):
-    if epoch == 0:
-        return lr
-    else:
-        return lr/2
+    # 
+    lr = lr /(2 ** epoch)
+    return lr
 
 def main(args):
 
@@ -37,7 +32,6 @@ def main(args):
         for arg in vars(args):
             print(f"{arg}: {getattr(args, arg)}")
     assert args.global_model, "Please specify a --global_model, e.g. --global_model='decapoda-research/llama-7b-hf'"
-    data_path = os.path.join(args.data_path, str(args.num_clients))
     assert os.path.exists(args.data_path), "Please generate the data files for each client"
 
     # set up the global model & toknizer
@@ -69,11 +63,13 @@ def main(args):
     
     # if you want to resume training from checkpoint
     # set these parameters
+    start_epoch = 0
     training_from_checkpoint=False
     if(training_from_checkpoint):
-        parameter_path = './lora-shepherd-7b/cola iid 0.1 10/4/adapter_model.bin'
+        parameter_path = 'lora-shepherd-7b/cola dirichlet_label_uni 1 10/16/adapter_model.bin'
         peft_weights = torch.load(parameter_path)
         set_peft_model_state_dict(model, peft_weights,"default")
+        start_epoch = 17
         
 
     print("The process of federated instruction-tuning has started..")
@@ -83,13 +79,13 @@ def main(args):
     output_dir = args.output_dir
     
     training_start_time = time.time()
-    for epoch in tqdm(range(args.num_communication_rounds)):
+    for epoch in tqdm(range(start_epoch, args.num_communication_rounds)):
 
         print("\nConducting the client selection")
         selected_clients_set = client_selection(args.num_clients, args.client_selection_frac, args.client_selection_strategy,
                                                 other_info=epoch)
-        args.local_learning_rate = global_lr_scheduler(args.local_learning_rate, epoch)
-        print("learning rate of current communication: " + str(args.local_learning_rate))
+        local_learning_rate = global_lr_scheduler(args.local_learning_rate, epoch)
+        print("learning rate of current communication: " + str(local_learning_rate))
         for client_id in selected_clients_set:
             client = GenerateClient(args, client_id, model, output_dir)
 
@@ -100,7 +96,7 @@ def main(args):
                                        args.local_micro_batch_size,
                                        gradient_accumulation_steps,
                                        args.local_num_epochs,
-                                       args.local_learning_rate,
+                                       local_learning_rate,
                                        args.group_by_length,
                                        ddp)
 
@@ -133,55 +129,9 @@ def main(args):
     print("Total training time: " + str(datetime.timedelta(seconds = training_time)))
 
 
-
-
-
-
-    # testing phase
-    # testset_path = {
-    # "sst-2": "./data_download/GLUE/sst-2/SST-2/SST-2_test.json",
-    # "rte": "./data_download/GLUE/rte/RTE/RTE_test.json",
-    # "qnli": "./data_download/GLUE/qnli/QNLI/QNLI_test.json",
-    # "cola": "./data_download/GLUE/cola/CoLA/CoLA_test.json",
-    # "mnli": "./data_download/GLUE/mnli/MNLI/MNLI_test.json",
-    # "mrpc": "./data_download/GLUE/mrpc/MRPC/MRPC_test.json",
-    # "qqp": "./data_download/GLUE/qqp/QQP/QQP_test.json",
-    # "sts-b": "./data_download/GLUE/sts-b/STS-B/STS-B_test.json",
-    # "wnli": "./data_download/GLUE/wnli/WNLI/WNLI_test.json",
-    # }
-    # args2 = parse_eval_args()
-    # auto_testing = True
-    # if auto_testing:
-    #     num_communication_rounds = args.num_communication_rounds
-    #     evaluator = Evaluator(args2)
-    #     evaluator.model_init()
-    #     testset = load_dataset("json", data_files=testset_path[args2.dataset])
-    #     data_tokenizer = DataTokenizer(args2, evaluator.tokenizer)
-    #     cols = ['instruction', 'response', 'context', 'category']
-    #     cleared_testset = testset["train"].shuffle().map(evaluator.generate_prompt, remove_columns=cols)
-    #     cleared_testset.set_format(type="torch", columns=["full_prompt", "label"])
-    #     dataloader = DataLoader(cleared_testset, batch_size=64, drop_last=False)
-        
-    #     for index in range(num_communication_rounds):
-    #         peft_weights_path = os.path.join(args2.peft_config_path, str(index), "adapter_model.bin")
-    #         evaluator.reset_peft_adapter(peft_weights_path)
-    #         all = 0
-    #         correct = 0
-    #         for batch in tqdm(dataloader, desc="Evaluating"):
-    #             list_of_response = evaluator.batch_run(batch)
-    #             for pred, label in zip(list_of_response, batch['label']):
-    #                 if (pred.lower() == label.lower()):
-    #                     correct += 1
-    #             all += len(batch['label'])
-    #             acc = correct / all
-    #             print(f"Accuracy of the {args2.dataset} dataset: {acc:.4f} (Correct: {correct}, Total: {all})")
-    #         write_to_file(index, acc)
-
-
-
 if __name__ == "__main__":
     args = parse_train_args()
     # data_partition = DataPartition(args)
-    # data_partition.partition()      # 生成
+    # data_partition.partition()      
     # main(args)
-    batch_evaluate(args.num_communication_rounds, args)
+    batch_evaluate(args.num_communication_rounds, args, metrics='accuracy, mcc')

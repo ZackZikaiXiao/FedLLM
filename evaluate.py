@@ -1,18 +1,16 @@
 import os
-
-import fire
 import gradio as gr
 import torch
-import transformers
 from parse import parse_eval_args
 import random
 import json
 import pandas as pd
 from tqdm import tqdm
 from datasets import load_dataset
-from data_tool.data_tokenizer import DataTokenizer
 from torch.utils.data import DataLoader
 from model_utils.get_model import get_alpaca_model_and_tokenizer, get_llama27b_model_and_tokenizer
+from sklearn.metrics import matthews_corrcoef, f1_score
+from scipy.stats import pearsonr
 # offline
 os.environ['HF_DATASETS_OFFLINE'] = '1'
 os.environ['TRANSFORMERS_OFFLINE'] = '1'
@@ -20,10 +18,7 @@ from peft import (
     PeftModel,
     LoraConfig,
     PrefixTuningConfig,
-    get_peft_model,
-    get_peft_model_state_dict,
     prepare_model_for_kbit_training,
-    prepare_model_for_int8_training,
     set_peft_model_state_dict,
 )
 
@@ -178,7 +173,7 @@ def write_to_file(index, result):
     with open("evaluate_result", 'a') as f:
         f.write(str(index) + " " + str(result) + '\n')
 
-def batch_evaluate(num_communication_rounds, args_passed=None):
+def batch_evaluate(num_communication_rounds, args_passed=None, metrics='accuracy', positive_label=None):
     args = parse_eval_args()
     if args_passed:
         args.model = args_passed.model
@@ -194,12 +189,14 @@ def batch_evaluate(num_communication_rounds, args_passed=None):
     cleared_testset = testset["train"].shuffle().map(evaluator.generate_prompt, remove_columns=cols)
     cleared_testset.set_format(type="torch", columns=["full_prompt", "label"])
     dataloader = DataLoader(cleared_testset, batch_size=64, drop_last=False)
-    
+
     for index in range(num_communication_rounds):
         peft_weights_path = os.path.join(args.peft_config_path, str(index), "adapter_model.bin")
         evaluator.reset_peft_adapter(peft_weights_path)
         all = 0
         correct = 0
+        list_of_response2 = []
+        labels = []
         for batch in tqdm(dataloader, desc="Evaluating"):
             full_prompt_list, full_response_list, list_of_response = evaluator.batch_run(batch)
             for pred, label in zip(list_of_response, batch['label']):
@@ -207,10 +204,24 @@ def batch_evaluate(num_communication_rounds, args_passed=None):
                     correct += 1
             all += len(batch['label'])
             acc = correct / all
+            list_of_response2.extend(list_of_response)
+            labels.extend(batch['label'])
             print(f"Accuracy of the {args.dataset} dataset: {acc:.4f} (Correct: {correct}, Total: {all})")
-        write_to_file(index, acc)
+        result = str(acc)
+        if 'mcc' in metrics:
+            mcc = matthews_corrcoef(y_true=labels, y_pred=list_of_response2)
+            result = result + " " +str(mcc)
+        if 'f1_score' in metrics:
+            f1 = f1_score(y_true=labels, y_pred=list_of_response2, pos_label=positive_label)
+            result = result + " " +str(f1)
+        if 'pearson_correlation' in metrics:
+            labels = [float(item) for item in labels]
+            list_of_response2 = [float(item) for item in list_of_response2]
+            pearson = pearsonr(labels, list_of_response2)
+            result = result + " " +str(pearson)
+        write_to_file(index, result)
 
-def batch_eva_write_to_excel(num_communication_rounds, args_passed=None):
+def batch_eva_write_to_excel(num_communication_rounds, args_passed=None, wrtie_to_file=True, metrics='accurcay', positive_label=None):
     args = parse_eval_args()
     if args_passed:
         args.model = args_passed.model
@@ -260,11 +271,18 @@ def batch_eva_write_to_excel(num_communication_rounds, args_passed=None):
         save_excel['label'] = labels
         save_excel['match'] = match_list
         save_excel['accuracy'] = [acc] * len(match_list)
-        directory = os.path.dirname(eavluator.save_path[args.dataset])
-        if not os.path.exists(directory):
-            os.makedirs(directory)
-        file_name = os.path.join(directory, str(index) + '.xlsx')
-        save_excel.to_excel(file_name, index=False)
+        if 'mcc' in metrics:
+            mcc = matthews_corrcoef(y_true=labels, y_pred=list_of_response2)
+            save_excel['mcc'] = [mcc] * len(match_list)
+        if 'f1_score' in metrics:
+            f1 = f1_score(y_true=labels, y_pred=list_of_response2, pos_label=positive_label)
+            save_excel['f1_score'] = [f1] * len(match_list)
+        directory = os.path.dirname(evaluator.save_path[args.dataset])
+        if write_to_file:
+            if not os.path.exists(directory):
+                os.makedirs(directory)
+            file_name = os.path.join(directory, str(index) + '.xlsx')
+            save_excel.to_excel(file_name, index=False)
 
 if __name__ == "__main__":
     # batch_evaluate(10)

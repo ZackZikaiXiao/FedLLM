@@ -18,9 +18,10 @@ class GenerateClient:
         self.model = model
         self.output_dir = output_dir
         self.local_output_dir = os.path.join(self.output_dir, "trainer_saved", "local_output_{}".format(self.client_id))
-
+        self.data_path = args.data_path
     def load_raw_load(self, dataset):
-        self.local_data_path = os.path.join(data_path[dataset], str(self.args.num_clients), "local_training_{}.json".format(self.client_id))
+        self.local_data_path = os.path.join(self.data_path, "local_training_{}.json".format(self.client_id))
+        # self.local_data_path = os.path.join(data_path[dataset], str(self.args.num_clients), "local_training_{}.json".format(self.client_id))
         self.local_data = load_dataset("json", data_files=self.local_data_path)
         
     def preprare_local_dataset(self, generate_and_tokenize_prompt, local_val_set_size):

@@ -9,9 +9,10 @@ from matplotlib.ticker import MaxNLocator
 from interval3 import Interval
 import copy
 
-def partition(data_path, num_clients, dirichlet_alpha, partition_method="dirichlet_label", num_of_classes_for_stsb=5):
+def partition(data_path, save_path, num_clients, dirichlet_alpha, partition_method="dirichlet_label", num_of_classes_for_stsb=5):
     data_path2 = os.path.abspath(os.path.join(data_path, ".."))
     data_path2 = os.path.join(data_path2, str(num_clients))
+    data_path2 = save_path
     df = pd.read_json(data_path, orient='records')
     dataset_len = len(df)
     if "sts-b" in data_path:
@@ -52,7 +53,7 @@ def partition(data_path, num_clients, dirichlet_alpha, partition_method="dirichl
                     dict_users[client_k] = set(dict_users[client_k] | set(all_idxs[(assignment == client_k)]))
                 else:
                     dict_users[client_k] = set(all_idxs[(assignment == client_k)])
-        print(dict_users)
+        # print(dict_users)
         os.makedirs(data_path2, exist_ok=True)
         num_for_each_client = []
         for client_id in range(num_clients):
@@ -195,6 +196,8 @@ def visualize(num_for_each_client, num_clients, data_path2, dirichlet_alpha, uni
         plt.title("dirichlet quantity, alpha = " + str(dirichlet_alpha))
     elif partition_method == 'dirichlet_label':
         plt.title("dirichlet label, alpha = " + str(dirichlet_alpha))
+    elif partition_method == "dirichlet_label_uni":
+        plt.title("dirichlet label uniform, alpha = " + str(dirichlet_alpha))
     elif partition_method == 'iid':
         plt.title("iid")
     plt.legend()

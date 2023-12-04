@@ -9,6 +9,7 @@ class DataPartition:
         self.num_client = args.num_clients
         self.dirichlet_alpha = args.dirichlet_alpha
         self.partition_method = args.partition_method
+        self.data_path = args.data_path
 
     def partition(self):
         data_folders = {
@@ -35,7 +36,7 @@ class DataPartition:
                 allocate_data(self.num_client, diff_quantity)
         elif self.dataset in GLUE_dataset:
             data_folder = data_folders[self.dataset]
-            partition(data_path=data_folder, num_clients=self.num_client, dirichlet_alpha=self.dirichlet_alpha,
+            partition(data_path=data_folder, save_path=self.data_path,num_clients=self.num_client, dirichlet_alpha=self.dirichlet_alpha,
                       partition_method=self.partition_method, num_of_classes_for_stsb=3)
             
         # elif self.dataset == "sst-2":
