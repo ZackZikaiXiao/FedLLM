@@ -1,7 +1,7 @@
 import os
 import gradio as gr
 import torch
-from parse import parse_eval_args
+from parse import parse_eval_args, parse_train_args
 import random
 import json
 import pandas as pd
@@ -93,10 +93,11 @@ class Evaluator():
         self.model = model
 
     def reset_peft_adapter(self, peft_config_path):
-        peft_weights = torch.load(peft_config_path)
-        set_peft_model_state_dict(self.model, peft_weights,"default")
-        self.model.eval()
-        del peft_weights
+        if self.args.be_trained:
+            peft_weights = torch.load(peft_config_path)
+            set_peft_model_state_dict(self.model, peft_weights,"default")
+            self.model.eval()
+            del peft_weights
 
     def batch_run(self, batch_input):
         tokenized_inputs = self.tokenizer(batch_input['full_prompt'], padding='longest', return_tensors="pt")
@@ -241,7 +242,7 @@ def batch_eva_write_to_excel(num_communication_rounds, args_passed=None, wrtie_t
     
     for index in range(num_communication_rounds):
         save_excel = pd.DataFrame(columns=["full_prompt", "full_response", "response", "label", "match", "accuracy"])
-        peft_weights_path = os.path.join(args.peft_config_path, str(index), "adapter_model.bin")
+        peft_weights_path = os.path.join(args.peft_config_path, str(15), "adapter_model.bin")
         evaluator.reset_peft_adapter(peft_weights_path)
         all = 0
         correct = 0
@@ -285,97 +286,10 @@ def batch_eva_write_to_excel(num_communication_rounds, args_passed=None, wrtie_t
             save_excel.to_excel(file_name, index=False)
 
 if __name__ == "__main__":
-    # batch_evaluate(10)
-    batch_eva_write_to_excel(10)
+    args = parse_train_args()
+    # batch_evaluate(args.num_communication_rounds, args, metrics='accuracy, mcc')
+    batch_eva_write_to_excel(1, args, metrics='mcc')
 
-    args = parse_eval_args()
-    evaluator = Evaluator(args)
-    evaluator.model_init()
-    
-    testset_path = {
-    "sst-2": "./data_download/GLUE/sst-2/SST-2/SST-2_test.json",
-    "rte": "./data_download/GLUE/rte/RTE/RTE_test.json",
-    "qnli": "./data_download/GLUE/qnli/QNLI/QNLI_test.json",
-    "cola": "./data_download/GLUE/cola/CoLA/CoLA_test.json",
-    "mnli": "./data_download/GLUE/mnli/MNLI/MNLI_test.json",
-    "mrpc": "./data_download/GLUE/mrpc/MRPC/MRPC_test.json",
-    "qqp": "./data_download/GLUE/qqp/QQP/QQP_test.json",
-    "sts-b": "./data_download/GLUE/sts-b/STS-B/STS-B_test.json",
-    "wnli": "./data_download/GLUE/wnli/WNLI/WNLI_test.json",
-    }
-    save_path = {
-    "sst-2": "./output/GLUE/sst-2/alpaca.xlsx",
-    "rte": "./output/GLUE/rte/alpaca.xlsx",
-    "qnli": "./output/GLUE/qnli/alpaca.xlsx",
-    "cola": "./output/GLUE/cola/alpaca.xlsx",
-    "mnli": "./output/GLUE/mnli/alpaca.xlsx",
-    "mrpc": "./output/GLUE/mrpc/alpaca.xlsx",
-    "qqp": "./output/GLUE/qqp/alpaca.xlsx",
-    "sts-b": "./output/GLUE/sts-b/alpaca.xlsx",
-    "wnli": "./output/GLUE/wnli/alpaca.xlsx",
-    }
-
-    
-
-    all = 0
-    correct = 0
-    from data_download.GLUE.instructions import INSTRUCTIONS
-    testset = evaluator.load_json_data(testset_path[args.dataset])
-    
-    if args.dataset == "sts-b":     # 斯皮尔曼系数
-        
-        directory = os.path.dirname(save_path[args.dataset])
-        if not os.path.exists(directory):
-            os.makedirs(directory)
-            
-        save_excel = pd.DataFrame(columns=["instruction", "context", 
-                                      "label", "category", 
-                                      "full_prompt", "full_response", 
-                                      "split_response"
-                                      ])
-        # 计算保存间隔
-        interval = len(testset) // 100
-        counter = 0
-        for item in tqdm(testset, desc="Evaluating"):
-            full_prompt, full_response, split_response = evaluator.run(instruction=item['instruction'], input=item['context'])
-            print(f"Output: {split_response}, Label: {item['response']}")
-            save_excel.loc[len(save_excel)] = [item['instruction'], item['context'], item['response'], item['category'],
-                                        full_prompt, full_response, split_response]
-
-            # 每当达到保存间隔时保存 Excel 文件
-            if counter % interval == 0 and counter > 0:
-                save_excel.to_excel(save_path[args.dataset], index=False)
-                pearson_correlation = evaluator.pearson_correlation()
-                print("Pearson Correlation Coefficient:", pearson_correlation)
-            counter += 1
-        
-
-    elif args.dataset == "cola" or args.dataset == "sst-2" or args.dataset == "rte" or args.dataset == "qnli":
-        save_excel = pd.DataFrame(columns=["instruction", "context", 
-                                      "label", "category", 
-                                      "full_prompt", "full_response", 
-                                      "split_response", "match", "accuracy"
-                                      ])
-        
-        for item in tqdm(testset, desc="Evaluating"):
-            full_prompt, full_response, split_response = evaluator.run(instruction=item['instruction'], input=item['context'])
-            print(full_response)
-            print(f"Output: {str(split_response)}, Label: {str(item['response'])}")
-            match = str(split_response).lower() == str(item['response']).lower()
-            
-            save_excel.loc[len(save_excel)] = [item['instruction'], item['context'], item['response'], item['category'],
-                                       full_prompt, full_response, split_response, str(int(match)), str(correct)+"/"+str(all)]
-            if match:
-                correct += 1
-            all += 1
-            acc = correct / all
-            print(f"Accuracy of the {args.dataset} dataset: {acc:.4f} (Correct: {correct}, Total: {all})")
-    
-    
-    directory = os.path.dirname(save_path[args.dataset])
-    if not os.path.exists(directory):
-        os.makedirs(directory)
-    save_excel.to_excel(save_path[args.dataset], index=False)
 
 
                 

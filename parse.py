@@ -65,15 +65,15 @@ def parse_train_args():
     args = parser.parse_args()
     args.global_model = global_model_path[args.model]
     if args.partition_method == 'iid':
-        args.data_path = os.path.join(data_paths[args.dataset], str(args.num_clients) + " " + args.partition_method)
+        args.data_path = os.path.join(data_paths[args.dataset], str(args.num_clients) + "-" + args.partition_method)
     else:
-        args.data_path = os.path.join(data_paths[args.dataset], str(args.num_clients) + " " + args.partition_method +" "+ str(args.dirichlet_alpha))
+        args.data_path = os.path.join(data_paths[args.dataset], str(args.num_clients) + "-" + args.partition_method +"-"+ str(args.dirichlet_alpha))
     # args.data_path = data_paths[args.dataset]
     args.output_dir = output_dirs[args.model][args.peft_method]
     if args.partition_method == 'iid':
-        args.output_dir = os.path.join(args.output_dir, args.dataset +" "+ args.partition_method + " " + str(args.num_clients))
+        args.output_dir = os.path.join(args.output_dir, args.dataset +"-"+ args.partition_method + "-" + str(args.num_clients))
     else:
-        args.output_dir = os.path.join(args.output_dir, args.dataset +" "+ args.partition_method + " "  + str(args.dirichlet_alpha) + " " + str(args.num_clients))
+        args.output_dir = os.path.join(args.output_dir, args.dataset +"-"+ args.partition_method + "-"  + str(args.dirichlet_alpha) + "-" + str(args.num_clients))
     return args
 
 
@@ -88,8 +88,8 @@ def parse_eval_args():
     parser.add_argument('--peft_method', type=str, default='lora', help='which peft method to use, now support lora and prefix_tuning')
     # if you want to change the evaluation dataset, please modify the arguments here
     parser.add_argument('--dataset', type=str, default='cola', help='Dataset to evaluate')
-    parser.add_argument("--peft_weights_path", type=str, default="./lora-shepherd-7b/cola iid 10/0/adapter_model.bin", help="peft weights path")
-    parser.add_argument("--peft_config_path", type=str, default="./lora-shepherd-7b/cola iid 10", help="peft config path")
+    parser.add_argument("--peft_weights_path", type=str, default="./lora-shepherd-7b/cola-iid-10/0/adapter_model.bin", help="peft weights path")
+    parser.add_argument("--peft_config_path", type=str, default="./lora-shepherd-7b/cola-iid-10", help="peft config path")
     # if you want to change the evaluation dataset, please modify the arguments here
     parser.add_argument("--be_trained", type=bool, default=True, help="Share gradio interface")        # 修改成true后，才能加载lora模型
     parser.add_argument("--load_8bit", type=bool, default=False, help="Load model in 8-bit")

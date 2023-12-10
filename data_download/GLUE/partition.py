@@ -10,8 +10,8 @@ from interval3 import Interval
 import copy
 
 def partition(data_path, save_path, num_clients, dirichlet_alpha, partition_method="dirichlet_label", num_of_classes_for_stsb=5):
-    data_path2 = os.path.abspath(os.path.join(data_path, ".."))
-    data_path2 = os.path.join(data_path2, str(num_clients))
+    # data_path2 = os.path.abspath(os.path.join(data_path, ".."))
+    # data_path2 = os.path.join(data_path2, str(num_clients))
     data_path2 = save_path
     df = pd.read_json(data_path, orient='records')
     dataset_len = len(df)

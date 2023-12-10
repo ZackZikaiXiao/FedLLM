@@ -16,14 +16,14 @@ from data_tool.data_partition import DataPartition
 from data_tool.data_tokenizer import DataTokenizer
 from model_utils.get_model import get_alpaca_model_and_tokenizer, get_llama27b_model_and_tokenizer
 from evaluate import batch_evaluate
+import math
 # offline
 os.environ['HF_DATASETS_OFFLINE'] = '1'
 os.environ['TRANSFORMERS_OFFLINE'] = '1'
 
-def global_lr_scheduler(lr, epoch):
-    # 
-    lr = lr /(2 ** epoch)
-    return lr
+def cosine_annealing_LR(T_max, epoch, initial_lr, eta_min=0):
+    new_lr = eta_min + 0.5 * (initial_lr - eta_min) * (1 + math.cos(epoch * math.pi / T_max))
+    return new_lr
 
 def main(args):
 
@@ -84,7 +84,7 @@ def main(args):
         print("\nConducting the client selection")
         selected_clients_set = client_selection(args.num_clients, args.client_selection_frac, args.client_selection_strategy,
                                                 other_info=epoch)
-        local_learning_rate = global_lr_scheduler(args.local_learning_rate, epoch)
+        local_learning_rate = cosine_annealing_LR(args.num_communication_rounds, epoch, args.local_learning_rate)
         print("learning rate of current communication: " + str(local_learning_rate))
         for client_id in selected_clients_set:
             client = GenerateClient(args, client_id, model, output_dir)
@@ -131,7 +131,8 @@ def main(args):
 
 if __name__ == "__main__":
     args = parse_train_args()
-    # data_partition = DataPartition(args)
-    # data_partition.partition()      
-    # main(args)
+    data_partition = DataPartition(args)
+    data_partition.partition()      
+    main(args)
     batch_evaluate(args.num_communication_rounds, args, metrics='accuracy, mcc')
+    
