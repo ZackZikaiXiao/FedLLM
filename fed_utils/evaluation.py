@@ -1,4 +1,6 @@
 import os
+import sys
+sys.path.append("./")
 import gradio as gr
 import torch
 from parse import parse_eval_args, parse_train_args
@@ -11,6 +13,7 @@ from torch.utils.data import DataLoader
 from model_utils.get_model import get_alpaca_model_and_tokenizer, get_llama27b_model_and_tokenizer
 from sklearn.metrics import matthews_corrcoef, f1_score
 from scipy.stats import pearsonr
+from output.GLUE.postprocess import cleansed_response
 # offline
 os.environ['HF_DATASETS_OFFLINE'] = '1'
 os.environ['TRANSFORMERS_OFFLINE'] = '1'
@@ -200,6 +203,7 @@ def batch_evaluate(num_communication_rounds, args_passed=None, metrics='accuracy
         labels = []
         for batch in tqdm(dataloader, desc="Evaluating"):
             full_prompt_list, full_response_list, list_of_response = evaluator.batch_run(batch)
+            list_of_response = cleansed_response(list_of_response)
             for pred, label in zip(list_of_response, batch['label']):
                 if (pred.lower() == label.lower()):
                     correct += 1
@@ -242,7 +246,7 @@ def batch_eva_write_to_excel(num_communication_rounds, args_passed=None, wrtie_t
     
     for index in range(num_communication_rounds):
         save_excel = pd.DataFrame(columns=["full_prompt", "full_response", "response", "label", "match", "accuracy"])
-        peft_weights_path = os.path.join(args.peft_config_path, str(15), "adapter_model.bin")
+        peft_weights_path = os.path.join(args.peft_config_path, str(index), "adapter_model.bin")
         evaluator.reset_peft_adapter(peft_weights_path)
         all = 0
         correct = 0
@@ -253,6 +257,7 @@ def batch_eva_write_to_excel(num_communication_rounds, args_passed=None, wrtie_t
         labels = []
         for batch in tqdm(dataloader, desc="Evaluating"):
             full_prompt_list, full_response_list, list_of_response = evaluator.batch_run(batch)
+            list_of_response = cleansed_response(list_of_response)
             full_prompt_list2.extend(full_prompt_list)
             full_response_list2.extend(full_response_list)
             list_of_response2.extend(list_of_response)
@@ -288,5 +293,5 @@ def batch_eva_write_to_excel(num_communication_rounds, args_passed=None, wrtie_t
 if __name__ == "__main__":
     args = parse_train_args()
     # batch_evaluate(args.num_communication_rounds, args, metrics='accuracy, mcc')
-    batch_eva_write_to_excel(1, args, metrics='mcc')
+    batch_eva_write_to_excel(10, args, metrics='mcc')
 

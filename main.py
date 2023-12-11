@@ -10,14 +10,16 @@ from peft import (
 )
 import time
 import datetime
-from fed_utils import FedAvg, client_selection, GenerateClient
-from fed_utils.evaluation import batch_evaluate
-from data_tool.data_partition import DataPartition
-from data_tool.data_tokenizer import DataTokenizer
-from model_utils.get_model import get_alpaca_model_and_tokenizer, get_llama27b_model_and_tokenizer
-# from evaluate import batch_evaluate
-from model_utils.lr_scheduler import cosine_annealing_warm_restart_LR
-from model_utils.get_peft_model import get_lora_peft_model, get_prefix_tuning_peft_model
+from fed_utils import FedAvg, client_selection, batch_evaluate, GenerateClient
+from data_tool import DataPartition, DataTokenizer
+from model_utils import (
+    get_alpaca_model_and_tokenizer,
+    get_llama27b_model_and_tokenizer,
+    cosine_annealing_warm_restart_LR,
+    get_lora_peft_model,
+    get_prefix_tuning_peft_model
+)
+
 # offline
 os.environ['HF_DATASETS_OFFLINE'] = '1'
 os.environ['TRANSFORMERS_OFFLINE'] = '1'
@@ -81,7 +83,8 @@ def main(args):
         print("\nConducting the client selection")
         selected_clients_set = client_selection(args.num_clients, args.client_selection_frac, args.client_selection_strategy,
                                                 other_info=epoch)
-        local_learning_rate = cosine_annealing_warm_restart_LR(T_max, epoch, args.local_learning_rate)
+        local_learning_rate = args.local_learning_rate
+        # local_learning_rate = cosine_annealing_warm_restart_LR(T_max, epoch, args.local_learning_rate)
         print("learning rate of current communication: " + str(local_learning_rate))
         for client_id in selected_clients_set:
             client = GenerateClient(args, client_id, model, output_dir)
