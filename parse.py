@@ -42,7 +42,7 @@ def parse_train_args():
     parser.add_argument('--dataset', type=str, default='cola', help='Dataset to use')
     # parser.add_argument('--data_path', type=str, default='./data_download/GLUE/cola/CoLA', help='Data path')
     parser.add_argument('--dirichlet_alpha', type=int, default=1, help='dirichlet alpha parameter')
-    parser.add_argument('--partition_method', type=str, default="dirichlet_label_uni", help='The method used to partition the data, choose from [''iid'', ''dirichlet_label_uni'', ''dirichlet_label'', ''dirichlet_quantity'']')
+    parser.add_argument('--partition_method', type=str, default="iid", help='The method used to partition the data, choose from [''iid'', ''dirichlet_label_uni'', ''dirichlet_label'', ''dirichlet_quantity'']')
 
     # parser.add_argument('--output_dir', type=str, default='./lora-shepherd-7b/', help='Output directory, choices: lora-shepherd-7b, alpaca-prefix, llama2-lora, llama2-prefix')
     parser.add_argument('--client_selection_strategy', type=str, default='random', help='Client selection strategy')

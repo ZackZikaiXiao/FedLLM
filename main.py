@@ -8,22 +8,19 @@ from peft import (
     set_peft_model_state_dict,
     get_peft_model_state_dict,
 )
-from model_utils.get_peft_model import get_lora_peft_model, get_prefix_tuning_peft_model
 import time
 import datetime
-from fed_utils import FedAvg, client_selection, global_evaluation, GenerateClient
+from fed_utils import FedAvg, client_selection, GenerateClient
+from fed_utils.evaluation import batch_evaluate
 from data_tool.data_partition import DataPartition
 from data_tool.data_tokenizer import DataTokenizer
 from model_utils.get_model import get_alpaca_model_and_tokenizer, get_llama27b_model_and_tokenizer
-from evaluate import batch_evaluate
-import math
+# from evaluate import batch_evaluate
+from model_utils.lr_scheduler import cosine_annealing_warm_restart_LR
+from model_utils.get_peft_model import get_lora_peft_model, get_prefix_tuning_peft_model
 # offline
 os.environ['HF_DATASETS_OFFLINE'] = '1'
 os.environ['TRANSFORMERS_OFFLINE'] = '1'
-
-def cosine_annealing_LR(T_max, epoch, initial_lr, eta_min=0):
-    new_lr = eta_min + 0.5 * (initial_lr - eta_min) * (1 + math.cos(epoch * math.pi / T_max))
-    return new_lr
 
 def main(args):
 
@@ -77,14 +74,14 @@ def main(args):
     last_client_id = None
     local_dataset_len_dict = dict()
     output_dir = args.output_dir
-    
+    T_max = args.num_communication_rounds // 4
     training_start_time = time.time()
     for epoch in tqdm(range(start_epoch, args.num_communication_rounds)):
 
         print("\nConducting the client selection")
         selected_clients_set = client_selection(args.num_clients, args.client_selection_frac, args.client_selection_strategy,
                                                 other_info=epoch)
-        local_learning_rate = cosine_annealing_LR(args.num_communication_rounds, epoch, args.local_learning_rate)
+        local_learning_rate = cosine_annealing_warm_restart_LR(T_max, epoch, args.local_learning_rate)
         print("learning rate of current communication: " + str(local_learning_rate))
         for client_id in selected_clients_set:
             client = GenerateClient(args, client_id, model, output_dir)
@@ -121,9 +118,7 @@ def main(args):
 
         torch.save(get_peft_model_state_dict(model), os.path.join(output_dir, str(epoch), "adapter_model.bin"))
         config.save_pretrained(output_dir)
-
-        # Please design the evaluation method based on your specific requirements in the fed_utils/evaluation.py file.
-        global_evaluation()
+        print("END OF COMMUNICATION: " + str(epoch))
     training_over_time = time.time()
     training_time = int(round((training_over_time - training_start_time)))
     print("Total training time: " + str(datetime.timedelta(seconds = training_time)))
@@ -131,8 +126,8 @@ def main(args):
 
 if __name__ == "__main__":
     args = parse_train_args()
-    data_partition = DataPartition(args)
-    data_partition.partition()      
+    # data_partition = DataPartition(args)
+    # data_partition.partition()      
     main(args)
     batch_evaluate(args.num_communication_rounds, args, metrics='accuracy, mcc')
     
