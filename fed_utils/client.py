@@ -73,10 +73,7 @@ class GenerateClient:
             group_by_length=group_by_length,
             dataloader_drop_last=False
         )
-
-
-
-        # DataCollator实验 
+ 
         self.local_trainer = transformers.Trainer(model=self.model,
                                                   train_dataset=self.local_train_dataset,
                                                   eval_dataset=self.local_eval_dataset,
@@ -84,23 +81,11 @@ class GenerateClient:
                                                   data_collator=transformers.DataCollatorForSeq2Seq(
                                                       tokenizer, pad_to_multiple_of=8, return_tensors="pt", padding=True
                                                   ),
-                                                  )
+                                                )
 
     def initiate_local_training(self):
         self.model.config.use_cache = False
-        # prams_dict_old相当于get_peft_model_state_dict
         self.params_dict_old = copy.deepcopy(get_peft_model_state_dict(self.model))
-
-        # self.params_dict_old = copy.deepcopy(
-        #     OrderedDict((name, param.detach()) for name, param in self.model.named_parameters() if
-        #                 "default" in name))
-        # self.params_dict_new = OrderedDict((name, param.detach()) for name, param in self.model.named_parameters() if
-        #                                    "default" in name)
-        # self.model.state_dict = (
-        #     lambda instance, *_, **__: get_peft_model_state_dict(
-        #         instance, self.params_dict_new, "default"
-        #     )
-        # ).__get__(self.model, type(self.model))
 
     def train(self):
         self.local_trainer.train()

@@ -47,13 +47,13 @@ def parse_train_args():
     # parser.add_argument('--output_dir', type=str, default='./lora-shepherd-7b/', help='Output directory, choices: lora-shepherd-7b, alpaca-prefix, llama2-lora, llama2-prefix')
     parser.add_argument('--client_selection_strategy', type=str, default='random', help='Client selection strategy')
     parser.add_argument('--client_selection_frac', type=float, default=0.4, help='Fraction of clients to select')
-    parser.add_argument('--num_communication_rounds', type=int, default=5, help='Number of communication rounds')
+    parser.add_argument('--num_communication_rounds', type=int, default=20, help='Number of communication rounds')
     parser.add_argument('--num_clients', type=int, default=10, help='Number of clients')
 
     parser.add_argument('--local_batch_size', type=int, default=64, help='Local batch size')
     parser.add_argument('--local_micro_batch_size', type=int, default=32, help='Local micro batch size')
     parser.add_argument('--local_num_epochs', type=int, default=2, help='Local number of epochs')
-    parser.add_argument('--local_learning_rate', type=float, default=3e-3, help='Local learning rate, for alpaca-lora: 3e-4')
+    parser.add_argument('--local_learning_rate', type=float, default=3e-4, help='Local learning rate, 3e-3试过了, for alpaca-lora: 3e-4')
     parser.add_argument('--local_val_set_size', type=int, default=0, help='Local validation set size')
     parser.add_argument('--local_save_steps', type=int, default=3, help='Local save steps')
 

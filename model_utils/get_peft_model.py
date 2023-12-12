@@ -19,8 +19,16 @@ def get_lora_peft_model(args, model):
 def get_prefix_tuning_peft_model(args, model):
     config = PrefixTuningConfig(
         task_type="CAUSAL_LM",
-        inference_mode=False,
+        # inference_mode=False,
         num_virtual_tokens=args.num_virtual_tokens,
     )
     model = get_peft_model(model, config)
     return model, config
+
+if __name__ == "__main__":
+    config = LoraConfig(
+        bias="none",
+        task_type="CAUSAL_LM",
+    )
+    print('a')
+    
