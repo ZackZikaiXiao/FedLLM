@@ -13,7 +13,6 @@ from torch.utils.data import DataLoader
 from model_utils.get_model import get_alpaca_model_and_tokenizer, get_llama27b_model_and_tokenizer
 from sklearn.metrics import matthews_corrcoef, f1_score
 from scipy.stats import pearsonr
-from output.GLUE.postprocess import cleansed_response
 # offline
 os.environ['HF_DATASETS_OFFLINE'] = '1'
 os.environ['TRANSFORMERS_OFFLINE'] = '1'
@@ -40,6 +39,13 @@ try:
 except:
     pass
 
+def cleansed_response_for_acceptability(pred):
+    pred = [item.lower() for item in pred]
+    pred = [item[0:12] for item in pred]
+    for index, item in enumerate(pred):
+        if item[0:10] == 'acceptable':
+            pred[index] = 'acceptable'
+    return pred
 
 class Evaluator():
     def __init__(self, args):
@@ -151,10 +157,10 @@ class Evaluator():
     #     split_response = self.prompter.get_response(full_response)
     #     return full_prompt, full_response, split_response
     
-    def load_json_data(self, file_path):
-        with open(file_path, 'r', encoding='utf-8') as file:
-            data = json.load(file)
-        return data
+    # def load_json_data(self, file_path):
+    #     with open(file_path, 'r', encoding='utf-8') as file:
+    #         data = json.load(file)
+    #     return data
     
     def generate_prompt(self, data_point):
         full_prompt = self.prompter.generate_prompt(
@@ -176,13 +182,13 @@ class Evaluator():
     #     pearson_correlation = df['split_response'].corr(df['label'])
     #     return pearson_correlation
 
-def write_to_file(index, result, file_name=None):
-    if file_name:
-        with open(file_name, 'a') as f:
-            f.write(str(index) + " " + str(result) + '\n')
-    else:
-        with open("evaluate_result", 'a') as f:
-            f.write(str(index) + " " + str(result) + '\n')
+    def write_to_file(index, result, file_name=None):
+        if file_name:
+            with open(file_name, 'a') as f:
+                f.write(str(index) + " " + str(result) + '\n')
+        else:
+            with open("evaluate_result", 'a') as f:
+                f.write(str(index) + " " + str(result) + '\n')
 
 # def batch_evaluate(num_communication_rounds, args_passed=None, metrics='accuracy', positive_label=None):
 #     args = parse_eval_args()
@@ -265,7 +271,7 @@ def batch_eva_write_to_excel(num_communication_rounds, args_passed=None, write_t
         labels = []
         for batch in tqdm(dataloader, desc="Evaluating"):
             full_prompt_list, full_response_list, list_of_response = evaluator.batch_run(batch)
-            cleaned_list_of_response = cleansed_response(list_of_response)
+            cleaned_list_of_response = cleansed_response_for_acceptability(list_of_response)
             cleaned_list_of_response2.extend(cleaned_list_of_response)
             full_prompt_list2.extend(full_prompt_list)
             full_response_list2.extend(full_response_list)
@@ -304,7 +310,7 @@ def batch_eva_write_to_excel(num_communication_rounds, args_passed=None, write_t
             short_result = short_result + " " +str(pearson)
         directory = evaluator.save_path[args.dataset]
         short_result_file_name = os.path.join(directory, "short_result.txt")
-        write_to_file(index, short_result, file_name=short_result_file_name)
+        evaluator.write_to_file(index, short_result, file_name=short_result_file_name)
         if write_to_excel:
             if not os.path.exists(directory):
                 os.makedirs(directory)

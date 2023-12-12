@@ -10,8 +10,8 @@ from peft import (
 )
 import time
 import datetime
-from fed_utils import FedAvg, client_selection, batch_evaluate, GenerateClient, batch_eva_write_to_excel
-from data_tool import DataPartition, DataTokenizer
+from fed_utils import FedAvg, client_selection, GenerateClient, batch_eva_write_to_excel
+from data_tool import partition_data, DataTokenizer
 from model_utils import (
     get_alpaca_model_and_tokenizer,
     get_llama27b_model_and_tokenizer,
@@ -129,8 +129,7 @@ def main(args):
 
 if __name__ == "__main__":
     args = parse_train_args()
-    # data_partition = DataPartition(args)
-    # data_partition.partition()      
-    # main(args)
+    partition_data(args)     
+    main(args)
     batch_eva_write_to_excel(args.num_communication_rounds, args, metrics='accuracy, mcc')
     

@@ -39,3 +39,6 @@ class DataPartition:
             partition(data_path=data_folder, save_path=self.data_path,num_clients=self.num_client, dirichlet_alpha=self.dirichlet_alpha,
                       partition_method=self.partition_method, num_of_classes_for_stsb=3)
             
+def partition_data(args):
+    data_partition = DataPartition(args)
+    data_partition.partition()
