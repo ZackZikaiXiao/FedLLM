@@ -45,7 +45,10 @@ def parse_train_args():
     parser.add_argument('--client_selection_frac', type=float, default=0.4, help='Fraction of clients to select')
     parser.add_argument('--num_communication_rounds', type=int, default=20, help='Number of communication rounds')
     parser.add_argument('--num_clients', type=int, default=10, help='Number of clients')
-
+    # FedProx related arguments
+    parser.add_argument('--useFedProx', type=bool, default=False, help='Whether or not add proximal term to the loss function')
+    parser.add_argument('--proximal_term_argument', type=float, default=0.2, help='the mu for proximal term')
+    
     parser.add_argument('--local_batch_size', type=int, default=64, help='Local batch size')
     parser.add_argument('--local_micro_batch_size', type=int, default=32, help='Local micro batch size')
     parser.add_argument('--local_num_epochs', type=int, default=2, help='Local number of epochs')
