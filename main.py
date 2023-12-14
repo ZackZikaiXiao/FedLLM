@@ -129,7 +129,7 @@ def main(args):
 
 if __name__ == "__main__":
     args = parse_train_args()
-    partition_data(args)     
+    # partition_data(args)     
     main(args)
     batch_eva_write_to_excel(args.num_communication_rounds, args, metrics='accuracy, mcc')
     

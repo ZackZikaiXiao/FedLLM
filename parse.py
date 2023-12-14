@@ -29,22 +29,18 @@ def parse_train_args():
     }
     parser = argparse.ArgumentParser(description="Federated Learning PEFine-Tuning for LLM")
     parser.add_argument('--model', type=str, default='alpaca', help='which pretrained model to use, now support Llama2-7B and alpaca')
-    # parser.add_argument('--global_model', type=str, default='./alpaca_native', help='Path to the global model, /home/jianhuiwei/rsch/jianhui/Llama2-7b-chat/ or ./alpaca_native')
-    parser.add_argument('--peft_method', type=str, default='prefix_tuning', help='which peft method to use, now support lora and prefix_tuning')
+    parser.add_argument('--peft_method', type=str, default='lora', help='which peft method to use, now support lora and prefix_tuning')
     # parameters for lora adapter
     parser.add_argument('--lora_r', type=int, default=8, help='LoRA r parameter')
     parser.add_argument('--lora_alpha', type=int, default=16, help='LoRA alpha parameter')
     parser.add_argument('--lora_dropout', type=float, default=0.05, help='LoRA dropout rate')
     parser.add_argument('--lora_target_modules', nargs='+', default=["q_proj", "k_proj", "v_proj", "o_proj"], help='LoRA target modules')
     # parameters for prefix_tuning
-    parser.add_argument('--num_virtual_tokens', type=int, default=10, help='num of virtual tokens for prefix tuning')
+    parser.add_argument('--num_virtual_tokens', type=int, default=5, help='num of virtual tokens for prefix tuning')
     # if you want to change the dataset to train, please change the arguments here
     parser.add_argument('--dataset', type=str, default='cola', help='Dataset to use')
-    # parser.add_argument('--data_path', type=str, default='./data_download/GLUE/cola/CoLA', help='Data path')
     parser.add_argument('--dirichlet_alpha', type=int, default=1, help='dirichlet alpha parameter')
-    parser.add_argument('--partition_method', type=str, default="iid", help='The method used to partition the data, choose from [''iid'', ''dirichlet_label_uni'', ''dirichlet_label'', ''dirichlet_quantity'']')
-
-    # parser.add_argument('--output_dir', type=str, default='./lora-shepherd-7b/', help='Output directory, choices: lora-shepherd-7b, alpaca-prefix, llama2-lora, llama2-prefix')
+    parser.add_argument('--partition_method', type=str, default="dirichlet_label_uni", help='The method used to partition the data, choose from [''iid'', ''dirichlet_label_uni'', ''dirichlet_label'', ''dirichlet_quantity'']')
     parser.add_argument('--client_selection_strategy', type=str, default='random', help='Client selection strategy')
     parser.add_argument('--client_selection_frac', type=float, default=0.4, help='Fraction of clients to select')
     parser.add_argument('--num_communication_rounds', type=int, default=20, help='Number of communication rounds')

@@ -39,6 +39,8 @@ try:
 except:
     pass
 
+
+
 def cleansed_response_for_acceptability(pred):
     pred = [item.lower() for item in pred]
     pred = [item[0:12] for item in pred]
@@ -46,6 +48,11 @@ def cleansed_response_for_acceptability(pred):
         if item[0:10] == 'acceptable':
             pred[index] = 'acceptable'
     return pred
+ 
+cleansed_response_methods = {
+    'cola': cleansed_response_for_acceptability,
+
+}
 
 class Evaluator():
     def __init__(self, args):
@@ -75,7 +82,10 @@ class Evaluator():
             "sts-b": "./output/GLUE/sts-b/",
             "wnli": "./output/GLUE/wnli/",
         }
-        
+        self.output_directory = self.save_path[args.dataset]
+        if not os.path.exists(self.output_directory):
+            os.makedirs(self.output_directory)
+        self.output_short_result_file_name = os.path.join(self.output_directory, "short_result.txt")
     def model_init(self):
         args = self.args
         base_model = args.base_model or os.environ.get("BASE_MODEL", "")
@@ -126,41 +136,6 @@ class Evaluator():
         list_of_response = [self.prompter.get_response(res) for res in response]
         # print(list_of_response)
         return batch_input['full_prompt'], response, list_of_response
-
-    # def run(self, instruction, input=None, temperature=0.1, top_p=0.75, top_k=40, num_beams=4, max_new_tokens=32, **kwargs):
-    #     full_prompt = self.prompter.generate_prompt(instruction, input)
-         
-    #     inputs = self.tokenizer(full_prompt, return_tensors="pt")
-    #     input_ids = inputs['input_ids'].to(device)
-    #     # input_mask = inputs['attention_mask'].to(device)
-    #     generation_config = GenerationConfig(
-    #         temperature=temperature,
-    #         do_sample=True,
-    #         top_p=top_p,
-    #         top_k=top_k,
-    #         num_beams=num_beams,
-    #         max_new_tokens=max_new_tokens,
-    #         **kwargs,
-    #     )
-    #     # if not args.load_8bit:
-    #     #     input_ids = input_ids.half()  # 转换 input_ids 为半精度
-
-    #     with torch.no_grad():
-    #         generation_output = self.model.generate(
-    #             input_ids=input_ids,
-    #             generation_config = generation_config,
-    #         )
-    #     # output = generation_output.sequences[0]
-    #     output = generation_output[0]
-    #     full_response = self.tokenizer.decode(output, skip_special_tokens=True)
-    #     # response = self.tokenizer.decode(generation_output[0], skip_special_tokens=True)
-    #     split_response = self.prompter.get_response(full_response)
-    #     return full_prompt, full_response, split_response
-    
-    # def load_json_data(self, file_path):
-    #     with open(file_path, 'r', encoding='utf-8') as file:
-    #         data = json.load(file)
-    #     return data
     
     def generate_prompt(self, data_point):
         full_prompt = self.prompter.generate_prompt(
@@ -174,70 +149,9 @@ class Evaluator():
         }
         return data_dict
     
-    # def pearson_correlation(self, excel_file_path):
-    #     df = pd.read_excel(excel_file_path)
-    #     df['label'] = pd.to_numeric(df['label'], errors='coerce')
-    #     df['split_response'] = pd.to_numeric(df['split_response'], errors='coerce')
-
-    #     pearson_correlation = df['split_response'].corr(df['label'])
-    #     return pearson_correlation
-
-    def write_to_file(index, result, file_name=None):
-        if file_name:
-            with open(file_name, 'a') as f:
-                f.write(str(index) + " " + str(result) + '\n')
-        else:
-            with open("evaluate_result", 'a') as f:
-                f.write(str(index) + " " + str(result) + '\n')
-
-# def batch_evaluate(num_communication_rounds, args_passed=None, metrics='accuracy', positive_label=None):
-#     args = parse_eval_args()
-#     if args_passed:
-#         args.model = args_passed.model
-#         args.peft_method = args_passed.peft_method
-#         args.dataset = args_passed.dataset
-#         args.peft_config_path = args_passed.output_dir
-#         args.peft_weights_path = args.peft_config_path + '/0/adapter_model.bin'
-#         args.base_model = args_passed.global_model
-#     evaluator = Evaluator(args)
-#     evaluator.model_init()
-#     testset = load_dataset("json", data_files=evaluator.testset_path[args.dataset])
-#     cols = ['instruction', 'response', 'context', 'category']
-#     cleared_testset = testset["train"].shuffle().map(evaluator.generate_prompt, remove_columns=cols)
-#     cleared_testset.set_format(type="torch", columns=["full_prompt", "label"])
-#     dataloader = DataLoader(cleared_testset, batch_size=64, drop_last=False)
-
-#     for index in range(num_communication_rounds):
-#         peft_weights_path = os.path.join(args.peft_config_path, str(index), "adapter_model.bin")
-#         evaluator.reset_peft_adapter(peft_weights_path)
-#         all = 0
-#         correct = 0
-#         list_of_response2 = []
-#         labels = []
-#         for batch in tqdm(dataloader, desc="Evaluating"):
-#             full_prompt_list, full_response_list, list_of_response = evaluator.batch_run(batch)
-#             list_of_response = cleansed_response(list_of_response)
-#             for pred, label in zip(list_of_response, batch['label']):
-#                 if (pred.lower() == label.lower()):
-#                     correct += 1
-#             all += len(batch['label'])
-#             acc = correct / all
-#             list_of_response2.extend(list_of_response)
-#             labels.extend(batch['label'])
-#             print(f"Accuracy of the {args.dataset} dataset: {acc:.4f} (Correct: {correct}, Total: {all})")
-#         result = str(acc)
-#         if 'mcc' in metrics:
-#             mcc = matthews_corrcoef(y_true=labels, y_pred=list_of_response2)
-#             result = result + " " +str(mcc)
-#         if 'f1_score' in metrics:
-#             f1 = f1_score(y_true=labels, y_pred=list_of_response2, pos_label=positive_label)
-#             result = result + " " +str(f1)
-#         if 'pearson_correlation' in metrics:
-#             labels = [float(item) for item in labels]
-#             list_of_response2 = [float(item) for item in list_of_response2]
-#             pearson = pearsonr(labels, list_of_response2)
-#             result = result + " " +str(pearson)
-#         write_to_file(index, result)
+    def write_to_file(self, index, result):
+        with open(self.output_short_result_file_name, 'a') as f:
+            f.write(str(index) + " " + str(result) + '\n')
 
 def batch_eva_write_to_excel(num_communication_rounds, args_passed=None, write_to_excel=True, metrics='accurcay', positive_label=None):
     args = parse_eval_args()
@@ -271,7 +185,8 @@ def batch_eva_write_to_excel(num_communication_rounds, args_passed=None, write_t
         labels = []
         for batch in tqdm(dataloader, desc="Evaluating"):
             full_prompt_list, full_response_list, list_of_response = evaluator.batch_run(batch)
-            cleaned_list_of_response = cleansed_response_for_acceptability(list_of_response)
+            cleaned_list_of_response = cleansed_response_methods[args.dataset](list_of_response)
+            # cleaned_list_of_response = cleansed_response_for_acceptability(list_of_response)
             cleaned_list_of_response2.extend(cleaned_list_of_response)
             full_prompt_list2.extend(full_prompt_list)
             full_response_list2.extend(full_response_list)
@@ -308,17 +223,12 @@ def batch_eva_write_to_excel(num_communication_rounds, args_passed=None, write_t
             pearson = pearsonr(labels, list_of_response2)
             save_excel['pearson_correlation'] = [pearson] * len(match_list)
             short_result = short_result + " " +str(pearson)
-        directory = evaluator.save_path[args.dataset]
-        short_result_file_name = os.path.join(directory, "short_result.txt")
-        evaluator.write_to_file(index, short_result, file_name=short_result_file_name)
+        evaluator.write_to_file(index=index, result=short_result)
         if write_to_excel:
-            if not os.path.exists(directory):
-                os.makedirs(directory)
-            file_name = os.path.join(directory, str(index) + '.xlsx')
+            file_name = os.path.join(evaluator.output_directory, str(index) + '.xlsx')
             save_excel.to_excel(file_name, index=False)
 
 if __name__ == "__main__":
     args = parse_train_args()
-    # batch_evaluate(args.num_communication_rounds, args, metrics='accuracy, mcc')
     batch_eva_write_to_excel(args.num_communication_rounds, args, metrics='mcc')
 
