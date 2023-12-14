@@ -5,7 +5,7 @@ import copy
 from collections import OrderedDict
 import torch
 from data_tool.data_path import data_path
-from fed_utils import FedProxTrainer
+from fed_utils.FedProx_utils import FedProxTrainer
 from peft import (
     get_peft_model_state_dict,
     set_peft_model_state_dict,
@@ -74,8 +74,7 @@ class GenerateClient:
             group_by_length=group_by_length,
             dataloader_drop_last=False
         )
- 
-        self.local_trainer = transformers.Trainer(
+        self.local_trainer = FedProxTrainer(
             model=self.model,
             train_dataset=self.local_train_dataset,
             eval_dataset=self.local_eval_dataset,
@@ -85,11 +84,24 @@ class GenerateClient:
             ),
         )
 
+
+        # self.local_trainer = transformers.Trainer(
+        #     model=self.model,
+        #     train_dataset=self.local_train_dataset,
+        #     eval_dataset=self.local_eval_dataset,
+        #     args=self.train_args,
+        #     data_collator=transformers.DataCollatorForSeq2Seq(
+        #         tokenizer, pad_to_multiple_of=8, return_tensors="pt", padding=True
+        #     ),
+        # )
+
     def initiate_local_training(self):
         self.model.config.use_cache = False
         self.params_dict_old = copy.deepcopy(get_peft_model_state_dict(self.model))
 
     def train(self):
+        self.local_trainer.set_previous_peft_weights(self.params_dict_old)
+        self.local_trainer.set_proximal_term_mu(0.2)
         self.local_trainer.train()
 
     def terminate_local_training(self, epoch, local_dataset_len_dict, previously_selected_clients_set):
