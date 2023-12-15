@@ -2,11 +2,14 @@ import argparse
 from typing import List
 import os
 def parse_train_args():
+    GLUE_dataset =["sst-2", "rte", "cola", "qnli", "qqp", "sts-b", "wnli", "mrpc", "mnli"]
     global_model_path = {
         'alpaca': './alpaca_native',
         'Llama2-7B': '/home/jianhuiwei/rsch/jianhui/Llama2-7b-chat/',
     }
     data_paths = {
+        "quail": "./data_download/quail",
+        "new-databricks-dolly-15k": './data_download/databricks_dolly_15k/data',
         'cola': './data_download/GLUE/cola/CoLA',
         'mnli': './data_download/GLUE/mnli/MNLI',
         'mrpc': './data_download/GLUE/mrpc/MRPC',
@@ -38,7 +41,7 @@ def parse_train_args():
     # parameters for prefix_tuning
     parser.add_argument('--num_virtual_tokens', type=int, default=5, help='num of virtual tokens for prefix tuning')
     # if you want to change the dataset to train, please change the arguments here
-    parser.add_argument('--dataset', type=str, default='cola', help='Dataset to use')
+    parser.add_argument('--dataset', type=str, default='quail', help='Dataset to use')
     parser.add_argument('--dirichlet_alpha', type=int, default=1, help='dirichlet alpha parameter')
     parser.add_argument('--partition_method', type=str, default="dirichlet_label_uni", help='The method used to partition the data, choose from [''iid'', ''dirichlet_label_uni'', ''dirichlet_label'', ''dirichlet_quantity'']')
     parser.add_argument('--client_selection_strategy', type=str, default='random', help='Client selection strategy')
@@ -47,7 +50,7 @@ def parse_train_args():
     parser.add_argument('--num_clients', type=int, default=10, help='Number of clients')
     # FedProx related arguments
     parser.add_argument('--useFedProx', type=bool, default=False, help='Whether or not add proximal term to the loss function')
-    parser.add_argument('--proximal_term_argument', type=float, default=0.2, help='the mu for proximal term')
+    parser.add_argument('--proximal_term_argument', type=float, default=0.01, help='the mu for proximal term')
     
     parser.add_argument('--local_batch_size', type=int, default=64, help='Local batch size')
     parser.add_argument('--local_micro_batch_size', type=int, default=32, help='Local micro batch size')
@@ -56,17 +59,20 @@ def parse_train_args():
     parser.add_argument('--local_val_set_size', type=int, default=0, help='Local validation set size')
     parser.add_argument('--local_save_steps', type=int, default=3, help='Local save steps')
 
-    parser.add_argument('--cutoff_len', type=int, default=512, help='Cutoff length')
+    parser.add_argument('--cutoff_len', type=int, default=512, help='Cutoff length, 512 for GLUE, and 2048 for quail')
     parser.add_argument('--train_on_inputs', type=bool, default=False, help='Train on inputs')
     parser.add_argument('--group_by_length', type=bool, default=False, help='Group by length')
     parser.add_argument('--resume_from_checkpoint', type=str, default=None, help='Resume from checkpoint')
     parser.add_argument('--prompt_template_name', type=str, default="alpaca", help='Prompt template name')
     args = parser.parse_args()
     args.global_model = global_model_path[args.model]
-    if args.partition_method == 'iid':
-        args.data_path = os.path.join(data_paths[args.dataset], str(args.num_clients) + "-" + args.partition_method)
-    else:
-        args.data_path = os.path.join(data_paths[args.dataset], str(args.num_clients) + "-" + args.partition_method +"-"+ str(args.dirichlet_alpha))
+    if args.dataset in GLUE_dataset or args.dataset == "quail":
+        if args.partition_method == 'iid':
+            args.data_path = os.path.join(data_paths[args.dataset], str(args.num_clients) + "-" + args.partition_method)
+        else:
+            args.data_path = os.path.join(data_paths[args.dataset], str(args.num_clients) + "-" + args.partition_method +"-"+ str(args.dirichlet_alpha))
+    elif args.dataset == "new-databricks-dolly-15k":
+        args.data_path = os.path.join(data_paths[args.dataset], str(args))
     # args.data_path = data_paths[args.dataset]
     args.output_dir = output_dirs[args.model][args.peft_method]
     if args.partition_method == 'iid':

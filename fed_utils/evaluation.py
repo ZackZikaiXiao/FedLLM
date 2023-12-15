@@ -48,10 +48,13 @@ def cleansed_response_for_acceptability(pred):
         if item[0:10] == 'acceptable':
             pred[index] = 'acceptable'
     return pred
- 
+def cleansed_response_for_quail(pred):
+    pred = [item[0] for item in pred]
+    pred = [int(item) if item.isdigit() else 4 for item in pred]
+    return pred
 cleansed_response_methods = {
     'cola': cleansed_response_for_acceptability,
-
+    'quail': cleansed_response_for_quail,
 }
 
 class Evaluator():
@@ -61,6 +64,8 @@ class Evaluator():
         self.tokenizer = None
         self.model = None
         self.testset_path =  {
+            "quail": "./data_download/quail/dev.json",
+            "new-databricks-dolly-15k": './data_download/databricks_dolly_15k/data/10/global_test.json',
             "sst-2": "./data_download/GLUE/sst-2/SST-2/SST-2_test.json",
             "rte": "./data_download/GLUE/rte/RTE/RTE_test.json",
             "qnli": "./data_download/GLUE/qnli/QNLI/QNLI_test.json",
@@ -72,6 +77,7 @@ class Evaluator():
             "wnli": "./data_download/GLUE/wnli/WNLI/WNLI_test.json",
         }
         self.save_path = {
+            "quail": "./output/quail",
             "sst-2": "./output/GLUE/sst-2/",
             "rte": "./output/GLUE/rte/",
             "qnli": "./output/GLUE/qnli/",

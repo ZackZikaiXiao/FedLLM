@@ -103,8 +103,7 @@ class GenerateClient:
         if self.args.useFedProx:
             self.local_trainer.set_previous_peft_weights(self.params_dict_old)
             self.local_trainer.set_proximal_term_mu(self.args.proximal_term_argument)
-        else:
-            self.local_trainer.train()
+        self.local_trainer.train()
 
     def terminate_local_training(self, epoch, local_dataset_len_dict, previously_selected_clients_set):
 

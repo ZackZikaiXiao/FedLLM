@@ -13,11 +13,8 @@ class DataTokenizer:
             return self._generate_and_tokenize_prompt_new_databricks_dolly_15k(data_point)
         elif self.dataset in GLUE_dataset:
             return self._generate_and_tokenize_GLUE(data_point)
-        
-        # elif self.dataset == "sst-2":
-        #     return self._generate_and_tokenize_GLUE(data_point)
-        # elif self.dataset == "rte":
-        #     return self._generate_and_tokenize_GLUE(data_point)
+        elif self.dataset == "quail":
+            return self._generate_and_tokenize_GLUE(data_point)
     
     # 两步:1.把形式化json转化成完整段落的prompt； 2.将prompt进行tokenize
     def _generate_and_tokenize_prompt_new_databricks_dolly_15k(self, data_point):
@@ -69,6 +66,7 @@ class DataTokenizer:
     
     def _generate_and_tokenize_GLUE(self, data_point):
         # 结合template，把json转化为paragraph
+        
         full_prompt = self.prompter.generate_prompt(
             data_point["instruction"],
             data_point["context"],
@@ -85,11 +83,7 @@ class DataTokenizer:
             tokenized_user_prompt = self._tokenize_GLUE(user_prompt, add_eos_token=False)
             user_prompt_len = len(tokenized_user_prompt["input_ids"])
             # 为什么是-100填充
-            tokenized_full_prompt["labels"] = [
-                                                  -100
-                                              ] * user_prompt_len + tokenized_full_prompt["labels"][
-                                                                    user_prompt_len:
-                                                                    ]  # could be sped up, probably
+            tokenized_full_prompt["labels"] = [-100] * user_prompt_len + tokenized_full_prompt["labels"][user_prompt_len:]  # could be sped up, probably
         return tokenized_full_prompt
     
     
