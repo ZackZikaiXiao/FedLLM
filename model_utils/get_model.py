@@ -4,6 +4,19 @@ from peft import (
     prepare_model_for_kbit_training,
 )
 
+class ModelHelper():
+    def __init__(self, global_model_name, global_model_path, device_map) -> None:
+        self.global_model_name = global_model_name
+        self.global_model_path = global_model_path
+        self.device_map = device_map
+
+    def get_model(self):
+        if self.global_model_name == 'alpaca':
+            return get_alpaca_model_and_tokenizer(global_model=self.global_model_path, device_map=self.device_map)
+        elif self.global_model_name == 'Llama2-7B':
+            return get_llama27b_model_and_tokenizer(global_model=self.global_model_path, device_map=self.device_map)
+
+        
 
 def get_alpaca_model_and_tokenizer(global_model, device_map='auto'):
     model = LlamaForCausalLM.from_pretrained(

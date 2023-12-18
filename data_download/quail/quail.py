@@ -144,6 +144,7 @@ class Quail(datasets.GeneratorBasedBuilder):
 def generate_train_json_file():
     quail = Quail()
     data = []
+    alphabet=['A', 'B', 'C', 'D']
     correct_answer_index = [[], [], [], []]
     data_amount_for_each_label = [4657, 3260, 1862, 467]
     label_to_be_filled = 0
@@ -163,12 +164,12 @@ def generate_train_json_file():
         # convert_answer_list = [' ' + str(index) + ':' + answer + ', ' for index, answer in enumerate(example['answers'])]
         for index, item in enumerate(example['answers']):
             if index == 0:
-                instance['instruction'] = instance['instruction'] + " options: "+ str(index) + ':' + item
+                instance['instruction'] = instance['instruction'] + " options: "+ alphabet[index] + ':' + item
             elif index == 3:
-                instance['instruction'] += ", " + str(index) + ':' + item + "."
+                instance['instruction'] += ", " + alphabet[index] + ':' + item + "."
             else:
-                instance['instruction'] += ", " + str(index) + ':' + item
-        instance['response'] = example['correct_answer_id']
+                instance['instruction'] += ", " + alphabet[index] + ':' + item
+        instance['response'] = alphabet[example['correct_answer_id']]
         correct_answer_index[example['correct_answer_id']].append(data_index)
         instance['category'] = example['domain']
         data.append(instance)
@@ -181,19 +182,19 @@ def generate_train_json_file():
 def generate_dev_json_file():
     quail = Quail()
     data = []
+    alphabet=['A', 'B', 'C', 'D']
     for (id,example) in quail._generate_examples(quail._DEV_SET):
         instance = {}
         instance['instruction'] = example['question']
         instance['context'] = example['context']
-        # convert_answer_list = [' ' + str(index) + ':' + answer + ', ' for index, answer in enumerate(example['answers'])]
         for index, item in enumerate(example['answers']):
             if index == 0:
-                instance['instruction'] = instance['instruction'] + " options: "+ str(index) + ':' + item
+                instance['instruction'] = instance['instruction'] + " options: "+ alphabet[index] + ':' + item
             elif index == 3:
-                instance['instruction'] += ", " + str(index) + ':' + item + "."
+                instance['instruction'] += ", " + alphabet[index] + ':' + item + "."
             else:
-                instance['instruction'] += ", " + str(index) + ':' + item
-        instance['response'] = example['correct_answer_id']
+                instance['instruction'] += ", " + alphabet[index] + ':' + item
+        instance['response'] = alphabet[example['correct_answer_id']]
         instance['category'] = example['domain']
         data.append(instance)
     with open("./data_download/quail/dev.json", 'w') as write_f:

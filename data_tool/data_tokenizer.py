@@ -34,11 +34,7 @@ class DataTokenizer:
             tokenized_user_prompt = self._tokenize_new_databricks_dolly_15k(user_prompt, add_eos_token=False)
             user_prompt_len = len(tokenized_user_prompt["input_ids"])
 
-            tokenized_full_prompt["labels"] = [
-                                                  -100
-                                              ] * user_prompt_len + tokenized_full_prompt["labels"][
-                                                                    user_prompt_len:
-                                                                    ]  # could be sped up, probably
+            tokenized_full_prompt["labels"] = [-100] * user_prompt_len + tokenized_full_prompt["labels"][user_prompt_len:]  # could be sped up, probably
         return tokenized_full_prompt
     
     

@@ -17,7 +17,9 @@ from model_utils import (
     get_llama27b_model_and_tokenizer,
     cosine_annealing_warm_restart_LR,
     get_lora_peft_model,
-    get_prefix_tuning_peft_model
+    get_prefix_tuning_peft_model,
+    PeftHelper,
+    ModelHelper
 )
 
 # offline
@@ -41,20 +43,29 @@ def main(args):
     if ddp:
         device_map = {"": int(os.environ.get("LOCAL_RANK") or 0)}
         gradient_accumulation_steps = gradient_accumulation_steps // world_size
-    if args.model == 'alpaca':
-        model, tokenizer = get_alpaca_model_and_tokenizer(global_model=args.global_model, device_map=device_map)
-    elif args.model == 'Llama2-7B':
-        model, tokenizer = get_llama27b_model_and_tokenizer(global_model=args.global_model, device_map=device_map)
+    
+    # if args.model == 'alpaca':
+    #     model, tokenizer = get_alpaca_model_and_tokenizer(global_model=args.global_model, device_map=device_map)
+    # elif args.model == 'Llama2-7B':
+    #     model, tokenizer = get_llama27b_model_and_tokenizer(global_model=args.global_model, device_map=device_map)
+    model_helper = ModelHelper(global_model_name=args.model, global_model_path=args.global_model, device_map=device_map)
+    model, tokenizer = model_helper.get_model()
+
     model = prepare_model_for_kbit_training(model)
     
+    peft_helper = PeftHelper(model_name=args.model, peft_method=args.peft_method)
+    model, config = peft_helper.get_peft_model_for_training(args=args, model=model)
+    model.print_trainable_parameters()
+
     data_tokenizer = DataTokenizer(args, tokenizer)
     
-    if args.peft_method == 'lora':
-        model, config = get_lora_peft_model(args, model)
-    elif args.peft_method == 'prefix_tuning':
-        model, config = get_prefix_tuning_peft_model(args, model)
+
+    # if args.peft_method == 'lora':
+    #     model, config = get_lora_peft_model(args, model)
+    # elif args.peft_method == 'prefix_tuning':
+    #     model, config = get_prefix_tuning_peft_model(args, model)
     # since we load the model in 8-bit, so we need to prepare it for training
-    model.print_trainable_parameters()
+    
 
     if not ddp and torch.cuda.device_count() > 1:
         model.is_parallelizable = True
@@ -65,10 +76,10 @@ def main(args):
     start_epoch = 0
     training_from_checkpoint=False
     if(training_from_checkpoint):
-        parameter_path = 'lora-shepherd-7b/cola dirichlet_label_uni 1 10/16/adapter_model.bin'
+        parameter_path = 'lora-shepherd-7b/quail-dirichlet_label_uni-1-10/7/adapter_model.bin'
         peft_weights = torch.load(parameter_path)
         set_peft_model_state_dict(model, peft_weights,"default")
-        start_epoch = 17
+        start_epoch = 8
         
 
     print("The process of federated instruction-tuning has started..")

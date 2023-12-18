@@ -10,19 +10,16 @@ import pandas as pd
 from tqdm import tqdm
 from datasets import load_dataset
 from torch.utils.data import DataLoader
-from model_utils.get_model import get_alpaca_model_and_tokenizer, get_llama27b_model_and_tokenizer
+from model_utils.get_model import ModelHelper
+from model_utils import PeftHelper
 from sklearn.metrics import matthews_corrcoef, f1_score
 from scipy.stats import pearsonr
 # offline
 os.environ['HF_DATASETS_OFFLINE'] = '1'
 os.environ['TRANSFORMERS_OFFLINE'] = '1'
 from peft import (
-    PeftModel,
-    LoraConfig,
-    PrefixTuningConfig,
     prepare_model_for_kbit_training,
     set_peft_model_state_dict,
-    get_peft_model,
 )
 
 from transformers import GenerationConfig, LlamaForCausalLM, LlamaTokenizer,AutoTokenizer
@@ -49,8 +46,7 @@ def cleansed_response_for_acceptability(pred):
             pred[index] = 'acceptable'
     return pred
 def cleansed_response_for_quail(pred):
-    pred = [item[0] for item in pred]
-    pred = [int(item) if item.isdigit() else 4 for item in pred]
+    pred = [item[0] if len(item) > 0 else '4' for item in pred]
     return pred
 cleansed_response_methods = {
     'cola': cleansed_response_for_acceptability,
@@ -101,34 +97,39 @@ class Evaluator():
 
         self.prompter = Prompter(args.prompt_template_name)
         # set legacy=True means use the previous version, to fix the user warning
-        if args.model == 'alpaca':
-            model, self.tokenizer = get_alpaca_model_and_tokenizer(base_model, 'auto')
-        elif args.model == 'Llama2-7B':
-            model, self.tokenizer = get_llama27b_model_and_tokenizer(base_model, 'auto')
+        model_helper = ModelHelper(global_model_name=args.model, global_model_path=args.base_model, device_map='auto')
+        model, self.tokenizer = model_helper.get_model()
+        # if args.model == 'alpaca':                    
+        #     model, self.tokenizer = get_alpaca_model_and_tokenizer(base_model, 'auto')
+        # elif args.model == 'Llama2-7B':
+        #     model, self.tokenizer = get_llama27b_model_and_tokenizer(base_model, 'auto')
         model = prepare_model_for_kbit_training(model)
         if args.be_trained:         # peft微调过
-            if args.peft_method == 'lora':
-                config = LoraConfig.from_pretrained(args.peft_config_path)
-            elif args.peft_method == 'prefix_tuning':
-                config = PrefixTuningConfig.from_pretrained(args.peft_config_path)
-            peft_weights = torch.load(args.peft_weights_path)
-            config.inference_mode = True
-            model = get_peft_model(model, config)
-            # model = PeftModel(model, config)
-            set_peft_model_state_dict(model, peft_weights, "default")
-            del peft_weights
+            peft_helper = PeftHelper(model_name=args.model, peft_method=args.peft_method)
+            model = peft_helper.get_peft_model_for_inference(model=model, config_path=args.peft_config_path, weight_path=args.peft_weights_path)
+
+            # if args.peft_method == 'lora':
+            #     config = LoraConfig.from_pretrained(args.peft_config_path)
+            # elif args.peft_method == 'prefix_tuning':
+            #     config = PrefixTuningConfig.from_pretrained(args.peft_config_path)
+            # peft_weights = torch.load(args.peft_weights_path)
+            # config.inference_mode = True
+            # model = get_peft_model(model, config)
+            # # model = PeftModel(model, config)
+            # set_peft_model_state_dict(model, peft_weights, "default")
+            # del peft_weights
         model.eval()
         self.model = model
 
-    def reset_peft_adapter(self, peft_config_path):
+    def reset_peft_adapter(self, peft_weight_path):
         if self.args.be_trained:
-            peft_weights = torch.load(peft_config_path)
+            peft_weights = torch.load(peft_weight_path)
             set_peft_model_state_dict(self.model, peft_weights,"default")
             self.model.eval()
             del peft_weights
 
     def batch_run(self, batch_input):
-        tokenized_inputs = self.tokenizer(batch_input['full_prompt'], padding='longest', return_tensors="pt")
+        tokenized_inputs = self.tokenizer(batch_input['full_prompt'], padding='max_length', max_length=self.args.cutoff_len, return_tensors="pt")
         tokenized_inputs = tokenized_inputs.to(device)
         generation_config = GenerationConfig(
             max_new_tokens=10,
@@ -168,6 +169,8 @@ def batch_eva_write_to_excel(num_communication_rounds, args_passed=None, write_t
         args.peft_config_path = args_passed.output_dir
         args.peft_weights_path = args.peft_config_path + '/0/adapter_model.bin'
         args.base_model = args_passed.global_model
+        args.cutoff_len = args_passed.cutoff_len
+        args.dataloader_bs = args_passed.local_micro_batch_size
     
     evaluator = Evaluator(args)
     evaluator.model_init()
@@ -175,11 +178,11 @@ def batch_eva_write_to_excel(num_communication_rounds, args_passed=None, write_t
     cols = ['instruction', 'response', 'context', 'category']
     cleared_testset = testset["train"].shuffle().map(evaluator.generate_prompt, remove_columns=cols)
     cleared_testset.set_format(type="torch", columns=["full_prompt", "label"])
-    dataloader = DataLoader(cleared_testset, batch_size=64, drop_last=False)
+    dataloader = DataLoader(cleared_testset, batch_size=args.dataloader_bs, drop_last=False)
     
     for index in range(num_communication_rounds):
         save_excel = pd.DataFrame(columns=["full_prompt", "full_response", "response", "label", "match", "accuracy"])
-        peft_weights_path = os.path.join(args.peft_config_path, str(index), "adapter_model.bin")
+        peft_weights_path = os.path.join(args.peft_config_path, str(6), "adapter_model.bin")
         evaluator.reset_peft_adapter(peft_weights_path)
         all = 0
         correct = 0
@@ -189,6 +192,9 @@ def batch_eva_write_to_excel(num_communication_rounds, args_passed=None, write_t
         list_of_response2 = []
         cleaned_list_of_response2 = []
         labels = []
+
+        # batch_id = 0
+
         for batch in tqdm(dataloader, desc="Evaluating"):
             full_prompt_list, full_response_list, list_of_response = evaluator.batch_run(batch)
             cleaned_list_of_response = cleansed_response_methods[args.dataset](list_of_response)
@@ -199,7 +205,7 @@ def batch_eva_write_to_excel(num_communication_rounds, args_passed=None, write_t
             list_of_response2.extend(list_of_response)
             labels.extend(batch['label'])
             for pred, label in zip(cleaned_list_of_response, batch['label']):
-                if (pred.lower() == label.lower()):
+                if(pred.lower() == label.lower()):
                     correct += 1
                     match_list.extend([1])
                 else:
@@ -207,6 +213,11 @@ def batch_eva_write_to_excel(num_communication_rounds, args_passed=None, write_t
             all += len(batch['label'])
             acc = correct / all
             print(f"Accuracy of the {args.dataset} dataset: {acc:.4f} (Correct: {correct}, Total: {all})")
+            
+            # batch_id += 1
+            # if(batch_id == 100):
+            #     break
+
         save_excel['full_prompt'] = full_prompt_list2
         save_excel['full_response'] = full_response_list2
         save_excel['cleaned_response'] = cleaned_list_of_response2
@@ -236,5 +247,5 @@ def batch_eva_write_to_excel(num_communication_rounds, args_passed=None, write_t
 
 if __name__ == "__main__":
     args = parse_train_args()
-    batch_eva_write_to_excel(args.num_communication_rounds, args, metrics='mcc')
+    batch_eva_write_to_excel(1, args)
 
