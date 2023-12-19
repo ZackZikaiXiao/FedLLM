@@ -1,11 +1,8 @@
 import os
 import sys
 sys.path.append("./")
-import gradio as gr
 import torch
-from parse import parse_eval_args, parse_train_args
-import random
-import json
+from parse import parse_eval_args, parse_args
 import pandas as pd
 from tqdm import tqdm
 from datasets import load_dataset
@@ -22,8 +19,7 @@ from peft import (
     set_peft_model_state_dict,
 )
 
-from transformers import GenerationConfig, LlamaForCausalLM, LlamaTokenizer,AutoTokenizer
-from utils.callbacks import Iteratorize, Stream
+from transformers import GenerationConfig
 from utils.prompter import Prompter
 if torch.cuda.is_available():
     device = "cuda"
@@ -90,34 +86,18 @@ class Evaluator():
         self.output_short_result_file_name = os.path.join(self.output_directory, "short_result.txt")
     def model_init(self):
         args = self.args
-        base_model = args.base_model or os.environ.get("BASE_MODEL", "")
-        assert (
-            base_model
-        ), "Please specify a --base_model, e.g. --base_model='huggyllama/llama-7b'"
+        base_model = args.global_model
+        assert (base_model), "Please specify a --base_model, e.g. --base_model='huggyllama/llama-7b'"
 
         self.prompter = Prompter(args.prompt_template_name)
         # set legacy=True means use the previous version, to fix the user warning
-        model_helper = ModelHelper(global_model_name=args.model, global_model_path=args.base_model, device_map='auto')
+        model_helper = ModelHelper(global_model_name=args.model, global_model_path=args.global_model, device_map='auto')
         model, self.tokenizer = model_helper.get_model()
-        # if args.model == 'alpaca':                    
-        #     model, self.tokenizer = get_alpaca_model_and_tokenizer(base_model, 'auto')
-        # elif args.model == 'Llama2-7B':
-        #     model, self.tokenizer = get_llama27b_model_and_tokenizer(base_model, 'auto')
         model = prepare_model_for_kbit_training(model)
         if args.be_trained:         # peft微调过
             peft_helper = PeftHelper(model_name=args.model, peft_method=args.peft_method)
             model = peft_helper.get_peft_model_for_inference(model=model, config_path=args.peft_config_path, weight_path=args.peft_weights_path)
 
-            # if args.peft_method == 'lora':
-            #     config = LoraConfig.from_pretrained(args.peft_config_path)
-            # elif args.peft_method == 'prefix_tuning':
-            #     config = PrefixTuningConfig.from_pretrained(args.peft_config_path)
-            # peft_weights = torch.load(args.peft_weights_path)
-            # config.inference_mode = True
-            # model = get_peft_model(model, config)
-            # # model = PeftModel(model, config)
-            # set_peft_model_state_dict(model, peft_weights, "default")
-            # del peft_weights
         model.eval()
         self.model = model
 
@@ -149,7 +129,6 @@ class Evaluator():
             data_point["instruction"],
             data_point["context"],
         )
-        # tokenized_prompt = self.tokenizer(full_prompt, padding='longest', return_tensors="pt")
         data_dict = {
             "full_prompt": full_prompt,
             "label": data_point['response']
@@ -160,17 +139,20 @@ class Evaluator():
         with open(self.output_short_result_file_name, 'a') as f:
             f.write(str(index) + " " + str(result) + '\n')
 
-def batch_eva_write_to_excel(num_communication_rounds, args_passed=None, write_to_excel=True, metrics='accurcay', positive_label=None):
-    args = parse_eval_args()
-    if args_passed:
-        args.model = args_passed.model
-        args.peft_method = args_passed.peft_method
-        args.dataset = args_passed.dataset
-        args.peft_config_path = args_passed.output_dir
-        args.peft_weights_path = args.peft_config_path + '/0/adapter_model.bin'
-        args.base_model = args_passed.global_model
-        args.cutoff_len = args_passed.cutoff_len
-        args.dataloader_bs = args_passed.local_micro_batch_size
+def batch_eva_write_to_excel(num_communication_rounds, args, write_to_excel=True, metrics='accurcay', positive_label=None, use_trained_model=True):
+    args.peft_config_path = args.output_dir
+    args.peft_weights_path = args.peft_config_path + '/0/adapter_model.bin'
+    args.dataloader_bs = args.local_micro_batch_size
+    args.be_trained = use_trained_model
+    # if args_passed:
+        # args.model = args_passed.model
+        # args.peft_method = args_passed.peft_method
+        # args.dataset = args_passed.dataset
+        # args.peft_config_path = args_passed.output_dir
+        # args.peft_weights_path = args.peft_config_path + '/0/adapter_model.bin'
+        # args.base_model = args_passed.global_model
+        # args.cutoff_len = args_passed.cutoff_len
+        # args.dataloader_bs = args_passed.local_micro_batch_size
     
     evaluator = Evaluator(args)
     evaluator.model_init()
@@ -182,7 +164,7 @@ def batch_eva_write_to_excel(num_communication_rounds, args_passed=None, write_t
     
     for index in range(num_communication_rounds):
         save_excel = pd.DataFrame(columns=["full_prompt", "full_response", "response", "label", "match", "accuracy"])
-        peft_weights_path = os.path.join(args.peft_config_path, str(6), "adapter_model.bin")
+        peft_weights_path = os.path.join(args.peft_config_path, str(index), "adapter_model.bin")
         evaluator.reset_peft_adapter(peft_weights_path)
         all = 0
         correct = 0
@@ -198,7 +180,6 @@ def batch_eva_write_to_excel(num_communication_rounds, args_passed=None, write_t
         for batch in tqdm(dataloader, desc="Evaluating"):
             full_prompt_list, full_response_list, list_of_response = evaluator.batch_run(batch)
             cleaned_list_of_response = cleansed_response_methods[args.dataset](list_of_response)
-            # cleaned_list_of_response = cleansed_response_for_acceptability(list_of_response)
             cleaned_list_of_response2.extend(cleaned_list_of_response)
             full_prompt_list2.extend(full_prompt_list)
             full_response_list2.extend(full_response_list)
@@ -246,6 +227,6 @@ def batch_eva_write_to_excel(num_communication_rounds, args_passed=None, write_t
             save_excel.to_excel(file_name, index=False)
 
 if __name__ == "__main__":
-    args = parse_train_args()
-    batch_eva_write_to_excel(1, args)
+    args = parse_args()
+    batch_eva_write_to_excel(args.num_communication_rounds, args)
 

@@ -1,5 +1,5 @@
 import os
-from parse import parse_train_args
+from parse import parse_args
 from typing import List
 from tqdm import tqdm
 import torch
@@ -12,15 +12,7 @@ import time
 import datetime
 from fed_utils import FedAvg, client_selection, GenerateClient, batch_eva_write_to_excel
 from data_tool import partition_data, DataTokenizer
-from model_utils import (
-    get_alpaca_model_and_tokenizer,
-    get_llama27b_model_and_tokenizer,
-    cosine_annealing_warm_restart_LR,
-    get_lora_peft_model,
-    get_prefix_tuning_peft_model,
-    PeftHelper,
-    ModelHelper
-)
+from model_utils import PeftHelper, ModelHelper
 
 # offline
 os.environ['HF_DATASETS_OFFLINE'] = '1'
@@ -35,7 +27,7 @@ def main(args):
     assert args.global_model, "Please specify a --global_model, e.g. --global_model='decapoda-research/llama-7b-hf'"
     assert os.path.exists(args.data_path), "Please generate the data files for each client"
 
-    # set up the global model & toknizer
+    
     gradient_accumulation_steps = args.local_batch_size // args.local_micro_batch_size
     device_map = "auto"
     world_size = int(os.environ.get("WORLD_SIZE", 1))
@@ -43,29 +35,17 @@ def main(args):
     if ddp:
         device_map = {"": int(os.environ.get("LOCAL_RANK") or 0)}
         gradient_accumulation_steps = gradient_accumulation_steps // world_size
-    
-    # if args.model == 'alpaca':
-    #     model, tokenizer = get_alpaca_model_and_tokenizer(global_model=args.global_model, device_map=device_map)
-    # elif args.model == 'Llama2-7B':
-    #     model, tokenizer = get_llama27b_model_and_tokenizer(global_model=args.global_model, device_map=device_map)
+    # set up the global model & toknizer
     model_helper = ModelHelper(global_model_name=args.model, global_model_path=args.global_model, device_map=device_map)
     model, tokenizer = model_helper.get_model()
-
+    # since we load the model in 8-bit, so we need to prepare it for training
     model = prepare_model_for_kbit_training(model)
-    
+    # setup peft method
     peft_helper = PeftHelper(model_name=args.model, peft_method=args.peft_method)
     model, config = peft_helper.get_peft_model_for_training(args=args, model=model)
     model.print_trainable_parameters()
 
     data_tokenizer = DataTokenizer(args, tokenizer)
-    
-
-    # if args.peft_method == 'lora':
-    #     model, config = get_lora_peft_model(args, model)
-    # elif args.peft_method == 'prefix_tuning':
-    #     model, config = get_prefix_tuning_peft_model(args, model)
-    # since we load the model in 8-bit, so we need to prepare it for training
-    
 
     if not ddp and torch.cuda.device_count() > 1:
         model.is_parallelizable = True
@@ -74,8 +54,7 @@ def main(args):
     # if you want to resume training from checkpoint
     # set these parameters
     start_epoch = 0
-    training_from_checkpoint=False
-    if(training_from_checkpoint):
+    if(args.resume_from_checkpoint):
         parameter_path = 'lora-shepherd-7b/quail-dirichlet_label_uni-1-10/7/adapter_model.bin'
         peft_weights = torch.load(parameter_path)
         set_peft_model_state_dict(model, peft_weights,"default")
@@ -139,8 +118,8 @@ def main(args):
 
 
 if __name__ == "__main__":
-    args = parse_train_args()
+    args = parse_args()
     # partition_data(args)     
     main(args)
-    batch_eva_write_to_excel(args.num_communication_rounds, args, metrics='accuracy, mcc')
+    batch_eva_write_to_excel(args.num_communication_rounds, args)
     

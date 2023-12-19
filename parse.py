@@ -5,7 +5,7 @@ import os
 # hyperparameters selection
 # model: alpaca, peft method: lora, dataset: cola
 # lr=3e-4, lora_r=8, lora_alpha=16, lora_dropout=0.05, bs=64, micro_bs=32
-def parse_train_args():
+def parse_args():
     GLUE_dataset =["sst-2", "rte", "cola", "qnli", "qqp", "sts-b", "wnli", "mrpc", "mnli"]
     global_model_path = {
         'alpaca': './alpaca_native',
@@ -66,7 +66,7 @@ def parse_train_args():
     parser.add_argument('--cutoff_len', type=int, default=1024, help='Cutoff length, 512 for GLUE, and 1024 for quail')
     parser.add_argument('--train_on_inputs', type=bool, default=False, help='Train on inputs')
     parser.add_argument('--group_by_length', type=bool, default=False, help='Group by length')
-    parser.add_argument('--resume_from_checkpoint', type=str, default=None, help='Resume from checkpoint')
+    parser.add_argument('--resume_from_checkpoint', type=str, default=False, help='Resume from checkpoint')
     parser.add_argument('--prompt_template_name', type=str, default="alpaca", help='Prompt template name')
     args = parser.parse_args()
     args.global_model = global_model_path[args.model]
@@ -87,32 +87,32 @@ def parse_train_args():
 
 
 def parse_eval_args():
-    global_model_path = {
-        'alpaca': './alpaca_native',
-        'Llama2-7B': '/home/jianhuiwei/rsch/jianhui/Llama2-7b-chat/',
-    }
+    # global_model_path = {
+    #     'alpaca': './alpaca_native',
+    #     'Llama2-7B': '/home/jianhuiwei/rsch/jianhui/Llama2-7b-chat/',
+    # }
     parser = argparse.ArgumentParser(description="FederatedGPT-shepherd")
-    parser.add_argument('--model', type=str, default='alpaca', help='which pretrained model to use, now support Llama2-7B and alpaca')
+    # parser.add_argument('--model', type=str, default='alpaca', help='which pretrained model to use, now support Llama2-7B and alpaca')
     # parser.add_argument("--base_model", type=str, default="./alpaca_native", help="Base model path")
-    parser.add_argument('--peft_method', type=str, default='lora', help='which peft method to use, now support lora and prefix_tuning')
+    # parser.add_argument('--peft_method', type=str, default='lora', help='which peft method to use, now support lora and prefix_tuning')
     # if you want to change the evaluation dataset, please modify the arguments here
-    parser.add_argument('--dataset', type=str, default='cola', help='Dataset to evaluate')
-    parser.add_argument("--peft_weights_path", type=str, default="./lora-shepherd-7b/cola-iid-10/0/adapter_model.bin", help="peft weights path")
-    parser.add_argument("--peft_config_path", type=str, default="./lora-shepherd-7b/cola-iid-10", help="peft config path")
+    # parser.add_argument('--dataset', type=str, default='cola', help='Dataset to evaluate')
+    # parser.add_argument("--peft_weights_path", type=str, default="./lora-shepherd-7b/cola-iid-10/0/adapter_model.bin", help="peft weights path")
+    # parser.add_argument("--peft_config_path", type=str, default="./lora-shepherd-7b/cola-iid-10", help="peft config path")
     # if you want to change the evaluation dataset, please modify the arguments here
     parser.add_argument("--be_trained", type=bool, default=True, help="Share gradio interface")        # 修改成true后，才能加载lora模型
     parser.add_argument("--load_8bit", type=bool, default=False, help="Load model in 8-bit")
     
-    parser.add_argument("--prompt_template_name", type=str, default="alpaca", help="Prompt template")
-    parser.add_argument("--server_name", type=str, default="127.0.0.1", help="Server name")
-    parser.add_argument("--share_gradio", type=bool, default=False, help="Share gradio interface")
-    parser.add_argument('--cutoff_len', type=int, default=1024, help='Cutoff length')
+    # parser.add_argument("--prompt_template_name", type=str, default="alpaca", help="Prompt template")
+    # parser.add_argument("--server_name", type=str, default="127.0.0.1", help="Server name")
+    # parser.add_argument("--share_gradio", type=bool, default=False, help="Share gradio interface")
+    # parser.add_argument('--cutoff_len', type=int, default=1024, help='Cutoff length')
     args = parser.parse_args()
-    args.base_model = global_model_path[args.model]
+    # args.base_model = global_model_path[args.model]
     return args
 
 
 if __name__ == "__main__":
-    args = parse_train_args()
+    args = parse_args()
     # args.global_model = 'something_else'
     print(args.data_path)

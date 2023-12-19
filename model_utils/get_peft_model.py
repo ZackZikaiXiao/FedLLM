@@ -28,7 +28,6 @@ class PeftHelper():
         config.inference_mode = True
         peft_weights = torch.load(weight_path)
         model = get_peft_model(model, config)
-        # model = PeftModel(model, config)
         set_peft_model_state_dict(model, peft_weights, "default")
         del peft_weights
         return model

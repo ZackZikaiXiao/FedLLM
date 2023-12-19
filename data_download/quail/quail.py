@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 
 import datasets
 import json
-
+import random
 logger = datasets.logging.get_logger(__name__)
 
 
@@ -141,43 +141,66 @@ class Quail(datasets.GeneratorBasedBuilder):
                     "correct_answer_id": answer_id,
                 }
 
-def generate_train_json_file():
+def generate_original_train_as_json():
     quail = Quail()
     data = []
-    alphabet=['A', 'B', 'C', 'D']
-    correct_answer_index = [[], [], [], []]
-    data_amount_for_each_label = [4657, 3260, 1862, 467]
-    label_to_be_filled = 0
-    for data_index, (id,example) in enumerate(quail._generate_examples(quail._TRAIN_SET)):
-        instance = {}
-        if (example['correct_answer_id'] == label_to_be_filled):
-            data_amount_for_each_label[label_to_be_filled] -= 1
-        else:
-            example['answers'][label_to_be_filled], example['answers'][example['correct_answer_id']] = example['answers'][example['correct_answer_id']], example['answers'][label_to_be_filled]
-            example['correct_answer_id'] = label_to_be_filled
-            data_amount_for_each_label[label_to_be_filled] -= 1
-        if data_amount_for_each_label[label_to_be_filled] == 0 and label_to_be_filled <= 2:
-            label_to_be_filled += 1
-        
-        instance['instruction'] = example['question']
+    for (id, example) in quail._generate_examples(quail._TRAIN_SET):
+        instance={}
+        instance['question'] = example['question']
         instance['context'] = example['context']
+        instance['domain'] = example['domain']
+        instance['response'] = example['correct_answer_id']
+        instance['answers'] = example['answers']
+        data.append(instance)
+    with open("./data_download/quail/original_train.json", 'w') as write_f:
+        write_f.write(json.dumps(data, indent=4))
+
+def generate_train_from_origin_train(change_label_ratio):
+    data_file = open("./data_download/quail/original_train.json", 'r')
+    content = data_file.read()
+    original_data = json.loads(content)
+    random.shuffle(original_data)
+    alphabet=['A', 'B', 'C', 'D']
+    if change_label_ratio:
+        data_amount_for_each_label = [4657, 3260, 1862, 467]
+        label_to_be_filled = 0
+    correct_answer_id_num_for_each_domain = {
+        'fiction': [0, 0, 0, 0],
+        'user_stories': [0, 0, 0, 0],
+        'blogs': [0, 0, 0, 0],
+        'news': [0, 0, 0, 0],
+    }
+    generated_data = []
+    for data in original_data:
+        instance = {}
+        if change_label_ratio:
+            if (data['response'] == label_to_be_filled):
+                data_amount_for_each_label[label_to_be_filled] -= 1
+            else:
+                data['answers'][label_to_be_filled], data['answers'][data['response']] = data['answers'][data['response']], data['answers'][label_to_be_filled]
+                data['response'] = label_to_be_filled
+                data_amount_for_each_label[label_to_be_filled] -= 1
+            if data_amount_for_each_label[label_to_be_filled] == 0 and label_to_be_filled <= 2:
+                label_to_be_filled += 1
+
+        correct_answer_id_num_for_each_domain[data['domain']][data['response']] += 1
+        instance['instruction'] = data['question']
+        instance['context'] = data['context']
         # convert_answer_list = [' ' + str(index) + ':' + answer + ', ' for index, answer in enumerate(example['answers'])]
-        for index, item in enumerate(example['answers']):
+        for index, item in enumerate(data['answers']):
             if index == 0:
                 instance['instruction'] = instance['instruction'] + " options: "+ alphabet[index] + ':' + item
             elif index == 3:
                 instance['instruction'] += ", " + alphabet[index] + ':' + item + "."
             else:
                 instance['instruction'] += ", " + alphabet[index] + ':' + item
-        instance['response'] = alphabet[example['correct_answer_id']]
-        correct_answer_index[example['correct_answer_id']].append(data_index)
-        instance['category'] = example['domain']
-        data.append(instance)
-    # ratio 10:7:4:1, total:10246
-    # 4657 : 3260 : 1862 : 467
-    print(correct_answer_index)
+        instance['response'] = alphabet[data['response']]
+        instance['category'] = data['domain']
+        generated_data.append(instance)
+    data_file.close()
+    random.shuffle(generated_data)
     with open("./data_download/quail/train.json", 'w') as write_f:
-        write_f.write(json.dumps(data, indent=4))
+        write_f.write(json.dumps(generated_data, indent=4))
 
 def generate_dev_json_file():
     quail = Quail()
@@ -203,5 +226,6 @@ def generate_dev_json_file():
 
 
 if __name__ == "__main__":
-    generate_train_json_file()
+    # generate_original_train_as_json()
+    generate_train_from_origin_train(False)
     # generate_dev_json_file()
