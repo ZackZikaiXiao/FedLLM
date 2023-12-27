@@ -15,6 +15,7 @@ from scipy.stats import pearsonr
 import torch.nn.functional as F
 from functools import partial
 import re
+import numpy as np
 
 # offline
 os.environ['HF_DATASETS_OFFLINE'] = '1'
@@ -159,7 +160,10 @@ class Calibrator():
     def run(self):
         if self.method == "cc":     # contextual calibration [Calibrate Before Use: Improving Few-Shot Performance of Language Models]
             prob_mean = self.estimate_bias_cc(self.dataloader)
-            return partial(self.batch_run_cc, prob_mean=prob_mean)        
+            return partial(self.batch_run_cc, prob_mean=prob_mean) 
+        elif self.method == "dc":
+            prob_mean = self.estimate_bias_dc(self.dataloader)
+            return partial(self.batch_run_dc, prob_mean=prob_mean)      
     
     def batch_run_cc(self, batch_input, prob_mean):
         tokenized_inputs = self.tokenizer(batch_input['full_prompt'], padding='max_length', max_length=self.args.cutoff_len, return_tensors="pt")
@@ -225,7 +229,7 @@ class Calibrator():
         for i, batch_input in enumerate(tqdm(dataloader, desc="Evaluating", total=batches_to_process)):
             if i >= batches_to_process:
                 break  
-            tokenized_inputs = self.tokenizer(self.replace_input_with_NA_in_batch(batch_input['full_prompt']), padding='max_length', max_length=self.args.cutoff_len, return_tensors="pt")
+            tokenized_inputs = self.tokenizer(self.replace_input_with_NA_in_batch(batch_input['full_prompt'], content="N/A"), padding='max_length', max_length=self.args.cutoff_len, return_tensors="pt")
             tokenized_inputs = tokenized_inputs.to(device)
             generation_config = GenerationConfig(
                 max_new_tokens=10,
@@ -246,12 +250,102 @@ class Calibrator():
     
         return torch.cat(logits_list, dim=0).mean(dim=0)
 
-    def replace_input_with_NA_in_batch(self, batch_prompts):
+    def replace_input_with_NA_in_batch(self, batch_prompts, content):
         modified_prompts = []
         for prompt in batch_prompts:
-            modified_prompt = re.sub(r'### Input:\n.*?\n', '### Input:\nN/A\n', prompt)
+            modified_prompt = re.sub(r'### Input:\n.*?\n', '### Input:\n' + content + '\n', prompt)
             modified_prompts.append(modified_prompt)
         return modified_prompts
+    
+
+    # DC 的标签偏差估计
+    def estimate_bias_dc(self, dataloader, percent=0.1):
+        """
+        Estimate label bias using Domain-context Calibration (DC).
+        """
+        testset = load_dataset("json", data_files=evaluator.testset_path[args.dataset])
+        cols = ['instruction', 'response', 'context', 'category']
+        cleared_testset = testset["train"].shuffle().map(evaluator.generate_prompt, remove_columns=cols)
+        cleared_testset.set_format(type="torch", columns=["full_prompt", "label"])
+        dataloader = DataLoader(cleared_testset, batch_size=args.dataloader_bs, drop_last=False)
+        
+        np.random.seed(seed)
+        content_free_inputs = sample_random_texts(texts=test_sentences, n_sample=num_samples, seed=seed)
+
+        all_p_y = []
+        for content_free_input in content_free_inputs:
+            prompt = construct_prompt(params, [], [], content_free_input)
+            resp = complete(prompt, 1, params['model'], num_log_probs=params['api_num_log_prob'])
+            p_y = [0] * len(params['label_dict'])
+            for i, answers in params['label_dict'].items():
+                prob = 0
+                for a in answers:
+                    resp = complete(prompt + " " + a, 0, params['model'], echo=True, num_log_probs=1)
+                    prob += np.exp(resp['choices'][0]['logprobs']['token_logprobs'][-1])
+                p_y[i] = prob
+            all_p_y.append(p_y)
+
+        p_y = np.mean(np.array(all_p_y), axis=0)
+        p_y = p_y / np.sum(p_y) # normalize
+        return p_y
+
+    # 使用 DC 方法的 batch_run
+    def batch_run_dc(self, batch_input, prob_mean):
+        tokenized_inputs = self.tokenizer(batch_input['full_prompt'], padding='max_length', max_length=self.args.cutoff_len, return_tensors="pt")
+        tokenized_inputs = tokenized_inputs.to(device)
+        generation_config = GenerationConfig(
+            max_new_tokens=10,
+        )
+        
+        # 设定生成的最大长度，会不会不同数据集不太一样？
+        max_length = 2 + self.args.cutoff_len
+        # 假设 tokenized_inputs 是您的输入数据
+        input_ids = tokenized_inputs['input_ids'].to(device)
+        attention_mask = tokenized_inputs['attention_mask'].to(device)
+        # 获取批量大小
+        batch_size = input_ids.shape[0]
+        # 初始化 W 为对角矩阵
+        prob_mean_inverse = 1.0 / torch.clamp(prob_mean, min=1e-9)
+        num_classes = len(self.tokenizer)  # 词汇表大小
+        W = torch.diag(prob_mean_inverse).to(device)
+        # 找到 'accept' 和 'un' 的索引
+        accept_index = self.tokenizer.convert_tokens_to_ids('accept')
+        un_index = self.tokenizer.convert_tokens_to_ids('un')
+        # 将 W 的对角线上除了 'accept' 和 'un' 索引外的所有元素设为 0
+        for i in range(num_classes):
+            if i != accept_index and i != un_index:
+                W[i, i] = 0.0
+        # 模型生成 token 的循环len(self.tokenizer)
+        self.model.eval()
+        with torch.no_grad():
+            first_step = True
+            while True:
+                # 预测下一个 token 的分数（logits）
+                outputs = self.model(input_ids, attention_mask=attention_mask)
+                next_token_logits = outputs.logits[:, -1, :]
+                next_token_logits = F.softmax(next_token_logits, dim=-1)
+                # 只对首个 logits 应用变换
+                if first_step:
+                    next_token_logits = torch.matmul(next_token_logits, W)
+                    first_step = False 
+                # 应用 softmax 获取概率分布
+                probs = F.softmax(next_token_logits, dim=-1)
+                # 选择概率最高的 token
+                next_tokens = torch.argmax(probs, dim=-1)
+                # 添加新 token 到输入序列
+                input_ids = torch.cat([input_ids, next_tokens.unsqueeze(-1)], dim=-1)
+                # 更新 attention mask
+                attention_mask = torch.cat([attention_mask.to(device), torch.ones((batch_size, 1), dtype=torch.long, device=device)], dim=1)
+                # 检查是否所有样本都生成了结束 token 或达到最大长度
+                if torch.all(next_tokens == self.tokenizer.eos_token_id) or input_ids.shape[1] > max_length:
+                    break
+        # 解码生成的文本
+        response = [self.tokenizer.decode(ids, skip_special_tokens=True) for ids in input_ids]
+        
+        list_of_response = [self.prompter.get_response(res) for res in response]
+        return batch_input['full_prompt'], response, list_of_response 
+
+
 
 def batch_eva_write_to_excel(num_communication_rounds, args, write_to_excel=True, metrics='accurcay', positive_label=None, use_trained_model=True):
     args.peft_config_path = args.output_dir
@@ -290,7 +384,8 @@ def batch_eva_write_to_excel(num_communication_rounds, args, write_to_excel=True
         labels = []
 
         # 做个矫正
-        calibrator = Calibrator(args, "cc", evaluator.tokenizer, evaluator.model, evaluator.prompter, dataloader)
+        cali_method = "dc"  # 或 "dc"
+        calibrator = Calibrator(args, cali_method, evaluator.tokenizer, evaluator.model, evaluator.prompter, dataloader)
         cali_batch_run = calibrator.run()
         
         # batch_id = 0
