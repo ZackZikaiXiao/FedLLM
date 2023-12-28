@@ -1,11 +1,11 @@
 INSTRUCTIONS = {
     "acceptability": [
-        "Would a linguist rate this sentence to be acceptable linguistically? options: acceptable, unacceptable",
-        "How would you consider the linguistic integrity of the preceding sentence? options: acceptable, unacceptable",
+        "Would a linguist rate this sentence to be acceptable linguistically? ",
+        "How would you consider the linguistic integrity of the preceding sentence? ",
         # "Is this test sentence a correct grammatical English sentence?",
-        "Is the following sentence linguistically acceptable? options: acceptable, unacceptable",
+        "Is the following sentence linguistically acceptable? ",
         # "Would the following sentence, by the strictest standards, be considered correct by a linguist?",
-        "Is the next sentence syntactically and semantically acceptable? options: acceptable, unacceptable",
+        "Is the next sentence syntactically and semantically acceptable? ",
         # "Would a linguist find the following sentence to be a valid English sentence grammatically?",
     ],
     "sentiment": [

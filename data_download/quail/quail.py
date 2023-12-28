@@ -227,5 +227,5 @@ def generate_dev_json_file():
 
 if __name__ == "__main__":
     # generate_original_train_as_json()
-    generate_train_from_origin_train(False)
+    generate_train_from_origin_train(True)
     # generate_dev_json_file()

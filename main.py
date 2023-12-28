@@ -55,10 +55,10 @@ def main(args):
     # set these parameters
     start_epoch = 0
     if(args.resume_from_checkpoint):
-        parameter_path = 'lora-shepherd-7b/quail-dirichlet_label_uni-1-10/7/adapter_model.bin'
+        parameter_path = './lora-shepherd-7b/quail-iid-10/4/adapter_model.bin'
         peft_weights = torch.load(parameter_path)
         set_peft_model_state_dict(model, peft_weights,"default")
-        start_epoch = 8
+        start_epoch = 5
         
 
     print("The process of federated instruction-tuning has started..")

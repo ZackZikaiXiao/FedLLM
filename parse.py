@@ -47,10 +47,10 @@ def parse_args():
     # if you want to change the dataset to train, please change the arguments here
     parser.add_argument('--dataset', type=str, default='quail', help='Dataset to use')
     parser.add_argument('--dirichlet_alpha', type=int, default=1, help='dirichlet alpha parameter')
-    parser.add_argument('--partition_method', type=str, default="iid", help='The method used to partition the data, choose from [''iid'', ''dirichlet_label_uni'', ''dirichlet_label'', ''dirichlet_quantity'']')
+    parser.add_argument('--partition_method', type=str, default="dirichlet_label_uni", help='The method used to partition the data, choose from [''iid'', ''dirichlet_label_uni'', ''dirichlet_label'', ''dirichlet_quantity'']')
     parser.add_argument('--client_selection_strategy', type=str, default='random', help='Client selection strategy')
     parser.add_argument('--client_selection_frac', type=float, default=0.4, help='Fraction of clients to select')
-    parser.add_argument('--num_communication_rounds', type=int, default=5, help='Number of communication rounds')
+    parser.add_argument('--num_communication_rounds', type=int, default=20, help='Number of communication rounds')
     parser.add_argument('--num_clients', type=int, default=10, help='Number of clients')
     # FedProx related arguments
     parser.add_argument('--useFedProx', type=bool, default=False, help='Whether or not add proximal term to the loss function')
