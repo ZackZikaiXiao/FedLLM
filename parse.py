@@ -45,7 +45,7 @@ def parse_args():
     # parameters for prefix_tuning
     parser.add_argument('--num_virtual_tokens', type=int, default=5, help='num of virtual tokens for prefix tuning')
     # if you want to change the dataset to train, please change the arguments here
-    parser.add_argument('--dataset', type=str, default='quail', help='Dataset to use')
+    parser.add_argument('--dataset', type=str, default='cola', help='Dataset to use')
     parser.add_argument('--dirichlet_alpha', type=int, default=1, help='dirichlet alpha parameter')
     parser.add_argument('--partition_method', type=str, default="dirichlet_label_uni", help='The method used to partition the data, choose from [''iid'', ''dirichlet_label_uni'', ''dirichlet_label'', ''dirichlet_quantity'']')
     parser.add_argument('--client_selection_strategy', type=str, default='random', help='Client selection strategy')
@@ -63,7 +63,7 @@ def parse_args():
     parser.add_argument('--local_val_set_size', type=int, default=0, help='Local validation set size')
     parser.add_argument('--local_save_steps', type=int, default=3, help='Local save steps')
 
-    parser.add_argument('--cutoff_len', type=int, default=1024, help='Cutoff length, 512 for GLUE, and 1024 for quail')
+    parser.add_argument('--cutoff_len', type=int, default=512, help='Cutoff length, 512 for GLUE, and 1024 for quail')
     parser.add_argument('--train_on_inputs', type=bool, default=False, help='Train on inputs')
     parser.add_argument('--group_by_length', type=bool, default=False, help='Group by length')
     parser.add_argument('--resume_from_checkpoint', type=str, default=False, help='Resume from checkpoint')
