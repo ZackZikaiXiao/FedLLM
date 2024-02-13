@@ -1,0 +1,602 @@
+[
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I am having problems with a  Motif application that when run on another machine\n(with different X paths, etc) can't find the XKeysymDB file.   This causes a large\nwarning output:\n\nWarning: translation table syntax error: Unknown keysym name: osfActivate\nWarning: ... found while parsing '<Key>osfActivate:ManagerParentActivate()'\nWarning: translation table syntax error: Unknown keysym name: osfCancel\nWarning: ... found while parsing '<Key>osfCancel:ManagerParentCancel()'\nWarning: translation table syntax error: Unknown keysym name: osfSelect\nWarning: ... found while parsing '<Key>osfSelect:ManagerGadgetSelect()'\n...\n....\n....\netc.\n\nas the file is in a different location, but Xt seems to only look for it in\nthe place where it is on the machine the app was compiled on.  Is there any\nway to read the XKeysymDB manually with an X/Xt call so that additions to\nthe XKeysymDB can be distributed with the application ?  I have used trace(1)\nto find out what was going on, but I need a fix so that these translations in\nthe ",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "[deletions]\n\n People with advanced science degrees use state of the art equipment\nand spend millions of dollars to simulate tornadoes. But tornadoes\ndo not require intelligence to exist.\n Not only that, the equipment needed is not really 'state of the art.'\nTo study the *products*, yes, but not to generate them.\n\n \n Oh, I will. :->\n\nSincerely,",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI find this method much better myself, too, although I do really\nhate it when the bolt finally comes loose and the wrench and my\nhand both come crashing into my face.  After coming to, which is\nabout 15 minutes later, I change my clothes (because by this time\nall the oil has drained *on* me), and ice my entire face and suck\ndown about 20 Tylenol to ease the pain.  Later in the day I then\nproceed with refilling the engine oil.\n\nIt's just crazy how I try and change the oil on my cars in one\nweekend---I go through about 3 bottles of Tylenol and 2 bags of ice.",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nWhat do photo radar units look like?  Also, what major U.S. cities use it?",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "A new alternative to Scouting for those \"unacceptable to BSA\" for reasons\nof religious or sexual preference:\n\n\nFrom: \"BOYD R. CRITZ, III\" <71611.365@CompuServe.COM>\nSubject: EnviroLeague\n\n\"Birth Announcement\" on March 7, 1993, from EARTH Forum, CompuServe\n                       Information Service\n===================================================================\n \n                     FORMAL ANNOUNCEMENT\n                     -------------------\n \n                                     (SM)\n                        EnviroLeague\n \nA new youth movement,\"EnviroLeague,\" was recently born, according to its\nfounder, Boyd R. Critz, III (CIS ID# 71611,365), of Peoria, Illinois.\nEnviroLeague exists for the education of youth, both male and female, in\nmatters concerning their values related to and responsibility for our\nenvironment.\n \nIncorporated as an Illinois not-for-profit corporation, its Articles and\ninitial applications for a service mark have now been filed.  According to\nCritz, its draft Bylaws contain the follo",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\nI have had the exact same problem, but have not figured out a solution.\nI run a PC with Linux (free-unix) with X11r5 and OpenWindows 3.0, I\nwould appreciate any solutions.\n\newz\n-- ",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Has anyone else been playing with that wincmd utility from PC Magazine?\nIf so, I am having trouble concatenating string variables together and\nneed your help.  For example:\ntemp = \"path\"\ntemp2 = \"file.ext\"\nfullpath = temp+\"/\"\nsay fullpath\t\t\t// output = 'th/'\nfullpath = fullpath+temp2\nsay fullpath\t\t\t// output = 'h/file.ext'\n\nSo, it seems to be dropping the first few characters with each\nconcatenations.  Is it that I am out of memory -- I only have maybe 20\nvariables total -- the article didn't mention memory limits. \n\nemail me if you have an idea or would like to see the actual source and\noutput.  Thanks for your help.\n\t\t-Bo",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThe problem with \"Let's assume\" reasoning is that, taken to the extreme\n(and you're close), you arrive at \"Let's assume this is perfectly OK.\"\n\nThe assumptions you make are big ones. If the system is really secure, then\nwhy does the government have to keep the algorithm secret?  There are plenty\nof encryption algorithms that don't depend upon nondisclosure to be secure,\nso why in the world use one that does?  There are reasons, of course, but\nI certainly can't think of any honest ones.\n\nNext, you assume we can \"trust\" the escrow houses. But the last time I checked,\nEVERY SINGLE BRANCH OF GOVERNMENT has experienced unauthorized disclosure,\ncorruption, and even fabrication, of supposedly secure data. The govt is\nsaying \"Yeah, but NOW we're serious, so you can trust us.\"  Bullcrypt. \n\nAnd finally, although you didn't state it explicitly, you implicitly assume\nthat the warrant mechanism in this country is safe and reasonable. The case\nin Ventura County of a man shot and killed by officers serving a deliberately\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "HHHHEEEELLLLPPPP Meeeeeee!\n\n\tI installed a 256 color svga driver for my windows last week.   \nThis driver was downloaded from ftp.cica.indiana.edu specifically for  \nParadise svga card.  However, after I installed it and when I run windows,  \nthe startup screen in the beginning becomes the old windows 3.0 startup  \nscreen ????!!??!!\n\n\tEverything works fine except the startup screen.  I know the  \nstartup screen must have been changed in the system.ini file (or is it ?)  \nbut I couldn't figure out what to alter!   Can some one help me with this?   \nPlease e-mail to my address:\n\n\tthang@tree.egr.uh.edu  or  thang@jetson.uh.edu\n\nIn addition, can anyone know where can I get a 1024x680 paradise svga  \ndriver (256 color) ?  this is a used computer and I do not have anything  \n(drivers, etc) regarding the driver....",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n  If the emphasis is on the \"in general\", then of course you're\n  correct, since you haven't really said anything.  If we restrict\n  our observations to practiced religions, there are lots of\n  examples of god mandated genocide.  Just ask the Canaanites.  The\n  point is that if you believe in a god, and if you believe he has\n  ordered you to eliminate an entire race, you will likely make the\n  attempt.  After all, if it was OK in the past, it could surely be\n  OK in the present.\n\n\n/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\ \n\nBob Beauchaine bobbe@vice.ICO.TEK.COM \n\nThey said that Queens could stay, they blew the Bronx away,\nand sank Manhattan out at sea.",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI'm not sure about Juha, but another top center, Rauli Raitanen([ss{t)\nis drafted by Jets. Raitanen had very good year and he has played in the\nFinnish nationalteam. I believe that he'll be one of the best finns in\nthis year's WC, if Matikainen(Head coach) elects him to the team.\n",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nAgreed.  Remember, I don't even think of Clipper as encryption in any real \nsense--if I did, I'd probably be a lot more annoyed about it.\n\n\nThat's not for Clinton (or anyone under him) to say, though.  Only the \nfederal and supreme courts can say anything about the constitutionality.\nAnything the administration or any governmental agency says is opinion at \nbest.\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Inguiry by address:er1@eridan.chuvashia.su\n",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "rousseaua@immunex.com writes about heat shock proteins (HSP's) and DNA.\n\nI hate to be derogatory, but in this case I think it's warranted.\n\nHSP's are part of the cellular response to stress.  The only reason they\nare called 'heat shock proteins' is because they were first demonstrated\nusing heat shock.  Dead tissue (ie. meat) is not going to produce ANY\nprotein- because it's DEAD!  \n\nAlso, who cares if the DNA you are ingesting is mutated!?  It will be \ncompletely digested in your stomach, which is about pH 2.  \n\nSome of you worry WAY too much.  Eat a healthy, balanced diet and relax.\n\nMy advice is, if you don't know what you are talking about, it is better\nto keep your mouth shut than to open it and remove all doubt about your\nignorance.  Don't speculate, or at least get some concrete information\nbefore you do!\n\nSherry Olmstead\nBiochemist",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Where do I find the Athena Widgets that are needed for xtdm-2.4.8 ",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "-----BEGIN PGP SIGNED MESSAGE-----\n\n\n   BTW I have not been able to get pgp to produce a signature\n   that I can attatch to the end of this message.  What is \n   the procedure?  Thanks.\n\ntry:\n\tpgp -sat +clearsig=on\n\nThis will do the clearsig signing...\n\nEnjoy!\n\n- -derek\n\nPGP 2 key available upon request on the key-server:\n\tpgp-public-keys@toxicwaste.mit.edu\n\n-----BEGIN PGP SIGNATURE-----\nVersion: 2.2\n\niQBuAgUBK8DNazh0K1zBsGrxAQFoZQLEC/XKXMoDhCPf/AZ3aOQSLfz+6w400UDk\nNg6prxnPuEuSZQEiiusMCVcRcGnWbaVrxFjA1o4yubh01Czcg3ZC9wLJolXlxJn7\niSJh/eTZxmJnNynJxlGs0Ao=\n=4eZb\n-----END PGP SIGNATURE-----",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have a few minor problems with the article posted as proof of \nChrist's resurrection.  \n\nFirst the scriptural quotations:\n\nThis sort of reasoning is such that if you beleive you are justified,\nif not then your beleif is in vain, so you might as well beleive.  Most\nof these quotations are of people who do beleive.  People who would\ntry to justify their own positions.\n\nSecond the logical proof:\n\n\n The period of time that has elapsed from the event growing larger\ndoes not increase the odds that a hoax would be discovered.  In fact\nthe longer a hoax is perpetuated the stronger it becomes.\n\nFinally:\n\nThere is no proof of the resurrection of Christ, except in our spirits\ncommunion with his, and the Father's.  It is a matter of FAITH, belief\nwithout logical proof.  Incedently one of the largest stumbling blocks for\nrational western man, myself included.",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nFirst,Happy Birthday,Val. Second, ESPN's affinity with Patrick has probably\nmore to do with the travel/production costs for a once a week NHN(National Hockey\nNight) affair.(ESPN-ABC owner,Capital Cities, is a company known for being\nquite thrifty with minimal overhead costs. It's quite possible that Jim\nSchoenfeld may be working for doughnuts :-).\n\nGary Thorne and Bill Clement are both NJ-based and the rest of ESPN crew\nresides in the suburban CT with a very close proximity to tri-state area.\nPlus,it makes sense in terms of solid hockey following in the NorthEast\ncorridor(PA-NY-NJ-DC/Maryland). Whereas,in the Adams you have only\n3-American based teams, out of which 2(Buffalo and Hartford) are not\nin Top-20  US TV-markets.",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The subject does not describe the problem I am having very well.  Please read\non...\n\nI am trying to write a function which creates an XtAppContext and a Widget,\ndisplays the widget for a while, then destroys everything and returns.  The\nproblem is that multiple calls to this function cause a variety of problems\nincluding (depending on which calls I make to get rid of things):\n\n- Core Dump\n- BadPixmap X Error\n- Widget not unmapped\n\n\nHere is a simple (C++) program I wrote to show the problem:\n\n#include <X11/Xlib.h>\n#include <Xm/Xm.h>\n#include <Xm/PushB.h>\n\nvoid bla()\n{\n        XtAppContext app;\n        Display *dis = XOpenDisplay(\"\");\n        int junk = 0;\n\n        Widget top=XtAppInitialize (&app, \"test\", NULL, 0, &junk, NULL,\n                NULL, NULL, 0);\n\n        Widget box = XtVaCreateManagedWidget(\"blaaa\", xmPushButtonWidgetClass,\n                        top,\n                        XmNheight, 50,\n                        XmNwidth, 50,\n                        NULL);\n\n        XtRealizeWidget(top);\n        ",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "This is for a friend of mine. Please send answers directly to him (E-Mail\nadress see below )!\n\n\nHIGHSPEED  ANALOG-DIGITAL PC-BOARD\n\nHello LAdies and Gentleman !\n\nI am looking for a highspeed A/D PC-Board with a sampling rate above 250 MHz an a\nresolution of 8-bit. The sampling rate can be arranged by an interleave mode where\nthe time equivalent sampling yields 2, 4 or 8 times higher sampling rate than\nthe A/D-Converter uses in non interleave mode.\n\nThe board must content an A/D-Converter similar to Analog Devices AD 9028 or \nAD 9038 or if available a faster on.\n\nIf you a PC-Board (16-bit slot, ISA) with this specification or better, please\nsend me an EMail\n\nhansch@cdc2.ikph.uni-hannover.dbp.de\n\nor a Telefax to: ++49 / 511 / 7629353\n\n\nThanks in advance for your help !\n\nSincerely\n\n     Matthias Hansch\n     IKPH, University of Hannover, Germany\n\n\n\n---\n\nAndreas Heinbokel\n\nheinboke@tnt.uni-hannover.de",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n: > This is a good point, but I think \"average\" people do not take up Christianity\n: > so much out of fear or escapism, but, quite simply, as a way to improve their\n: > social life, or to get more involved with American culture, if they are kids of\n: > immigrants for example.  Since it is the overwhelming major religion in the\n: > Western World (in some form or other), it is simply the choice people take if\n: > they are bored and want to do something new with their lives, but not somethong\n: > TOO new, or TOO out of the ordinary.  Seems a little weak, but as long as it\n: > doesn't hurt anybody...\n\n: The social pressure is indeed a very important factor for the majority\n: of passive Christians in our world today. In the case of early Christianity\n: the promise of a heavenly afterlife, independent of your social status,\n: was also a very promising gift (reason slaves and non-Romans accepted\n: the religion very rapidly).\n\nIf this is a hypothetical proposition, you should say so, if it's\nfact, you should cite y",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n    No kidding.  The most recent post I saw in alt.privacy.clipper (and I\nhope anyone interested in this topic ends up there) states that Clipper\nhas been in development for over four years.\n\n    I am, however, more than a little PO'd that Clinton put his name on\nthis monstrosity, or even allowed it to get out the door, for that matter.\nHe's already heard from me, and I hope you'll all take the time to voice\nyour extreme displeasure as well.\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\nAlsys has produced a paper outlining how to use C++ with TeleUSE.  You can\nget a copy from your local sales rep or call us at (619)457-2700.\n\nAs mentioned, it is very straight forward using the Dialog language\n(similar to Visual Basic).\n\n\n-- ",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I know it's a long shot, but maybe someone went through this and will have\nsome comments to share.\n\nThe story is this: I bought a car out of state, and I'm trying to get\nthe safety inspection in Pennsylvania. The problem is that the car has \naftermarket tint on all windows except the windshield. The tint is rather\nweak, and you can clearly see the inside of the car through the tint.\n\nThe inspection garage said that they won't pass it unless I get a\nwaiver from the state police. So I went to the state police - the\nofficer told me that aftermarket tint is illegal, and I can get a\nwaiver only for a pre-84 car or for a medical reason. I asked him to\nshow me the section of the vehicle code that says it's illegal.  He\nshowed it to me and the paraghaph said that you can't have tint, if\nyou can't see the inside of the car because of the tint. When I told\nhim that you can in fact see the inside very well, he shut the book\nand said \"It's just illegal, and in fact we can have someone give you\na ticket for it right now.\"",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ": Does anyone know what is available in terms of automated testing\n: of X/Motif applications. I am thinking of a system which I could\n: program (or which could record events/output) with our verification\n: test procedures and then run/rerun each time we do regression\n: testing. I am interested in a product like this for our UNIX\n: projects and for a separate project which will be using OpenVMS.\n\nA question like this is answered in the FAQ, about sharing X windows.\nOne of the answers is XTrap, a record and playback extenstion to X.  You\ncan find it at export.lcs.mit.edu:/contrib/XTrapV33_X11R5.tar.Z.\n\nDoes anyone know of a program which doesn't require an X extension?  Most\nthe the X servers we have at work have vendor extensions which we can't\nmodify, so XTrap doesn't help up.  There is X conferencing software at\nmit, but I don't know how easy it would be to modify it to do record and\nplayback.\n\nAny help would be appreciated.",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nAn excellent idea.\n\n\nWhile I don't know the full scope of the activities of the EFF, \nfrom what little I've seen I think it would be better to lobby for \nstrong cryptography through a distinct organization.\n\nThe EFF has been associated with efforts to prevent the banning of sex\nand pictures newsgroups at various universities. Horror stories about the\ncontents of those groups (e.g. exploitative pictures of possibly underaged\nmodels) have already surfaced in the press. The White House bulletin\nalready raised the specter of drug-dealing and terrorism, which is only one\nstep removed from the old \"crypto-wielding child molester\" argument.  An\nEFF lobbying effort for cryptography would be too easily derailed by the\nconnection to child pornography and the like.\n\nSimilarly, LPF is connected with Stallman and his Gnu project.  In\nlight of, say, the Gnu Manifesto, this means that in a public debate it\nstands to be labelled as \"communist\", \"anarchist hackers\", radical, etc.  \n\nI don't know about CPSR, but if it is an o",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I got the offer to upgrade this weekend. It's $19 + $8.50 shipping and\nhandling. The S+H seem way too steep for just a couple of disks. Sounds\nlike ripoff city. Can this purchased at vendors?\n\n-- ",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "can anyone give me more information regarding endometriosis?   i heard\nit's a very common disease among women and if anyone can provide names\nof a specialist/surgeon in  the north carolina research triangle  park\narea (raleigh/durham/chapel  hill) who is familiar with the condition,\ni would really appreciate it.\n\nthanks. \n\n--Naomi",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI posted a similar query and got these replies which I am testing (so far so\ngood)..\n\n* turn hardware scrolling off before going into windows (24xmode scrolloff)\n\n* in the pif file for dos window, set \"emulate text mode\"\n\n* get the latest drivers from the DiamoND BBS (or cica): dates are 1-20-9.\n",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi everyone,\n\nI'm getting a car in the near future.  I've narrow it down to 300ZX and SC300.\nWhich might be a better choice?\n\nThanks for your opnion,\nDanny\n-- ",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nSigh... my version of 'rn' asked me whether I really want to send this\nposting!\n\nYou may as well know that all this stuff about the secret source of the\nClipper announcement is because of a silly mistake.  I am the administrator\nof csrc.ncsl.nist.gov, alias first.org.  It's a system set up to help out\nthe needs of FIRST, a Forum of Incident Response and Security Teams, which \nincludes a number of world-wide incident response teams such as CERT/CC and\nother places in Europe.  As to the VRFY and EXPN commands, they are normally\ndisabled, since early on we didn't want crackers to find out the names of\nincident response folks on our mailing lists.  We had a disk crash several\nmonths ago which required completely rebuilding the O/S files - same old\nstory, our backups weren't especially helpful.  As you can guess, I didn't\nremember to re-disable VRFY and EXPN until I saw people on the net trying to\nfind out who was behind clipper@csrc...  When I saw people's names posted\nhere, I felt it was time to clear things up",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I posted about this a while ago but without code excerpts noone was \nable to help me.\n\nThe problem is that main_win.win is doing fine, but when I create \ndetail_win.win, it does not receive it's initial expose events until \nmain_win.win receives an event. Here are the relevent calls:\n\nmain_win.win = XCreateSimpleWindow (mydisplay, DefaultRootWindow(mydisplay),\n                myhint.x, myhint.y, myhint.width, myhint.height,\n                main_win.line_thick, fg, bg);\nXSetStandardProperties(mydisplay, main_win.win, main_win.text,\n                main_win.text, None, argv, argc, &myhint);\nmain_win.gc = XCreateGC (mydisplay, main_win.win, 0, 0);\nXMapRaised (mydisplay, detail_win.win);\nXMapSubwindows (mydisplay, main_win.win);\nThe event mask for main_win is:\n\tPPosition | PSize | StructureNotifyMask | ExposureMask| KeyPressMask | \n\tEnterWindowMask | LeaveWindowMask;\nThe flags are\n\tPPosition | PSize\n\nI then create detail_win.win with the following calls (hints has new values):\ndetail_win.win = XCreateSimpleWindow",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "        B.S. about darkness deleted.\n\tnope The Royals are the only team in the majors that have not\n     finished in last place.    ^^^^    Of course this doesn't include \n     the marlins and the rockies but they have a good chance at \n     finishing last also.\n\n\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Archive-name: rec-autos/part5\n\n[this article is one of a pair of articles containing commonly\nasked automotive questions; the other article contains questions\nmore geared to the automotive enthusiast, and so is not crossposted\nto misc.consumers.  -- rpw]\n\n   [changes as of 14 April 1993: revised brake fluid section, as\n    non-silicone DOT-5 fluids are now apparently available -- rpw]\n\n                 Commonly Asked Automotive Questions\n\n\nTire Questions:\n\nQ:  What do the funny numbers on the sides of my tires mean?\n\nA:  Typically, you will see something like 195/60HR14.  the 195 is the\n    overall width of the tire in millimeters, the tread is usually\n    narrower.  The 60 is the `aspect ratio'; it indicates the height of the\n    sidewall of the tire relative to the overall width.  Our example tire\n    has a sidewall height of 0.60 * 195 ~= 117 mm.  The 14 is the wheel\n    diameter in inches; there are also some special tires called `TRX'\n    tires which have three digit metric wheel diameter designations, l",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n1. You need these resources :\n\tXTerm*EightBitInput:    true\n\tXTerm*EightBitOutput:    true\n\n2. In the shell you need to do : \n        stty cs8 -istrip \n\n\nGood luck .\nVictor .",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nYep, it's called OS2!\n",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "In response to a lot of email I've gotten, I need to clarify my position.\n\nI am not in favor of paganism.\n\nI am not in favor of the Easter Bunny or other non-Christian aspects of\nEaster as presently celebrated.  (Incidentally, Easter eggs are not\nnon-Christian; they are a way of ending the Lenten fast.)\n\nMy point was to distinguish between\n  (1) intentionally worshipping a pagan deity, and\n  (2) doing something which may once have had pagan associations, but\nnowadays is not understood or intended as such.\n\nMany people who are doing (2) are being accused of (1).\n\nIt would be illogical to claim that one is \"really\" worshipping a\npagan deity without knowing it.  Worship is a matter of intention.\nOne cannot worship without knowing that one is doing so.",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nNo, the poster (me) has his brain in the wrong gear.  As you can infer\nfrom the first sentence, I meant the consequences of no backup are *better*\nthan the consequences of an easy to copy database.",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\nIt is good to remember that every translation is to some extent an\ninterpretation, so (as you point out below) one must really go back to\nthe original Arabic.  Regarding the verses relevant to nature, I prefer\nto use Dr. Maurice Bucaille's translations (in his book, \"The Bible, the\nQur'an and Science\") for in general his translations are more literal.\n \nMaurice Bucaille translates the portion of the verse you are addressing\nas \n\n\"...Each one is travelling with an orbit in its own motion.\"\n\n(Also note that \"the celestial bodies\" in the first translation quoted\nby you above is the translator's interpolation -- it is not existent in\nthe original Arabic, which is why it is included in brackets.) \n\n\nYou're right, what the verses _do_ contain isn't all that remarkable.\n\nHowever, Dr. Bucaille (a surgeon, that's how he's a \"Dr.\") thinks it is\nsignificant that the above verse contains no geocentric ideas, even\nthough geocentrism was all the rage up until the 17th century (?) or so.\n(And this goes for the rest of t",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Archive-Name: rec-autos/part6\n\n[New article as of 4 February 1993 -- rpw]\n\n\nMany people want to set up mailing lists for their favorite\nautomotive topics; rather fewer know how to do it.  This article\nwill provide the essential information for doing so on standard\nUnix systems.  A shell script and examples of alias file setups\nare included which presently run on a Sparc 2 here at balltown.cma.com\nfor a number of mailing lists.  Note that if you do set up an automotive\nmailing list, please let me know of the -request address so that I can\nlist it in the montly rec.autos posting.  Also inform the keeper of the\nUsenet list-of-lists (check news.answers for this monthly posting.)\n\nFirst of all, to get anywhere, you need to either 1) be a sysadmin,\nor 2) have some measure of assistance from your sysadmin.  It is also\nimportant that you have reasonably good network connectivity; if it seems\nlike you get everything several days after anyone else, or that you\nhave trouble getting email through, then your network conne",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI guess it either had the top down, or the hail ripped through the top, as\nyou could not do $10k worth of hail damage to a Miata body. ",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\n\n\n\n\n\n\n",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "...\n\n\tIt's amazing how everyone automatically blames one side or the other.\n\tOne thing for sure:  Koresh will have no chance to defend himself\n\tagainst the statements (lacking in fact or COurt sponsored verification)\n\tmade  by agents who participated in the situation that killed him.\n\n\t\tI don't know they murdered him; I also don't know\n\t\tthat the Branch Davidians set a fire and suicidede.\n\n\t\tIt is SICK of BATF or FBI spokepeople to make such\n\t\tcomments in advance of forensic pathology.\n\n\tStephen:  thank you.  God speed.  \n\n\n\tYah.\n\n\n\tBINGO.  Am I the only one  to notice:\n\ta)\tNo peaceful attempt to serve a warrant.\n\tb)\tSix months to develop a scene and six days to end it?\n\tc)\t.... ah God:\n\n\t\t\t25 children\n\t\t\tat least 64 adults\n\t\t\tplus 6 at the beginning\n\t\t\tand more BATF agents\n\n\t\t\tall dead.\n\n\n\tHas anyone asked themselves these questions:\n\n\t1)  Have you seen the ENTIRE video sequences taken during the\n\t  opening rounds?  I seem to recall missing several key parts:\n\t\ta)  The first five minutes of day one; only the",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "it doesnt matter what window mgr you running under, you can use the X\nroutine:\n\tXIconfiyWindow(display, w, screen_number)\n\t\tDisplay *display;\n\t\tWindow w;\n\t\tint screen_number;\n\nas in\n\n\tXiconifyWindow( XtDisplay(w), XtWindow(w), 0);\n\ndoes that perform what you want??\n\n\n\n   Newsgroups: comp.windows.x\n   Path: shearson.com!uupsi!psinntp!uunet!haven.umd.edu!darwin.sura.net!wupost!zaphod.mps.ohio-state.edu!magnus.acs.ohio-state.edu!csn!teal.csn.org!doomer\n   From: doomer@teal.csn.org (John Dumais)\n   Sender: news@csn.org (news)\n   Nntp-Posting-Host: teal.csn.org\n   Organization: Colorado SuperNet, Inc.\n   X-Newsreader: Tin 1.1 PL4\n   Date: Thu, 15 Apr 1993 05:35:22 GMT\n   Lines: 8\n\n   I've been trying to figure a way to programmatically iconize \n   an application running under a Motif window manager.  I have tried\n   several approaches includeing sending events to the application's\n   border window, but to no avail?  Anyone done this before?\n\n   Thanks,\n\n   doomer '85\n--",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Well, it looks like the folks in soc.religion.islam have loosened up\na bit and are discussing this topic as well as the banking/interest\ntopic.  A few books on the subject have also been mentioned in addition\nto the one you mentioned.  These may be hard to find, but I think I may\ntake a stab at it out of curiosity.  I know the one film I saw on this\nsubject was pretty weak and the only two quotes I have seen which were\nused to show science in the Koran (which I posted here) were also pretty \nvague.  I suspect that these books will extrapolate an awful lot on the\nquotes they have.\n\nAt least one poster on the Islam channel seems to have some misgivings\nabout the practice of using the Koran to decide what is good science.\n\nI wonder if Islam has ever come up with the equivalent of the Christians\n\"Creation Science\" on any topic.  It would be interesting to find a history\nof scientific interpretations of the Koran, to see if anyone used the Koran\nto support earlier science which has since been discarded.  It is all",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "What is the expected run time (+/- a factor of 10) on a 486DX/50\nusing the best known algorithm for finding the shortest path\nsolution for Rubicks Cube from a randomly chosen position?\n\nI have read the FAQ and followed the recent discussion on Rubicks\nCube but I don't believe this question has been answered.  Notice\nthat I am specifically looking for an algorithm that finds the \nSHORTEST path, not just any solution.\n\nIt seems to me that the underlying assumption is that such a program\nwould need to do a brute force search though 10^20 positions.  That\nseems an unreasonably pessimistic assumption to me and I want to \nknow if someone has significantly improved on that.\n\nI have some ideas of my own on how to approach this problem, but\nbefore I spend to much time developing them I wanted to know if\nsomeone else has already done the work.\n\nADMINISTRIVIA:  I have posted this to three groups and attempted\nto set the followup to rec.puzzles which seems to me to be the\nplace to continue this discussion.  I will cross ",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI don't think they're paying for it.\n\n\nUseful?  I find his estimate of the annual value to law enforcement\nof $5 million quite useful, if rough (e.g. wiretaps may be\npreferentially used on otherwise-hard-to-catch criminals, resulting\nin an underestimate).  This comes to twenty cents a head over the\nU.S. population.  I would find some rigorous numbers on this quite\nuseful -- it would make for nice slogans: \"Your privacy is worth\n$0.37\", or whatever it turns out to be.\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n  Let me add another of my concerns: Yes, I can buy a port of Motif for \"cheap\",\nbut I cannot get the source for \"cheap\", hence I am limited to using whatever X\nlibraries the Motif port was compiled against (at least with older versions of\nMotif. I have been told that Motif 1.2 can be used with any X, but I have not\nseen it myself).\n\n  Currently, I have X11R5 running on eight different unix platforms, of which\nonly three came with Motif. On those three, I am unable to use the X11R5\nlibraries to build Motif clients, because I get link errors between the\nvendor-supplied port of Motif and my X11R5. I anticipate having this same\nproblem when X11R6 becomes available.\n\n  The result is that I cannot build Motif clients that rely on X11R5, since I do\nnot have Motif compiled under X11R5. True, I could buy another port of Motif,\nbut that sort of ruins the whole idea of \"free\", doesn't it?\n\n    Cheers,\n\n    Tom McConnell",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nEven if they somehow address this issue it is unlikely to be the only\nback door in -- they might even have a few intentionally visible to\ndistract from the ones that aren't visible.\n\n--\nPerry Metzger\t\tpmetzger@shearson.com",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I am in the process of modifying an X application that uses Xlib.  I'd\nlike to include a timer-driven facility (for network polling), but cannot\nsee how to do it using Xlib.  I know it can be done with Xaw, using\nXtAppAddTimeout and XtTimerCallBackProc.  How do I do the same using\nXlib?\n\nThanks for any help.  Please email.\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello fellow humans, and other net creatures...\n \nIf you're at all interested in this merchandise, please e-mail me:\ndjk@ccwf.cc.utexas.edu\n \nI'm compacting my system and moving to a single monitor system, so I have\ntwo monitors and cards for sale. Nothing at all is wrong with these pieces,\nI'm just wanting to conserve desk space, and get all of my info from one\nscreen.\n \nI'd prefer to sell to people near Austin and surrounding areas (within\ndriving distance - like an hour away perhaps), but I CAN ship to you if you\ndon't live near here. Only problem is that I didn't keep the original boxes\nfor the monitors, but I'm confident that my few months of full-time service\nin the shipping room will enable me to safely package the monitors and\nflip it in your direction.\n \nDetails:\n \nMirror Full Page Display (monochrome) w/nubus card:\n---------------------------------------------------\n \n**SOLD**\n \nSony 1304 14\" color monitor:\n----------------------------\nWhat's to say? It got top ratings in last year's MacUser report.",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI wouldn't bother with the copy protection, if I were you.  If you program\nis any good, the pirates will have stripped the protection and will be\ndistributing the stripped version is well under a week.\n\nHardware methods prevent J. Random Loser from using his Copy II PC to pirate \nyour software, but doesn't stop anyone who knows a few people with enough \nconnections to \"real\" pirates who _will_ be able to defeat your \"check for the \nhole\" code.\n\nYou may want to price your software (depending on what it is) a tad\nhigher... a price change from $15 to $25 probably would turn off very few\npotentials buyers, and that way you could tolerate more pirates (whose\nnumbers don't change with the price).\n\nAs for the 20% pirating figure... ha, ha.  Of course, a lot of pirates just\nhave this \"thing\" about having pirated software, even if they never use it,\nso perhaps that really wouldn't count towards 20%.  Even so, 20% is awfully\nlow.\n\n\n\t\t\t\t\t---Joel Kolstad",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nHomosexual Christians have indeed \"checked out\" these verses.  Some of\nthem are used against us only through incredibly perverse interpretations.\nOthers simply do not address the issues.\n\nYou would seem to be more in need of a careful and Spirit-led course\nin exegesis than most of the gay Christians I know.  I suggest that\nyou stop \"proof-texting\" about things you know nothing about.",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "comp.windows.x\n\n\tPlease igore my previouse calculation mistaked. Please see the correct\ncalculation. Sorry!\n x3 = 300;\n @ = art tan (500 - 270)/(800 - 100)) = 18.19 degrees;\n y3 = 100 + (300 - 270)/tan(@) = 191.29 ~= 191 integer\n\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I  am  cleaning  out  the coffers.  I have a virtually \n          MINT collection of HEAVY METAL magazine.  This is  NOT \n          a  music  mag  but the really neato mag with Giger and \n          Moebius  artwork,  et  al.  Jam  packed  with  amazing \n          sci-fi  and  fantasy artwork by many masters.  All are \n          mint with the exception of the 3 that have split  seam \n          on  the  cover  only but are otherwise perfect, no cut \n          outs or missing pages.  I have Sep, Nov and Dec issues \n          for 1978, ALL issues for 1979, 1980, 1981, 1982,  1983 \n          and  Jan  thru  Sep  for  1984  (72  issues  in  all i \n          believe).  I will not break  them  up.  They  will  be \n          sold  as  a  single  lot.  Send  your  offers  to  me. \n          Shipping not included,  these  are  pretty  heavy.  Of \n          course  if  you are local (Mass, USA) you can come get \n          'em in person. ",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Archive-name: Xt-FAQ\nVersion: $Id: FAQ-Xt,v 1.28 93/04/02 12:41:12 ware Exp $\n\n\t\t    The X Toolkit Intrinsics F.A.Q\n\t\t\t  A monthly posting\n\n\nThis article contains the answers to some Frequently Asked Questions\n(FAQ) from comp.windows.x about the X Toolkit Intrinsics.  To submit\nquestions (preferably with an answer) send email to: ware@cis.ohio-state.edu\n\nMany FAQs, including this one, are available on the archive site\nrtfm.mit.edu in the directory pub/usenet/news.answers.  The name\nunder which a FAQ is archived appears in the Archive-name \nline at the top of the article.  This FAQ is archived as Xt-FAQ.\n\nAll code fragments are public domain.  \n\n\t\t\t       Contents\n0.  Xt Glossary\n1.  Software Versions\n2.  Related FAQ's\n3.  Why does my application core dump when I use signals/alarms/cthreads?\n4.  How do I use a different visual than the default?\n5.  Which visual should an application use?\n6.  Why do only Shell widgets have a Visual?\n7.  Which visual, depth and colormap do Shells inherit?\n8.  I've done all the a",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I've got a 386 20Hz computer which is under warranty and my Trident\n8900C video card is starting to play-up (surprise, surprise). Therefore\nI'm going to try to exchange it for a better card.\n\nThe BIG Question is:\n\nWhich video card is high quality and with an\nacceptable price tag (on student budget) ???",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Internal DOS commands (certainly 3.3 and before) do not set the exit\ncode. This is a royal pain if you want to do anything which checks for\nsuccessful deletions etc. The best suggestion is to use 4dos which\ndoes return you exit codes. It also has move command,\n\n\tSimon.\n\n-------------------------------------------------------------------------------\nSimon Rowe,                                   srowe@fulcrum.co.uk\nFulcrum Communications Ltd,\nBirmingham,\t\t\t         Condition \"BRAIN_OVERLOAD$\" raised at\nENGLAND.\t\t\t\t 5412(0)/12234",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nThere is a rite like this described in Joseph Campbell's\n_Occidental_Mythology_.  He also described levels of initiation, I think\n6?  I don't know where Campbell got his info, but I remember thinking he\nwas being a little eclectic.\n\n\nQuite a bit.  If you haven't read Campbell, give him a try.  \n",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Excerpts from netnews.comp.windows.x: 23-Apr-93 X Toolkits Paul\nPrescod@undergrad.m (1132)\n\n\n\nIf you're on the internet and your site isn't sheltered from external\ntcp/ip traffic, you can use the Remote Andrew Demo to see what the\nAndrew Toolkit looks like:\n\nRemote Andrew Demo Service\n\nThis network service allows you to run Andrew Toolkit applications\nwithout the overhead of obtaining or compiling the Andrew software.  You\nneed a host machine on the Internet, and you need to be running the X11\nwindow system.  A simple \"finger\" command will allow you to experience\nATK applications firsthand.  You'll be able to compose multimedia\ndocuments, navigate through the interactive Andrew Tour, and use the\nAndrew Message System to browse through CMU's three thousand bulletin\nboards and newsgroups.\n\nTo use the Remote Andrew Demo service, simply run the following command\non your machine:\n\n    finger help@atk.itc.cmu.edu\n\nThe service will give you further instructions.   ",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "// Hope I am in the right group! I'm using BC++'s ObjectWindows (version 3.1),\n// trying to get some date processed in a window object. However, when invoking\n// the window object, the calling program gives up the control to the window\n// object, and keeps executing the next statement. The source code may look\n// like the following:\n\nclass MyWindow : public TWindow\n{\n\t...\n};\n\nvoid MyCallingProg(...)  // Could the calling program be a C function?\n{\t...\n\tMyWindow *MyWinObj;\n\tMyWinObj = new MyWindow(...);\n\tGetApplication()->MakeWindow(MyWinObj);\n\tMyWinObj->Show(SW_SHOWNORMAL);",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "How can I obtain public information (documentation and sources)\nabout Xservers implemented with graphics processors?\n\nI am specially interested in Xservers developed for the TMS34020\nTexas Instruments graphic processor.",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Bill Burns was looking for a description of the differnces  between the\nCatholic and Lutheran churches.\n\nI'd recommend Prof. William Whalen's book \"Separated Brethren\".  It's\nan overview of common US denominations, intended for a Catholic\naudience.\n",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have an IBM and run Windows 3.1.  A friend installed Norton Desktop For\nWindows on top of this.  It loads automatically when I type \"win\", and\nsurely adds to the (already dismally slow) process of starting up.\n\nI would like to know how to STOP or uninstall this program!!\n\nI have taken it out of win.ini, but it still pops up running with windows.\nI did a big search and found reference to it in ndw.ini, system.ini and\nprogman.ini.  Removing it here causes a failure when starting up windows\n(progrman.ini has a \"group 7 = ...ndw.exe...\" which can't be deleted.)\n\nIs there anyone familiar with NDW who can tell me how to turn it off??\n\n\t\tthanks!\t\tChet",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi all News Group users:\nDoes anyone know whether there is some software which will let one do\nText to Speach like the Sound Blaster does?\nHal Adam,  HADAM@bcsc02.gov.bc.ca\n",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Windows Shareware Monthly (WSM) is an on-line forum for information about the\nnewest and best Windows 3.x and NT shareware/freeware software. \n\nWSM is a compilation of submissions from shareware/freeware authors in a single\nWindows .HLP (Help System) file.  All types of software may be submitted for\nentry in WSM - utilities, applications, games, programming tools, etc.\n\nWSM benefits Windows shareware/freeware authors by allowing them to publicize\ntheir software releases, inform users of updated versions, and to increase\ntheir installed base of users.  Those searching for specific Windows software\nwill benefit by having a complete list of available software available at their\nfingertips - complete with feature lists, current prices, and any other\nrelevant information.\n\nWindows software authors may submit entries to Windows Shareware Monthly in the\nfollowing manner:\n\n1. Compose a short summary of the function of the software.  Include all\n   special features which are unique to your product and which set it apa",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nHow do you spell \"tuna helper\" ? ",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n:      For all the problems technology has caused, your types have made\n: things even worse.  Must we be reminded of the Inquisition, Operation\n: Rescue, the Ku Klux Klan, Posse Comitatus, the 700 Club, David Duke, Salem\n: Witch Trials, the Crusades, gay bashings, etc.\n:      PLUS virtually each and every single war, regardless of the level of\n: technology, has had theistic organizations cheering on the carnage\n: (chaplains, etc.), and claiming that god was in favor of the whole ordeal. \n: Don't forget to pray for our troops!\n:      \n\nThis is really tedious. Every bad thing that's ever happened is\nbecause the malefactors were under the influence of religion - does\nanyone -really- believe that. I've seen it so often it must be a\npretty general opinion in a.a, but I want to believe that atheists are\nreally not THAT dishonest. Please, stick to the facts and, having\naccomplished that, interpret them correctly.",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nHrm. Sandy Alomar, 24 year old rookie: 132 games, .290/.326/.418. Threw\nout a few baserunners. Benito Santiago, 22 year old rookie: 146 games,\n.300/.324/.467. He threw out a few baserunners, too. Ivan Rodriguez,\n*20* year old rookies: 88 games, .264/.276/.354. Didn't exactly suck\nbehind the plate.\n\n\nTrue. Which only makes it more important to realize when you have one of the\nfew. Lopez' season last year, adjusted to major league equivalencies, was\n.306/.330/.472, 15 HRs. How bad does he have to be behind the plate for that\nto not be better than Olson's .238/.316/.328?\n\n Mike Jones | AIX High-End Development | mjones@donald.aix.kingston.ibm.com",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nThe big-bang model supposes a temporal singularity at the point of\norigin. There was _no_ time for a prior cause to occur in. If you\nwant to invent fables for the surrounding context, fine, but one fable\nis only as good as any other. Why should I prefer to believe in a God that\n_just_ exists, as opposed to a singularity that _just happened_, or \ngiant puce subspace iguanas, that fling universes off their tongues\nlike gobs of spit?\n\n\n\nJust your opinion, and unfortunately wrong. Self assembling molecules\nhave already been produced, entirely from inert matter, and have\nspontaneously mutated into a more rapidly assembling form on exposure\nto ultraviolet light. Both abiogenesis and the beginnings of evolution,\nTODAY. (saw this in \"Nature\", early last year.)\n\nBiological vitalism is dead, and has been dead for many, many years.\nGive it up. Life is not a 'spark'. Life is the self-organization\nof systems poised between chaos and order.\n\n\nYour King baldly and repeatedly stated he would be back within the lifetime\nof ",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\nNo, he gives the keys to the FBI (who may then give them to the local police\non request) who then simply put some alagator clips on your phone junction\nbox and conduct an illegal tap. They then decrypt when they recover the tape.\nIts just doing what the government does best: breaking the law.",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThe 4-bit server should work fine.  As far as I know, Xterminals\nrunning older versions can run the latest apps as long as the host \nmachine has the R5 libraries installed. I could be wrong though.\n-- \nmike@hopper.acs.virginia.edu ",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "As the subject says - Can I use a 4052 for digital signals?  I don't see\nwhy it couldn't handle digital signals, but I could be wrong.  Anyone have\nany advice?  Thanks.\n",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "We have received a number of requests for a reposting of the\nInternational Obfuscated C Code Contest rules and guidelines.  Also\nsome people requested that these rules be posted to a wider set of\ngroups.  Sorry for the cross posting.\n\nSome technical clarifications were made to the rules and guidelines.\n(See the diff marks at the right hand edge)  The rules and guidelines\nfor this year remain the same, so people who have already or are\nin the process of submitting entries for the 1993 IOCCC need not worry \nabout these changes.\n\nchongo <Landon Curt Noll> /\\cc/\\        chongo@toad.com\nLarry Bassel                            lab@sun.com\n\n=-=\n\n#!/bin/sh\n# This is part 02 of a multipart archive\n# ============= mkentry.c ==============\necho \"x - extracting mkentry.c (Text)\"\nsed 's/^X//' << 'SHAR_EOF' > mkentry.c &&\nX/* @(#)mkentry.c\t1.25 4/5/93 15:58:08 */\nX/*\nX * Copyright (c) Landon Curt Noll & Larry Bassel, 1993.\nX * All Rights Reserved.  Permission for personal, education or non-profit use\nX * is granted provide",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "[deleted]\n\nThe person who was telling me about the Septuagint version said that the Greeks\nhad a wonderful library in Alexandria that was full of manuscripts/scrolls\nand that it was burned soon after the Septuagint version was translated \n(perhaps to conceal some changes in the different versions, or perhaps just\nas part of the typical burning of valuable things that occurs during changes\nin power groups, he/I dunno).\n\n\n\nWell, perhaps this is the answer then.\n\n[deleted]\n\nThanks for the tips.  Now I just have to find someone to teach me Samaritan :)\n\nJust me,\n\nlittle 'e'\n\n(so, is a \"good Samaritan hard to find?\" or \"is a hard... \" Oh, finish this\nyourself.)\n",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n  You haven't fully explained the atheist position.  Many theists believe that\nthere is \"no proof of the existence of God\" but choose to believe in him\nanyway.  I haven't yet found an argument for atheism that can't quickly be\nbroken down to unprovable assumptions.  This isn't a problem with me (everybody\nneeds to have a faith) but if you believe that you can provide a \"purely \nlogical\" argument for the nonexistence of God, I'd really like to see it.\n\n\n\n  Ahh...but when you use science and reason, you have faith in certain beliefs\nof the scientific method--for example:\n\n  The physical laws of the universe are stable.\n  Our observations of reality are a valid basis for a determination of truth.\n  Objective reality exists.\n  Logical argument is a valid way to answer all questions.\n  \n  Can you prove any of these?",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Kent:\n\n     You say that\n\n                      ^^^^^^^^^\n                        Please don't!  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\n     Name just three *really* competing Rosicrucian Orders. I have\nprobably spent more time than you doing the same. \n\n     None of them are spin-offs from O.T.O. The opposite may be the\ncase. \n\nStudy Harder,",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I'm having an X resource problem using Brian Wilson's wscrawl 2.0\n(a wonderful interactive conferencing program, by the way).  I'm \nrunning OpenWindows 3.0 on a SPARC 1+ under OS 4.1.3.  I have\nthe following defaults in my .Xdefaults file (among many others):\n  wscrawl.telePointerName:\tKevin\n  wscrawl.syncScrollbars:\t\tTrue\n  wscrawl.continuousTelePointer:\tTrue\n  wscrawl.showPointerCoordinates:\tFalse\n  wscrawl*background:\t\tLightBlue\n  wscrawl*swindow*foreground:\tyellow\n  wscrawl*draw_area_frame*foreground:\tBlue\n  wscrawl*keyboardFocusPolicy:\tpointer\n\nNaturally, I exited the server and restarted it after adding\nthose lines to .Xdefaults .\n\nIf I run the following from a cmdtool (pwd = my home dir.):\n  xrdb -m .Xdefaults\nand then start up wscrawl, then all those defaults are used\nproperly.  Wonderful, yes?  Except that I can't get them to be\noperative except by *manually* invoking the afore-mentioned\nxrdb command.  If I try:\n  xrdb .Xdefaults\nthe defaults \"won't take.\"\n\nSo, I tried to change the xrdb call in my .",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "could \nconvenient\nthen\nand\ncalled Global\nearth. \nget\nmeters (on\n\nThought it means Global Positioning System. There are two precision levels, one  \nfor army applications (killing has to be very accurate today) and one for civil  \nones. The civil precision is about 20 to 30m (correct me, if I'm wrong),  \nthough, it may be insufficiant for mapping buildings. But there is a way with  \nan additional reference point (e.g. one fixed GPS system in a house) to get the  \nsame high precision as the military version, but it gets pretty complicated  \nthen. If You use a microwave system (actually this means some type of radar),  \nYou need quite a lot of number crunching to get accurate vectorized data out of  \nYour original signals. So the GPS system seems to be the better (and running)  \nidea for Your application(there have been discussions in this newsgroup, don't  \nknow of an address anymore).\n\nCheers    Robert   (HB9NBY) ",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\nIf these folks are who I think they are, Lyme-knowledgeable may\nmean a physician to whom everything that walks in the door is\nlyme disease, and you will be treated for lyme, whether or not\nyou have it.  Hope you have good insurance.\n\n\n\n-- \n----------------------------------------------------------------------------\nGordon Banks  N3JXP      | \"Skepticism is the chastity of the intellect, and\ngeb@cadre.dsl.pitt.edu   |  it is shameful to surrender it too soon.\" ",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "From article <1qkkl5INNbvo@hp-col.col.hp.com>, by theckel@col.hp.com (Tim Heckel):\n\n--When I was selling Nissans last summer, I sold a '92 SE-R in early August\n  when its supply was getting quite scarce.  The car was black with ABS, \n  Value Option Pkg, and power moonroof.  I sold it for $12,900 plus tax.\n  Naturally, my manager didn't really care to sell one of the most desirable\n  SE-R's for virtually no profit (to the best of my knowledge).....\n\n--Aamir Qazi\n\n-- ",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI had the exact same failure with the 24X and Word for Windows.\nA quick call to Microsoft indicated it was problem with the\n24X drivers. You need to call Diamond and get the new drivers,\nI think version 2.03 fixes the above problem, there may be later\nversions that I'm unaware of...\n\n ",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n  Yup. I agree with ya. I think Devils can beat Red Wings easily. SO I think\n  all those who send in their votes should try all these diffrent teams\n  before voting. I think Islanders and Quebec are much better then I had\n  expected.\n\n  COBRA\n\n",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Looking for people to buy brand new software packages including Microsoft\nWindows, Harvard Graphics, Pagemaker, Paradox, Lotus, etc. at 20-25% off\nlist price.",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "sorry about that last post, my server neglected to send the message:",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n: Regardless of people's hidden motivations, the stated reasons for many\n: wars include religion.  Of course you can always claim that the REAL\n: reason was economics, politics, ethnic strife, or whatever.  But the\n: fact remains that the justification for many wars has been to conquer\n: the heathens.\n\n: If you want to say, for instance, that economics was the chief cause\n: of the Crusades, you could certainly make that point.  But someone\n: could come along and demonstrate that it was REALLY something else, in\n: the same manner you show that it was REALLY not religion.  You could\n: in this manner eliminate all possible causes for the Crusades.\n:         \n\nScott,\n\nI don't have to make outrageous claims about religion's affecting and\neffecting history, for the purpsoe of a.a, all I have to do point out\nthat many claims made here are wrong and do nothing to validate\natheism. At no time have I made any statement that religion was the\nsole cause of anything, what I have done is point out that those who\ndo make t",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Dear friend,\n  The RISC means \"reduced instruction set computer\". The RISC usually has \nsmall instruction set so as to reduce the circuit complex and can increase \nthe clock rate to have a high performance. You can read some books about\ncomputer architecture for more information about RISC.",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\tActually, I've been following her remarks for some time, with\ninterest. I'm also a member of academia, and her remarks have nothing\nbut elevate her respectability in my eyes. It remains to be seen whether\nyou are the radical fringe, or I.\n\n\tIt is generally an error to assume that your beliefs are held by\nthe majority, or even a sizable minority. Especially when you're seeing\ntens, nay dozens, of people on usenet agreeing with you.",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\nOr use a SunOS 4.1.1 ld.",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ": \n:   Nut or not, he was clearly a liar.  He said he would surrender after\n:   local radio stations broadcast his message, but he didn't.  Then he\n:   said he would surrender after Passover, but he didn't.\n: ",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "As I was created in the image of Gaea, therefore I must\nbe the pinnacle of creation, She which Creates, She which\nBirths, She which Continues.\n\nOr, to cut all the religious crap, I'm a woman, thanks.\nAnd it's sexism that started me on the road to atheism.\n\n-- \nMaddi Hausmann                       madhaus@netcom.com\nCentigram Communications Corp        San Jose California  408/428-3553",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I just had my 41 Chrysler painted. I was told to refrain from waxing it and\nto leave it out in the sun!! Supposedly this let's the volatiles escape from\nthe paint over a month or so (I can smell it 15 feet away on a hot day) and\nlets any slight irregularites in the surface flow out, as the paint remains\na little soft for a while.\n",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I want to create a single-line Text widget for entering a small amount of text.\n\nI want it to be of fixed width, but have a horizontal scrollbar that scrolls\nautomatically when the user types in order to keep the insertion point\nvisible.\n\nIn trying to do this I have two problems:\n\n - The addition of the horizontal scrollbar does not make the text widget\n   taller, but instead it seems to cover part of the text.\n\n - The scrollbar does not scroll automatically as the user types in text\n   in order to keep the insertion point visible.\n\nAny help is appreciated.\n\nMike\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n   [There may be some misunderstanding over terms here...]\n\nI agree.  Quite likely, actually.\n\n                                                      [...I believe \"Jesus\n   only\" originally was in the context of baptism.  These are folks who\n   believe that baptism should be done with a formula mentioning only\n   Jesus, rather than Father, Son, and Holy Spirit.  This may have\n   doctrinal implications, but as far as I know it does not mean that\n   these folks deny the existence or divinity of the Father.  I'm not the\n   right one to describe this theology, and in fact I think there may be\n   several, including what would classically be called monophysite or\n   Arian (two rather different views), as well as some who have beliefs\n   that are probably consistent with Trinitarian standards, but who won't\n   use Trinitarian language because they misunderstand it or simply\n   because it is not Biblical.  --clh]\n\nNot Biblical?  What then can they make of the end of Matthew?\n\n(28:18)And Jesus came and said to them, ",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\tSorry, I was, but I somehow have misplaced my diskette from the last \ncouple of months or so. However, thanks to the efforts of Bobby, it is being \nreplenished rather quickly!  \n\n\tHere is a recent favorite:\n\n\t--\n\n\n       \"Satan and the Angels do not have freewill.  \n        They do what god tells them to do. \"\n\n        S.N. Mozumder (snm6394@ultb.isc.rit.edu) \n\n\n--\n\n\n       \"Satan and the Angels do not have freewill.  \n        They do what god tells them to do. \"",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello,\n  \n  I'm investigating the purchase of an Object Oriented Application Framework.  I have\ncome across a few that look good:\n\n  Zapp 1.1 from Inmark\n  Zinc 3.5 from Zinc software\n  C++/Views from Liant\n  Win++ from Blaise\n\nSome considerations I'm using:\n\n  Being new to Windows programming (I'm from the UNIX/X world), the quality and\nintuitivness of the abstraction that these class libraries provide is very \nimportant.  However, since I'm not adverse to learning the internals of Windows\nprogramming, the new programming methodology should be closely aligned with\nthe native one.  I don't believe arbitrary levels of abstraction, just for the\nsake of changing the API, are valuable.\n\n  Since we will be developing for the 32bit Windows NT system the\nmemory management issues and issues particular to the Windows 3.1 API are less\nimportant. \n\n  We will probably buy another C++ class library (something like Tools.h++ or Booch\ncomponents from Rational) to handle data structures and other miscellaneous stuff\n (alloca",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "...let me point out that both GUI-based word-processors and text-based\n   formatters both have a language; one happens to be mouse- and\n   action-based, and the other symbol-based.\n\nTrue, but that's beside the point. This is a fact about an abstract model\nof what the GUI users are doing, not about what they actually *are* doing.\nThis abstract model is only apparent from the perpective of a *programmer*\nof the system. (NB: some users may see it, too, but only when they put\naside the work at hand and start thinking like a programmer.)\n\nI'm not saying that the programmer's perspective is evil or stunted. After\nall, that's what I do, too! I am saying that UI designers must carefully\ndistinguish between the user/programmer conceptual models, and they must\nultimately serve the user of the system, not the builder of the system. \n\n\n   I don't recall the actual stats, but something like 1 in 5 people can be\n   categorized as a \"symbol manipulator\".\n\nIt would be interesting to know more about the meaning and basis for ",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nNo, it isn't.  It is the \"X Window System\", or \"X11\", or \"X\" or any of\na number of other designations accepted by the X Consortium.  In fact,\ndoing \"man X\" on pretty much any X11 machine will tell you:\n\n     The X Consortium requests that the following names  be  used\n     when referring to this software:\n\n                                  X\n                           X Window System\n                             X Version 11\n                     X Window System, Version 11\n                                 X11\n\nThere is no such thing as \"X Windows\" or \"X Window\", despite the repeated\nmisuse of the forms by the trade rags.  This probably tells you something\nabout how much to trust the trade rags -- if they can't even get the NAME\nof the window system right, why should one trust anything else they have \nto say?\n\nWith regard to dialup X11 implementations, there are several.  You can\nbuy serial X11 terminals from a couple of companies, including both \nGraphOn and NCD.  (In fact, I'm composing this from an NCD run",
+    "response": 5,
+    "category": "comp.windows.x"
+  }
+]

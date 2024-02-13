@@ -1,0 +1,620 @@
+[
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Can somebody tell me what all the letter spesifications on motorcycle models \nreally mean. \nExample: What means the C, the B and the R in Honda CBR. - Or the V, S, G, L \nand P in Suzuki VS750GLP\n\nI wanna distribute this in our club magazine. I want lists of all types, but \nI already knows about Harley.\n\nThanks in advance!\n\n\tVidar\n ---------------------------------------------------------------------------\n   Vidar O. Solberg - NORWAY                     * ROCK HARD * RIDE FREE * \n\n          \"We are the proud, the few and the true Metallibashers!\" ",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "For all those who are interested and would like to discuss the popular\nSecret Life..and/or other technical documentaries.. Please email me\nas i am starting a newsgroup\n\n",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nNot quite true.  One of the instruments on Mars Observer will be searching\nfor potential fossil sites.   \n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nAs far as I know ISDN (call it Swissnet here, and it's being plugged in) it's\n8 bit 8000Hz (gives you one channel of 64kBit/sec) I guess you should not go\nbelow a sampling rate of 6000 Hz if you want to have same quality as on an\nanalog-line. Anybody knows compression-algorithms & -factors for voice ?\n\nGreetings,\n\n\tGermano Caronni",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nieee.general\n\nand\n\nieee.announce\n",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ": I'm searching for a phonetic TrueType font for Windows 3.1. If \n: anybody knows one, please mail me!\n: \n: Thanks.\n: \n: dw \n: \n: \n: ##################################################################\n: Dipl.-Inform. Dietmar Weidlich    # IfADo, Ardeystr. 67          #\n: weidlich@arb-phys.uni-dortmund.de # D-4600 Dortmund 50           #\n: Phone ++49 231 1084-250           # >> Dr. B.: \"Koennten Sie das #\n: Fax   ++49 231 1084-401           #      MAL EBEN erledigen?\" << #\n\nYes, I'm looking for phonetic font(s) too! So if you know one,\nplease mail me too!",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThis probably only tells you that the DC blocking capacitor that's in series\nbetween the one-chip, single-ended audio amp and the speaker terminal is there.\n\n\nOpen it up and look for the power amp \"ICs\".  They'll be fairly obvious. \nReplace the one connected to the dead output. \n\n\nWell, one thing you should do is poke around the terminals of the power amp\nchips.  Use a probe with a 10M resistor (like a scope probe) connected to the\ninput of a small audio amp w/speaker.  If you find line-level input to both\nchips, one of the chips is bad and can probably replaced pretty easily.  \n\nIf you want to pick off a near-line-level signal, suitable for feeding to an\noutboard amp, the outer legs of the volume control pot will often be good\nenough.  This is *before* the volume control (and usually before the tone and\nbalance controls too).  If you take off from the center and ground legs of\nthe volume pot, this will be after the volume control (but again, probably \nbefore the other controls).  \n\nIf the unit is a modern t",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Some of your article was cut off on the right margin, but I will try\nand answer from what I can read.\n\nJudaism did not father Islam.  We had many of the same prophets, but\nJudaism ignores prophets later prophets including Jesus Christ (who\nChristians and Muslims believe in) and Mohammed.  The idea of believing\nin one God should unite all peoples.  However, note that Christianity\nand Islam reflect the fact that there are people with different views\nand the rights of non-Christians and non-Muslims are stated in each\nreligion.\n\n\nWe are supposed to pay 6% of our income after all necessities are\npaid.  Please note that this 6% is on a personal basis - if you are\npoor, there is no need to pay (quite the contrary, this money most\noften goes to the poor in each in country and to the poor Muslims\naround the world).  Also, this money is not required in the human\nsense (i.e. a Muslim never knocks at your door to ask for money\nand nobody makes a list at the mosque to make sure you have paid\n(and we surely don't pass mone",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nFine... THE ILLIAD IS THE WORD OF GOD(tm)  (disputed or not, it is)\n\nDispute that.  It won't matter.  Prove me wrong.\n\nBrian West",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Interestingly enough, in designing the escrow, we may want to use some\nrather unusual technology, such as sealed boxes of paper, or\ndestructive read memory, rather than typical computer databases, which\nis fun for a database of hundreds of millions of keys.\n\nThe greatest danger of the escrow database, if it were kept on disk,\nwould be the chance that a complete copy could somehow leak out.  You\ncan design lots of protection, but with enough corruption a complete\ncopy is always possible.   Storing it on paper or something very hard\nto copy at once may actually make sense.  Or a medium that can't be\ncopied -- for example, something with very slow access times or which\nleaves a destructive trail if it is even read.\n\nOf course then it's hard to backup.  However, I think the consequences\nof no backup -- the data is not there when a warrant comes -- are worse\nthan the consequences of a secret backup.\n\nAn audit trail that reveals when data has been access, that *can't* be\nerased by the humans involved, is also neces",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I posted this over in sci.astro, but it didn't make it here.\nThought you all would like my wonderful pithy commentary :-)\n\nWhat? You guys have never seen the Goodyear blimp polluting\nthe daytime and nightime skies?\n\nActually an oribital sign would only be visible near\nsunset and sunrise, I believe.  So pollution at night\nwould be minimal.\n\nIf it pays for space travel, go for it.  Those who don't\nlike spatial billboards can then head for the pristine\nenvironment of Jupiter's moons :-)\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI saw a mask once that had drawings of band-aids, presumably for every puck\nthat goalie stopped with his face/head.  I can't remember who it was or even\nif it was NHL (I see quite a few AHL games here).\n\nThis is by far the funniest mask I've seen, and for me funny=cool",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I received the following two notes from Martin Hellman with details\non how Clipper will work.  They are posted with his permission.  The\nimplications of some details are fascinating.\n\n-------\nDate: Sat, 17 Apr 93 23:05:23 PDT\nFrom: \"Martin Hellman\" <hellman@isl.stanford.edu>\nTo: (a long list of recipients)\nSubject: Clipper Chip\n\n\nMost of you have seen the announcement in Friday's NY Times,\netc. about NIST (National Institute of Standards & Technology)\nannouncing the \"Clipper Chip\" crypto device. Several messges\non the net have asked for more technical details, and some have\nbeen laboring under understandable misunderstandings given\nthe lack of details in the news  articles. So here to help out\nis your friendly NSA link: me. I was somewhat surprised Friday\nto get a call from the Agency which supplied many of the missing\ndetails. I was told the info was public, so here it is (the cc of this\nto Dennis Branstad at NIST is mostly as a double check on my\nfacts since I assume he is aware of all this; please let me k",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nIt depends on the algorithm used. 128-bit secret keys for RSA are\ndefinitively not secure enough.\n\nRegards,\nVesselin",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\n\n\nA lot of us out here in the hinderland will trust the Japanese\nbefore we'll trust the NSA, the President, or those stupid\nFortune 50 companies you're so proud of.\n\n\n\nAnd since the Japanese corps aren't part of our \"government/governors\"\nthey may be more trusted out htere than you are.\n\n\nPeople are getting tired of this \"be patriotic, do whatever we say\nwithout question, and pay more taxes\" attitude that comes from\nAmerica's political party...\nor should that be caste?\n\n\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "[...]\nhenrik]  Country. Turks and Azeris consistantly WANT to drag ARMENIA into the\nhenrik]  KARABAKH conflict with Azerbaijan. \n\nBM] Gimme a break.  CAPITAL letters, or NOT, the above is pure nonsense.  It\nBM] seems to me that short sighted Armenians are escalating the hostilities\n\t\t\t^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nhenrik]\tAgain, Armenians in KARABAKH are SIMPLY defending themselves. What do\nhenrik]\twant them to do. Lay down their ARMS and let Azeris walk all over them.\n\nNews reports I've seen say otherwise both location and motives wise.  \nCAPS don't change facts.\n\nBM] while hoping that Turkey will stay out.  Stop and think for a moment,\nBM] will you?  Armenia doesn't need anyone to drag her into the conflict, it\nBM] is a part of it.  \n\nhenrik]   Armenians KNEW from the begining that TURKS were FULLY engaged \nhenrik]   training AZERIS militarily to fight against  KARABAKHI-Armenians.\n\nSo?  Should I, at this point break into caps and start talking about \nDEFENSE etc.?  I don't know how 'fully engaged'",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "For all people that are interested in every aspect of the 2600 try the\nzine:\n\n2600 connection\n$1 cash to :\nTimothy Duarte\nPO Box N, 664\nWestport, MA 02790\n\nfor sample\n\n\n",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I know what the 68HC811E2 is all about, but I'm trying to figure\nout what the 68SEC811E2 is... specifically, what does the SEC\nstand for?\n",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The Logitech ScanMan 32 is a nice unit, compact and effective it will\nbring in graphics with surprisingly good quality. Note that its effective\nresolution in grey scale mode is only about 72 dpi. If you don't intend\nto magnify a graphic, it works fine. A true 256 level gray scanner would\nwork better for images.",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\n\nI don't have to \"try reading a bit\", Pat.  I *work* as a government\ncontractor and know what the rules are like.  Yes, they sign some\n(damned few -- which is why everyone is always having to go to\nWashington to see about next week's funding) multi-year contracts;\nthey also aren't willing to include sufficient cancellation penalties\nwhen they *do* decide to cut the multi-year contract and not pay on it\n(which can happen arbitrarily at any time, no matter what previous\nplans were) to make the risk acceptable of something like putting up a\nprivate space station with the government as the expected prime\noccupant.\n\nI'd like a source for that statement about \"the reason they aren't\ncutting defense spending as much as they would like\"; I just don't buy\nit. The other thing I find a bit 'funny' about your posting, Pat, is\nthat several other people answered the question pretty much the same\nway I did; mine is the one you comment (and incorrectly, I think) on.\nI think that says a lot.  You and Tommy should move in ",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nYou can learn how to build a deyhdrator very easily from the book, \"The\nHungry Hiker's Guide to Good Food,\" by Gretchen McHugh.  The heat source\nis a 100 watt light bulb.  Basically, it's a vertical wooden box with\nventilation holes in the top and bottom (lots of them, you want the air\nto flow).  The light bulb goes in the bottom, and wire cake racks are\nspaced every 6\" starting about 10\" above the bulb.\n\nOr, at a slightly higher cost in electricity, you can do what I do:  Use\nyour oven.  (NOTE - I do this in an electric oven; some gas ovens may\nnot have a low enough setting).  Put food to be dried on cookie tins or\nracks in the oven.  Set oven to 140 degrees (the lowest setting on my\noven - if yours goes down to 120 that's probably even better.)  Stick a\nwooden spoon or something across the front corner of the oven and close\nthe door on the spoon so that it stays open about an inch - this allows\nfor airflow.  Leave the stuff in the oven for 6 to 8 hours; check it\noften, since this dries it much faster than ",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ": \n: \t1) Monitor my phonecalls.\n: \t2) Monitor usenet.\n: \t3) Provide only cryptosystems they can easily crack.\n: \t4) etc etc.\n: \n: \tThis is not to say that they *don't*, they might. But you don't\n: know that they do, and you have no evidence that they do, for almost\n: all values of you. It follows, therefore, that for most values of 'you',\n: your claims about the NSA border on paranoia.\n: \n: \tAndrew\n\nNow I wouldn't be the one to claim that you are injecting some\ndisinformation into the net, Andrew, but 'paranoia' refers to\nunwarranted or excessive suspicions or fear, not those that\nhave reasonable roots.\n\nLet's start with looking at the professionals, the NSA itself.\nIts birth was by secret executive order by Harry S Truman\nin 1952.  Until even 1976 not even one word of this executive\norder chartering the NSA was sealed.  Paranoia, right?\n\nOn the outside of the NSA complex is a ten foot Cyclone fence\nwith multiple rows of barbed wire, with high voltage, complete with signs\nprohibiting even making sketches unde",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\nThe docs say that it's a SCSI Manager bug, if this changes things at all...",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": " \nDigi-Key also sells Quad Line Receivers, parts DS1489AN (68cents) and DS1489N\n(48cents).  A Quad Line Driver, part DS1488 (48cents), is also sold.  I guess\nif you don't won't to supply +12V, the chips with the pump-up circuitry might\nbe worth the extra cost.  But 1488's and 1489's are available at your friendly\nneighborhood RS, parts MC1488 (276-2520) for $1.29 and MC1489 (276-2521) for\n$1.29.",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "...\n\nHaven't you read any of Noam Chomsky's works? A widely used information net\noutside the control of the 'right people' is unthinkable. Hundreds of billions\nof dollars will be spent to wipe it out, sorry, 'regulate and order it' once\nthe major media and poitical powers wake up to the efect it can have.\n\nIf you can't be bothered reading, get the video \"Manufacturing Consent\".",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": " \n\nI dunno, on my old GS1000E the tank-seat junction was nice and smooth.\nBut if you were to travel all the way forward, you'd collect the top\ntriple-clamp in a sensitive area. I'd hate to have to make the choice,\nbut I think I'd prefer the FJ's gas tank. :-)",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nWhen the PLO moved into Lebanon and became, in parts of Lebanon, an\nOccupying Power itself, these same practices were common against\nnon-Palestinean and Palestinean alike.  They are simply Standard\nOperating Procedures among Palestineans and have been for a very long\ntime.  In fact, the greatest bloodbath of Palestineans will happen\nwhen they get self-rule.  Can you possibly deny this? \n\nWhen the PLO is the Occupier, who are you NOW going to blame?\n\n",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI can't speak for the organizations you cited but everywhere you look in\nour society and government, one can see the relentless movement toward\none world government.  The fact that the media demeans such charished \nvalues as patriotism, nationalism and protectionism are some of the\nclues.  The fact that we are sapping the economic strength of americans\nto prop up a former and possibly future enemy is just another.  The fact\nthe words like community of nations, global village and international\nbusiness are in vogue are others.  International corporations are \ndestroying our identy and economy and the propaganda they are playing\nthrough the media and government is over powering our ability to resist.\nOur porous border both people and trade are an indiciation that we have\nalready lost a great deal of sovergnty.\n\nThe bottome line is that the single most evil aspect of One World\nGovernment is that you have nowhere to run to and history has proven\nthat would be a disaster.  ",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The only way to view this method of generating unit keys is as a back-door.\nWhat else can you call a key deterministically generated from the serial\nnumber?\n\n\n To generate the unit key for a serial number N, the 30-bit value N is\n   first padded with a fixed 34-bit block to produce a 64-bit block N1.\n   S1 and S2 are then used as keys to triple-encrypt N1, producing a\n   64-bit block R1:\n\n\t   R1 = E[D[E[N1; S1]; S2]; S1] .\n\n   Similarly, N is padded with two other 34-bit blocks to produce N2 and\n   N3, and two additional 64-bit blocks R2 and R3 are computed:  \n\n\t   R2 = E[D[E[N2; S1]; S2]; S1] \n\t   R3 = E[D[E[N3; S1]; S2]; S1] .\n\n   R1, R2, and R3 are then concatenated together, giving 192 bits. The\n   first 80 bits are assigned to U1 and the second 80 bits to U2.  The\n   rest are discarded.  The unit key U is the XOR of U1 and U2.  U1 and U2\n   are the key parts that are separately escrowed with the two escrow\n   agencies.\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThe third-party media adapters are usually cheaper (at least in Toronto) than\nApple's. I bought the adapters from Asante instead of Apple.\n\n\nThat's not true. Only the DECstation 5000/200 comes with a Thinwire\n(BNC, coaxial) Ethernet connector. The 5000/25, 5000/133 and 5000/240\nall have a single 15-pin AUI Ethernet connector only. I distinctly\nremembered this because when got the 5000/200 first and I thought all\nof them are going to be Thinwire. I eventually had to go back and ordered\nDESTAs (DEC's oversized version of an AUI-to-BNC adapter that MUST be used\nwith a transciever cable) for the rest of the stations.\n\nMy advise to the very original poster (Beverly?) is:\n\n(1) If all you want is to create a LAN with two workstations and won't add\n    machines to it EVER, go for Thinwire regardless of the media type. Going\n    for UTP (unshielded twisted pair) wiring requires a concentrator which\n    means extra money and I believe these units come with at least 6 ports.\n    As for Thicknet, it's a nightmare and ca",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ": >I want to upgrade my system and was thinking of buying Adcom seperates.\n: >I have heard from alot of people, though, that Adcom sounds great but\n: >that the components are made cheaply and therefore won't last very long.\n: >The time estimates I've heard are like only 3 or 4 years.  Is this true?\n\nI own the Adcom 60W power amp.  As far as I'm concerned, there's no\n  amp which can touch it at the price range.\nThe build quality is very impressive and is far superior to other \n  amps in the price range.  The whole amplifier is extremely solid\n  with massive heat sinks and very solid casing.\nIf you open the amp up, there are only very good quality components \n  in and the amp seems to be designed extremely well.  Perfect\n  symmetry for both channels and TWO transformers - one for each\n  channel.  The binding posts on the back of the amplifier are\n  virtually the same as those on the Classe model 70 ie. very good.\n\nI was also sceptical about the amps being built in the far-east\n  or where-ever.  But if you look ",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nI think all Powerbooks use the same 2 Meg upgrade, but the\n4 Meg and 6 Meg upgrades are different for the PB100 than\nfor the other PBs.\n",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Let's see. These aren't, in a strict sense, amateur rockets. That term\ndenotes rockets, the engines of which are constructed by the user. The\nrockets you describe are called HPR, or high power rockets, to\ndistinguish them from (smaller) model rockets. They use factory-made\nammonium perchlorate composite propellants in phenolic plastic engines\nwith graphite nozzles. The engines are classified by impulse. A \"D\"\nengine, for example, can have no more than 20 newton-seconds of impulse.\nAn \"F\" engine can have no more than 40 ns. Each letter corresponds to a\ndoubling of the maximum impulse. So far, engines up to size \"O\" are\navailable pretty much off the shelf. Engines of size H and above are\nshipped as Class B explosives, and as such are controlled. Engines of\nsize F and below are shipped as Class C explosives, and are not as\ncontrolled. Class F engines, BTW, are not HPR engines, but model rocket\nengines. (Class G engines go in and out of legal limbo.)\n\nThere is an HPR Society, The Tripoli Rocket Society, I believe",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The Centaur is controlled technology..\nState Dept will not allow it to be used outside of US. Sorry.\n\n\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I got a number of requests for code.\nSo, here it is.\nIts written in 80x86 ASM. \nBorland TASM will do.\n\nTASM LGA.ASM\nTLINK /t LGA.ASM\n\n\nThe code:\n\n;----------------------------------------------------------------------\n; LGA ncryption\n; (C) by Nick Nassuphis\n;----------------------------------------------------------------------\n\nCODE\tSEGMENT\n\tASSUME\tCS:CODE, DS:CODE\n\t\n\tORG\t100h\n\nStart:\n\tJMP\tBegin\n\n;----------------------------------------------------------------------\n;\n; Gas particle assigment:\n;\n; BIT 0    particle moving EAST\n; BIT 1    particle moving WEST\n; BIT 2    particle moving NORTH\n; BIT 3    particle moving SOUTH\n;\n; BIT 4    particle moving EAST\n; BIT 5    particle moving WEST\n; BIT 6    particle moving NORTH\n; BIT 7    particle moving SOUTH\n;\n;\n; Collisiong Rules:\n;\n; 1. Gas Rules\n;\n; IF (E & W) AND !(N & S) THEN (E,W)->(N,S)\n; IF (N & S) AND !(E & W) THEN (N,S)->(E,W)\n;\n; for nibbles:\n;\n; 1100 -> 0011\n; 0011 -> 0011\n;\n; and for bytes:\n;\n; 11000000 -> 00110000\n; 00110000 -> 11000000\n; 00001100 -",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "d88-jwa@hemul.nada.kth.se (Jon Wtte) writes ...\n\nThe only problem is going to be finding someone who can make a 200MHz\ncomputer system.  Could be tough.\n",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\n\n\n\n\nThis isn't inherently bad.\n\nThis isn't really light pollution since it will only\nbe visible shortly before or after dusk (or during the\nday).\n\n(Of course, if night only lasts 2 hours for you, you're probably going\nto be inconvienenced. But you're inconvienenced anyway in that case).\n\nFinally: this isn't the Bronze Age, and most of us aren't Indo\nEuropean; those people speaking Indo-Eurpoean languages often have\nmuch non-indo-european ancestry and cultural background. So:\nplease try to remember that there are more human activities than\nthose practiced by the Warrior Caste, the Farming Caste, and the\nPriesthood.\n\nAnd why act distressed that someone's found a way to do research\nthat doesn't involve socialism?\n\nIt certianly doesn't mean we deserve to die.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThis is definitely the wrong newsgroup for this, but never mind.\nAny machine powered by heat (motor, steam- or gasturbine, steamengine,  \nthermoelement,etc) work the better, the bigger the temperature difference  \nbetween input and output is. Because You never get all thermic energy out of  \nthe powering medium (steam, burning gaz, etc), You have to eliminate the rest  \nof the energy to keep the efficency high. A thermal electric power plant (coal,  \noil or atomic power) works just the same way. You heat water (steam) to power  \nthe turbine and generators. Because You don't get the whole energy out of the  \nsteam (efficency is never 100%) You have to cool down this steam again by  \nsomething else. Most power plants use cooling towers for this purpose (some  \ntype of mega-refrigerator...). Others use water of a river (ecologically not  \nunobjectionable). Got it ?\n\nCheers   Robert  (HB9NBY)",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Archive-name: space/launchers\nLast-modified: $Date: 93/04/01 14:39:11 $\n\nORBITAL AND PLANETARY LAUNCH SERVICES\n\nThe following data comes from _International Reference Guide to Space Launch\nSystems_ by Steven J. Isakowitz, 1991 edition.\n\nNotes:\n    * Unless otherwise specified, LEO and polar paylaods are for a 100 nm\n\torbit.\n    * Reliablity data includes launches through Dec, 1990. Reliabity for a\n\tfamiliy of vehicles includes launches by types no longer built when\n\tapplicable\n    * Prices are in millions of 1990 $US and are subject to change.\n    * Only operational vehicle families are included. Individual vehicles\n\twhich have not yet flown are marked by an asterisk (*) If a vehicle\n\thad first launch after publication of my data, it may still be\n\tmarked with an asterisk.\n\n\nVehicle        |     Payload  kg  (lbs)   | Reliability | Price | Launch Site\n(nation)       |  LEO\t   Polar    GTO   |\t\t|\t| (Lat. & Long.)\n--------------------------------------------------------------------------------\n\nAriane\t\t\t\t\t    35",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n  Well, you can accomplish both goals, actually, if you have a definite\nphysical type in mind when you go to these (cough) church meetings..  If\nyour tastes tend to smaller, more petite (cough) churchgoers, it is more\nlikely that they will have a smaller head, and you can safely get a medium\nor small helmet.\n\n  This works for me, and I traded my spare large helmet with my best friend,\nwho, at 6'9\", tends to look more for women that are over 6'0\", and can't\nusually fit into the medium size helmet he previously had...\n\n  Of course, if you aren't picky what size (*cough*) churchgoers you give\nhelpful motorcycle rides to, then Ed's advice will hopefully cover any\neventuality as far as legality is concerned, and a spare handtowel in the\ntankbag makes acceptable padding so the passenger can see out of the viewport\n(rather than the padding above the viewport) in the cases of extreme mismatch.\n\nRandy Davis                            Email: randy@megatek.com\nZX-11 #00072 Pilot                            {uunet!ucsd}!",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Us having the liberties to talk about this doesn't make the problem go\naway.  It doesn't make it right.  Rather the opposite, if we do not do \nanything about it, you can bet it's going to get worse.",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The pricing of parts reminds me of something a chemist once said to me:\n\n\"A gram of this dye costs a dollar.\nIt comes out of a liter jar which also costs a dollar.\nAnd if you want a whole barrel of it, that also costs a dollar.\"\n\nI.e., they charge you almost exclusively for packaging it and delivering\nit to you -- the chemical itself (in that particular case) was a byproduct\nthat cost almost nothing intrinsically.\n",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThe General Chairman is Paul Bialla, who is some official of General\nDynamics.\n\nThe emphasis seems to be on a scaled-down, fast plan to put *people*\non the Moon in an impoverished spaceflight-funding climate. You'd\nthink it would be a golden opportunity to do lots of precusor work for\nmodest money using an agressive series of robot spacecraft, but\nthere's not a hint of this in the brochure.\n\n\nYou're not hanging out with the Right People, apparently.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Paul Prescod pontificating:\n\n\n PP>>     Libertarians oppose BOTH waiting periods AND background checks\n PP>>-- or ANY prerequisite for exercising rights that are supposed to\n PP>>be guaranteed.\n\n PP>Let me get this straight.  Unlike the other idiots in this newsgroup,\n PP>you actually support anybody having unlimited access to guns,\n PP>inclucing criminals.  (or would you prohibit them from owning them,\n PP>but not from buying them?)\n\n PP>You are a supreme idiot.  You make the other idiots look like Mensa members.\n\nThanks Paul, for yet another fine example of the holier than thou gun control\nmindset. Why don't you add something intelligent to the debate, like maybe\nnyah nyah nyah nyah nyah.\n---\n . OLX 2.2 . Fight crime..... shoot back!\n                                                                           ",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n  I might suggest giving the management some more mumble time by asking\nthe very leading question (in two or three parts)\n   What are your long term expectations of space market, what projects\nspecifically are they funding by internal funds and at what levels\nand what competition do you expect in this  area. (This last point\nis always worth hitting upper management with \"gently\" if you want \nthem to think and as hard as you can if you have a good case that\nthere really is competion)\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThere are two issues here:  copyright and patent.\n\nThe magazine article's contents are copyrighted, and may not be reproduced,\ntranslated, etc., without the copyright holder's permission.  However, this\ndoes not cover the *ideas* expressed, only the form of expression.  Copying\ntheir circuit diagram or PC-board pattern is copyright infringement.  But\nit's unlikely that they could stretch copyright far enough to claim that\nthe circuit design itself is copyrighted.  So long as you draw your own\ndiagrams and lay out your own boards, copyright shouldn't be an issue.\n\nPatents are different.  The author does *not* have to give you any warning\nthat the design is covered by patent (although it would be sensible for\nhim to do so).  In fact, it's possible that *he* was infringing on someone\nelse's patent without realizing it.  Ignorance of the patented status is\nnot a defence against infringement, although it might reduce the damages\na court would award.\n\nHowever... unless there was something seriously novel about the",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Writer Kathy Sawyer reported in today's Washington Post that Joseph Shea, the \nhead of the space station redesign has resigned for health reasons.\n\nShea was hospitalized shortly after his selection in February.  He returned\nyesterday to lead the formal presentation to the independent White House panel.\nShea's presentation was rambling and almost inaudible.\n\nShea's deputy, former astronaut Bryan O'Connor, will take over the effort.\n\nGoldin asserted that the redesign effort is on track.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI thought the implication was that the prince destroyed one fourth of the\nremaining Persian troops on the second round, and then 1/11 of those remaining\non the third round.  This would mean",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nOY] Henrik (?),\nOY] Your ignorance manifests itself in an awkward form of intransigence. I'm not\nOY] going to spend time to review with you the recent history of Cyprus. \n\n\tGood !! Go back to your references and read it over and over ...\n\nOY] If you are really interested, I can provide you with a number of references\nOY] on the issue.  Just send me EMail for that.  \n\n\tYou think I am that STUPID to ask you for REFERENCES !  NOT !\n\tI have many GREEK friends that I could ask for the INFO if I\n\tneeded. I have already read many articles and DO NOT need\n\tyour help. Boy, how generous !!\n\nOY] Relax! You're swinging fists into open air... I was *agreeing* with you,\nOY] assuming that would be one of your points that you did not state! You may \nOY] not be very much used to it, to be agreed with - that is, but take it more\nOY] easily.  !:-)\n\n\tBelieve me, I am so relaxed ...\n\nhenrik]     However, I hope that the Armenians WILL force a TURKISH airplane \nhenrik]     to LAND for purposes of SEARCHING for ARMS similar to the",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "actions  \nthe \nthem\n\nThis is, of course, your opinion.  I differ greatly.  There can be NO doubt the  \nFBI at least shares in the blame.\n\n\n--\njmd@handheld.com",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi, \n\nI'm trying to write a Motif program on an Interactive Unix machine, and I'm\nobserving very strange behavior when my program attempts to expose a\nDrawingArea. Namely, some Xlib operations work, and some do not. In\nparticular, the expose consist of two XFillRectangle calls followed by some\nXDrawPoint calls, and for reasons unknown to me the point calls are failing\nwhenever a pulldown or popup up menu is (clicked on and) moved in the\nrightward direction over the drawing area, but after the move, is still on\nsome part of the drawing area. This also happens less consistently when the\npulldown/popup is moved in the leftward direction.\n\nAssuming that my code is not doing anything incredibly odd, is this a server\nbug?\n\nThanks,",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\nWhew!  Take it easy on the guy.  Maybe he's going to do this in his\nspare time.  Maybe he's going to do this to see how much a wiretap\n*really* costs.  Maybe he's going to do this so he can add to the\nopposition to Clipper.  I don't know fully why he might do this, but\nmaybe we shouldn't start flaming at the drop of a hat.  ",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nPlease note that Bill Clinton probably has little if anything to do\nwith the design, implementation or reasoning behind this chip or behind\nany \"moves\" being made using this chip as a pawn.\n\nRemember, when you elect a president of the united states, it's not\nthe case that all the Republicans, etc. in the NSA and FBI and CIA\nimmediately pack their bags and get replaced by a team of fresh young\nDemocrats.  Most of the government -- say, 96% -- is appointed or\nhired rather than elected.  Since this Clipper device has been in\nproduction for over six months, it probably has little or no \nfoundation in the currently elected Democratic Executive body.\n\n\nCould be.  However, the sky hasn't fallen yet, Chicken Little.",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Thus said ee92jks@brunel.ac.uk (Jonathan K Saville):\n\nPGP is not available on the archive site rsa.com.  If it were, it\nwould be highly amusing, since rsa.com (actually Public Key Partners,\nbut it's the same entity) is the organization holding the patents\nwhich they claim are violated if you actually \"make, use or sell\" PGP.\nI believe those patents also apply in Canada, but I'm not a patent\nlawyer or anything.\n\nThere is no such thing as freely redistributable code for RSA which\ncan be used in North America without legal entanglements.  You may\nwish to consider RSAREF, however, which *is* available from the FTP\nsite rsa.com in /rsaref but probably doesn't meet your definition of\n\"freely redistributable\" (it's readily available in source, in C, and\ndoes RSA, MD5, etc. and comes with a license allowing noncommercial\nuse.  Like any other strong crypto software, it's not exportable\nlegally.  It can be modified with permission from RSADSI, which a\nnumber of people have received in the past.)  For reasons that aren'",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "In NZ apparently things like aftershave are also giving positive\nreadings\n\n",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "With regard to your speculations on NSA involvement in the creation of\nPKP, I find that it fails the test of Occam's butcher knife.  Never\nattribute to conspiracy what can be explained by forthright greed.\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I want to start of list for Syclone and Typhoon owners.  If you are interested\nin participating, please contact me via e-mail.",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nIt doesn't make a whole lot of difference, actually, since they weren't\nbuilding spares of the station hardware anyway.  (Dumb.)  At least this\nis only one launch to fail.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nBefore I begin lambasting Don Cherry, let me first say that I've been sort of\na Cherry fan for a while...admittedly stuff he says has to be taken lightly,\nbut he's more-or-less harmless.  On Saturday, however, he crossed the lines of\ngood taste:\n\n\nThis is the best he can do?!!  Gee Don, tremendous amounts of professionalism\nhere.  The CBC looks just as bad as he looks foolish letting him get away with\nthis nonsense...making fun of names??  It's bad enough that he makes asinine\nblanket statements about European players, but he's now resorted to making fun\nof their names too?  He sounded like an idiot, much like he did last week\nwhen he said that Teemu would never make it to his 'Rock 'em, Sock 'em' video\nuntil he dropped the gloves...\n\n\nWell, what he _said_ was that even though he's been around the league for quite\nsome time, he still doesn't know who's where w.r.t. conference and division\nnames.  HELLO??!! McFly??  The names have been around for a couple of decades\nor so....he also invited the audience to \"N",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Can any Apollo GURUS out there let me know of their experiences building MIT X11R5,\nwith or without GCC 2.3.3.  In particular, is there anything I should watch out for.\n\nThanks in advance",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Device........ LT1839   @ IC (mA)..... 50\nV(BR)CEO (V).. 70       CCB (pF)...... 2.5\nV(BR)CBO (V).. 120      VCE (V)....... 15\nIC (mA) max... 300      Polarity...... NPN\nhFE min....... 20       Package....... 79-04\nhFE max....... 60       Material...... Metal\nfT (GHz)...... 1        Price (100+)..\n\nDevice........ LT5839   @ IC (mA)..... 60\nV(BR)CEO (V).. 65       CCB (pF)...... 1.5\nV(BR)CBO (V).. 80       VCE (V)....... 10\nIC (mA) max... 300      Polarity...... PNP\nhFE min....... 15       Package....... 79-04\nhFE max....... 60       Material...... Metal\nfT (GHz)...... 1.5      Price (100+)..\n@ VCE (V)..... 10\n\nAnyone know of a source for these parts (other than straight from\nMotorolla)?  I need 4 Lt1839's and 2 Lt5839 I've tried standard\nand they said \"We are out!\"\n\n                Stephen Cyberman@Toz.Buffalo.NY.US\n             Mangled on Fri  04-16-1993  at 13:50:28\n\n... If there's one thing I can't stand, it's intolerance.",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "What a great day! Got back home last night from some fantastic skiing\nin Colorado, and put the battery back in the FXSTC. Cleaned the plugs,\nopened up the petcock, waited a minute, hit the starter, and bingo it\nstarted up like a charm! Spent a restless night anticipating the first\nride du saison, and off I went this morning to get my state inspection\ndone. Now my bike is stock (so far) except for HD slash-cut pipes, and\nall went well with my New Hampshire State Inspection (meaning all my\nlights worked OK) until the dude produces a decibel meter and tells me\nabout the new NH law about MC noise.....huh?  sez I....and he has me\nstart her up and rev to about 3000 rpm....I FAIL cuz I register 120 DB,\nand the max allowed is 110! If I fail with these pipes, there are gonna\nbe a whole lotta seriously pissed off bikers round here when they go\nfor inspection.\n\n*&%^*$%*^*%*&\n\nBut hey, its a new experience! I have never really felt like a menace\nto society before! I parked, dismounted and walked in to my building\nwith a ",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Archive-name: space/intro\nLast-modified: $Date: 93/04/01 14:39:10 $\n\n    FREQUENTLY ASKED QUESTIONS ON SCI.SPACE/SCI.ASTRO\n\n    INTRODUCTION\n\n    This series of linked messages is periodically posted to the Usenet\ngroups sci.space and sci.astro in an attempt to provide good answers to\nfrequently asked questions and other reference material which is worth\npreserving. If you have corrections or answers to other frequently asked\nquestions that you would like included in this posting, send email to\nleech@cs.unc.edu (Jon Leech).\n\n    If you don't want to see the FAQ, add 'Frequently Asked Questions' to\nyour KILL file for this group (if you're not reading this with a newsreader\nthat can kill articles by subject, you're out of luck).\n\n    The FAQ volume is excessive right now and will hopefully be trimmed down\nby rewriting and condensing over time. The FAQ postings are available in\nthe Ames SPACE archive in FAQ/faq<#>.\n\n    Good summaries will be accepted in place of the answers given here. The\npoint of this is to c",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nThe original Mac II had an Apple MMU chip installed which performs a subset\nof the 68851's functions.  If you look underneath your front left floppy\nbay you will find three chips, all approximately the same size.  One will\nbe the 68020, the next the 68881, and the third, approximately the same\nsize, will be the Apple chip.  It is easy to spot because it has a 'hump'\nin the middle of it.\n\n\nExample:\n\n\n                         -----------\n                        /           \\\n         ---------------             ---------------\n         |                                         |\n         |                                         |\n\nThat and the Apple logo should make it easy to find.",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "+At one time there was speculation that the first spacewalk \n+(Alexei Leonov ?) was a staged fake.\n+\n+Has any evidence to support or contradict this claim emerged ?\n+\n+Was this claim perhaps another fevered Cold War hallucination ?\n\nI, for one, would be an avid reader of a sci.space.ussr.what.really.\nhappened.\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ": >\tNot to pick on Mr. May in particular, of course, but isn't this\n: >kind of the domino theory? When one little country falls, its neighbor\n: >will surely follow, and before you know it, we're all mining salt\n: >in Siberia for not turning in our Captain Crunch Secret Decoder Rings.\n: \n: But, for all the wrongness of our attempt to correct it (VietNam, et. al.),\n: the domino theory wasn't disproved at all.\n\nIronically, the domino theory in fact *was* a reasonable metaphor for\nthe collapse of communism, from the liberalizations in Poland and\nHungary to the border crossings in the summer of '89 to the fall of\nthe Wall later that year....and then to the ultimate collapse of the\nUSSR.\n\n-Tim May",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nJoystick A:\n1        +5 VDC\n2        Button 1\n3        X Axis\n4        Ground\n5        Ground\n6        Y Axis\n7        Button 2\n8        + 5 VDC\nJoystick B:\n9        +5 VDC\n10        Button 1\n11        X Axis\n12        Ground\n13        Y axis\n14        Button 2\n15        +5 VDC\n\n---\n . SLMR 2.1 . Soft judges make hardened criminals.\n                                                                                 ",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Thus said djb@silverton.berkeley.edu (D. J. Bernstein):\n\nGiven the description of the algorithm given, the only plausible\nexplantion I can find is that K_P must be agreed to out of bandwidth\nin advance by the two parties; i.e. it's a standard shared symmetric\nkey.",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n(a) To use for sensitive but not strategically important traffic,\n(b) if the system was cheap.\n\nFor example, I don't own a cordless phone.  With Clipper, I would.  If the \nlocal men in blue really want to listen to me talk to my friends or order \npizza, I'm no worse off than I am now, and I don't have to worry about\nlocal kids or nosy neighbors.\n\nThat is to say, Clipper \"raises the bar\" on insecure channels.  It doesn't \nmake them secure, by any means, but a wall, even if the FBI can get a master \nkey by court order, is still better than a \"keep off the grass\" sign.\n\n\nSo, where can I buy a DES-encrypted cellular phone?  How much does it cost?\nPersonally, Cylink stuff is out of my budget for personal use :)...\n\n\nThe Second and Fourth Amendments do come to mind.  \n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n   >\tIf the  new  Kuiper belt object *is*  called 'Karla', the next\n   >one  should be called 'Smiley'.\n\n   Unless I'm imaging things, (always a possibility =) 1992 QB1, the Kuiper Belt\n   object discovered last year, is known as Smiley.\n\nAs it happens the _second_ one is Karla. The first one was\nSmiley. All subject to the vagaries of the IAU of course,\nbut I think they might let this one slide...\n\n*  Steinn Sigurdsson   \t\t\tLick Observatory      \t          *\n*  steinly@lick.ucsc.edu\t\t\"standard disclaimer\"  \t          *\n*  \"The worst thing you can say to a true revolutionary is that his \t  *\n*  revolution is unnecessary, that the problems can be corrected without  *\n*  radical change. Telling people that paradise can be attained without   *\n*  revolution is treason of the vilest kind.\"  -- H.S. 1993\t\t  * \n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nArmenia is involved in fighting with Azarbaijan.  It is Armenian\nsoldiers from mainland Armenia that are shelling towns in Azarbaijan.\nYou might wish to read more about whether or not it is Azeri aggression\nonly in that region.  It seems to me that the Armenians are better\norganized, have more success militarily and shell Azeri towns\nrepeatedly.  \n\nI don't wish to get into the Cyprus discussion.  Turkey had the right to\nintervene, and it did.  Perhaps the intervention was not supposed to\nlast for so long, but the constant refusal of the Greek governments both\non the island and in Greece to deal with reality is also to be blamed\nfor the ongoing standoff in the region.  \n\nLastly, why is there not a soc.culture.armenia?  I vote yes for it.\nAfter all, it is now free.  ",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ": The cops/feds do *not* need to be able to get hold of your private key to\n: listen in to cellular conversations.  Encryption is not end-to-end, but \n: cellphone to base-station - it *has* to be this way so that cellular users\n: and fixed installations can talk to each other.  For cellular to cellular\n: calls, the transmission is decrypted at the base-station, passed to another\n: base-station and re-encrypted.  The cops/feds can listen to the unscrambled\n: call *provided* they get a warrant to tap into the cellular provider's\n: equipment.  The only reason for wanting a crackable system is so they can\n: listen without having to obtain a warrant.\n\n: But, maybe the Clipper system is secure, and they really do need a warrant\n: to get the key out of escrow before they can listen in using a scanner (see\n: above - they don't *have* to go down this route anyway).  I have my doubts,\n: but even if true once they have the key they will *never* again need a\n: warrant to tap into that particular phone whenever they want.",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nAnd the initiative for actual implementation.  Clinton is not just an\ninnocent bystander here - They didn't just slap his name on it without\nconsulting him.  What exactly is his extensive history of individual\nrights advocacy that people are assuming he really has nothing to do\nwith this?  He just went back on his pledge to cut the espionage\nbudget, and is now asking for more money than even Bush wanted.",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Taft Electronics, 45th Street between 5th & 6th -- the only one left in\nwhat was once an entire district of electronics stores.  A little expensive.\n\nTrans-Am Electronics, Canal Street near 7th Ave -- lots of surplus type\nstuff.\n\nSeveral other electronics or \"surplus\" type places are still on Canal\nStreet.\n\nI think Bronx Wholesale Radio is still in business -- Fordham Road not\ntoo far from Arthur Avenue in the Bronx.  Also in the Bronx is NorthEastern\n(or was it Northwestern?  Northeast Electronics?) on Jerome Avenue near\nBedford Park Boulevard.  They're mostly a TV parts supply house, but when\nI was building CB radio projects, they were quite handy..",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nIt wasn't especially prominent, as I recall.  However, quite possibly it's\nno longer on display; NASM, like most museums, has much more stuff than it\ncan display at once, and does rotate the displays occasionally.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "=================================================================\nI am posting this for someone else.  Please respond to the \naddress listed below.  Please also excuse the duplication as this \nmessage has been crossposted.  Thanks!\n=================================================================\n \n \n      REQUEST FOR IDEAS FOR APPLICATIONS OF REMOTE SENSING DATABASES \n                             VIA THE INTERNET\n \nNASA is planning to expand the domain of users of its Earth and space science\ndata.  This effort will:\n \n  o   Use the evolving infrastructure of the U.S. Global Change Research \n      Program including the Mission To Planet Earth (MTPE) and the Earth \n      Observing System Data and Information System (EOSDIS) Programs.\n \n  o   Use the Internet, particularly the High Performance Computing and \n      Communications Program's NREN (National Research and Education \n      Network), as a means of providing access to and distribution of \n      science data and images and value added products.\n \n  o   P",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nI think we agree on much.  However the paragraphs above seem to repeat\nuncritically the standard Kuhn/Lakatos/Feyerabend view of \"progress\" and\n\"rationality\" in science.  Since I've addressed these issues in this\nnewsgroup in the not too distant past, I won't go into them again now.\n\nWhat is wrong with the above observation is that it explicitly gives the\nimpression (and you may not in fact hold this view) that the common (perhaps\neven the \"correct\") approach for a scientist to follow is to sit around\nhaving flights of fancy and scheming on the basis of his jealousies and\npetty hatreds.  It further at least implicitly advances the position that\nsciences goes \"forward\" (and it is not clear what this means given the\ncontext in which it occurs) by generating in a completely non-rational\nand even random way a plethora of hypotheses and theories that are then\nweeded out via the \"critical function\" of science.  (Though why this critical\nfunction should be less subject to the non-rational forces is a mystery.\nIf e",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": " \n\n  And another one:\n\nHasn't enyone heard of a leader's recon?  This is when the leader of the\nassult goes and looks at the objective to see if anything has changed that\nwould affect the mission.  Even the Freshman cadets here in ROTCland\nknow about them.  Mostly because they know it as the part where they \nlie on the cold ground for an hour or so, but they've heard about it.\nMaybe the ATF should have hired out to the local ROTC guys!\n\n\n-- \nAndrew Diederich                    diederic@spot.colorado.edu",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nMost cars have drain petcocks in the radiators, and I've never \nseen nor heard of a vandal opening one.  I imagine that there\nwould be an even lower risk with an oil plug because you have \nto crawl furthur under the car to open it.  \n\nCar vandals are usually real traditional in their methods, and do things\nthat don't get them dirty, like keying your car, dumping sand, sugar\nor mothballs in the gas tank, TPing it, etc.\n",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n   > Why Paul, it's obvious.\n   > Once chlorine chemistry has been banned on Earth,\n   > as is being advocated by some groups, Ti prices will\n\n   > :-) :-) :-) \n\n   Well, there already is a sulfate process for TiO2 purification.  The\n   chlorine process is cleaner, however, and for that reason is achieving\n   dominance in the marketplace.\n\nDarn, caught by the white hot heat of technological progress again...\n\n   Most Ti is used in pigment, btw (as the oxide), where it replaced\n   white lead pigment some decades ago.  Very little is reduced to the\n   metal.\n\nSpoilsport. Hence the need for increasing fashion\nemphasis on anodise Ti jewelry...\n\n   > Seriously, I'd say there is a flaw in Gary's analysis\n   > in that he assumes an export oriented economy, maybe\n   > the lunatics will just want some native Ti for local\n   > use...\n\n   Which merely evades the issue of why those lunatics are\n   there at all (and, why their children would want to stay.)\n\nI did not evade the issue at all. I clearly stated that\nthis wo",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Archive-name: cryptography-faq/part05\nLast-modified: 1993/4/15\n\n\nFAQ for sci.crypt, part 5: Product ciphers\n\nThis is the fifth of ten parts of the sci.crypt FAQ. The parts are\nmostly independent, but you should read the first part before the rest.\nWe don't have the time to send out missing parts by mail, so don't ask.\nNotes such as ``[KAH67]'' refer to the reference list in the last part.\n\nThe sections of this FAQ are available via anonymous FTP to rtfm.mit.edu \nas /pub/usenet/news.answers/cryptography-faq/part[xx].  The Cryptography \nFAQ is posted to the newsgroups sci.crypt, sci.answers, and news.answers\nevery 21 days.\n\n\nContents:\n\n* What is a product cipher?\n* What makes a product cipher secure?\n* What are some group-theoretic properties of product ciphers?\n* What can be proven about the security of a product cipher?\n* How are block ciphers used to encrypt data longer than the block size?\n* Can symmetric block ciphers be used for message authentication?\n* What exactly is DES?\n* What is triple DES?\n* What i",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n: It means that the EFF's public stance is complicated with issues irrelevant\n: to the encryption issue per se. There may well be people who care about\n: the encryption issue who don't care to associate themselves with the\n: network erotica issue (or may even disagree with the EFF's position).\n\nPerhaps these encryption-only types would defend the digitized porn if it\nwas posted encrypted?",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "}     A note on the lighter side, I've noticed most gun-banners (some of my\n}   friends included) are the one who make comments that indicate they are \n}   more likely to resort to violent.  So are they really banning guns so they \n}   wouldn't end up shooting someone else?\n\nCould be.\n\nIt is also likely that since they feel they are more likely to resort to\nviolence, they have a hard time believing that anyone else would react\notherwise.",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nAbsolutely, unless you are in the U.S.  Then the cager will pull a gun\nand blow you away.",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nIt's all easy with a DSP. The Olivetti Quaderno, for example [*great* 1kg\nsubnotebook/palmtop PC -- sorry for the plug, folks, but Olivetti don't\nseem to be doing a good job marketing it themselves :-)] includes sound\ndigitisation hardware; they provide vocoders for their DSP which produce\nvarous bit-rates. There's one which gives pretty acceptable voice\nquality at 13Kbit/sec, just right for a V.32bis modem.\n\nTheir DSP can play and record at the same time, too -- so you wouldn't\nneed to play \"two-way-radio\". You can also download code to the DSP\nsubunit, though you'd need a software development kit for the DSP in \nquestion [dunno which it is...] if you wanted to produce your own \nvocoder for, say, V.32 speeds.\n\nPaul",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "+\n+I love the idea of an inflatable 1-mile long sign.... It will be a\n+really neat thing to see it explode when a bolt  (or even better, a\n+Westford Needle!) comes crashing into it at 10 clicks a sec.  \n+\nPageos and two Echo balloons were inflated with a substance\nwhich expanded in vacuum. Once inflated the substance was no longer\nneeded since there is nothing to cause the balloon to collapse.\nThis inflatable structure could suffer multiple holes with no \ndisastrous deflation.\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "This was posted to the firearms-politics mailing list.\n==============================================================\nHi Folks;\n\nWednesday marked day 2, the beginning of the trial.  Opening\nstatements were given by both the prosecution and the defense,\neach side presenting its version of what happenned last August.\n\nThe prosecution argued that Weaver and his family moved to\nIdaho in 1983 anticipating a battle with the \"evil\" federal\ngovernment.  The prosecution alleges that Weaver sold federal\nagents \"sawed off\" shotguns and later failed to appear for\ntrial: Despite repeated \"good faith\" efforts to get Weaver\nto surrender peacefully, Weaver refused.  The shootout erupted\nwhen Weaver discovered agents on a surveillance mission and\nbegan firing.  According to the prosecution, three people\nwere taking an \"offensive action\" against an FBI helicopter\nwhen an FBI sniper killed Vicki Weaver.\n\nThe defense argued that Weaver and his family moved to northern\nIdaho in 1983 to practice their religion in peace.  They want",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "When I use telix (or kermit) in WIN 3.1, or use telix after exiting windows\nto dos, telix can not find the serial port. If you have some ideas on how\nto solve this problem or where I can find further information, send me email\nor send it to the news group.  Thanks.\n\nDale Erickson \ndericks@plains.nodak.edu",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI must respectfully disagree with this assertion, Brad.  The government is\nnotoriously sloppy with physical, communications, and information security.  They\ncan't keep their computers safe, and they're \"trying\".  Read \"DEA is\nNot Adequately Protecting National Security Information\" [GAO/IMTEC 92-31] for an\nexcellent example of what I'm talking about.\n\nPrivate sector organizations tend to be even more lax in their security measures.\nI believe that the escrow organizations will be penetrated by foreign\nintelligence services within months, if not weeks, of their selection.  Private\norganizations that lack the resources of a full-fleged intelligence service will\ntake longer - perhaps on the order of one to two years.  Nonetheless, the\npenetrations will take place, without question.",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Does anyone out there know of any ftp sites which deal with \nelectronics projects, plans, etc?  Any response appreciated.:)\nJB",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nLets hear it for Dan Goldin...now if he can only convince the rest of\nour federal government that the space program is a worth while\ninvestment!\n\nI hope that I will live to see the day we walk on Mars, but\nwe need to address the technical hurdles first!  If there's sufficient\ninterest, maybe we should consider starting a sci.space group \ndevoted to the technical analysis of long-duration human spaceflight.\nMost of you regulars know that I'm interested in starting this analysis\nas soon as possible.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Does anyone know what causes the ever-growing black border around the\nedges of my computer screen?  The growth has been gradual so I don't\nknow how long it's taken to get this bad.  I have a 19\" DEC (?)\ncolor monitor, maybe five years old, and the black border is about 1.1\ninches on the left and right sides, about 1.75 inches on the bottom and\nnegligible at the top of the screen.  The only controls are\nbrightness knob, contrast knob, deGauss switch, and power switch.\n\nIs there anything to be done, or are the monitor's days numbered?",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nApparently, Microsoft came out with a new product: MS-Braille it is suppose \nto be \"WYTIWIG\".  :-)\n\nNo offense.\n ",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nNow, I had put a Wink at the end of my suggestion indicating it was\nintensely sarcastic.  I can't help it if everyone got all serious.\n\nRoss.\n\n\tI never saw your original posting.  it dropped on the floor\nsomewhere.  I just saw the trickle down, thought it was intensely\nstupid,  not knowing anything about the joke, mentioned arbitron\nand left it with an equally stupid joke.  Bill in his ever increasing\ndevotion to thoroughness dug up  several  arbitron stats.\n\nI myself think the arbitron stats are  severely methodologically impaired,\nbut are a good measure of proportion.  I don't think anyone\nknows how many people read news anymore.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI agree.  So why is Cylink the only (and expensive) game in town?\n\nNote: I think Cylink is great, and if my boss would double my salary, I'd buy \na bunch of their stuff :).\n\nOne thing that Clipper offers is interoperability, at a higher degree of \nsecurity than we currently have in non-proprietary voice encryption systems.\nThis means it will be cheaper than anyone's proprietary scheme, and easier to \ndeploy.  This is, of course, either a bug or a feature depending on how you \nlook at it :).\n\n\nGreat!  Where can I buy it?\n\nAnother note: If \"Clipper\" increases the incentive to bring stronger \nencryption to the mass market, all the better.  It's far overpriced at \nthe moment.\n\n\nI don't care where we *need* to get it from, I care where we *can* get it \nfrom, and whether it will interoperate with everyone else.\n \n\nYou can build them right now as long as you don't want to export (a \nrestriction I firmly oppose).  The only thing stopping people from making \ncheap encryption is greed: they want a lock on the market.\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I forwarded an old posting about CELP speech compression:\n\n\tIn case you'd like to experiment with CELP, you can obtain a software\n\timplementation of the 4800 bps Fed Std CELP coder for free:\n\n\tThe U.S. DoD's Federal-Standard-1016 based 4800 bps code excited linear\n\tprediction voice coder version 3.2 (CELP 3.2) Fortran and C simulation source\n\tcodes are now available for worldwide distribution at no charge (on DOS\n\tdiskettes, but configured to compile on Sun SPARC stations) from:\n\nI've since been told that the source of this is on cygnus.com\nin /pub/celp.speech.tar.Z\n\nI'm not in a position to; any Sun tcp/ip gurus out there who think they\ncan marry this with netfone by the end of the week? ;-)  Seriously.  I\nthink someone with real net access and two sparcs could have this running\nby the end of the week.  Then we ask the pgp guys to add a bytestream\ncrypto filter.  Two weeks at the most.  [Damn, I wish I had my sparc\nback... I'm stuck on a 25mhz 386sx]\n\n\nShare and Enjoy!",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Some birds require constant management for survival.  Pointing a sensor at\nthe sun, even when powered down, may burn it out.  Pointing a\nparabolic antenna  at Sol,  from venus orbit  may trash the\nfoci  elements.\n\nEven if you let teh bird drift,  it may  get hosed by some\ncosmic phenomena.   ",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": " > >(specifically the terrorists and drug dealers who proponents of key escrow\n > >cite as threats) will be highly motivated to steal the cipher phone of\n > >a legitimate user, and to kill this person or hold them hostage so\n > >discovery of compromise of the device will be delayed.\n\n >Why doing it in such a rough manner? It is much more professional to\n >steal the chip from the phone and even to replace it with a\n >pin-compatible do-nothing chip that does not encrypt at all. Chances\n >are that the victim will not notice anything, especially if it is done\n >professionally.\n\n  Assuming that the bad guys can easily obtain substitute chips which don't\ncause any noticeable effect to either the user or the person at the other end\nof the line (if there is any significant difficulty to obtaining such chips,\nsome of the criminals will decide to fall back on the murder/kidnap method).\n\n > > Once a suitable collection of devices is stolen, criminals can communicate\n > >with impunity (assuming the cipher system carries ",
+    "response": 11,
+    "category": "sci.crypt"
+  }
+]

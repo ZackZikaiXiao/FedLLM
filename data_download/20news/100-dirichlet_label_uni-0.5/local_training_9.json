@@ -1,0 +1,692 @@
+[
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "From Denning:\n\n   the Skipjack encryption algorithm\n   F, an 80-bit family key that is common to all chips\n   N, a 30-bit serial number\n   U, an 80-bit secret key that unlocks all messages encrypted with the chip\n\n   E[M; K], the encrypted message stream, and \n   E[E[K; U] + N; F], a law enforcement block.  \n\nWhere the session key is K, and is transmitted encrypted in the unit Key U.\nWhich along with the serial number N is encrypted in the Family key F.\n\nPresumably the protocol can be recovered (if by nothing else, differential\nanalysis).\n\nPostulate if you will, a chip (or logic) sitting between the clipper chip\nand its communications channel.  The function of this spoof chip is twofold:\n    \n\t1) Transmit Channel\n\n\t    The spoof chip XORs the 30 bit encrypted serial number with\n\t    a secondary keying variable.  This renders the serial number\n\t    unrecoverable with just the family key\n\n\t2) Receive Channel\n\n\t    The spoof chip XORs the incoming encrypted serial number\n\t    with a secondary keying variable (as",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I just purchased a Viewsonic 17 and and Orchid P9000.  In short, I am happy\nwith the monitor and unhappy with the card.  I have spent a lot more time\nfutzing with the card, so that is what I am going to write about.  The monitor\nis pretty.  The moires I had under Simcity on my 17\" Magnavox went away.  It\nisn't as heavy as I thought it would be (45 lbs, I think).  So much for the\nmonitor.  On to the bitch session and test results.\n\nIn going with the modern trend, the Orchid P9000 card only supports 16 colors\nin 640x480 mode without a driver.  Of course, this breaks any DOS program\nwhich uses SVGA modes (like most of my CD-ROMs).  The Compudyne Whiplash VGA,\nOrchid Fahrenheit 1280, and Orchid F. VLB all share this limitation.  Those\nare all S3 cards, which means it is an S3 problem for them (the P9000 uses\na Weitek VGA chip which also doesn't support them).  The Hercules Graphite\ncard does seem to have these modes, but I didn't run the same test cases as\nI did on the other boards during the brief time I had it.",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "For sale:\n\n  Model  : Husqvarna 510 TE (enduro model)\n  Year   : 1988\n  Engine : 500 cc Four Stroke\n\n  Extras : - 1992 ignition (for easy starting)\n           - Suspension by Aftershock\n           - Custom carbon fiber/Kevlar skid plate\n           - Quick steering geometry\n           - Stock (EPA legal and quiet) exhaust system\n           - Bark busters and hand guards\n           - Motion Pro clutch cable\n\n  Price  : $2200\n\n  Contact: Denis Concordel  E-Mail: denis@apldbio.com\n                            MaBell: (415) 570 6667 (work)\n                                    (415) 494 7109 (home)\n\n  I am selling my trusty Husky... hopefully to buy a Husaberg...  This is\n  a very good dirt bike and has been maintained perfectly.  I never had\n  any problems with it.\n\n  It's a four stroke, 4 valves, liquid cooled engine. It is heavier than \n  a 250 2 stroke but still lighter than a Honda XR600 and has a lot better \n  suspension (Ohlins shock, Husky fork) than the XR. For the casual or non\n  competitive rider, the engi",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\nWhy should I keep my fingers crossed? I doubt it would do anything. :)",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Chicago from what I have read is projected to run in 4M on 386 and higher.\nIt is definitely aimed at the desktop. \nIt  is rumored to offer preemptive multitasking,\nmultithreading but will not offer multiprocessing. Is 32 bit and no reliance\non DOS. It is rumored to have an integrated file and program manager. \nDOS 7 is rumored to be similar to Chicago but without the GUI. Is also\na step towards CAIRO (the next generation OS) which is rumored to be \nobject oriented.\nI wonder where Windows 4.0 fits here is it a stepping stone to Chicago?\nHope this helps.\nThx Dave L\n\n\n\n",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Using the VMODE command, all you need to do is type VMODE VESA at the dos\nprompt. VMODE is included with the Speedstar 24.  I have used the VESA mode\nfor autodesk animator pro.\n",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI'm sure the whole newspaper is copyrighted.  They could have gotten\npermission to use the image under their own copyright.",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nm> The latest news seems to be that Koresh will give himself up once he's\nm> finished writing a sequel to the Bible.\n\nAlso, it's the 16th now.  Can the Feds get him on tax evasion?  I don't\nremember hearing about him running to the Post Office last night.\n",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Experiences with Diamond Viper VLB video card\n\nSeveral problems:\n\n1) The ad specified 16.7 million colors at 640x480 resolution with 1MB\n   of VRAM, which is what I have. This color depth is NOT SUPPORTED\n   with video BIOS version 1.00 and drivers version 1.01. A max of 65K\n   colors are supported at 640x800 and 800x600 resolutions with 1MB\n   VRAM.\n\n2) With the 65K color choice I notice two minor irritations:\n\n   a) Under NDW, when an entry in a list is highlighted (such as in an\n      Open menu) and then is deselected, a faint vertical line often\n      remains where the left edge of the highlighted rectangle used to\n      be.\n\n   b) With Word for Windows, when you use shading in a table, the\n      display shows the INVERSE of the shading; for example, if you\n      shade the cell as 10%, the display is 90% (the printout is OK).\n\n3) The big killer bug is using the Borland C++ Integrated Development\n   Environment. The problem occurs when you click on the Turbo Debugger\n   icon (or use the Debugger option in ",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "After I have produced a schematic with PADS-LOGIC, how do I import it into \nPADS-PCB to create a PCB pattern?  The only way I've gotten it to work is\nto output a FutureNet netlist, and then import this into PADS-PCB.  Is there\nanother way of doing this?  I didn't see any information in the instructions\nprovided, but I might have missed something.  Any suggestions would be \ngreatly appreciated.  Thanks!\n",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n[After a small refresh Hasan got on the track again.]\n\n\n\n\n   |>    |> I get the impression Hasan realized he goofed and is now\n   |>    |> trying to drop the thread. Let him. It might save some\n   |>    |> miniscule portion of his sorry face.\n\n   |>    Not really. since i am a logical person who likes furthering himself\n   |>    from any \"name calling\", i started trashing any article that contains\n   |>    such abuses without responding to, and sometimes not even reading articles \n   |>    written by those who acquired such bad habits from bad company!\n   |> \n   |> Ah, but in my followup on the subject (which you, by the way, never bothered\n   |> responding to..) there was no name-calling. Hence the assumption.\n   |> Do you feel more up to it now, so that we might have an answer?\n   |> Or, to refresh your memory, does the human right issue in the area\n   |> apply to Palestinians only? Also, do you claim there is such a thing as \n   |> forfeiting a human right? If that's possible, then explain to the rest of",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Archive-name: graphics/resources-list/part1\nLast-modified: 1993/04/17\n\n\nComputer Graphics Resource Listing : WEEKLY POSTING [ PART 1/3 ]\n===================================================\nLast Change : 17 April 1993\n\nMany FAQs, including this Listing, are available on the archive site\npit-manager.mit.edu (alias rtfm.mit.edu) [18.172.1.27] in the directory\npub/usenet/news.answers.  The name under which a FAQ is archived appears\nin the Archive-name line at the top of the article.\nThis FAQ is archived as graphics/resources-list/part[1-3]\n\nThere's a mail server on that machine. You send a e-mail message to\nmail-server@pit-manager.mit.edu  containing the keyword \"help\" (without\nquotes!) in the message body.\n\nYou can see in many other places for this Listing. See the item:\n\n0. Places to find the Resource Listing\n\nfor more information.\n\nItems Changed:\n--------------\n\nRE-ARRANGED the subjects, in order to fir better in the 63K/article limit.\nI PLAN ON CHANGING HEADERS SOON, SO BE CAREFUL! ONLY THE \"Resource Listing\"",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello,\n     I am looking to add voice input capability to a user interface I am\ndeveloping on an HP730 (UNIX) workstation.  I would greatly appreciate \ninformation anyone would care to offer about voice input systems that are \neasily accessible from the UNIX environment. \n\n     The names or adresses of applicable vendors, as well as any \nexperiences you have had with specific systems, would be very helpful.\n\n     Please respond via email; I will post a summary if there is \nsufficient interest.\n\n\nThanks,\nKen\n\n\nP.S.  I have found several impressive systems for IBM PC's, but I would \nlike to avoid the hassle of purchasing and maintaining a separate PC if \nat all possible.\n\n-------------------------------------------------------------------------------\nKen Hinckley (kph2q@virginia.edu)\nUniversity of Virginia \nNeurosurgical Visualization Laboratory",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Could someone please tell me if a 1/4 decoder is the same as a 1 to 4\ndemultiplexer. I know how to link 2 of these to get an 8 output circuit,\nbut how do I link 5 of these to make a 1/16 multiplexer. Sorry if this\nseems like a lame question, but I'm only a newbie to electronics, and I\nhave to do this circuit. Please make any mail as droolproof as possible.",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The system, or 'family', key would appear to be cryptographically\nuseless, since *every* chip must know it and be able to remove its\neffects from the bitstream.  I daresay that it will be widely known\nalmost immediately after this system is deployed, and since it's been\npointed out that there is not a separate decrypt key -- the same key\nis used for both encryption and decryption -- there goes any benefit\nto the use of a system-wide key in SkipJack.",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n[stuff deleted]\n\n\nAh, clarification by obfuscation.\n\nActually, the words \"A well regulated Milita, being necessary to the\nsecurity of a free state\" is a present participle, used as an\nadjective to modify 'militia', which is followed by the main clause of\nthe sentence, the subject being 'the right', the verb 'shall'.  It\nasserts that the right to keep and bear arms is essential for\nmaintaining a milita.  The sentence doesn't restrict the right, or\nstate or imply possession of the right by anyone or anything other\nthan the people.  All it does is make a positive statement regarding a\nright of the people. The PEOPLE, as in you and me, as in the First,\nFourth, Ninth, Tenth, as well as the Second amendment.\nThe existence of this right is assumed - it is not granted by the\namendment. There is no stated or implied condition relating the right\nto bear arms to the necessity of a well-regulated militia to the security of\na free state.\nIn other words, the entire sentence says that the right to keep and\nbear arms is UNC",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I am looking for a Windows Utility that would give me a listing of files\nin a directory, but also display a description of the file.  This utility\nwould allow me to enter and edit file descriptions of, hopefully, any \nlength (maybe a small window with a scroll bar?).  I would then be able\nto browse my directories and be able to see what is in a file without\nhaving to open or execute it.  Any such beast out there?  If not, anyone\nwant to write one?",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "If anyone has the current Moto Guzzi National Owners Club\naddress please e-mail it to me. Thanks in advance!\nT.K.",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nVery easily. Show them pictures of crime scenes perpetrated by Christian\nterrorists in this country, if that doesn't convince them have them talk\nto the victims of Christian terrorism. \n\nA brutal act of terrorism inspired by Christian propoganda was recently\ncommited on your very campus. \n\nIts very simple religious extremists of all religions put no value on\nhuman life. Christian and Islamic fundamentalists put advancing there\nreligion above all else, even if doing so violates the religion itself.\n\nP.S. I'm not saying all Christians are terrorists, I'm using \"Christian\n     terrorist\" in the same way the media uses Islamic terrorist.",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "It occurs to me that if they get a wiretap order on you, and the escrow\nhouses release your code to the cops, your code is now no longer secure.\n\nIt's in the hands of cops, and while I am sure most of the time they are\ngood, their security will not be as good as the escrow houses.\n\n\nWhat this effectively means is that if they perform a wiretap on you,\nat the end of the wiretap, they should be obligated to inform you that\na tap was performed, and replace (for free) the clipper chip in your\ncellular phone so that it is once again a code known only to the\nescrow houses.\n\nDo the police normally reveal every tap they do even if no charges are\nlaid?   In many ways, it would be a positive step if they had to.\nJudges set time limits on warrants, I assume.  At the end of the time\nlimit they should have to renew or replace your chip.\n\n\nThat's if we go with this scheme, which I am not sure I agree with.",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nProbably keep quiet and take it, lest they get their kneecaps busted.",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I am looking for EISA or VESA local bus graphic cards that support at least \n1024x786x24 resolution.  I know Matrox has one, but it is very expensive.  All the\nother cards I know of, that support that resoultion, are striaght ISA. \n\nAlso are there any X servers for a unix PC that support 24 bits?",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nWouldn't this require a hyper-sphere.  In 3-space, 4 points over specifies\na sphere as far as I can see.  Unless that is you can prove that a point\nexists in 3-space that is equi-distant from the 4 points, and this may not\nnecessarily happen.\n\nCorrect me if I'm wrong (which I quite possibly am!)\n\nsteve\n---\n\n\n",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nWhat ever happened to the 'Adobe Fortress' I kept hearing about? I\nthought this was a 'Cult Stronghold'! If the kgbatf knew it was a\ntinderbox, why didn't they just have all the talking heads line up\nand start huffin' and puffin?",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nActually, it is simple.\n\nA person P has committed a crime C in country X if P was within the borders\nof X at the time when C was committed.  It doesn't matter if the physical\nmanifestation of C is outside X.\n\nFor instance, if I hack into NASA's Ames Research Lab and delete all their\nfiles, I have committed a crime in the United Kingdom.  If the US authorities\nwish to prosecute me under US law rather than UK law, they have no automatic\nright to do so.\n\nThis is why the net authorities in the US tried to put pressure on some sites\nin Holland.  Holland had no anti-cracking legislation, and so it was viewed\nas a \"hacker haven\" by some US system administrators.\n\nSimilarly, a company called Red Hot Television is broadcasting pornographic\nmaterial which can be received in Britain.  If they were broadcasting in\nBritain, they would be committing a crime.  But they are not, they are\nbroadcasting from Denmark, so the British Government is powerless to do\nanything about it, in spite of the apparent law-breaking.\n\nOf cour",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nFret not, you made it.\n\n\nNot while we still have our guns.  <evil grin>  \n\nHey, gang, it's not about duck hunting, or about dark alleys,\nit's about black-clad, helmeted and booted troops storming\nhouses and violating civil rights under color of law. \n\nAre YOU ready to defend YOUR Constitution?",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have a Roberto Clemente 1969 Topps baseball card for sale, in near-mint\ncondition (really as close to mint condition as you can get).  It lists for\n$55 in my most recent baseball card pricelist for May.  I am offering it for\n$50 and I'll pay the certified postage to ship it to you.",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Sigha.\n \n 1) Trying to figure out a way to put a halogen beam on my CB360T... Are \nthere any easy ways to do this (i.e. a \"slip-in\" bulb replacement)?\n \n 2) Was told by a guy at the bike shop that my \"not damn near bright enough\" \nincandescent beam might be caused by a perma-low battery. So I went and \npicked up this cheapo \"Motorcycle battery and charging system tester\"... \nHook it up to the battery, it's got 3 lights on \"Very good charge\"... Start \nthe engine (to test the charging system), and it doesn't even REGISTER. It's \nsupposed to light 5 or 6 lights if everything is OK, but it stays down at \nthe same point as just the battery.\n \n My question here is, if indeed my charging system is just plain messed up, \nhow the HECK is the battery staying fully charged? I'd think it would be \ndarned near dead from supporting my lights, etc...\n \n Do the '75 CB360T's have a problem with their charging system? Are they \njust generally slower charging than what is normal for bigger bikes?\n \n Is there an easy fix for thi",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\n\nYou do mean disks, don't you, not tapes?  You forgot to say whether you\nwere looking for the old 8\" or the newer 5.25\".\n\nSorry, just use them at work and don't think they would appreciate it.\n",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\t\t......@compuserve.com",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Someone posted a list of x number of alleged Bible contradictions.  As Joslin\nsaid, most people do value quantity over quality.  Dave Butler posted some good\nquality alleged contradictions that are taking a long time to properly exegete.\n\nIf you want a good list (quantity) - _When Critics Ask, A Popular Handbook On\nBible Difficulties_ by Dr. Norman Geisler deals with over 800 alleged contradictions.\n\nFrank",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nAs a followup, this is a co-worker's machine.  He has the latest 2.03 drivers.\nIt only happens using the 1024x768x256 driver.  Sometimes it takes a minute\nor so for the cursor to wig out, but it eventually does in this mode.  I\nsusect something is stepping on memory the video card wants.  I excluded\na000-c7ff in the EMM386 line and in system.ini  The problem persisted.\nPerhaps it is something specific to the Gateway machine or it's components.\nIt is a 66mhz DX/2 Eisa bus with an Ultrastore (24xx?) controller.  Ah well,\nI was hoping this was some kind of 'known problem' or somebody had seen it\nbefore.  Perhaps a call to Gateway is in order, but I do find folks here\nusually are far more in the know.",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ": I was posting to Alt.locksmithing about the best methods for securing \n: a motorcycle.  I got several responses referring to the Cobra Lock\n: (described below).  Has anyone come across a store carrying this lock\n: in the Chicago area?\n: \n: Any other feedback from someone who has used this?\n\nWhat about the new Yamaha \"Cyclelok\" ?\nFrom the photo in Motorcyclist, it looks the same hardened steel as a \nKryptonite U lock, except it folds in five places.\nIt seems to extend out far enough to lock the rear tire to the tube of\na parking sign or similar.\n\nAnyone had any experience with them, how easy is it to attack the lock\nat the jointed sections ?",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "No it's not.  If you would have read my other post I was accurate.  Here's what\n\n[material from another post]------------------------->  The other point that I\nwould like to make because I know it's true (looked this one up in the Illinois\n                  this is for you Andy-----> ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nstatutes before) is that it is illegal to carry a concealed weapon in Illinois.\n^^^^^^^^ <------ Also for you Andy.\n\nAnd then I went on to say:\nThere is no such thing as a CCW for us ordinary folk here.\n[end of quoted material]\n\nOf course I forgot to mention who \"us ordinary folk\" are so just for Andy I'm\ngoing to go to the library tomorrow and photocopy the part of the Illinois\nstatutes with this information and post it.  Ordinary citizens CAN NOT get a\nlicense to carry a concealed weapon.  There are very few people who can.  I\neven asked my lawyer friend about this and he told me that only certain people\ncan get licenses for concealed carry.  He couldn't remember which people but he\nknew for s",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Monthly posting regarding the Buick Grand National / Regal T-Type mailing list.\n\nThis list is for owners and other parties interested in the 82-87 Buick Grand\nNationals, Regal T-Types, GNXs, and other turbocharged Regals. Discussions \ninclude technical information and parts sources. Particular emphasis is given \nto performance enhancements and racing.\n \n\tTo join, or ask, about the mailing list, contact:\n\n\t\tgnttype-request@srvsn2.monsanto.com\n",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I think I should also point out that the mystical DES engines\n\tare known plaintext engines (unless you add a ton of really smart\n\thardware?)\n\nAssume the ton of smart hardware.  It doesn't really have to be that smart.",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi,\n\nI am looking for a PC card which does european videotext/teletext\ndescrambling (PAL). Does anyone in the US sell such a card? I once\nsaw an article about a card with the same functionallity in a\neuropean Elektor magazine, but I wasn't able to track it down.",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\tThat's OK -- you can mail me if you want more discussion.\n\n\n\tAround here, long-guns are proof of age and fill out the forms.\nFor pistols, nation-wide check for felonies and three days wait.  The\n\"good reason\" is the difference, and one Americans tend to get annoyed\nover as we see no reason the guy with the badge is any better than us.\n\n\n\tNot when dealing with America.  I can drive an 18-wheel truck\nwith no permit, no license, and at age 12 if I'm engaged in farming\nwork.  Strange, that, but there is little to no problem with this.\nAgain, personal rights versus collective security.\n\n\n\tStrange that the rates would decline, since killing somebody\nis much more frowned upon than merely stealing a gun.\n\n\n\tWhy attract attention?  I carry my sword openly to and from\npractice, as that is the only legal thing I can do.  I also attract\na lot of attention doing this.  I'd rather be lost \"in a crowd of one\"\nthan be the subject of attention while carrying a weapon.  Think of\nthe word \"intimidation\" and you can see where",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nThis is ok in my opinion as long as the stuff *returns to earth*.\n\n\nIf this turns out to be true, it's time to get seriously active in\nterrorism. This is unbelievable! Who do those people think they are,\nselling every bit that promises to make money? I guess we really\ndeserve being wiped out by uv radiation, folks. \"Stupidity wins\". I\nguess that's true, and if only by pure numbers.\n\n\tAnother depressed planetary citizen,\n\thoover\n\n\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "libXaw3d, the 3D Athena widget set will greatly improve the\n\"sculptured\" look. In Linux, with its shared, jump-table libs, you\ndon't even have to recompile or relink. you merely have to:\n ln -sf /lib/libXaw3d.so.3.0 /lib/libXaw.so.3\n\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have a brand new low density 5.25\" floppy drive for MAC.\nIt comes with a brand new Apple Macintosh II PC drive card, so \nthat you can hook the drive up to the card.\nIt allows you to use DOS formatted disks.\nI am selling it for $90 (abt 1/3 retail price).\n\nAilin\n803-654-8817",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Australian Pattern Recognition Society\n\n                         2nd CALL FOR PAPERS\n\n                               DICTA-93\n\n                          2nd Conference on -\n\n         DIGITAL IMAGING COMPUTING: TECHNIQUES AND APPLICATIONS\n\n\nLocation: Macquarie Theatre\n          Macquarie University\n          Sydney\n\nDate: 8-10 December 1993.\n\n\n   DICTA-93 is the second biennial national conference of the\nAustralian Pattern Recognition Society.\n\n   This event will provide an opportunity for any persons with an\ninterest in computer vision, digital image processing/analysis and other\naspects of pattern recognition to become informed about contemporary\ndevelopments in the area, to exchange ideas, to establish contacts and\nto share details of their own work with others.\n\n        The Following invited speakers will provide specialised\npresentations:\n\nProf Gabor T. Herman, University of Pennsylvania on Medical Imaging.\n\nProf. R.M. Hodgson, Massey University New Zealand on Computer Vision.\n\nProf. Dominique Juelin, Cen",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nLet's see, if Alexander destroyed Tyre, and people move back, and\nthey construct houses, and after a while 14000 people live there\nand still call it Tyre, it is not considered to be rebuilt. Instead\nit's considered to be 'just-some-people-that-got-together-for-fishing-\nand-they-needed-houses' place.\n\n\nSigh, I was never born in a city then (my home town has 10.000\npeople). I have to consult my city and inform them that it's from\nnow a fishing village. When this city (Kristinestad) was founded\nin the 17:th century about 1000 people lived there, so the norms\nwere even more bizarre for dumb Swedish queens who founded cities\nalong the coast of Finland.\n\nI would like to know why Paul thought is was worth mentioning the \nsmall fishing place of Tyre in Acts. Again, maybe he was a keen\nfisherman and wanted to visit the shores of Tyre? :-)\n\nCheers,\nKent",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "PLease take these and use them.  Take advantage of me... I really\ndon't know what they are worth.\n\nQty 2  -  Canoga Perkins Fiber Optic Modems, Model 2250, RS-422\n          Interface, appear new.  I have powered up but that's all,\n          I have not used them and I cannot tell you whether they\n          work or not.    \n                                 Make Offer.........\n\nQty 1 -   ISC Datacom RF Modem, Model 1056-TX1-RX5-SM-120, Interface\n          RS-449, Internal Fan, powers up fine but otherwise condition\n          unknown, Phone # for the company is 408-747-0300.\n\n                                 Make Offer ............\n\nQty 1 -   Motorola UDS  212 A/D  Modem, RS-232 interface appears to work\n          but I have not and cannot check it.  \n\n                                 Make Offer  .............\n\nThanks and please buy this stuff or it goes out the door",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Greetings!\n       \n          HP 20s forsale.\n          comes with case\n          no manuals\n          excellent condition\n          \n          asking for $13.00\n\n          If interested, please E-mail today.",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nYes, I am very interested in this chip.  Please follow up or email.\n",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Here are some ideas for those of you who want to oppose the White\nHouse Clipper chip crypto initiative.  I think this is going to be a\ntough measure to fight, since the Government has invested a lot of\nresources in developing this high-profile initiative.  They are\nserious about it now.  It won't be as easy as it was defeating Senate\nBill 266 in 1991.\n\nPossible actions to take in response:\n\n1)  Mobilize your friends to to all the things on this list, and\nmore.\n\n2)  Work the Press.  Talk with your local newspaper's science and\ntechnology reporter.  Write to your favorite trade rags.  Better yet,\nwrite some articles yourself for your favorite magazines or\nnewspapers.  Explain why the Clipper chip initiative is a bad idea. \nRemember to tailor it to your audience.  The general public may be\nslow to grasp why it's a bad idea, since it seems so technical and\narcane and innocent sounding.  Try not to come across as a flaming\nlibertarian paranoid extremist, even if you are one. \n\n3)  Lobby Congress.  Write letters an",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nNASA and related agencies apparently used this same principles to create\nthe loudest reported reproduced sound. They used an \"analog\" electrically\ncontrolled valve to control the flow of air across a horn throat. If I \nremember correctly it was called a \"modulated air blast transducer\". There\nwere reports of the thing being able to produce 106 dB @ 80 Hz @ 10 mile\ndistance, communicate directly with fighter pilots @ 5000 ft, etc.\n\nRegards,\nGordon.\n",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nYou didn't mention whether or not cost is an issue.  Where\nexactly are you running 100MHz??  THe digital side?  TTL?\nECL?  We run 200MHz and 100MHz all over our IC test equipment \nall day long in the ECL domain, and we use DIP's along\nwith PLCC's, 25mil and 20mil pitch 256pin QFP's to name\na few.  I don't see a problem in packaging as long\nas you adhere to sound engineering practices.  \n\nA good source of information is Motorola's MECL System Design\nHandbook. The latest ed. is dated 2/88.  That is considered\nto be one of the *bibles* in high-speed design.\n\nThe very fact that you need to build a test fixture means\nyou're most likely going to need a socket.  It in itself\nhas far more inductance per pin than the package you are\ntesting, not to mention any impedance discontinuities.  I\ndon't see the big concern over the packaging because it\nprobably isn't going to make that much difference\n\nIf you're trying to get TTL to run at 100MHz, have fun...\nTTL was never designed to run in a 100MHz environment.\n:-(\n\naaron",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nPlease tell me what you think would have happened had the people \ncome out with their hands up several weeks ago.\n\n\nMore than someone who would not release children from the compound.\n\nI.e., more than David Koresh/Vernon Howell/\"Jesus Christ\".\nI saw lengthy excerpts from an Australian documentary made in \n1992 that clearly showed that this was a cult.\n\nI am not pleased with the BATF handling of the affair.  I think they \nbungled it badly from the start.  But I don't think they are \nresponsible for the fire, which started in two different places.\n\n\n",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nOk, I was under the impression that it accepted digital input.\n\nI still don't know for sure if it accepts BOTH interlaced and \nnon-interlaced as I have gotten conflicting info.",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nHaving lived, played, and worked on and near the Navajo reservation\nfor a number of years, I can confirm this is an ancient pattern,\nfound in petroglyphs dated 800 to 1200 years old.\n\nAlso, the Indians never stopped making rugs with this pattern - they\njust stopped selling them after the Nazi's pre-empted the swastika.\n\nNote also that the Indian versions use both clockwise and\ncounter-clockwise swastikas.\n\nOb guns:  It's the rare Navaho family that doesn't own a rifle. \nThey remember being \"relocated\" by the US Army, and don't intend to\ndo it again.  The Hopi, on the other hand, have a dislike for\nweapons, from my experience.  Perhaps they just hide them better\nfrom strangers.\n",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Actually, the \"ether\" stuff sounded a fair bit like a bizzare,\nqualitative corruption of general relativity.  nothing to do with\nthe old-fashioned, ether, though.  maybe somebody could loan him\na GR text at a low level.\n\ndidn't get much further than that, tho.... whew.\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": " So-Called Cool-Hot boxes have been advetised for several years.  I recall\nDamark advertising them in a recent catalog.  Problem with the units is they do\na sh***y job of keeping food cold/warm.  The peliter devices used just don't\nseem to have enough punch to keep up.  If you want something hot, you need to\nheat it up before you put it in the box, and end up hours later with food thats\nonly moderately warm.  Same goes for cold items.\n\n\n You'de probably be better off getting a good Coleman(tm) cooler and stocking\nup on \"blue ice\" blocks.\n\n Same as above.  Not enough \"punch\" in them to keep/get things cold/hot.\nMike Behnke             | Senior Tech/Advisor | Quid est illuidin aqua??\nFermi Nat Accel Lab     | Equipment Suuport   |\nBatavia, Il.            | Computing Div       | PISTRIX!!  PISTRIX!!\nBEHNKE@FNALF.FNAL.GOV   |                     |\n\nMy opinions are my own, not of the lab. So, if you don't like them, call",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I am interested in a 2d/3d graphics library which will allow our design\nteam to write graphics software for Unix workstations and be as portable as \npossible.  Eventually this software will have to be moved to Microsoft\nWindows.  It is my opinion that a good API with hooks to PEX underneath\nwould prove most portable.\n\nDoes anyone out there have any experience with Figaro+ form TGS or\nHOOPS from Ithaca Software?  I would appreciate any comments.\n\n- Claye Hart\n",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n[Warning: Flammage to follow...]\n\nAh, that British sense of humor.  Probably got a real gut-buster going\nwhen the IRA blew that kid up a couple of weeks ago, huh?  Of course,\nin Britain, your government has ordered you defenseless, so your way\nof coping with violent criminals is to laugh at victims.\n\n\nI don't know about a .45.  My own preference is for 9mm.\n\n\nAh, Canada.  Where the criminals don't bother with checking to see\nif the victims are home.  They just break on in.  America's a little\ndifferent, you see.  Criminals worry a bit more about getting shot,\nso they more frequently check to see if anyone's home.\n\n\nI've heard Gun World in Phoenix, Arizona, is fantastic!  I'm hoping\nto visit there myself soon.\n\n\nAh, Britain again.  Isn't that the place where you're guilty until\nproven innocent?  Tell me, Mr. \"jaj@vax.oxford.ac.uk\" didn't Britain\ncome begging to us \"gun nut morons\" in the early 1940s for guns to\ndefend yourselves against Hitler?  Seems as though your supposedly \nenlightened government had disa",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\tTake a second look at \"non-toxic, non-flammable\":\n\n\t\tMACE (sold tothe public) is supposedly nontoxic.\n\t\tWhatthey do not tell you is that if you get mace directly\n\t\ton the linings of the lungs (such as a direct snort to\n\t\tthe face) above certain quantities, it reacts similarly\n\t\tto a mustard gas inhalation.\n\n\t\t\tI know:  my father and grandfather were exposed\n\t\t\tto poison gas in WWI and WWII; Dad went through\n\t\t\tthe side effects of any WEAPON, including those\n\t\t\t\"non-toxic\" aerosols.\n\n\t\tWHat the label ACTUALLY means is ::\n\n\t\t\tusually, it wont kill you\n\t\t\tit may give you permanent CSS asthsma\n\t\t\tbut that's better than blowing a hole in your\n\t\t\t\thead ...\n\n\t\tALL aerosols are flammable IF YOU HAVE ENOUGH OXYGEN\n\t\tAND HIT IT WITH THE RIGHT IGNITER.  SOme of the most\n\t\tnon-flammable substances known will BOOM or SEARFLAME\n\t\tif you hit it with the right combo.\n\n\n\t\tLet's take one:  a trash can fire.  Makes black smoke;\n\t\talready burned right?  Can't go boom, right?  Wrong.\n\n\t\tSuck that smoke (made up of paper that ha",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "While there are too many PS clones to count, some of which are quite poor,\ntrying to clone something that goes through regular modifications does require\nsome patience. Three questions come to mid real quick for something like\nthis.\n\nQ:\tWhich version of Adobe PS will we clone?\n\tAside from the level 1 and level 2 issues, Adobe has in the past released\n\tnew code that incorporates modifications/upgrades/fixes just as all other\n\tsoftware vendors do. The level 2 stuff may seem sound now, but I assure\n\tyou,changes will become more frequent as their customer list begins to\n\tdwindle in the face of competition. This allows them to shift people to\n\tmaintenance, as well as design efforts for level 3.\n\nQ:\tDo we duplicate the bugs, or do we make it work correctly?\n\tFrom the LaserWriter to the LaserJet 4 there have been bugs. (If I had\n\ta number to call at HP or Adobe, they'ld have heard from me.) Deciding\n\twhich approach to take depends on which printer you want to emulate.\n\nQ:\tDo we follow the Red Book, or do we follow s",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "In light of my recent paranoia concerning government proposals, I'd love to\nsee a UNIX-based encryption scheme that:\n\n1) Kept some files encrypted on the host machine (say, all the files in your\n   home directory)\n2) Used a key system that could not be compromised by eavesdropping over a\n   modem line.\n\nIt seems that this would require modifications to a shell program and a\nway of telling whether a file was encrypted or not, among other things.\n\nI'd love to know about potential security holes in such a system.\n\nDoes such a system exist?  If it were made easy-to-use and readily\navailable, I think it would be a Good Thing(tm).  I realize that this\nwould probably just involve putting a nice front-end on a readily available\nand very secure encryption scheme, but it should be done.",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nAbout a month ago there was a photo posted on\nalt.binaries.pictures.misc of a 17.5-inch Northern Pike which had been\ncaught on a lure made of 256K SIMMs.\n\n-- ",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi there,\nCan anyone tell me where it is possible to purchase controls found\non most arcade style games.  Many projects I am working on would\nbe greatly augmented if I could implement them.  Thanx in advance.",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nHow about Cockroaches?",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I'm doing sound for a couple of bands around here and we need Direct\nInput boxes for the keyboards.  These are the little boxes that take a\nline level out of the keyboard and transform it into low-Z for the run\nto the mixer.  Sadly they cost like $50 (or more) each and I'm going\nto need like 5 or 10 of them!  I looked inside one (belonging to\nanother band) and it looks like just a transformer.  Does anyone have\nany plans for building them?  Perhaps in Anderton's \"Electronic\nProjects for Musicians\" book (which I am having a hell of a time\ntracking down...)?\n\nThanks a lot!\n\n.s.\n\nPS: Post or email.  I read this group...",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nPlease note that there are some radiosity packages in my Resource Listing\n(under the Subject 3: FTP list)\n\nGreetings,\nNick.\n--\nNick (Nikolaos) Fotis         National Technical Univ. of Athens, Greece\nHOME: 16 Esperidon St.,       InterNet : nfotis@theseas.ntua.gr\n      Halandri, GR - 152 32   UUCP:    mcsun!ariadne!theseas!nfotis\n      Athens, GREECE          FAX: (+30 1) 77 84 578\n\nUSENET Editor of comp.graphics Resource Listing and soc.culture.greece FAQ\nNTUA/UA ACM Student Chapter Chair - we're organizing a small conference\n        in Comp. Graphics, call if you're interested to participate.",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nHowever, don't forget that the police in Chicago can carry just about\nanything they want except for the Glock, which is not approved for\ncarry (Guess they figure all cops are like the Police Chief of Winnetka,\nwho happened to let off a stray round of 9mm. This is the same anti-gun\npolice chief that wanted full-auto Uzis for his patrol cars...).\n\nPerhaps in the judgement of the majority of Chicago's finest, a close-to-\n100% reliable weapon like a revolver is preferable to a 99.99% reliable\nautomatic. I note that in Germany, where certainly the 9mm semi-auto\nhandgun is king, some of the more elite police types want revolvers.\n\nI don't think the issue is cost, because Chicago police certainly make\non the order of at least $40K/year. \n\nYour presumption of \"disadvantage\" I think is not borne out by the\nexperiences of New York City's cops; there the cops usually come out\non top with their standard .38 Spl revolvers.\n\nI've seen S&Ws, Rugers and Beretta 9mms in addition to the revolvers\ncarried by Chicago cops.... i",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nIt has been done already!\n\nIn the UK the Atari ST box was shipped with 360K disks in the first few\nyears and then later 720K disks. In order to make life less complicated,\nmany freebie disks on mags were double formatted like this. Side 0 of the\ndisk had 360K on it and could be read  by any ST. It also had a flip-side\nprogram. This would swap the sides around so that side 1 became side 0.\n\n-- ",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "DROPLET VOL 1, No 11, Part 3\n\nD R O P L E T\nFrom The Vast Ocean Of The Miraculous Qur'an\n\nTranslations from the Arabic and Turkish Writings of \nBediuzzaman Said Nursi, The Risale-i Noor\n\nVOL 1, No 11, Part 3\n------------------------------------------------------------------\n   \t\t NINETEENTH LETTER  \n\n\t\t MU'JIZAT-I AHMEDIYE RISALESI \nA TREATISE ON THE MIRACLES OF MUHAMMED SAW, Part 3       \n\n(continued from Droplet Vol 1, No 11, Part 2)\n\n   THIRD SIGN:  The miracles of Muhammad (SAW)\nare extremely varied.  Because his messengership is\nuniversal, he has been distinguished by  miracles that\nrelate to almost all species of creation.\n    Just as the supreme aide of a renowned ruler, arriving\nwith many gifts in a city where various people live, will be\nwelcomed by a representative of each people who\nacclaims him and bids him welcome in his own language\nso, too, when the supreme messenger of the Monarch of\nPre- and  Post-Eternity  (Ezel and Ebed  Sultani) honored the\nuniverse by coming as an envoy to the inhabitants",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I am curious:  what does the /double_buffer parameter in smartdrv actually do\nfor me?  I seem to have less problems in Windows when I leave it out.\n\nUsing a PS/2 with an ESDI drive, but also a PS/2 with a SCSI.\n\nAny response is welcome.",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi Everyone,\n\nI would like to get an example program(source code) to get started with a simple\neditor (similar to windows dialog editor, but lot simplified) . Can someone\npoint me to a source such as a programming windows book, or example program\ncomes with Windows SDK (from Microsoft or Borland). I would greatly appreciate\nit.\n\nAll I want to do is to be able to place a edit control or combobox or a listbox\non a window and be able to drag and resize.\n\nIf anyone has written similar program and don't mind sharing code or ideas, \nI would appreciate it very much.\n\nThnx in advance, Manu Das",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": " \n\nFinding the circumcenter of a tetrahedron is discussed on page 33 in\n\nCONTOURING: A guide to the analysis and display of spatial data,\nby Dave Watson, Pergamon Press,  1992, ISBN 0 08 040286 0, 321p.\n\nEach pair of tetrahedral vertices define a plane which is a \nperpendicular bisector of the line between that pair.  Express each\nplane in the form Ax + By + Cz = D\nand solve the set of simultaneous equations from any three of those\nplanes that have a vertex in common (all vertices are used).  \nThe solution is the circumcenter.\n",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "[article deleted]\n\nIt sounds like a joke (but then the war on drugs has always been a joke...).\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "From my rather rusty knowledge of radio, most radio receivers use a superhet \ncircuit, so that the incoming signal is mixed with a local oscillator, giving \na fixed intermediate frequency (IF) that is more easily amplified. The\ndetector detectors work by picking up IF re-radiated from your radar \ndetector. In Britain, where one has/used to pay for a TV licence, there \nare/were TV detector vans prowling the streets, looking for people who hadn't \npaid their licence fee. They had a couple of long solenoid antennae on the\nroof, and I believe could triangulate an operating TV from the IF. \n\nI wonder how much of the IF is radiated back from the detector antenna, and \nhow much from the rest of the module. It might be worth putting the detector \nin a proper RF shielded enclosure.\n",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Where can you get info (brochures...) on Differential GPS Systems and where to \nbuy them?",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "zillion lines in response to article <1993Apr18.034101.21934@iti.org>,\nin which Allen wrote a zillion lines in response to article\n<17APR199316423628@judy.uh.edu>, in which Dennis wrote another zillion\nlines in response to Allen.\n\nHey, can it you guys. Take it to email, or talk.politics.space, or\nalt.flame, or alt.music.pop.will.eat.itself.the.poppies.are.on.patrol,\nor anywhere, but this is sci.space. This thread lost all scientific\ncontent many moons ago.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nHow are you sure of that?  Weren't there some recent studies that\nfound corelations between not-yet announced decisions and market changes?\n\nAren't there continuing early rumors of their deliberations?\n\n\n\nSheesh!  Remember the big scandal a year or two (or 3?) ago about\nexactly such leaks?\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n[Rest deleted.  Can anybody out in a.p.h help out?]\n\nFind out about \"the night of the brown shirts\".",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "/ iftccu:talk.politics.guns / mikey@ccwf.cc.utexas.edu (Strider) /  8:51 pm  Apr 12, 1993 /\n\n\nI've been watching this knife verses gun bit for a while now, (even\ncontributed a few comments) but this stuff \"I'd rather face a knife than\na gun\" has GOT to come from ignorance!  I used to think pretty much the\nsame thing, then I got 'educated.'\n\nPeople do not as a rule understand how deadly knives can be, or how\nquickly you can be killed with one.  Most people don't understand that\nit takes less than an inch of penetration in some areas to cause quick\n(within a minute or so) death.\n\nThe death rates from handguns and knives are within a few percentage\npoints of each other.  Many people not realizing how deadly knives are\n'try their luck' and thus more get injured by knives.  A gun is deadly\nonly in a single direction and it's only advantage is that it is a\nremote control weapon.  A contact weapon such as a knife controls a\nspherical area 7 to 10 feet in diameter.\n\nMost people have never seen knife wounds, aside fro",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "A co-worker of mine needs to convert a postscript file to a form readable\n(ie ascii) in windows or DOS. Does anybody know of a utility that will do\nthis? I have a vague memory of a shareware utility someone mentioned once...\n\nThanks for any info,",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "-> I am looking for source-code for the radiosity-method.\n\n I don't know what kind of machine you want it for, but the program\nRadiance comes with 'C' source code - I don't have ftp access so I\ncouldn't tell you where to get it via that way.",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "heat\nThis tops the cold-hearted bastard list!  Unbelievable!  Had this countries  \nmorals sunk this low, that the death of innocent people is so callously viewed?\n\n+----------------------------------------------------------------------------+\n\t     |\n+----------------------------------------------------------------------------+\n+----------------------------------------------------------------------------+\n\n\n--\njmd@handheld.com",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Looking for an amateur radio operator that needs a variable power linear\namplifier for 2-30MHz.  Looks and works like new.  Runs off 12v for mobile\nuse.  Input: 5-10 watts  Output: ~175 watts AM, ~350 watts PEP SSB.\nI need $150 out of it.\n\nIf that's too much, I also have a Tornado 100 that takes 5w in and\n100/250w out for $100.\n\nReply with your callsign, address and phone number for verification of license.\n\nPrices do NOT include shipping/packaging.",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nWho said Christians want to conform to the teachings of Jesus?",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Intel also makes some neat memory and peripheral chips:\n\nOld technology (early 1980's)  \n8155  ram plus IO (slow ram as I recall)\n8755  eprom plus IO (expensive and slow)\n\n\nIntel does make Eproms with built in address latches.\nI fear that you would need a very flexible and up-to-date eprom\nprogrammer to write to them.\n\ngive them a call.  I am not able to locate their memory products book\nyet.\n\n\n\nSigh...  Now, who borrowed it...",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "}\n}>  Drugs are banned, please tell me when this supply will dry up?\n}\n}Drugs are easier to manufacture, easier to smuggle, easier to hide.\n}\n}No comparison.\n\nYou, sir, are an ignorant fool who knows nothing about either the drug\nbusiness or the gun business.\n\nTim Starr - Renaissance Now!\n\nAssistant Editor: Freedom Network News, the newsletter of ISIL,\nThe International Society for Individual Liberty,\n1800 Market St., San Francisco, CA 94102\n(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n: medtronic.COM (Dale M. Skiba) entirely missed my point in my previous\n\n: COMMENT:\n\n: Shortly after that post, I realized two things:  I was running a fever of\n: over 102, and that I probably should not have gone directly from reading\n: alt.slack to posting on this august newsgroup.\n\n: >: >it is not ad hominen to point out that Mr Archer willingly prints blatant\n: >: lies\n: >: >in defense of Bible inerrancy, and thus is worthless as an expert witness.\n\n: >: Okay, Im game, give us a listing of blatant lies from _Encyclopedia of\n: >: Biblical Difficulties_ or other Archer writings.\n\n: >That would be interesting.  If only a very short list can be generated,\n: >I think it is more likely that Mr. Archer, with his inerancy mindset is\n: >not always impartial and made a doozy of a mistake.  (IMHO I also think\n: >that this mindset tends to generate these sorts of mistakes...)\n\n: >On the other hand, if a long list can be generated, it is more likely\n: >that Mr. Archer intentionally uses deception in hs books. (Why s",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Article #60579 (60704 is last):\nFrom: r0h7630@tamuts.tamu.edu (Rithea Hong)\nSubject: Re: Perfect MAG MX15F Monitors?\nDate: Sat Apr 17 07:13:05 1993\n\nA friend of mine got a Mag of the above model and it had some distrotion, so\nhe sent it back.  Unfortunately, the replacement also was distorted.  I would\nbet it's a common problem.  The best advice I've heard when buying monnitors\nis to actually look at the specific one you will buy (as opposed to model)\nsince monitor manufacturing even from \"Big Names\" still tends to produce\nalot of monitors with visible defects.\n\n\n                              Rithea Hong\n                       (r0h7630@tamuts.tamu.edu)\nEnd of File, Press RETURN to quit\n\nJust to name two at the top of my list of crap monitor makers are,\nSONY & MAGNAVOX...Sam",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "        Well, lets see....I took a class on this last fall, and I have no\nnotes so I'll try to wing it...  \n        Here's how I understand it. Remember from stellar evolution that \nblack holes and neutron stars(pulsars) are formed from high mass stars,\nM(star)=1.4M(sun).  High mass stars live fast and burn hard, taking\nappoximately 10^5-10^7 years before going nova, or supernova.  In this time,\nthey don't live long enough to get perturbed out of the galactic plane, so any\nof these (if assumed to be the sources of GRB's) will be in the plane of the\ngalaxy.  \n        Then we take the catalog of bursts that have been recieved from the\nvarious satellites around the solar system, (Pioneer Venus has one, either\nPion. 10 or 11, GINGA, and of course BATSE) and we do distribution tests on our\ncatalog.  These tests all  show, that the bursts have an isotropic\ndistribution(evenly spread out in a radial direction), and they show signs of\nhomogeneity, i.e. they do not clump in any one direction.  So, unless we are\nsampli",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\n\n\nPhil> Didn't one of the early jet fighters have these?  I also think\nPhil> the germans did some work on these in WWII.\n\nThe NACA came up with them before World War II.  NASA is directly\ndescended from the NACA, with space added in.\n\nYou'll notice that I didn't mention sweep wings even though the\nX-5, tested at what's now Dryden, had them.  We did steal that one\ndirctly from the Germans.  The difference is that swept wings don't\nchange their angle of sweep, sweep wings do.  Perhaps the similarity\nof names has caused some confusion?  747s have swept wings, F-111s\nhave sweep wings.\n\n\nPhil> A lot of this was also done by the military...\n\nAfter NASA aerodynamicists proposed them and NASA test teams\ndemonstrated them.  Richard Whitcomb and R.T. Jones, at Langley\nResearch Center, were giants in the field.\n\nDryden was involved in the flight testing of winglets and area\nruling (in the 70s and 50s, respectively).  It's true that we\nused military aircraft as the testbeds (KC-135 and YF-102) but\nthat had more to do",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Just to shed some light on the fire, it was widely reported (AP, etc.) that\nthere WERE several witnesses to BD folks starting the fires.  It has also\nbeen reported that the fires broke out in several places at once, which\nrules out a Bradley knocking over a lamp, etc. as the cause.\n\nWhat I would like to see is some serious discussion of this incident.  I\nbelieve the moves made were right and proper, but I still have some problems\nwith some of the tactics.  After watching the ABC special on it tonight, as\nwell as CNN and Nightline, I question some of the ATF and FBI actions.\n\n1) Could it have been possible to have taken Koresh outside the compound at\nsome time before the Feb. 28th raid?\n\n2) Could a further wait have resulted in a different outcome.\n\n3) Were FBI actions (blaring loudspeakers, etc.) the \"right\" course of action?\n\nAnd a few other questions.  Like I said, I believe the actions taken, in\ngeneral, were proper.  But I still have some reservations.",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nHow can you say that?  I presume that you mean that talking about\nrestricting rights is not the same as restricting those rights.  Well,\narguing for those restrictions may lead to implementation, much\nthe same way as assault can lead to battery (legal definitions).\n\n\nWell, I can't speak for the homosexuals, but I've seen ALOT\nof polite discussion on t.p.g.  Please, everyone, don't take\nthis guy's word, or mine for that matter, on it.  Read t.p.g.\nfor a while, and try to determine from which direction most of\nthe flameage originates.  If you post without flamebait, you\nwill generally receive reasoned responses.  True, there are\nthose who tend to lose their tempers quickly, as there are on\nall newsgroups, but they really do feel their rights are in jeopardy.\n\nOh, and neat trick talking derisively about another newsgroup while\nnot crossposting to allow them to defend themselves.\n\n\nMethinks you doth protest too much.\n\n\t\t\t\tDave Schabel\n\n\n",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "  OK, Doug is right, it would be obstruction of justice, blah blah blah,\nBUT, saying \"I forgot\" is a lie, which is just as bad from a moral point\nof view _IF_ you think \"lawfulness\" is a good in and of itself (which \nadmittedly most people do not.)  But there's an even better way out of this.\nPROVIDED the government is prosecuting you criminally, you can probably\nplead the fifth amendmeent and thus LEGALLY avoid revealing your key.  The\ngovernment cannot demand information from a criminal defendant which \"may\ntend to incriminate\" that defendant.  Though this has never been applied\nin the cryptography context (at least as far as I can tell) it seems an\nobvious application to me.  \n\n This may be a common suggestion in this group, but if it's not (I'm new\nhere) I'd love to hear what people have to say about it.  Since I don't\nreally read this group (and since the subject matter is more legal than\ncryptoid) maybe misc.legal.computing would be an appropriate place?\n\n  Steve.\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nMotorola has a good app note on a 10 band equalizer using a 56000 DSP. It\ncould be easily ported to an Ariel board, or even a Turtle Beach 56K\ndevelopment system.\n\n\n",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nHere's something I posted about this a few years ago.  It's not fully\nup to date with all the new variations (some of which are just different\nmanufacturer's synonyms):\n\n------\nIn practical terms, ignoring the technological details, this is my view\nof the families (NB I am not a giant corporation, which influences my\nviews on things like availability and backward compatibility):\n\n74\tThe original.  Speed good, power consumption fair.  Effectively\n\tobsolete now; use 74LS or later, except for a *very* few oddball\n\tfunctions like 7407 which are hard to find in newer families.\n\n74H\tModification of 74 for higher speed, at the cost of higher\n\tpower consumption.  Very obsolete; use 74F.\n\n74L\tModification of 74 for lower power, at the cost of lower speed.\n\tVery obsolete; use CMOS.\n\n74S\tLater modification of 74 for even higher speed, at some cost in\n\tpower consumption.  Effectively obsolete; use 74F.\n\n74LS\tCombination of 74L and 74S, for speed comparable to 74 with lower\n\tpower consumption.  Best all-round TTL now, wi",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nThe down side is that when I'm in my cage, I have on numerous occasions\nslammed my hand into the rolled up window in an effort to wave at\na passing biker.  Ow.\n",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": " >say they have a \"history of untrustworthy behavoir[sic]\"? ",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "We have a minivas-2 and we want to record to an Abekas A66.\nWe have most of the functions working but when we go to\nset up a record the minivas hangs. We are sending the\nabekas SMPTE time code. Does anyone have code we can\ncompare to what we have done and is there and ftp site\nfor minivas and abekas code.\n\nGordon Phillips\nglp@cray.com",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "/ iftccu:talk.politics.guns / Jason Kratz <U28037@uicvm.uic.edu> /  3:34 pm  Apr 18, 1993 /\n\n\nSounds like a VOGON quote to me..... Perhaps YOU should READ more widely \ninstead of watching that idiot box....",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\nYes. BTW, the appropriate Amendments were posted here some time ago.\n\n\nIt's OK, it's OK... Just a month ago I expressed my belief that the\nright to have a means to shoot your neighbor is not that much\nnecessary to ensure a people's right to be free and got flamed by lots\nof American gun supporters. So I thought that...\n\nNever mind. The new Cripple Chip is a purely American problem, so deal\nwith the mess yourselves. I just wanted to share with you a bit of my\nexperience of living 30 years under a totalitarian regime (I'm\nBulgarian) - because I thought that it might be useful to you. Oh\nwell.\n\nRegards,\nVesselin",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "About a year ago I started work on a problem that appeared to\nbe very simple and turned out to be quite difficult.  I am wondering if\nanyone on the net has seen this problem and (hopefully) some published \nsolutions to it.\n\n\tThe problem is to draw an outline of a surface defined by two\nroughly parallel cubic splines.  For inputs the problem essentially\nstarts with two sets of points where each set of points is on the \nedge of an object which we treat as two dimensional, i.e. only extant\nbetween the edges, but which exists in three dimensional space.  To draw \nthe object we \n\n1) fit a cubic spline through the points.  Each spline is effectively\n\tcomputed as a sequence of line segments approximating the\n        curve.  Each spline has an equal number of segments.  We assume\n\tthat the nth segment along each spline is roughly, but not\n\texactly, the same distance along each spline by any reasonable\n\tmeasure.\n2) Take each segment (n) along each spline and match it to the nth segment\n\tof the opposing spline.  Use th",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "One way ticket (return leg of roundtrip ticket) for female traveler\n\n\n\nSan Francisco ==> St. Louis ==> Philadelphia\n\n\nMay 21, 1993 (Friday)  leaves SFO     10:25 am\n                       arrives Phila.  8:43 pm\n\n\n\n.............$150   or best offer\n\n\n",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "You are brain damaged. That hate of++0B1FATransfer cancelledf yours courses\nthrough your sick body like poison. It's just a matter of time. Your fate\nis sealed.",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Well, there *is* a difference.\n\nI don't happen to have my SAE manual handy, but oil viscosity in general\n_decreases_ with temperature.  The SAE numbers are based on a `typical'\ncurve that oils used to all have, running from (say) the viscosity of a\nroom-temperature 90-weight at 0C, down to (say) that of a room-temperature \n5-weight at 20C, for a typical 40-weight oil.\n\nOils that are designed for operation in `normal' temperatures just have\na weight specification.  Oils that are designed for operation in exceedingly\ncold temperatures have a `W' tacked on the end, so in winter in a cold\nplace, you'd stick 10W in your car in the winter and 40 in it in the summer,\nto approximate the appropriate viscosity throughout the year.\n\nModern multi-viscosity oils change viscosity much less with temperature.\nAs a result, their viscosity graphs cross over several curves.  A multi-vis\nspecification pegs the curve at two temperatures, a `normal' operating\ntemperature and a `cold' one (though I can't remember the numbers...).\n\n",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello All,\n\nI'd like to learn how to keep score when I watch ball\ngames using official scoring methods. Where can I get\nscoresheets and instructions on how to use them?\n\nI appreciate it,\n\nMike",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Does anybody out there have or know how to calculate the RGB values \nrequired to set the 256 color VGA palette so that the colors from \n0..255 will give 256 colors  of the rainbow ie red, orange, \nyellow, etc.\n\nAny help would be appreciated. Please email to eeerik@cc.newcastle.edu.au",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "First of all let's assume that you are right that fewer guns would make it \nin to the country, that sounds great (to those that see guns as inherently\nevil) except then every one  of those guns would be in the hands  of someone\nwho obviously couldn't care less about following the law, after all they \ngot the gun illegally, so is more likely to commit a crime with that gun.\nGreat then everyone with a gun is likely to use it in a crime, nice system.\n\nNow  as to reducing the number of guns  coming into society by making it \nillegal to manufacture, sell, or import them in this coutry,  let me use\na parallel for empiric evidence.  The amount of cocaine in this country is\nfar less since its manufacture, sale, and importation was out lawwed.    If\nthat last statement is true then perhaps we should consider your plan.  This \ncould also apply to drugs in general.",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I was wondering if anybody knows anything about a Yamaha Seca Turbo.  I'm \nconsidering buying a used 1982 Seca Turbo for $1300 Canadian (~$1000 US)\nwith 30,000 km on the odo.  This will be my first bike.  Any comments?\n\nThanks.",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nYes. Reasonable parallels. (though I don't think Russia ever claimed to be\nCommunist)\n\n\nI must protest your \"...in a Communist country\". How do you know?\nThere haven't been any, and are unlikely to ever be any. In some Socialist\ndictatorships, you can't, whilst in some socialist democracies\n(such as France or Australia)\nyou can. Of course, some people may disagree about France & Australia being\nsocialist...\n\n\nYet.\n\n\nIn some circumstances. I was at a public meeting last night (in the USA), where\na protester, who was very nice and calm, and just said before the\nspeaker started to beware of his opinions, was forced out of the meeting by\ntwo armed policemen.\n\nThere are a lot of things that one cannot do in the USA. You may not\nnotice them, but as an Australian visitor, I notice them.\n\n\nYes, we are lucky at the moment. I hope that is still true in\na few years time. Because it didn't just happen...it required concious\neffort.\n\n\nOf course don't over react --- but don't under react.\n\nAndrew.\nDisclaimer: All my opini",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nMake that 20%.  Where did I see that poll recently about the\nvery religious and adultery?  Was it this newsgroup or alt.atheism\nor some other place?",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nWrong...the major improvements for 2.01 and 2.01a are in the use of IPAS routines\nfor 3d studio.  They have increased in speed anywhere from 30-200% depending\non which ones you use.",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "BOY OH BOY, HAVE I GOT A DEAL FOR YOU !!!!!!!!!\n\nHow does this sound.......\n\n\tI have decided to sell all of this as a package deal,\n(unless someone really wants something seperate, then I'm open\nto that as well).....\n\n\tKramer Striker 100st electric guitar\n\t\tDark metallic blue...\n\t\tFloyd Rose Tremlo...\n\t\tTuning lockers at the nut...\n\t\tGreat action, all-around great guitar!!\n\n\t\t\t-plus-\n\n\tKorg pme40x professional modular effects pedal board\n\t\tHas flanger, chorus, and graphic equilizer...\n\t\tHas a unique bonus...you can buy seperate pedal \"boxes\"\n\t\t\tthat sort of slide into any of the 4 existing slots..\n\t\tMono input, STEREO output...\n\t\tPerfect for the electric or acoustic guitars!!!\n\n\t\t\t-plus-\n\t\n\tDOD American Metal distortion pedal\n\t\tDurable, great sounding pedal...\n\t\tGoes great with the Korg pedal board!!\n\nThere you have it!  Everything you need for a great sound!!!\nYours as a package deal for only........$300 o.b.o.!!!!!!!!!!!!!!!!!!\n\nRespond by email to  dietrijj@mentor.cc.purdue.edu  or by phone at\n(317) 495-44",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Deletions...\n\nSo, you consider the german poster's remark anti-semitic?  Perhaps you\nimply that anyone in Germany who doesn't agree with israely policy in a\nnazi?  Pray tell, how does it even qualify as \"casual anti-semitism\"? \nIf the term doesn't apply, why then bring it up?\n\nYour own bigotry is shining through.  \n-- ",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Note that Bo Gritz was on the Populist party ticket with David\nDuke (for veep) in 1988 until he found out that Duke was leading\nhe ticket, when he withdrew his candidacy.  So Gritz gave up his\nchance to be Vice President of the US just to aviod supporting\nDuke.\n",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello,\n\n\n\n\tI just bought a copy.  I can't disagree that it is a very good\nbook.  But unfortunately I was looking for the same graphics feature\ndescribed in this book but _NOT_ in 640x480x16 or 320x200x256 mode. It\nis easy to accomodate all the pixel \"descriptor\" (or color attributes)\nin those modes into A0000-AFFFFF, but not in 640x480x256(which is what\nI am interested in).  I haven't finish the book but I affraid the\nauthor didn't talk much about this mode(or other SVGA modes).  If\nanyone out there know any good book dealing with fast SVGA graphics\nmanupulation(scrolling, repainting, all other good stuff..) please\nsend me mail.  Programming guide to SVGA card is also welcome.\n\n\tThanks in advance.\n\n\n \n************************************************************************\n*                         Tiang   T.    Foo                            *\n*\t\t      tiang@uokmax.ecn.uoknor.edu \t\t       *\n************************************************************************    ",
+    "response": 1,
+    "category": "comp.graphics"
+  }
+]

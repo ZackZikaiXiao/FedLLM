@@ -1,0 +1,674 @@
+[
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Good luck.\n\n",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n[Text deleted, no value judgement implied]\n\n\nMore than shocking.  What this says to me is no less than that government\nis very interested in monitoring the public.  This does more than scare me,\nit mortifies me.\n\nPGP and RIPEM must become widespread enough to resist what Mr. Finney has\n[IMHO correctly] identified as the next logical step.  What was once an\nacademic discussion with regard to concealing cyphertext, has now become\na real consideration.\n\nThe rhetoric that the clinton administration seems obsessed with, harmony,\neither or propositions, tension, tells me that they know how difficult\nit will be to sell this proposition.\n\nThe phrase I hear more and more is \"I can't believe this is actually happening\nhere.\"  Call me conserative, Clinton was a huge mistake that we'll all be\npaying for tommorow and many years from now.\n\nHave we approached the age of speakeasy public key depositiories?\n\nuni (Dark)",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "We have a Quadra 700 with 170MB HD, but need to a lot of sound sampling\nfor auditory research. What would be the best type of removable media for \nstoring these audio clips?        \n\nRon\n",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nDon't be so sure.  Look what happened to Japanese citizens in the US during\nWorld War II.  If you're prepared to say \"Let's round these people up and\nstick them in a concentration camp without trial\", it's only a short step to\ngassing them without trial.  After all, it seems that the Nazis originally\nonly intended to imprison the Jews; the Final Solution was dreamt up partly\nbecause they couldn't afford to run the camps because of the devastation\ncaused by Goering's Total War.  Those who weren't gassed generally died of\nmalnutrition or disease.\n",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nMr. Ward, before you start blathering about your skill \"interpreting\"\nthe Constitution, it might be helpful to learn to read.  After a review\nwith a high school English teacher emphasizing participial phrases, you\nmight start with the Second Amendment, and follow it up with:\n\n 97th Congress, 2nd Session, Committee Print, *The Right To Keep and\n Bear Arms*, of the Subcomittee on the Constitution of the Committee on\n the Judiciary, United States Senate, 97th Congress, Second Session,\n February, 1982.  GPO No. 88-618-O\n\nThis authoritative, heavily researched and annotated document clearly\nturns your \"interpretation\" into specious claptrap, which is a polite\nway of saying utter bullshit.  In spite of your false assertion to the\ncontrary, the Second Amendment DOES protect the right of the individual\ncitizen, in his capacity as an individual, to keep and bear arms.\n\nAnd, Mr. Holland, IMHO, blatantly and harmfully false information,\nasserted as fact and globally distributed, deserves globally\ndistributed rebuttal i",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello,\n\nCan anybody help me with the conversion of pic format files\nto HPGL files. The question is as follows:\n\nIs it possible to convert files that have been generated in the\npic preprocessor format into HPGL format, suitable for sending\nto a plotter. The hardware involved is IBM RISC/6000 running AIX\n3.2.3. How should this be done and what software is involved,\nwhere is it available, what does it cost, what are the problems?\n\nRegards,\n\nDani\n\n--------------------------------\nCimad Consultants\nAntwerp, Belgium\ndani@cimad.be",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Were they palying football or baseball in Detroit on Saturday?  From looking\nat the school, some people may think it was football.  Between two games this\nweek, the Tigers scored 40 runs!!!!  The offense can carry them, I hope the\npitching will hold out.  I was at Camden Yards yesterday, everytime I looked\nup the score was getting higher.  What a great site it was to see the Tigers\nkicking butt while enjoying a game at Camden Yards.  GO TIGERS AND GO TONY\nPHILLIPS!!!!!!!!\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n   Each chip includes the following components:\n\n      the Skipjack encryption algorithm\n      F, an 80-bit family key that is common to all chips\n      N, a 30-bit serial number\n      U, an 80-bit secret key that unlocks all messages encrypted with the chip\n\nHmmm. A thirty bit serial number. And, we are told, the unit key U is\nderived deterministically from this serial number. That means that\nthere are only one billion possible unit keys.\n\n   To generate the unit key for a serial number N, the 30-bit value N is\n   first padded with a fixed 34-bit block to produce a 64-bit block N1.\n   S1 and S2 are then used as keys to triple-encrypt N1, producing a\n   64-bit block R1:\n\n\t   R1 = E[D[E[N1; S1]; S2]; S1] .\n\n   Similarly, N is padded with two other 34-bit blocks to produce N2 and\n   N3, and two additional 64-bit blocks R2 and R3 are computed:  \n\n\t   R2 = E[D[E[N2; S1]; S2]; S1] \n\t   R3 = E[D[E[N3; S1]; S2]; S1] .\n\n   R1, R2, and R3 are then concatenated together, giving 192 bits. The\n   first 80 bits are assig",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n1) a fitting that allows you to generate household current with\nthe engine running, and plug ins in the trunk, engine compartment\nand cabin.\n\nFeel free to add on...\n\nRegards, Charles\nx\n-- \nWithin the span of the last few weeks I have heard elements of\nseparate threads which, in that they have been conjoined in time,\nstruck together to form a new chord within my hollow and echoing\ngourd. --Unknown net.person",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\nPolish and Jewish are *not* mutually exclusive.\n\n\n\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nDMorf (Dave's Morph, I think is what it means) and DTax (Dave's \nTGA Assembler) are available in the MSDOS_UPLOADS directory\non the wuarchive.\n\nThey are arjed and bundled with their respective xmemory versions,\ndmorfx.exe and dtax.exe, you can also find a version of aaplay.exe\nthere, with which you can view files you create with dta.exe or\ndtax.exe.\n\nI downloaded the whole bunch last week and have been morphing \naway the afternoons since.  The programmes are all a bit buggy and\ndefinitely not-ready-to-spread-to-the-masses, but they are very\nwell written. \n\nThe interface is frustrating at first, but it gets easy once you\nfigure out the tricks.\n\nI have noticed that dmorfx will crash horribly if you try to morph\nwithout using the splines option.  Not sure why, since I don't have\nthe source.  I think it was written for TP 6.0.\n\nIf anyone else comes up with any other hints on getting the thing \nto work right, tell me; it took me several hours the first time\njust to figure out that if I just used the durned spline",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I am looking for some information of hidden line removal using Roberts\nalgorithm.  Something with code, or pseudo code would be especially\nhelpful.\n\nI am required to do this for a class, due Monday (we have very little\ntime to implement these changes, it is a VERY FAST paced class).  The\nnotes given in class leave a LOT to be desired, so I would vastly\nappreciate any help.\n\nActually any algorithm would be nice (Roberts or no).  The main problem\nis two objects intersecting in x and y dimensions, need to know which\nlines to clip off so that one object will appear in front of another.\n\nIf you can give me an ftp address and filename, or even the name of a\ngood book, I'd REALLY appreciate it.",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "                                    \n\n\nThis is not good advice.  A couple of years I was involved in a low-speed\ngetoff in which I landed on my back on the pavement.  My head (helmeted)\nhit the pavement with a \"clunk\", leaving a couple of dings and chips in the\npaint at the point of impact, but no other visible damage.  I called the\nhelmet manufacturer and inquired about damage.  They said that the way a\nfiberglass shell works is to first give, then delaminate, then crack.\nThis is the way fiberglass serves to spread the force of the impact over a\nwider area.  After the fiberglass has done its thing, the crushable foam\nliner takes care of absorbing (hopefully) the remaining impact force.\nThey told me that the second stage of fiberglass functionality (delamination\nof the glass/resin layers) can occur with NO visible signs, either inside or\noutside of the helmet.  They suggested that I send them the helmet and they\nwould inspect it (including X-raying).  I did so.  They sent back the helmet\nwith a letter stating",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nHere is a list of the FirstClass systems in Illinois:\n\nChicago Machine    Chicago, IL        (312) 233-9607\nInsane Domain      Chicago, IL        (312) 274-9515\nMAC Universe BBS   Chicago, IL        (312) 235-6794\nThe NET            Rockford, IL       (815) 968-4729\nMacTRIPP           Wilmette, IL       (708) 251-4158\nInnovators         Vernon Hills, IL\t \t(708) 918-1231\n\nIf anyone wants the numbers to more FirstClass systems, I would be glad to\npost the complete list.\n- Jason Hyerstay\n- Adrenaline Admin",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThen don't complain (maybe it wasn't you) that SCSI was so expensive on\nPC's because all we've had until a year or two ago was the ISA bus.\n(ie no one buys SCSI for ISA because ISA is slow)\nAre you saying that SCSI on an ISA bus is not an automatic winner when\ncompared to IDE?\n\n\nI get different transfer rates out of my IDE when I change my ISA bus speed.\n\n\nIDE is just a variant of the old IBM- MFM AT controller.  (at least that's\nhow it looks from a software point of view).  It was never meant to be\nan all-encompassing protocal/standard to be implimented across different\nplatforms.\n\nIs there any argument that \nIDE can (or can't) transfer data from the IDE drive at least as fast as the\ndrive is able to provide the data?  Are SCSI versions of IDE drives able\nto deliver higher sustained transfer rates to their SCSI interface (because\nof a higher RPM platter, different arrangement of heads, etc?)?\n\n\nIf data is going from one drive to another, and if SCSI has the ability to\nperform that transfer without the data ",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I'm surprised nobody mentioned that twitching of the eyelid can be a\nsymptom of an infection, especially if it also itches or stings.\n(It happened to me, and antibiotic eyedrops cleared it up nicely.)\n",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nAs you note, the research is mixed, so there is no consensus on the\nrole of fatty acids in Ulcerative colitis.  There is a role for short\nchain fatty acids in patients with colostomies and rectal pouches\nthat are inflammed (Short is butyrate and shorter).  There may be a role\nfor treatment of UC with Short chain fatty acids, and I am looking \nforward to the upcoming AGA meeting in Boston to see what people are\ndoing.  \n\nYou raise a hypothesis about the studies and restriction of other\nfatty acids.  You should contact the authors directly about that or\neven write a letter to the editor - it is a good point.  By the way,\nthe abbreviation EPA is not in general use, so I do not know what \nfatty acid you are speaking about.\n\nAnd to Brian an U of C ---  There is a physician named Stephen Hanauer\nthere who is a recognized expert in the treatment of IBD.  You might \ngive him a call.  He is interested in new combinations of drugs for \nthe treatment of IBD.  If you call please say hello to him from me,\nI was looking a",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\nDo you honestly hold to that tripe Charley? For a start there are enough\ncurrent versions of the Bible to make comparisons to show that what you write\nabove is utter garbage. Witness JW, Mormon, Catholic, Anglican, and Greek\nOrthodox Bibles. But to really convince you I'd have to take you to a good\nold library. In our local library we had a 1804 King James which I compared\nto a brand new, hot of God's tongue Good News Bible. Genesis was almost\nunrecognisable, many of the discrepencies between the four gospels had been\nedited from the Good News Bible. In fact the God of Good News was a much\nmore congenial fellow I must say. \n\nIf you like I'll get the 1804 King James out again and actually give you\nsome quotes. At least the headings haven't changed much.",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ")\n)That's your mistake.  It would be better for the children if the mother\n)raised the child.\n)\n)One thing that relates is among Navy men that get tatoos that say \"Mom\",\n)because of the love of their mom.  It makes for more virile men.\n)Compare that with how homos are raised.  Do a study and you will get my\n)point.\n)\n)But in no way do you have a claim that it would be better if the men\n)stayed home and raised the child.  That is something false made up by\n)feminists that seek a status above men.  You do not recognize the fact\n)that men and women have natural differences.  Not just physically, but\n)mentally also.\n) [...]\n)Your logic.  I didn't say americans were the cause of worlds problems, I\n)said atheists.\n) [...]\n)Becuase they have no code of ethics to follow, which means that atheists\n)can do whatever they want which they feel is right.  Something totally\n)based on their feelings and those feelings cloud their rational\n)thinking.\n) [...]\n)Yeah.  I didn't say that all atheists are bad, but that they could ",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\n\n\n\nYeah, do you expect people to read the FAQ, etc. and actually accept hard\natheism?  No, you need a little leap of faith, Jimmy.  Your logic runs out\nof steam!\n\n\n\n\n\n\n\nJim,\n\nSorry I can't pity you, Jim.  And I'm sorry that you have these feelings of\ndenial about the faith you need to get by.  Oh well, just pretend that it will\nall end happily ever after anyway.  Maybe if you start a new newsgroup,\nalt.atheist.hard, you won't be bummin' so much?\n\n\n\n\n\n\nBye-Bye, Big Jim.  Don't forget your Flintstone's Chewables!  :) \n--\nBake Timmons, III",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nMake that ten, not eight. The Mets and Astros joined the N.L. in 1962.\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nMost likely the tragic situation in Bosnia is a combination of ethnical\nand religious motives, where religion is just one attribute that separates\nthe groups from each other.\n\nBut I must agree that the sad saga in Bosnia is a terrible example\nof a case where religion is not helping, instead it is used as a weapon\nagainst other humans. And my sympathies are mostly on the Bosnian side,\nit looks like the Serbs are the oppressors, willing to use even\nChristianity as a weapon against their former friends.\n\nCheers,\nKent",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Archive-name: typing-injury-faq/keyboards\nVersion: $Revision: 5.11 $ $Date: 1993/04/13 01:20:43 $\n\n-------------------------------------------------------------------------------\n      Answers To Frequently Asked Questions about Keyboard Alternatives\n-------------------------------------------------------------------------------\n\nThe Alternative Keyboard FAQ\nCopyright 1992,1993 By Dan Wallach <dwallach@cs.berkeley.edu>\n\nThe opinions in here are my own, unless otherwise mentioned, and do not\nrepresent the opinions of any organization or vendor.\n\n[Current distribution: sci.med.occupational, sci.med, comp.human-factors,\n {news,sci,comp}.answers, and e-mail to c+health@iubvm.ucs.indiana.edu,\n sorehand@vm.ucsf.edu, and cstg-L@vtvm1.cc.vt.edu]\n\nChanges since previously distributed versions are marked with change        ||\nbars to the right of the text, as is this paragraph.                        ||\n\nInformation in this FAQ has been pieced together from phone conversations,\ne-mail, and product literature.  While I ",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Could some one please send me (or tell me where to ftp from) the patches required\n for xrolo so that  I can compile-in the SPARCStation phone-dialing feature?\n\nI am using SunOS  4.1.1, and therefore don't have \"multimedia/libaudio.h\" or \n\"multimedia/audio_device.h\" and associated functions.\n\nJust in case, our mail gateway only accepts msgs < 45Kb.\n\nThanks in advance,\nShash.\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\nThe majority of those who can open their mouths in public perhaps.\nThere seems quite alot of incentive for the British to have control\nof NI, like using the North Channel and Irish Sea as a waste dump (I was\nappalled at the dumping I saw in the harbor in Belfast). It is my\nunderstanding that quite alot of radioactivity enters the water --\nit'd be quite a problem if NI got its independence from Britain and\nthen stopped accepting the waste. Are you suggesting that British\nindustry isn't making profit off the situation as well?\n",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n----------\n\nYeah, it might, if you only read the part you quoted.  You somehow left \nout the part about \"we all ate the same thing.\"  Changes things a bit, eh?\n\nYou complain that people blame MSG automatically, since it's an unknown and\ntherefore must be the cause.  It is equally (if not more) unreasonable to\ndefend it, automatically assuming that it CAN'T be the culprit.\n\nPepper makes me sneeze.  If it doesn't affect you the same way, fine.\nJust don't tell me I'm wrong for saying so.",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I am a PhD student.\nCan I get the sci.crypt group posted directly to me???\nAlso I would like some feed-back on the encryption schemes that my research in\nfinite fields can be applied to. Any takers\nReply to gamv25@udcf.gla.ac.uk\nThanks yours\nGavin.\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "From: brad@clarinet.com (Brad Templeton)\n\n\tLet's assume, for the moment, that the system really is secure unless\n\tyou get both halves of the encryption key from the two independent\n\tescrow houses.  Let's say you even trust the escrow houses -- one is\n\tthe ACLU and the other is the EFF.  (And I'm not entirely joking about\n\tthose two names)\n\nI'm really not entirely sure I trust EFF any more to be honest.\n\nAnyway, any organisation can be deeply infiltrated.  Look at CND in Britain\na dozen years ago - one of their top members was an SIS spy who stole their\ncomplete address list.  How hard would it be to get one person to sneak in\nand copy the escrow data to disk?",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThe 1941 Lincoln Continental was the first car to sport the \"continental\nkit.\" The continental kit is not to be confused with ye olde outside\nmounting bracket; a continental kit is a very specific ornament/storage\ncompartment. (The 1941 Continental has a neat trunk; it looks rather\nlike a laundry hamper, IMHO. :-)\n\n\t\t\t\tJames",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "They \nthree \nmore \ndivision.\n\nJason, I am going to a yankee game wed night at cleveland stadium. I am so  \nhappy.\n\n\nBut Cleveland is a very bad team who lost severalrs. They were an up and  \ncoming team, now they are just a sad excuse for a better average.\n\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nEver heard of something called the placebo effect? I think Dyer is\nreacting because it looks to be yet another case of the same old\nquackery over and over again.\n\nIt true that current medical knowledge is limited, but do you realize\njust HOW MANY quacks exist eager to suck your $$$$. It's playing the\nlottery at best.\n\nIf the results you got were so clear and obvious, would you mind\ntrying a little experiment to see if it is true? It would be quite\nsimple. Have sugar pills and have real pills.  Take one set for one\nweek and the other set for another week without knowing which ones are\nthe real pills. Then at the end of the 2 weeks compare the results.\nLet's say you're wife would know which are the real ones. If what you\nare experiencing is true there should be a marked difference between\neach week. \n \njohn\n",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "[...]\n\nI don't claim to be a crypto analyist... there isn't a whole lot of good\nliterature on the subject, and the best people don't seem to publish\ntheir work :)  but I rather doubt the approach such folks use is brute\nforce (sorry to have implied that in my previous post).  The history\nof these things is folks find clever ways of limiting the search and\nbang from there.\n\nI guess my real problem with Skipjack is I can not believe NSA would\nmake publicly available a system they couldn't break if they wanted...\nit just isn't in their charter.  Remember DES came from IBM, not NSA\nand, when first published, was given a useful life of 20 years... I think\nwe are well past that point now :(\n\nRemember, based on the size of the NSA budget, they spend a lot more\non the technology of decryption than most computer companies spend on\nR&D.  I have to imagine their stuff is real interesting...\n\nA friend who once worked for them (he is dead now) said he always enjoyed\nmonitoring SAC's (Strategic Air Command) crypto traffic ",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n:  How about Kirlian imaging ? I believe the FAQ for sci.skeptics (sp?)\n:  has a nice write-up on this. They would certainly be most supportive\n:  on helping you to build such a device and connect to a 120Kvolt\n:  supply so that you can take a serious look at your \"aura\"... :-)\n\n:  Filipe Santos\n:  CERN - European Laboratory for Particle Physics\n:  Switzerland\n\n\n    This has to be THE only, generally accepted, method of using common \nphysics lab equipment to find certain answers to all the questions about\nafterlifes, heavens, hells, purgatory, gods etc. Krillean photography\nwill probably be ignored as insignificant compared to these larger\neternal verities. Publishing your results could be a bit of a problem,\nthough.",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nTrue.  At first, the news media seemed entranced by all the new gizmos\nthe military was using, not to mention the taped video transmissions from\nthe missiles as they zeroed in on their targets.  But later, and especially\nafter the bunker full of civilians was hit, they changed their tone.  It\nseemed to me that they didn't have the stomach for the reality of war,\nthat innocent people really do die and are maimed in warfare.  It's like\nthey were only pro-Gulf-War as long as it was \"nice and clean\" (smart\nmissiles dropping in on military HQs), but not when pictures of dead,\ndying, and maimed civilians started cropping up.  What naive hypocrites!\n\n\n[ discussion about blanket-bombing and A-bombs deleted.]\n                            ^^^^^^^^^\n\nI should have said here \"militarily justified\".  It seems from your\ncomments below that you understood this as meaning \"morally justified\".\nI apologize.\n\n\nI have often wondered about this.  I've always thought that the first bomb\nshould have been dropped on Japan's island f",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nDon't worry about leaks.  Don't worry about which way to turn the damn thing.\nTake a good claw hammer and pry it straight out.  Now, you'll notice, after\nall the oil pours out, that there are no theads where there used to be.",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "In the MacUser article on the new centris and quadra machines mentioned\nthat the C650 and the Q800, and not the C610, had ROM accelerated video.\n\nIt didn't seem to make much difference in their \"benchmark\" test.\n\nWhat is it?  I don't recall seeing it in Dale Adams post.\n\n-Erik Speckman",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello, I realize that this might be a FAQ but I have to ask since I don't get a\nchange to read this newsgroup very often.  Anyways for my senior project I need\nto convert an AutoCad file to a TIFF file.  Please I don't need anyone telling\nme that the AutoCAD file is a vector file and the TIFF is a bit map since I\nhave heard that about 100 times already I would just like to know if anyone\nknows how to do this or at least point me to the right direction.",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "(Disclaimer: I'm a sufferer, not a doctor.)\n\nI'm not sure there's a really sharp distinction between allergic and\nvasomotor rhinitis.  Basically, vasomotor rhinitis means your nose is\nstuffy when it has no reason to be (not even an identifiable allergy).\n\nDecongestants and steroid sprays work for vasomotor rhinitis.  Also,\nI can get surprising relief from purely superficial measures such as\nsaline moisturizing spray and moisturizing gel.\n",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "A friend's daughter has been diagnosed with an eye disease called \"Star\nGartds\" (or something close) - it is apparently genetic, according to her,\nand affects every fourth generation.\n\nShe would appreciate any information about this condition. If anything is\navailable via ftp, please point me in the right direction..",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "In <1993Apr17.032828.14262@clarinet.com>, brad@clarinet.com sez:\n\nUnder the relevant federal law, 18 USC sec. 2518(8)(d), the\nauthorizing judge must notify the targets within 90 days after the tap\nperiod (with extensions) expires.  This is the \"normal\" practice.\n\nOf course, no wiretap law would be complete without the Unless Clause,\nwhich in subsection 8(d) reads like this: \"On an ex parte showing\n[i.e., by the gov't without opposition, since that would obviously\ninvolve notice to the targets] of good cause to a judge of competent\njurisdiction the serving of the inventory required by this subsection\n[the order itself; dates of interception; etc.] *may be postponed*\"\n(emphasis added).\n\n\n[Followups directed to a few select groups.]\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ": Are you saying that their was a physical Adam and Eve, and that all\n: humans are direct decendents of only these two human beings.?  Then who\n: were Cain and Able's wives?  Couldn't be their sisters, because A&E\n: didn't have daughters.  Were they non-humans?\n\nGenesis 5:4\n\nand the days of Adam after he begat Seth were eight hundred years, and\nhe begat sons and daughters:",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The 68070 _does_ exist. It's number was licensed to Philips to make their\nown variant. This chip includes extra featurfes such as more I/O ports, \nI2C bus... making it more microcontroller like.",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThat's very interesting.    I wonder, are women's reactions\nrecorded after a frustrating night with a man?   Is that\nconsidered to be important?",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nhmmmm.. not sure, since no such beast exists.. i can tell you another\nthough..  you won't catch me dead in a GMC Syclone or Typhoon either,\n1000 bhp or not.. not even the fact that Clint Eastwood has one.  just\nmy taste,  no rational reasons for it.\n\n\nCAR just tested the S4 wagon with 5 banger and 6 speed manual.  Rave\nreview except for Servotronic..  Audi is trying to recoup the\ndevelopment costs for the V8, and since the V8 is not selling well,\nthey are sticking it into the 100 series cars.. Neat marketing trick,\neh?  yeah, a 100 V8-32v wouldn't be a bad idea as competition for the\nupcoming bimmer 530/540i would it?  maybe they can use a 3.6 liter\nversion to avoid conflicts with the v8 model.. then strip off all the\nluxo-garbage.  let the S4 remain with the flared arches and fat tires\nto go fight with the M5.... maybe turn up the boost a wee bit to bump\nbhp up to say 450 or so.. :-) while keeping the 100 V8 with mercedes\n500E style subtlety.\n\nblah blah blah....\n",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Ted Frank's list of underpaid players was this:\n\nWhat do all of these players have in common?  They do not qualify for \narbitration.  They were never free agents.\n\nIt's called the reserve clause.  Look it up.\n\nAnd a year from now we will whine about how several of these guys are way \noverpaid and getting outrageous raises in arb.  Humbug.",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ": I think Dean got hit by a pitched ball the other night... he got pinch hit for\n: and didn't play against Baltimore tonight... whats up with that? Is he hurt?\n: Please tell me he's not...\n\nHe evidentally got hit in the elbow by a Fernando pitch.  His arm swelled\nfrom the elbow to the wrist (or something like that).  They took X-rays\nof the arm and there is nothing damaged.  He missed the last game with the\nOrioles, but he is suppose to be ready for the next game.\n\nHope this helps.",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThe New York talk shows are just awful in this regard.  People are constantly\ncalling WFAN and WABC with (stuff like) \"I was thinking, why don't the Yankees\ntrade Kaminicki and Silvestri to Seattle for Ken Griffey Jr and Randy Johnson,\nthat would really help the team\"  or \"Do you think the Yankees can get Roger \nClemens?\".  The show hosts are pretty good about handling these guys, but it's\nstill annoying.\n\nThe best one was at the end of one show, a caller started out with \"I was \nthinking, why don't the Yankees trade for...\" and then the host hung up on\nhim.  I cheered!",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n  Simple -- if you have a choice between:\n\n 1. American manufacturers peddling Cripple Chips with a secret untested\n     algorithm whose keys are held by people with a history of untrustworthy\n     behavoir, or\n\n 2. Japanese (to pick the obvious example) manufacturers peddling encryption\n     chips with an algorithm that has faced public scrutiny and keys under\n     the control of the user,",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\nIssued by Khomeini it shouldn't be relevant to anyone. But issued\nby an honest and learned scholar of Islam it would be relevant to\nany muslim as it would be contrary to Islamic law which all muslims\nare required to respect.\n\n\nAnyone sufficiently well versed in Islamic law and capable of reasoning,\nif you are talking about a weak sense of \"excuse.\" It depends on what \nsense of \"excuse\" you have in mind.\n\n\n\nOnly someone who thinks my opinion is important, obviously.\nObviously you don't care, nor do I care that you don't care.\n",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n    You're correct, except that's Quadra 800 not Centris 800.",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "What hardware do plan to run on?  Workstation or PC?  Cost level?\nRun-time licensing needs?\n\nBob",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n#I use xwd/xpr (from the X11R5 dist.) and various programs of the\n#ppm-tools to print hardcopies of colored X windows. My problem is,\n\nI don't like xpr. It gives (at least, the X11R4 version does) louzy\noutput: the hardcopy looks very grainy to me.\nInstead, I use pnmtops. This takes full advantage PostScript, and\nlets the printer do the dirty job of dithering a (graylevel)\nimage to black and white dots.\n\nSo: if you have a PostScript printer, try:\n\txwdtopnm <xwdfile> |\t# convert to PPM\n\t[ppmtopgm |]\t\t# .. to graylevel for smaller file to print\n\tpnmtops -noturn |\t# .. to PostScript\n\tlpr\t\t\t# print\n\npnmtops Has several neat options, but use them with care:\nIf you want your image to be 4\" wide, use:\n\tpnmtops -noturn -scale 100 -width 4\n-noturn Prevents the image from being rotated (if it is wider than it\n\tis high)\n-width 4 Specifies the PAPER width (not the image width - see below)\n-scale 100 Is used because if the image is small, it may fit within a\n\twidth less than 4\", and will thus be printed smaller than 4\" w",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "How does one read the betting spreads for baseball?  They tend to be something\nlike 8-9 which means it must not be runs!\n\nThanks.\n-- \n-------------------------------------------------------------------------------\nDavid Rex Wood -- davewood@cs.colorado.edu -- University of Colorado at Boulder",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nAh, not in the USA. Thats a relief, thought 'reality' must be slipping for a\nsecond. :-)\n\nSt Noam was on the radio tonight, he has just published a new book \"501 years\".\nPublished by South End i guess. Could some bostonian confirm please?\n\nI would love to hear what he thinks of the Clipper scam.\n\n~Paul",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ": Anyone familiar with this video card? What chipset does the winjet use - S3?\n: As I am in the market for a VLG video card, what is the best chipset among\n: S3, Cirrus Logic and Tseng Lab (ATI is out of the question - too expensive) ?\n\n: Thanks.\n\n\tWinJet is not a video card -- it's _printer_ accelerator manufactured\n\tby LaserMaster (Eden Prairie, MN).\n\n\t-- Willy",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nFor the last time, Bobby. Lack of belief in YOUR god does NOT imply\natheism. Just because some moslems aren't moral does not mean they don't\nbelieve in a god named Allah, although their Allah may not do the things\nyour Allah does. If a moslem says he/she believes that a god exists, he/she\nis a theist (though maybe not a TRUE follower of islam).\n\n\n\nJerk.\n",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I was wondering if anyone knows of a chip that that is similar to\nthe internal timer 0 on the Intel 80C188?  I want a timer that has\na Maxcount A and B and the output should the same as Intel's timer.  I called\nIntel and they told me that they don't make such a chip.  Any suggestions\nare welcome.  Thanks in advance.",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "When are the Yankees planning on activating Melido Perez?  His 15 days on\nthe DL are up today, but are they bringing him back this weekend? ",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nVida> Can one develop inner-ear problems from too much flying?  I hear\nVida> that pilots and steward/esses have a limit as to the maximum\nVida> number of flying hours -- what are these limits?  What are the\nVida> main problems associated with too many long-haul (over 4 hours)\nVida> trips?\n\nThe crew rest requirements are to prevent undue fatigue.  The cockpit\ncrew (pilot) limits are somewhat more stringent than the cabin crew\nlimits for this reason.  Crew rest requirements address amount of time\non duty plus rest time.  A tired crew is an accident-prone crew.\n\nThe only limits I know of for inner-ear problems are in military\naircraft, which are frequently unpressurized or less reliably\npressurized.  Not being able to clear the ears renders aircrew members\nDNIF (duties not involving flying) or grounded until the ears clear.\n\nFlying can accentuate problems if ears don't clear.  If you don't have\nbig pressure changes, you may not know that you've got a problem.  But\nif you zip up to 5,000 or 6,000 ft (the usual c",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Dr. willian Horatio Bates born 1860 and graduated from med school\n1885.  Medical career hampered by spells of total amnesia.  Published in\n1920, his great work \"The Cure of Imperfect Eyesight by Treatment With-\nout Glasses\", He made claims about how the eye actually works that are\nsimply NOT TRUE.  Aldous Huxley was one of the more \"high profile\"\nbeleivers in his system.  Mr. Huxley while giving a lecture on Bates system\nforgot the lecture that he was supposedely reading and had to put the\npaper right up to his eyes and then resorted to a magnifying glass from\nhis pocket.  book have been written debunking this technique, however\nthey remain less read than the original fraud.  cheers",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I don't know if it's as much an issue of their ablility to handle the\npower as it is the power they lose (in the torque converter, etc).\n\nHowever, if you encounter a '93 Formula with 5.7L & 6-Speed Manual,\nYou'll be SOL, I'm afraid. ;) BTW, I know of what I speak as a former\nowner of a 5.7L Auto IROC (1989) and current owner of the\naforementioned car... \n \nChris S. \n-- \n--------------------------------------------------------------------------------\nChris Silvester      | \"Any man capable of getting himself elected President\nchriss@sam.amgen.com |  should by no means be allowed to do the job\"\nchriss@netcom.com    |   - Douglas Adams, The Hitchhiker's Guide to the Galaxy",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n: \tNice cop out bill.\n\nI'm sure you're right, but I have no idea to what you refer. Would you\nmind explaining how I copped out?",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Could you explain what any of this pertains to? Is this a position\nstatement on something or typing practice? And why are you using my\nname, do you think this relates to anything I've said and if so, what.",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Now, my ego with regards to my shifting ability is as big as anyone else's, but\nI just ordered my first car with an auto trans. I wasn't planning on it; but\nafter driving a few I was convinced: Things have changed since the days of \n\"Slip 'n' Slide Withe Powerglide\". They shift *better* than I do, there's no\nclutch to wear out (Honda wanted $800 for my 4WD wagon last year!- got it done\nfor $500), it only costs about 5% in gas milage on the highway and it makes it\neasier to concentrate on all the radios in my car ;-)\n\n(Oddly enough, while two of my best friends- both in the auto industry here in the \nMotor City- have switched wholeheartedly to autos, their wives *insist* on \nmanual. Shift envy?)\n\nBraggadocio aside, given today's technology and the warranties they're handing \nout the auto trans seemed like an excellent choice. Call me a convert.",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Okay, I'm trying to install NCSA telnet on a couple (okay, a whole bunch)\nof machines.  They're all true blue IBMs with either Fallon Phonenet cards\nor Dastar cards.  (I belive those names are correct.)  Well, the docs for\ntelnet say that it'll run over an AppleTalk driver, but I've had little\nsuccess.\n\nIf anyone has succesfully installed Telnet w/ AppleTalk, I'd like some\nhelp with the config file for Telnet...\n\nBTW, please reply via E-mail if possible...\n\nThanks,\n\nJeremy\n\n-- \nJeremy Zawodny | Computer Science Undergrad | Bowling Green State University",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThe ice princess next door makes a habit of flooring her cage out of the \ndriveway when she sees me coming. Probably only hits 25mph, or so. (I made \nthe mistake of waving to a neighbor. She has some sort of grudge, now.)\n\nI was riding downhill at ~60mph on a local backroad when a brown dobie came \nflashing through the brush at well over 30mph, on an intercept course with \nmy front wheel. The dog had started out at the top of the hill when it heard \nme and still had a lead when it hit the road. The dog was approaching from \nmy left, and was running full tilt to get to my bike on the other side of \nthe road before I went by. Rover was looking back at me to calculate the \nfinal trajectory. Too bad it didn't notice the car approaching at 50+mph \nfrom the other direction.\n\nI got a closeup view of the our poor canine friend's noggin careening off \nthe front bumper, smacking the asphalt, and getting runover by the front \ntire. It managed a pretty good yelp, just before impact. (peripheral \nimminent doom?) I guess ",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nGo-Video machines used in HQ2 mode will copy even the MacroVision.\nGo-Video phone number (602)998-3400. \n\nAsk for sales department. Since the state of Arizona does not go on \nDaylight Savings time, we effectively are in Pacific time zone.",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "One not-so-quick question to throw out there for you guys...\n\nFor our class project, we need to design and build a power supply\nto the following specs:\n\nVoltatge:  adjustable from 1-12V\nCurrent:   *limited* at 1A\n\nVoltage must stay within 2% of designated value for I from 0-1A\nAC ripple less than 5 mV (rms)\n\nOf course, we can't just use an adjustable voltage, current-limiting\nregulator chip ;^)\n\nOur problem is with the current limiting (i.e. we've found stuff to\ndo the rest of the parts of the circuit).  What the supply must do,\nif presented with a load which would draw more than 1A, given the\nsupply voltage, is reduce the voltage so that the current will equal\none amp.  Thus, if we were to short the thing with the ammeter, we\nshould read one amp.  If we measure the current through a 1 ohm \nresistor at 12V, we should read one amp (and the output voltage, by\nnecessity, must be 1V.\n\nThe only basic idea we have seen for the current limiter involves\na circuit which will pull current off of the base of the output ",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I am looking for a rat cell line of adrenal gland / cortical cell  -type. I \nhave been looking at ATCC without success and would very much appreciate any \nhelp.\n\nThank you for reading this.\n\nChristophe Roos\n\n-------------------------------------------------------------------------\nInstitute of Biotechnology          Fax:                   +358 0 4346028\nPOBox 45, Valimotie 7               E-mail:   Christophe.Roos@Helsinki.Fi\nUniversity of Helsinki              X-400:           /G=Christophe/S=Roos\nSF-00014 Finland                                /O=Helsinki/A=fumail/C=Fi",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "One thing I think is interesting about alt.athiesm is the fact that\nwithout bible-thumpers and their ilk this would be a much duller newsgroup.\nIt almost needs the deluded masses to write silly things for athiests to\ntear apart. Oh well, that little tidbit aside here is what I really wanted\nwrite about.\n\n      How can anyone believe in such a sorry document as the bible? If you\nwant to be religious aren't there more plausable books out there? Seriously,\nthe bible was written by multiple authors who repeatedly contradict each\nother. One minute it tells you to kill your kid if he talks back and the next\nit says not to kill at all. I think that if xtians really want to follow a\ndeity they should pick one that can be consistent, unlike the last one they\ninvented.\n\n      For people who say Jesus was the son of god, didn't god say not to\nEVER put ANYONE else before him? Looks like you did just that. Didn't god\nsay not to make any symbols or idols? What are crosses then? Don't you think\nthat if you do in fact believ",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\nIs that true?  I know some that won't even interview FMGs.  \nMost programs discriminate, in that given an FMG equally\nqualified as an American they will take the American.  What\nrights do they actually have?  Does it matter if they are\nUS citizens (most are not)?  We have had good luck with FMGs\nand bad luck.  SOme of our very best residents have been FMGs.\nAlso, our very worst.  As it turns out, the worst FMGs are often\nUS citizens that studied in off-shore medical schools.  Of the\n5 residents fired for incompetence in the 12 years I've been here \nin my department, all have been FMGs.  3 were US citizens who studied \nin Guadalajara, 1 was a US citizen but was trained in the Soviet Union, \nand one was Philipina.  Unfortunately, all are now practicing medicine\nsomewhere, 3 of them in Neurology after having been picked up by \nother programs, 1 in psychiatry, and the other in emergency medicine.\n\n\n\n-- \n----------------------------------------------------------------------------\nGordon Banks  N3JXP      | \"Ske",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThis should not be the case if they are at all reputable. Fuel injector \ncleaning is done properly with a can of injector cleaner solvent which is\nhooked up to the fuel system under high pressure. The car is actually run on\nthe solvent during the cleaning process. The equipment to properly do this is\npricey, and generally not something the average home mechanic has. The solvent\nitself is not very expensive ($5-$8) and you could probably make up a hose to\nfit your system and do it yourself, but I didn't tell you that... :-)\n\nNot many in-tank cleaners are worth wasting your money on. There has been a \ndiscussion of these products on here from time to time, and Chevron Techron\n(not Pro-Gard with Techron) is generally regarded as the best. It is, however,\na bit more than $1.29 a bottle. IMHO, it will not substitute for proper\ninjector cleaning if they are really crudded up. You'll have to decide if the\n$59 price is a better deal than spending your time and/or buying equipment to\ndo it.",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nWho knows in this legal climate, but there is tremendous legal precendent\nfor forcibly quarantining TB patients in sanitariums.  100 yrs ago\nit was done all the time.  It has been done sporadically all along\nin patients who won't take their medicine.  If you have TB you\nmay find yourself under surveilence of the Public Health Department\nand you may find they have the legal power to insist you make your\nclinic visits.\n-- \n----------------------------------------------------------------------------\nGordon Banks  N3JXP      | \"Skepticism is the chastity of the intellect, and\ngeb@cadre.dsl.pitt.edu   |  it is shameful to surrender it too soon.\" ",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n   >\tThe defenition of the Underdog is a team that has no talent and comes\n   >out of nowhere to contend.  The '69 Mets and '89 Orioles are prime examples,\n   >not the Cubs. \n\n   Sorry, but it is *virtually* impossible to win a division with \"no talent\"\n   over 162 games.\n\nWell, with players, certainly.  However, it is quite possible to win\nit all with no managerial talent.  Cf. Blue Jays, 1992.\n\nDavid\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI agree that some specialties have gotten way out of line.  The main\nproblem is the payment method for procedures rather than time distorts\nthe system.  I hope they will fix that.  But I'm afraid, as usual,\nthe local doc is going to take the brunt.  People grouse about paying\n$50 to see their home doctor in his office, but don't mind paying\n$20,000 to have brain surgery.  They think their local doc is cheating\nthem but worship the feet of the neurosurgeon who saved their life.\nWhat they don't realize is that we need more local docs and fewer\n-- \n----------------------------------------------------------------------------\nGordon Banks  N3JXP      | \"Skepticism is the chastity of the intellect, and\ngeb@cadre.dsl.pitt.edu   |  it is shameful to surrender it too soon.\" ",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ": \n: >A stupid question, but what will CView run on and where can I get it? I\n: >am still in need of a GIF viewer for Linux. (Without X-Windows.)\n: >Thanks!\n: > \n: \n: Ho boy. There is no way in HELL you are going to be able to view GIFs or do\n: any other graphics in Linux without X windows!  I love Linux because it is\n: so easy to learn..  You want text?  Okay.   Use Linux. You want text AND\n: graphics?  Use Linux with X windows.  Simple.  Painless.  REQUIRED to have\n: X Windows if you want graphics!  This includes fancy word processors like\n: doc, image viewers like xv, etc.\n:\nUmmm, I beg to differ. A kind soul sent me a program called DPG-VIEW that\nwill do exactly what I want, view GIF images under Linux without X-Windows.\nAnd, it does support all the way up to 1024x768. The biggest complaint I\nhave is it is painfully SLOW. It takes about 1 minute to display an image.\nI am use to CSHOW under DOS which takes a split second. Any idea why it\nis so slow under Linux? Anybody have anything better? Plus, anybody h",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Does ANYONE out there in Net-land have any information on the Cobra 2.20 \ncard?  The sticker on the end of the card reads\n        Model: Cobra 1-B-1\n        Bios:  Cobra v2.20\n\nI Havn't been able to find anything about it from anyone!  If you have \nany information on how to get a hold of the company which produces the \ncard or know where any drivers are for it, PLEASE let me know!\n\nAs far as I can tell, it's a CGA card that is taking up 2 of my 16-bit \nISA slots but when I enable the test patterns, it displays much more than \nthe usualy 4 CGA colors... At least 16 from what I can count.. Thanks!\n\n              .------------------------------------------.\n              : Internet: jele@eis.calstate.edu          :\n              :           bbs.mirage@gilligan.tsoft.net  :\n              :           bbs.mirage@tsoft.sf-bay.org    :\n              :           mirage@thetech.com             :\n              : UUCP    : apple.com!tsoft!bbs.mirage     :\n              `------------------------------------------'",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nHate to wreck your elaborate theory, but Steve Dyer is not an MD.\nSo professional jealosy over doctors who help their patients with\nNystatin, etc., can't very well come into the picture.  Steve\ndoesn't have any patients.\n\n\n\n\nYes, everyone who is normal does that.  We use candida on the other arm\nwhen we put a tuberculin test on.  If people don't react to candida,\nwe assume the TB test was not conclusive since such people may not\nreact to anything.  All normal people have antibodies to candida.\nIf not, you would quickly turn into a fungus ball.\n\n\nYou've just discovered one of the requirements for a good quack theory.\nFind something that no one can *disprove* and then write a book saying\nit is the cause of whatever.  Since no one can disprove it, you can\nrake in the bucks for quite some time.  \n\n\nThat is odd, isn't it?  Why do you suppose it is that MDs with these\ncommon problems don't go for these crazy ideas?  Does the \"professional\njealosy\" extend to suffering in silence, even though they know they\ncould be",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nEven easier, my area supports 311.  Dial this and a recording recites your number.\nPhone techs use it to verify an installed line.\n---\n\t\t\tGary Gendel\nVice President:\t\t\t\tCurrent consulting assignment:\nGenashor Corp\t\t\t\tMentor Graphics Corporation\n9 Piney Woods Drive\t\t\t15 Independence Boulevard\nBelle Mead, NJ 08502\t\t\tWarren, NJ 07059",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I missed the original post, but aren't the Expos rushing alomost their\nentire team this year?  I am from Montreal, and am a fan, but geez, the \nExpos rank 27th in salary (only the Rockies trail) and someone at \nthe average age would probably be in first year University!\n\t\t\tCorelMARK!\n\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nCan anybody name a player who was 'rushed' to the majors (let's, for\nargument's sake, define \"rushed\" as brought up to the majors for more than\na cup of coffee prior at age 22 or younger, and performing below\nexpectations), whose career was damaged by this rushing?  I'm serious; I\ntend to agree with David that bringing the player up sooner is better, but\nI'd like to look at players for whom this theory didn't work, if there are\nany.  I'd prefer players within the last 10 years or so, because then I can\nlook up their minor league stats.  (It's important to distinguish between\nplayers who legitimately had careers below what their minor league numbers\nwould have projected, as opposed to players who were hyped and failed, but\nactually had careers not out of line with their minor league numbers).  \n\nLet's kick it off with an example of a player who was \"rushed\", although\nthere doesn't seem to have been any damage to his career.  Jay Bell was\ngiven 135 PAs in the major leagues at age 21, and performed well below w",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I thnik i'll be able to pick up  a piar of Mac 512K's for nothing, but\ntheir power supplies are dead.  Anyone know where I can pick up a pair\nof refurbished PS's for cheap (preferably mail order).\nYes, I do have uses planned fior them.  One will be sold to a friend who\njust needs a terminal to connect via modem to his e-mail account.\nThe other will be used by me as a net client to run my downloads and/or\nprinting.",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n  I had this one time.  I attributed it to a lack of sleep since it disappeared\nafter a few nights of good zzz's.\n\n",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "This announcement is somewhat disconcerting; it doesn't do anything\nevil in and of itself, but bodes badly for the future of open\nalgorithms and standards in information security.  I won't start\npanicking until/unless DES or RSA or stuff like that is prohibited, but\nI'm a little anxious.  (No doubt it won't be long before someone posts\nexplaining how this just a small part of some far-ranging and\nlong-lived NSA-PKP-IRS-FBI-CIA-HandgunControlInc-Clinton conspiracy to\nsubvert freedom, democracy, and mathematics.)  My feeling is that the\nadministration probably isn't that worried about things like DES and\nRSA and PGP and RIPEM, since they'll never be used by a group much\nwider than us computer geeks.\n\nThe fact that this just came out now suggests one of two things:\n\n1.  The NSA has been working on this for a long time, and it only just\n    now happened to be ``ready'' to release to the world at this time.\n\n2.  The NSA has been working on this for a long time, but wasn't able\n    to get the Bush administration to",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "this week's autoweek talks about how wagons are getting back in vogue.\ni wouldn't mind an audi s4 wagon (great stealth value) but you'll\nnever catch me dead in a minivan!\n",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I know this isn't the EXACT right place to put this, but im desperate!\n\nI'll be going home for the summer, and wont have direct access to my\nVAX account....My problem is, i need a service that doesn't charge body\nparts, vital organs, or my first born son, that allows me access to the\ninternet!  All i really need is to be able to TELNET to my school account,\nand from there I can do anything I need to do.   ANY HELP WILL BE GREATLY\nAPPRECIATED!!!!!!!!!!!",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "<\n<> Here's a simple way to convert the Clipper proposal to an unexceptionable\n<> one: Make it voluntary.\n<\n<As usually, you are not reading. The proposal -does- say that it is a\n<\"voluntary program\". This doesn't make it more desirable, though...\n<\n<> That is--you get high quality secure NSA classified technology if you agree\n<> to escrow your key. Otherwise you are on your own.\n<\n<\"Secure\"? How do you know? Because NSA is trying to make you believe it?\n<\"Trust us.\" Yeah, right.\n<\n<\"Otherwise you are on your own\"? How do you know that tomorrow they\n<will not outlaw encrypring devices that don't use \"their\" technology?\n<Because they are promising you? Gee, they are not doing even that -\n<read the proposal again.\n\nOne minor nitpick:  It is not a proposal.  It is a *DECISION* ... from their\npoint of view it is a DONE DEAL.  The chips are being manufactured, it\nobviously has been budgeted, the whole thing.  THAT IS WHAT IS SO UPSETTING.\nTHIS WAS ALL DONE IN SECRET.  Because they DIDN'T want the people to know\nwh",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Just taken delivery of a 66MHz 486 DX2 machine, and very nice it is too.\nOne query - the landmark speed when turbo is on is 230 or something MHz\n- thats not the problem. The problem is the speed when turbo is off. Its\n7 MHz. The equivalent in car terms is having a nice Porsche with a button\nthat turns it into a skateboard.\n\nDoes anyone have a clue as to what determines the relative performance of\nturbo vs non-turbo?? I would like to set it to give a landmark speed of\nabout 30 or 40 MHz with turbo off.\n\nCheers,\n",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Ok I want to get a color Mac I don't care if it is an LC or a Mac II or\nwhat but I want to go to a color machine.  I'd prefer to trade my\npresent Mac SE system plus some cash or other equipment for the color\nsystem as right now I'm not full of the $$$ to buy a color system\noutright.\nHere's what my Mac SE system has...\n\nMac SE 4/20 with internal 800K drive\n20 Meg external\nExternal 800K drive\nImageWriter II with 4 color ribbon\n\nStuff that can go with it......\nI've got 3 modems and I'd be willing to give 1 of the 9600's and the\n2400 with the system\n\nMultiTech Multimodem II (9600 data/fax)\nU.S. Robotics Sportster (9600 data)\nMicrocom QX/12K         (normally will connect at only 2400 as highest\nbut it will do faster if connected to another Microcom)\n\nThe USR and the MultiTech are both brand-new\n\nIf interested send me e-mail at dleonard@wixer.bga.com\n\n",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I am in need of the Driver for the Bernoulli Cartridge on a DataFrame\nXP60+B.  The hard disk on the system got fried and I haven't been able to\nlocate the original disks.  If anyone has it or know where I can get this\nplease let me know via e-mail.\n\nThanks in advance.\n\nWayne Lyle\n\n-- ",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi,\n\nI've noticed that if you only save a model (with all your mapping planes\npositioned carefully) to a .3DS file that when you reload it after restarting\n3DS, they are given a default position and orientation.  But if you save\nto a .PRJ file their positions/orientation are preserved.  Does anyone\nknow why this information is not stored in the .3DS file?  Nothing is\nexplicitly said in the manual about saving texture rules in the .PRJ file. \nI'd like to be able to read the texture rule information, does anyone have \nthe format for the .PRJ file?\n\nIs the .CEL file format available from somewhere?\n\nRych",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I would like to program Tseng ET4000 to nonstandard 1024x768 mode by\nswitching to standard 1024x768 mode using BIOS and than changing some\ntiming details (0x3D4 registers 0x00-0x1F) but I don't know how to\nselect 36 MHz pixel clock I need. The BIOS function selects 40 MHz.\n\nIs there anybody who knows where to obtain technical info about this.\nI am also interested in any other technical information about Tseng ET4000\nand Trident 8900 and 9000 chipsets.\n\n\t\t\tthanks very much",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nApple has patented their implementation of regions, which presumably\nincludes the internal data structure (which has never been officially\ndocumented by Apple).  Apple cannot patent the concept of a region.\n\nI'm guessing that either NuTek reverse-engineered Apple's internal data\nstructure for regions (I dunno if this would hold up in court), or they\ncame up with their own data structure.  If it's the latter, then they\nwon't be able to draw PICT files containing regions.  Besides PICT files,\nthere aren't many places where regions are stored on disk.  (QuickTime\nmovies, perhaps?)  As long as the region isn't being stored on disk and\ntransferred from a Mac to a NuTek clone (or vice versa), it doesn't\nmatter if NuTek uses a completely different internal data structure.\n\nI remember reading that Apple also has a patent on their ADB hardware,\nand that the NuTek clones would therefore be lacking an ADB port.  What\nother patents does Apple have on the Mac?",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nHow long ago was this?  When I said you'd get counselling, I meant if\nyou did it now.  Long ago, practices varied and agencies had to gear\nup to provide the counselling.\n\n\nGood for her.  What we don't need is everyone suing community service\nagencies that provide blood that people need.  Testing is not fool proof.\nThe fact that he got AIDS from a transfusion (if he really did) does\nnot mean the Red Cross screwed up.  Prior to 1983 or so, there wasn't\na good test and a lot of bad blood got through.  This wasn't the fault\nof the Red Cross.  When did he get the transfusions?\n\n-- \n----------------------------------------------------------------------------\nGordon Banks  N3JXP      | \"Skepticism is the chastity of the intellect, and\ngeb@cadre.dsl.pitt.edu   |  it is shameful to surrender it too soon.\" ",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThanks for posting this and making it available. This post will be LONG, I will\ncomment on most of it, and am reluctantly leaving all of the original in place\nto provide context.\n\nPlease note that an alt. group has been set up for the Clipper stuff.\n\n                                                     ^^^^^^^^^\nHum, AT&T, VLSI and Mykotronx are 'industry'?\nWonder what happened to IBM, this should be right up their street.\nAnd a mandateed scheme is voluntary? Mr Orwell would love this.\n\n                                                 ^^^^^^^^^\n\nTelephone encryption and scrambleing are years behind digital ones like RSA,\nIDEA, or even DES. The above, while literaly true, is a clasic straw-man claim\nin the context of non-real-time circuits such as E-mail and the like.\n\n\nI would modestly propose that a mandated use of ISDN would do more for commun-\nications than this lot.\n\n\nNormmaly DES.\n\n                                        ^^^^^^^^^^^^^^^^\n\nNote the use of the word \"business\" in the above. The whole tenor",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nYou probably mean \"RoHypnol\", a member of the benzodiazepine family,\nchemical name is flunitrazepam. It is such a strong tranquilizer that it is\nprobably best refered to as a hypnotic, rather than a tranquilizer. Just one\npill will knock you on your ass. Side effects may be similar to valium, xanax,\nserax, librium and other benzodiazepines. ",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\n\n\n\n\n\n\nSo if we subvert one of the two escrow agents, we only have a 40-bit\nspace to search through...\n\n2^40 doesn't sound that big - is digital telephony subject to a known\nplaintext attack?\n\nIn which case half the key seems to be all that is needed, and the two\nagent escrow arrangement is pointless. \n\nOf course, the unknown algorithm might turn gaps in speech into \npseudo-random sequences, or there might be some magic involved, or...",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "In <1r1om5$c5m@slab.mtholyoke.edu> jbotz@mtholyoke.edu (Jurgen Botz)\n\n\n\n\nThen it is a good thing we already have this:\n\nThe csspub mailing list: csspab@mail-gw.ncsl.nist.gov, and address on\nthe clipper mailing list, seems to contain basically the members of\nthe NIST security board.\n\nIn addition to the names already posted, their true names are as\nfollows:\n\nburrows@ecf = James Burrows a director of NIST's National Computer\nSystems Laboratory\n\nmcnulty@ecf = F. Lynn McNulty an associate director for computer\nsecurity at the National Institute of Standards and Technology's\nComputer Systems Laboratory\n\nGangemi@dockmaster.ncsc.mil = Gaetano Gangemi is director of the\nSecurity Basics by Deborah Russell and G. T.  Gangemi, Sr. -1991,\nO'Reilly and Associates\n\nslambert@cgin.cto.citicorp.com = Sandra Lambert is vice-president of\ninformation security at Citibank, N.A.\n\nlipner@mitre.org = Lipner is Mitre Corp.'s director of information\nsystems.\n\ngallagher@dockmaster.ncsc.mil = Patrick Gallagher, director of the\nNational S",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n  For a commerical package try WAVE from  Precision Visuals\n                                           505-530-6563\n\n  For a free package try KHOROS from University of New Mexico\n                                      508-277-6563\n                                   ftp from\n                              ptrg.eece.unm.edu\n\n    Login in anonyomus or ftp  with a valid email address as the password\n               cd /pub/khoros/release\n\n   That will get you to the right place.",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n   I know that at least one person on that list says the first he heard\n   of Clipper was in the Friday morning newspaper! And another has\n   already fired off a letter of protest to NIST.\n\n   My point? I suspect this list, interesting as it is for various\n   reasons, does not represent the cabal that put this proposal together.\n   Some of them, yes. Others, no. \n\nI received mail from Mitch Kapor saying that he did not ask to be on\nthe list, and does not know why he was added.  I'm sure the same\napplies to others on the list.  So, I guess my initial theory was\nright, that the clipper list was just someone's idea of a bad joke.  I\nguess I should be happy it wasn't a conspiracy.\n\n\t\tMarc",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ": >I was also sceptical about the amps being built in the far-east\n: >  or where-ever.  But if you look in the amp and see what components\n: >  they use and how it was designed, you can easily see why the\n: >  amplifiers sound so brilliant.\n\n: Good point...also, I wouldn't be surprised that the components\n: they use off-shore are of inferior quality.  As long as it was\n: properly designed and robust, premium components are used, it\n: shouldn't matter where it is assembled.\n\nDefinately, I agree wholeheartedly.  If they can build the amp where\n  the labour is not so expensive, they can afford to put decent\n  components in and go to more effort to improve the design of the\n  amplifier - as Adcom has done.\n\n: >I cannot see why people say the amplifier won't last - not with\n: >  those quality components inside.  Sure the amp runs very fairly\n: >  hot - but that's how you get an amp to sound incredibly good.\n\n: An amp that runs hot has no bearing on how it's gonna sound.\n: The amp you have probably is running Class",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Archive-name: atheism/logic\nAlt-atheism-archive-name: logic\nLast-modified: 5 April 1993\nVersion: 1.4\n\n                       Constructing a Logical Argument\n\nAlthough there is much argument on Usenet, the general quality of argument\nfound is poor.  This article attempts to provide a gentle introduction to\nlogic, in the hope of improving the general level of debate.\n\nLogic is the science of reasoning, proof, thinking, or inference [Concise\nOED].  Logic allows us to analyze a piece of reasoning and determine whether\nit is correct or not (valid or invalid).  Of course, one does not need to\nstudy logic in order to reason correctly; nevertheless, a little basic\nknowledge of logic is often helpful when constructing or analyzing an\nargument.\n\nNote that no claim is being made here about whether logic is universally\napplicable.  The matter is very much open for debate.  This document merely\nexplains how to use logic, given that you have already decided that logic is\nthe right tool for the job.\n\nPropositions (or statem",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Alan Sepinwall writes\n\nGeorge will do the only logical thing he can do when the Yanks' bullpen isn't  \nperforming -- fire the manager.\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "If we do not trust the NSA to be a registrar of Clipper Chip key halves,\nI would not trust Mitre either.  Mitre does lots of work for NSA, at least\nin the Trusted Product Evaluation Program (evaluation of commercial off the\nshelf software for its efficacy in safeguarding classified information), and\nI assume in other, less open, programs.\n\nThere are at least two other FFRDCs (Federally Funded Research and Development\nCorporations) that work for NSA: Aerospace Corporation and the Institute for\nDefense Analysis.  Now, if NSA were to be untrustworthy (a position that I\nam neutral about, for purposes of this posting), it would be in a position to\nexert economic pressure upon Mitre to release key halves on demand.  It could\njust say, \"If you don't cooperate with us, we'll place all our evaluation\ncontracts with Aerospace and IDA.\"\n\nI am not saying that people at NSA, Mitre, Aerospace, or IDA are dishonest\nfolk.  But since they are people, and people occasionally go bad, the\nsystem works better if organizations tha",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nMaybe you need to go into \\mach32\\install and set a refresh rate for\n1280x1024.  You might need to use custom monitor option.\n\nDan\n\n",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Is there any doubt that this is true?  After a few down years, the A.L. East\nis back to where it was in the early eighties.  With the emergence of the O's\nand the Yanks, it is far and away the best.  While the N.L. West has the best\nteam in baseball, and the Reds aren't bad either, they have nothing else.  The\nGiants, Astros, and Padres all have talent, they do not have the all arounf\nteams that are found in the A.L. East.  And the Dodgers just plain suck.  As\nfor the Rockies, who knows?\n   The A.L. East has the defending champs, and although they lost a lot to\nfree agency, Toronto is still one of the best in baseball.  The Orioles have\nthe preseason favorite to win the Cy Young in Mike Mussina, and you can never\nforget about Ripken.  The signings of Harold Baines and Harold Reynolds don't\nhurt to much either, although I always liked Bill Ripken.  While they let a\nlot go this summer (Randy Milligan, Joe Orsulak, Bill Ripken, Bob Milacki, Sam\nHorn, Storm Davis, and Craig Lefferts), they kept the heart of their",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "-*-----\n\nThese effects are a very real concern in conducting studies of new\ntreatments.  Researchers try to limit this kind of effect by \nperforming studies that are \"blind\" in various ways.  Some of these\nare:\n\n  o  The subjects of the study do not know whether they receive a \n     placebo or the test treatment, i.e., whether they are in the\n     control group or the test group.\n\n  o  Those administering the treatment do not know which subjects \n     receive a placebo or the test treatment.\n\n  o  Those evaluating individual results do not know which subjects\n     receive a placebo or the test treatment.\n\nObviously, at the point at which the data is analyzed, one has to \ndifferentiate the test group from the control group.  But the analysis\nis quasi-public: the researcher describes it and presents the data on\nwhich it is based so that others can verify it.  \n\nIt is worth noting that in biological studies where the subjects are\nanimals, such as mice, there were many cases of skewed results because\nthose who pe",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I don't think the Book of Mormon was supposedly translated from Biblical \nHebrew.  I've read that \"prophet Joseph Smith\" traslated the gold tablets \nfrom some sort of Egyptian-ish language.  \nFormer Mormons, PLEASE post.",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\tWhy don't you consider PHIGS in X or PEX lib?",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I was chaining around in the anonymous ftp world looking for 3D Studio\nmeshes and other interesting graphical stuff for the program, and found\na few files with the extension 3D2.  My 3DS v2.01 doesn't know this type\nof file, so what are they?\n\nAnd of course, the perennial... Where are some meshes, fli files, etc.\nout there?   I would have thought that someone would have collected a few\nand put them somewhere, but alas I am without this knowledge.\n\nmucho appreciato",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nJohnny Mize had six three-HR games, which is the current record.\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  }
+]

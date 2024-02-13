@@ -1,0 +1,656 @@
+[
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n   >Thousands?  Tens of thousands?  Do some arithmetic, please...  Skipjack\n   >has 2^80 possible keys.  Let's assume a brute-force engine like that\n   >hypothesized for DES:  1 microsecond per trial, 1 million chips.  That's\n   >10^12 trials per second, or about 38,000 years for 2^80 trials.  Well,\n   >maybe they can get chips running at one trial per nanosecond, and build\n   >a machine with 10 million chips.  Sure -- only 3.8 years for each solution.\n\n   But there is a MUCH more pernicious problem with the scheme as\nproposed.  Building a brute force machine to test 2^40 possible keys\nif you have the other half from one escrow agent is EASY.  (One chip,\none test per microsecond gives you one break every two weeks, and that\nbreak gives you all messages involving that phone.)\n\n   The XOR scheme so that the files from one escrow agent gives you\nnothing is an improvement, but notice that XORing with (truely random)\nbit strings allows for an arbitrary number of escrow agents.  Using +\nfor XOR, SK for the escrowe",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I am fortunate enough to have tickets for an Orioles-Red Sox game in  \nBaltimore on Saturday, July 31st.  I haven't been to the new park,\nand I was wondering if anyone out there can give me pointers or good tips  \nor anything helpful about the place so that I can enjoy every moment spent\nthere.\nFor instance, what time do the gates open?  Do we see the Orioles take BP?\nWhen will the Red Sox take BP?  Anything you can tell me would be \nappreciated.  Thank you in advance. \nPlease respond to my e-mail address.\nI know it's still three-and-a-half months away, but I'm psyched!\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "MLB Standings and Scores for Friday, April 16th, 1993\n\t                   (including yesterday's games)\n\nNATIONAL WEST\t      Won  Lost   Pct.    GB   Last 10  Streak    Home   Road\nSan Francisco Giants   06   04    .600    --     6-4     Won 1   03-01  03-03\nHouston Astros         05   04    .556   0.5     5-4    Lost 1   00-03  05-01\nAtlanta Braves         06   05    .545   0.5     5-5    Lost 2   03-03  03-02\nColorado Rockies       03   05    .375   2.0     3-5     Won 1   03-03  00-02\nLos Angeles Dodgers    03   07    .300   3.0     3-7    Lost 4   00-03  03-04\nSan Diego Padres       02   07    .222   3.5     2-7    Lost 4   00-04  02-03\nCincinnati Reds        02   07    .222   3.5     2-7    Lost 3   01-02  01-05\n\nNATIONAL EAST\nPhiladelphia Phillies  08   01    .889    --     8-1     Won 5   05-01  03-00\nPittsburgh Pirates     07   02    .778   1.0     7-2     Won 4   03-02  04-00\nSt. Louis Cardinals    07   02    .778   1.0     7-2     Won 3   04-02  03-00\nNew York Mets          04   04    .500   3.5    ",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nLink with '-lm' (math library).\n\n\nThis is a bug in Sun's shared libraries. Linking with\n'-assert nodefinitions' should do the trick.",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Anyone have the AL individual stats or where i can find them?",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Greetings baseballers, \n\n\tI have a choice of two more or less identical conferences to\nattend, one in \nDenver, and one in Dallas, both May 24-28. Could some kind Rockies\nor Rangers \n(they DO play in the Dallas area, right?) fans please let me know if\nthere \nare home dates for that week. I'd love to catch a game. ",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nIf you think that's bad, just wait until he tries Dunston in\nthe leadoff spot again.  \n\nYes, I also wonder if they can win with this manager.\nI never believed managers had that much to do with winning\nuntil I saw how much they had to do with losing....",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n  Did the Russian spacecraft(s) on the ill-fated Phobos mission a few\nyears ago send back any images of the Martian moon?  If so, does anyone know if\nthey're housed at an ftp site?\n  Thanks.\n \n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have 2 New and 2 slightly used SyQuest 44M cartridge forsale.\nAsking $230 for all of them and shipping is included.",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I'll bet there's a runway nearby.",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\n\nPerhaps not in Christianity, but in Islam the choice of religious\nleaders is to be made by the people. So much for your superiority\nargument.\n\n\n\nDemocracy is a basic element of Islam. Learn that one!\n\nEver notice that the so-called \"fundamentalists\" in Algeria\nwho are being repressed by the secular government won in\nfree and democratic elections.\n",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi all,\n\nI've been locked in a small closet chained to a lab bench for the last week or\ntwo without access to really important information.  I saw the 3.5 million\nshoulder back on the DL--How long is he out for (i.e. How many millions/inning\nwill he get this year?)  Nothing personal against Higuera mind you, just\nwondering how Bud can keep coffing up money for him when he lets current\nbig producers go over a relative pittance. (Please realize the term \n\"relative pittance\" can only be used with sarcasm when discussing baseball\nsalaries.)\n\nAdditional questions:  I did'nt get to see Bones pitch this spring--how is\nhe looking and where is he going to fit in the rotation?\n\nHow is Surhoff shaping up defensively at third?\n\nAre they going to build a new stadium?  When?",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "On the code I sent, please replace the line:\n\n   XtAddCallback(PopUpShell, XtNcallback, MyPopUp, (XtPointer)PopUpShell);\n\nby\n\n   XtAddCallback(Button, XtNcallback, MyPopUp, (XtPointer)PopUpShell);\n\n--- \n\nThe rest (and my question) remains the same...",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The following is posted for a friend.  You can send replies to this email\naddress or call him at 503-752-1499.  (Glen)\n\n\tI have a CITIZEN OVERTURE 110 Laser printer for sale.  It is in\nexcellent condition.  It has been used less than one year on this drum.\nI am asking $500, but all offers will be considered.  Below are some\nspecs on it.\n\nToner lifespan:\t\t2500 pages\nDrum lifespan:\t\t15,000 pages\nResolution:\t\t300 DPI\nMemory:\t\t\t512K\nEmulation:\t\tEpson FX286\n\t\t\tIBM ProPrinter\n\t\t\tDiablo 635\nPrinting Capacity:\tQuad-density graphics\nTray capacity:\t\t250 sheets\n\nReason for sale:  \tFinancial--I need to pay tuition.\n\nThanks,\n\n-Glen Anderson",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "rites:\n,\nn\n\nBut drive UP to Cleveland and it is about 10,000 times better.  I from Toledo \noriginally (but that place always as sucked as long as I've been on the planet.\n\n\nRepublicans have been trying to pass a balanced budget amendment for the last \nten years.\n\n\nBecause for a while, the American companies couln't even compete in THEIR OWN \nCOUNTRY, where free trade isn't even an issue.  However, even the automobile\npendelum has swung back to the Big 3.\n\n\nOh, I don't know.  It's probably in the tens of thousands.",
+    "response": 18,
+    "category": "talk.politics.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nthink again!!  thanks to 60 minutes (tick tick tick), used 200\nquattros are bargains.. '89s go for about $15K, '90s go for perhaps 1\nor 2K more, the 20 valve 91's are quite a bit more because of an\nenormous hp and torque gain.. i think they go for about $23 to $25K if\nyou can find one.  i have seen quite a lot of '89-'90 200 quattros (not\nthat many wagons though) at the dealer lot.. they use very high\nquality paint and the entire car is zinc galvanized, so it will never\nrust.\n\nin short, typically a 4 yr old 200 looks no more older than a 1 year\nold and the 5 bangers are bullet proof engines.  200K out of one is\nnot rare, even for a turbo, which is watercooled for the 200s.  then\nthere are aftermarket chips that you can buy to bump up turbo boost...\n\nif you are into luxo-gizmos.. the cars are loaded with just about\neverything too..\n\nthe price of parts is a different story though...\n",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "It sounds like a MAGNAVOX with a sick flyback on its way out!",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Word 2.0c doesn't show the period-centred character to indicate\nspaces if I use the TTFonts from CorelDraw.  Our editors need to\nbe able to see how many spaces are in text but the character \ndisplayed is a large hollow box.  They overlap each other and\ncharacters on each side, which is useless.\n\nI believe the character used by W4W is the period-centred (0183).\nThis character shows up with the windows Charmap display as the\nhollow box which tends to confirm this.  I have edited the corel\nfont with Fontmonger and changing the font graphics for the 0183\ncharacter makes no difference to the font output in Charmap or W4W.\nAltering the paragraph (0182) or cedilla (0184) does alter their font\ngraphics displayed however!!\n\nIs the W4W character used to indicate spaces the period-centred\ncharacter?  Has anyone been able to get this character displayed\nfrom a CorelDraw TTF?\n",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nmy understanding was that ted turner (owner of the braves) started running\nhis tv station nationwide, and started running all of his team's games on\nhis nationwide tv station, he dubbed his team ''america's team'' - that is,\nthe only team (at least, at the time) all of whose games could be seen\nacross america.\n\nnow, wor is nationwide out of beautiful secaucus, but not all mets games\nare on wor.  wgn chicago and wsbk boston are two other superstations\n(at least, they are on the east coast).  i don't know how many\ncubs/sox/sox games they show.\n\n--hymie                                                     hymowitz@cs.jhu.edu\n-------------------------------------------------------------------------------\nI'll be mellow when I'm dead.                           --''Weird'' Al Yankovic\n-------------------------------------------------------------------------------\nYou get your mellow, laid back attitude from Sonny the Cuckoo Bird.\n                                                               --Josh, about me",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\tOh, lighten up.  What depresses me is that they might actually \nfinish last, which I believe hasn't happened since their second season in \n1970.  Never mind that Gubizca is 0-2 with a 16.50 ERA, Gardner at 7.50,\nour main recent acquisitions (Lind, McReynolds, Jose) are averaging .210,\nDavid Cone is 0-2 (about how he was doing in KC before joining the Mets \nseveral years ago), our hitting sucks, and our pitching has collapsed, \nand we've won one game at home; they've won more games in their first ten\ngames than last year, and Brian McRae is actually batting over the \nMendoza line!",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nThe tribe will be in town from April 16 to the 19th.\nThere are ALWAYS tickets available! (Though they are playing Toronto,\nand many Toronto fans make the trip to Cleveland as it is easier to\nget tickets in Cleveland than in Toronto.  Either way, I seriously\ndoubt they will sell out until the end of the season.)\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nYes.  But this is *irrelevant*.  You're talking about averages, when we\nhave lots of information about THIS PLAYER IN PARTICULAR to base our\ndecisions on.\n\nI might as well say \"We know that very, very few people are more than 7 feet\ntall, so chances are that Manute Bol is really only 6 foot 4.\"\n\n\nWhy isn't Lopez likely to hit that well?  He hit that well last year (after\nadjusting his stats for park and league and such); he hit better (on an\nabsolute scale) than Olson or Berryhill did.  By a lot.\n\nAs for rushing...  If there really is a qualitative difference between the\nminors and the majors that requires a period of adjustment (and I don't\nbelieve there is), then wouldn't you rather waste Lopez's 22-year old good\nseason than his 23-year old very good season or his 24-year-old excellent\nseason?  The sooner you get him acclimated, the more of his prime you get to\nuse.\n\n\nThe point was not that 17 AB is a significant sample, but rather that he\nhadn't done anything in spring training to cause even a blockhead m",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nOr read fixes 9, 10, and 11 to the MIT distribution.  This is a known \nproblem - just apply those fixes and set SunPost411FCSLd to YES and \nOSTeenyVersion in mit/config/sun.cf to 3.\n\nIn fix-09:\n\nIn fix-10:\n\nIn fix-11:",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThis talk about the Phillies winning the NL East is scary.  VERY\nscary!  Don't get me wrong, Im a Phillies fan but as late as last\nyear they looked helpless.  The funny thing was they did have a lot\nof injuries in '92 spring training that basically killed their\nchances.  Of course, don't forget the Dykstra wrist injury in the\nfirst or second game?  \n\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The title says it all.  Contact me via EMAIL if you would can help me out...\n\nMike Harpe\nUniversity of Louisville\n\nP.S.  I KNOW IT IS DISCONTINUED.  I want someone who would like to sell\n      an old copy.",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello,\n\n   When starting bx if you recieve an error message saying\n\"cannot load app-defaults file...\" check your XAPPLRESDIR\nenvironment variable and then put the file BuilderXcessory \n( this is the app-defaults file for BX ) in the directory\nspecified by the XUSERFILESEARCHPATH environment variable.\n\n   If you don't have an XUSERFILESEARCHPATH environment variable\nthen set XUSERFILESEARCHPATH to be the directory where the\nBuilderXcessory file is. You can do this using the setenv\ncommand under csh. Note that the name ends in .ad so you will\nhave to set XUSERFILESEARCHPATH to {BX}/%N.ad to get the\napp-defaults to load correctly.\n\n   To make sure the the app-defaults file can be read by all\nthe users, make sure that a copy of or a link to the app-defaults\nfile exists in /usr/lib/X11/app-defaults or \n/usr/openwin/lib/app-defaults, depending on how your system is\nset up.\n\n   Once you have taken care of this set the *systemDirectory\nresource to be the directory in which you have installed BX. \nFor example let's sa",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "SWELL ITEMS FOR SALE - HARDLY ANY COMPUTER STUFF\n\no LOTUS 1-2-3 Student Edition for DOS ...................... $10.00\n     This does just about everything that standard 1-2-3\n     Release 2.01 could do, but not as much of it.  Worksheet \n     size is limited to 64 columns by 256 rows, there is no\n     translation facility (for importing data from other\n     packages), and the Student Edition does not write files \n     that can be accessed by Release 2.01.  Includes manual,\n     original distribution diskettes (5 1/4\" - 360K), and key\n     board templates.\n\n\no Subaru Service Manuals ................................... $10.00\n     This is not a complete set, but includes sections 4, 5 \n     & 6 which cover MECHANICAL COMPONENTS (suspension, wheels \n     & axles, steering, brakes, pedals & control cables, heater \n     & ventilator, air conditioning), BODY (body & exterior, \n     doors & windows, seats, seat belts, interior, instrument \n     panel), and ELECTRICAL (engine electrical system, body \n     electrical ",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Misc. Items for sale:\n\n\nWalkman:  Aiwa Model HS-T30, 1 year old, mint condition, hardly used, \n          autoreverse, 3 band Equalizer, Super Bass, Dolby Noise Reduction,\n          AM FM tuner..........Paid $70.......Asking $40+shipping.\n\nMount Plate:  Sony Model CPM-203P, mounting plate for Sony portable CD players\nfor Portable: plugs into car lighter, snaps onto the bottom of any Sony\nCD Player:    Portable CD player, perfect condition. Will also throw in a \n\t      cassette adapter in SO SO condition.\n\t      Paid $45...............Asking $30+shipping.\n\nAM FM:\t    Factory Stereo from Toyota with AM FM radio, autoreverse cassette\nCassette:   deck, digital tuning, like new condition only in car 6 months,\nCar Stereo: Asking $60+shipping.\n\nCar Speakers:\tSherwood 5 1/4\" two way car speakers, in car for 7 months,\n5 1/4 inch:\texcellent condition, Paid $65............Asking $40+shipping.\n\n4 inch:\t    Factory Speakers from Toyota excellent condition \n\t    Asking $20+shipping.\n\n\nNintendo:   Nintendo Game Boy, Light Bo",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Anyone know how an application can retrieve the name of the font from\nan application given an XFontStruct *? \nWould XGetFontProperty work if I passed XA_FONT_NAME? \nanyone know details of this?  Thanks in advance.\nBrian\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Two Round-Trip Tickets\n\tO'Hare --> Tuscon\n\tAmerican Airlines\n\tGood thru November\n  No Reasonable Offer Refused, But lets start at\n  $750 for both (Paid $925)\n\n\tHopefully someone can use these as I\nhave no use for them, and don't know a  way \nto get my moneys worth without going to\nTuscon again!  `\n\n\tE-Mail only at this time\n\n\t tripper@cbnewsk.cb.att.com\n\n//////////////////////////////////////////////////////////////\n            Now why would AT&T or Butler Services \n        have anything to do with my warped ramblings?!\n\nCrabby-Old-Fart Mechanical/PCB Designer w/buku CAD background,\n       & still working on BSCS is looking for work! \n         Wants to take a shot at ASIC/IC Layout!!\n\n--------------------------------------------------------------\n      A.R.Tripp - a.k.a. tripper@cbnewsk.cb.att.com",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThere is no easy answer to this question: it depends on whether the display\ndevice can hold pixmaps in off-screen memory, and if so, how efficiently\nthe server manages these resources (having to deal with limited off-screen\nmemory is the bane of the server implementor's existence!).  \n\nI have worked with graphics devices where the off-screen memory to \nmain display copy rate eclipses that of the main memory to display copy\nrate, and with those where the main memory to display is *faster* than\noff-screen to display (requires only a write to the framebuffer rather\nthan a read of the F.B. followed by a write)\n\nIf your server uses the cfb code or something like it to render into\npixmaps in CPU main memory, the rates you can get through MIT-SHM are\nlikely to be equal (maybe a tad slower, depending on your OS's implementation\nof shared memory) to CopyArea from pixmap to window, which is also then\njust a copy from CPU main memory to graphics device.\n\nOne advanage of MIT-SHM is that if your images are large, you don",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI am no expert on this.  But I am pretty sure there is no way to recover this.  IDE drive has mapping information written directly on drives.  When you  low level format it, the information itself is gone as well, I don't think you can get it back unless you send it back to Western Digital and ask them to refurbish it for you.",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nUnless there has been a _major_ change in the law, there's no such beast\nas a \"classified patent.\"  Patents exist to encourage communications and\ndevelop the state of the art. \n\n(The 17-year lock is a nuisance, but historically has been pretty trivial.\nIt's only in an industry which doubles performance every three years (or\n18 months, for some hardware) that 17 years is an eternity).\n\nThe same thing applies in civilian development: you can't patent something \n_and_ declare it a \"trade secret.\"  However, you can (and should) mark all\nsoftware (including proprietary code) \"unpublished copyright\" so that it\never does get exposed you still have some legal protection.\n\n(Post-Berne this isn't required, since everything is \"born copyrighted.\"\nBut it takes a while for people to learn the new rules).\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have been unable to get COM 4 to work - diagnostic programs such as msd show\nnothing installed.  I think the software options are OK - is there a known\nhardware conflict and/or workaround for this problemand CD ROM\nSystem is a G2K 486DX2/66 tower with ATI video card\nPorts are set as follows \n  On board COMa = COM1 IRQ4 to external device\n  Internal modem = COM 3 IRQ5\n  DFIO port card primary port = COM 2 IRQ3  mouse\n  On board COM B = COM 4 IRQ 9  <--- DOES NOT WORK\nI have run this from a boot disk with only command.com to eliminate softwar",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Posting for a friend: please call Steve, 415 252-1618, if interested.\n\nSEGA Genesis games for sale.\n\nIn original boxes with original manuals.\n\nApproximately 1 month old.\n\n-- John Madden Football '93, Electronic Arts, $40.00 obo\n\n-- Ecco The Dolphin, SEGA,, $40.00 obo \n\nAgain, I'm posting for a friend. If interested, call:",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Many thanks to those who replied to my appeal for info on a drive I have\nwhich is 3.5\" 600RPM!!\n\nI now have some information on how to modify this for use with a BBC B \ncomputer. Not only do you have to change the speed from 600 to 300 rpm\n(tried that) but also change 8 components in the Rec/Play section to allow\nfor the lower data rate (250kbit, not 500kbit as it was designed for) and also\nchange the Recording Current to allow for the low data rate/rev speed!\n\nHopefully this should sort it all out .... not bad for 9 quid (normally 32 \nquid and upwards ....)\n\nThe drive is a JVC MDP series drive ...",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Archive-name: cryptography-faq/part09\nLast-modified: 1993/4/15\n\n\nFAQ for sci.crypt, part 9: Other Miscellany\n\nThis is the ninth of ten parts of the sci.crypt FAQ. The parts are\nmostly independent, but you should read the first part before the rest.\nWe don't have the time to send out missing parts by mail, so don't ask.\nNotes such as ``[KAH67]'' refer to the reference list in the last part.\n\nThe sections of this FAQ are available via anonymous FTP to rtfm.mit.edu \nas /pub/usenet/news.answers/cryptography-faq/part[xx].  The Cryptography \nFAQ is posted to the newsgroups sci.crypt, sci.answers, and news.answers \nevery 21 days.\n\n\nContents:\n\n* What is the National Security Agency (NSA)?\n* What are the US export regulations?\n* What is TEMPEST?\n* What are the Beale Ciphers, and are they a hoax?\n* What is the American Cryptogram Association, and how do I get in touch?\n* Is RSA patented?\n* What about the Voynich manuscript?\n\n\n* What is the National Security Agency (NSA)?\n\n  The NSA is the official security body of the ",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nPreventing black market chips w/non-escrowed keys IS exactly what they\nmean by protecting the security of the key escrow system.  There are\ntwo parts to the security of such a system:\n  \n    (a) Preventing decruption by unauthorized personel\n    (b) Assuring that the gummit can always decrypt clipper\n        traffic when it authorizes itself to do so.\n\nOf course, the ministry of propoganda will do a lot of tallking about\n(a) and very little about (b).\n\n                                        rob boudrie\n                                        rboudrie@chpc.org",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "............................................................................\n        CRYPTO '93  -  Conference Announcement & Final Call for Papers\n............................................................................\n\nThe Thirteenth Annual CRYPTO Conference, sponsored by the International \nAssociation for Cryptologic Research (IACR), in cooperation with \nthe IEEE Computer Society Technical Committee on Security and Privacy, \nthe Computer Science Department of the University of California, Santa \nBarbara, and Bell-Northern Research (a subsidiary of Northern Telecom), \nwill be held on the campus of the University of California, Santa Barbara, \non August 22-26, 1993. Original research papers and technical expository talks \nare solicited on all practical and theoretical aspects of cryptology. It is \nanticipated that some talks may also be presented by special invitation of the \nProgram Committee.\n-------------------------        \nINSTRUCTIONS FOR AUTHORS:  Authors are requested to send 12 copies of a \ndet",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "This model is one of the two low-cost laser printers that Apple just\nintroduced.  I'm thinking of getting one to use at home.  Have any of you\nhad any experience with this printer?   Does it have Level-2 PostScript?\nIf you've bought one, are you happy with it?\n",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nNo!  Distribution keywords are case sensitive.  What you want\nis\n\n\tDistribution: world\n\nor no Distribution line at all.  \"WORLD\" in capital letters is wrong.",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nTail-recursive functions in Scheme are at least as efficient as iterative\nloops.  Anyone who doesn't program in assembler will have heard of optimizing\ncompilers.\n",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "SOMEONE PLEASE BUY THESE BOOKS!!!!!  I AM NOT ASKING MUCH!!!!!!\n\nJUST MAKE ME AN OFFER AND I WILL PROBABLY TAKE IT!!!!!\n\n* Calculus w/ Analytic Geometry by Authur B. Simon (copyright date 1982), below avg condition but still readable! \n\n* Writing good software in Fortran, Graham Smith. \n\n* The Holt Handbook by Kirszner & Mandell (copyright 1986) 720+ page writing guide. \n\n* Algebra & Trigonometry, A problem Solving Approach, 3rd edition by W. Flemming and D. Varberg.  Very good condition.\n\n* General Chemistry Principles & Modern Applications, R. Petrucci, fourth\n  edition.  Big Book! Very good condition!\n\n* Solutions manual for Chemistry book.  Paperback.\n\n* Study guide for Chemistry book.  Paperback.\n\n\nSend me your offers via email at 02106@chopin.udel.edu\n\n",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Off and on over the last several months, threads about RBIs and\nrelated topics have gotten me to thinking about how well we can \npredict a player's RBIs using information about his overall\nperformance and the number of runners in scoring position (RISP)\nthat he bats with.  In the Brock2 model, Bill James calculated\npredicted RBIs as RBI=.235*(Total Bases) + Home Runs.  This \ncompletely ignores the context, which was all that Brock2 \ncould do, since context was unknown to it.  So I thought I'd\ntake that idea as a starting point and look how good a fit to\nthe data you get by comparing (RBI-Home Runs) to SLG*RISP.\n\nI've started with team data, using data from the Elias's that\nI've picked up over the years when a) I could afford them and\nb) I could stomach the thought of increasing Elias's profits.\nThat gave me the years 1984-1986, 1988, and 1990.  (I don't \nhave team RBIs for '87 or I could add that year.)  If you\nrun a simple least squares fit to the data you get \n\n(RBI-Home Runs) = 0.81*SLG*RISP.\n\nThe correlat",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nno kidding...just ask the White Sox...\n\ntoo bad, really...\n\n-John Neuharth",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nDo you really have *that* much information on him?  Really?\n\n\nI don't know.  You tell me.  What percentage of players reach or \nexceed their MLE's *in their rookie season*?  We're talking about\n1993, you know.\n\n\nIf that were your purpose, maybe.  Offerman spent 1992 getting \nacclimated, if you will.  The Dodgers as a team paid a big price\nthat season.  Perhaps they will reap the benefits down the road.\nDo you really think they would have done what they did if they\nwere competing for a pennant?\n\n\nFor a stat-head, I'm amazed that you put any credence in spring\ntraining.  Did you notice who he got those 10 (!) hits off of, or\nare you going to tell me that it doesn't make a difference?\n\n\nWait a minute.  I missed something here.  First, forget Keith\nMitchell.  Are you saying that a kid who moves from AA to AAA\nand then does not improve would have been better off making a\ndirect leap to the majors?  If a player does well at AA and then\ndoes not improve at AAA, isn't that a sign that maybe he doesn't\nbelong in the ",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nDid you check with the Afghans before posting this?   They\nmight disagree.",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\tI think you'd have to do some massive data compression just to\nfit a bit of key information on each primary particle of the known\nuniverse.\n\tBut, hey, it's fun to imagine.",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nNewsgroups: rec.audio,misc.forsale\nDistribution: na\nSubject: Forsale: Sony D-22 diskman\n",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "***********************************************\n    PANASONIC PHONE WITH ANSWERING MACHINE\n\n      - LOOKS LIKE A BRAND NEW \n      - ALL BASIC ANSWERING MACHINE FUNCTION\n      - 8 PHONE NUMBER MEMORY + RECALL FUNCTION\n      - 1 YEAR OLD\n \n    ASKING FOR $45.00\n\n\n   Interest? Please call me at 206-720-1089",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nWell, a student body president can't exactly campaign on the stand\nthat he's \"tough on crime\".  Their job is to listen to what people want\nand fund things that make sense.\n\nCondoms and marijuana aren't exactly the worst things to have available\neither...",
+    "response": 18,
+    "category": "talk.politics.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Fascinating.  Most of the content of the White House announcements was\nin what was *not* said.  It gives us almost nothing of value, threatens to\ntake away a lot, and does it with a sincere smile on its face,\nand the nice friendly word \"Management\".\n\n\t\t\t      FACT SHEET\n\t\t     PUBLIC ENCRYPTION MANAGEMENT\n\nThe first thing it doesn't say is \"We're giving you stronger encryption\".\nwhat it says is \n   the U. S. Government has developed a microcircuit that not only\n   provides privacy through encryption that is substantially more robust\n   than the current government standard, but also permits escrowing of\n   the keys needed to unlock the encryption.  The system for the\n   escrowing of keys will allow the government to gain access to\n   encrypted information only with appropriate legal authorization.\nBut DES is strong enough that only the government can break it now,\nso the major effect is to make it EASIER for government to break!\n*At best* it makes it more difficult for the NSA to break, since they\nneed to get ",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\nI've been watching & playing hockey for a good long time now, and\nI've seen players with questionable tactics, but never have I seen\nwhat Ray did on Sunday. This guy gets my all time loser award. It's\none thing to repeatedly cross check someone to the back of the neck\nwhen they are down, it's another thing to have a fist fight with\nsomeones balls. Ray should be thrown out of the league, what an\na**hole.",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n[...]\n\n\nNot that I think anyone cares, but this pattern (using other examples\nof course) was discussed 2,000 years ago by Aristotle in\n_Nicomachean_Ethics_.   Note that you can't use this insight to reason\nbackwards; e.g.:  Since the conservatives see the media as liberal and\nthe liberals see the media as conservative, the media are fair!  (though\nI've seen this \"reasoning\" implied)  \n\n\nKen",
+    "response": 18,
+    "category": "talk.politics.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "[ Article crossposted from rec.arts.books ]\n[ Author was Mark Wilson ]\n[ Posted on Wed, 21 Apr 1993 11:55:55 GMT ]\n\nI am looking for the following book, which I have\nonly seen as a paperback (I lent my copy to someone,\nand forgetfulness has made that pronoun PERMANENTLY\nindeterminate!).  I am looking for one OR two copies!\n\nTitle: The Nine-Mile Walk and Other Stories\n        (unsure about the hyphen and the exact subtitle)\nAuthor: Harry Kemelman (author of all the \"Rabbi\" mysteries)\n\nIt's a collection of short mystery stories.  Please email\nmark@ocsmd.ocs.com OR call the 800 number given below.\nThanks!\n\n- Mark\n--\n-------------------------------------------------------------------------------\nMark Wilson, Online Computer Systems.  1-800-922-9204 or 1-301-601-2215\n(Try email address mark@ocsmd.ocs.com....)\nThis file .disclaims everything signed with my .signature, I .mean it!\n-------------------------------------------------------------------------------\n\n--\n-----------------------------------------------------",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "While driving through the middle of nowhere, I picked up KNBR, AM 1070,\na clear-channel station based in Los Angeles. They had an ad \nclaiming that they were able to get traffic flow information from \nall of the thousands of traffic sensors that CalTrans has placed\nunder the pavement. Does CalTrans sell this info? Does KNBR have\nan exclusive? What's the deal?",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have a lot of CDs for sale.  Prices are $7 per CD and $3 per CD Single.\nCDs are noted by (CD) and CD Singles by (CDS).  Please include $1 extra\nper CD for s/h costs.  IF you want to buy a lot of them, then we'll work \nout a deal with the shipping costs!\n\nType      Group                         Title\n---------------------------------------------\n\nCDS       Boys to Men                   Motown Philly\nCDS       C & C Music Factory           Keep it Comin'\nCDS       Moby                          Go (Remixes)\nCDS       Quadrophonia                  Schizophrenia\nCDS       Swing Out Sister              Not Gonna Change\nCDS       Recoil                        Faith Healer\nCDS       Seal                          The Beginning\nCDS       Transvision Vamp              Tranvision Vamp\nCDS       C & C Music Factory           Gonna Make U Sweat\nCDS       Nitzer Ebb                    Godhead\nCDS       Roxette                       How Do You Do!\nCDS       B-52's                        Good Stuff\nCDS       Duran Duran    ",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n \n\n\n\n\n\n\n\n\n\n\n\nSure. Yes, I did. You see I don't think that rape and murder should\nbe dealt with lightly. You, being so interested in leniency for\nleniency's sake, apparently think that people should simply be\ntold the \"did a _bad_ thing.\"\n\n\n\nMisjudgments should be avoided as much as possible.\nI suspect that it's pretty unlikely that, given my requirement\nof repeated offenses, that misjudgments are very likely.\n\n \n\n\n\n\n\n\n\n\n\n\n\n\nReally? Care to give chapter and verse? We could discuss it.\n\n\n \n\nAgain, not all of the Orient follows the Qur'an. So you'll have to do\nbetter than that.\n\n\nSorry, you haven't \"put out\" enough.\n\n \n\n\n \n\n\n\nThis is an argument for why _you_ don't like religions that suppress\nsex. A such it's an irrelevant argument.\n\nIf you'd like to generalize it to an objective statement then \nfine. My response is then: you have given no reason for your statement\nthat sex is not the business of religion (one of your \"arguments\").\n\nThe urge for sex in adolescents is not so strong that any overly strong\nmeasur",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "ARIANESPACE FLIGHT 56\n\n(Flight V.56 was originally intended to carry the Hughes HS-601 series \nGalaxy IV satellite, but the payload was withdrawn just prior to flight.)\n\nThe 56th Ariane launch is now scheduled to place the ASTRA 1C and ARSENE \nsatellites into an improved geostationary transfer orbit (GTO), with \ninclination reduced to 5 degrees and apogee altitude increased by 150 km.\nThis will be the 28th launch of an Ariane 4 and the first in the 42L \nconfiguration, with 2 liquid strap-on boosters (PAL).  It will be launched\nfrom the newly refurbished Ariane launch complex ELA 2, in Kourou - French \nGuiana.\n\nThe launch vehicle performance requirement for this mission is 3,147 kg\nof which 2,944 kg represents the satellite mass.  The total vehicle mass\nat liftoff is 361,778 kg.\n\n\nRequired Orbit Characteristics:\n  Perigee Altitude ..... 200 km\n  Apogee Altitude ...... 36,160 km at injection \n  Inclination ..........   5 degrees\n\n\nThe Ariane 42L lift-off for Flight 56 is scheduled on Thursday,\nApril 29, 1993, a",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have stated before that I do not consider myself an atheist, but \ndefinitely do not believe in the christian god.  The recent discussion\nabout atheists and hell, combined with a post to another group (to the\neffect of 'you will all go to hell') has me interested in the consensus \nas to how a god might judge men.  As a catholic, I was told that a jew,\nbuddhist, etc. might go to heaven, but obviously some people do not\nbelieve this.  Even more see atheists and pagans (I assume I would be \nlumped into this category) to be hellbound.  I know you believe only\ngod can judge, and I do not ask you to, just for your opinions.",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have posted the logos of the NL East teams to alt.binaries.pictures.misc \n Hopefully, I'll finish the series up next week with the NL West.\n\n Darren\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nNo. reverse lights are to warn others that you are backing up. They\naren't bright enough to (typically) see by without the brake and tail\nlights. \n\n\nWell, red and orange were already taken. Maybe white defines the direction\nthat the car is moving in.\n\n\nIf you really want to be able to see behind you, get some fog lamps for\nthe back of the car. These work very well - and are a good way to get\nrid of tailgaters if you get that rush of testosterone.",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nTammy, is this all explicitly stated in the bible, or do you assume\nthat you know that Ezekiel indirectly mentioned? It could have been\nanother metaphor, for instance Ezekiel was mad at his landlord, so he\ntalked about him when he wrote about the prince of Tyre.\n\nSorry, but my interpretation is more mundane, Ezekiel wrote about \nthe prince of Tyre when we wrote about the prince of Tyre.\n \nCheers,\nKent",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Narrative, narrative, narrative. . .\n\n",
+    "response": 18,
+    "category": "talk.politics.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Doug, those stats are great!  they help immensely.  I tried to E-Mail\nyou with some comments on them but my mail server does not recognize\nyour address.  Could you E-Mail me with some info on how to get E-Mail\nto you?  Thanks!",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\nWell Sherri, I'd agree with you except that most 'kiddies' have more sense than\nto spew their obscenities in front of a group of adults..\n\nI try to edit this newsgroup and feed it to one of the local elementary schools,\nthey have a group of students that just love baseball and are learning to use\ncomputers, but I'm telling you, it's gotten to the point that I don't even edit\nthe files anymore, just read them and throw out the trash...  And thanks to all\nyou people that think it's wonderful to include a swear word or two in your\nsignature files, that's really nice...  I have to read the whole article and\nthen toss it out because of the .sig.  Don't get me wrong, I know all the words you\ndo, (and I've even made up some of my own!) or I wouldn't be able to edit them out ;^)\nbut this just doesn't seem to be the place, a public forum, to spew foul language,\nsorry..\n\nThanks to all you people that keep in mind, there might be some decent, young\npeople, interested in baseball and computers reading this newsgroup..",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "[deletion]\n: >Perhaps these encryption-only types would defend the digitized porn if it\n: >was posted encrypted?\n: >\n: >These issues are not as seperable as you maintain.\n: >\n\n: Now why would anyone \"post\" anything encrypted? Encryption is only of \n: use between persons who know how to decrypt the data.\n\n: And why should I care what other people look at? ",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "====\nIf that were true, I'd go for it.. I have a few friends who we could pool our\nresources and do it.. Maybe make it a prize kind of liek the \"Solar Car Race\"\nin Australia..\nAnybody game for a contest!",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Has anybody the xswarm enhacemened to use it with more than one wasp?\n\nPlease E-Mail me, because I don't read this group any longer.\n\nThanks in advance,\n\tKlaus.",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nFeasability study??  What a wimp!!  While you are studying, others would be\ndoing.  Too damn many engineers doing way too little engineering.\n\n\"He who sits on his arse sits on his fortune\"  - Sir Richard Francis Burton",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "For Sale\n\nDining Table (wooden) with 6 chairs  $ 125\nDining Table Scandinavian style $ 30\nSteel Desk - free",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "This was in Wed. WSJ.\n\n[start]\nThe white house, seeking to mount public pressure on GOP senators, bombarded\nnews outlets in some senator's home states with news releases warning that\ncertain projects may not be funded if the $16billion stimulus bill isn't\npassed.\n\nNone of the projects mentioned are actually in the bill, rather they are\npart of a wish list that may be funded from the $2.56 billion in\nCommunity Development Block Grants.\n\n...\n\n[end]\n\nI could have sworn I heard a bunch of Clintonites going on and on, raving\nabout how dishonest it was that the Rebublicans were taking items from this\nwish list in order to ridicule this bill. Now that Clinton is using that\nsame list in order to garner support for the bill, are you guys going to\ndo the honarable thing and say that Clinton is being dishonest.",
+    "response": 18,
+    "category": "talk.politics.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThe average amerikan today seems to think that the government should be\nable to eavesdrop on everyone (else).  Opinion polls show that most\npeople belive the Bill of Rights to grant too much freedom to people,\nwhen it is not identified as such (BTW, if anyone knows of a cite for that,\nI'd love to have it).  Not only does this mean that these people are \nwilling to give up everyone (else's) rights, they don't even know what \nthe Bill of Rights actually says.\n\nHow can we show the average person (not the average USENET reader) that\npeople are actually entitiled to these rights?  So many people don't\ncare if the government is taking more and more control of us all, a little \nat a time.  ",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I'm looking for good deals on the following (used or new):\nAviation Headsets (with mic).\nHandheld Nav/Com tranciever (may consider COM only).\nPortable GPS or Loran Navigator.\n\nReply here or call:\n(717)737-3236 (only after 5pm -- please don't wake the night worker\n   in my house).\n(717)540-2895 if you must call during the day (I can understand if you\n   want your employer to pay for the call).\n\n_______________________________________________________________________________\nJay A. Snyder               jay@gdx         ...{uunet,vogon1}!compnect!gdx!jay\nThis is your Brain: (unix)              GDX-BBS (717) 737-3249 WorldBlazer\nThis is your Brain on drugs: (MSDOS)    Unix and MSDOS File areas + Xenix bins",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Greetings:\n\nCan someone steer me towards sources of information on vehicle data\nlogging systems?  In  particular, I would like to build/buy (or a little\nof both) a system that is small enough to fit on a motorcycle and will\ntake input from various sensors (pressure, LVDT's, acceleration, RPM,\nO2 sensor...), digitize and record it for later analysis.  \n\nPlease email me any info.  If I get anything interesting, I'll compile\nit and get it on the net.  Thanks.",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hell, the Orioles' Opening Day game could easily be the largest in history\nif we had a stadium with 80,000 seats. But unfortunely the Yards (a\ndefinitely excellent ballpark) only holds like 45,000 with 275 SRO spots.\nTicket sales for the entire year is moving fast. Bleacher seats are almost\ngone for every game this year. It's a extremely likelyhood that the O's\ncould sell out every game this year (especially if we lead the division for\nmost of the year like '89). \n\tOn another front, the sale of the Orioles to anyone is likely to be\nforced upon Eli Jacobs who is major debt apparently. Maybe we can get an\nowner willing to spend on a proven rightfielder free agent in the winter.\n\tFernando has made the O's as the fifth starter. The O's pitching\nstaff looks pretty good. Sutcliffe, Mussina, McDonald, Rhodes, and Fernando.\n\tBaltimore is my pick for the victors in a very competitive AL East.\n__________________________________________________________________________\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "There are many people want to buy my Kodak autofocus carousel projectors\nbut I don't have lenses or remote to sell.  They prefer to buy a projector\nwith all accessaries.  So I have to post another news asking for lenses\nto fit those Kodak slide projectors:\n\nI am willing to give away Singer Caramate II or Singer Caramete SP (\nw/ built-in unremovable lens, built-in casette player, speaker, new 500 HR\nbulb) try to trade for Kodak projector lenses.\n\nEach projector (viewer) will equal trade for 1 or 2 Kodak projector lenses\ndepend on the focal length.  I will pay for the shipping for Singer \nprojector (viewer).\n\nSince I don't need those Singer projectors, if you have some 35mm SLR system\nyou don't need, I am willing to do the trade as well.",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\tThis entire dispute over a chip has deluged this newsgroup with a \n\tlot of posts that have nothing to SELL.   It all harkens back to a\n\tcertain user's post of a month or so ago: STOP POSTING COMPUTER\n\tEQUIPMENT HERE!!!   Save it for the computer.forsale newsgroups!\n\tIf you don't GET the computer.forsale newsgroups, then ask your\n\tsysadmin. to try to subscribe to it at your location.   Otherwise,\n\tknock it off!   \n",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nGulp.\n\n[Disclaimer:  This opinion is mine and does not represent the views of\nFermilab, Universities Research Association, the Department of Energy,\nor the 49th Ward Regular Science Fiction Organization.]\n ",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n}|>  There are two simple procedures for alterating any odometer.\n}|> \n}|> 1. Mechanical driven odometer:\n}|>     Remove the speedo cable from the transmission.\n}|>     Attach a drill and run at max speed until the speedo turns over.\n}|>     Continue until the desired mileage is reached.\n}|> \n}|> 2. Electronically driven odometer:\n}|>     Remove the sensor wire from the sensor.\n}|>     Attach the Calibration out signal from an Oscope to the wire.\n}|>     Run until the speedo turns over and attains the desired mileage.\n}\n}Dear Faster.. I kinda wonder.. have you ever tried version 2? On what?\n}Since the sensor wire on a BMW feeds also into the computer.. and we\n}don't know what signal voltage is expected from it.. bad things\n}*could* happen... also since we don't know the pulse rate, we\n}may damage the analog part of the speedo (yes.. BMW uses a combined\n}instrument.. speed in analog, trip and total milage is digital) with\n}the needle pegged up against the 160MPH stop..\n}\n}Just a thought...\n\nYou've got the osc",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have the following GameBoy Games available for TRADE!\n\nPitfighter\nMetroid II\nBases Loaded\nBlades Of Steel\nMalibu Beach Volleyball\nWorld Cup Soccer\nTennis..\nSpiderman\nRobocop\nMotocross Maniacs\nDouble Dribble 5 on 5 Basketball\n\n\nLooking for:\nGenesis Games\nMissile Command (Gameboy) \nGame Gear games\n\nPlease leave e-mail if interested!\n\t\n\t\tThanx\n\t\t\tDave Webb\nP.S.\nI'm still waiting to hear from Allen Thoren Jr. about trading MB Volleyball for\nMissile Command... Please get in touch.",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "What are the typical sizes for keys for commercial secret key algorithms?\nI know DES is 56 bits (\"tripple DES\" is 112 bits) and IDEA is 128 bits.  Is\nthere anything made in the US that has 128 bit keys?  Anything anywhere\nthat has larger keys?  I've heard that RC2 can be scaled to arbitrarily\nlarge keys, but is this actually implemented anywhere?\n\nFinally, can anyone even concieve of a time/place where 128 bit keys aren't\nsufficient?  (I certainly can't - even at a trillion keys a second, it\nwould take about 10 billion years to search just one billionth of that keys\nspace.)",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\tI was thinking about this, also. It's quite possible the\nsystem transmits, in clear, the serial number of the device being\nused. That way they can start a tap, get the serial number, and use\nthe warrant for the first tap to get the key.\n\n\tIf they tap someone who's apparently using encryption, but\ndon't find that prefix, then they'll assume it's an \"un-authorized\"\nencryption scheme.\n\n--\n\tMay the Kloo Gnomes be generous to you.",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nHe's a shortstop by training, but he's been at second (mostly) and third\nthis year for the Expos.",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "w\nfall\n?)\n\n",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "}Dillon has published a letter in the Blue Press telling people\n}\"How to Bankrupt HCI\" by requesting information from them.\n}\n}Last time this idea went around in rec.guns, a couple of people\n}said that HCI counts all information requestors as \"members\".\n}\n}Can anyone confirm or deny this?\n}\n}If true, what's the impact of HCI getting a few thousand new\n}members?\n\nLast I heard, HCI had something like 250K members to the NRA's 3 million.\nIf true, and they want to play duelling mandates, well ...",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n >\n >: Thus, a deciBell (deci-, l., tenth of + Bell) is a fractional part of the\n >: original Bell.  For example, SouthWestern Bell is a deciBell.\n >\n >Out of what hat did you pull this one?  dB is a ratio not an RBOC!\n >\n >: And the measure of current, Amp, is actually named after both the AMP company\n >: and the Amphenol company.  Both companies revolutionized electronics by\n >: simulatenously realizing that the performance of connectors and sockets\n >: were affected by the amount of current running through the wires.\n >\n >Sorry.  The unit for current is the AMPERE which is the name of a french-man\n >named AMPERE who studied electrical current.  The term AMP is just an abbreviation\n >of it.  The company AMP came after the AMPERE unit was already in use.\n >\n >: The Ohmite company was the first to characterize resistances by numbers,\n >: thus our use of the Ohms...\n >\n >I don't know about this one, but it doesn't sound right.\n >\n >:\n >: Alexander Graham Bell, actually, is where Bell came from...\n >Well you g",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThis design will work but I don't think it can take easily take advantage\nof expose event redraw optimization; that is, the whole window will be\nredrawn, not just the area with the new item.",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nAlso, Alomar got a FAR greater boost from his home park than Baerga did from \nhis. And \"six or seven home runs\"? Hmm.\n\nSo, if you wanted to pick a second baseman to play in Toronto, you'd take \nAlomar. Anywhere else, and you'd probably take Baerga.\n\nMike",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "However, this has nothing to do with motorcycling, unless you consider\nthe Amazona a bike.",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nYes.\n\nI use 74HC4066 and others commerically for this purpose so rest assured it \nworks fine. In one case I route bit serial digital audio using these and it \nis difficult to see any signal degradation at all which surprised me given \nsome pretty fast edges. HC4066 is spec'd at something like -3dB @ 200MHz into \n50 ohms. The more complex types are generally a little slower and more \nresistive.\n\nPlain 4000 series are not so good at handling 5v logic.\n\nRemember that the output load is seen by the input device.",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "from Dean:\n\nYes, you're right. After going home and reading the paper, I got the\nfull details. That's what I get for making a post based on WDUQ's news.\nI should know by now they get just about every sports related item wrong.",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Just wondering.  A friend and I were talking the other day, and\nwe were (for some reason) trying to come up with names of Jewish\nbaseball players, past and present.  We weren't able to come up\nwith much, except for Sandy Koufax, (somebody) Stankowitz, and\nmaybe John Lowenstein.  Can anyone come up with any more.  I know\nit sounds pretty lame to be racking our brains over this, but\nhumor us.  Thanks for your help.",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\n\nI think those are to make the lines more visible to airplanes and\nhelicopters... cheaper than blinking red lights.\n\n'course I could be wrong.",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I was wrong! I guess they are closer to $800 new! I will\nprobably still sell them for the above implied $300 obo.\nEmail me if you want more specifics. This is a really \nattractive set of books, kind of a Bible encyclopedia set.\nAlso email me if you know more about these books or post\nthe information here.\n",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello,\n\nCan anyone give me their opinion on which system has got the best overall\nsystem performance;\n\n486/66DX2 with ISA-BUS or\n486/50DX2 with EISA-BUS\n\nThe systems are equal in all other areas.\n\nThanks in advance\n\n-- \n-------------------------------------------------------------------------------\njesper honig spring, spring@diku.dk |        IF ANIMALS BELIEVED IN GOD       \nuniversity of copenhagen, denmark   |         THE DEVIL WOULD BE A MAN",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "[followups to talk.politics.guns]\n\nrl> Russell Lawrence\nkr> Karl Rominger\n\nkr> I support the right of any citizen with out a criminal history to own and\n    use firearms, regardless of race, gender, and RELIGION.\n\nrl> Thanks for admitting that you, yourself, adhere to an illogical dogma.\n\n  Well, folks in t.p.guns, want to show how Russell's \"illogical dogma\" is\n  wrong?\n",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi everybody,\n\n   I will buy a Honda Civic EX Coupe.  The dealer ask $12,750 for it,\nincluding A/C ( installed ), but not including stereo, tax, registration\nfees.  I live in Mexico, so I don't have time to go to a lot of dealers\nand compare their prices.  The dealer is in McAllen, Tx.  Is this a good\nprice for that car ?  If not, how much should I pay for it ?\n\n   Please e-mail ASAP if you don't want to post.  Thanks a lot.\n\n   Orlando Pugliese\n   opuglies@mtecv2.mty.itesm.mx\n\n",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ")  The documentation says that Wordperfect for windows, requires 4 M of ram, but\n)when I try to install it on my laptop I get a not enough memory error message.\n)I've unloaded everything that I possibly could but still, NOT ENOUGH MEMORY.\n)Anyone have any ideas as to why this might be happening. ",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nWith the FJ's large, flat gas tank, I'd imagine that almost anything\nwould work. Personally, I'm quite happy with my Eclipse standard tank\nbag.",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\n\n\tYeesh, you WILL be nailing those IRLEDs.  May I suggest getting your\nmitts on the Siemens SFH484-2 IRLED?  This unit is designed to take some big\ncurrent pulses if you can get your duty cycle down a bit.  It will output\nnearly a watt (975 mW) with REAL short duty cycle times.\n\n(nice thing about the SFH484-2 is that it is CHEAP.  I got mine for about\n50 cents a piece, even though I had to buy 100 of them....)\n\n\tBTW, I have seen IRLEDs with outputs up to 6 watts...honest,\n6 WATTS.  I don't have the book here at work so I can't recall the company\nname.  The 6 watter ain't cheap, around $108 but if you want some power,\nmamamia, that's pretty hot.  They also have a 4 watt, a 2 watt and a\n1 watt device in their line, and will sell small quan. to individuals.\nIf you are interested, I can find the book at home and get the\npertinent info.\n\n\tNow, as for the position detector, you might try ELTEC in Florida.\nPhone number listed in the 92/93 ETID is 904-253-5328.  They seem like \nnice people.  Their specialty is pa",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\tWhen I got my knee rebuilt I got back on the street bike ASAP. I put\nthe crutches on the rack and the passenger seat and they hung out back a\nLONG way. Just make sure they're tied down tight in front and no problemo.\n-- \nGo fast. Take chances.",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nThis book is worth a read to get a sensible view of this issue.\n\n\nThe book is in two sections.  Section 1 contains a fairly reasonable\nanalysis of the Bible, showing many inconsistencies between the Bible\nand modern science.  Well we all know that, no surprises.\n\nSection 2 analyses the Koran's version of the Old Testament stories,\nand seems, on the face of it, to present a good case showing the Koran\nis consistent with modern science.  However, it was plain to me, that\nthis consistency was only possible by the vague phraseology of the\nKoran.  Take the flood, for example, the bible is full of detail,\n(\"forty days and forty nights\", \"pair of every animal\", etc.), we all\nknow this is nonsense.  The Koran's description of the same event is\nso obscure as to make possible an interpretation such as \"A big river \nflooded for a few days and caused much damage\".  Yes, no contradiction\nbut also not much fact.\n\nThe Koran might be consistent with modern science, but being\nconsistent due to its vagueness compared with ot",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The Casio 7500 lectric diary has a 3-wire serial interface with param\nsetting like RS232, for which one get a magic but expensive cable to\nconnect to a PC. Does anyone know the spec of this interface, e.g., it\nneeds inverting and boosting from CMOS signals to match RS232 lines?",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nYes, but whose freedom?  The world in general doesn't seem to value the\nfreedom of Tibetans, for example.\n",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n   >At the company I worked for previously, I received a file that was\n   >des encryped and the person that had sent it, went on vaction.\n   >Rather than wait two weeks I set up a straight frontal attack with\n   >one key at a time.  It only took two(2) days to crack the file.\n   >No, I don't have any faith in DES.\n   \n\n   Taking this at face value (though it seems quite dissonant with\n   much else that has been published here about brute force DES\n   cracking, unless Russell was lucky with respect to the key), I'd be\n   very interested in whether the program Russell used is available?\n\nkey search is very practical in many real situations since people use\nsuch stupid keys on the average.  password crackers know this well.\n\n   Depending on his answer, this could be an appalling development\n   calling into question both DES and RSA/DES.\n\nnot really.  in fact, public key based communication systems very\noften pick keys automatically which are much better than passwords or\npass phrases.\n\n   If any bright programm",
+    "response": 11,
+    "category": "sci.crypt"
+  }
+]

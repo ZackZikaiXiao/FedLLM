@@ -1,12 +1,13 @@
 import sys
 sys.path.append("./data_download/GLUE")
+sys.path.append("./")
 from instructions import INSTRUCTIONS
 import os
 import pandas as pd
 import random
 import json
 import numpy as np
-
+from data_tool.imbalance_num import get_img_num_per_cls
 # print(type(INSTRUCTIONS["sentiment"]))
 def generate_train_json_file():
     CoLA_path = "./data_download/GLUE/cola/train.tsv"
@@ -39,10 +40,11 @@ def generate_train_json_file():
         # if count == 5:
         #     print(data)
         #     break
-    change_train_ratio=False
+    num_samples_per_cls = get_img_num_per_cls(data, 2, 'exp', 0.4)
+    change_train_ratio=True
     if change_train_ratio:
-        amount_of_acceptable=360*8
-        amount_of_unacceptable=360*2
+        amount_of_acceptable=num_samples_per_cls[0]
+        amount_of_unacceptable=num_samples_per_cls[1]
         selected_acceptable_index = np.random.choice(acceptable_index, amount_of_acceptable, replace=False).tolist()
         if amount_of_unacceptable > len(unacceptable_index):
             selected_unacceptable_index = np.random.choice(unacceptable_index, amount_of_unacceptable, replace=True).tolist()
@@ -81,7 +83,7 @@ def generate_test_json_file(ratio=None):
             unacceptable_index.append(index)
         instance['category'] = 'acceptability'
         data.append(instance)
-    change_test_ratio=False
+    change_test_ratio=True
     if change_test_ratio:
         amount_of_acceptable=322
         amount_of_unacceptable=322
@@ -135,6 +137,6 @@ def generate_train_json_file_v2():
 
 
 if __name__ == "__main__":
-    generate_train_json_file_v2()
     # generate_train_json_file()
-    # generate_test_json_file()
+    generate_test_json_file()
+    

@@ -1,0 +1,710 @@
+[
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "l\n\n\ndiamond star cars (Talon/Eclipse/Laser) put out 190 hp in the turbo models,\nand 195 hp in the AWD turbo models,  These cars also have handling to match\nthe muscle, and are civil in regular driving conditions, rather than having a\nharsh, stiff ride....The AWD Turbo is clearly the better choice of the two\n(because of all that torque steer on the front drive model), but you may have\nto go with a leftover or \"slightly\" used model for that price range....tough\ndecision...\n\n        Rob Fusi\n        rwf2@lehigh.edu\n",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "#\n#Does XDM work with DECnet? I have an Ultrix machine running both TCP/IP\n#and DECnet. I have a number of X-terminals hanging off the Ultrix host also\n#running TCP/IP and DECnet. Presently I am using XDM for the login procedure\n#on the X-terminals using TCP/IP. Since XDM is basically just an X-windows\n#client, shouldn't I be able to run XDM on the DECnet protocol tower as well?\n#\n\nXDM is not just an X Window client.  XDM has its own protocol (XDMCP) that\noperates of UCP on port 177.  It does provide a Login window which is an\nX Window Client.  As to using DECnet protocol.  Looking through the source\nfor XDM from X11R5 that I have here, it seems that the bare bones code is\nthere but not completely there.\n\n#\n#My first inclination is that XDM is not your typical X client. It is making\n#TCP/IP specific socket calls. In this case the answer would be no; you can\n#not run XDM over DECnet. Is this right or not? Any feedback is appreciated.\n#Thanks.\n#\n\nFrom my look at the source, it seems you cannot run it over DECne",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "A \"new Christian\" wrote that he was new to the faith and \nlearning about it \"by reading the Bible, of course\". I am not\nat all sure this is the best path to follow.\n\tWhile the Bible is, for Christians, the word of God, the \nrevelation of God is Jesus Christ and the chief legacy of this\nrevalation is the Church. I am not recommending any one\ndenommination, but I do recommend finding a comfortable christian\ncongregation in which to develop your faith, rather than just\nreading the Bible.\n\tThis does not mean that the Bible should not be read, although\nI would stick to the Gospels, epistles, and Psalms and avoid the\nBook of Revelation altogether [until you are with friends you are\ncomfortable with]. I am sure that mistakenly fervent  projects to\nread the entire Bible have frequently bogged down with a remarkable\nlack of fervour somewhere in the middle of Leviticus, or for the really\nsturdy, somewhere in Chronicles.\n\tThe point is that the Bible is their to illustrate the Faith\nof Christians, but does not provide th",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n: P.S. I can't work out why the US government doesn't want to sell\n: them overseas. After all, they are rather easy for US interests to decode,\n: so make a perfect tool for industrial/military espionage...lulling \n: anyone stupid enough to buy it into a false sense of security. You will\n: notice that there is NO mention anywhere about safety for non-Americans.\n\nDon't forget, you are in the country that wouldn't let the Russians\nbuy Apple II's because of security concerns.",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nNote that I said the fall of Rome, not of the Empire.  The Roman Empire\nlasted until 1453, with its transfered capital in Constantinople.  The\nmain reason for it's fall was not so much the sack of Constantinople by\nthe men of the 4th Crusade (who were not Christians - they had been\nexcommunicated down to the last man after attacking the Christian city\nof Zara in Croatia), but rather the disastorous defeat in the battle of\nMazinkert.  After the Turks breached the frontier, it was only a matter\nof time before the Empire fell, the inability of the Empire to hold onto\nthe rim of Anatolia, with the Ottomans and Rum Seljuks in the middle\nshould be quite obvious to any student of history.  The sack of\nConstantinople only hastened the inevitable along.  For if the Greeks\nhad wanted to save their empire, why would they not cooperate with the\nCrusaders when they came to do battle with the Saracens in the 1st-3rd\nCrusades?  Because of their obstinacy over cooperating with people they\nconsidered heretics, even though t",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ": I\n: |> Jim,\n: |> \n: |> I always thought that homophobe was only a word used at Act UP\n: |> rallies, I didn't beleive real people used it. Let's see if we agree\n: |> on the term's definition. A homophobe is one who actively and\n: |> militantly attacks homosexuals because he is actually a latent\n: |> homosexual who uses his hostility to conceal his true orientation.\n: |> Since everyone who disapproves of or condemns homosexuality is a\n: |> homophobe (your implication is clear), it must necessarily follow that\n: |> all men are latent homosexuals or bisexual at the very least.\n: |> \n: \n: Crap crap crap crap crap.  A definition of any type of 'phobe comes from\n: phobia = an irrational fear of.  Hence a homophobe (not only in ACT UP meetings,\n: the word is apparently in general use now.  Or perhaps it isn't in the bible?  \n: Wouldst thou prefer if I were to communicate with thou in bilespeak?)\n: \n: Does an arachnophobe have an irrational fear of being a spider?  Does an\n: agoraphobe have an irrational fear of bei",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Some time back I asked for software recommendations to  allow me to\nrun X from my PC at home to my Sparc at the office.\n\nMany thanks for all replies, the majority of people  recommended\nPCXremote from NCD. I received it yesterday  and installed it on\nmy Sparc and PC with only one hitch. \nThe UNIX install consists of copying 2 files into some local bin directory. \nOn the PC side, I ordered the WINDOWS version  which  came with a slick windows\ninstallation.\n\n\nThe only problem I had was that  my .xinitrc  in my home directory\nhad the line\nDISPLAY=`hostname`:0.0; export DISPLAY\n\ns.t the clients I kicked off connected to my Xserver on the Sparc console.\nBy removing this line from the .xinitrc everything worked as planned\nand the clients connected to the server at\n\n`hostname`:1.0\n\nSome comments on performance, I was connected to a Sparc 2 thru\na NetBlazer Terminal Server over a 9600 baud line.\nMy PC is a 486-DX2 ATI Ultra, 16 MB\n\nBitmap Stuff Sucked.\nBasic Editing and compilation stuff definitely usable.\nXmail was ",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\nI guess there are at least some people who are not able to support\nthis claim. There are still a lot of languages without the Bible, or a\npart of the Bible. There are still many languages which we are not\nable to write, simply because the written version of the language has\nnot yet been defined!\n\nI guess this is one of the main goals for Wycliffe Bible Translators:\nTo define rules and a grammar for writing the 'rest' of the languages\nof this world. I do not see that any of them will have any reason to\nbecome unemployed during the foreseeable future. (Provided they get\ntheir neccessary support!) And still they are one of the 3 largest\nmissionary organizations of the world.\n\nBjorn",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nactually, disabled persons have been known to drive in SCCA\nraces.  i'd be careful about making sweeping generalizations here.\n\ni'd prefer a manual transmission, but the early SHO had an\nawful transmission that felt like it came out of a truck or something.\nit was almost enough to make me want an automatic.",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n(regarding NSA monitoring of US military code traffic)\n\n\nOn the contrary- The Walker spy case is one where the KGB was\ngiven keys (as I recall)\n-- \n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Well, after a lot of trawling through archives, I found the post\nI reproduce in full below.  Is it time to get together to develop\na tcp/ip standard for crypto voice that we could then layer on\npoint-to-point SLIP as *the* free standard for crypto voice like\npgp is for mail?\n\n(PS Note the date of this post.  Appropriate, huh? :-) )\n\n---\nFrom jpcampb@afterlife.ncsc.mil Thu Jul  9 11:50:11 1992\nFrom: jpcampb@afterlife.ncsc.mil (Joe Campbell)\nNewsgroups: comp.compression.research\nSubject: Re: sound compression algorithms\nDate: 4 Jul 92 14:46:04 GMT\nOrganization: The Great Beyond\n\n\nIn case you'd like to experiment with CELP, you can obtain a software\nimplementation of the 4800 bps Fed Std CELP coder for free:\n\nThe U.S. DoD's Federal-Standard-1016 based 4800 bps code excited linear\nprediction voice coder version 3.2 (CELP 3.2) Fortran and C simulation source\ncodes are now available for worldwide distribution at no charge (on DOS\ndiskettes, but configured to compile on Sun SPARC stations) from:\n\nBob Fenichel\nNation",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nAlright.  Ignore this.  I have delved a bit deeper (XKeyEvent) and\nfound what I was looking for.\n\nev->state   has a bunch of masks to check against (LockMask is the one\nfor CapsLock).  Unfortunately, it appears that the NumLock mask varies\nfrom server to server.  How does one tell what mask is numlock and\nwhich are for Meta (Mod1Mask, Mod2Mask, Mod3Mask, Mod4Mask, Mod5Mask).\neg, SGI's vendor server has Mod2Mask being NumLock, whereas Solaris\n1.0.1 OpenWindows 3.0 has Mod3Mask for NumLock.  Is there an\nunambiguous means of determining NumLock's mask at runtime for any\ngiven server?  Sorry for the wasted bandwidth and my appalling ignorance.",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "In <MARC.93Apr18174241@oliver.mit.edu> marc@mit.edu (Marc Horowitz\n\n\nI have also been in contact with Mitch about this. I believe\nhim when he says he didn't ask to be on the \"clipper\" list.\n\nHe also forwarded the traffic he had recieved through that list to\nme which will be placed at some ftp site.\n\nHowever, the first alias on the \"clipper list\" was csspab which was\nanother mailing list. It basically contained the addresses for\nstaffers and board members of the NIST security board. Several of\nthese people had their accounts within the dockmaster domain.\n\nThese are the people we might wish to FOIA...\n\n/harry",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI agree with this assessment.  Furthermore, its promotion as\nproviding greater protection than bare voice is quite true, as far\nas it goes.  However, the only way for it to fulfill its stated goal\nof letting LE wiretap \"terrorists and drug dealers\" is to restrict\nstronger techniques.  \n\nWiretap targets presently use strong encryption, weak encryption, or\n(the vast majority) no encryption.  The latter two classes can be\ntapped.  With weak encryption in every phone, the no-encryption\nclass is merged into the weak-encryption class.  Will the\nintroduction of Clipper cause targets presently enjoying strong\nprivacy to give up on it?  that is, to rely for privacy on a system\nexpressly designed to deny it to people like them?  I doubt it.  The\nmere introduction of this scheme will give the government *nothing*.\n\nThe stated goal of preventing the degradation of wiretapping\ncapabilities can be fulfilled by restriction of domestic\ncryptography, and only by this restriction.  \"Clipper\" appears to be\nno more than a sop, ",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Archive-name: cryptography-faq/part10\nLast-modified: 1993/4/15\n\n\nFAQ for sci.crypt, part 10: References\n\nThis is the tenth of ten parts of the sci.crypt FAQ. The parts are\nmostly independent, but you should read the first part before the rest.\nWe don't have the time to send out missing parts by mail, so don't ask.\nNotes such as ``[KAH67]'' refer to the reference list in this part.\n\nThe sections of this FAQ are available via anonymous FTP to rtfm.mit.edu \nas /pub/usenet/news.answers/cryptography-faq/part[xx].  The Cryptography \nFAQ is posted to the newsgroups sci.crypt, sci.answers, and news.answers \nevery 21 days.\n\n\nContents\n\n* Books on history and classical methods\n* Books on modern methods\n* Survey articles\n* Reference articles\n* Journals, conference proceedings\n* Other\n* Electronic sources\n* RFCs (available from [FTPRF])\n* Related newsgroups\n\n\n* Books on history and classical methods\n\n  [CF]    Lambros D. Callimahos, William F. Friedman, Military Cryptanalytics.\n\t  Aegean Park Press, ?.\n  [DEA85] Cipher A.",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThis won't work if there is a checksum on the keys you don't know about.\nNeither will registering a clipper chip and then substituting a\n\"counterfeit\" one if the serial number contains a checksum.\n\nChances are the government has thought of this, and \"just anyone\" won't be\npermitted access to enough of the internals to make a \"fake\" clipper chip.\nChances are that the government has classified some details of the internals\nat a very high level, and manufacturers are required to observe security\nsafeguards and clearances corresponding to that level.\n\nWhile not perfect, it would prevent Joe Hacker from rolling his own spoofing\nchip, since not many counterfeiters can survive a background investigation.\nSome of the more notorious self-styled dissidents here, for example, have\nalready got their heads so high above the tall grass that they'd have little\nchance of getting a clearance.\n\nOf course it's not impossible that someone do this, but probably extremely\ndifficult. Chances are there will also be very heavy crimi",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The following press release was distributed April 1 by\nNASA Headquarters.\n\nSpace Station Redesign Advisory Members Named\n\nAlong with Dr. Charles M. Vest, recently named by Vice President\nAlbert Gore to head the advisory committee on the redesign of the\nSpace Station, NASA has announced the names of representatives\nfrom government and industry and academic experts from across the\ncountry to participate in an independent review of the redesign\noptions being developed by NASA.\n\n\"I am extremely honored to have been selected to lead this\nimportant review panel. America's future in science and\ntechnology and as a world leader in space demands our utmost\nattention and care,\" said Vest. \"We have assembled a diverse\npanel of experts that, I believe, will bring the appropriate\nmeasures of insight, integrity and objectivity to this critical\ntask.\"\n\nThe advisory committee is charged with independently assessing\nvarious redesign options of the space station presented by NASA's\nredesign team, and proposing recommendations ",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nWhich listsev was this and is the discussion still current?  My questioning\nis based on some information presented from the Essene NT that challenges\nsome of my eating choices.  As the info came from a biased (opposed to my\npreferences) third party I am looking for info as to whether I should\ndismiss this work or put some consideration into it.  Thanks again for info!",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi, Anybody interested in buying my Labtec speaker?\n\n\tLabtec SS-200\n\tAmplified Stereo Speaker System\n\t\t- Built in amplifier\n\t\t- 6 volt input\n\t\t- works with/without batteries\n\t\t- individual volume controls\n\t\t- treble boost switch\n\tGreat for medium quality PC's sound(adlib,soundblaster..)\n\t\t  walkman\n\t\t           \n\n\tfor: $15 (included shipping...)\n\n\tE-mail me... \n",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Our Lord and Savior David Keresh has risen!\n\n\n\tHe has been seen alive!\n\n\n\tSpread the word!\n\n\n\n\n--------------------------------------------------------------------------------",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\nGrow up, childish propagandist.\n\n\n",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hell, just set up a spark jammer, or some other _very_ electrically-noisy\ndevice. Or build an active Farrady cage around the room, with a \"noise\"\nsignal piped into it. While these measures will not totally mask the\nemissions of your equipment, they will provide sufficient interference to\nmake remote monitoring a chancy proposition, at best. There is, of course,\nthe consideration that these measures may (and almost cretainly will)\ncause a certain amount of interference in your own systems. It's a matter\nof balancing security versus convenience.\n\nBTW, I'm an ex-Air Force Telecommunications Systems Control Supervisor and\nTelecommunications/Cryptographic Equipment Technician.\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Quoting jgfoot@minerva.cis.yale.edu in article <1r3jgbINN35i@eli.CS.YALE.EDU>:\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Anybody got any good/bad experience with selling their car through one of\nthose car hunters?  I'm selling a 1991 Dodge Stealth R/T and I was contacted\nby this company called the Markham group based out of Illinois.  \n\nThey said they have 7-10 buyers in my area interested in my car or they wouldn't\nbe talking to me.  They talked to me for a good 20 minutes asking everything\nabout my car and said they could sell it no problem.  They guaranteed that if\nthey didn't sell my car in 75 days, I would get my money back ($389) and since\nI charged it, I'm protected by federal law which states that if I'm not satisfied,\nI would get a refund (which is true).  They federal expressed all the paperwork \nto me which had a contract stating their policy about the 75 days and such.",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi everyone, \n\t   I'm a commited Christian that is battling with a problem.  I know\nthat romans talks about how we are saved by our faith not our deeds, yet\nhebrews and james say that faith without deeds is useless, saying' You fools,\ndo you still think that just believing is enough?'\n\nNow if someone is fully believing but there life is totally lead by themselves\nand not by God, according to Romans that person is still saved by there faith.\nBut then there is the bit which says that God preferes someone who is cold to\nhim (i.e. doesn't know him - condemned) so a lukewarm Christian someone who\nknows and believes in God but doesn't make any attempt to live by the bible.\n\nNow I am of the opinion that you a saved through faith alone (not what you do)\nas taught in Romans, but how can I square up in my mind the teachings of James\nin conjunction with the lukewarm Christian being 'spat-out'\n\nCan anyone help me, this really bothers me.\n\nIn Christ,\nWill\n",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I AM Satan!\n\n",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "CALL FOR PAPERS\n                    The Internet Society Symposium on\n                 Network and Distributed System Security\n\n        3-4 February 1994, Catamaran Hotel, San Diego, California\n\nThe symposium will bring together people who are building software and\nhardware to provide network or distributed system security services.\nThe symposium is intended for those interested in practical aspects of\nnetwork and distributed system security, rather than in theory.  Symposium\nproceedings will be published by the Internet Society.  Topics for the\nsymposium include, but are not limited to, the following:\n\n*  Design and implementation of services--access control, authentication,\n   availability, confidentiality, integrity, and non-repudiation\n   --including criteria for placing services at particular protocol\nlayers.\n\n*  Design and implementation of security mechanisms and support\n   services--encipherment and key management systems, authorization\n   and audit systems, and intrusion detection systems.\n\n*  Requir",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\tAre you sure you aren't being watched?  Let me remind you that \nWatergate was only the tip of the iceberg.  Nixon extensively used the NSA\nto watch people because he didn't like them.  According to _Decrypting the\nPuzzle Palace_:\n\n\tPresumably, the NSA is restricted from conducting American surveillance\n\tby both the Foreign Intelligence Surveillance Act of 1978(FISA) and a\n\tseries of presidential directives, beginning with one issued by\n\tPresident Ford following Richard Nixon's bold misuse of the NSA, in\n\twhich he explicitly directed the NSA to conduct widespread domestic\n\tsurveillance of political dissidents and drug users.",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nErgo, if your life is sufficiently boring, you have no need for privacy?\n\n(This is not meant to be personal, just the logical conclusion of your\nstatement.)",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "                                           ^^^^^^^^^^^^^^^\nI watched the CNN report and I never heard them report that the ATF started the\nfire.  They did speculate that the type of CS gas might have _accidentaly_\nstarted the fire.  \n\n                 ^^^^^^^^^^^^^\nFrom my understanding of the CNN report it was 6 HOURS after they started.\n\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nThe track vehicle that I saw in the vicinity of the building where fire was \nfirst noticed looked more like an armored recovery vehicle (the type used to \ntow tanks of battle fields) and not an armored flame-thrower vehicle.\n\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAs someone else has pointed out, why would the stove be in use on a warm day  \nin Texas.  It seems to me that it would be very poor planing to hope for a wood\nstove to ignite the \"napalm\" when the stove would probably not be in use.  And \nI doubt that it would have taken 6 hours to ignite it.\n\n                         ^^^^^^^^^^^^^^\nRight Clinton is in offic",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nDone. But did it change the fact that during the period of 1914 to 1920, \nthe Armenian Government ordered, incited, assisted and participated \nin the genocide of 2.5 million Muslim people because of race, religion\nand national origin? By the way, you still haven't corrected yourself.\nDuring World War II Armenians were carried away with the German might and\ncringing and fawning over the Nazis. In that zeal, the Armenian publication\nin Germany, Hairenik, carried statements as follows:[1]\n\n\"Sometimes it is difficult to eradicate these poisonous elements (the Jews)\n when they have struck deep root like a chronic disease, and when it \n becomes necessary for a people (the Nazis) to eradicate them in an uncommon\n method, these attempts are regarded as revolutionary. During the surgical\n operation, the flow of blood is a natural thing.\" \n\nNow for a brief view of the Armenian genocide of the Muslims and Jews -\nextracts from a letter dated December 11, 1983, published in the San\nFrancisco Chronicle, as an answer to a",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nIf your primary concern is protecting the passenger in the event of a\ncrash, have him or her fitted for a helmet that is their size.  If your\nprimary concern is complying with stupid helmet laws, carry a real big\nspare (you can put a big or small head in a big helmet, but not in a\nsmall one).\n",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": " > > :has 2^80 possible keys.\n > >\n > > We don't yet know if all 80 bits count.\n >\n > That doesn't worry me at all; they're not going to cheat at something\n >they can get caught at.  And key size is one of the things that can be\n >verified externally.  Feed lots of random key/input pairs into the\n >chip, then see what happens to the output....",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nWouldn't a a second monitor of similar type scrolling gibberish and adjacent\nto the one being used provide reasonable resistance to tempest attacks?",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nIn the Bible, there are a lot of instances where God speaks\nto people, where a person just \"came to know\" some piece\nof information, where a person walks off into the desert\nfor \"40 days\", etc. With all of God's power He certainly can\ndo whatever He wants when He wants it. The Bible \"ends\"\nwith the book of Revelations. But does God's reign end there ? No.\nSo who can say for sure that God's messages are either no longer\nhappening or still happening ?\n\nI can now hear the clamor for proof. 8-)\nWith the cold response I've gotten from the past from this\ngroup, it's very hard to get the point across. I'll only\ngo over the physical stuff so that skeptics can look\nat documents stored somewhere. I've cited the uncorrupted\nbodies of saints before. They're still there. 8-)\nThe apparitions at Fatima, Portugal culminated in a miracle\nspecifically granted to show God's existence. That was\nthe spinning/descending of the sun. It was seen in several\ncountries. That event is \"approved\" by the Pope. Currently,\nimages of Mary i",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "It seems to me that all discussions about Clipper security are almost \nirrelevant - if I cannot choose the key, but have to use a key chosen for\nme by the foundry, the security of the WHOLE UNIVERSE OF USERS is as good\n(or as bad) as the security of VLSI Technologies Inc.\n\nIt is a trivial effort to run any ciphertext agains ALL THE KEYS EVER \nMANUFACTURED - after all we are talking about 1 to 100 million keys that\nwill ever be manufactured. The key depositories can be as secure and\nincorruptible as they wish to be, nobody cares anyway...:-(\n\nNow if someone would convince me that the shipping docks of VTI, ATT and\nothers are impenetrable (remember: the chips have to ship with the key - \nyou or the dealer are going to submit it to the authorities eventually)\nI'd be a bit happier. But do we really believe that the various governments\n(including ours) won't have the full lists of all the keys ever manufactured?\n\nDid I miss something here?\n\nMy own opinions, quite obviously...\n--",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nTsk.tsk. Too much argument on non-issues !\nI'm Roman Catholic and it seems to me that people\ncelebrate Easter and Christmas for itself rather\nthan how it relates to Jesus. I don't really\ncare about some diety. If people have some other\ndefinition of Easter, then that's their business.\nDon't let it interfere with my Easter.\n\n\"Resurrection Sunday\" 8-) Where did that come from ?\nIf people celebrate Easter for the Cadburry bunny,\nthat's their business. \n",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "If you'd like to find a home for that beekeeping equipment you'll never use\nagain, here's a likely victim, uh, customer.\n\nTo make a deal, call:\n\n\t\tLaura Forbes (503)275-4483",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nLike who, f'rinstance?  When I bought my system (November), no first, second,\nor third tier vendor could touch the price for the hardware/software\ncombination I got from GW2000.\n\n\nIf you were selling as many systems as fast as GW2000, you'd end up with four\nor five pissed-off customers too.  And four or five ecstatic ones.  And lots\nof satisfied ones...\n\n\nDon't minimize this; if you buy mail order, it's a good thing to know that\nyou'll get replacements parts, no questions asked, in a day or two, via FedEx.\n\n\nWhich they do in the vast majority of cases.  Remember that it's only the\npeople on the tails of the curve who are motivated to write -- the ones who\nlove it, and the ones who hate it.  You don't hear from the folks in the\nmiddle very often...",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\"fete\"??? Since this word both formally and commonly refers to\npositive/joyous events, your misuse of it here is rather unsettling.\n \n\nI certainly abhor those Israeli policies and attitudes that are\nabusive towards the Palestinians/Gazans. Given that, however, there \n*is no comparison* between the reality of the Warsaw Ghetto and in \nGaza.  \n\nJust as international law recognizes the right of the occupying \nentity to maintain order, especially in the face of elements\nthat are consciously attempting to disrupt the civil structure. \nIronically, international law recognizes each of these focusses\n(that of the occupied and the occupier) even though they are \ninherently in conflict.\n\nIsrael certainly cannot, and should not, continue its present\npolicies towards Gazan residents. There is, however, a third \nalternative- the creation and implementation of a jewish \"dhimmi\"\nsystem with Gazans/Palestinians as benignly \"protected\" citizens.\nWould you find THAT as acceptable in that form as you do with\nregard to Islam's ",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n   The God of peace will soon crush Satan under your feet. \n    The grace of our Lord Jesus be with you. \nRomans 16:20\n",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "From: res@colnet.cmhnet.org (Rob Stampfli)\n\n\t>separate locations to gain credibility. If they are seized and you are\n\t>compelled to decrypt it, you simply explain that you are an amateur\n\t>cryptologist playing around with one time pads, and that the first\n\t>file is the pad for the second. They XOR the two files, and sure\n\t>enough, out pops a copy of \"War and Peace\".\n\n\tSo, judging from recent history, at this point they drop the original\n\tcharges, preemptively find you guilty of copyright violations, and seize\n\tyour computer, your home, and your financial reserves under federal\n\tforfeiture laws.\n\nAh no - what *really* happens is that they turn up at the court with\n*another* file which when exored with your document gives up the famous\nE911 document :-)  [And I tell you, some judges would fall for it...]",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Discounts!  Please take\t$2.00 off each item over $10.00\n                        $1.00 off each item over $ 5.00\n\nHere is the list of magazines, including asking price:\n--------------------------------------------------------------------\n\nStrategy & Tactics Magazine (All include unpunched games):\n===========================\n\nNEW (52 & 79-90 As mailed with games and all inclusions.)\n\nIssue:\tTitle:\t\t\t\t\t\t\tAsking:\n\n52\tOil War - American Intervention in The Persian Gulf\t35.00\n\n79\tBerlin '85 - The Enemy at the Gates\t\t\t20.00\n81\tTito - Partisan Army Yugoslavia, 1941-45\t\t20.00\n83\tKaiser's Battle - German Offensive March, 1918\t\t20.00\n84\tOperation Grenade - Rhineland Feb 23-Mar 5, 1945\t20.00\n89\tSicily - The Race to Messina Jul 10-Aug 17, 1943\t20.00\n90\tThe Battle of Monmouth - Colonies take Offensive 1778\t20.00\n\n----------End of an Era ---------------------------------------------\n\nNEW (113-127 As mailed with games and all inclusions in envelope.)\n\nIssue:\tTitle:\t\t\t\t\t\t\tAsking:\n\n113\tThe Battle of Abensberg (Magazine only)\t\t",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\tI think I should also point out that the mystical DES engines\nare known plaintext engines (unless you add a ton of really smart\nhardware?)\n\n\tThe 'plaintext' is digitized voice, and exists for a very short\ntime, probably in a couple inches of copper, tops. It's flatly not\navailable -- your bug in my office can hear my voice, and even digitize\nit, but it's going to get a different bitstream.\n\n\tIt is horribly naive to suppose that regular folks can figure\nout how to crack skipjack, or clipper based telephones. I'm certainly\nnot devoting a great deal of thought to it.",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI suppose these illegal guns have been found? I suppose he was going to kill a\nbunch of people with them?\n--Ray Cote",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "As it says in the subject, I am looking for a decent EGA or VGA monitor/card\ncombo that is in working condition.\nThe only thing is that it must be an 8-bit card.\n\nE-Mail all offers to:\nIO10702@MAINE.MAINE.EDU",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Well, it's that time of year again here at IU:  graduation.\nUnfortunately, this means that I am out of here, more than likely for\ngood.  I cannot say if I'll be in here under another username or not, or\neven if I'll ever get back in here at all.  I am leaving this part of my\nministry to another brother, John Right.  So, have fun and remember that\nflaming can be considered slander.",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nA Sea Doo is a boat. It turns by changing the angle of the duct behind the\npropeller. A waterski bike looks like a motorcycle but has a ski where each\nwheel should be. Its handlebars are connected through a familiar looking\nsteering head to the front ski. It handles like a motorcycle.",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I used to be a marriage commissioner for the Alaska Court\nSystem (sort of a justice of the peace).  I had great difficulty\nwith that duty.  I used to pray earnestly in the courthouse\nbathroom before the ceremonies, mostly asking that the couples\nwould come to appreciate and fulfill the true holiness and\ndivine purpose in marriage--couples who obviously didn't realize\nthat marriage is God's institution, not the state's.  Gradually,\nhowever, I came to conclude that because I was acting in a\nstrictly secular, public capacity, established as such by both\nthe state and the expectations of the couples involved, I was\nreally conducting a purely secular, legal civil event, with no\ngreater moral or religious implications than if I had been\nconducting a civil trial (the couple who told me, mid-ceremony,\nto \"please hurry it up\" may have helped me to this conclusion). \n\n     I thought I had neatly rationalized a clear and sharp\ndistinction between marriage before God, and \"marriage\" before\nthe state, until I had to deal ",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello all.  We are doing a bible study (at my college) on Revelations.  We\nhave been doing pretty good as far as getting some sort of reasonable\ninterpretation.  We are now on chapters 17 and 18 which talk about the\nwoman on the beast and the fall of Babylon.  I believe the beast is the\nAntichrist (some may differ but it seems obvious) and the woman represents\nBabylon which stands for Rome or the Roman Catholic Church.  What are some\nviews on this interpretation?  Is the falling Babylon in chapter 18 the same\nBabylon in as in chapter 17?  The Catholic church?\nHate to step on toes.\nthanks\n\n-------- \nJimmy Buddenberg       INTERNET:  jbuddenberg@vax.cns.muskingum.edu\nMuskingum College ",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I thought that was Sandy Koufax.",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThose who forward offensive posts to the sysadmin aren't curtailing\nanyones' freedom of speech.  The neo-nazi movement has a right to\nmake speeches, say anything they want.  They do not have a right\nto have these speeches published by the N.Y. Times.  That depends\non the Times analysis of the economic and to somewhat extent\nnewsworthy value of those speeches.  Likewise to the sysadmin\nof this fellows system.  If he feels his resources are being\nused in a manner that is not in his best interests, or are\nperhaps embarassing to his organization, he will act just as\nthe New York Times does, not to be a conduit for these ideas.\nThe poster is after all free-loading off of someone else's\npocket book when he posts.  He who controls the purse strings\nhas the right to make the decision how he wants those funds\nspent or not spent.\n\nNoone is going to put the poster in jail, unless he bombs a local\nbuilding as a symbol of his hatred.  Freedom of Speech in no\nway equates to accessibility to conduits of information.  The\nm",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "This is the file BIGNUMS.TXT from ripem.msu.edu, last updated April 1993.\n\nIn response to Email requests, I have assembled this list of\nlarge-integer arithmetic packages of which I have heard.\nMost of these are C function libraries, available in source form.\n\nFor your convenience, I have placed copies of\nsome of these on ripem.msu.edu (35.8.1.178).  They are\navailable for anonymous FTP in the directory \"pub/bignum\".\nHowever, what I have may not be the most current version in all cases.\n\nHere they are, in no particular order:\n\nmp\n    Multiple Precision package that comes with some Unixes\n    \n    Multiple precision package accessed via -lmp flag on your\n    compiler.  Provides +, -, *, /, gcd, exponentiation,\n    sqrt.  Comes with SunOS, NeXT Mach, BBN Mach 1000, \n    and probably a few others.  See \"man mp\".  \n    Object code only, of course.\n\nPARI\n    Henri Cohen, et al., Universite Bordeaux I, Paris, FRANCE\n    \n    Multiple precision desk calculator and library routines.\n    Contains optimized assembly cod",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I am posting this for a friend without internet access. Please inquire\nto the phone number and address listed.\n---------------------------------------------------------------------\n\n\"Space: Teaching's Newest Frontier\"\nSponsored by the Planetary Studies Foundation\n\nThe Planetary Studies Foundation is sponsoring a one week class for\nteachers called \"Space: Teaching's Newest Frontier.\" The class will be\nheld at the Sheraton Suites in Elk Grove, Illinois from June 14 through\nJune 18. Participants who complete the program can earn two semester\nhours of graduate credit from Aurora College. Please note that while the\nclass is intended for teachers, it is not restricted to teachers.\n\nThe class, which is being cosponsored by the United States Space\nFoundation, will teach how to use space exploration as a teaching tool\nto get students excited about learning and interested in science.\n\nClassroom topics to be covered by the class include:\n     > Living in Space\n     > The Space Shuttle\n     > The Space Station\n     > NAS",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n[...]>\n[...]>\n\nIf the data isn't there when the warrant comes, you effectively have\nsecure crypto.  If secret backups are kept...then you effectively have\nno crypto.  Thus, this poster is essentialy arguing no crypto is better\nthan secure crypto.\n\nIf the data isn't there when the warrant comes, then the government will\njust have to use normal law enforcement techniques to catch crooks.  Is\nthis so bad?   BTW, bugging isn't YET a normal law enforcement technique.\nWith the privacy clipper, it WILL become a normal technique.\n/Jim",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI was waiting for this. I think your question should be rephrased. The many\nverses of the Bible which condem homosexuality (by our beliefs) have been\nshoved down the throats of homosexuals for a long time by (well-meaning?)\nChristians. The question is how do they interpret these verses. Any discussion\nof any issue (this or any other issue) requires a proof of your case as well\nas a disproof of the opposing view. We are already familiar with those verses\nand many have proven to themselves that these condem homosexual behaviour. We\nmust now establish reasons for not believing this to be true based on the\ninterpretation of these scriptures given by someone who has come to grips with\nthem.",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "(Dean and I write lots and lots about absolute truth and arrogance.)\n\n\nI agree that we'll probably never agree, and I'm starting to feel \nfrustrated, and I'm tired of having my conversations with my husband \ndominated by this topic (just kidding, :-)).\n\nI do have to say, though, that participating in this discussion has been\na good learning experience for me.  My views on this topic have evolved\nand clarified through this, and I suspect that we may not disagree as \nmuch as we think. \n\nI admit that I'm strongly prejudiced against evangelical Christianity,\nand I may not always be rational in my reactions to it.  I grew up\nin EC, and went to an EC college.  It was definitely the wrong place\nfor me, and I react strongly to any implication that EC or conservative\nChristianity has any sort of stronghold on true Christianity.  I shudder \nwhen I remember the condescending attitude I had about other Christians \nwho didn't adhere to the EC model.\n\nI have come to see that my real objection to this whole notion of \nabsol",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nwas condemned. So the Coptic Orthodox Church does not >believe in\nMonophysitism.\n\nSorry!\n\nWhat does the Coptic Church believe about the will and energy of Christ?\n Were there one or were there two (i.e. Human and Divine) wills and\nenergies in Him.\n\nAlso, what is the objection ot the Copts with the Pope of Rome (i.e. why\nis there a Coptic Catholic Church)?  Do you reject the supreme\njurisdiction of the 263rd sucessor of St. Peter (who blessed St. John\nMark, Bishop of Alexandria was translator for) and his predecessors?  Or\nhis infallibility?  Or what other things perhaps?",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nSure nails can be cruel.  I'd imagine nails in your eyes would be\n*very* painful.  But, this does not imply that a painless death is\ncruel, which is what you are supposed to be trying to show.",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\njust picked out this one point because it struck me....\nwhy do you believe this?  muslims believe in many of the same things\nthat christians and jews believe; they believe jesus, while not the\nmessiah, is a prophet.  this seems to me to be much closer to\nchristianity than other religions are.  (then again i tend to be\nsomewhat liberal about others' beliefs.)\n\nthis also relates to the serbian \"ethnic cleansing\" question.  i have\nbeen waiting for condemnations of this and have seen very few.  HOW\ncan we stand by and watch innocent people, even people whose beliefs\nwe condemn, if this is the case (and don't get me wrong, the things\nfundamenalist muslims have to say about women make my blood boil), be\ntortured, raped (the stories about that made me physically ill), and\nkilled?  jesus loves all, not just those who love him back -- and he\nwould advocate kindness toward them (in the hopes of converting them,\nif that's the way you want to put it) rather than killing them.  \n\ni'm sorry i got off the subject here -- m",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nthe classic references in this area are Jacques Ellul for a\nliberal/evangelical perspective and Os Guiness for a straight\nevangelical view.  If you want to look at non-christian sources\ntry Alvin Toffler as the perennial optimist.  His views while\nblatently non christian explore where technology may be going.\n\n\nThis is regardless of technology.  Be careful to separate the issues of\nrelated to speed and dispersion of technology (how far the letter\nwent and how quickly it got there) and the message being passed in the\ntechnology (something that seems to be totally wrong.)\n\n\nWhen lecturing in this area I challenge my (non-christan/atheistic) class\nabout the impact technology has on life, quality of life and the rights\nthat they consider important.  Depending on how you work out your\nfaith will determine your response to the use of technology.  For example\nfriends of mine are considering IVF due to a life threatening situation the\nwife is going through; when it is over they will have the baby. (God\nwilling).  In",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "i read about the code you can put in to most applications so that\nthe virtual desktop stuff in tvtwm doesn't confuse them (or is the\napplication confusing the virtual-ness? [chicken & the egg?]\n\nbut wanted to see if it has been applied to a version of xroach\n\ni never could quite get ssetroot to work either? any suggestions.\nluckily xv -root -quit does the trick for the most part\n\nalso, i'ld be quite interested in hearing more about the icon region\nfor each virtual window under tvtwm that i read a thread on last week\nhere\n\tthanx,\n\t\tfish",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI ran in to this problem I while ago, and from what I remember you should use\nXtTranslateCoordinates etc. after realizing the main widget to calculate\nthe location of the popup, then use something like XtVaSetValues on the\npopup widgets before ever using them.  Calling SetValues repeatedly (e.g.\nevery time something pops up) seems to be what slows you down.  I never\ndelved deep enough to figure out exactly why though...\n\n---------------------------\nJeremy Payne\nUIUC Neuroscience program /\nCollege of Medicine\njrpayne@uiuc.edu\n(217)244-4478",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nThe NASM photo archives are open to the public.  All (or almost all)\nstill pictures in the collection are available for viewing, but I\ndon't know about films.  At least it might be worth a try.  I'm not\nsure if appointments are necessary, but I think not.\n\nGood luck, and let us know what you find.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "1975 H-1 500\n     Brand new top end\n     Chambers\n     Clean + black!\n     1,500$\n     Paul: (510) 839-2161\n\nPlease do not contact this email address: contact the seller.\n\nCheers",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nOh yeah, how come Dino could never take the Caps out of the Patrick\nDivision?  He choked up 3 games to 1 last year and got swept away in\nthe second round two years ago.  He rarely, if ever, makes it out of the\ndivision.\n\n\nSo are the Islanders, but they can still pull it out.  Vancouver has Winnipeg's\n number, so it really doesn't matter.\n\n\n\n Kings always seem to go at least 6 or 7, they never play a four or five\ngame serious.  There's a difference between battling it out and pulling it\nout, as I take Calgary to pull it out in 7.",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "All you have to do is turn it in to the police like you would an accident,\nget a report and send it in to your insurance company and they will contact\nthe other guys insurance company and they will have to pay just as they\nwould in an accident they caused.  Thus no need to go to court.  A friend of\nmine did this and he got the money so it does work.\n",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "H E L P !\n\nI have  a problem in which I'm getting increasing frustrated every day...\n\nSome background about my PC:\n\n- American Megatrend BIOS (clone 386 SX) with 32M of RAM\n- config.sys file:\n\n\tdevice=c:\\dos\\himem.sys\n\tdos=high,umb\n\tdevice=c:\\windows\\emm386.exe noems\n\tfiles=30\n\tbuffers=30\n\tstack=9,256\n\n- autoexec.bat file is using smartdrv.exe +c\n- CMOS set up is running 0 wait state on read and write cache ram.\n\nThe problem: APPLICATION ERROR from WIN31\n\nI started off with a newly installed WIN31 and then installed EXCEL.\nRun excel, no problem. A permanent swap file of size 18K was in place\nfor windows.\n\nOk, I then proceed to install Norton Desktop\nfor Windows version 2.0. No problem with the installation. I also\nallow NDW to alter my autoexec.bat(with the nav running on c:).\nThe problem came when I try to (bring up excel or if excel is running\nand right in the middle of it - like click a selection with the mouse)\nfrom the desktop.\nFirst of all, I always get the application error screen followed by\nanother a",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI can definitily say that you can use an RLL as Master and IDE as slave, as\nI have just upgraded my machine with a 200Mb IDE ( And custom Controller\nMdl CI-1010 Extended IDE Controller ) While maintaining my RLL'd Wren as\nmaster Drive.  The trick is the controller which supports up to 4 IDE Drives\nwhile coexisting with existing Controllers ( MFM,RLL,ESDI,SCSI ).\n\nSo according to the Documentation it should work with ESDI, and I can assure\nyou it works with RLL.",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\t\"And in that day you will ask Me no question.  Truly, truly, I say to \n\tyou, if you shall ask the Father for anything, He will give it to you \n\tin my name.  Until now you have asked for nothing in My name; ask, and \n\tyou will receive, that your joy may be made full.\"\n\t\t\t\t-John 16:23-24\n\nI don't believe that we necessarily have to say \" . . . In Christ's name.  \nAmen,\" for our prayers to be heard, but it glorifies the Son, when we \nacknowledge that our prayer is made possible by Him.  I believe that just as \nthose who were saved in the OT, could only be saved because Jesus would one day\nreconcile God to man, He is the only reason their prayers would be heard by \nGod.\n\n\tFor all of us have become like one who is unclean,\n\tAnd all our righteous deeds are like a filthy garment;\n\tAnd all of us wither like a leaf,\n\tand our iniquities, like the wind, take us away.\n\t\t\t\t-Isaiah 64:6, NAS\n\nOur prayers like the rest of our deeds are too unholy to go directly to the\nFather because they are tainted by our sin.  Only by w",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nI beg to disagree with the assertion that science is a collection of models.\nScientific models are a game to play, and are only as good as the\nassumptions and measurements (if any) that go into them.\n\nAs an example, I remember when nuclear winter was the big hype in\natmospheric science.  It wasn't long after Sagan's admonitions that\none of our boys was adding another level of reality into his model of\nthe nuclear winter scenario at ERL in Boulder.  He decided to assume\nthat the atmosphere is more like a two-dimensional thing, than a one-\ndimensional thing.  He also assumed that it rained and that the winds\nblow in the real atmosphere.  On returning to Georgia Tech, he showed\na transparency of atmospheric cooling rates according to the year they\nwere generated by the models.  There was an unmistakable correlation\nbetween the age (meaning simplicity of assumptions; i.e., remoteness\nfrom reality) of each model and the degree of cooling.  Whereas Sagan's\nmodel showed an approximate 40-degree cooling episode, th",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have a wonderful Commodore 128 for sale!!!!\n          Also included:\n                   1571 disk drive\n                   color moniter\n                   power supply (great shape)\n                   software\n                   joysticks\n                   2 300 baud modems (old, but useable)\n\n\ncontact doug  (906) 487-0369 or (815) 623-6447\n",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThere is X for the Amiga, but it'll cost you.  GfxBase Inc., owned by\nDale Luck, one of the original Amiga architects, sells X for the Amiga.\nThere are many options available, including Motif.  Call 'em and get the\nscoop.\n\nGfxBase Inc.\n1881 Ellwell Drive      Phone: 408-262-1469\nMilpitas, CA 95035        Fax: 408-262-8276\n\nI've got no connection with them, other than being a satisfied customer.\n\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\tYou talking bout the same Noemi I know? She makes me think of big bore\nhand guns and extreme weirdness. This babe rode a CSR300 across the desert! And\na borrowed XL100 on the Death Ride. Don't fuck with her man, your making a big\nmistake.\n\n\n\n-- \nGo fast. Take chances.",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI use the ashtray to keep change and other items in. I converted the \ncigarette lighter into a volume control knob for my in trunk subwoofer!\n\n\n\n                                                  .  \n                                                 /                \nLarry                            __/    _______/_                 \nkeys@csmes.ncsl.nist.gov       /                  \\               \n                          _____     __     _____    \\------- ===\n            ----------- / ____/   /  /   /__  __/              \\\n         /     ___    /  / ___   /  /      / /    ____          |\n        |    /      \\/ /__ /  | /  /__  __/ /__ /       \\      / \n        /___         \\_______/ /_____/ /______/            ====OO\n            \\       /                           \\       /         \n                -            1990 2.0 16v           -\n\n\n       ---------------- FAHRVERGNUGEN FOREVER! --------------------            \n            The fact that I need to explain it to you indicates\n            that you probabl",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThe code fragment looks reasonable, but is your logic valid?\nJust because something appears in an 8 bit deep pixmap doesn't\nmean every bit plane contains data.  Did you try each plane?\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThis is a very curious thing to say. STU-IIIs (NSA-designed secure\ntelephones cleared for classified traffic) are already readily\navailable to law enforcement agencies. Word has it they're standard in\nevery FBI office, for example.  Something like several hundred\nthousand of these phones exist in all. They are clearly the US government\nstandard.\n\nSo why does the DoJ need to buy new phones that, unlike STU-IIIs, will\nnot be certified for classified traffic, and in all likelihood will\nnot be compatible with existing STU-IIIs?\n\nUnless, of course, they're gearing up for large scale decryption of\ncivilian Clipper users, and they need compatible hardware...",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\n  I see one thing wrong with your strategy.\nThe boy who cried wolf.\n\n__\n   Jorg Klinger            |       GSXR1100        | If you only new who\n   Arch. & Eng. Services   |\"Lost Horizons\"  CR500 | I think I am. \n   UManitoba, Man. Ca.     |\"The Embalmer\"   IT175 |           - anonymous",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nYou wanna do masking. Build a bitmap (pixmap of depth one) where all pixels\nyou name \"opaque\" are 1 (that get copied) and the others are 0. Use this\nbitmap as the clip_mask in the gc used for XCopyArea(), and remember to\nadjust the clip_origin coordinates to the XCopyArea() blit origin.\n\nThe Mouse pointer (besides from that it is driven using RAMDAC analog\nmapping on most hardwares) uses a mask, too.\n\nBut be warned: blitting through a mask and especially moving around this mask\nis annoying slow on most xservers... it flickers even at 40 MIPS...\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Clipper might be a good way to cover the use of another layer of\nencryption.\n\nCurrently, when you send an encrypted message, an opponent can usually\ntell 1) that you are using encryption 2) which encryption method you\nare using [because that information is usually in the clear].\n\nWith clipper, most opponents will only know that you are sending\nclipper-text, they won't know that your clipper-text is itself\nencoded.\n\nOnly those few opponents who get your clipper-keys will know\nthat your message is double encrypted.\n\n... kind of like a safety deposit box containing a lock box.\n\nSo, don't just think of replacements for clipper, also think of front\nends.\n\n- Carl\n\n\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nHi!\n\nOne of the ASPI-drivers (I think it's the ASPICD) supports a /NORST\nparamter, which means to not reset the SCSI bus when it loads. This\nfixed the problem a friend of mine was having with his adaptec+tosh \n3401.\n\nRegards,",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "True.\n\nAlso read 2 Peter 3:16\n\nPeter warns that the scriptures are often hard to understand by those who\nare not learned on the subject.",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello networld,\n\nI'm looking for an X mailreader. Is there a Xelm?\n\nAndreas\n\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\n\n\nNothing but errors and omissions here!\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\u007f\u007f> MOTOROLA EXPO VHF 2WATT/2CHAN. HT--------[new]\u007f\u007f\u007f\u007f\u007f-------$1200.00\n\u007f\u007f> Would like $400, or BEST OFFER!!!\n\nI'm sure that the Motorola is worth it, but this kind of thing\nhas always mystified me.  $400 is the price of very good, new\ndual-band, fully synthasized HT.  Yes, yes, I know Motorola\nHTs are bullet-proof, unbreakable, plutonium-based \nindestructable -- you can drive a tank over them and they'll\nstill work.  But just how often does that come up?  Why are hams\nwilling (and they *are*) to spend the price of a synthaszied\ndual-bander for a 2-channel xtal rig???  Note: this is not\na flame; as I said, I'm sure this is a good deal for this rig.\nI'm just amazed that it *is* a good deal.  I would have guessed\nthat a 2 channel xtal rig could never be worth as much as a dual-\nbander to a ham, no matter how durable. Just shows you how wrong\n*I* can be.\n\nMike, N4PDY",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "the 'Center for Policy Research' writes...\n \n\n    Considering all the murders of innocent Israelis at the hands \n    of Arab death merchants, I see nothing wrong with the advice.\n\n\n    As usual, the bias of the 'Center for Policy Research' echoes\n    through this newsgroup.  Here we have an enraged Likudnik who\n    is venting his spleen, and you portray it as if this is going\n    to become policy.  You don't say what the response to Matza's\n    suggestion was.  Do do not mention whether he was refering to\n    terrorists caught in the act, which could be a clear cut case\n    of self-defence.  Would you care to elaborate on this, or was\n    this all you wanted to say on the matter.  Why don't you give\n    up this 'Center for Policy Research' crap, and just post your  \n    biases without trying to legitimize them with a pompous name?\n\n\n    A laudable precaution.  \n    \n    Every single thing you post about Israel is posted to portray\n    Israel as negatively as you can.  Deliberate omissions are an\n    integral ",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Secrecy in Clipper Chip\n\nThe serial number of the clipper chip is encrypted with the system key and\ntransmitted as one part of a three part message.\n\nPresumably the protocol can be recovered (if by nothing else, differential\nanalysis).\n\nPostulate if you will, a chip (or logic) sitting between the clipper chip\nand its communications channel.  The purpose of this chip is twofold:\n    \n\t1) Transmit Channel\n\n\t    The spoof chip XORs the 30 bit encrypted serial number with\n\t    a secondary keying variable.  This renders the serial number\n\t    unrecoverable with just the system key\n\n\t2) Recieve Channel\n\n\t    The spoof chip XORs the incoming encrypted serial number\n\t    with a secondary keying variable (assuming the serial number\n\t    is necessary for local operation).\n\nThis has the net result of hiding the serial number.  This gets more\ninteresting when the number of serial numbers issued becomes large,\nmaking it difficult to distinguish between valid serial numbers and\na spoofed serial number.  Without knowing the",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n   I need (probably) to write one or more new Motif widgets on the HP-UX\n   platform. Do I need the Motif private header files and source,\n   or can I make do with the public headers that are provided?\n   \"Motif\" includes Xt in this context.\n\nYes.  You'll find it almost impossible without the source\nat this point.  It does depend on how ambitious you are and\nhow concerned you are about compliance with the general\ninterface and items like traversal.\n\n   One widget is a multi-column list (which lots of people have\n   already written, I am sure), and would therefore be probably be\n   a subclass of List rather than something simple like an Xt class.\n   Is this more difficult (in principle, not lines of code)?\n\nI'm not sure what you're asking.  You could create something\nwhich is very much like a true multi-column list by placing\nseveral lists within a geometry manager,  and putting that\nmanager within an automatic scrolled window.  This wouldn't\nbe good for very large lists,  but you might consider this\nas an al",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "   I have had good luck with my Ranger and Yokohama 371 S+M tires.\n   The tires have been wearing well and even the few times i have hauled\n   heavy loads they have done well.     \n",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n  I have found that this isn't a very effective argument.  Most atheists are\nperfectly willing to acknowledge the existence and ministry of Jesus--but are\nquite capable of rationalizing the miracles and the resurrection into \nmisunderstandings, hoaxes, or simple fabrications.  They can always make an\nanalogy with the _Iliad_, a book that tells the story of the historical Trojan\nWar, but also talks about gods and goddesses and their conversations.\n  I don't think it's possible to convince atheists of the validity of \nChristianity through argument.  We have to help foster faith and an\nunderstanding of God.  I could be wrong--are there any former atheists here who\nwere led to Christianity by argument?",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "[In response to some of the discussions on the Sabbath, Andrew Byler\ncommented that if we really followed sola scriptura we would worship\non Saturday -- the change to Sunday was a law made by the Church, and\nwe don't acknowledge its authority to make laws.  I noted that\nProtestants do not consider Sunday worship a law.  --clh]\n\nHe was not referring to the FAQ but to the five Sabbath Admissions posted\non the bible study group.  This is what prompted someone to send the FAQ\nto me.\n\nn> ceremonial law is not binding on Christians.\n\nYou cannot show, from scripture, that the weekly Sabbath is part of the\nceremonial laws.   Before you post a text in reply investigate its context.\n\nCan the churches also decide what is and is not sin?  Interesting.  Where\nthere is no divine imperative of course we must establish rules of\noperation.  But we cannot be as creative with what God has explicitly\nspoken on.\n\nDarius",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\t    ^^^^^^ what the  hell ios a 'wovie' ?? (wovy (sp))??\n ",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": " \n   Not necessarily.  I've been thinking about this, and if this chip/scheme\nis to provide any real security, there must be some sort of key exchange,\neither using a public-key encryption scheme, or using a key exchange scheme\nlike Diffie-Hellman.  If there's an out-of-band transmission of a shared\nsession key, then what protects that band from eavesdropping?  If the phone\ncompany or some other online central authority generates a session key and\nsends it to both users, then what's the point of going to the trouble of\nhaving some complicated key-depositories?  Just ask the phone company for\na copy of the session key for each call.\n \n   Now, it's probably not practical for each user to keep an online copy of\nevery public key used by anyone anywhere, right?  So, probably, there will\nbe some way of getting these keys verified.  This might be a digitally-\nsigned (by the chip manufacturer) copy of the public key in this unit,\nstored by this unit.  It might also be an online directory with access to\neveryone's pub",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n- or their handlers.\n\n\nThey key depositories are IRRELEVANT. In order for the applicable law\nenformcement agencies to be able to know what keys to request from\nescrow, the system will have to squawk its serial number in clear text\nas part of the link establishment protocol. Whoever owns the program \nthat assigns keys to each serial number won't need access to the key\ndepository.\n\nIn other words, the FBI may need a court-ordered release of escrowed\nkeys, but the NSA has the keys before the chip is ever manufactured.\nThere is no need to go through the escrow or to try all keys. While\nrelations between law enforment agencies have sometimes been strained,\nthere is also a long history of trading favors. This will re-establish\nthe NSA as a very important agency for everyone to get along with,\nbecause they can give you untraceable encryption leaks without court\norders.\n\nThe more I think about this affair, the fouler it smells. I'd rather\nhave a DES with an engineered-in backdoor ...",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "As an additional data point, I have run Castrol 20W50 exclusively\nin the following cars: 75 Rabbit, 78 Scirocco, 76 Rabbit, 78 Bus,\n70 Beetle, 76 Bus, 86 Jetta GLI.  I've never had an oil-related\nproblem.\n\nDisclaimer:  It gets mighty hot down here.",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI'm not sure of the exact recipe, but I'm sure acidophilus is one of\nthe major ingredients.   :-)",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n740 Turbo in UK was good for 124mph. Useful for blowing away VW Beetles, though I\nbelieve the Beetle corners better. \n\nI can say without any doubt that I have never been blown away by any Volvo, ever.\nI've been blocked into a few car parks though by shit-head Volvo owners who 'only thought they'd be a few minutes'. This does not happen with the owners of any other makes of car.",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "With everyone bitching about the hockey coverage by ESPN its almost like the \nDetroit-Toronto game was not televised last nite.  I was just thankful to see\nhockey on a night that it wasn't supposed to be carried.  Thanks to ESPN, no\nmatter why they televised the game",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "What would all of you out there in net land think of the big 6 (Martin\nMariatta, Boeing, Mcdonell Douglas, General Dynamics, Lockheed, Rockwell)\ngetting together, and forming a consortium to study exactly what the market\nprice pints are for building reusable launch vehicles, and spending say\n$3million to do that.  Recognizing that most of the military requirements\nfor launch vehicles are pulled out of a hat somewhere (say, has the shuttle \never really used that 1200mi crossrange capability?  You get the idea, figure\nout how many, how often, where to, etc...)\n\nThen taking this data, and forming a sematech type company (bad example, I\nknow... but at least its an example...)  To develop between 3 and 5 craft\ndesigns.  Then to take all of those designs, and figure out EXACTLY what\nthe technologies are, and demonstrate those technologies, in order to \neliminate designs that can't be built today.  And lets say that this\nportion again funded by the GOV cost about $20 million.\n\nAnd from here all of these companies we",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nActually I don't think there is any conflict if we really understand\nwhat these passages say.  First, what is faith?  If you study the \nmeaning of the Greek and Hebrew words so translated I think you will\ncome to the conclusion that the word means a *lot* more than mere \nbelief.  Faith means both trust and action.  If you do not put your \nbelief into action it simply cannot qualify as faith.  I think this \nis what James means when he says that \"faith without works is dead\" \nand, \"I will show you my faith by my works.\"  Remember James was \nwriting to \"the twelve tribes which are scattered abroad.\"  This \nprobably means he was writing to those who would hear the gospel much \nlater and wouldn't understand the meaning of the original Greek.\n(Indeed I suspect James was writing to us, today, among others he\nintended to reach.)  Paul, on the other hand wrote mostly to the\npeople of the Roman empire who generally understood the meaning of\nthe Greek.\n\nAnother key to why there is no conflict is to look at Paul's\nstat",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ":Judge: \"I grant you immunity from whatever may be learned from the key\n:\titself\"\n:You:    \"The keyphrase is: \"I confess to deliberately evading copyright; \n:\tthe file encoded with this keyphrase contains illegal scans of \n:        copyrighted Peanuts strips.\"\"\n:Judge and CP: \"Oh.\"\n:     How will they get you now? I'm not saying that they won't, or\n:can't (or even that they shouldn't :-), but what legal mechanism will\n:they use? Should we be crossposting this to misc.legal?\n\nHm, could another court try you via a bypass of the double jeopardy amendment\nlike they are doing in the LAPD trial?  Ie your judge is a state judge, and\nthen a federal judge retries you under the justification that its not the\nsame trail.\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "You a good case for rights to abortion.",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "[A lot of this article has been deleted for space.]\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nThis actually supports Bill's speculation - IF there is a backdoor in\nRSAREF and IF PKP is supported secretly by the NSA, then it is more\nthan natural that they will welcome ANY public-key implementation that\nuses RSAREF and will strongly oppose themselves against ANY\nimplementation that doesn't.\n\nI personally cannot see how one could put a backdoor in a\nlong-precision modular arithmetic library that comes in source, but,\nof course, the fact that -I- cannot see it means nothing...\n\nRegards,\nVesselin",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Note:  This file will also be available via anonymous file\ntransfer from csrc.ncsl.nist.gov in directory /pub/nistnews and\nvia the NIST Computer Security BBS at 301-948-5717.\n     ---------------------------------------------------\n\n                         THE WHITE HOUSE\n\n                  Office of the Press Secretary\n\n_________________________________________________________________\n\nFor Immediate Release                           April 16, 1993\n\n\n                STATEMENT BY THE PRESS SECRETARY\n\n\nThe President today announced a new initiative that will bring\nthe Federal Government together with industry in a voluntary\nprogram to improve the security and privacy of telephone\ncommunications while meeting the legitimate needs of law\nenforcement.\n\nThe initiative will involve the creation of new products to\naccelerate the development and use of advanced and secure\ntelecommunications networks and wireless communications links.\n\nFor too long there has been little or no dialogue between our\nprivate sector and th",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI no longer have the textbook, but abstinence was defined as something\nlike \"no contact between the penis and the vagina, vulva, or area \nimmediately surrounding the vulva, and no transfer of semen to the\nvagina, vulva, or area surrounding the vulva\".  \n\nThat is, abstinence wasn't discussed as \"sex outside of marriage is\nmorally wrong\" but as keep  the sperm away from the ovum and conception \nis impossible. The moral question I recall the teacher asking was,\n\"is it okay to create a child if you aren't able to be a good parent\nyet?\"\n\n-jen\n\n-- ",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nSeeing as Motif has been adopted by Sun, IBM, HP +++ (can't remeber the\nother members in the recent announcement), I'm sure you'll see it on\nvirtually every workstation (ie. Sun, IBM, HP and DEC must make up the\n**VAST** majority of all hardware).\n\n\n\n\nPorts of Motif to both 386BSD and Linux are available for a fee of about\n$100.  This is cost recovery for the person who bought the rights to\nredistribute.  The activity in both the BSD and Linux news groups\npertaining to Motif has been high.\n\n\n\n\nI can't see why.  If just about every workstation will come with Motif\nby default and you can buy it for under $100 for the \"free\" UNIX\nplatforms, I can't see this causing major problems.\n\n\nSide Note :\n---------\nAll the X based code I am writing (and will distribute freely when\ncompleted) is based on Motif because from a programmatic and also \"look\nand feel\" point of view I like it the best (no flames on this one\nplease).\n\n\n\nbambi",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "[bits deleted]\n\n\nI'd be fascinated to see such evidence, please send me your article!\nOn the negative side however, I suspect that any such simplistic link\n    abstinence-education => decreased pregnancy,\n    contraceptive-education => increased pregnancy\nis false.  The US, which I'd guess has one of the largest proportion of \n\"non-liberal\" sex education in the western world also has one of the highest\nteenage pregnancy rates.  (Please correct me if my guess is wrong.)\n",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "--> Note:\nReply to a message in soc.religion.christian.\n\nEVENSON THOMAS RANDALL wrote in a message to All:\n\n\n\nHi, You might want to read Charismatic Chaos by John MacArthur.  In it\nhe discussed exactly this queation, amongst others.  In my own words,\nVERY simplified, his position is basically that one must decide, what\nis the most important - experience or Scripture?  People tend to say\nScripture, without living according to that.  Their own\nfeeling/prophecy/etc tends to be put across without testing in the\nlight of Scripture.\n\nThere's a lot more than this, really worthwhile to read whether you're\nCharismatic or not.\n\nGroetnis (=cheers)\n Deon\n\n--- timEd/B8",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n:It occurs to me that if they get a wiretap order on you, and the escrow\n:houses release your code to the cops, your code is now no longer secure.\n\nA very good point!\n\n:It's in the hands of cops, and while I am sure most of the time they are\n:good, their security will not be as good as the escrow houses.\n\nWhy should we expect the cops to be honest!  They're underpaid\nfor the risks they face every day.  The media dumps on the all\nthe time and blames them for all sorts of discrimination,\nbrutality....  How can we expect them to be more than human?\n\nBesides there are lots of cases of police abuses ranging from\nprotection scams to outright robbery (when I worked in D.C. there\nwas a breakin at a local Radio Shack and the alarm company heard the\ncops responding to the call over the audio pickup in the store:-).\n\n:What this effectively means is that if they perform a wiretap on you,\n:at the end of the wiretap, they should be obligated to inform you that\n:a tap was performed, and replace (for free) the clipper chip ",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\tDuh! He was making a joke about how long the Leafs would last in the\nplayoffs. (Y'know, hit the courses in the off season). Sheesh... People are\nso quick to complain...\n\n",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Sorry for taking this off of Sharon's resp, but I'd also like to add\nsome more verses to that and perhaps answer the second Q.\n\nVerses:\n   1 Corinthians 6:9-10\n   Colossians 3:5-10\n\nAs for knowing when, that's a bit tricky.  People normally have\nconsciences which warn them about it.  However, as in my case, a\nconscience can be hardened by sin's deceitfulness (Hebrews 3:12:13) so\nthat the person has no idea (or doesn't care about it) that they are\nsinning.  Of course, there are those sins which we do when we don't know\nthat they're sinful to begin with.  Those take searching and examining\nof Scripture to find out that they are sinful and then repent and\nchange.  The best question to ask in every circumstance to judge sinful\npossibilities is:  \"Would Jesus wholeheartedly do this at this point in\ntime?\"  I know, it sounds like a cop-out, but it truly is a stifling\nquestion.\n\nJoe Fisher",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Water gradually builds up in the trunk of my friend's 89 Ford Probe.  Every\nonce in a while we would have to remove the spare and scoop out the water\nunder the plywood/carpet cover on the trunk.  I would guess this usually happens\nafter a good thunder storm.  A few Qs:\n\n1) Is this a common problem?\n2) Where are the drain holes located for the hatch?\n\nThanks for any info.\nTom\n",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "From: andersom@spot.Colorado.EDU (Marc Anderson)\n\n\t>Also.. how about a box that you plug your phone into, which would allow\n\t>encrypted voice communications with someone who has a similar box?  \n\t>(digitizing input speech, transmitting, and decrypting on the other end).  I \n\t>don't know how a public-key system could work in this regard, but it might \n\t[...]\n\n\theh heh... I posted this just before reading all the Clinton Chip messages..\n\tI guess they beat me to it..  Anyway, I think it would be a great idea to\n\tdevelop such a product, perhaps in the underground, as it would otherwise\n\tprobably become illegal pretty quickly here...\n\nIt's really very feasible and shouldn't be too expensive - all that's needed\nis a box with a phone jack on one side, a DSP in the middle to do codec\nfunctions of speech->compressed bytestream, and an RS232 on the other side.\n\nYou'd plug your phone into it, plug the RS232 into your computer, and have\na good old fashioned normal modem on your other RS232 port.  The CPU in the\nmiddle wo",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "AAAHHHH!!!!!  Please someone tell me what I have done!!!\n\nMy 40 Meg miniscribe (8450AT) has a big sticker on the side that says\n\n***DO NOT ROTATE INTERRUPTER** --->  (big knob here)\n\nA big knob sticking off the side of the drive is pretty hard NOT to turn\nwhen removing the drive!\n\nI turned it.   Now the drive won't spin up!  Even with no data or controller\ncables plugged in.. just power... it won't spin up!!\n\nPlease help!  \n\nThanks\n\n\n--\n-Paul Carroll",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "You definetly are in need of a shrink, loser!",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  }
+]

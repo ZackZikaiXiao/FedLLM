@@ -1,0 +1,704 @@
+[
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Every time you read about a shuttle landing they mention the double sonic  \nbooms.  Having taken various relevant classes, I have several ideas of where  \nthey come from, but none of them are very convincing.  Exactly what causes  \nthem?  Are they a one time pheneomenon, or a constant one like the supersonic  \nshockwave that is constantly produced by a plane, but you hear only when it  \ngoes over you?\n\n---\n---------------------------------------------------------------------",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThe oclock widget was written using the SHAPE extension.\nYou can do the same in your widgets.  Few current widgets\nsupport SHAPE, so you'll have to subclass them to add that\nfunctionality.\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I need some help with a multi port serial board of unknown origin.  I'm\nhoping someone knows what this board is, or, even better, what the various\nswitches and jumbers are used for.\n\nAnyway, here's  description of the card:  It is a 16-bit card, although\nI noticed that none of the contacts in the 16-bit extension are connected\nto anything.  It has 4 NS16550AN chips in sockets, and 4 corresponding\nconnecters labeled COM1 - COM4.  There is also an external female connector\nwith 37 pins.  There are 8 banks of 8 switches, 2 banks of 4 switches, and\n7 jumpers.  I believe that I have determined, by following traces, that\nSW5 and SW6 (12 switches in all) control the interrupt level for each of\nthe COM ports.  SW5[1-4] are for IRQ3, SW5[5-8] are for IRQ4, and SW6[1-4]\nare for IRQ5.  The other switches are beyond my meager ability to follow.\n\t     \nThe only identification printed on the board is \"MULTI SERIAL PORT BOARD\"\nacross the bottom.  There is a box for serial number, but it is blank.\nImmediately below the words",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello world,\n\nI want to write my Xt-application code like this:\n\n{\n    do_some_work();\n    /* now I need some user input */\n    XmCreateDialog();\n    wait_for_user_input(input);\n    if (input == \"OK\") {\n       more_work();\n    } else {\n       other_work();\n    }\n}\n\nSo \"more_work() and other_work()\" are not in callback functions but the\napplication simply waits for the user to answer the question.\n\nHow can I code this in my Xt/Motif-application?\n\nThanks very much in advance.\n\nGreetings, Huub.\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have used both my serial ports with a modem and a serial printer, \nso I cannot use Appletalk.  Is there a Ethernet to Localtalk hardware\nthat will let me use the Ethernet port on my Q700 as a Localtalk \nport.  Until they come out with\nsatellite dishes that sit on your window & give you internet access\nfrom your home, I won't at all be using that port.",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Original to: keithley@apple.com\nG'day keithley@apple.com\n\n21 Apr 93 22:25, keithley@apple.com wrote to All:\n\n kc> keithley@apple.com (Craig Keithley), via Kralizec 3:713/602\n\n\n kc> But back to the contest goals, there was a recent article in AW&ST\nabout a\n kc> low cost (it's all relative...) manned return to the moon.  A General\n kc> Dynamics scheme involving a Titan IV & Shuttle to lift a Centaur upper\n kc> stage, LEV, and crew capsule.  The mission consists of delivering two\n kc> unmanned payloads to the lunar surface, followed by a manned mission.\n kc> Total cost:  US was $10-$13 billion.  Joint ESA(?)/NASA project was\n$6-$9\n kc> billion for the US share.\n\n kc> moon for a year.   Hmmm.  Not really practical.  Anyone got a\n kc> cheaper/better way of delivering 15-20 tonnes to the lunar surface\nwithin\n kc> the decade?  Anyone have a more precise guess about how much a year's\n kc> supply of consumables and equipment would weigh?\n\nWhy not modify the GD plan into Zurbrin's Compact Moon Direct scheme? let\none of",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have a 386/40 motherboard with AMI BIOS.\nI haven't located the little motherboard manual yet,\nand suddenly it's giving me 10 beeps when I turn the power on.\nIt was working fine this morning,\nthen gave all kinds of problems, in Windows and outside it.\nAfter multiple reboots, now it only gives 10 beeps and sits there?",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": " \tWASHINGTON (UPI) -- Secretary of State Warren Christopher said Tuesday\n there are better ideas to stop the human slaughter in the Balkans than\n ordering American fighters to bomb the Serbs, but a frustrated senator\n told him to do just that.\n \t``We've not done a damn thing,'' Sen. Joseph Biden, D-Del., told\n Christopher at a hearing of the Senate Foreign Relations Committee. \n ``Preventive diplomacy is not in your capability right now in Bosnia-\n Herzegovina.\n \tBiden chastised the administration and its Republican predecessor for\n what he characterized as a limp response to the Serbian policy of \n ``ethnic cleansing'' of Muslims, including rape and shelling of\n civilians.\n \t``The time has come for us and the world to stop bemoaning the fact\n that all the options are bad ones,'' Biden said. ``They are all bad ones\n and we ought to pick a couple.''\n \tBiden also endorsed lifting an international arms embargo against the\n former Yugoslavia so the Muslim-dominated Bosnian government might have\n a chance to at le",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "What are you stupid?",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Tcpview is the result of several problems we had at UW.  We have several\nNetwork General Sniffers which are heavily used to help debug problems on\nseveral hundred subnets. These are good tools, but they are 1) heavy, \n2) hard to find when you need one, 3) limited in their software expandibility,\n4) difficult to use to upload data for analysis, 5) cannot be remotely\noperated, and 6) cannot resolve names with DNS, requiring much manual \nmanipulation of the name table.  We also sometimes use tcpdump, but we found \nit 1) too difficult for most people, 2) did not have enough information for\nmany protocols, 3) could not be used interactively, 4) could not handle\nTCP streams and 5) could not read Sniffer files.  However, tcpdump did do\na reasonable job of decoding a large number of protocols, and could be easily\nmodified.  Tcpview is an attempt to resolve these problems\nby adding a Motif interface to tcpdump and expanding its features.\n\nTcpview has been tested on a DECstation 5000 and Sun 4 under Ultrix 4.2 and\nSunO",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\nFoolish me.  And here I thought it had something to do with the \nfact that they were hitting against Wakefield, who had no \"kncukle\"\nto his ball that day, and Otto, who has no stuff.  I wonder if \nReggie gave the same pep talk and instruction to the rest of the\nlineup, who also suddenly came alive those two games.\n\n\n\n--\tThe Beastmaster\n\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nHere in switzerland, the situation is exactly the same. The cable tv companies  \neven tried to stop amateur radio in switzerland in the beginning of cable  \ntv(they seem to be too stupid to know anything about international frequency  \nconferences or so). Even today, they use the cheapest possible coax running  \ninto problems they can't solve anymore. As Bill noted, the only way is to look  \nfor a solution with the neighbours *BEFORE* calling for the cable tv guys or  \nthe fcc. The chance to find neighbours with some sense for reason is by far  \nbigger than with these people (especially the first ones). As anywhere in an  \nadministration people don't like, if You tell them to work for the money they  \nget...\nThe problem is, that radio amateurs don't have the power to put trough their  \nrights in all cases. So let's hope they start soon with optical fibers and get  \nout of our freqencies.\n\n\nCheers   Robert  (HB9NBY)",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI don't know about everybody else, but to me, they should have been\nconvicted BECAUSE of the evidence, which in my mind was quite\nsufficient.",
+    "response": 18,
+    "category": "talk.politics.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Many of you at this point have seen a copy of the \nLunar Resources Data Purchase Act by now. This bill, also known as the Back to \nthe Moon bill, would authorize the U.S. \ngovernment to purchase lunar science data from private \nand non-profit vendors, selected on the basis of competitive bidding, with an \naggregate cap on bid awards of $65 million. \n        If you have a copy of the bill, and can't or don't want to go through \nall of the legalese contained in all Federal legislation,don't both - you have \na free resource to evaluate the bill for you. Your local congressional office, \nlisted in the phone book,is staffed by people who can forward a copy of the\nbill to legal experts. Simply ask them to do so, and to consider supporting\nthe Lunar Resources Data Purchase Act. \n        If you do get feedback, negative or positive, from your congressional \noffice, please forward it to: David Anderman\n3136 E. Yorba Linda Blvd., Apt G-14, Fullerton, CA 92631,\nor via E-Mail to: David.Anderman@ofa123.fidonet.org. \n     ",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nThat's why we have expansion - to create more jobs. NHL teams can't afford to\nimport role players from Europe, they pick the stars but will continue to build\ntheir teams around local players.\n\nI'd *LOVE* to see a European NHL division but can't see it happen for some\ntime. There's simply not enough fan interest at the moment in several\n\"crucial\" markets like Germany, Italy and France while Sweden and Finland\nprobably can't afford to shell out $20-$30 for tickets the way\nAmerican/Canadian fans do. Call it \"the Minnesota North Stars\" effect:\nScandinavians do love hockey but we prefer to watch local, inexpensive\nhockey to the NHL. The National Hockey League should love the idea, though.\nPan-European TV channels such as Eurosport could bring in the millions the\nAmerican networks likely never will pay.",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\n\n   Anaheim.",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nPortuguese launch complex??? Gosh.... Polish are for American in the \nsame way as Portuguese are for Brazilians (I am from Brazil). There is \na joke about the Portuguese Space Agency that wanted to send a \nPortuguese  astronaut to the surface of the Sun (if there is such a thing).\nHow did they solve all problems of sending a man to the surface of the \nSun??? Simple... their astronauts travelled during the night...\n\n C.O.EGALON@LARC.NASA.GOV\n\nC.O.Egalon@larc.nasa.gov",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Anyone who knows this answer off-hand, please answer me by e-mail \nquickly ;). \n\nThere is a pair of jumpers on one side, and a set of 3 or 4 on the\nother end.  One is labeled, sync , and one CD, and E0 E1 E2.  \n\nWhhich do I need to short, or disconnect to get drive to operate\nin slave mode?  Give me a label or \"geographic\nlabel, as they have quite a few jumpers, and I don't wanna try the\ntrial and error method... \n\nI am using IDE. I think this drive is SCSI compatible too. \n\nJimmy",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThat figure (1/4\") for image rotation would seem to be a little high...\non my NEC 5FG the specs call for no greater than 3mm (0.12\").\n\n\nI can't speak for MAG Innovision but as far as NEC is concerned, they are\nadjusted to \"factory-spec\" before leaving the central USA distribution point\n(MA) for the eastern Canadian market. Now, here's the key: NEC *knows* that\nthe >=15\" monitors' adjustments are very sensitive to shipping over\ndistances (with all the bumps, rough handling, and such) and therefore\n*expect* and (at least in theory) *require* that the local *distributor*\n(not dealer) have it adjusted at the *local* service centre (Bull HN\nInformation Systems in Toronto) before sale. This is the correct and\nprobably only way of having any chance of receiving a \"perfect\" monitor\n(the definition of \"perfect\" seems to depend on how picky one is, in my\ncase quite :).\n\n\nI, for one, was not willing to accept what I considered a substandard\nmonitor and, after two months of wrangling and direct contact with NEC,\nfinally",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": " \n \nSorry, but I saw a survey somewhere that showed that America's favorite\nteam is the Damn Yankees. So much for the underdogs being loved.",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nEven if there was no independent proof that Luke's account was\nvalid, I find it strange that you would take the negation of it as\ntruth without any direct historical evidence (at least that you've\nmentioned) to back it up.  The assertion was made, unequivocally\nthat no Christian ever sufferred for their faith by believing in\nthe Resurrection.  Luke's account suggests otherwise, and in the\nabsence of direct eyewitnesses who can claim that Luke is mistaken,\nthen I suggest that this unequivocal assertion is suspect.\n\n\n\n-- \nJohn G. Ata - Technical Consultant | Internet:  ata@hfsi.com\nHFS, Inc.\t\t  VA20     |     UUCP:  uunet!hfsi!ata\n7900 Westpark Drive\t MS:601\t   |    Voice:\t(703) 827-6810\nMcLean, VA  22102\t           |      FAX:\t(703) 827-3729\n\n[I think the original claim may have been somewhat more limited than\nthis.  It was an answer to the claim that the witnesses couldn't\nbe lying because they were willign to suffer for their beliefs.\nThus it's not necessary to show that no Christian ever suffered\nfor beli",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nGee, I'd better tell this to the Mental Health Branch of the Israeli Army\nMedical Corps ! Where would we be without  you, Davidson ?\n\n\n\n\n\n\n\nSigh.\n\nFour (4) deer in Tel Aviv ?? Well, this is probably as accurate as the rest of\nthis fantasy.\n\n\n\n\n\n\nYisrael Shahak the crackpot chemist ?  Figures.  I often see him in the\nRechavia (Jerusalem) post office. A really sad figure. Actually, I  feel sorry\nfor him. He was in a concentration camp during the Holocaust  and it must have\naffected him deeply.\n\n\n",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nAnd you wrote an *excellent* report about it.\n\n\n\n\nI understand (from an unreliable source) that Canseco was considered\nexpendable by the A's when he refused to accept any coaching about\nhis batting stance.  The A's brain trust came to believe that his\nback problems were exacerbated, if not caused, by having a wide open\nstance, closing it quickly and then swinging with a lot of torque\n(that's a paraphrase of what I remember).\n\nIn any event, Canseco took the road that he and he alone would decide\nhis stance, and the A's began to believe that he would either reinjure\nhimself or begin to lose his ability to hit for both average and power.\n\n\n\n\nApparently, you sound like LaRussa.\n\n\nThe A's also objected about this.\n\n\n\nAgain, I'm just repeating something I heard.  But possibly the cause\nand effect is the reverse of that.\n\n\n\n\n\n--\tThe Beastmaster\n\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "We are not at the end of the Space Age, but only at the end of Its\nbeginning.\n\nThat space exploration is no longer a driver for technical innovation,\nor a focus of American cultural attention is certainly debatable; however,\ntechnical developments in other quarters will always be examined for\npossible applications in the space area and we can look forward to\nmany innovations that might enhance the capabilities and lower the\ncost of future space operations. \n\nThe Dream is Alive and Well.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nBut you still need the pitching staff to hold the opposing team to\none run.",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I am doing a political science paper on the funding of NASA and pork-barrel \npolitics.  I would be interested in information about funding practices and\nhistories of some of the major programs (Apollo, STS, SSF, etc) and the\nfunding of SSTO to contrast.  Could someone please recommend some sources\nthat would be useful?  Thank you.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Don't knock Vaughn for being a spring training .400 hitter\nbut a .250 regular season hitter.\nAround 30 games played isn't an indication of how good any\nhitter is, and the quality of pitching is way down.\n\nRyan Robbins\nPenobscot Hall\nUniversity of Maine",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello, I am trying to hook an Apple Imagewriter to my IBM Clone.\nI seem to have a problem configuring my lpt port to accept this.  How can\nyou adjust baud, parity, etc. to fit the system?  I tried MODE, but it did\nnot work.  If anyone can help, post of e-mail.  Thanx.\n",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThe Proton has been used in 2, 3, and 4 stage versions.  The two stage version\nwas used for the first 3 launches, while the 3 and 4 stage versions are used\ntoday.  The four stage version is used mostly for escape (and geosynchronous?)\norbits, while the 3 stage version is used for low earth orbits.  Since this is\nthe version that launched Mir and the Salyuts (and the add-on modules for Mir),\nas long as Centaur is smaller than Mir (which I believe it is), it should fit\nunder the shroud.\n\nI vaguely recall that the Russians are developing a LH2/LOX upper stage for the\nProton.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\nYes, and I do everyone else.  Why, you may wonder, don't I do 'Fred'?\nWell, that would just be too *obvious*, wouldn't it?  Oh yeah, this\nisn't my real name, either.  I'm actually Elvis.  Or maybe a lemur; I\nsometimes have difficulty telling which is which.\n\n-- \n\"Insisting on perfect safety is for people who don't have the balls to live\n in the real world.\"   -- Mary Shafer, NASA Ames Dryden",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\n\n",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nYes, it's a shame that the NHL lost a fine team in one of the best\nhockey markets in the country.  Being a North Stars fan, it is sad to\nsee all of the tradition of the last 26 years get thrown into oblivion\nat the hands of a truly crappy owner.\n\nHopefully the NHL will install an expansion franchise in the Twin Cities\nwithin the next five years.  Even if this is the case, a lot has been\nlost in the North Stars move...",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Can somone explain to me all the stuff about modems...\nlike v.32 v.42 HST USRobotics...\n \nwhy cheap 14.4 can' t cannot connect fast to some modems...\n\n\njust explain to me everything!!!  thanks..\n",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "It seems to me that you are the one who is supposed to do some reading. I think\nthat our major difference in opinion is on the legitimacy of Sevres. First, thattreaty was signed by the Ottoman Empire therefore legally it does not bind the \nRepublic of Turkey. The new independence movement (which by the way, is not the same as the Young Turks) naturally rejected it out of hand. to say that we \nshould accept because the Germans did theirs is absurd. We saw what the cosequences of such harsh treaties were in Hitler. Second, the Sevres treaty was even \nworse than Versailles. It divided the Ottoman Empire in to several influence \nzones, had the capital occupied, the economy under Allied control, the army di\nminished to nothing but a police force, in short a country in name only. I'd\nwonder if you would like to live under such conditions. And for the record, I donot feel sorry for the soldiers killed in IZMIR harbour. Before evacuating the \ncity, the Greek forces burned it down, so it serves them right.\nAs for bein",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\nIt's not a cliche, and (unlike your comments below) it's not a tautology.\nIt needn't have been true.  If every pitcher in baseball were essentially\nthe same in quality (i.e. if the variance of pitching ability were much\nsmaller than the variance of batting ability), then scoring runs would be\nmuch more important than preventing them, simply because the *ability* to\nactively prevent runs would be much weaker.\n\n\nIf that's your point, you should have said so.  What you in fact said was\n\"Pitching and defense win championships\", and later \"Pitching is the essence\nof baseball\".  Neither of which says what you are now claiming was \"your \npoint\", and neither of which is true.\n\n\nAnd you accuse Sherri of mouthing cliches!?\n\n\nIt's not clear to me at all that this is true.  In high-scoring games, the\nteam with the better offense wins a high percentage of the time.  In low-\nscoring games, the split is essentially 50/50 regardless of team ability.\n\n\nI thought you said \"pitching and defense win championships\" and \"pitchi",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "My company has developed an application for the Mac that emulates a chart\nrecorder - virtual pen traces scroll smoothly across the screen.  As we\ntested the application on a number of computers we discovered some\nsurprising performance differences across products.  The scroll performance\nof the IIsi and LCII was better than the IIfx. This led us to investigate\nColor Quickdraw performance across the Apple line.\n\nThe results:\n\nThe fastest QuickDraw color performing computer Apple makes is the\n(drumroll please) LCIII.  And the Color Classic ranks right up there with\nthe Quadra line.  The Centris line pales in comparison.\n\nDoes anybody know the differences in these computers that explains the\ndisparity in graphics/processor performance?\n",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI understand, believe it or not, and there are any number of kinds of \nconversation and communication I engage in that I wouldn't even consider \nusing this scheme for.  On the other hand, I don't see \"Clipper\" as providing \na secure channel--it just prevents casual eavesdropping.  This is part of why \nI am not worried about it per se.  Trying to look at Clipper as a serious \nsecurity tool is simply ludicrous.  It's a voice scrambler, nothing more.\n\nThere is still plenty of market for real crypto.\n\n\nThey cost an arm and a leg, though. \"Clipper\" is obviously aimed at the mass \nmarket.  It certainly won't put Cylink out of business.\n\n\nThis is old news.  I can do this now.\n\n\nThere ARE restrictions.  Example: We're a networking software vendor with a \nlarge overseas share of our market.  We cannot currently ship PEM, or even \nsimple DES, in our products without case-by-case approval from the Department \nof State.  ITAR presents a material trade barrier to US firms trying to \ncompete in international information s",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nAbout 25 is correct for Numminen and Lumme.\n\n\n\nNo, Kurri's points are too low. 27 for Kurri and 28 for Sel{nne.\n\n\n\n\nThat's true. Game is so different here in Europe compared to NHL. North-ame-\nricans are better in small rinks and europeans in large rinks. An average\neuropean player from Sweden, Finland, Russian or Tsech/Slovakia is a better \nskater and  puckhandler than his NHL colleague. Especially defenders in NHL\nare mainly slow and clumsy. Sel{nne has also said that in the Finnish Sm-league\ngame is more based on skill than in NHL. In Finland he couldn't get so many \nbreakaways because defenders here are an average much better skaters than in\nNHL. Also Alpo Suhonen said that in NHL Sel{nne's speed accentuates because\nof clumsy defensemen.\n\nI have to admit that the best players come from Canada, but those regulars\naren't as skilful as regulars in the best european leagues. Also top europeans\nare in the same level as the best north-americans.(except Lemieux is in the\nclass of his own). ",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nYou're assuming that \"go solar\" = \"photovoltaic\".  Solar dynamic power\n(turbo-alternators) doesn't have this problem.  It also has rather less\nair drag due to its higher efficiency, which is a non-trivial win for big\nsolar plants at low altitude.\n\nNow, you might have to replace the *rest* of the electronics fairly often,\nunless you invest substantial amounts of mass in shielding.\n\n\nReferences?  Such treaties have been *proposed*, but as far as I know,\nnone of them has ever been negotiated or signed.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\na lot of batters lean in when pitches come.  rickey's crouch tends\nto exaggerate that, i think.\n\n\"a great player to watch if you forget who he is\" - \"unbiased\"... hmmm...",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "  Bingo.\n Nothing evil at all. There's no actual harm in what they're doing, only\nhow they represent it.\n\n -----------------------------------------------------------------\n .sig files are like strings ... every yo-yo's got one.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi,\n    I was reading through \"The Spaceflight Handbook\" and somewhere in\nthere the author discusses solar sails and the forces acting on them\nwhen and if they try to gain an initial acceleration by passing close to\nthe sun in a hyperbolic orbit. The magnitude of such accelerations he\nestimated to be on the order of 700g. He also says that this is may not\nbe a big problem for manned craft because humans (and this was published\nin 1986) have already withstood accelerations of 45g. All this is very\nlong-winded but here's my question finally - Are 45g accelerations in\nfact humanly tolerable? - with the aid of any mechanical devices of\ncourse. If these are possible, what is used to absorb the acceleration?\nCan this be extended to larger accelerations?",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Technically there is no reason why a chip set cannot support a 486DX50 and\na 25MHz local bus.\n\nI'm waiting for the mezzianine (sp?) VL bus that will be decoupled from\nthe main CPU clock and allow for many more slots due to the user of buffers.\n\nThis will allow the use of ever faster CPUs with the same standard I/O\ncards. Until the next buss spec...\n\n\n\nGuy",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nI think you would lose your money. Julius was actually rather tall\nfor a Roman. He did go on record as favouring small soldiers though.\nThought they were tougher and had more guts. He was probably right\nif you think about it. As for Napoleon remember that the French\navergae was just about 5 feet and that height is relative! Did he\nreally have a complex?\n\nObSpace :  We have all seen the burning candle from High School that goes\nout and relights. If there is a large hot body placed in space but in an\natmosphere, exactly how does it heat the surroundings? Diffusion only?\n\nJoseph Askew\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "<stuff deleted>\n \n\t\t\t\t\t<other stuff deleted>\n\nWouldn't it be cheaper to just buy a little fourteen inch colour tv? Just \ncurious...\n\n\n\n\n\n--",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "What is the deal with life on Mars?  I save the \"face\" and heard \nassociated theories. (which sound thin to me)\n\nAre we going back to Mars to look at this face agian?\nDoes anyone buy all the life theories?\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I am having a problem with the high order bit of a character being \nclipped when entered in an xterm window under motif. I have reprogrammed\nthe F1 key to transmit a <ff> <be> character sequence by using the\nfollowing line in .Xdefaults:\n\n~Ctrl ~Shift ~Alt <Key> F1 : string(0xff) string(0xbe) \\n\\\n\nI merge in this line with xrdb -merge and then create the new xterm\nwhich has the remapped F1 key. The problem that arises is that the \napplication which is recieving input at the time only sees a <7f> <3e>\nsequence, which is <ff> <be> with the high order bit of each\ncharacter being filtered or ignored.\n\nWhen I run xev and press the F1 key, I get the correct value showing \nup in the following two key events:\n\n  KeyPress event, serial 14, synthetic NO, window 0x2800001,\n  root 0x28, subw 0x0, time 2067815294, (67,80), root:(74,104),\n  state 0x0, keycode 16 (keysym 0xffbe, F1), same_screen YES,\n  XLookupString gives 0 characters:  \"\"\n\n  KeyRelease event, serial 16, synthetic NO, window 0x2800001,\n  root 0x28, subw 0x0",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "How does one print to a non-appletalk printer  using DMM LaserWriter Stuff.\n\nI'm using the Serial driverand does nothig. I'vetried saving a postscriptfile and then tried sending with SendPS2.0 and it says can'topen LaserWriter Driver,\nthen some appletalk messagethatprinter not specified.  I'm using and imagewritwrite one cable.   Should I use a null-modem adapter?  Help...\n\n---Lowell",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The Phillies salvaged their weekend series against the Chicago Cubs\nby beating them 11-10 in a wild one at Wrigley Field Sunday\nafternoon.  It was the Phils only win in the three game series, and\nwas the first time the Phillies have lost a series in the young\nseason.   The Phils jumped to a 6-0 lead in the game thanks to 2\nJohn Kruk 2-run homers and two Wes Chamberlain homers.  However Danny\nJackson, and the Phillies middle relief was unable to hold the lead.\nMitch Williams entered the game with the Phillies leading 8-4,\nhowever Candy Maldonado hit a ninth inning homerun to tie it.  In\nthe 11th, Dave Hollins hit a three-run shot, his first of the year\nto push the Phils ahead to stay.  However, in a shaky bottom of the\n11th the Cubs scored 2 runs and had the tying runner on base when\nthe Cubs pinch hit Randy Myers for Bob Scanlan (they were out of\nposition players) and Myers bunted into a double play to end the\ngame.",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nWhen I first saw this, I thought for a second that it was a headline from\nThe Star about the pliers found in the SRB recently.\n\nY'know, sometimes they have wire-cutters built in :-)\n\n-Tommy Mac\n-------------------------------------------------------------------------\nTom McWilliams 517-355-2178 wk   \\\\ As the radius of vision increases,\n18084tm@ibm.cl.msu.edu 336-9591 hm \\\\ the circumference of mystery grows.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI have the a CD-Technology drive with the Toshiba mechanism, and it is\nsupposedly the fast and best now.  It has an access of 200ms and a data\ntransfer rate 300Kb/sec.  It is multisession photo-cd compatible.  It is\navailable from educorp for $599, the CD-Technology one, and comes with two\nmail in coupons for two free CDs.  I'm not sure if the cd's are good, since\nI've only had the drive a little less than a month and had the cd's shipped\nto my home address in california instead of here in maryland.  The\nCD-technology drive has a separate power supply separated from the drive,\nwhich supposedly gives it a longer life, and keeps it cleaner with no fan to\nattract dust.  A Toshiba brand drive is also available, but I think the\nCD-Technology is better, since you get the same mechanism, and at a slightly\nlower price with two free CDs.\n\nThe Apple 300/330i Drive, Sony Mechanism, is around a 300ms access time I\nthink, and a data transfer rate of 300Kb/sec.  I know it is the slowest of the\nthree mentioned here.  It is",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n \n\nGood point.  The New Testament does not quote Ezra, Nehemiah, Esther,\nRuth, Job, Ecclesiastes, or Song of Songs, just as it does not quote\nfrom the Deuterocanon.  But if the non-quotation of the former does not\ndisqualify them, neither does the non-quotation of the later.  And the\nWisodm of Solomon was quite clearly an influence on St. Paul, especially\nin the letter to the Romans (cf especially Romans 1.18-32 and Wisdom\n13-14).\n\n[stuff deleted]\n\n \nTrue.  Not all accepted them as Scripture, though niether were all the\nbooks of the New Testament so accepted, which puts to the lie the whole\nargument of the books being excluded because they were debated and not\nuniversally accepted.  Hebrews, the Apocalypse, 2 Peter, Esther, and\nothers were debated at various times, but eventually retained.  As for\nthe Codexes you mention, both Vaticanus and Sinaitcus include the\nDeuterocanon, bothe of the New and Old Testaments, and Vaticanus (I\nthink) inlcudes 1 Clement, the Shepard of Hermas, and the Epistle of\nBaranabas. ",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "# \n# > In Re:Syria's Expansion, the author writes that the UN thought\n# > Zionism was Racism and that they were wrong.  They were correct\n# > the first time, Zionism is Racism and thankfully, the McGill Daily\n# > (the student newspaper at McGill) was proud enough to print an article\n# > saying so.  If you want a copy, send me mail.\n# > \n# Was the article about zionism? or about something else. The majority\n# of people I heard emitting this ignorant statement, do not really\n# know what zionism is. They have just associated it with what they think\n# they know about the political situation in the middle east. \n# \n# So Steve: Lets here, what IS zionism?\n\n  Assuming that you mean 'hear', you weren't 'listening': he just\n  told you, \"Zionism is Racism.\"  This is a tautological statement.",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "1993 World Championships in Germany:\n ====================================\n\n   Group A standings (Munich)          Group B standings (Dortmund)\n   --------------------------          ----------------------------\n\n              GP  W T L GF-GA +/- P                  GP  W T L GF-GA +/- P\n\n   Canada      2  2 0 0  6-1  +5  4    Czech republic 2  1 1 0  6-1  +5  3\n   Russia      2  1 1 0  6-4  +2  3    Finland        2  1 1 0  3-1  +2  3\n   Italy       2  1 1 0  3-2  +1  3    Germany        2  1 0 1  6-5  +1  2\n   Sweden      2  1 0 1  2-4  -2  2    USA            2  0 2 0  2-2   0  2\n   --------------------------------    -----------------------------------\n   Austria     2  0 0 2  2-5  -3  0    France         1  0 0 1  0-2  -2  0\n   Switzerland 2  0 0 2  0-3  -3  0    Norway         1  0 0 1  0-6  -6  0\n\n \n April 18:  Italy - Russia        2-2       Norway - Germany          0-6\n            Sweden - Austria      1-0       USA - Czech republic      1-1\n\n April 19:  Canada - Switzerland  2-0\n            Russia -",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Joe,\n\n\tyour description sounds like one of the  gravity probe  spacecraft\nideas.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "My Western Digital also has three sets of pins on the back. I am using it with\nanother hard drive as well and the settings for the jumpers were written right \non the circuit board of the WD drive......MA SL ??\n\nI can't remember what the last one was. If you can't find these markings on the\ncircuit board, I'll open my machine and tell you what mine are.......",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nMany Companies package Syquest drives for the mac already.... So unless you\nare using one for the IBM world, Id buy a Mac ready Config.",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThere was a Science fiction movie sometime ago (I do not remember its \nname) about a planet in the same orbit of Earth but hidden behind the \nSun so it could never be visible from Earth. Turns out that that planet \nwas the exact mirror image of Earth and all its inhabitants looked like \nthe Earthings with the difference that their organs was in the opposite \nside like the heart was in the right side instead in the left and they \nwould shake hands with the left hand and so on...\n\n C.O.EGALON@LARC.NASA.GOV\n\nC.O.Egalon@larc.nasa.gov",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I finally got the vesa driver for my ATI graphics ultra plus (2M).  However,\nwhen I tried to use this to view under 24bit mode, I get lines on the picture.\nWith 16bit or below, the picture is fine.  Can someone tell me what was wrong?\nIs it the card, or is it the software?\n--\nThanks\n8)\n    _/_/_/_/  _/_/_/    _/    _/    _/_/    _/_/_/    _/_/_/  \n   _/\t     _/    _/  _/    _/  _/    _/  _/    _/  _/    _/ \n  _/_/_/_/  _/    _/  _/ _/ _/  _/_/_/_/  _/_/_/    _/    _/\n _/        _/    _/  _/ _/ _/  _/    _/  _/  _/    _/    _/ \n_/_/_/_/  _/_/_/      _/ _/   _/    _/  _/    _/  _/_/_/    ",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Press Release No.19-93\nParis, 22 April 1993\n\nUsers of ESA's Olympus satellite report on the outcome of\ntheir experiments\n\n\"Today Europe's space telecommunications sector would not\nbe blossoming as it now does, had OLYMPUS not provided\na testbed for the technologies and services of the 1990s\". This\nsummarises the general conclusions of 135 speakers and 300\nparticipants at the Conference on Olympus Utilisation held in\nSeville on 20-22-April 1993. The conference was organised by\nthe European Space Agency (ESA) and the Spanish Centre for\nthe Development of Industrial Technology (CDTI).\n\nOLYMPUS has been particularly useful :\n-      in bringing satellite telecommunications to thousands of\n       new users, thanks to satellite terminals with very small\n       antennas (VSATs). OLYMPUS experiments have tested\n       data transmission, videoconferencing, business television,\n       distance teaching and rural telephony, to give but a few\n       examples.\n\n-      in opening the door to new telecommunications services\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Me, too... RBI are a worthless stat. Of course, so is stolen bases because \nsometimes runners are in front of a player that would otherwise run. And of\ncourse pitchers pitch differently with different people on different bases,\nso batting average, slugging and obp out, too.  Hmmm... i guess homers would\nnot count then, either.\nMy point? RBI might not be a perfect stat but nothing is. And no stat (or lack\nof) can tell me there are no clutch hitters. Maybe no stat CAN tell me,\neither, but some people are... I just know it!!! 8)",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n    I've been using the Build59 drivers on a GW2K 4DX2-66V for several\nweeks with no problems. I'm running Windows in 1024x758 and all software\nI've run has worked fine. This includes many games and the CD-based \nmulti-media encyclopedia, on which the full-motion video works fine.\nI'd recommend you give them a try.\n\n\n-- John\n\n\n",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "How is the CMOS backed-up? Dry cell batteries or ni-cad cell?\n\nYour batteries may be dead.",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "In a Philadelphia Inquirer a few days ago, it was reported that there were\ntwo (2) plans for a new Phillies stadium:  the already-mentioned 30th\nStreet Station proposal, and a location near Broad Street and Race Street,\nI think.  I can't remember the exact details, but the stadium would be\nbuild practically downtown.  There is a small lot that could be used,\naccording to the paper.  The 30th street plan has run into some trouble,\nbecause Amtrak does not want to reroute some of its lines in order to\naccomodate the stadium.  I don't have an opinion just yet, just letting\neveryone know that there are really two options being discussed right now.\nNeither of these plans will be put into effect very soon, however, because\nnobody wants to pay for it :-)\n\n--\n    Keith Keller\t\t\t\tLET'S GO RANGERS!!!!!\n\t\t\t\t\t\tLET'S GO QUAKERS!!!!!\n\tkkeller@mail.sas.upenn.edu\t\tIVY LEAGUE CHAMPS!!!!",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nno argument on going direct to National (see my previous post on this topic),\nbut some info regarding what you said above.  I don't know about the 8250 or\n16450, but NS was the original source for the 16550 series (and I strongly\nsuspect that they developed the others first, too).\n\nI can also tell you that I'm one of those who won't buy a UART made by\nanyone other than National Semiconductor.\n\n   --jim\n\n--\n#include <std_disclaimer.h>                                 73 DE N5IAL (/4)\n------------------------------------------------------------------------------\nINTERNET: jim@n5ial.mythical.com  |  j.graham@ieee.org     ICBM: 30.23N 86.32W\nAMATEUR RADIO: n5ial@w4zbb (Ft. Walton Beach, FL)          AMTOR SELCAL: NIAL",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nMy least favorite last line of a post.  Um, it is of general interest.\nAs I prepare to retire 22 Apollos myself, I'm looking for ways to \nrecycle the useful parts.",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nI think I can. Largely as a result of efforts by people reading this group\nwriting letters and making phone calls the following has happened:\n\n1. NASA reprogrammed funds to keep NASP alive in 1991.\n2. Efforts to kill DC-X and the SSRT progam where twice twarted\n   (Feb. and June of last year).\n3. Gouldin kept his job in spite of heavy lobbying against him.\n\nThis may not be what Mark was thinking of but it shows that the\nreaders of sci.space DO have power and influence.\n\n  Allen\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\nActually, that is no longer true. In the last few years Congress has\nammended laws to provide whatever is needed. Note that both Spacehab\nand Comet are funded this way.\n\nThe problems aren't legal nor technical. The problem is NASA's culture.\n\n  Allen\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The following are my thoughts on a meeting that I, Hugh Kelso, and Bob Lilly\nhad with an aide of Sen. Patty Murrays.  We were there to discuss SSTO, and\ncommercial space.  This is how it went...\n\n\n\nAfter receiving a packet containing a presentation on the benifits of SSTO,\nI called and tried to schedule a meeting with our local Senator (D) Patty\nMurray, Washington State.  I started asking for an hour, and when I heard\nthe gasp on the end of the phone, I quickly backed off to 1/2 an hour.\nLater in that conversation, I learned that a standard appointment is 15 minutes.\n\nWe got the standard bozo treatment.  That is, we were called back by an aide,\nwho scheduled a meeting with us, in order to determine that we were not\nbozos, and to familiarize himself with the material, and to screen it, to \nmake sure that it was appropriate to take the senators time with that material.\n\nWell, I got allocated 1/2 hour with Sen. Murrays aide, and we ended up talking\nto him for 45 minutes, with us ending the meeting, and him still",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Reply address: mark.prado@permanet.org\n\n > From: higgins@fnalf.fnal.gov (Bill Higgins-- Beam Jockey)\n >\n > In article <1993Apr19.230236.18227@aio.jsc.nasa.gov>,\n > > |> AW&ST  had a brief blurb on a Manned Lunar Exploration\n > confernce> |> May 7th  at Crystal City Virginia, under the\n > auspices of AIAA.\n >\n > Thanks for typing that in, Steven.\n >\n > I hope you decide to go, Pat.  The Net can use some eyes\n > and ears there...\n\nI plan to go.  It's about 30 minutes away from my home.\nI can report on some of it (from my perspective ...)\nAnyone else on sci.space going to be there?  If so, send me\nnetmail.  Maybe we can plan to cross paths briefly...\nI'll maintain a list of who's going.\n\nmark.prado@permanet.org",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "+++\n++Once inflated the substance was no longer\n++needed since there is nothing to cause the balloon to collapse.\n++This inflatable structure could suffer multiple holes with no \n++disastrous deflation.\n+\n+preasure (and the internal preasure that was needed to maintain\n+a spherical shape against this resistance) caused them to\n+catastrophically deflated.  The large silvered shards\n+\n+The billboard should pop like a dime store balloon.\n\nNo, you're wrong about this. Give me some time to get my references.\n\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nUnless I'm imaging things, (always a possibility =) 1992 QB1, the Kuiper Belt\nobject discovered last year, is known as Smiley.\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "According to the hockey gurus over at ESPN, should the Islanders win tonite\nthe two teams will have the same record, but the Devils will be playing the\nPenguins.  This is because the Islanders have won the season series against\nthe Devils.  I think the rules for deciding a tie breaker include:\n\n1.  season series\n2.  goals against\n3.  goals for\n\nin this order (correct me if I'm wrong).  Anyone have anything to add?\n\nCraig",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have two books, both NASA Special Publications, on the Voyager \nMissions. One is titled \"Voyages to Jupiter\" the other \"Voyage to Saturn\" \nThese were excellent books put together after the encounters with each \nplanet. \n\nThe question is: Did NASA ever put together a similar book for either the \nUranus encounter or Neptune? If so, what SP number is it and where can it \nbe obtained? If not, why didn't they?\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nIt is a long standing good luck Redwing's tradition to throw an octopus \non the ice during a Stanley Cup game. They say it dates back to '52\nat the Olympia when the Wings became the 1st team (I think) to sweep \nthe cup in 8 games. A lot hardet to throw one from Joe Louis seats\nthan from the old Olympia balcony, though.",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nExactly when will the hover test be done, and will any of the TV\nnetworks carry it.  I really want to see that...\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nDennis, I have worked on or written proposals worth tens of millions\nof $$. Customers included government (including NASA), for profit and\nnon-profit companies. All expected a wrap (usually called a fee). Much\nof the work involved allocating and costing the work of subcontractors.\nThe subcontractors where universities, for-profits, non-profits, and\neven some of the NASA Centers for the Commercialization of Space. ALL\ncharged fees as part of the work. Down the street is one of the NASA\ncommercialization centers; they charge a fee.\n\nNow, I'm sure your a competent engineer Dennis, but you clearly lack\nexperience in several areas. Your posts show that you don't understand\nthe importance of integration in large projects. You also show a lack\nof understanding of costing efforts as shown by your belief that it\nis reasonable to charge incremental costs for everything. This isn't\na flame, jsut a statement.\n\nYour employer DOES charge a fee. You may not see it but you do.\n\n\n\nWell there you are Dennis. As I said, they ",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi.  I am working on a project for my marketing class and I'd like to\nask your help.  The assignment is to come up with a product and create a\nmarketing plan for it.  Technical issues are not terribly important at\nthis point.  Well, my group's plan is to market a \"full page\" monitor\nfor laptop computers.  It would be a third-party product to be installed\nby authorized repair centers (like Newer Technology's PaletteBook\nscreen).  The idea is that the screen would fold in such a way that you\nwould get twice the screen height of a normal screen (remember,\ntechnical issues aside!).  In fact, by adjusting the fold of the screen\nand the monitor configuration, you could have regular OR \"full\" height. \nThe screen would probably be monochrome.\nThe motivation behind this is that laptop computers seem to be very\npopular among business people.  Business people also commonly use word\nprocessing and spreadsheet applications for which it is very convenient\nto see a large portion of the document.  Because of the target users",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Just to let all you faithful Mitsumi CD Rom owners....\n\nEver notice QEMM can't load you CD Rom driver high?  Ain't it a bitch?\n\nWell, you can call up Quarterdeck's BBS and get a hold of the new drivers\nthat CAN be loaded high.  Sorry , I don't have their # on me. :-(\n\nI tested them out and the seem to work great!",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Two developments have brought these type of activities back to\nthe forefront in 1993.  First, in February, the Russians deployed a\n20-m reflector from a Progress vehicle after it had departed from\nthe Mir Space Station.  While this \"Banner\" reflector was blank,\nNPO Energia was very active in reporting that future  Banner\nreflectors will be available to advertisers, who could use a space-\nbased video of their logo or ad printed on the Banner in a TV\ncommercial, as filmed from the Mir.\n   The second development, has been that Space Marketing Inc, the\nsame company responsible for merchandising space on the Conestoga\nbooster and COMET spacecraft, is now pushing the \"Environmental\nBillboard\".  As laid out by SMI Chief Engineer Dr Ron Humble of the\nUniversity of Colorado Space Laboratory and Preston Carter of the\nLawrence Livermore National Laboratory, the \"Environmental\nBillboard\" is a large inflatable outer support structure of up to\n804x1609 meters.  Advertising is carried by a mylar reflective area,\ndeployed by",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Greetings!!\n\n\tI planning to upgrade my Mac IIsi:\n\n\t\t(1) from the present 5Megs to 17Megs;\n\tand\t(2) add a Math-Coprocessor.\n\n\tTechnology Works, of Austin (Texas) comes quite highly recommended by \nsome Mac magazines.  I was just wonderring if anyone could share with me \nanything about Tech Works (both good and bad experiences); or give any advice\nabout other mail-order companies that I may consider.\n\n\tYour reply would be very much appreciated.  Thanks in advance.",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Piper lived in my town (Williamsport, PA) when he killed himself.  It\nwas in the early '60's.  He had had more than a few books published by\nthat time, but he was down on his luck financially.  Rumor was that he\nwas hunting urban pigeons with birdshot for food.  He viewed himself as\na resourceful man, and (IMO) decided to check out gracefully if he\ncouldn't support himself.  The worst part is that John Campbell, the\nlong-time editor of Astounding/Analog SF magazine had cut a check for\nPiper's most recent story, and said check was in the mail.  If Campbell\nhad known Piper's straits, I'm sure he would have phoned to say hang on.\nCampbell was like that.\n\nI wish it had happened differently.  I always enjoyed Piper's stuff.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nWas that post for real? I thought it was a late April Fool joke. Some of it\nseemed a bit over the top even by McElwaine/Abian/etc standards :-)\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I own a Mac IIsi and am considering upgrades (cards, hard drive, etc).\nCan you tell me what the power limitations are for 1) the PDS slot\nand 2) the hard drive power feed. Secondly, Can you tell me if there\nis a separate limit for each, or if instead, there is a single limit\nfor both combined?",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\nWell, pardon me for trying to continue the discussion rather than just\ntugging my forelock in dismay at having not considered actually trying\nto recover the energy from this process (which is at least trying to\ngo the 'right' way on the energy curve).  Now, where *did* I put those\nsackcloth and ashes?\n\n[I was not and am not 'pretending' anything; I am *so* pleased you are\nnot surprised, though.]\n\n\nNote that I didn't say it was perpetual motion, or even that it\nsounded like perpetual motion; the phrase was \"sounds almost like\nperpetual motion\", which I, at least, consider a somewhat different\npropposition than the one you elect to criticize.  Perhaps I should\nbeg your pardon for being *too* precise in my use of language?\n\n\nI will believe that this process comes even close to approaching\ntechnological and economic feasibility (given the mixed nature of the\ntrash that will have to be run through it as opposed to the costs of\nseparating things first and having a different 'run' for each\nactinide) when I see t",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Another fish to check out is Richard Rast -- he works\nfor Lockheed Missiles, but is on-site at NASA Johnson.\n\nNick Johnson at Kaman Sciences in Colo. Spgs and his\nfriend, Darren McKnight at Kaman in Alexandria, VA.\n\nGood luck.\n\nR. Landis",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have two questions:\n\n1) What would be required to create a Macintosh PC network\n   including laser printers, line printers, etc.?",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n   Do you really need to switch to a DX2/66 instead of a DX50?  As I\n   understand it, DX50's can have local bus devices (on the mother-board?)\n   but not local bus slots.  And according to what I been told, many\n   systems go beyond the VESA local bus standard in order to provide DX50\n   systems with a local bus slot capability.  I have definitly seen a\n   mother board with 2 local bus slots which claimed to be able to\n   support any CPU, including the DX2/66 and DX50.  Can someone throw\n   some more informed light on this issue?\n\nYou will need to check with peripheral makers to see if their boards\nwill work at 50 MHz.  Some will with some motherboards.\n",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Everbody has been defining envelope.\nWhy was the world \"envelope\" chosen, rather than say \"shell\", \nor \"boundary\".  In analogy with the envelopes of airships perhaps?\n\nActually, \"shell\" might be good.  Push the shell too hard and\nit (the aircraft?) breaks. ",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThis claim was made when someone spotted training film footage spliced into\nthe footage of the actual spacewalk.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "the \n\nNot Quite the point to be considdered here!\nFact: If/When Apple release system 7 (or what ever is current at the time \nof release) then you will see shortly afterwards Apple no longer producing \nHardware...Look at Next with their NextStep486 to see what happens.\nWho is going to pay Apples Prices when they can get the same thing cheaper \nelse where! (Heck we can get a Sun Workstation cheaper than a Quadra, and \ninfact we have a number of times!!!, it ALL comes down to $$$$)\n\nthem,\nIt\n\n\nNo the continued develeopment is because there is becomming less and less \nprofit in Hardware, So the Next Step (no pun intended...well sort of), is \nto make the money in software (look at Microsoft if you think it can't \nhappen!), after all you can sell multiple pieces of software to ONE \nhardware platform.\n\nAs you also said Windows is a nightmare for programmers, so will the \ntemptation to sell system 7 to a couple of MILLION dos users be too much \nfor Apple! (50 million copies @ $100 is SERIOUS money!).\n\n--\n",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nXGA or XGA-2?  For the original XGA you just need something that can do\n1024x768 at 45/90Hz interlaced (just tell them \"8514 compatible\" and they\nshould get the idea).  For the XGA-2, get what you like.  I prefer multi-\nsyncs like the IBM 6319, the NECs or even a fixed frequency monitor like\nmy home Viewsonic 6.  I like the Multisyncs because it's easy to run them\nin modes like 800x600x64k colors noninterlaced, or at higher modes like\n1360x1024x16.",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Lowenstein is NOT Jewish.  However, there is a long list including\nHank Greenberg, Moe Berg, Rod Carew (a convert), the Sherry brothers,\nArt Shamsky, and Ron Blomberg.",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi all you Ryno fans (and those interested...)\nTodays Chicago Tribune had this written in it today in regards to\nRyne Sandberg...\n\n\"Ryne Sandberg is ahead of schedule in his recovery from a broken\nleft hand and could be back in the lineup by May 1, manager Jim\nLefebvre said Friday.\nDoctors cleared Sandberg to swing a padded bat at a ball in his \ngloved hand.\n'' I'm not surprised his rehabilitation has been moved up,'' said\nLefebvre.  '' He's a fast healer, and he doesn't like being on the \ndisabled list.  He's been running since he was hurt [March 5] and\nis in the best shape of his life.  May 1 is his target date for\ngetting back in the lineup.\"\n\nHold on to your hats Cub fans...more later as information\npresents itself.",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThe audio will simply select the CD audio when the microphone is removed. \nI don't believe the button un-dims, since there's nothing to select.  I\nhaven't tracked down a Centris to check this on though.\n\n\nYup, I made the same mistake several months ago when this issue came up\nbefore :-)\n\n\nnoah",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "That is an idea.. The most efficient moon habitat.. \n\nalso the idea of how to get the people off the moon once the prize was won..\n\nAlso the idea of how to rescue someone who is \"dying\" on the moon.\n\nMaybe have a area where they can all \"see\" each other, and can help each other\nif something happens.. \n\nI liek the idea of one prize for the first moon landing and return, by a\nnon-governmental body..\n\nAlso the idea of then having a moon habitat race.. \n\nI know we need to do somthing to get people involved..\n\nEccentric millionaire/billionaire would be nice.. We see how old Ross feels\nabout it.. After all it would be a great promotional thing and a way to show he\ndoes care about commericalization and the people.. Will try to broach the\nsubject to him.. \n\nMoonbase on the cheap is a good idea.. NASA and friends seem to take to much\ntime and give us to expensive stuff that of late does not work (hubble and\nsuch). Basically what is the difference between a $1mil peice of junk and a\nmulti $1mil piece of junk.. I know j",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nThey recycled a lot of models and theme music for UFO.  Some of the\nconcepts even showed up in SPACE: 1999. \n\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I would really like to get one of the new CD300i CDROM\ndrives for my c650, but my local Apple doesn't know \nwhen they will be available.  He doesn't even have a part\nnumber yet.   Does anyone know what the part number \nfor this drive is and when it will be available?\n\nMy Apple dealer suggested I buy one of the CD300 external\ndrives, but I don't want to pay extra for a case/power supply\nI'm not going to use.",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n# Well said Mr. Beyer :)\n\nHe-he. The great humanist speaks. One has to read Mr. Salah's posters,\nin which he decribes Jews as \"sons of pigs and monkeys\", keeps\npromising the \"final battle\" between Muslims and Jews (in which the\nstons and the trees will \"cry for the Muslims to come and kill the\nJews hiding behind them\"), makes jokes about Jews dying from heart\nattacks etc, to realize his objective stance on the matters involved.",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI haven't seen enough Royals' games to judge his tactics, so you may have\na point here.  But:\n\n\nIMO, the Royals don't have a chance to win the pennant even if McRae\nsuddenly began channeling for John McGraw.  OK, they have some decent\npitchers.  But when your offense consists of bums like Gagne and Lind\nand McReynolds and McRae and an over-the-hill Brett, you're not going\nto finish .500 unless McGraw brings Christy Mathewson back with him.\n\nI'd say it is hard to evaluate a manager when all of his hitters suck.",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nNot a good idea to compare processor power. Doesn't make sense for real\nworld applications. At least not for totally different lines of processors.\n\n\n\nAt least for x86 systems doubling the clock speed increases performance\nby about 70% .\n\n\n\n\t\t\t\t   stuff deleted\n-- \nRavikumar Venkateswar\nrvenkate@uiuc.edu",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n > I wonder if Ojeda will sue anyone - because his career may be over.\n\nNot due to the accident -- he just got a (really) bad haircut.  Now, if you\nmeant due to his floating fastball, well...\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Has anyone looked into the possiblity of a Proton/Centaur combo?\nWhat would be the benefits and problems with such a combo (other\nthan the obvious instability in the XSSR now)?\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I posted about this a while ago but without code excerpts noone was\nable to help me.\n\nThe problem is that main_win.win is doing fine, but when I create\ndetail_win.win, it does not receive it's initial expose events until\nmain_win.win receives an event. Here are the relevent calls:\n\nmain_win.win = XCreateSimpleWindow (mydisplay, DefaultRootWindow(mydisplay),\n                myhint.x, myhint.y, myhint.width, myhint.height,\n                main_win.line_thick, fg, bg);\nXSetStandardProperties(mydisplay, main_win.win, main_win.text,\n                main_win.text, None, argv, argc, &myhint);\nmain_win.gc = XCreateGC (mydisplay, main_win.win, 0, 0);\nXMapRaised (mydisplay, detail_win.win);\nXMapSubwindows (mydisplay, main_win.win);\nThe event mask for main_win is:\n        PPosition | PSize | StructureNotifyMask | ExposureMask| KeyPressMask |\n        EnterWindowMask | LeaveWindowMask;\nThe flags are\n        PPosition | PSize\n\nI then create detail_win.win with the following calls (hints has new values):\ndetail_win.win = XC",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I just overheard that San Jose Coach George Kingston was officially\nterminated today...  Maybe good news, maybe bad.  I kinda liked him, but he\nseemed to lack a certain fire.\n",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "My fiance has a pc-junior and wants to upgrade to a full 386.  Does anyone\nknow if we could use the monitor it came with on a new machine?  I heard\nit's MCGA or EGA, but not sure which.  Also, does it use cards, so we can \nuse the drive controller, floppy, etc?\n\nThanks for the help!\n-Bryan\n",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Are breathable liquids possible?\n\nI remember seeing an old Nova or The Nature of Things where this idea was\ntouched upon (it might have been some other TV show).  If nothing else, I know\nsuch liquids ARE possible because...\n\nThey showed a large glass full of this liquid, and put a white mouse (rat?) in\nit.  Since the liquid was not dense, the mouse would float, so it was held down\nby tongs clutching its tail.  The thing struggled quite a bit, but it was\ncertainly held down long enough so that it was breathing the liquid.  It never\ndid slow down in its frantic attempts to swim to the top.\n\nNow, this may not have been the most humane of demonstrations, but it certainly\nshows breathable liquids can be made.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n'SDPA.ORG' criminals/Nazis in action. Your fascist government got away with \nthe genocide of 2.5 million Turkish men, women and children and is enjoying \nthe fruits of that genocide. And your criminal organization will not get away \nwith the genocide's cover-up. In June 1915, a major uprising took place in \nSebinkarahisar under the leadership of the famous Nazi Boyadjian. The Moslem \ndistricts were burnt down. Hundreds of soldiers and gendarmerie were killed\nand hundreds of civilians also perished.\n\n   Armenians first of all occupied the Talori region, which included \n   the villages of Siner, Simai, Gulli-Guzat, Ahi, Hedenk, Sinank,\n   Ekind, Effard, Musson, Etek, Akcesser. Leaving their wives, \n   children and property in these inaccessible spots, the Armenians \n   joined forces with other armed bands coming from the Silvan \n   districts in the plain of Mus, after which the whole body of\n   3000 men gathered in the Andok Mt. Five or six hundred wished\n   to surround Mus, and started off by attacking the D",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nLook for a happier-looking KZ440?\n\nSuzuki used to have an L designation, for example my former boss had a\nGS850L which had a seat a couple inches lower than the \"regular\"\nGS850, but it was certainly no cruiser.",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "  For that matter, it shouldn't be that difficult to design a black box\nthat gives off EMR similar to a monitor with gibberish on the screen....\n\n\n\n\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello,\n\nI already tried our national news group without success.\n\nI tried to replace a friend's original IBM floppy disk in his PS/1-PC\nwith a normal TEAC drive.\nI already identified the power supply on pins 3 (5V) and 6 (12V), shorted\npin 6 (5.25\"/3.5\" switch) and inserted pullup resistors (2K2) on pins\n8, 26, 28, 30, and 34.\nThe computer doesn't complain about a missing FD, but the FD's light\nstays on all the time. The drive spins up o.k. when I insert a disk,\nbut I can't access it.\nThe TEAC works fine in a normal PC.\n\nAre there any points I missed?\n\nThank you.\n\tVolkmar\n",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nIn a cell church, the fundamental building block is the \"cell group\" -- a\nsmall group of no more than 15 believers.  The small groups are responsible\nfor the ministry of the church: evangelism and discipleship.  The emphasis\nis on relationships, not on programs, and both the evangelism and the\ndiscipling are relationship-based.\n\nThis will probably raise more questions than it answered, but that's it in\na nutshell.",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI have been following this thread and figured I'd throw in my two cents...\n\nThe Amiga Zorro II bus is comparable with the ISA bus (7.16 vs 8.33 MHZ).\nThe Amiga has had a pre-emptative multi-tasking  OS since '85 and can\noperate with 1 MB RAM!  SCSI is used almost exclusively on these systems.\n\nA SCSI controller that transfers data by DMA allows the cpu to request data\nfrom the hard drive and continue working while the controller gets the data\nand moves it to memory.  A controller that allows reselection can operate\neven better with multiple devices.  This is espically true with SCSI tape\nunits.  For example, when rewinding or formatting a tape, the command is\nissued to the controller and the bus is released to allow access to other\ndevices on the bus.  This greatly increases productivity or, at least, do\nsomething else while backing up your hard drive :-).  Which happens to be\nwhat I am doing while reading this group.\n\nIts a long story, but I still use IDE on my 486 except for the CDROM which,\nthanks to SCSI",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  }
+]

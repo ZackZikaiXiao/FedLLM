@@ -3,6 +3,9 @@ import xml.etree.ElementTree as ET
 import datasets
 import json
 import random
+import sys
+sys.path.append("./")
+from data_tool.imbalance_num import get_img_num_per_cls
 logger = datasets.logging.get_logger(__name__)
 
 
@@ -161,8 +164,10 @@ def generate_train_from_origin_train(change_label_ratio):
     original_data = json.loads(content)
     random.shuffle(original_data)
     alphabet=['A', 'B', 'C', 'D']
+    
     if change_label_ratio:
-        data_amount_for_each_label = [4657, 3260, 1862, 467]
+        data_amount_for_each_label = get_img_num_per_cls(original_data, 4, 'exp', 0.4)
+        # data_amount_for_each_label = [4657, 3260, 1862, 467]
         label_to_be_filled = 0
     correct_answer_id_num_for_each_domain = {
         'fiction': [0, 0, 0, 0],

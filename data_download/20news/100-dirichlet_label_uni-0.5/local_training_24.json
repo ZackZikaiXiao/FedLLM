@@ -1,0 +1,470 @@
+[
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi,\n\tWe've been having problems on a few setups when printing to a\nserial printer (dmp or Laser). I have used Works and Windows Write. The\noutput is OK from DOS and if I send plain text output, but anything\nfancy garbles or just doesn't output. The exception is outputting to a\nLserjet 4 which 'appears' to be fast enough receiving data, not to\nbother about handshaking messages. I'm sure I'm not alone in this. I've\ntried most of the Print/Network manager options I can think of. Anyone\nhad similar problems they've cured and would like to tell me 'bout it??\nThanks",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "un, you better add at least another plus to the Pederson\nfor Neely trade, the Bruins also received a number 1 round\ndraft pick, didn't play great this year but Wesley's still a\ndecent defenseman....  And the Bruins got Pederson back eventually\nanyway.....\n\n             Pat Ellis\n\n\nP.S.  GO BRUINS    GO UMAINE BLACK BEARS    42-1-2       NUMBER 1......\n\n                   HOCKEY EAST REGULARS SEASON CHAMPIONS.....\n                   HOCKEY EAST TOURNAMENT CHAMPIONS>......\n                   PAUL KARIYA, HOBEY BAKER AWARD WINNER.......\n         NCAA DIV. 1 HOCKEY TOURNAMENT CHAMPIONS!!!!!!!!!!!!!!!!!!!\n",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello Brad!\n\nMonday April 26 1993 17:24, Brad Smalling wrote to (crosspost 1) All:\n\n BS> For a VGA card these are the correct files but you can't just copy them\n BS> back and expect it to work.  You have to create a new WIN.COM file.  Try\n BS> the command (you will have to worry about what directories each file is in\n BS> since I don't know your setup):\n\n BS> COPY /B WIN.CNF+VGALOGO.LGO+VGALOGO.RLE WIN.COM\n\n BS> (I grabbed this from _Supercharging Windows_ by Judd Robbins--great book)\n BS> This is also how you can put your own logo into the Windows startup\n BS> screen. An RLE file is just a specially compressed BMP file.\n\nBrad,\n    What is the procedure used to 'specially' compress the BMP file?  I would\nlove to use some of my BMP files I have created as a logo screen.  Thanks\n\nChris\n",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I've recently got hold of a PC with an S3 card in it, and I'd like to do some\nC programming with it, are there any libraries out there that will let me\naccess the high resolution modes available via Borland Turbo C?",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nWhat they would need to do, though, is make sure that nobody has\naccess to decent crypto in the first place.  They probably can't\ntell Clippered voice from Clippered triple-DESed voice until they\nget their copy of your key.  Any criminal who's going to use\nencryption will do it under cover of Clipper.  The only way to avoid\nthis will be to try to prohibit strong encryption.\n\nI probably shouldn't say this, but they could try to detect the use\nof an illegal cypher by transmitting in the clear some statistical\nproperties of the plaintext.  An old-fashioned wiretap could then\ndetect the use of pre-encryption, which would drastically increase\nthe measured entropy of the input.  A countermeasure to this would\nbe to use steganographic techniques which put out voice.\n\nYou can tell if the NSA built this feature in: blow on the mike, and\nobserve whether a band of thugs comes through your ceiling.",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Boy, this will be embarassing if it is trivial or an FAQ:\n\nGiven 4 points (non coplanar), how does one find the sphere, that is,\ncenter and radius, exactly fitting those points?  I know how to do it\nfor a circle (from 3 points), but do not immediately see a \nstraightforward way to do it in 3-D.  I have checked some\ngeometry books, Graphics Gems, and Farin, but am still at a loss?\nPlease have mercy on me and provide the solution?  \n\nThanks,\nEd\n\n",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nDid they move Probert back to defense?  Why did I see him parking his ass\nin front of Potvin all night?  Somebody is going to have to discipline\nProbert if the Leafs want to win the series.  Perhaps a fresh Clark should\nhit the ice at the end of a long Probert shift and straigten him out for\na while...\n\n\n-- ",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\n\n\n\nAgain, I do not speak for Peter Tattam, but it is my understanding that it \nwill shareware status as Trumpet 1.05 for DOS is, and I imagine that the \nregistration fees will be similar.  I also believe that a new version of \nTrumpet for DOS will be released sometime in the near future.\n\nAshok\n",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have a Diamond Speedstar 24X board that I want to program\nfor 24 bit 640x480 graphics, or possibly 800x600 16 bit color.\nDoes anybody have any libraries supporting these modes on this\nboard? Even somes simple routines to set the graphics mode and\nplot individual pixels would be a great help. I plan to use the\nroutines with djgp.\n\n   Thanks in advance. Please respond also via e-mail.",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nDon't get too excited; Signetics, not Motorola, gave the 68070 its number.\nThe 68070, if I understand rightly, uses the 68000 instruction set, and has\nan on-chip serial port and DMA.  (It will run at up to 15 MHz--I'm typing\nat a computer using a 68070 running at that rate, so I know that it can\ndo so--so I seriously doubt the clock rate that ricardo@rchland.vnet.ibm.com\nclaims.)",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have been experiencing several end-user problems with various commercial\nsoftware packages (WordPerfect 5.2/WIN, Publish It!/WIN 3.1) and printing\nlandscape mode on a Citizen PN48 (the little guy) or the Citizen GSX-140+.\n\nIn a nutshell the problem is that I lose the first 0.625 inches of\ninformation from my left margin, be it white space or TrueType font\noutput, and margins are not preserved on subsequent pages past the\nfirst.\n\nWordPerfect had a workaround consisting of using the \"Default\" location\nfor the printers instead of \"Tractor\" or \"Manual\".  They have also filed\nthis as a bug and are continuing to investigate it.\n\nMS Write, of course, has no problem with these printer drivers, proving that\nMicrosoft knows something the rest of us don't!  Are you surprised?  I'm\nnot.\n\nPublish It!/WIN is still investigating this problem, and while I was consider-\nmy options (rejecting the one about buying an $800 DTP package, for *surely*\nthey wouldn't have this problem, right?) I stumbled onto a global workaround.\n\n",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "  You can try defraging your disk more often. It definitely will\n help speed things up. A 2 megs smartdrv is also a good idea with\n the amount of memory you have, and use fastdisk (32bit access) if\n you not already. Hope that help..",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Gordon Banks:\n\nThis certainly describes my situation perfectly. For me there is\na constant dynamic between my tendency to eat, which appears to\nbe totally limitless, and the purely conscious desire to not\nput on too much weight. When I get too fat, I just diet/exercise\nmore (with varying degrees of success) to take off the\nextra weight. Usually I cycle within a 15 lb range, but\nsmaller and larger cycles occur as well. I'm always afraid\nthat this method will stop working someday, but usually\nI seem to be able to hold the weight gain in check.\nThis is one reason I have a hard time accepting the notion\nof some metabolic derangement associated with cycle dieting\n(that results in long-term weight gain). I have been cycle-\ndieting for at least 20 years without seeing such a change.\n\nI think a vigorous exercise program can go a long way toward\nkeeping the cycles smaller and the baseline weight low.",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "  Could someone please help me find a program or figure out how to extract a li\nst of R G B values for each pixel in an image.  I can convert between tga and s\neveral other popular formats but I need the R G B values for use in a program I\n am writing.  Thanks for the help\n",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Anyone have any info. on the video/sound card from SIGMA designs.\nIt is called WIN STORM PC.\nThey also have another card called the legend 24lx\n\nany info would be appreciated, incuding performance, pricing and\navailability.\nthanks",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I'm looking for any leads to the source of a good Windows\nMeta File converter or interpreter. I need this for use\noutside the Windows environment. PD sources preferred, but\nnot a requirement. Please reply to the address below.\n",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Does anyone have the documentation for the MS Mouse Driver 8.2?  I got it when  \nI got Windows 3.1, but my Windows manual does not come with the documentation.   \nIn particular I need to know how to turn it off, and how to speed it up  \noutside windows.  The greater sensitivity is needed so I can play various  \ngames, esp X-wing :)\n\n---\n---------------------------------------------------------------------",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I'm interested in find out what is involved in processing pairs of \nstereo photographs.  I have black-and-white photos and would like \nto obtain surface contours.\n\nI'd prefer to do the processing on an SGI, but would be interested\nin hearing what software/hardware is used for this type of\nimage processing.\n\nPlease email and/or post to comp.sys.sgi.graphics your responses.\n\nThanks,",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nYou're assuming that their normal rotation carries all areas of the surface\ninto sunlight.  Not so.  Even on Earth, each pole gets several weeks without\nsunlight in mid-winter.  Pluto and Charon have much more extreme axial\ntilt and a much longer orbit.  Pluto's north pole, for example, gets over\na century of darkness followed by over a century of perpetual light.\n\nAt the moment, we're in luck -- Pluto and Charon are just past their\nequinox, when the Sun was just on the horizon at both poles (of each).\nIf we get probes there soon, only the immediate vicinity of one pole\n(on each) will be in long-term shadow.  This will get steadily worse the\nlonger we wait.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Everyone keeps talking about European expansion by 2010 thinking\nwishful thoughts, but being totally off the ball.\n\nThe league format we use here is incompatible with that in Europe.\n(for those that don't know, the best teams from lower divisions get\npromoted and the worst get demoted).\n\nWould European fans put up with our \"if you've paid, you can play\" \nattitude??\n\nHow long would they support teams that are run on Ranger-based \ncorporate thinking (I use the term lightly).  (We don't need a good\nproduct because these duffuses in NYC would fill the arena for Ottawa's\nrecord every year......1940!! haha (sorry, had ta say it)).\n\nIf hockey (and other pro sports) had a similar system to Europe, maybe\nteams like the Rangers would be forced to compete (or get demoted the fourth \ndivision).  We'd have many more teams...centres that aren't as big (like\nHalifax or Adirondack....ok, so Halifax isn't a good example) would \neventually get promoted, and every team would be somewhat competetive within\nits own division (unli",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "OFM responds to a query about reference works:\n\n   [Aside from a commentary, you might also want to consider an\n   introduction.  These are books intended for use in undergraduate Bible\n   courses.  They give historical background, discussion of literary\n   styles, etc.  And generally they have good bibligraphies for further\n   reading.  I typically recommend Kee, Froehlich and Young's NT\n   introduction...\n\nTwo other Intros to consider:\n\nThe \"Introduction\" by Ku:mmel is a translation of a strandard NT text.\nThe references are slightly dated and the style is somewhat dense, but\nthe book contains a wealth of information.\n\nPerrin and Duling's Intro is also very good.  It's somewhat more\nmodern than Ku:mmel's but not quite so densely packed.  Also the\nauthors tend to go through the books of the NT in the historical order\nof composition; this gives a very useful perspective on the\ndevelopment of the NT.\n\n   ... There are also some good one-volume commentaries.  ... Probably the\n   best recommendation these days w",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi,\n\nwell I have opened up a FTP site for getting the latest software drivers\nfor Genoa graphics cards.\n\nHere is how to access it:\n\nftp 192.109.42.11\nlogin:ftp\npassword:ftp\ncd pub/genoa\nls -l\nbinary\nprompt\nhash\n\n(now if you wanna have the latest drivers for the 7900 board)\n\ncd 7000series\nmget *\n\nquit\n\nThis is the sequence to get the drivers.\n\nIf you have any further question, please email me.",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nMr. Bettman\tThe Guy in the Wrong Sport\nMr. Stein\tThe Guy Who Should Be In Charge But Isn't\n\nOf course, we also need new names for the individual awards, and other\nstuff like the President's Cup.\n\nPresident's Cup\t\tThe Trophy Given To the Best Regular-Season Team\nHart winner\t\tThe Most Valuable Player, chosen from the\n\t\t\t\tGuys in the Middle, the Guys on the\n\t\t\t\tRight, the Guys on the Left, the Guys\n\t\t\t\tBack There, and the Guy in the Net,\n\t\t\t\tthough typically given only to the\n\t\t\t\tGuys in the Middle and the Guys on \n\t\t\t\tthe Left and on the Right\nNorris winner\t\tThe Best Guy in the back; or, the Guy who was\n\t\t\t\tawarded for something even though he\n\t\t\t\tis not one of the Guys in the Middle\n\t\t\t\tor on the Left or the Right\n\n...ad nauseum.\n\n:-)\n\n--\n    Keith Keller\t\t\t\tLET'S GO RANGERS!!!!!\n\t\t\t\t\t\tLET'S GO QUAKERS!!!!!\n\tkkeller@mail.sas.upenn.edu\t\tIVY LEAGUE CHAMPS!!!!",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "What are the Leafs to do?  I am a Leaf supporter and\nI say the Leafs are going down in four unless there\nis nothing short of a miracle or a stroke of genenius hits\nPat Burns.\n\nIf you were Pat Burns what would you do?\n\nLiving in the Bay area, I do not get enough Leaf coverage\nto pull something out of the bag,  (I would appreciate comments\non the Leaf/Detroit 3rd line match-ups)  but here is the basic\nidea...\n\nAndreychuck and Borchevsky have no business playing against \nthe Wings.  They are too small.  The key to any Leafs success\nwill have to be Clark.  He is the only centre who can have\nany presence within 3-stick lengths of the slot.  Where the\nhell is Anderson?  Anderson can (in days past) get under peoples\nskin.  Put a little more bluntly, Anderson has to be an asshole.\nHe used to be good at it.  We need him now.  \n\nPerhaps, perhaps the Leafs can shut down Detroit's second line.\nI was dissappointed to see Shepard and Yserbeart flying last night.\nThese guys are the \"swing\" players for the Wings.  Last year ",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nActuallay I don't, but on the other hand I don't support the idea of having\none newsgroup for every aspect of graphics programming as proposed by Brian,\nin his reply to my original posting.\nI would suggest a looser structure more like a comp.graphics.programmer,\ncomp.graphics.hw_and_sw\nThe reason for making as few groups as possible is for the same reason you\nsay we shouldn't spilt up, not to get to few postings every day.\nI takes to much time to browse through all postings just to find two or \nthree I'm interested in.\n\nI understand and agree when you say you want all aspects of graphics in one\nmeeting. I agree to some extension. I see news as a forum to exchange ideas,\nhelp others or to be helped. I think this is difficult to achive if there\nare so many different things in one meeting.\n\nGood evening netters|-)",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI told a newbie friend of mine, who was having trouble from the complicated\nexplanations of his rider course, to think of using the handlebars to lean,\nnot to turn. Push the right handlebar \"down\" (or pull left up or whatever)\nto lean right. It worked for him, he stopped steering with his tuchus.",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n     Really?  What if it said \"lentil eating\" or \"legume eating\",\n     what then? \n     And I suppose \"Accept 10\" is anti-Octal bigotry?\n     Geez, how PC can you get!?\n\n     Uncle Fester\n",
+    "response": 18,
+    "category": "talk.politics.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "How about this:  The\nTelCo has your Clipper key.  The TelCo\nhas your intended partner's key, if he is\nusing one.  Whenever you call, the message\ngets decrypted and reencrypted wihtout\ny key exchange.  I know it's a stupid\nsystem, but for the feds, it'd be\ngreat.  The point of this isn;t to\ntake over the crypto market, BTW.  Clinton\ndoen not want people to have any sort of crypto at\nall (just like Busch).  But he needs some support\nfor the \"technology initiative\" garbage he's\npushing (industrial policy stuff) and a computer\nhip designed by the gov't is just the thing.\n\nWho's going to thing about the (literal) Billions of\nDollars it took for a government agency to design?",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Anyone who really believes that the Caps can beat\nthe Pens are kidding themselves.  The Pens may not loose\none game in the playoffs.",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI don't claim to be an expert on the branch Davidians, but I might know more \nthan most.\n\nThe Branch Davidian group (led by Koresh) is actually one of two off-shoots \nof a group known as the Shephard's Rod.  The Shephard's Rod (now \ndefunct as far as I know)broke off from the SDA Church in the 30's.\n\nThe Shephard's Rod broke away from the SDA Church because they felt that the \nSDA Church was becoming weak and falling into apostacy.  They felt that they \nwere the remnant spoken about in Revelation.\n\nAbout the Koresh group, Koresh gained control of it in 1987 or 1988.  Once \nin control, he made himself the center of it. He proclaimed himself as \nChrist.\n\nKoresh himself came from an SDA background. He was excommunicated as a young \nadult by the local congregation for trying to exert too much control over \nthe youth in the church.  After this, he joined the Branch Davidians.\n\nThey were/are a survivalist cult. This is why they had the stockpile of \nweapons, food, a bomb shelter, etc.  They had no intent of raidin",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "=============================================================================\nNOTE: This is being posted for a friend. DO NOT REPLY to my account. Please \n      direct all replies to Scott Burke at scott@sparcom.com\n=============================================================================\n\nAlpine 5959S 6-CD Shuttle.  Paid $600, want $420/OBO.\nAlpine 1203 Remote CD Changer Control.  Paid $250, want $175/OBO.\nBoston ProSeries 10.0 Subwoofers (2) + Box.  Paid $545, want $380/OBO.\n\nAll equipment is under 6 months old and includes a full-replacement 5-year\nwarranty from original point of purchase.  The subwoofer box was custom\ndesigned to fit in the back of a Bronco II and is 14\" by 21\" by 27\".\n\nSend replies to: scott@sparcom.com\n\n-----\nScott Burke - Project Leader - Sparcom Corporation - Corvallis OR\nscott@sparcom.com - Telephone (503) 757-8416 - FAX (503) 753-7821\n\n\n-- \n------------------------------------------------------------------------------\n                     \"Just waiting for the nuts...\"\n         ",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi Damon,  No matter what system or explanation of creation you wish\nto accept, you always have to start with one of two premises, creation\nfrom nothing, or creation from something.  There are no other\nalternatives.  And if we accept one or the other of those two\npremises, then again there are two alternatives, either creation was\nrandom, or was according to some plan.\n   If it was random, I am unable to accept that the complex nature of\nour world with interrelated interdependent organisms and creatures\ncould exist as they do.  Therefore I am left with creation under the\ncontrol of an intelligence capable of devising such a scheme.  I call\nthat intelligence God.\n   I also prefer the \"Creatio ex nihilo\" rather than from chaos, as it\nis cleaner.\n   There is obviously no way to prove either or neither.  We are and\nwe must have come from somewhere.  Choose whatever explanation you\nfeel most comfortable with, Damon.  You are the one who has to live\nwith your choice.\nShalom,                                  Len How",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nHave a look at Ed Belfour.\n\n\nBelfour kicked Gerrard Gallant when the Wings played the 'Hawks\na couple of weeks ago. No penalty. No review. No suspension.\nThis was after he attacked Bob Probert in the previous period.\nHe was penalized for that.\n\n\nLikewise Belfour. Too bad he goes down so much! :-)\n",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\nI like the Mariners a lot, but my heart belongs to the Cubs...You can imagine\nmy frustration when I saw the Cubs nabbing LeFebvre...ARHGGHRGHH!\n\n-John Neuharth",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nBy '8 grey level images' you mean 8 items of 1bit images?\nIt does work(!), but it doesn't work if you have more than 1bit\nin your screen and if the screen intensity is non-linear.\n\nWith 2 bit per pixel; there could be 1*c_1 + 4*c_2 timing,\nthis gives 16 levels, but they are linear if screen intensity is\nlinear.\nWith 1*c_1 + 2*c_2 it works, but we have to find the best\ncompinations -- there's 10 levels, but 16 choises; best 10 must be\nchosen. Different compinations for the same level, varies a bit, but\nthe levels keeps their order.\n\nReaders should verify what I wrote... :-)",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI am sure you didn't miss the implication that we could have another\nRichard Nixon type president in the future (perhaps not too distant\nfuture, acutally).  With that in mind, then I take it you also would\nnot object to the Gov coming up with a decision (not proposal - just\nlike Clinton Cripple is a decision, not a proposal) sprung on us to\nstart placing video cameras with sound in every room of your house,\nwhich could be activated without your knowlege.  They would be well\nconcealed so you wouldn't know the location, to prevent you from covering\nthe lens opening.  After all, nothing you're doing would be of the\nslightest interest to a government official, right?  So, you surely\nshould not object to such a proposal...\n\nNot the best anology, but the principle is pretty close - the ability\nto eavesdrop on your activity with little or no effort, without your\nknowlege, protected by entirely by \"government safeguards\".  You can\nstill draw your curtains, so you can still have your privacy from everyone\nelse (excep",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I've pursued and researched this question over the last month or so because I have the same requirements you do......and the long and short of it is that the windows mouse drivers don't accept mice at any but com1 and com2 using irq4 or irq3 unless you buy special drivers from someone who has them.....I've talked to Mouse Systems who say their driver doesn't support other than com1 and com2 as above , but who claim to be releasing one that will SOON!??.\n\nThe other alternative seems to be possible, but in one case prohibitively expensive, i.e. 4 port card for $600??????!!, and in the other, the author(s) of PowerBBS for Windows claim to have a 4 port serial card with buffered 16550 UARTS and drivers for windows to match (i.e. com3 irq5) for $120......\n\nThe second paragraph is hearsay, because I haven't checked it out yet.....but intend to as soon as I can free up $120 <g>",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Read Issue #2 of Wired Magazine.  It has a long article on the \"hype\" of\n3DO.  I've noticed that every article talks with the designers and how\n\"great\" it is, but never show any pictures of the output (or at least\npictures that one can understand)\n\n",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\nThe Microsoft Founation classes (afx) that come with C/C++ 7.0 (and \nVisual C++) are very good, they already have a version for NT,\nit comes with source code, and is very close to the navtive API.\nIt also as some classes to manage data structures...\n\n...Stefan\n\n-- \n------------------------------------------------------------------------\n   Stefan Olson                     Mail: stefan@olson.acme.gen.nz\n   Kindness in giving creates love.",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\n\nYes.\n\n\nI don't know where Douglas Adams took it from, but I'm pretty sure he's\nthe one who launched it (in the Guide). Since then it's been showing up \nall over the place.",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi,\nhas anyone more info about the XGA-2 chipset?\nHW-funcs, TrueColor, Resolutions,...\nAny boards with XGA-2 out yet?\n\nthanks\nRainer\n\n-- \nRainer Leberle\t                           rleberle@sparc2.cstp.umkc.edu\nUniversity of Kansas City, MO  ",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Another objection occurred to me.  There was a comment about how\nsupposedly there would only be one decode box, operated by the FBI.\nThis is flat ridiculous, and I don't believe it for a millisecond.\nEven *if* they in fact only build one (or two or some other small\nnumber) of these, that won't stop others from building one.  Make\nit work like two Clipper-chip phones, one listening to each side\nof the recorded conversation.  I'll have to have another look at\nthe specs posted so far, but offhand I didn't see anything that\nwould preclude this sort of thing.....",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\n\nUm, the header said *career.*  Hodapp managed about 3000 PA in his\nnine years in the majors.\n\nAs for his \"consistently over .300,\" make that \"three years in a row, \npreceded by a part-time year, plus his last year, with Boston.\"  Hodapp\nonly qualified for the batting title five times.  \n\nWas he injured?  He retired right around his 28th birthday.\n\nAnyway, Hodapp put up flashy numbers the year *everybody* put up\nflashy numbers.  That was his only really good year with a bat; \nhis other .300 years were marred by a lack of power and an inability\nto draw walks.  Only 163 of those 3000 PA were bases on balls, which\ndoes not describe a feared hitter.  \n\nOn the other hand, he was part of the long line of famous Cleveland 2B:\nWambsganss, Riggs Stephenson, etc.",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Well put, Jason.  I am not from Wisconsin, but I have close relatives who\nlive in Port Washington (about 30 minutes north of Milwaukee), I visit the\ncity regularly, and I have been in the Bradley four times to see the Admirals\nplay  and the NCAA Hockey Championships.  It is a beautiful building.  The\nPettits and the city like to promote it as the best facility for hockey in\nNorth America.\nAs to what will happen with the Admirals if Milwaukee does acquire a\nfranchise, word is the team will move to Green Bay and play in the Brown\nCounty Arena.\nOnce again, the Admirals are an independent franchise, and the people of\nMilwaukee have been supporting them well.  The games I have been to have seen\ncrowds anywhere from 10,000 to 13,000, which are numbers some NHL teams (i.e.\nthe Islanders, Hartford, New Jersey) would be envious of having on some nights.\nPlus the fact that the city is able to support a minor league franchise without\nthe glamour of having an NHL club affiliated to it is testimony to the amount\nof hockey",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Dear Ulf,\n\n\tWould you possibly consider helpiMontreal Canadiens fans everywhere\nby throwing a knee-check in the direction of Denis Savard during your upcoming\ngame against Montreal? We just can't seem to win WITH him!\n\n\t\t\t\t\t\tThanx alot,\n\t\t\t\t\t\tPete H.\n\n\n:-)\n",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Does anyone out there have the shorthanded goal totals of the NHL players\nfor this season?  We're trying to finish our rotisserie stats and need SHG\nto make it complete.\n\n",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The protocol/key-management description published so far is either\n\tincomplete or incorrect. It leaves me with no idea of how the system\n\twould actually _work_. I hope the CPSR FOIA request succeeds so that\n\twe get full details.\n\nWouldn't it be easier just to ask denning@cs.georgetown.edu? ;-)",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n[...]\n\n\nAccording to the Defensive Average stats posted by Sherri, Baerga had the\nhighest percentage of DPs turned in the league, while Alomar had the worst.\nHowever, Alomar had a higher Defensive Average.  So who would be better?\n\nUsing Alomar's opportunities (469 groundballs, 73 possible double plays)\nAlomar had 332 groundouts and turned 18 DPs.\nBaerga would have had (with same DA & DP%) 328 groundouts and 35 DPs.\n\nUsing Baerga's opportunites (545 groundballs, 99 possible double plays).\nAlomar would have had (with the same DA & DP%) 386 groundouts and 25 DPs.\nBaerga had 381 groundouts and 47 DPs.\n\nBaerga looks better, though it's possible his DP% would be lower with a \ndifferent SS.\n\nWill Baerga consistently turn twice as many double plays, however?  Alomar\nhas established a high level of defense, Baerga has not.  I would bet on\nAlomar to be better next year, but last year Baerga was just as good overall.\n-- \nDale J. Stephenson |*| (steph@cs.uiuc.edu) |*| Grad Student At Large",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Do you think Omar's grand slam is the result of his new fan club?  Last week \na banner appeared in the Kingdome:    \n\n\tOLDER WOMEN FOR OMAR  \n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I just started reading the group. I was wondering if someone\ncould re-post exactly what the Prophetic Warning to NYC was.\n\nThanks\n-jh",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Western Digital 3.5\" IDE 40 Meg Hard drive.\n$95 or BO.\n+ shipping\n",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Help, I'm bored with the current Windows backgrounds we have here and am \nlooking for some nifty pictures to use instead.  I've seen from previous posts\nthat many sites exist that store pictures - available through anonymous ftp.\nExcept that I can't ftp to remote sites from my machine, what I CAN do is use\n'ftpmail' - mail a list of commands to a server and receive a mail of files, \nand/or data back.\nDoes anyone know of sites, with Windows compatible pictures, that can be \naccessed in such a way??? \nIf you do would you please post them.\nTIA\n   Mark.\n\nPS. Maybe this would make a useful FAQ",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I nead a utility for updating (deleting, adding, changing) *.ini files for Windows. \n\nDo I find it on any FTP host?",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\tI'm definitely going to write my Congressman, and nobody's ever\ngoing to make me respect a law that violates my freedom of speech, and\nif the feds try to enforce this law on me, I will protect my freedoms, with\nforce if it ever comes to that. (Hopefully, it won't)\n\nDoug Holland\n\n-- ",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n  CH> Concerning the proposed newsgroup split, I personally am not in\n  CH> favor of doing this.  I learn an awful lot about all aspects of\n  CH> graphics by reading this group, from code to hardware to\n  CH> algorithms.  I just think making 5 different groups out of this\n  CH> is a wate, and will only result in a few posts a week per group.\n  CH> I kind of like the convenience of having one big forum for\n  CH> discussing all aspects of graphics.  Anyone else feel this way?\n  CH> Just curious.\n\nI must agree.  There is a dizzying number of c.s.amiga.* newsgroups\nalready.  In addition, there are very few issues which fall cleanly\ninto one of these categories.\n\nAlso, it is readily observable that the current spectrum of amiga\ngroups is already plagued with mega-crossposting; thus the group-split\nwould not, in all likelihood, bring about a more structured\nenvironment.\n",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello, and thank you for reading this request.  I have a Mpeg viewer for x-windows and it did not run because I was running it on a monochrome monitor.  I need the mono-driver for mpeg_play.   ",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI doubt Henderson would clear waivers.  And if he did, he would\ninstantly be signed for the major league minimum, with Oakland picking\nup the remaining $3 million tab.\n\nSome GMs value on-field performance too...",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have a .BAT file that I run under a Windows Icon.  I have set up a PIF\nfile to run the BAT file in exclusive mode and to use the entire screen.\nThe first line of the BAT file sets an environment variable.\n\nMy problem is that on some of our machines (running MS-DOS 5.0 and Windows\n3.1 in enhanced mode), the SET command in the BAT file fails with the\nOUT OF ENVIRONMENT SPACE error.  I have raised the amount of environment \nspace to 2048 bytes using the SHELL command in CONFIG.SYS so I know that\nI am nowhere near to running out.  If I just click on the MS-DOS icon,\nI can create a bunch of environment varibles from the DOS shell.  The problem\nis that on some machines, setting the value of an environment variable in\na BAT file fails.  Has anyone seen such behavior before?  I see no place in the\nPIF fail to configure environment space.",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Well, the temp file thing creates an obvious problem: it is impossible to use\ncview for viewing CD-ROM based picture collections. And it is the ONLY non-\nwindows viewer that works properly with my Cirrus-based 24 bit VGA.\n\n",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Is there any program available (free or otherwise) for taking a tiff or gif\nor some other bitmapped file and turning it (or parts of it) into ascii\ncharacters?\n\n  DOS, OS/2 or platform independent programs if possible.",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "OK, I'll join in the fun and give my playoff predictions: \n\n1st round: \n----------\n\nPITT vs NYI:  PITT in 4.  \nWASH vs NJD:  WASH in 6. \n\nBOS  vs BUF:  BOS  in 5. \nQUE  vs MON:  MON  in 7. \n\nCHI  vs STL:  CHI in 4. \nDET  vs TOR:  DET in 6. \n\nVAN  vs WIN:  WIN in 6. \nCAL  vs  LA:  CAL in 5. \n\n2nd round: \n----------\n\nPITT vs WASH: PITT in 4. \nBOS  vs MON:  BOS  in 6. \n\nCHI  vs DET:  CHI  in 7. \nWIN  vs CAL:  CAL  in 5. \n\n3rd round: \n----------\n\nPITT vs BOS:  PITT in 5. \nCHI  vs CAL:  CHI  in 5. \n\nFinals:\n------\n\nPITT vs CHI: PITT in 5. \n",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Have you checked out Adobe Illustrator? There are a few Unix versions\nfor it available, depending on your platform. I know of two Unix versions:\nOne for Mach (NeXT) and for Irix (SGI). There may be others, such\nas for Sun SparcStation, but I don't know for sure.\n\nttyl,\n",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nFirst of all, \"ceremonial law\" is an extraScriptural term.  It is sometimes\nused as a framework to view Scripture.  But if you look at Collosions,\nwithout going into it with the assumption that the Sabbath cannot be \na ceremonial law, you will see that it does refer to the sabbath.\n\nagainst us to His cross, and therefore we should not be judged in what\nwhat food we eat, what we drink, the keeping of new moons and holy days,\nor the keeping of the sabbath.\n\nThe word for sabbath in this verse is \"sabbaton\" and is used throughout the\nNew Testament to refer to the 7th day.  If there is any Scripture from\nwhich we get the idea of the ceremonial law, this is one of them, and the\nsabbath is listed among the ceremonial laws.\n\nIf one goes into this with the fundamental assumption \"the sabbath cannot\nbe a ceremonial law\" then he will have to find some way around it, like\nsaying that this can only refer to the other sabbath holy days besides the\n7tH day, Because \"the sabbath cannot be a ceremonial law.\"  But\nPaul is ve",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I'm currently looking for information about different graphics\nformats, especially PPM, PCX BMP and perhaps GIF.\nDoes anyone know if there exist any files at some site\nthat describes these formats ???\n\nThanks !\n\n",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nMy, this distinction seems quite arbitrary.\n\n  Blessed is the man whose iniquities are forgiven, whose sin is covered.\n  (Ps. 32:1).\n\nand quoted by the apostle Paul:\n\n  Even as David also describeth the blessedness of the man, unto whom God\n  imputeth righteousness without works,\n  Saying, Blessed are they whose iniquities are forgiven, and whose sins\n  are covered.\n  Blessed is the man to whom the Lord will not impute sin.  (Rom. 4:6-8)\n\nThe biblical perspective seems to be that foregiveness and covering are\nparallel/equivalent concepts in both testaments.  The dispensational\ndistinction is unwarranted.\n\n\nI'm sure Rex has Scripture to back this up.  You're suggesting Jesus is\ngoing to travel around dealing with individual violations of His law -- for\nmillions perhaps billions of people.  Such activity for Moses the lawgiver\nwas considered unwise (cf. Ex. 18:13ff).  It makes for interesting\nspeculation, though.\n\nI'll leave comments on the so-called \"bema seat\" vs. \"throne\" judgments to\nsomeone else.  This a",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "In Detroit, the octopus is a symbol from the old days of the league. In\nthe era of the Original 6, four teams made the playoffs.  To win the Cup,\na team had to win two seven-game series - in other words it took 8\nplayoff wins to win the Cup.  The octopus (8 legs) has become a common\nDetroit symbol.  Every year around playoff time people start sneaking\noctopus (octopi?) into the Joe Louis Arena and throwing them onto the ice.",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ": It is meaningless to compare one player's plus/minus statistic with\n: another players' out of the context of the role and the playing time\n: of the players involved.    \n\n: To compare Jagr's and Francis's plus/minus is ridiculous and absurd...\n\n: Gerald\n\nThank you for putting this in perspective!\n",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nLou wanted Morris all along.  The idiot.  Giving the man $40 million\nto play with is like giving a five year old a loaded Uzi with the\nsafety off.  The only question is how many shots he will get off\nbefore somebody is wise enough to take it away.\n\n\nI don't see why people expect Boston to finish sixth.  The bottom four\nteams last year were essentially tied.  Boston, in seventh place, had\n73 wins.  The Yankees and Indians, tied for fourth place, had 76 wins.\n\nNow I should think it is obvious that the Red Sox improved more than\nthe Indians or Tigers.  Basically, the Red Sox are stronger this year\nat 1B, DH, SS, LF, and RF.  They have healthier starting pitchers (so\nfar, at least) and better relievers.  I see no reason why they\nshouldn't win ~85 games.  Meanwhile, the Indians are in shambles and\nthe Tigers *still* have no pitching.  They will win some 20-3\nblowouts, but they will lose an awful lot of 7-5 games too.\n\n*MAYBE* the Sox will play poorly, win 78 games, and finish fifth.\nBut I think third or fourth pl",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Does anyone know where Billy Taylor is?  Richmond or Syracuse?  He was taken\nby the Jays in the Rule V draft, but not kept on the roster.  Baseball Weekly\nsaid that he was demoted to Syracuse, but a Toronto paper indicated that\nthe Braves took him back.  Is there an Atlanta fan, or anyone reading this,\nwho knows?   ",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Has anyone else experienced problems with windows hanging\nafter the installation of DOS 6?  I have narrowed the\nproblem down to EMM386.\n\nIf if remove (or disable) EMM386, windows is ok.  If EMM386\nis active, with NOEMS, windows hangs.  If I use AUTO with\nEMM386, the system hangs on bootup.\n\nDave.\n\n\n-- \n-------------------------------------------------------------------\nDavid Clarke   ...the well is deep...wish me well...\nac151@Freenet.carleton.ca  David_Clarke@mtsa.ubc.ca  clarkec@sfu.ca",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n  I've talked with Mark and he faxed some literature, though it wasn't very helpful-\n  just a list of routine names: _BSplineSurface, _DrawString3D... 241 names.\n  There was a Product Info sheet that explained some of the package capabilities.\n  I also found a review in April/May '92 MacTutor.",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi there,\n\nIs there any utility available that will make Windows\nrandomly select one of your windows directory's .BMP\nfiles as the wallpaper file?\n\nNate\n--------------------------\nNathan C. Crowell, Dept. of Materials Science/ACRL\n\nWorcester Polytechnic Institute     E-mail: bigal@wpi.wpi.edu\n\n\"A flower?\"-Genesis \"Supper's Ready\"",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\nSorry, Nelson, but you forgot to ask me. If you check the THN stats for\nKansas City, you'll find that Larry has been playing for the games, having\nplayed in 8 games in the period covered in the stats between 3/26 and the\n4/16 issue (1-3-4 with 13 PIM). Not exactly invisible.\n\n\nWell, having gotten to a chance to talk to him a few times, this isn't quite\naccurate. He injured his back (a disk injury) and did one stupid thing,\nwhich was to hide it from the Sharks and he tried to play through it because\nhe knew he was on the bubble. The Sharks then sent him to K.C., at which\npoint he disclosed the injury. Since he didn't disclose it, the Sharks and\nhe disagreed about the responsibility and he was suspended for not\nreporting. That was eventually worked out, the Sharks re-instated him as\ninjured and put him into therapy, and when he was able to play then shipped\nhim down to K.C. He fully expects to play in the NHL again, although clearly\nnot with the Sharks (hiding injuries is a stupid no-no, beyond just a\nno-no)",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI'm waiting for an RC to speak up ! 8-)\nNobody has, so I will...\n\nThose with Bibles on hand can give the exact chapter & verse...\nAt the time Jesus told Peter that he was the \"rock\", He said\nwhatever you hold true on earth is held true in heaven, and \nwhatever you don't hold true won't be true in heaven.\n\nTherefore, with respect to marriage, the ceremony has to be\ndone by an RC priest. No big parties required. Just the priest,\nthe couple and witnesses. \"Divorce\" is not allowed. But anullments\nare granted upon approval by either the bishop or the Pope \n(not sure if the Pope delegates this function).\n\n-- ",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I'm looking for the address to join the Cleveland Sports Mailing List.\nIf anyone knows it, I would be greatful if they could email a copy of\nit to me.  If you are a member, just mail me one of the List's letters.\nI could probably figure it out from there.\n\nThanks!\n\n\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  }
+]

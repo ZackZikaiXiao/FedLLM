@@ -1,8 +1,6 @@
 from transformers import LlamaTokenizer, LlamaForCausalLM
 import torch
-from peft import (
-    prepare_model_for_kbit_training,
-)
+
 
 class ModelHelper():
     def __init__(self, global_model_name, global_model_path, device_map) -> None:
