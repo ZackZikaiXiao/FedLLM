@@ -1,0 +1,56 @@
+[
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Philip Morris said it sold 201 bn cigarettes world-wide during the quarter.\nHypothesis: Philip Morris said it sold 201 billion cigarettes worldwide during the third quarter of 1994.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: A joint survey by two conservation groups, World Conservation Union and the World Wildlife Fund, says the black rhino population has risen to over 3,600. That is an increase of 500 animals over the last two years.\nHypothesis: Two conservation groups have increased the black rhino population.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Vegetables help to preserve your bones, and help fight the bone-thinning disease osteoporosis.\nHypothesis: Fruits and vegetables prevent osteoporosis.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Ruth's 1927 single season record of 60 home runs stood unsurpassed until Roger Maris hit 61 in 1961.\nHypothesis: Babe Ruth hit 60 home runs in his lifetime.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Nigeria has been the culprit so far, preventing the world from being completely polio-free.\nHypothesis: Polio is under control in the world.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: The 31 states initially affected are: (in alphabetical order) : Alaska, Alabama, Arizona, Arkansas, California, Colorado, Georgia, Idaho, Illinois, Indiana, Kansas, Kentucky, Louisiana, Michigan, Missouri, Mississippi, Montana, Nebraska, Nevada, New Mexico, North Carolina, Ohio, Oregon, South Carolina, Tennessee, Texas, Utah, Virginia, Washington, West Virginia and Wyoming. Signs of salmonella include fever, diarrhea, nausea, vomiting and abdominal pain. Those most vulnerable are the young, the elderly or those with an already compromised health condition. This recall follows the long list of recalled peanut related products, peanut butter and candy bars which caused a salmonella outbreak at the end of January.\nHypothesis: Nebraska is not far from West Virginia and Wyoming.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: However, market players were more inclined towards weakening yen, as the yen plunged to its lowest levels since October 1998, after foreign exchange markets interpreted comments made by visiting U.S. Treasury Secretary Paul O'Neill to mean that Washington is not opposed to a weak Japanese currency.\nHypothesis: The introduction of the euro has been opposed.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Tuesday, famed ocean liner, Queen Elizabeth 2, popularly known as the QE2, arrived in her home port of Southampton, England for the final time. The Cunard Line ship has been in service since 1969, and is to become a floating hotel in Dubai. The homecoming was marred as the vessel ran aground on a sandbank near Calshot at the mouth of Southampton Water. The ship hit the sandbank at around 0530 GMT, and five tugs took around 30 minutes to pull the QE2 clear. The 70,000 tonne vessel was towed into port and eventually docked at 0730 GMT according to the Solent coastguard. Around a thousand crew and 1,700 passengers were aboard the ship, which was returning from a cruise around the Mediterranean.\nHypothesis: Elizabeth II is the queen of England.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: A teenager in Japan whose parents are being deported to the Philippines has decided to stay in Tokyo with her aunt. After the family lost a three-year battle to remain in Japan, Noriko Calderon, 13, had to choose whether to stay in Japan or go with her parents. She said an emotional goodbye to them at Tokyo's main airport. Filipinos Arlan and Sarah Calderon used fake passports to enter Japan in the early 1990s, and their daughter was born and raised in the country.\nHypothesis: Arlan and Sarah Calderon are Japanese.",
+    "response": "no",
+    "category": "NLI"
+  }
+]

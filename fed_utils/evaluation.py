@@ -42,6 +42,13 @@ def cleansed_response_for_acceptability(pred):
         if item[0:10] == 'acceptable':
             pred[index] = 'acceptable'
     return pred
+def cleansed_response_for_yes_no(pred):
+    pred = [item.lower() for item in pred]
+    pred = [item[0:3] for item in pred]
+    for index, item in enumerate(pred):
+        if item[0:2] == 'no':
+            pred[index] = 'no'
+    return pred
 def cleansed_response_for_quail(pred):
     pred = [item[0] if len(item) > 0 else '4' for item in pred]
     return pred
@@ -52,6 +59,8 @@ cleansed_response_methods = {
     'cola': cleansed_response_for_acceptability,
     'quail': cleansed_response_for_quail,
     '20news': cleansed_response_for_20news,
+    'wnli': cleansed_response_for_yes_no,
+    'rte': cleansed_response_for_yes_no,
 }
 
 class Evaluator():

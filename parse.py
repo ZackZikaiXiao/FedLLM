@@ -55,8 +55,8 @@ def parse_args():
     # parameters for prefix_tuning
     parser.add_argument('--num_virtual_tokens', type=int, default=5, help='num of virtual tokens for prefix tuning')
     # if you want to change the dataset to train, please change the arguments here
-    parser.add_argument('--dataset', type=str, default='wnli', help='Dataset to use')
-    parser.add_argument('--dirichlet_alpha', type=int, default=1, help='dirichlet alpha parameter')
+    parser.add_argument('--dataset', type=str, default='rte', help='Dataset to use')
+    parser.add_argument('--dirichlet_alpha', type=int, default=0.8, help='dirichlet alpha parameter, 1, 1.5, 2')
     parser.add_argument('--partition_method', type=str, default="dirichlet_label_uni", help='The method used to partition the data, choose from [''iid'', ''dirichlet_label_uni'', ''dirichlet_label'', ''dirichlet_quantity'']')
     parser.add_argument('--client_selection_strategy', type=str, default='random', help='Client selection strategy')
     parser.add_argument('--client_selection_frac', type=float, default=0.4, help='Fraction of clients to select')
@@ -68,13 +68,13 @@ def parse_args():
     # FedNova related arguments
     parser.add_argument('--useFedNova', type=bool, default=False, help='Whether or not use FedNova for aggregation')
     # Scaffold related arguments
-    parser.add_argument('--useScaffold', type=bool, default=False, help='Whether or not use Scaffold')
+    parser.add_argument('--useScaffold', type=bool, default=True, help='Whether or not use Scaffold')
     parser.add_argument('--scaffold_dir', type=str, default='/home/jianhuiwei/rsch/jianhui/scaffold_control_variate', help='the dir to save variate for server and client')
 
-    parser.add_argument('--local_batch_size', type=int, default=16, help='Local batch size')
-    parser.add_argument('--local_micro_batch_size', type=int, default=16, help='Local micro batch size, 16 for 20news,quail. 32 for GLUE')
+    parser.add_argument('--local_batch_size', type=int, default=64, help='Local batch size')
+    parser.add_argument('--local_micro_batch_size', type=int, default=32, help='Local micro batch size, 16 for 20news,quail. 32 for GLUE')
     parser.add_argument('--local_num_epochs', type=int, default=2, help='Local number of epochs')
-    parser.add_argument('--local_learning_rate', type=float, default=3e-4, help='Local learning rate, 3e-3试过了, for alpaca-lora: 3e-4')
+    parser.add_argument('--local_learning_rate', type=float, default=3e-3, help='Local learning rate, 3e-3试过了, for alpaca-lora: 3e-4')
     parser.add_argument('--local_val_set_size', type=int, default=0, help='Local validation set size')
     parser.add_argument('--local_save_steps', type=int, default=3, help='Local save steps')
 

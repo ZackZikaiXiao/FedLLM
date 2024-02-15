@@ -85,7 +85,7 @@ def ScaffoldAggregation(model, selected_clients_set, output_dir, local_dataset_l
     for index, i in enumerate(selected_clients_set):
         filename = os.path.join(dir_name, "client"+str(i))
         local_variate = load_variate(filename=filename)
-        for k,v in local_variate:
+        for k,v in local_variate.items():
             if index == 0:
                 server_c[k] = v.data / num_clients
             else:

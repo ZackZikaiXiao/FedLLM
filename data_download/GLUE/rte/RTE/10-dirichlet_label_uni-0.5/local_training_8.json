@@ -1,0 +1,56 @@
+[
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: The gastric bypass operation, also known as stomach stapling, has become the most common surgical procedure for treating obesity.\nHypothesis: Obesity is medically treated.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Munir Mezyed, a poet and critic, aroused the sentiments and emotions of the audience when he recited his smooth flowing poetry both in Arabic and English, which demonstrated his unique and overwhelming style.\nHypothesis: Gotthold Ephraim Lessing lived from 1729 to 1781.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: The Statue of Liberty was reopened to the public on July 5 after its extensive refurbishing. 1986 is a common year starting on Wednesday of the Gregorian calendar.\nHypothesis: The Statute of Liberty was built in 1986.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: The Ebro Delta (delta de l'Ebro) is the largest humid zone in Catalonia. It is the second most important natural aquatic habitat in Spain after the Doana National Park. The Delta is of international importance for its plant species and its fauna.\nHypothesis: The Ebro Delta is used for farming.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Claes was foreign minister of Belgium from 1992 until 1994, and secretary general of NATO from 1994 until 1995, when he was forced to resign because of allegations of corruption related to improper contracts for Agusta helicopters approved by him while he was minister of economic affairs. For that he also lost his civil rights for numerous years.\nHypothesis: NATO Secretary General Willy Claes resigned.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Traditionally, 60 percent of the tickets sold for a stop on the Vans Warped Tour, for example, occur six days prior to the show.\nHypothesis: Most tours only sell 60 percent of the tickets.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: The Kalido Technical Advisory Board members include Boris Evelson, founder and managing partner, Textra Group, Inc., and Bill Inmon, president, Inmon Data Systems.\nHypothesis: Boris Evelson founded the Kalido Technical Advisory Board.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Public health and animal health officials from the Departments of Health and Community Services and Forest Resources and Agrifoods today confirmed a rabies case involving a red fox in western Newfoundland.\nHypothesis: A case of rabies was confirmed.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: UFJ Holdings Inc. said it wants to merge with Mitsubishi Tokyo Financial Group Inc., a combination that would surpass Citigroup Inc. as the world's biggest bank and accelerate Japan's attempts to clean up bad loans.\nHypothesis: The merger of Japanese Banks creates the world's biggest bank.",
+    "response": "no",
+    "category": "NLI"
+  }
+]

@@ -6,6 +6,7 @@
 @Motto: Hungry And Humble
 """
 import math
+from transformers import Trainer
 from torch.optim import Optimizer
 import pickle
 import os
@@ -23,11 +24,17 @@ class ScaffoldOptimizer(Optimizer):
         loss = None
         if closure is not None:
             loss = closure()
-
+        
+        tunable_parameters = []
         for group in self.param_groups:
-            for p, c, ci in zip(group['params'], group['server_c'], group['client_c']):
+            for p in group['params']:
                 if p.grad is None:
                     continue
+                else:
+                    tunable_parameters.append(p)
+            for p, c, ci in zip(tunable_parameters, group['server_c'].values(), group['client_c'].values()):
+                c = c.to(p.device)
+                ci = ci.to(p.device)
                 dp = p.grad.data + c.data - ci.data
                 p.data = p.data - dp.data * group['lr']
 
@@ -114,11 +121,16 @@ def load_variate(filename):
 def initialize_server_and_client_control_variate(model, num_clients, dir_name):
     os.makedirs(name = dir_name, exist_ok=True)
     control_variate  = {}
+    total_num_of_parameters = 0
+    num_parameters_for_peft = 0
     # model = get_peft_model_state_dict(model)
     for k, v in model.named_parameters():
         if v.requires_grad == False:
+            total_num_of_parameters+=1
             continue
         else:
+            total_num_of_parameters+=1
+            num_parameters_for_peft+=1
             control_variate[k] = torch.zeros_like(v.data)
     filename = os.path.join(dir_name, 'server_c')
     write_variate_to_file(control_variate, filename)

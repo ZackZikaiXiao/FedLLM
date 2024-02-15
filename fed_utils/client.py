@@ -1,3 +1,4 @@
+import math
 import transformers
 import os
 from datasets import load_dataset
@@ -56,13 +57,6 @@ class GenerateClient:
                             group_by_length,
                             ddp,
                             ):
-        if self.args.useScaffold:
-            scaffoldOptimizer = ScaffoldOptimizer(
-                params = self.model.parameters(),
-                lr = local_learning_rate,
-                server_c = self.server_c,
-                client_c = self.client_c
-                )
         self.train_args = transformers.TrainingArguments(
             per_device_train_batch_size=local_micro_batch_size,
             gradient_accumulation_steps=gradient_accumulation_steps,
@@ -71,7 +65,8 @@ class GenerateClient:
             learning_rate=local_learning_rate,
             fp16=True,
             logging_steps=1,
-            optim=scaffoldOptimizer if self.args.useScaffold else "adamw_torch",
+            # 如何自定义optimizer
+            optim="adamw_torch",
             evaluation_strategy="steps" if self.local_val_set_size > 0 else "no",
             save_strategy="steps",
             eval_steps=200 if self.local_val_set_size > 0 else None,
@@ -83,6 +78,15 @@ class GenerateClient:
             group_by_length=group_by_length,
             dataloader_drop_last=False
         )
+        if self.args.useScaffold:
+            scaffoldOptimizer = ScaffoldOptimizer(
+                params = self.model.parameters(),
+                lr = local_learning_rate,
+                server_c = self.server_c,
+                client_c = self.client_c
+                )
+            dataset_len = len(self.local_train_dataset)
+            steps = math.ceil(dataset_len / self.args.local_batch_size) * self.args.local_num_epochs
         if self.args.useFedProx:
             self.local_trainer = FedProxTrainer(
                 model=self.model,
@@ -96,6 +100,7 @@ class GenerateClient:
         else:
             self.local_trainer = transformers.Trainer(
                 model=self.model,
+                optimizers=(scaffoldOptimizer, torch.optim.lr_scheduler.LinearLR(scaffoldOptimizer,start_factor=1, end_factor=0,total_iters=steps)) if self.args.useScaffold else (None, None),
                 train_dataset=self.local_train_dataset,
                 eval_dataset=self.local_eval_dataset,
                 args=self.train_args,
@@ -116,10 +121,14 @@ class GenerateClient:
 
     def terminate_local_training(self, epoch, local_dataset_len_dict, previously_selected_clients_set):
         # update local control variate and save it to file
+        
         if self.args.useScaffold:
+            local_steps = (len(self.local_train_dataset) // self.args.local_batch_size)*self.args.local_num_epochs
             for k, v in self.model.named_parameters():
-                if v.requires_grad == False:
-                    self.client_c[k] = self.client_c[k] - self.server_c[k] + (self.params_dict_old[k].data - v.data) / (self.args.local_learning_rate*(len(self.local_train_dataset) // self.args.local_batch_size))
+                if v.requires_grad == True:
+                    # change the name of the weight
+                    ki = k[0:-14] + 'weight'
+                    self.client_c[k] = self.client_c[k] - self.server_c[k] + (self.params_dict_old[ki].data - v.data) / (self.args.local_learning_rate*local_steps)
             filename = os.path.join(self.args.scaffold_dir, "client"+str(self.client_id))
             write_variate_to_file(filename=filename, variate=self.client_c)
         
