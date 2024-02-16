@@ -1,0 +1,260 @@
+[
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: His family has steadfastly denied the charges.\nHypothesis: The charges were denied by his family.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: One day after pledging to undertake one of history's largest reconstruction efforts, President Bush served notice yesterday, that rebuilding the hurricane-ravaged Gulf Coast will require spending cuts elsewhere in the federal budget\nHypothesis: Amid growing concern among congressional Republicans about the huge cost of the planned reconstruction effort, Bush said the federal government could foot the bill without resorting to a tax increase.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: He'll teach the new environmental engineering classes at Carroll as a full-time professor. The school said his position will be funded by a two-year grant from the U.S. Department of Education. While Weight couldn't be reached by phone this week, past studies have taken him to Lake Titicaca in Peru, where he studied mercury levels in the lake's fish. He authored the \"Hydrology Field Manual,\" along with other professional journals. In the fall semester, Weight will begin teaching water quality, as well as a hands-on class in stream restoration. The following spring, he'll teach new classes in air quality and groundwater flow modeling.\nHypothesis: Lake Titicaca is located in Peru.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: The World Bank has also been criticized for its role in financing projects that have been detrimental to human rights and the natural environment.\nHypothesis: The World Bank is criticized for its activities.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Guggenheim Museum, officially Solomon R. Guggenheim Museum, was founded in 1939 as the Museum of Non-Objective Art.\nHypothesis: The Solomon R. Guggenheim Museum was opened in 1939.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: A briefcase containing magnets, batteries and a cell phone sitting in the bushes outside a Charleston, South Carolina coffee shop drew the local bomb squad's attention, before it was determined that it contained no explosives. Police had earlier closed down Calhoun Street in downtown, where the coffee shop is located, but reopened the street and let local residents and business owners that the situation was over after performing an investigation.\nHypothesis: A briefcase was found outside Starbucks in Charleston.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: The fatal shooting of Steven Charles Jenkins, a terminally ill AIDS patient, by his friend Philip Lee Saylor at Cedars-Sinai Medical Center has again focused attention on the problems of death and dying in our society.\nHypothesis: Steven Jenkins was shot by a friend.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: He had been hand-picked by John Sculley to take over Steve Jobs' position as head of the Macintosh group.\nHypothesis: John Sculley was an executive of the Macintosh group.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: The focus on the engines and the fuel, stems from the pilot's radio call, shortly before the crash.\nHypothesis: The pilot had been attempting an emergency landing, after both engines failed.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Mohandas Karamchand Gandhi never received the Nobel Peace Prize, though he was nominated for it five times between 1937 and 1948.\nHypothesis: Mohandas received the Nobel Prize in 1989.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: But these are only first hazards. \"If the rain continues at the same magnitude and according to the forecast, then some of the rivers could reach flood stage either later [Tuesday] or Wednesday morning,\" said Allan Chapman, a hydrologist with the River Forecast Centre in Victoria.\nHypothesis: Allan Chapman is employed at the River Forecast Centre.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Fiona North, Ophthalmic Adviser with the SHSSB added: Eye injuries caused by fireworks are extremely serious and can permanently damage eyesight. I would urge those who are co-ordinating efficient firework displays to use appropriate eye protection.\nHypothesis: Fireworks may cause serious injuries.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: With the publication of Sophie's World in 1991, Gaarder gained international fame. Sophie's World spent three years as the best selling book in Norway. His first book to be translated into English, Sophie's World was also the top-selling book in Germany, France, and Great Britain.\nHypothesis: Sophie's World is a best seller.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: The program will include Falla's \"Night in the Gardens of Spain,\" Ravel's Piano Concerto in G, Berlioz's Overture to \"Beatrice and Benedict,\" and Roy Harris' Symphony No. 3.\nHypothesis: Beatrice and Benedict is an overture by Berlioz.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Britain agreed to lift by March 31 a 150-mile military protection zone enforced around the islands since Argentina invaded them in 1982.\nHypothesis: The military protection zone around Falklands was lifted.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Washington - Egyptologists researching a mummy first discovered in 1898 believe it is the mummy of Queen Nefertiti, a legendary beauty and wife of the renegade pharaoh Akhenaten, the Discovery Channel said on Monday. Virtually all traces of Nefertiti and her \"heretic\" husband, who ruled from 1353-1336 BC, were erased after his unsuccessful attempt to overthrow the pantheon of the gods to worship the sun god Aton - among the earliest known practices of monotheism. Nefertiti also was stepmother of the boy-king Tutankhamen, whose tomb was discovered in 1922.\nHypothesis: Nefertiti was a queen.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: After giving nearly 5,000 people a second chance at life, doctors are celebrating the 25th anniversary of Britian's first heart transplant which was performed at Cambridgeshire's Papworth Hospital in 1979.\nHypothesis: The first heart transplant in Britian was performed in 1979.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Two Greenpeace protestors entered the CBI conference at the Business Design Centre in Islington, London and delayed a speech being made by the Prime Minister Tony Blair, in which he was expected to announce the consideration of further nuclear power stations to offset the increasing gas prices being experienced by industry in the UK. The protestors, wearing yellow safety jackets over business suits, climbed up into the ceiling rafters and held  banners saying \"NUCLEAR: WRONG ANSWER\", and dropped 'radioactive confetti' onto the delegates down below. Greenpeace threatened to make noise and throw missiles at the Prime Minister should he make his speech.\nHypothesis: Greenpeace made a statement about yellow safety jackets.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Chinese Premier, Zhu Rongji, and German Chancellor, Gerhard Schroeder, opened the world's first commercial magnetic levitation (maglev) train yesterday, with both sides having much to gain from its success.\nHypothesis: Both Mr. Schroeder and Mr. Zhu have much to gain if maglev succeeds.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: The nation got its long-awaited first look at Bo in action as the Obamas showed off the family's new dog on the South Lawn. First lady Michelle Obama did most of the walking while the 6-month-old Portuguese water dog scampered about. Then daughter Malia took a turn, and Bo took off running. The girls grinned as they played with Bo. Sasha clapped her hands at one point, calling for the dog's attention. Plainly pleased, the president said, \"He's a star. He's got star quality.\"\nHypothesis: Obama's dog is called Bo.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: International observers are surprised at the attack, given the recent advances that the Sri Lanka army has made, driving the LTTE from their former territories. \"It is very significant that the rebels have carried out such an audacious attack when the government say that they are all but finished,\" opined BBC's Sinhala Editor, Priyath Liyanage. \"It confirms what many of us already knew \u2015the rebels may be experiencing reverses on the battle field but they are not simply just going to disappear.\"\nHypothesis: LTTE stands for Liberation Tigers of Tamil Eelam.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: In documents they filed with the U.S. District Court for the District of Columbia, government lawyers argued that three inmates who committed suicide last month by hanging themselves coordinated their actions by using attorney-client confidentiality to communicate with each other. Government officials said that among papers marked \"Attorney Client Privilege\" were instructions on how to tie knots and a classified memo on camp activities and inmate locations.\nHypothesis: Three people committed suicide in jail.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Greece objects to the neighbouring Skopje government using the name Macedonia, saying it implies claims on a Greek province of the same name.\nHypothesis: Greece and Macedonia are in dispute over name.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: A 15ft (4.5 meter) northern bottle-nosed whale has been spotted swimming in the river Thames in Central London, UK. The \"Thames whale\" managed to swim up past the Thames barrier and under many bridges, reaching as far as Chelsea before it turned around just before Albert Bridge. TV news helicopters scrambled to provide live TV footage of the whale, and many spectators lined the banks of the river. The whale is said to be looking healthy, although some fear that the whale may beach itself as it tried to do before rescuers forced it back into the middle of the river. Normally found in the North Atlantic, there have been sightings of a second whale near Southend.\nHypothesis: The River Thames flows through London.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: This weekend, March 25 and 26, was a big weekend in the Ottawa area for Canadian Idol want a Be's. Canadian Idol is a national singing competition that is organized by CTV Inc. a Canadian broadcasting communications company for Canadian citizens. The television show, greatly based on \"American Idol,\" has been on going for several seasons. In the past auditions have been know to have line-ups of thousands of people, however, this year after taking a tour around the new location it appears that line ups were manageable. Having the auditions at the St. Laurent Shopping mall [1] makes this easier said Idol's security coordinator Rick Paciorek.[2] Organizers have decided to change the way the auditions will \"rock and roll.\"\nHypothesis: Canadian Idol is a competition for singers.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: In more than 40 years as a broadcaster, right up to the last weeks before his death, Sir Clement established himself as one of Britain's most recognizable personalities. He cultivated a reputation as a grumpy, irritable but hugely entertaining performer. He won widespread public affection, particularly for his appearances since 1967 as a relentlessly inventive, assertive and witty panelist on the 30-minute radio show \"Just a Minute,\" in which contestants vie to speak on offbeat topics for 60 seconds without \"hesitation, repetition or deviation.\".\nHypothesis: Sir Clement Freud was the grandson of Sigmund Freud.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: With Washington hinting it might soften its tough stance to break the deadlock, top US negotiator, Christopher Hill, said the two sides needed to review the situation.\nHypothesis: Christopher Hill works for the US.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: The eighth Paralympic Winter Games are set to take place in Salt Lake City, Utah. For only the second time the Games are being held outside Europe, following the 1998 Winter Paralympics in Nagano, Japan. And for the first time ever, there is just one combined organising committee for both the Winter Olympic and Paralympic Games. Just 10 days after the Winter Olympics concludes, the Paralympics will begin in the same venue.\nHypothesis: The 2002 Olympic Winter games took place in Salt Lake.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Oqueli was to fly to Nicaragua to join an international Socialist delegation, which will observe the Nicaraguan electoral campaign.\nHypothesis: Oqueli was taking part in the Nicaraguan electoral campaign.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Iscor, the South African iron and steel manufacturer, has announced plans to develop a steel mini-mill at Saldanha Bay on the country's west coast in partnership with the state-run industrial development Corporation.\nHypothesis: The South African steel manufacturer Iscor plans to develop a mini-mill.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Edison decided to call \"his\" invention the Kinetoscope, combining the Greek root words \"kineto\" (movement), and \"scopos\" (\"to view\").\nHypothesis: Edison invented the Kinetoscope.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Amid rumors that China's 90-year-old senior leader, Deng Xiaoping, is near death, the visit also comes at a propitious moment to establish relationships with top officials, both military and civilian, who are likely to play a role in the post-Deng succession period as China struggles to find a new leader.\nHypothesis: Deng Xiaoping is 90 years old.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: The Republic of Tajikistan, which declared independence from the Soviet Union in 1991, is in a region that has changed hands many times.\nHypothesis: The Soviet Union collapsed in 1991.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: THE Government wants Nigerian mother-of-two Pamela Izevbekhai's case to stay in this country struck out after revelations that documents used in her action were forged. Ms Izevbekhai has been to the High Court 22 times to prevent her family's deportation on the grounds that her two daughters Naomi (7) and Jemima (6) will be subjected to female genital mutilation (FGM). However, she admitted last weekend that some documents given to the courts were forged. She has stood over her claim that she had a baby daughter, Elizabeth, who died from blood loss as a result of FGM. If her case is struck out, she and her daughters face deportation back to Nigeria.\nHypothesis: Pamela Izevbekhai comes from Nigeria.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Miles of Australia's most pristine coastline have been declared a disaster zone following a large oil spill from a storm-damaged cargo ship. At least 60 kilometres of Queensland's southeastern shore were contaminated when at least 42 tonnes of oil spilled into the ocean from MV Pacific Adventurer on Wednesday night.  The ship, which had sailed into cyclonic weather, lost 31 containers aboard, one of which pierced the ship's hull and a fuel tank.  Anna Bligh, the Queensland premier, has declared Moreton Island, Bribie Island and southern parts of the Sunshine Coast disaster zones.\nHypothesis: MV Pacific Adventurer has lost oil in the area of Moreton Island, Bribie Island and southern parts of the Sunshine Coast.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Secretary-General Kofi Annan and Nane Annan are greeted by President Fidel Castro upon their arrival at Jose Marti Airport in Havana on April 10.\nHypothesis: Castro visits the UN.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Just one week before the elections, Antwerp was the scene of the 0110 concerts, organised against racism, extremism and gratuitous violence. The event was spurred by a series of acts of \"pointless violence\" during the last year (the murder of Joe Van Holsbeeck, the case Hans Van Themsche and the events surrounding Guido Demoor. However, Vlaams Belang asked many musicians to boycott the event, because it \"only targets Vlaams Belang\". The party considered the concerts as a direct attack by the political establishment. Since 1989, the other parties have instituted a cordon sanitaire against Vlaams Belang, forcing them into the opposition, notwithstanding their increasing electorial success.\nHypothesis: Guido Demoor was assassinated by Joe Van Holsbeeck.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: The wait time for a green card has risen from 21 months to 33 months in those same regions.\nHypothesis: It takes longer to get green card.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Anglo/Dutch Royal Dutch Shell, Total, of France, and Spain's Repsol were all named as examples of established oil companies involved in the oil-for-food programme before surcharges began in 2001.\nHypothesis: Total participated in the oil-for-food programme.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: British mountaineer Alison Hargreaves becomes the first woman to climb Mount Everest alone and without oxygen tanks.\nHypothesis: A woman succeeds in climbing Everest solo.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: The black Muslim activist said that he had relieved Muhammad of his duties \"until he demonstrates that he is willing to conform to the manner of representing Allah and the honorable Elijah Muhammad (founder of the Nation of Islam)\".\nHypothesis: Elijah Muhammad founded the Nation of Islam.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: The Sector 15A locality in Noida, India, which is considered an elite enclave of rich industrialists, bureaucrats and professionals was in for a shock when Anant Gupta, son of Adobe India CEO Naresh Gupta was abducted in broad daylight by two unidentified men on Monday. The Noida police was subsequently notified but they were unable to locate the motor-cycle used by the kidnappers as no one was able to take down the registration number of the vehicle. A number of raiding teams have been formed by the police to track down the offenders.\nHypothesis: Anant Gupta was kidnapped in India.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: A zoo spokesman said the endangered lizards, believed to number less than 4,000 in the wild, all hatched in the last two weeks and 14 eggs are still under observation. He calls it the Komodo's most successful breeding year ever at the zoo. The giant reptiles first arrived in the early 1980s, but the new births brought their total from 34 to 66. The Komodo dragon can grow up to 10 feet long and weigh as much as 150 pounds. They have a bite that can be deadly and can only be found in the wild on the eastern Indonesian islands of Komodo, Padar and Rinca.\nHypothesis: A Komodo dragon can be 10 feet long.",
+    "response": "yes",
+    "category": "NLI"
+  }
+]

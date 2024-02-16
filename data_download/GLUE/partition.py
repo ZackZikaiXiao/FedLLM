@@ -171,6 +171,7 @@ def partition(data_path, save_path, num_clients, dirichlet_alpha, partition_meth
 
 def visualize(num_for_each_client, num_clients, data_path2, dirichlet_alpha, unique_label_list, partition_method):
     # Transpose operation
+    plt.figure(figsize=(11, 6))
     num_for_each_label_each_client = list(map(list, zip(*num_for_each_client)))
     x = np.arange(num_clients)
     unique_label_list.sort()
@@ -178,16 +179,16 @@ def visualize(num_for_each_client, num_clients, data_path2, dirichlet_alpha, uni
         if index == 0:
             bottom_height = [0]*num_clients
             plt.bar(x, num_for_each_label_each_client[index], label=label)
-            for a, b in zip(x, num_for_each_label_each_client[index]):
+            # for a, b in zip(x, num_for_each_label_each_client[index]):
                 # 柱子上的数字显示
-                plt.text(a, b, b, ha='center', va='bottom', fontsize=10)
+                # plt.text(a, b, b, ha='center', va='bottom', fontsize=10)
         else:
             bottom_height = [i + j for i, j in zip(bottom_height, num_for_each_label_each_client[index-1])]
             plt.bar(x, num_for_each_label_each_client[index], bottom=bottom_height, label=label)
             bottom_height_for_text = [i + j for i, j in zip(bottom_height, num_for_each_label_each_client[index])]
-            for a, b in zip(x, bottom_height_for_text):
+            # for a, b in zip(x, bottom_height_for_text):
                 # 柱子上的数字显示
-                plt.text(a, b, b, ha='center', va='bottom', fontsize=10)
+                # plt.text(a, b, b, ha='center', va='bottom', fontsize=10)
     plt.gca().yaxis.set_major_locator(MaxNLocator(integer=True))
     plt.gca().xaxis.set_major_locator(MaxNLocator(integer=True))
     plt.xlabel("Client", fontsize=12)
@@ -200,7 +201,8 @@ def visualize(num_for_each_client, num_clients, data_path2, dirichlet_alpha, uni
         plt.title("dirichlet label uniform, alpha = " + str(dirichlet_alpha))
     elif partition_method == 'iid':
         plt.title("iid")
-    plt.legend()
+    # plt.figure(figsize=(6, 6))
+    plt.legend(bbox_to_anchor=(1.05, 0), loc=3, borderaxespad=0)
     plt.savefig(os.path.join(data_path2, "disrtibution.png"))
 
 

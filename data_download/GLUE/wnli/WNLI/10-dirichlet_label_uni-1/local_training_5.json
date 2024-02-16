@@ -1,0 +1,110 @@
+[
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Steve follows Fred's example in everything. He influences him hugely.\nHypothesis: Fred influences him hugely.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: The foxes are getting in at night and attacking the chickens. They have gotten very bold.\nHypothesis: The foxes have gotten very bold.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Mr. Moncrieff visited Chester's luxurious New York apartment, thinking that it belonged to his son Edward. The result was that Mr. Moncrieff has decided to cancel Edward's allowance on the ground that he no longer requires his financial support.\nHypothesis: He no longer requires Edward's financial support.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Anna did a lot worse than her good friend Lucy on the test because she had studied so hard.\nHypothesis: Lucy had studied so hard.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: The dog chased the cat, which ran up a tree. It waited at the bottom.\nHypothesis: The dog waited at the bottom.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Paul tried to call George on the phone, but he wasn't available.\nHypothesis: Paul wasn't available.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Bob collapsed on the sidewalk. Soon he saw Carl coming to help. He was very concerned.\nHypothesis: Carl was very concerned.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: I tried to paint a picture of an orchard, with lemons in the lemon trees, but they came out looking more like light bulbs.\nHypothesis: The lemons came out looking more like light bulbs.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: There is a gap in the wall. You can see the garden behind it.\nHypothesis: You can see the garden through the gap.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Mark told Pete many lies about himself, which Pete included in his book. He should have been more truthful.\nHypothesis: Mark should have been more truthful.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: The table was piled high with food, and on the floor beside it there were crocks, baskets, and a five-quart pail of milk.\nHypothesis: Beside the table there were crocks, baskets, and a five-quart pail of milk.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: It was a summer afternoon, and the dog was sitting in the middle of the lawn. After a while, it got up and moved to a spot under the tree, because it was hot.\nHypothesis: The dog was hot.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: The scientists are studying three species of fish that have recently been found living in the Indian Ocean. They began two years ago.\nHypothesis: The scientists began two years ago.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: George got free tickets to the play, but he gave them to Eric, even though he was particularly eager to see it.\nHypothesis: George was particularly eager to see it.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: It is not easy to space buttonholes exactly the same distance apart, and it is very difficult to cut them precisely the right size. The tiniest slip of the scissors will make the hole too large, and even one thread uncut will leave it too small.\nHypothesis: Even one thread uncut will leave the hole too small.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: When Tatyana reached the cabin, her mother was sleeping. She was careful not to disturb her , undressing and climbing back into her berth.\nHypothesis: She was careful not to disturb Tatyana , undressing and climbing back into her berth.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties he faced in his childhood.\nHypothesis: Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties Goodman faced in his childhood.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Jane knocked on Susan's door, but there was no answer. She was disappointed.\nHypothesis: Jane was disappointed.",
+    "response": "yes",
+    "category": "NLI"
+  }
+]

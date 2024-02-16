@@ -1,0 +1,1340 @@
+[
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: BBC Radio 1 bosses have today reversed their decision to censor the word \"faggot\" from the 20 year old \"Fairytale of New York\" song by The Pogues. The initial censoring of the song caused controversy recently as the song had been played for 20 years without censoring, and resulted in many people contacting the BBC saying the decision was \"ridiculous\". The ban was also ridiculed for the fact that it only applied to Radio 1 and not to Radio 2 or any other station on the BBC network.\nHypothesis: Fairytale of New York does not contain the word \"faggot\".",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: India and Pakistan have agreed to release hundreds of fishermen and other civilians in each other's jails, a goodwill measure that comes as part of a peace process between the two countries.\nHypothesis: India and Pakistan have decided to free hundreds of civilian prisoners in each others jails.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Vice-President  \u00c1lvaro Marcelo Garc\u00eda Linera, a principal author of the draft constitution, hailed Sunday's referendum results, saying, \"this will be an egalitarian Bolivia, a Bolivia that leaves behind a dark, colonial, racist past.\" Linera, however, has acknowledged that the government has provoked deep divisions and faces vehement oppositions from many of the traditional elite, coming from many mixed-race people in the fertile eastern lowlands which rejected the draft charter.  \"I am not saying there will be no more conflict, there will be tensions for a while, I say a decade ... but we will have built a state on three principles: the economy under state control, equality, and the territorial decentralization of power,\" he said. The new constitution was rejected in four opposition-controlled regions: the tropical lowlands of Pando, Santa Cruz, Tarija and Beni, which contain most of Bolivia's natural gas production and are responsible for most of its agricultural output.\nHypothesis: \u00c1lvaro Marcelo Garc\u00eda Linera belongs to the republican party.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: In Wednesday's filing, Google said it planned to complete the IPO \"as soon as practicable.\"\nHypothesis: It's unclear whether Wednesday's twist will affect the timing of Google's initial public offering.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: There are many Baroque churches of the Counter-Reformation period, including the Jesuit Church next to the cathedral and the Church of the Holy Cross, which contains Chopin's heart.\nHypothesis: Sigismund made Warsaw the capital of Poland in 1611.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Oil prices fall back as Yukos oil threat lifted\nHypothesis: Oil prices rise.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Since 1987, however, Brazil has taken steps to dramatically reduce the destruction, including stepped-up enforcement and the elimination of tax incentives that led to large-scale land clearing.\nHypothesis: In the early 1990s Brazil began to take action to save the rainforest.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: In the early Olympic games, athletes used to run a mile and then recite a poem. The first poet-in-residence of an English football team, Ian McMillan, remarked that football chants are like huge tribal poems. Generally, though, sport and poetry have never seemed natural companions in human enterprise. Until the New York Mets baseball team suffered in 2007 arguably the worst collapse in Major League Baseball history. To describe the anguish fans felt, The New York Times turned to a poet, Frank Messina. \"Nothing was really representing the fan's point of view,\" Messina told Wikinews reporter David Shankbone in an interview. \"There's a lot of hurting people out there who can't express what happened.\"\nHypothesis: David Shankbone is an employee of The New York Times.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Gen. Maza Marquez said that the fact that a payment is being offered for the capture of Pablo Escobar does not mean that other persons accused of being capos of the mafia are not being sought, and that if anyone being held in connection with the investigation of the killing of Luis Carlos Galan is released, that does not mean that the investigations are not proceeding well.\nHypothesis: Luis was killed by the capos of the mafia.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Nabih Berri, Speaker of the Lebanese Parliament has delayed the presidential vote for an eleventh time since initial voting began on September 25. The last vote was set for December 29 but has been rescheduled for January 12. A senior political source stated the reason for the delay was due to \"complications in regional and international negotiations and the severing of domestic talks.\"\nHypothesis: Lebanon elected a new President.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: A.C. Milan is in second place with 13 points, after two first-half goals from captain Paolo Maldini earned them a 2-1 victory over Reggina.\nHypothesis: Paolo Maldini plays for Reggina.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: When patients interrupt a course of antibiotics, the surviving bacteria return with a vengeance, often having rapidly mutated to resist the therapy.\nHypothesis: Bacteria is winning the war against antibiotics.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: The World Health Organization moved Friday, to revise alarming predictions that a pandemic stemming from the bird flu virus ravaging parts of Asia, could kill as many as 150 million people.\nHypothesis: The U.N. health agency has distanced itself from a top official's prediction that a global influenza pandemic could kill as many as 150 million people.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Thus, China's President repeatedly sent letters and envoys to the Dalai Lama and to the Tibetan Government asking that Tibet \"join\" the Republic of China.\nHypothesis: Dalai Lama and the government of the People's Republic of China are in dispute over Panchen Lama's reincarnation.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Microsoft Corp. and Intel Corp., on Monday, threw their weight behind the next-generation, HD DVD format being promoted by Toshiba Corp., in a blow to Sony Corp.'s Blu-ray format.\nHypothesis: Microsoft Corp. invented the next generation HD DVD format.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Martin was taken to New Orleans Ochsner Foundation Hospital, where nurse Jinny Resor said he was treated for dehydration.\nHypothesis: Martin works for the Ochsner Foundation Hospital.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Iraq's representative to the United Nations, Nizar Hamdoun, announced today, Sunday, that thousands of people were killed or injured during the four days of air bombardment against Iraq.\nHypothesis: Nizar HAMDOON, Iraqi ambassador to the United Nations, announced that thousands of people could be killed or wounded due to the aerial bombardment of Iraq.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: In any case, the fact that this week Michael Melvill, a 63-year-old civilian pilot, guided a tiny rocket-ship more than 100 kilometres above the Earth and then glided it safely back to Earth, is a cause for celebration.\nHypothesis: Michael Melvill guided more than 100 rocket-ships above the Earth.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: There is growing evidence that magnesium may be an important factor in the qualitative changes of the bone matrix that determine bone fragility.\nHypothesis: Dietary intake of magnesium prevents osteoporosis.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Further evidence emerged on Wednesday of the severe downturn in the aviation sector as Emirates pulled its giant Airbus A380s off the Dubai to New York route. The airline blamed the weakening global economy for the decision, an embarrassing U-turn only eight months after its A380 services were launched with the New York route. Emirates' failure to make New York work with the A380 has raised concerns about the large number of the double-decker aircraft ordered by the carrier. It is the A380's largest customer and has ordered 58 of the 500-seat aircraft. It operates two to New York, one to Heathrow and one to Sydney.\nHypothesis: A380 has only 58 seats.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Apart from the new substances entering the market, the phase out of existing ones, which have been definitely identified as damaging the ozone layer, is far from complete.\nHypothesis: New substances are damaging the ozone layer.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Begun in 1989 with generous annual support from Lutheran Brotherhood (now Thrivent Financial for Lutherans), the Nobel Peace Prize Forum's stimulating array of programs has involved more than 21,000 participants and reached a much broader audience through national and regional media coverage.\nHypothesis: Lutheran Brotherhood received the Nobel Peace Prize in 1989.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: PM tried to buy the Belin biscuit company from RJR Nabisco two years ago.\nHypothesis: American tobacco companies began to diversify production.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Bunker started XenuTV in 1999 and began to make videos that he provided for the Lisa McPherson Trust. Bunker has been a critic of the Church of Scientology since 1997. In 2006, he won a Regional Emmy Award after he and KUSI-TV news reporter Lena Lewis produced a documentary news video on the issues with the United States - Mexico border with San Diego, California.\nHypothesis: Church of Scientology includes Lena Lewis among its members.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Over 100 more lives were lost at sea, and 1800 were lost in Holland.\nHypothesis: 100 or more people lost their lives in a ferry sinking.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: The humane organization, Caritas, quoting its branch in Iraq, announced today, in Germany, that several Iraqi hospitals, especially Saddam Hospital, which is considered the biggest hospital in Iraq, were hit in the American-British bombing of the Iraqi capital.\nHypothesis: An official source for Caritas announced today in Germany, that several Iraqi hospitals, (excluding Saddam Hospital, which is the biggest hospital in Iraq,) were hit in the American-British shelling of Baghdad.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Officials claimed they were backed by influential members of the Santa Cruz business community of Croatian descent. The security vice-minister, Marcos Farfan, said that police have surveillance photographs of Mr Dwyer at various public events attended by Mr Morales, including a peasant rally near Santa Cruz and a visit to naval installations on Lake Titicaca. Mr Farfan said that Mr Dwyer was \"following\" Mr Morales and other officials as part of the preparations for the \"assassination plot\". He added that police experts are analysing contents reportedly found in computers taken from the rooms in which the men were killed.\nHypothesis: Lake Titicaca has a naval installation.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Then came the dozens of protesters who started camping out near Bush's ranch this month, led by a California mother who lost her son in the war and insists on speaking to the president.\nHypothesis: FBI whistleblower Coleen Rowley has also arrived in Texas, as has Becky Lourey, another mother who has lost her son in Iraq and a state senator in Minnesota",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Morton's book was published January 15, and hit number one on Amazon.com's Top Sellers list on January 18. Yesterday, the book hit the number one spot on The New York Times Best Sellers list. The book is not for sale in Britain or Ireland, and the New York Post has reported that British tourists to the United States are buying copies of the book to bring back home. Morton makes some controversial assertions in the book, including that Cruise is second in command at the Church of Scientology, and that Scientology was the cause of Cruise and Nicole Kidman's separation.\nHypothesis: Tom Cruise is married to Katie Holmes.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: President George W. Bush, who gave the keynote address and introduced his father, raved about the vessel: \"She is unrelenting, she unshakeable, she is unyielding, she is unstoppable. In fact, she should have been named the Barbara Bush.\"\nHypothesis: The name of George H.W. Bush's wife is Barbara.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Larsson was known in his native Sweden as an investigative journalist and a fervent campaigner against racism. But when he died of a heart attack at age 50 in 2004, he left behind the manuscripts of three books that would transform his legacy. His first novel, The Girl With the Dragon Tattoo, was published in Sweden a year after his death and was already an international success when it was released in the United States last year by Alfred A Knopf. More than 6 million copies of the book have been sold worldwide. An international study based on best-seller lists in the United States, Britain, France, Germany, Sweden, Italy, Spain and China ranked Larsson the second most popular fiction writer in 2008 after Khaled Hosseini, author of The Kite Runner and A Thousand Splendid Suns.\nHypothesis: The Kite Runner was written by Khaled Hosseini.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: In the May 2005 general election Michael Howard failed to unseat the Labour Government, although the Conservatives did gain 33 seats, playing the most significant role in reducing Labour's majority from 167 to 66.\nHypothesis: In the May 2005 general election Conservatives got 33 seats.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Long-distance telephone company MCI Inc., on Friday, touted its $6.75 billion deal to be bought by Verizon Communications Inc., but said it would thoroughly analyze a revised $8 billion bid by Qwest Communications International Inc.\nHypothesis: MCI made no mention of its planned $6.7 billion agreement to be acquired by Verizon Communications in its release, Friday.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: The cost of the consumer of the United States fell in June.\nHypothesis: U.S. consumer spending dived in June.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: In other words, with its 2 million inhabitants, Slovenia has only 5.5 thousand professional soldiers.\nHypothesis: Slovenia has 5.5 million inhabitants.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: The Bills will announce the release of  12-year veteran Drew Bledsoe on Wednesday afternoon, leaving J.P. Losman as the No. 1 QB.\nHypothesis: The Bills announced that they will release the 33-year-old Bledsoe.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: The mystery of Alexander the Great's tomb still has not unraveled, and locating the burial of Alexander seems to have become an impossible mission for archaeologists.\nHypothesis: Alexander the Great's Tomb remains undiscovered.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Animals are permitted to enter the UK 6 months later without quarantine as long as they have been treated for ticks, fleas and tapeworms between 24 and 48 hours before boarding the transport that will return the pets to the UK.\nHypothesis: Quarantine is compulsory for animals to enter the UK.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: In the year 538, Cyrus set in place a policy which demanded the return of the various gods to their proper places.\nHypothesis: Cyrus issued a declaration in 538 that would allow the Jews to go back to their homeland.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Prolonged exposure to UV-B light can cause sunburn, and there are worries that damage to the ozone layer may lead to an increase in the incidence of skin cancer.\nHypothesis: UV-B light is damaging the ozone layer.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Scientists had observed that mice with a defective Klotho gene aged prematurely and wondered if an enhanced gene would have an opposite effect.\nHypothesis: Scientists have discovered a gene that produces a hormone that raises the life expectancy in mice by 30 percent.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Climate change is with us. A decade ago, it was conjecture. Now the future is unfolding before our eyes. Canada's Inuit see it in disappearing Arctic ice and permafrost.\nHypothesis: Greenhouse effect changes global climate.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: However, market players were more inclined towards weakening yen, as the yen plunged to its lowest levels since October 1998, after foreign exchange markets interpreted comments made by visiting U.S. Treasury Secretary Paul O'Neill to mean that Washington is not opposed to a weak Japanese currency.\nHypothesis: The introduction of the euro has been opposed.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Chancellor Schroeder has presided over three years of almost zero growth in the economy and an unemployment rate that has remained stubbornly above four million people.\nHypothesis: More than four million people have remained stubbornly unemployed in the last three years.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Nevertheless, 58 percent of Americans expressed their satisfaction with the President's job performance. 44 percent supported Nixon at the very beginning of the investigation into Watergate.\nHypothesis: Although 58% of Americans are unsatisfied with Clinton's job performance, 44% found Nixon's work adequate at the start of the Watergate scandal.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Intel has decided to push back the launch date for its 4-GHz Pentium 4 desktop processor to the first quarter of 2005.\nHypothesis: Intel would raise the clock speed of the company's flagship Pentium 4 processor to 4 GHz.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Twelve of Jupiter's moons are relatively small and seem to have been more likely captured than to have been formed in orbit around Jupiter.\nHypothesis: Jupiter has Twelve moons.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Though owning no trees and no waters, Takeshima Island has become the subject of a bitter political dispute between Japan and South Korea.\nHypothesis: There is a territorial waters dispute.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Historians estimate that 800,000 Chechens were stuffed into rail cars and deported to Kazakhstan and Siberia, and 240,000 of them died en route.\nHypothesis: Stalin deported 800,000 Chechens.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: The recovery of the capsule, which carried astronaut Virgil \"Gus\" Grissom on a brief suborbital flight on July 21, 1961, took place on the 30th anniversary of mankind's first moon landing.\nHypothesis: The moon was first touched by mankind in 1969.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: As an active member of the National Guard, he was called to duty in 1941. Although Kennon did not see active combat, he did not return home from World War II until May of 1945.\nHypothesis: Kennon did not participate in WWII.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: As his jubilant nation cheered, Yunus told reporters in the capital of Dhaka that he wants \"to work to create some more new things in the world\" and would use the award money to start a company to produce inexpensive yet nutritious food for poor people and set up an eye hospital to treat impoverished patients.\nHypothesis: Yunus wants to start a company.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Mr. Olsen paid $20 million for the space trip, but says that in the future space travel will likely become as routine as air travel is today.\nHypothesis: Air travel costs $20 million.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Getty also starred in several movies after the show including Mask where she played the mother of singer and song writer Cher and Stop! Or My Mom Will Shoot where she also played the mother of actor Sylvester Stallone. She also starred in the television show spin off of The Golden Girls titled The Golden Palace and made a two episode appearance on another spin off called Empty Nest. Getty was born in New York City on July 25, 1923, passing away just three days before her 85th birthday.\nHypothesis: Stallone played Getty's father.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Strong competition in industries such as shipping has resulted in waves of investment in labour saving technology such as steel and aluminium cutting tools, processing machine and welding robots.\nHypothesis: The automotive industry has seen advances in robotic metal cutting.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Only his comrades see him; we exchange messages with each other to share plans. We also go to the battlefield together. We actually meet very rarely, just for important consultations. It's hard for anyone to meet Bin Laden himself now, but we know he's still alive, said Dadullah. Dadullah also claims that there are \"hundreds\" of suicide bombers that are prepared and ready to hit the NATO peacekeeping forces in Afghanistan and that Americans will \"reap the crop for a long time\" also saying that the Taliban and al-Qaeda will get \"revenge\" on the United States either inside or outside Afghanistan.\nHypothesis: Dadullah is a Taliban.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Canadian traffickers also are reported to drop their marijuana loads across the border in remote areas (often without the knowledge of rural landowners), cross into the United States without drugs, later retrieve the marijuana, and continue on to U.S.  distribution sites.\nHypothesis: Most of the marijuana entering the United States comes from Canada.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: In an address to the IAEA board of governors in Vienna, Hans Blix said a technical team that visited North Korea last month found that \"facilities subject to the freeze were not in operation and that construction work had stopped.\"\nHypothesis: Hans Blix is the director general of IAEA.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Mr Fitzgerald revealed he was one of several top officials who told Mr Libby in June 2003 that Valerie Plame, wife of the former ambassador Joseph Wilson, worked for the CIA.\nHypothesis: Joseph Wilson worked for CIA.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: The Sudanese government reiterated on Saturday that it would not retreat from its decision to expel more than a dozen of international nongovernmental organizations (NGOs) operating relief work in its western region of Darfur. Sudanese Vice President Ali Osman Mohammed Taha made the remarks at the opening session of the conference of Arab civil society institutions. \"The government's decision to expel some of the organizations is a sovereign decision which was dictated by the national interest. We will not back down from this decision whatever the pressures,\" Taha said.\nHypothesis: Mohammed Taha works for an NGO.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Nine months later, John Glenn becomes the first American man to orbit the Earth.\nHypothesis: John Glenn was the first man in orbit.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Benjamin Vanderford, 22, said he posted the 55-second clip, which shows a knife sawing against his neck, on an online file-sharing network in May.\nHypothesis: Mr Vanderford said he filmed his own mock execution in a friend's garage to show how the media could be fooled.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: An Afghan interpreter, employed by the United States, was also wounded.\nHypothesis: An interpreter worked for Afghanistan.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: The United States government has filed a civil lawsuit against BP Exploration (Alaska) Inc. (BPXA) alleging that the company \"violated federal clean air and water laws\" by \"illegally discharging\" more than 200,000 gallons crude oil during two oil spills in 2006 on Alaska's North Slope in Prudhoe Bay. BPXA previously pleaded guilty to one count of criminal negligence in illegally discharging the oil and paid US$20 million in damages. As a result of the plea, the lawsuit was filed saying that they \"failed\" to prepare for such a disaster by implementing \"certain [sic] spill prevention measures\" as the law requires.\nHypothesis: Prudhoe Bay is situated in North Slope.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: WASHINGTON \u2015Kirk Kerkorian, the billionaire mogul and major shareholder in General Motors Corp., said Friday that automakers Renault SA and Nissan Motor Co. are interested in purchasing a significant stake in GM and including the Detroit automaker in their alliance. Kerkorian's investment company, Tracinda Corp., told GM Chairman and CEO Rick Wagoner in a letter that Renault and Nissan are receptive to the idea of including General Motors in their partnership and purchasing \"a significant minority interest\" in the automaker.\nHypothesis: Rick Wagoner is one of the major shareholders of GM.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: South African President Thabo Mbeki, the main mediator in C\u00f4te d'Ivoire's peace process, said on Sunday that Pretoria is heightening its intervention in the West African nation to pave the way for elections later this year.\nHypothesis: Pretoria is located in C\u00f4te d'Ivoire.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Rising house and stock prices have made many people feel more wealthy and have helped to support consumer spending, a key ingredient of the economy's good health.\nHypothesis: A long spell of low interest rates and low risks for investors has especially encouraged investment in homes.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: She would later return to the Contest in 2005 with \"Angel,\" an anthem she penned herself, and achieved second place. Now, in 2009, she will be returning to Eurovision for a third try, hoping for the \"3-2-1\" charm and a victory \u2015something that has eluded her thus far. Her entry, the ballad \"What If We,\" has special memories for Chiara; it is dedicated to her father, who is recently deceased.\nHypothesis: Ms Siracura joined the Eurovision Song Contest.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: In sub-Saharan Africa about one in every 30 people is infected with HIV.\nHypothesis: 30% of the people infected with HIV live in Africa.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: NUCOR, the leading US steel mini-mill group is to greatly expand production capacity at a plant in Crawfordsville, Indiana which has shaken up the industry by its use of a radical, new technology.\nHypothesis: The new thin-casting process shook up the steel industry.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: After years of study, the Vatican's doctrinal congregation has sent church leaders a confidential document concluding that \"sex-change\" procedures do not change a person's gender in the eyes of the church.\nHypothesis: Sex-change operations become more common.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: A Muslim charity in the Philippines that was supported by bin Laden and run by a brother-in-law, Mohammad Jamal Khalifa, financed Shah and the other plotters.\nHypothesis: Mohammad Khalifa's father-in-law is Osama Bin Laden.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Analysts expected the company to earn $1.42 a share on revenue of $3.82 billion, according to a Thomson Financial survey.\nHypothesis: Analysts had expected revenue of $3.8 billion, according to Reuters estimates.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Two bombs planted near an Islamic school in Pakistan killed eight people and injured 42 others yesterday in the latest outbreak of violence gripping the southern port of Karachi.\nHypothesis: Eight people planted two bombs near an Islamic school in Pakistan.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Nor is it clear whether any US support to Germany, in favour of Bonn as the WTO headquarters, would necessarily tilt a decision in that direction.\nHypothesis: The WTO headquarters is in Bonn.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Thanks to the thirty Heads who responded to my question about maternity leave. Clearly, the amount of maternity leave offered to teachers at international schools varies greatly from school to school.\nHypothesis: Maternity leave varies in Europe.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: The development application for a McDonald's restaurant at Minyama, on Queensland's Sunshine Coast in Australia, has been rejected by the Sunshine Coast Regional Council. \"We knocked back a Hungry Jack's on Nicklin Way because of the nuisance code,\" said divisional councilor Chris Thompson. \"We already have a 24-hour McDonald's at Mooloolaba, only one kilometre away, and there are already [anti-social] issues at that site.\"\nHypothesis: Sunshine Coast Regional Council accepted McDonald's Australia development plans.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: The Los Angeles Lakers rolled over the Indiana Pacers in Wednesday's the opening round game of the NBA championship series.\nHypothesis: Lakers win the championship.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Consumers continued buying fewer lattes and coffees at Starbucks in its second quarter and restructuring charges led to a 77 percent in net income, but the drop in sales was something of an improvement. Starbucks Corp. - hurt in recent quarters by the perception that its drinks are too pricey - said Wednesday that sales at established locations fell 8 percent both worldwide and in the U.S. the first three months of 2009 compared with a year earlier. In the last three months of last year, Starbucks' global same-store sales fell 9 percent and U.S. same-store sales declined 10 percent.\nHypothesis: Starbucks is a US coffee giant.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: U.S. space shuttle Atlantis and its seven-member crew concluded their pursuit of the International Space Station (ISS) on Wednesday and docked with the orbital outpost at 12:05 EDT (1605 GMT).\nHypothesis: US shuttle Atlantis docks with the Mir space station.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Ashley Olsen has decided to remain with her twin sister, Mary-Kate, instead of going on a planned trip to Australia to promote the opening of the siblings' latest movie adventure \"New York Minute,\" reports the AP.\nHypothesis: Ashley Olsen plans a trip to Australia with Mary-Kate.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Canada rig count at 148, down 46 compared to last week's and down 27 compared to last year's.\nHypothesis: Last year, the tally was 148",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: The President George Bush administration, on Friday, ordered the sale of 30 million barrels of crude oil from the government's emergency stockpile to halt runaway oil prices triggered by Hurricane Katrina.\nHypothesis: European nations were considering releasing oil reserves to help the United States after Hurricane Katrina.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: The city is twinned with Glasgow, Dortmund, Pleven, and Le Mans.\nHypothesis: Dortmund is twinned with Glasgow.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Both candidates are making a major push in Iowa.\nHypothesis: Both candidates are delivering a great attack in Iowa.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Yes, water is a critical area of dispute in the Arab-Israeli conflict; but given the current climate of peacemaking, and given the general war-weariness among states and populations, such predictions are excitable pieces of subjectivism.\nHypothesis: There is a territorial waters dispute.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: The organizers of the 15th International AIDS Conference, scheduled for next month in Bangkok, Thailand, on Saturday responded to press reports that a prominent hotel in Bangkok discriminated against HIV-positive visitors attending a different conference this month.\nHypothesis: HIV-positive visitors take part in the 15th International AIDS Conference.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Frye says, that he (a homeopathy expert) and Iris Bell recently studied homeopathic treatment of fibromyalgia.  A new analysis - comparing published studies of homeopathic drugs to matched, randomly selected studies of medical drugs - suggests that these apparent homeopathic drug effects are merely placebo effects.\nHypothesis: What really irks Frye and other doctors of homeopathy, however, is that homeopathic remedies are not supposed to be used like medical drugs.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: The program, financed with a grant from the UN Agency for International Development, is aimed at reducing infant mortality in Madagascar, an island nation in the Indian Ocean off the eastern coast of Africa.\nHypothesis: The UN Agency for International Development is an organisation based in Madagascar.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Google Inc. is delaying its IPO by a week because of logistical problems related to institutional investors registering to bid on the shares.\nHypothesis: A delay for Google's IPO would push the deal later into a month that is traditionally light on IPO volume.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Some other objections to legalization point to the greater dangers of family violence, reckless driving, or reckless operation of subways and so on.\nHypothesis: Drug legalization has benefits.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Cage is a big fan of \"Superman\" (who was born on the fictional planet Krypton) and was to play the role in a film planned for the 1990s that never came to be.\nHypothesis: Cage played Superman.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: The German-based team say their study is the only report of prolonged hibernation in a tropical mammal.\nHypothesis: The team studies hibernating mammals in Germany.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Diets that provide recommended levels of magnesium are beneficial for bone health, but further investigation on the role of magnesium in bone metabolism and osteoporosis is needed.\nHypothesis: Dietary intake of magnesium prevents osteoporosis.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: A radiation leak at a nuclear power plant in Yeonggwang, South Jeolla province, led officials yesterday to shut down the facility.\nHypothesis: The nuclear power plant of Sosnovyi Bor suffers an emergency shut down.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Of course, most of the tax cuts expire in 2010; only three years from when Rangel would take over as chair if Democrats win.\nHypothesis: Democrats won the elections three years ago.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Jigish Avalani, group manager of Windows DNA marketing at Microsoft, explains that Windows DNA refers to the Windows Distributed interNet Application architecture, launched by Microsoft in fall of 1997.\nHypothesis: Microsoft was established in fall of 1997.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: To the south of Castle Hill rises the higher Gellert Hill ( 771 feet ), a steep limestone escarpment overlooking the Danube, which provides a panoramic view of the whole city.\nHypothesis: To the south is Gellert Hill, which features the 19th-century Citadel.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: By 2010 the following countries have the potential to produce more oil than they have ever produced before: Saudi Arabia,  Iraq, Kuwait, United Arab Emirates, Kazakhstan and Bolivia.\nHypothesis: Kuwait produces more oil than any other country.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: British singer-songwriter Natasha Bedingfield, who sang with her brother Daniel and sister Nikola as The DNA Algorithm, tied the knot with a California businessman in Malibu. According to reports the marriage, which took place Saturday in a 30-minute outdoor ceremony overlooking the Pacific Ocean, was attended by about 150 guests.  The guests watched Bedingfield walk down the aisle in a Vera Wang dress beside the chateau at the Church Estates Vineyards.  Bedingfield, who was born in New Zealand and grown up in England, found her partner, in America.\nHypothesis: Natasha Bedingfield is married to Matthew Robinson.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: More than 2,000 people lost their lives in the devastating Johnstown Flood.\nHypothesis: 100 or more people lost their lives in a ferry sinking.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: It is an image familiar to many Southern Californians but vividly illustrative in this Egyptian metropolis, where a U.N. conference on global population is trying for the first time to draw clear links between population growth and the environment.\nHypothesis: The International Conference on Population and Development was held in Cairo.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: The president Cristiani spoke today at the El Salvador military airport before he left for Costa Rica to attend the inauguration ceremony of president-elect Rafael Calderon Fournier.\nHypothesis: Cristiani is the president of Costa Rica.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: With $549 million in cash as of June 30, Google can easily afford to make amends.\nHypothesis: Some 30 million shares have been assigned to the company's workers.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Moscow (USSR), 12 Jul 89 (PRAVDA)- Blood is flowing in Columbia, where last year, according to official statistics, there were 4,600 victims of political violence, including Jaime Pardo Leal (president of Colombia's national coordination committee), around 30 deputies and many municipal advisors and mayors.\nHypothesis: Jaime Pardo Leal was killed in Moscow.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: WASHINGTON \u2014 The Senate confirmed the nomination of Kathleen Sebelius as secretary of health and human services on Tuesday, allowing President Obama to fill the last vacancy in his cabinet with a seasoned politician who will take charge of the fight against swine flu. The vote was 65 to 31. Among the nine Republicans who voted for Ms. Sebelius was Senator Arlen Specter of Pennsylvania, who announced on Tuesday that he was becoming a Democrat. Besides directing federal efforts against swine flu, Ms. Sebelius will lead the administration's campaign for universal health insurance.\nHypothesis: Kathleen Sebelius comes from Pennsylvania.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Our horse chestnut is in full bloom, Anne Frank told her diary on Saturday, May 13, 1944, \"thickly covered with leaves and much more beautiful than last year.\" She would have been 79 this year, turning 80. Had she survived, Miss Frank would still be able to see the horse chestnut tree by which she measured the seasons of life during her two years of hiding from the Nazis, not just behind the building in Amsterdam from which she and her family were taken by the Gestapo in 1944 but \u2014 if the plans of the Anne Frank Center USA are realized \u2014 at 10 sites around this country, including New York City.\nHypothesis: Anne Frank died at the age of 15.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: The last polio outbreak in the United States was in 1979.\nHypothesis: African polio outbreak feared",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: The Nobel committee said in a statement that \"lasting peace cannot be achieved unless large population groups find ways in which to break out of poverty.\"\nHypothesis: The Nobel committee plans to help people break out of poverty.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Typhoon Xangsane was downgraded to a tropical storm Sunday as it moved inland from the central Vietnam coast, where it killed two people, injured at least 80 others and damaged hundreds of homes, officials and state-controlled media reported.\nHypothesis: A typhoon batters the Philippines.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: United States astronaut Sunita Williams, currently on board the International Space Station, has today broken the record for the longest unbroken space flight by a woman. At 5:47 a.m. UTC Williams passed the previous record of 188 days and four hours set by Shannon Lucid in 1996. This is not the only record Williams has broken. Earlier this year she set a record of 29 hours and 17 minutes for time spent by a woman on space walks.\nHypothesis: Anousheh Ansari paid to go in space.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Hoover's director reports directly to Stanford's president.\nHypothesis: Hoover is the president of Stanford University.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Moreau, 72, received a Golden Bear award for lifetime achievement at the Berlin Film Festival Friday.\nHypothesis: The Golden Palm has been awarded at the Cannes film Festival.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Nicholas Burns stated in an exclusive interview for \"Utrinski Vesnik\" from Pristina that it would be disgraceful if Athens puts a veto on Macedonia's application for membership in the European Union and NATO.\nHypothesis: Greece and Macedonia are in dispute over name.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Twenty-five of the dead were members of the law enforcement agencies and the rest of the 67 were civilians.\nHypothesis: 25 of the dead were civilians.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: The terrorist is suspected of being behind several deadly kidnappings and dozens of suicide attacks in Iraq.\nHypothesis: Terrorist kidnaps dozens of Iraqis.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: After two years, the aspirin subjects experienced a reduced risk of fatal and nonfatal stroke.\nHypothesis: People experienced adverse effects while taking aspirin.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: The Chicago White Sox are a major league baseball team based in Chicago, Illinois.\nHypothesis: The Bulls basketball team is based in Chicago, Illinois.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Saudi Arabia's production mix will shift to a higher proportion of lighter crudes. Unlike last year's Qatif and Abu Safah developments, nearly all of the proposed projects produce Arab Light or lighter crudes.\nHypothesis: Saudi Arabia produces more oil than any other country.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Hubble is helping astronomers precisely calculate the age of the universe by providing accurate distances to galaxies, an important prerequisite for calculating age. Hubble measures the distances to neighboring galaxies by finding accurate \"milepost markers,\" a special class of pulsating star called Cepheid variables. These, in turn, are being used to calibrate more remote milepost markers.\nHypothesis: Hubble discovers black holes.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Madrid: Luis Roldan, the former Spanish chief of police who fled the country 10 months ago after allegedly hiving off millions of pounds from secret government funds, was on his way home to a prison cell last night after being captured in Bangkok.\nHypothesis: Luis Roldan was director of police from 1986 to 1993.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: The ball took one last turn and dropped into the cup for birdie, making Retief Goosen more than just the sole survivor of par at Pinehurst No. 2.\nHypothesis: Goosen managed a combined 25-over par for the closing round.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: A rocket attack killed two Israelis, including a 3-year-old boy.\nHypothesis: A three-year-old was killed in a rocket attack.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Last week's release of long-secret Justice Department interrogation memorandums has given rise to starkly opposing narratives about what, if anything, was gained by the C.I.A.'s use of waterboarding, wall-slamming and other physical pressure to shock and intimidate Qaeda operatives. Senior Bush administration officials, led by Vice President Dick Cheney and cheered by many Congressional Republicans, are fighting a rear-guard action in defense of their record. Only by using the harshest methods, they insist, did the intelligence agency get the information it needed to round up Qaeda killers and save thousands of American lives.\nHypothesis: Dick Cheney was the chief of the Justice Department.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: The increase in womens' representation in the first elections to the Scottish Parliament has become a symbol for change, backed by the Parliament's principled commitment to creating a more equal society.\nHypothesis: Women are poorly represented in parliament.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Among the fascinating sites in the city are Independence Hall where the Declaration of Independence was signed, and one of America's principal symbols of freedom, The Liberty Bell, located in Congress Hall.\nHypothesis: The US Declaration of Independence is located in America.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: According to the captain, the 1999 ferry was inspected by the Transport Ministry on December 9 and was certified to be in good condition. \"It seems that due to the weather conditions the chance is little, but we still hope,\" Djamal stated. With 17 crew members, and carrying 200 tons of cargo, the ill-fated PT Nur Budi owned and operated ferry sank so fast that the crew \"had no chance to ask the passengers to wear life jackets.\"\nHypothesis: An Indonesian ferry with 300 passengers sank.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Manuel Rosales, who ran against Mr Chavez in the 2006 presidential election, faces corruption charges he says are baseless. He had been in hiding since the charges were filed last month. Venezuela's Interior Minister Tareck el-Aissami said Mr Rosales was a criminal on the run. \"If he doesn't appear before the appropriate courts, he would be a fugitive from justice, and as a result the court will activate mechanisms for his international capture,\" said Mr Aissami, denying that the charges were political.\nHypothesis: Manuel Rosales was mayor of Maracaibo.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Two British soldiers have been arrested in the southern Iraq city of Basra, sparking clashes outside a police station where they are being held.\nHypothesis: Two British soldiers' imprisonment prompted UK troops to storm a police station.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: In 1969, he drew up the report proposing the expulsion from the party of the Manifesto group. In 1984, after Berlinguer's death, Natta was elected as party secretary.\nHypothesis: Berlinguer succeeded Natta.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Those accused of the assassination of six Jesuits, if found guilty, will be punished whether they are civilians, military, or influential people.\nHypothesis: Six Jesuits were killed by civilians.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Still, the storm surge was both stronger and earlier than expected, apparently coming through waterways southeast of the city, said Col. Richard Wagenaar, the Army Corps of Engineers' district chief in New Orleans.\nHypothesis: Col. Richard Wagenaar said the problems would set back repairs at least three weeks, but June was still the target for having the levees back to pre-Katrina strength.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Shiite and Kurdish political leaders continued talks, on Monday, on forming a new government, saying they expected a full cabinet to be announced within a day or two.\nHypothesis: Washington is pressing Iraq's leaders to end weeks of political deadlock and to form a new government as soon as possible, US officials say.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: U.S. Secretary of State Condoleezza Rice said Thursday that North Korea should return to nuclear disarmament talks and avoid a path toward further international isolation.\nHypothesis: North Korea has a stockpile of nuclear weapons.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Every year, about a quarter of all children sustain an injury serious enough to require medical attention, school absences, and/or bed rest.\nHypothesis: Fireworks may cause serious injuries.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Their work has stimulated research into microbes as possible reasons for other chronic inflammatory conditions, such as Crohn's disease, ulcerative colitis, rheumatoid arthritis and atherosclerosis, the Nobel assembly said.\nHypothesis: Rheumatoid arthritis is caused by microbes.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: The New-York based company said, Tuesday, that profits totaled a record $946 million, or 75 cents a share, in the January-March period, up from $794 million, or 61 cents a share, a year earlier.\nHypothesis: Net income grew to $369 million, or 83 cents per share, in the January-March period from $291 million, or 65 cents per share, a year ago.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Officials from TAG Heuer have announced that the company received the iF product design award, which was given away by the jury from the International Forum Design. TAG Heuer received the award for its concept watch, called Monaco Calibre 360 (Linear Second) Concept Chronograph. The jury that gives away the iF product design awards each year consists of leading design experts from all over the world gathered in one place. The iF awards are presented in Hanover, Germany, at the International Forum Design Hannover GMBH. There are a number of fields and disciplines which have their own awards.\nHypothesis: Monaco Calibre 360 (Linear Second) Concept Chronograph is produced in Hannover.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: In an interview on a television show called the No Drug Show, hosted by Larry Byrnes, the Church of Scientology blamed both the September 11, 2001 attacks in the United States and the attack on Pearl Harbor on psychiatrists and the drugs they prescribe their patients. Scientology considers psychiatry to be barbaric and a violation of human rights. The video was posted on the video sharing website YouTube, but was later removed \"due to a copyright claim by Axiom 10 Productions, Inc.\" Mark Bunker of XenuTV questioned why Axiom 10 would utilize the Digital Millenium Copyright Act to remove the video from YouTube, as it was promoting their ideology about psychiatrists. It was later re-added to another site called Vimeo.com.\nHypothesis: Scientology is against psychiatry.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Despite the turmoil in Israeli society, there is little doubt that Prime Minister Ariel Sharon will pull the nearly 9,000 Israeli settlers out of Gaza, now a closed military zone.\nHypothesis: 9,000 settlers are employed by Israel.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: By 1979, the literacy rate in Cuba was higher than 90%, comparable to the rates in the United States and other developed countries.\nHypothesis: The literacy rate in Cuba is 90%.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: A brain-dead teenager was removed from life-support equipment after giving birth to a premature daughter.\nHypothesis: Pregnant women are allowed to die after they deliver their babies.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: The media always talk about the Dow being up or down a certain number of points.\nHypothesis: Dow Jones is down.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: According to an Israeli official, the murders of Galan, a high-ranking police officer, and a judge last week were probably carried out by an Israeli mercenary paid by the Medellin cartel - the world's most powerful drug-trafficking mafia - which has set up paramilitary squads accused of hundreds of individual murders and massacres against political and labor leaders, as well as peasants and patriotic union leftist militants in different parts of the country.\nHypothesis: An Israeli official was killed by patriotic union leftist militants.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Kevin Vincent, 44, of Arlington, Va., said his wife buys store brand acetaminophen and he wanted to find out more about the problem.\nHypothesis: Kevin Vincent buys store brand acetaminophen.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Even the most draconian proposal \u2014 to reinstate flight limits to ease the bottlenecks at Kennedy \u2014 might backfire, industry analysts say, because airlines would end up shifting flights to Newark Airport, which is already strained. \"Kennedy is the perfect example of putting 10 pounds in a 5-pound bag,\" said Darryl Jenkins, a longtime airline consultant. \"J.F.K. was never set up to be a hub for anybody; its been a gateway,\" he said. But in recent years it became a hub for JetBlue and Delta. These days, delays at Kennedy are so bad, he said, that \"it's backing up the whole country.\".\nHypothesis: JFK airport is in New York.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Fears were growing last night for the safety of a 'distressed' mother who has disappeared with her disabled nine-year-old daughter. Florist Jude Richmond, whose customers include the Royal Family, was last seen carrying cerebral palsy sufferer Millie Whitehead-Richmond as they left home on Sunday night. Mrs Richmond, 41, was said to have been devastated after splitting from her husband and business partner, Nicholas Richmond, earlier this year.  Police believe she became increasingly depressed after the split. She is said to be in a 'very vulnerable state of mind' at the time of her disappearance.\nHypothesis: Jude Richmond works with the police.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: A new strain of Avian Flu or Bird Flu has been discovered in China and has also infected some humans. The virus also \"spreads fast\" and has covered a \"big geographic region\" according to Chinese health officials. It is not known how dangerous the new virus is and whether it is stronger or deadlier than the current H5N1 virus. Despite being detected in humans, no evidence has turned up to suggest that the virus can be spread easily from human to human.\nHypothesis: 483Lu suffers from the H5N1 virus.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Parents also had to contribute \"much more fully\", while \"coasting\" schools would be tackled, Ms Kelly told MPs. But shadow education secretary David Cameron, who backed some ideas, said other parts were a \"complete muddle\".\nHypothesis: David Cameron works as the shadow education secretary.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Babe Ruth's career total would have been 1 higher had that rule not been in effect in the early part of his career. The all-time career record for home runs in Major League Baseball is 755, held by Hank Aaron since 1974.\nHypothesis: Babe Ruth hit 755 home runs in his lifetime.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Over 100 people died in a massive stampede at the Chamunda Devi temple Jodhpur, in the western state of Rajasthan, India. 168 people were killed, with just as many injured. A temple wall collapsed, causing panic among ten of thousands of gathered Hindu worshippers who then began to run for safety, causing the stampede. Several are still believed to be trapped under the rubble.\nHypothesis: 100 died at Chamunda Devi Temple.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Israeli troops evicted hundreds of screaming and weeping Jewish settlers from their homes, schools and synagogues in the Gaza Strip on Wednesday, carrying out a chaotic and harrowing operation to end 38 years of occupation.\nHypothesis: Israeli troops carried settlers out of homes, synagogues and even nursery schools.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Traditionally, 60 percent of the tickets sold for a stop on the Vans Warped Tour, for example, occur six days prior to the show.\nHypothesis: Most tours only sell 60 percent of the tickets.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Reaction Engines Limited, a firm in Oxford, United Kingdom, has recently been awarded \u20ac1 million by the European Space Agency. This money is to be used for development work for the firm's SABRE engines. The SABRE engines are for a reusable spaceplane that it is intended to be able to travel into space and return completely intact.\nHypothesis: The SABRE engines could be in service within 10 years.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: His research had been focused on near-shore beds of marine plants commercially harvested in western P.E.I.\nHypothesis: Marine vegetation is  harvested.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: About 3 million years ago, when Lucy was alive, she was rather short, about 4 feet tall, and probably weighed about 50 pounds.\nHypothesis: Humans existed 10,000 years ago.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Bout - who is generally believed to be a model for the arms dealer portrayed by Nicolas Cage in the 2005 movie 'Lord of War' - has repeatedly denied any involvement in illicit activities. At a hearing earlier this month, he angrily accused the United States of framing him and pressuring Thailand to extradite him. He has long been linked to some of the world's most notorious conflicts, allegedly supplying arms to former Liberian dictator Charles Taylor and Libyan leader Colonel Gaddafi.\nHypothesis: Gaddafi is the leader of Thailand.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: While civilians ran for cover or fled to the countryside, Russian forces were seen edging their artillery guns closer to Grozny, and Chechen fighters were offering little resistance.\nHypothesis: Grozny is the capital of Chechnya.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: The Philippines has developed into a natural hub for U.S. contact center support with the use of English as the second national language and primary language of business.\nHypothesis: English is the primary language of the Philippines.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Venezuelan President Hugo Chavez has said he is prepared to receive detainees held by the US military at the Guantanamo Bay camp in Cuba. US President Barack Obama has ordered the closure of the controversial camp, in which around 240 inmates are held, by next year. Mr Chavez made his offer at a summit of South American and Arab countries.  It is highly unlikely the Pentagon will take him up on it, however, given the poor state of US ties with Venezuela.\nHypothesis: About 240 people are detained in the prison at Guantanamo.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: A wooden steamer of 293 ft sank on 10/13/1902, 13.5 miles North by Northwest of Fairport Harbor, Ohio. The lives of ten of the 19 persons on board were lost in the wreck.\nHypothesis: 100 or more people lost their lives in a ferry sinking.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: The murders of Galan, a high-ranking police officer, and a judge last week, were probably carried out by an Israeli mercenary paid by the Medellin cartel - the world's most powerful drug-trafficking mafia - which has set up paramilitary squads accused of hundreds of individual murders and massacres against political and labor leaders, as well as peasants and patriotic union leftist militants in different parts of the country.\nHypothesis: Galan was killed by patriotic union leftist militants.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: The land claims agreement must still be approved by the Canadian House of Commons , but has already passed through the House of Assembly of Newfoundland and Labrador.\nHypothesis: The House of Assembly of Newfoundland and Labrador vote against the land claims agreement.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Police found four weapons-two semiautomatic machine guns, a .223-caliber rifle and two handguns in the vehicle.\nHypothesis: Police found four weapons - a .50-calibre rifle, two military style assault rifles and a handgun in the vehicle.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Three police officers have been killed by a gunman in Pittsburgh - the second mass shooting in the US in 24 hours. The officers were responding to an emergency call from the house of the gunman, named as Richard Poplawski, 23. Police said he was waiting, armed with rifles and a bulletproof vest. He shot two officers as they entered the house, and a third who tried to help them. He then traded gunfire with police for four hours before being injured and giving himself up. His friends said he had recently lost his job, and was worried that US President Barack Obama was about to ban guns.\nHypothesis: In Pittsburgh the police killed a gunman.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Chirac needed a new mandate for his government from the electorate, or a new left government was needed that could count on the support of the trade union bureaucracy and among the working class and so would encounter less resistance.\nHypothesis: Parliamentary elections create new government in France.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: The terror attacks, it was clear, had blasted a hole in the dam holding back Mumbai's reservoir of woes. While the protesters seemed to be reacting to a tragedy that had left at least 164 people dead and 308 injured, they were really venting the frustrations of having to cope with life in a city with an infrastructure so stretched that simply getting to work and back is an ordeal. At peak hour, the commuter trains - which carry six million people each day - are packed with up to 5,000 commuters, even though they're built for 1,800. Every day, an average of 11 people die on the railway system, either because they fall off the trains or because they're hit by passing locomotives as they cross the tracks.\nHypothesis: 11 people died in the terror attacks in Mumbai.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Eric Gurr, creator of U4Prez.com, says you shouldn't be fooled be the site's MySpace-like facade. \"It's all about the politics,\" he says. \"I think most of our users have accounts on MySpace and Facebook, and use U4prez strictly for the political dialogue.\" Wikinews conducted an email interview with Gurr, in which he discussed how the site works, how the Internet has affected politics, and who he is endorsing for President.\nHypothesis: Facebook and MySpace were invented by Eric Gurr.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: A senior al-Qaeda operative who was said to be planning an attack on Heathrow Airport has been arrested.\nHypothesis: Despite rumors, the British Home Office denied any specific threat had been made to target Heathrow airport.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: There are many motives for suicide attacks: religious beliefs, nationalistic ideologies, obedience to charismatic and authoritarian leaders, or desire for political change. The modus operandi may vary, whether to use one or several suicide bombers, whether to use men or women.\nHypothesis: People were killed in Tamil suicide attacks.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: The organisation reports that it has recently seen a significant rise in the number of complaints and some of these involve modem connections being redirected, unbeknown to the users.\nHypothesis: Complaints arose in the organisation about users who redirect their modem connections.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Global markets should be \"quite strong enough to absorb it without lasting damage\", he said . \"I would stress that these circumstances are unique to Barings and should not apply to other banks operating in London.\" Barings faced losses of at least 600m in contracts on three stock exchanges in Singapore , Osaka and Tokyo , he said , but 'further unquantifiable losses' were expected .\nHypothesis: The banking firm Barings collapsed due to speculations made by Nick Leeson.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Commander Thomas Karremans, who was in charge of Dutch troops in Srebrenica at the time, was filmed drinking a toast with war-crimes suspect and Serb general Ratko Mladic.\nHypothesis: Dutch photos of Srebrenica have disappeared.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Rumsfeld said the Pentagon's annual assessment of China's military capabilities shows China is spending more than its leaders acknowledge, expanding its missile capabilities and developing advanced military technology.\nHypothesis: China was increasing its military spending and buying large amounts of sophisticated weapons.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: He is like some great writers, from Charles Dickens to William Faulkner to Gabriel Garcia Marquez: the insistence on the value of the local leads to the universal.\nHypothesis: Gabriel Garcia Marquez is a Nobel prize winner.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: At least 19 people have been killed in central Florida in the city of Lady Lake and Paisley after severe storms and a tornado ripped through the cities in the middle of the night. Eleven of those killed were in Paisley and three were in Lady Lake. The death toll is expected to rise as rescue crews resume tomorrow morning. Volusia, Sumter, Lake and Seminole counties have all been declared a state of an emergency as dozens of houses, mobile homes and a church were destroyed. Clothes and furniture are scattered around the wrecked houses and pieces of trees are scattered about. Cars are reported to have been turned over or thrown around in the air. \"Our priority today is search and rescue,\" said Gov. of Florida, Charlie Crist. Rescuers are still looking through the wreckage to find survivors of those who might have been killed.\nHypothesis: Gov. of Florida, Charlie Crist, has visited the cities of Lady Lake and Paisley.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: International journalists' organisations are accusing the U.S. government of committing war crimes in Iraq by intentionally firing at war correspondents.\nHypothesis: US withdraws war crimes",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Around this time, White decided that he would not accept any more prizes for his work. He declined both the $10,000 Britannia Award and another Miles Franklin Award.\nHypothesis: White got the $10,000 Britannia Award.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Saddam Hussein accepted an 11th-hour offer to flee into exile weeks ahead of the U.S.-led 2003 invasion, but Arab League officials scuttled the proposal, officials in this Gulf state claimed.\nHypothesis: Saddam Hussein flees to the U.S.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Recent Dakosaurus research comes from a complete skull found in Argentina in 1996, studied by Diego Pol of Ohio State University, Zulma Gasparini of Argentinas National University of La Plata, and their colleagues.\nHypothesis: A complete Dakosaurus was discovered by Diego Pol.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: The job gains mean that President Bush can celebrate - albeit by a very fine margin - a net growth in jobs in the US economy in his first term in office.\nHypothesis: President Bush's first term in office showed a net gain in payroll jobs.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Gunmen loyal to Bosnian Serb nationalist leader Radovan Karadzic conquered 70% of Bosnia with their arsenal of tanks, aircraft and howitzers bequeathed by the Yugoslav army.\nHypothesis: Radovan Karadzic is the leader of Bosnia.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Of Irish descent, he was born in Brookline, Mass., on May 29, 1917. Graduating from Harvard in 1940, he entered the Navy. In 1943, when his PT boat was rammed and sunk by a Japanese destroyer, Kennedy, despite grave injuries, led the survivors through perilous waters to safety. Back from the war, he became a Democratic congressman from the Boston area, advancing in 1953 to the Senate. He married Jacqueline Bouvier on Sept. 12, 1953. In 1955, while recuperating from a back operation, he wrote \"Profiles in Courage,\" which won the Pulitzer Prize in history.\nHypothesis: John Fitzgerald Kennedy was shot dead in 1963.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Guanshengyuan, a Chinese company that makes children's candy, has stopped selling its popular brand White Rabbit, which is sold nationally in China, after tests confirmed the presence of melamine. Bright foods owns the candy company. Earlier their powdered milk was found to contain melamine which sickened over 53,000 people and was responsible for the deaths of at least four infant children. Guanshengyuan has stopped exporting their goods to the nearly 50 companies overseas that buy them. Melamine has also been found in Hong Kong in baby cereal and vegetable formula made by Heinz. It has also been found in wasabi crackers which are manufactured by the Chinese company, Silang House. Another Chinese food company called Marudai Food Co. has also halted the sales of several items such as meat buns, cream buns and corn crepes made with cream over fears that melamine laced powered milk has contaminated their products. So far there have been no reports of any illnesses associated with Marudai Foods.\nHypothesis: 4 children died in Hong Kong because of melamine contained in milk.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Airbus could site a design engineering centre in the Midlands region of the UK to take advantage of the availability of skilled engineering staff following the demise of MG Rover, the collapsed UK carmaker.\nHypothesis: MG Rover has been bought by Airbus.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Everest Grand Circle Expedition, Nepal and Tibet. First circumambulation of Everest; trekking, skiing, and mountaineering. First American winter ascent of Pumori (elev. 23,422'). Immortalized in the book Everest Grand Circle. Ned Gillette, Jan Reynolds, Jim Bridwell, Steve McKinney, Craig Calonica and Rick Barker.\nHypothesis: A woman succeeds in climbing Everest solo.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: The trial court may allow the prevailing party reasonable attorney fees as part of costs.\nHypothesis: The prevailing party may not recover attorney fees.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: The longest mission which these Salyuts supported was 63 days. The second generation Salyuts would fly missions much longer and would need to be resupplied from time to time; therefore, a supply ferry was mandatory to maintain a fully operational Salyut for two years with 40,000 pounds of fuel, food, clothing and water.\nHypothesis: Russians hold record for longest stay in space.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Companies are working to reduce the interval between drug discovery and marketing.\nHypothesis: Companies are working to shorten the new drug development period to an average of eight to nine years in the US.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Tuareg fighters launched uprisings in the Sahara in the 1960s and 1990s, and renewed rebellions since early 2007 against the central governments of Niger and Mali have increased instability in a region where al Qaeda cells also operate. Fighting in Niger's rebellion, instigated by the Niger Justice Movement (MNJ), has killed more than 300 rebels and around 80 government soldiers. The MNJ says it is fighting for equality with black Africans in the south of the country, more political autonomy and a greater say in the use of mineral resources from the north, which has a booming uranium mining industry.\nHypothesis: MNJ is an organization of Tuareg rebels.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: With Washington hinting it might soften its tough stance to break the deadlock, top US negotiator, Christopher Hill, said the two sides needed to review the situation.\nHypothesis: Christopher Hill is a relative of a top US negotiator.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: According to Naeye, the newfangled telescopes will be able to peer so far back in space and, thus, time that they \"will see the first galaxies assembling a few hundred million years after the Big Bang.\"\nHypothesis: The Big Bang is the primordial explosion from which the universe was created.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: However, the Greens applauded the WA EPA's advice. Greens Senator Rachel Siewert said in a media release: \"This is the second time the WA EPA has knocked back this proposal. The proponents should review their options to put the project on the mainland, which will ultimately be a win for the regional economy and a win for the unique environment of Barrow Island.\" \"This is a proposal that should always have been located on the mainland. Proposing to build something on this scale inside Australia's most precious island nature reserve was deeply flawed from the beginning,\" said Senator Siewert. \"The island has been dubbed 'Australia's Ark' for its unique cargo of endangered species, many of them now extinct or endangered on mainland Australia. He must take strong action to look after the island.\"\nHypothesis: Barrow Island is a part of Australia.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: General Dynamics, the maker of land combat systems, warships and Gulfstream business jets, reported net earnings of $374m in the third quarter, or $1.84 per share.\nHypothesis: General Dynamics loses $374m.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: French police recovered five masterpieces stolen from Paris Museum last Summer including a small work by Renoir.\nHypothesis: Five masterpieces, including a Renoir, were recovered when the thief confessed.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: O'Connor then fought on the side of the Republicans in the 1921-22 Civil War, with those who favored rejection of the treaty which brought peace between Ireland and Britain, but at the cost of a divided island.\nHypothesis: Ireland has been divided since 1921.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Second-half goals, from Danny Mills and Darius Vassell, lifted Manchester City to a 2-0 victory over Everton.\nHypothesis: Manchester was beaten by Everton.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Meanwhile, in an exclusive interview with a TIME journalist, the first one-on-one session given to a Western print publication since his election as president of Iran earlier this year, Ahmadinejad attacked the \"threat\" to bring the issue of Iran's nuclear activity to the UN Security Council by the US, France, Britain and Germany.\nHypothesis: Ahmedinejad was attacked by the US, France, Britain and Germany.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Jader Barbalho, once president of the country's largest political party, was arrested on Saturday in the Amazonian city of Belem, after officials in the neighbouring state of Tocantins issued a warrant against him.\nHypothesis: Jader Barbalho is the president of Amazon.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: In the United States Senate on Tuesday, Senators Byron Dorgan, a Democrat from North Dakota, and Mike Enzi, a Republican from Wyoming, introduced the \"Freedom to Travel to Cuba Act\" (S.428), a bill that would lift the travel restrictions that have prevented U.S. citizens from visiting Cuba since the early 1960s. The bill is co-sponsored by 20 senators, and the House of Representatives is considering a companion measure, H.R. 874, introduced by Representatives Bill Delahunt and Jeff Flake. The house measure has 121 cosponsors.\nHypothesis: Byron Dorgan was born in Wyoming.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Professor Sir Alec Jeffreys, whose pioneering discoveries revolutionised police investigation techniques, told the Guardian newspaper innocent people were being \"branded as criminals\" because the database retained details of everyone arrested, regardless of whether they were later convicted. The Government now holds more than five million profiles, up 1.4 million in two years. Sir Alec also called for improved genetic testing procedures, warning that the current system could result in a miscarriage of justice, in an interview with the Guardian newspaper.\nHypothesis: Alec Jeffreys is the inventor of genetic fingerprinting.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: President Obama found a new way to answer to the questions that people have to ask him. So he held a \"virtual townhall\" in which people could write in questions and he would answer them online. He was asked many questions, and one of the most important was about the legalization of marijuana. Obama was very discreet about it. We will give you the full question : \"With over 1 out of 30 Americans controlled by the penal system, why not legalize, control, and tax marijuana to change the failed war on drugs into a money making, money saving boost to the economy? Do we really need that many victimless criminals?\" The president's answer was a strategical one. He started by quoting the question he was asked which was whether legalizing marijuana would improve the economy and job creation. And he answered : \"The answer is no, I don't think that's a good strategy to grow our economy. All right.\".\nHypothesis: President Obama is in favour of the legalization of marijuana.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: WASHINGTON - On the mornings he is in town, Dick Cheney wakes up at 6, climbs into his black sport utility vehicle and drives himself to a Starbucks near his McLean, Va., home. He returns with a pair of grande skim lattes \u2014 decaf for him, regular for his wife, Lynne \u2014 and settles into work in the sun-drenched office above his garage, penning his memoir in longhand on yellow legal pads. It is the kind of scene that Americans have come to expect from their elder statesmen: a quiet, unassuming return to private life after giving up power. Except, that is, for the quiet and unassuming part.\nHypothesis: Dick Cheney is the former Vice President.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Elephants have never lost the capacity to astonish and delight. But in New York City in the not-so-distant future, they will not be doing their astonishing and delighting at a zoo.  The Bronx Zoo, the only zoo left in the city that keeps elephants, said yesterday that it planned to shut down its exhibit after the death of two of its three elephants, or even one.  The current generation of children need not despair: The zoo's three elephants \u2014 Patty, Maxine and Happy \u2014 are in their mid-30's and could live for decades more. But if one elephant dies, the remaining two may not get along. And if two die, officials say it would be inhumane to sustain an exhibit with a single elephant.\nHypothesis: The Bronx Zoo is the biggest zoo in New York.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: On Sunday Memoirs: 1939-1993 a memoir written by former Prime Minister of Canada Brian Mulroney will be released. The 1,152 page tome outlines Mulroney's version of events during his time as prime minister. CTV will broadcast a documentary on Brian Mulroney on the eve of his book launch. In addition, the network plans to air Triumph & Treachery: The Brian Mulroney Story on Sunday, CTV says the 90-minute special will be the most complete interview the former prime minister has ever given and his first comprehensive interview since leaving office in 1993. The Quebec French language TVA network will air a similar documentary exclusively in French later that night.\nHypothesis: The Australian Prime Minister is called John Howard.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Between 143 and 152 people have now been hospitalized in the wake of Monday's train derailment near Lviv, Ukraine, and subsequent phosporous cloud.  According to the Ukrainian Healthcare Ministry's spokesperson, Igor Gerych, 43 of the injured are children, 13 are firemen and three are medical  personnel. None are considered to be in mortal danger, yet some cases remain at medium risk level.\nHypothesis: A railway disaster caused a fire.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Nike Inc. said, Monday, that its first-quarter profit grew 32 percent, as the world's largest sneaker and athletic apparel company posted broad gains in sales and orders.\nHypothesis: Nike said orders for footwear and apparel for delivery totaled $4.9 billion, including a 12 percent increase in U.S. orders.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: In the very same room in fall, 1992, George Bush prepped to debate Clinton and Ross Perot in practice sessions with Chief of Staff John H. Sununu.\nHypothesis: Ross Perot ran for president in 1992.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Late Tuesday, authorities in the U.S. state of Texas carried out the execution of Jos\u00e9 Medell\u00edn, a Mexican national convicted of raping and murdering two teenage girls in 1993. The execution was carried out despite being at the center of an international legal dispute with objections from the International Court of Justice (ICJ) and UN Secretary-General Ban Ki-moon. Jos\u00e9 Ernesto Medell\u00edn, 33, was born in Mexico but moved to the U.S. as a child. He was sentenced to death for the 1993 rape and murder of two girls aged 14 and 16 in Houston, Texas. On Tuesday at 9:57 p.m. CDT, he was given a lethal injection at the Huntsville Unit in Huntsville, according to the Texas Department of Criminal Justice.\nHypothesis: Jos\u00e9 Medell\u00edn was executed in Huntsville prison.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Carelessness by contractors is a common cause of fire, including many fires that result in serious financial loss. It has been estimated that perhaps 20-25% of all non-domestic fires result from 'on-going work', such as refurbishment, repair and construction.\nHypothesis: Domestic fires are the major cause of fire death.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: I recently took a round trip from Abuja to Yola, the capital of Adamawa State and back to Abuja, with a fourteen-seater bus.\nHypothesis: Abuja is located in Adamawa State.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Southwest Airlines on Thursday said rebuilding service at New Orleans was its number one priority as it unveiled its 58th consecutive quarterly profit and enhanced fuel hedges to extend its competitive advantage over rivals.\nHypothesis: Southwest Airlines operates in New Orleans.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Determine if the hypothesis is true based on the premise below. options: yes, no",
+    "context": "Premise: Budapest consists of two parts, Buda and Pest, which are situated on opposite sides of the river and connected by a series of bridges.\nHypothesis: Buda is located on the west bank of the Danube.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: The curious Belgian compromise over the weed has some logic, even for a country which says it wants to reduce drug use. Surveys show that as many as 40 percent of the country's 10 million population has experienced cannabis and with the Dutch border an hour away for most of the population, some liberalisation seems inevitable.\nHypothesis: People can legally have 40 grams of cannabis in their possession.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: The Dow Jones Industrial Average closed at its lowest level in over six years on Thursday, having lost 1.16%, or 89.68 points, bringing it to a level of 7,465.95. It had, at one point, set an intraday bear market low of 7,447.55. It was the lowest ending for the index since October 9, 2002. The Dow has fallen almost fifteen percent since the start of this year.\nHypothesis: The Dow Jones has gained points.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Slavkov, accused in the Salt Lake scandal but later cleared, said he had been approached by Takatch.\nHypothesis: Slavkov, defendant in the scandal of Salt Lake but that later was exculpated, in fact said that Takatch.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: IT must rate as the literary snub of the 20th century. T S Eliot, one of Britain's greatest poets, rejected George Orwell's Animal Farm for publication on the grounds of its unconvincing Trotskyite politics. Eliot, a former director of Faber and Faber, the publisher, wrote his rejection in a highly critical letter in 1944, one of many private papers made available for the first time by his widow Valerie for a BBC documentary. When Orwell submitted his novel, an allegory on Stalin's dictatorship, Eliot praised its \"good writing\" and \"fundamental integrity\".\nHypothesis: T.S. Eliot wrote \"Animal Farm\".",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Earlier this year reporter Judith Miller was jailed for refusing to name the US-government source who identified a member of the US Central Intelligence Agency (CIA), Valerie Plame.\nHypothesis: Judith Miller works for the US Government.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the text and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Ministers of the Association of Southeast Asian Nations, ASEAN, are gathering in Laos to discuss topics ranging from terrorism and economic integration to non-aggression treaties with several regional neighbors.\nHypothesis: Ministers of the Association of Southeast Asian Nations work for ASEAN.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: Crude oil dips below $43 on news that Russia's justice ministry will not force Yukos to halt sales.\nHypothesis: Crude oil rises.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Based on premise can we conclude that hypothesis is true? options: yes, no",
+    "context": "Premise: Tom Cruise has returned to The Oprah Winfrey Show and talked about his love for Katie Holmes, but this time he was denying marital problems instead of jumping on the couch to prove his passion for the young actress. \"That's laughable to me,\" Cruise said when Winfrey told him there was speculation that \"what you and Katie have is not real\". It was the first time Cruise appeared on the show since his couch-hopping stunt three years ago drew a flood of satire and ridicule. \"It was something that I just felt that way, and I feel that way about her. That's just how I felt,\" he said in the interview, which aired on Friday in the US.\nHypothesis: Tom Cruise is married to Oprah Winfrey.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Can we draw the following hypothesis from the context? options: yes, no",
+    "context": "Premise: Athletics' governing body, the IAAF, last week cleared Ottey of accusations of steroid use and lifted a two-year ban after their arbitration panel said the IOC-accredited lab in Lausanne improperly tested Ottey's urine sample.\nHypothesis: Sportswomen have been accused of doping.",
+    "response": "no",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: Rana told a delegation of the Nepal Trans-Himanlyan Trade Association, the only non-governmental organization which has trade relations with China, who informed the minister of the problems existing in the bilateral trade sector.\nHypothesis: Rana is the Trade Minister in China.",
+    "response": "no",
+    "category": "NLI"
+  }
+]

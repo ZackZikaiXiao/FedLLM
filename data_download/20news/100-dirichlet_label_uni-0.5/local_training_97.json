@@ -1,0 +1,278 @@
+[
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Sci.E(E) netters:\n\nI am setting out to build and market a small electronic device that \nrequires an LCD display.  All of the analog electronics are working \nfine, I have ordered a PIC ICE (not vice versa) since the PICs are so \ncheap and low-power, but I am having a devil of a time finding any \nLCD displays in the 6-8 digit range that are priced as low as I need.  I \nam looking for somthing in the range of $1 in quantities of about \n1000-10,000.\n\nMainstream distributors like Almac cannot help me without a part \nnumber, or when they do look around for something in their line \nthey find a $15 8-digit LCD.  Even Digikey's cheapest offering is $5 in \nquantity.\n\nI know LCD displays like this must exist because I see whole \ncalculators for sale for $4.99, meaning the retailer probably buys it \nfor $3.50 and the wholesaler probably gets it for $2.50 or so.  This \n$2.50 includes assembly labor, packaging, sales, transportation, \nimport duties, the case and keyboard, the PC Board, the processor \nchip, the solar cell -",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nHello,\n\n\tI understand this philosophy.  The bears are a national\ntreasure, the area is their sanctuary and people who enter it\ndo so at their own risk.  It is better that that rare human be\nkilled by a bear than that bears be provoked or shot by unbear-savvy\nvisitors.  The bears aren't having a population explosion, humans\nare so it is better that a human be killed than endanger the bears.\nI don't agree with this philosopy, but I understand it.\n\n\tThe psychos are a bit different.  They are not a national\ntreasure but I suppose the decision has been made that to \"allow\"\nprovision for defense against them would also \"allow\" provision\nfor defense against bears.  Again, I suppose it has been decided\nthat it is better for the rare human to be killed by a psycho than\nto take a chance on threatening the bears.\n\n\tPersonally, I wouldn't go into an area where I would be\n\"managed\" so as to reduce my safety ..... but ... come to think\nof it I guess I live in a managed wilderness myself :-)",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nPPPPP    OOOOO  V     V  Persistance Of Vision Raytracer.\nP    P  O     O V     V\nP    P  O     O V     V\nPPPPP   O     O V     V\nP       O     O  V   V\nP       O     O   V V\nP        OOOOO     V\n\nAvailable on archie and wuarchive in graphics type directories.\n\nPS It's freeware.\n\n--",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nAlso if they don't get it exactly right or your eyes change\nagain, contacts to correct for it are out of the question.\nThis is due to the strange conical shape your cornea takes\nafter the surgery.\n\n--\nMichael Manning\nmmanning@icomsim.com (NeXTMail accepted.)",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThe Litani river flows in a west-southwestern direction and indeed does\nnot run through the buffer zone.  The Hasbani does flow into the Jordan\nbut contrary to what our imaginative poster might write, there has been\nno increase in the inflow from this river that is not proportional to\nclimatic changes in rainfall.\n\n",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I've used on-chip capacitors to reduce ground-bounce noise on a small\nsystolic array chip that had 50pF loads on the clock lines.\n(Design was in 2-micron n-well cmos, using the MOSIS scalable design rules.)\nHere are some thoughts on the bypass capacitors:\n\n1) They don't help much with simultaneous output switching--there is\n\tstill a large inductance between the bypass capacitor and the\n\tload capacitor (on both the signal line and the ground\n\treturn), so you still get ground and power line bounce. \n\n2) They do help a lot with on-chip loads, as I had with the high load\n\ton the clock lines. \n\n3) The transients you are trying to suppress are really high\n\tfrequency, so forget about large areas of poly-thin-oxide-diff\n\tcapacitors, since the RC time constant is too large.\n\tWhat I did is to make a metal2, metal, poly, diff sandwich,\n\tbut put a lot of holes in the poly layer, allowing frequent\n\tdiff-metal1 contacts.  I forget exactly how wide the poly\n\tlines were.  If I were doing this design again, I'd probably\n\tomit",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Only if you persist in believing that Peter Gammons is more knowledgable about\nbaseball than the average mailbox.  Okay, I'm overstating.  Still, the man \nactually had the gall to say that one out of every six pitchers in the NL this\nyear did not pitch in the majors last year.\n\nHuh?\n\nIMO, this expansion will not see the explosive jump in offense that the \nother expansion drafts had, since the talent was diluted over both leagues.\nIn Gammons' defense, because the talent drain came from the AL as well, some\nincrease will be seen.  He also gets credit for mentioning that the 1969 jump\nin offense was due also to the rules changes after the 1968 season.  He's still\nfull of it...\n\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I experienced a sudden numbness in my left arm this morning.  Just after\nI completed my 4th set of deep squats.  Today was my weight training\nday and I was just beginning my routine.  All of a sudden at the end of\nthe 4th set my arm felt like it had gone to sleep.  It was cold, turned pale,\nand lost 60% of its strength.  The weight I used for squats wasn't that\nheavy, I was working hard but not at 100% effort.  I waited for a few \nminutes, trying to shake the arm back to life and then continued with\nchest exercises (flyes) with lighter dumbells than I normally use.  But\nI dropped the left dumbell during the first set, and experienced continued\narm weakness into the second.  So I quit training and decided not to do my\nusual hour on the ski machine either.  I'll take it easy for the rest of\nthe day.\n\nMy arm is *still* somewhat numb and significantly weaker than normal --\nmy hand still tingles a bit down to the thumb. Color has returned to normal\nand it is no longer cold. \n\nHorrid thoughts of chunks of plaque bl",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I was a graduate student in the early 1980s, and we had a conference on \nReaganomics where Jerry Jordan, then a member of the Council of Economic \nAdvisors, was a speaker.  I had the pleasure of driving him back to the \nairport afterwards, and since taxes were the main topic of discussion I \nthought I would ask him about the VAT.  I have favored it for these reasons \nyou mention, that the income base is too hazy to define, that it taxes \nsavings and investment, that it is likely to be more visible.  He agreed, \nand reported that the CEA at that time was in favor of VAT.  So why not \npropose it?  I asked.  He replied that the Reagan White House feared that \nthe Democrats would introduce VAT *in addition to* the income tax, rather \nthan in lieu.  Better not to give them any ideas, he said.\n\nPretty prescient.\n\nYes, any Canadian readers, please tell us if the tax is displayed on price \nstickers (I'm relatively certain it is not in Europe).",
+    "response": 18,
+    "category": "talk.politics.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nDamn right. I was late for a climbing meet one morning, so I got\nout of bed without bothering that my right foot was still asleep.\nIt reminded me by folding underneath with a crunching of Metatarsals.\nLucky the brake's on the right, but i got funny looks riding thru \nLondon with one leg held aloft.",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "  \n  No, that's praying on the young.  Preying on the young comes\n  later, when the bright eyed little altar boy finds out what the\n  priest really wears under that chasible.\n\n\n/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\ \n\nBob Beauchaine bobbe@vice.ICO.TEK.COM \n\nThey said that Queens could stay, they blew the Bronx away,\nand sank Manhattan out at sea.",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "  \nCool quote.\n\n\nBetter watch it.  The theists will jump on you for that... :-)\n\n\nNanci",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I would be interested in hearing from anyone who knows of good software for\nantenna simulation, particularly in source form suitable for Unix workstations\n(though good PC software would also be of interest).\nI'm aware of the numerous mininec mutations, and have been using MN for\nsome time now.  I'm primarily interested in HF, VHF, and low UHF (< 500 MHz)\ndesigns, mostly wire antennas, but for thick wires and mesh surfaces as well\nas for your basic thin wire assumption.\nIs anything interesting happening with NEC itself?  I've seen a version\nthat was mutilated to run (sort of) under Microsoft Fortran, but I'm not\nsure how many \"new and improved\" versions of the code might be out there\nsomewhere.\nI'd also be interested in non-NEC derivatives.  The ones I've seen have\nbeen aimed at microwave applications, but if there is something out there\nuseful at the lower frequencies, I'd like to know about it.\nThanks,",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "They don't have a conflict because technically LPT1: does not use\nIRQ7!.\n     The Parallel printer processor (the actual number escapes\nme) contains a printer control register which enables the chip\nto transmit an interrupt to the interrupt controller as IRQ7,\nthen onto the main processor as Int 0x0F. By default the parallel\nprinter processor does not enable it's interrupt line therefore\nno Int 0x0F's will be sourced from the printer controller chip,\nthus enabling other devices to use the actual IRQ7.\n\n     Note, this applies to COM ports also which by default do not\nroute interrupts to the system bus, although COM's software\nusually enable this feature as it make monitoring COM port\nactivity easier than polling the serial UART, thus probably\ngetting the sound card slighty confused!.",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "peter.m@insane.apana.org.au (Peter Tryndoch) writes...\n\n\tYes there is.  Not common for CB.  The pattern is different (sort of\n\ta cloverleaf, with four main lobes.\n\n\tUse of anything under 1/4 wave for transmitting is very uncommon.  (The\n\tusual \"rubber duck\" uses a coil to fool itself into looking like a\n\tquarter wave.\n\tI reccomend the ARRL Antenna Handbook, or a good basic book.",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi.  I've looked in the FAQ and the O-Reilly books and was unable to\nfind (an easy) means of finding out the state of state keys such as\nCapsLock and NumLock.  I can certainly track the events inside of my\nwindow and set a boolean there, but what if CapsLock is pressed in\nanother window?  I looked at XGrabKey() and decided it was definitely\nNOT what I wanted to do.  I could find no convenience function to tell\nme that information.\n\nMy question is this:  Is there a means of determining what the state\nof CapsLock and/or NumLock is?\n\nAn even more pointed question: Is there an easy means of making an X\nkeyboard act like a PC keyboard?  ie, CapsLock is active, and the user\npresses shift-a, I'd like to get a lowercase 'a' instead of 'A'.\n\nAny input is greatly appreciated. Please respond via email.  I will\nrepost a summary of my findings.",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nIndeed, if the color teal on a team's uniforms is any indication of the\nfuture, the Marlins are in dire trouble! Refer to the San Jose Sharks for\nproof... But I have hope for the Marlins. I was a sometime member of the\nRene Lachemann fan club at the Oakland Coliseum, and have a deep respect\nfor the guy. He's a gem. And, of course, Walt Weiss gives that franchise\nclass. But yeah... whoever designed those uniforms was guilty of a paucity\nof style and imagination. Ugghhh!",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have a new scope and I thought I'd save a few bucks by\nbuying one with a function generator built in. After having it awhile\nI noticed two things about the function generator. For one, there\nseems to be a bias even when the 'pull-offset' is pushed in. That is,\nI have to pull that know and adjust it to get a signal sans some\nrandom 50mV bias.\n\tThe other _really_ annoying thing is that the damn output\nwon't go below about 1V p-p. I am a student ( you may have guessed\nfrom my previous posts ), and I often have to measure the input\nimpedances of various circuits I build.Many of the circuits have\nmaximum input signals of way less than 500mV amplitude and most have\ninput impedances in the 10's of Kohm range. The thing is, in order to\nuse my function generator I have to divide the voltage to some thing\nreasonable. Then, of course, to measurethe input impedance of my\ncircuit I am going to have to throw in another resistor in series.\nWith the 50ohm output of the generator I could just ignore it, but now\nwith this li",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi all,\n I've been following this thread about jacob's ladder for a few weeks and I\nhappened to come across one of the best project books that I've seen in a \nwhile.  The book \"Gadgeteer's Goldmine\" by Gordon McComb offers over 55 \nexcellent low cost projects including: Jacob's Ladder, tesla coils, plasma \nspheres, a Van de Graaff generator, robots, an IR scope, and several laser \nprojects.  The instructions come with complete part lists, warnings and \ndiagrams.  For those of you who are interested in building any of the above \nlisted projects, you should seriously consider getting this book.  The \npaperback version is only $19.95 too.\n\nFor those who want more information:\nTitle: Gadgeteer's Goldmine!  55 Space-Age Projects\nAuth:  Gordon McComb\nPub:   TAB Books\nCW:    1990\nISBN:  0-8306-8360-7\n\t0-8306-3360-X (paperback)\n Price: $19.95 (paperback)\n\n -Scott",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "You can get a *little* UV by putting a heavy UV filter (deep purple) in\nfront of an ordinary flashlight bulb (the brightest you can get).\nMy father used a setup like this in law enforcement work circa 1964.\n\nGood UV (\"blacklight\") bulbs work like fluorescent bulbs.  I'd proceed by\ngetting a cheap battery-powered _fluorescent_ light, then going to an\nelectrical supply house and finding a UV bulb that would fit it.\n",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\tMy understanding from my psycology classes is that the percentage is \n\tmore like 10-12% world wide.  I would really like to know your source\n\tfor the 1-2% figure.",
+    "response": 18,
+    "category": "talk.politics.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\nI don't understand what you are getting at here.  If the chances of \npromiscuity are larger, yet the rate of promiscuity is lower in the heterosexual\ncommunity, doesn't that imply that the homo/bi sexual population is then \neven more promiscuous than the raw statistics imply?  \n(No axe to grind here I'm just a scientist and I hate to see statistics abused.)\n\n\nI am a hetero man and have had sex with one woman in my life (my wife).  It is \nvery pleasing to me to be able to say that.  I hope you have the same feeling\nas I do.  I also wish that you could (if you wanted) experience the joys and\ntrials of being committed to someone for life (there is something about marriage\nthat makes the commitment much greater than one might expect).\n\n\n\nDon't forget about the culture.  Sadly, we don't (as a society) look upon\nhomosexuality as normal (and as we are all too well aware, there are alot\nof people who condemn it).  As a result, the gay population is not encouraged\nto develop \"non-promiscuous\" relationships.  In fac",
+    "response": 18,
+    "category": "talk.politics.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n500,000 to 1,000,000 self-defense incidents a YEAR doesn't count with you?\n\n\nMaybe they're just UNLUCKY.  If a rapist pulls a woman into an alley\nin Boston, chances are almost certain that she won't be counted \nas one of those self-defenders because our local constabulary didn't\nconsider it important that she be allowed to arm herself.  Even though\nthe shotgun she owns at home makes her show up in the \"gun owner\" column.\n\n\nIronic words for somebody who lives in Florida.  The \"average threat\nlevel\" in Florida has been REDUCED by a liberal CCW policy.  It's well\nknown that your local thugs like to target tourists precisely because \nthey are less likely to be carrying than your natives.  Come on up to\nBoston, or NYC, or Washington DC, and see how much diddlysquat the \n\"average threat level in the country\" means to a resident there.\n\n\nSometimes this works.  Sometimes it just lands your good neighbors \non the dance card for the next wave of drive-bys.  Someone here once\ntold a story about LA gangs moving into P",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThere is a (likely) veto proof majority in the house.  The Senate,\nunfortunately, is a different story.  The Lt.Gov. has vowed that the bill will\nnot be voted on, and he has the power to do it.  In addition, the Senate is a\nmuch smaller, and more readily manipulated body.\n\nOn ther other hand, the semi-automatic ban will likely not live, as at least\nfifty per cent of the house currently opposes it, and it is VERY far down in\nthe bill order in the Senate (I believe it will be addressed after the CCW\nbill).\n\nAnd I thought my TX Political Science class was a waste of time!",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 18,
+    "category": "talk.politics.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nYou said it worked so well with tobacco.  I was being fascisious(I can't spell \nworth a damn)\n\nLook, this is getting ridiculous, first, I think tobacco should be legal.  \nAnybody who can't see the difference between tobacco and marijuana has got to \nbe high.",
+    "response": 18,
+    "category": "talk.politics.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "As quoted from <1993Apr14.184448.2331@gnv.ifas.ufl.edu> by jrm@gnv.ifas.ufl.edu:\n\nThat depends only on the profit of doing so.  The differences\nin cost of production will determine local vs smuggle.\n\n\nThose of us who have actually made semi-autos (full-autos are easier)\nare getting quite a giggle out of this.  I'd estimate that 5% of\nthe people at my high school couldn't do it.  (I was one of the\nfew who failed shop.)  People who have actually seen me do mechanical\nwork would probably say that 1% is more like it.\n\nStarting with even 90% of the population, you can be sure that\n\"enough\" people will be motivated.\n\n\nHow much is \"through the nose\"?  After all, we know quite a bit\nabout how much a gun is worth to a criminal, so if that is dwarfed\nby the price demanded by the \"bad\" part of that 90%....\n\nThe relevant economic analysis has been made.  The \"profit\" of\ngun crime is high enough that the price required to push criminals\nout of the market is high enough that everyone will be motivated.\nThat analysis ignore",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nGood!\n\nNot very.  Thanks to the filibuster in the Senate, things are backing up.  The\nHouse judiciary  is going to start looking at our friends from the ATF, so that\nbill will be held up a little, too.  NOTE: Things can change quickly.\n\n\nI thought there was a correction process in both bills for both parts.\n\n\nVery correct.\n\n\nWelcome to the world of \"the privileged\".\n\n\nHow about no compulsion to allow purchase if there is no evidence against?\n\n\nIt is already illegal to do this.\n\n\nThis is the \"health\" card.  Or so some \"paranoids\" claim.  I say that just\nbecause you're paranoid doesn't mean they're not out to get you.   :-) 1/2\n",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThats the file...",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi there\n\nDoes anyone know how to get hold of data as well as stock of the\nLCD displays used in the NINTENDO GAMEBOY handheld TV game machines?\n\nAny information wouold be MOST appreciated.\n\nPlease e-mail any replies to \n\narawstorne@eleceng.uct.ac.za\n\nthanks",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nYou're supposed to delete everything above the \"cut here\" mark, and\nbelow the lower cut here mark, and uudecode it.  but \n*I was not able to: unexpected end of file encountered at the last line.\n\ncould you please re-post it, or tell be what I'm doing wrong?\n\nthanks,i.a.,\nMickey\n\n",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n     Don't bother if you have CPBackup or Fastback.  They all offer options \nnot available in the stripped-down MS version (FROM CPS!).  Examples - no \nproprietary format (to save space), probably no direct DMA access, and no \ntape drive!",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nMight be a good idea...  The resolution you requested is about 0.3mV\nIn order to get what you've paid for, noise level better be lower than\nthat.  It is kind of hard to do it in a noisy box like you can expect\ninside a PC.\n\nBefore you pay $$$ for a PC card, test it out by sampling a low\ndistortion sine wave (I think there is a sine wave on a CD.  Digital\nDomain ?  There are possibly other low THD sources)  Run the digitized\nwaveform through a FFT transform and take alook at the noise floor on\nthe spectrum.  That's should give you a good indication of the design.\n(That's what I am doing to test a data acquistion system I have designed\n- I got the idea from MAXIM data sheet.)\n\nIf you can live with 14 bit resolution, I would recommend looking at\nthe MAX121 from MAXIM.  It is a high speed (308KHz) complete\nsampling A/D with DSP interface.  The input range is +/- 5V and it\nuses a serial interface (which can easily be optically isolated\nfrom the computer to elinimate a major noise source)  The Analog design\nguide ",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nWhat makes you think Buck will still be in New York at year's end with\nGeorge back?  :-)\n\n--\n    Keith Keller\t\t\t\tLET'S GO RANGERS!!!!!\n\t\t\t\t\t\tLET'S GO QUAKERS!!!!!\n\tkkeller@mail.sas.upenn.edu\t\tIVY LEAGUE CHAMPS!!!!",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n ##flame thrower on## \n Well I don't want my tax dollars going to that kind of philosophy. \n maybe if the good folks you are talking about are people like you \n than I might be inclined to accept it. What does the batf do anyway? \n Why don't we have a bureau for militant, paranoid, freedom killers \n like yourself. People like you are more dangerous than alcohol, \n tobacco and firearms. \n Maybe we should just have nuked the whole city, I mean, what's a \n 100,000 good souls anyway? \n Get real, you sound like a racist.  I guess life isn't so precious \n to you, do you realize that there were  24 children KILLED!!! \n They will never get to fall in love, they won't see another sunrise, \n no prom, no first date, no football, baseball no NOTHING.  Why doesn't \n some people think first before they let everyone know how narrow they \n are. ",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n[DG] THE U.S. HOLOCAUST MEMORIAL MUSEUM: A COSTLY AND DANGEROUS MISTAKE\n[DG] by Theodore J. O'Keefe\n[DG] HARD BY THE WASHINGTON MONUMENT, within clear view of the Jefferson\n[DG] Memorial, an easy stroll down the Mall to the majestic Lincoln Memorial,\n[DG] has arisen, on some of the most hallowed territory of the United States of\n[DG] America, a costly and dangerous mistake.  On ground where no monument yet\n[DG] marks countless sacrifices and unheralded achievements of Americans of all\n[DG] races and creeds in the building and defense of this nation, sits today a\n[DG] massive and costly edifice, devoted above all to a contentious and false\n[DG] version of the ordeal in Europe during World War II, of non-American\n[DG] members of a minority, sectarian group.  Now, in the deceptive guise of\n[DG] tolerance, the United States Holocaust Memorial Museum begins a propaganda\n[DG] campaign, financed through the unwitting largess of the American taxpayer,\n[DG] in the interests of Israel and its adherents in America.\n\n[J",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "According to a Software engineering professor here, what was actually rated\nlevel five was an ibm unit which produced part of the software for the shuttle,\nby not means all of it. \n\nInteresting note: 90% of the software development groups surveyed were at\nlevel 1. The ibm shuttle groups was the *only* one at level 5!\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "ETHER IMPLODES 2 EARTH CORE, IS GRAVITY!!!\n\n  This paper BOTH describes how heavenly bodys can be stationary, \nether sucking structures, AND why we observe \"orbital\" motion!!\n\n  Ether, the theoretical propogation media of electro-magnetic \nwaves, was concluded not to exist, based on the results of the \nMichelson-Moreley experiment conducted a century ago. \n\n  I propose that those conclusions are flawed, based on the fact \nthat the experiment was designed to look for a flow parallel to the \nearth's surface, not perpindicular. (Due to the prevailing assumption \nthat the earth traveled through the ether as a ball through the wind)\n\n  The reversal of the that conclusion, a pivotal keystone in the \ndevelopment of modern scientific thought, could have ramifications \nof BIBLICAL proportions through out the WORLD!!\n\n  REMEMBER: Einstien said Imagination is greater than knowledge!!\n\n  \n1\n  I dream like this: ether based reality\n \n  The ether is like a fluid out of phase with our reality. Creations \nstart as a lattice ",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI suspect that you think that this is less lethal than the typical\n\"assault weapon\".  You are wrong.  Compared to what most criminals use, a\n9mm with military ammo (FMJs), or a military rifle (use is extremely\nrare), .223 or 7.62mm with military ammo (FMJs), the .32 H&R magnum with\n\"civie\" bullets is more lethal.  Most of the arms which criminals (and\nthe military) use are among the least lethal arms in existance.",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi,\n\tI am looking for some help in choosing a package\nfor a high-speed silicon ADC (100Mhz) currently being \nfabricated. This is a PhD research project and I have to test\nthe chip at speed on a PCB. I expect to have roughly 100\npackaged circuits and will do DC, low-speed and high-speed\ntesting using 3 different set-ups for the test chip.\n \t\n\tI know for sure that a DIP will not work\n(the long lead lines have too high an inductance).\nGetting a custom-made package is too expensive, so\nI am trying to choose between a flatpak and a\nleadless chip carrier. The flatpack would be hard\nto test since it has to be soldered on to the test\nsetup and I would spend loads of time soldering \nas I kept changing the test chip. The leadless chip\ncarrier sockets also have long lead lines and may\nnot work at high speeds.\n \n\tDoes anyone out there have experience/knowledge\nof this field ? I would greatly appreciate help! Any ideas/\nnames of companies manufacturing holders/sockets/packages\nwould help. \n \nP.S. The multi-layer fancy GaA",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nSuch as?  Not being able to get married isn't a roadblock to a permanent\nrelationship.  Lack of a marriage certificate doesn't force a couple\nto break up.  This is an excuse used by homosexuals because the \nalternative is to ask why they are so much more promiscuous than \nstraights.\n\n\n",
+    "response": 18,
+    "category": "talk.politics.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Is there a fast 'n dirty way to kill the line spiking that occurs when\nan inductive load is turned on sometime other than at zero-crossing of\nthe AC cycle?  A capacitor kludged in somehow, etc?\n\nI've got a microcontroller that is running a bunch of valves and pumps\nin a big instrument washer, and almost everything is being switched with\nzero-crossing solid state relays, so that stuff stays \"quiet\", AC-wise.\nBut there's one steam valve that gets turned on by a mechanical relay\nin the water tank fill/thermostat system, and it's not under control\nof my SSRs, and it does sometimes generate/radiate a spike that resets\none of my peripheral chips.  My software times out and tries again, but\nI'd love to just tack in a magic spike-killing fix that would avoid having\nto do some major rewiring/redesign.  A varistor would help but might not\nbe sufficient.  Ideas?\n",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nContact Circuit Cellar Inc., 4 Park St. - Suite 12, Vernon, CT 06066\n(203)875-2751, FAX (203)872-2204 and inquire about HAL-4 EEG Biofeedback\nBrainwave Analyzer.  \n\nIn addition, if you want to build your own system from board-level compo-\nnents (biosignal amplifiers, analog isolators and isolated multiplexers)\nyou can contact The Davron Group,P.O. Box 237, Deerfield, IL  60015\nFAX (708)948-9290.\n\n- David\n",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 12,
+    "category": "sci.electronics"
+  }
+]

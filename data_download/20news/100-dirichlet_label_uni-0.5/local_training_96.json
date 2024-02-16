@@ -1,0 +1,908 @@
+[
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Does anyone out there have or know of,  line drawing USA map?\n\n\nThanks very much in advance,\nHoi\n",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nDo you have Weitek's address/phone number?  I'd like to get some information\nabout this chip.\n",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "From article <C5owCB.n3p@world.std.com>, by tombaker@world.std.com (Tom A Baker):\n\n\nMy understanding is that the 'expected errors' are basically\nknown bugs in the warning system software - things are checked\nthat don't have the right values in yet because they aren't\nset till after launch, and suchlike. Rather than fix the code\nand possibly introduce new bugs, they just tell the crew\n'ok, if you see a warning no. 213 before liftoff, ignore it'.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "There is a new product for the (IBM'ers) out there... it is called\nIMAGINE and it just started shipping yesterday... I can personally attest that it will blow the doors off of 3D-Studio.  It is made by IMPUlSE, and is in its\n3rd version....(1st) for the IBM.... it can do morphing, your standard key-framming animation, it is a raytracer (reflections & shadows), and can do/apply special FX to objects... (like ripple, explode, bounce) things of that nature.  Also it has algorithmic texture maps....and your standard brushmapping also...\n\nyou can have animated brushmaps...(ie. live video mapped on the objs)...\nalso animated backdrops (ie. live video backgrounds)\nalso animted reflections maps....\n\nyou get the idea.... it will run for about 500$ retail (I think)...\n\ndont let the low price fool you.... this product can do it all when it\ncomes to 3D-animation and Renderering...!\n\nalso....does anyone here know how to get in the Imagine mailing list??\nplease e-mail me if you do or post up here....\n\noh...the number for I",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Is it possible, ie via creative cable splicing or whatever, to\nhook a Syquest 44MB removable drive to a Mac?\n\nIs there any difference with the guts of the drive or is it\njust cable differences?\n\nThanks.\n\nRob",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n  There's documentation on how to use the shared memory extension in the\nX11R5 distribution.\n\n  Actually, I just finished writing a motif animation program...\n(take-lots-of-image-data-and-display-it-pretty-darn-fast). When using\non-server pixmaps or shared memory, I had to insert a delay loop to keep\nit from going too quickly :). Testing both methods side by side, they\nwere just about equal.\n\n  The advantage of SHM is that your X server doesn't grow to ridiculous\nsizes; but pixmaps can work over a network and *are* removed if your\napplication dies (one tends to use ipcrm manually quite a bit when\ndebugging SHM apps).\n\n  Shared memory also has the problem that some operating systems (e.g.\nUltrix) seem to allow only a small number of segments (~6) to be\nattached to a process at once; consequently, a redraw becomes\nXShmAttach();XShmPutImage();XShmDetach(); on Dec systems. And Dec's 24\nbit displays (like the ones I tend to use most often) don't seem to\nsupport the extension (maybe someone compiled them wrong?), ",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\nAmerican, perhaps, but nothing military about it.  I learned (mostly)\nslugs when we talked English units in high school physics and while\nthe teacher was an ex-Navy fighter jock the book certainly wasn't\nproduced by the military.\n\n[Poundals were just too flinking small and made the math come out\nfunny; sort of the same reason proponents of SI give for using that.] \n\n-- \n\"Insisting on perfect safety is for people who don't have the balls to live\n in the real world.\"   -- Mary Shafer, NASA Ames Dryden",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nSome will, and others will steer with their tuchuses. I don't know how much\nthe teaching of countersteering in the beginner course really helps the\ntuchus steerers. I was one, I guess that I always steered a bicycle that way,\nand I only got the hang of countersteering in normal riding *after* the course.\nI could do the countersteering swerves in the course no problem, but I only\nstarted using it in my normal riding when I decided that my turning at speed\n(off-ramps and the like) was a lot more difficult that it should have been.\nI knew how it works (although that's currently up for debate) definitely knew\n*that* it works, as I could do it in swerves, but only figured it out later\nin my normal riding. Just a data point. I think that it's not a bad idea to\nbring the idea up, but it's best to let everyone tuchus-steer for the first\nlesson or two, so they can learn to shift gears before they have to worry\nabout proper handlebar technique.\n\n\nI have. In our beginner course we had passenger training. Sometime durin",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Could some kind soul tell me the advance timing/revs for a 1981 xs1100 special\n(bought in Canada).",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\tThis is true as evinced by the popularity of shaft-drive drag bikes.",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Well, that would depend on how much we wanted the US and how much\nwe wanted the $1, wouldn't it?\n-Ekr\n",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have just finished building X11R5 on a 386 running Interactive Unix (SysVR3)\nand I am having a problem with xterm.  On any font larger that 5x7 it messes up\ncharacters that are types, the cursor seems to be \"too\" large, or splits into\na 1/2 reverse video, 1/2 outline block (which changes when the pointer is moved\ninto the window).  I am trying to use monospaced fonts (not -p- fonts).  Is\nthere any way of changing the appearence of the block cursor is an Xterm?\n\n Thanks\n    \n\n--",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Around here, even mentioning the DoD without a number in your .sig\ncan get you soundly FAQed.  Notice, however, that I myself did\nnot FAQ the careful monk.  He was, after all, waiting to press return.\n\n\nJack Waters II\nDoD#1919",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ":    Where can I get xman source?  I would like to get the binaries for\n: xman for an HP 9000/700, but I would settle for source.  \n: \n: --\nTry xport.lcs.mit.edu, in direcotry /contrib.\n--",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have looked through the FAQ sections and have not\nseen a answer for this.\n\nI have an X/Motif application that I have written.\nI have a couple of gif files (or pict) that I have\nscanned in with a color scanner.  Now I would like\nto be able to convert the gif files into a format\nthat could be read into my application and displayed\non the background of its main window. Preferably with\npixmaps, or perhaps as an XImage.\n\nI have found functions in the pbmplus program suite\nto convert gif to xbm, but that is monochrome, and\nI really do need color.\n\nI have looked at xv, which reads in gif, and writes\nout several formats, but have not found a way to write\nout a file which can be read in as a pixmap.\n\nIs there an easy way to do this?\n\nemail responses preferred.\n\nthanks!\n\n'mark\n\nahlenius@rtsg.mot.com\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "For some reason I never saw the original post on this thread, but if you are\nlooking for fast polygon routines on vga on a PC, you really can't go past\nthe mode X stuff from Dr Dobbs. This code is all p.domain (as far as I know),\nand in the original articles, the routines were all presented as dumb vga\nroutines, and then optimised to modeX with some interesting discussion along\nthe way.\nIf you are interested, I could find out more details of the issues in question,\n(I have them at home).",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "                                                         ^^^\nWow!  Courses in Georgia are much cheaper.  $85 for both.\n\nThe list looks good, but I'd also add:\n  Heavy Boots (work, hiking, combat, or similar)         $45",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Thanks for the many offers to review this book.\n\nIf you received a review copy, please return it\nas soon as possible.  I had a system crash and\nlost the list of people I sent it to!\n\nThanks",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Stolen from Pasadena between 4:30 and 6:30 pm on 4/15.\n\nBlue and white Honda CBR900RR california plate KG CBR.   Serial number\nJH2SC281XPM100187, engine number 2101240.\n\nNo turn signals or mirrors, lights taped over for track riders session\nat Willow Springs tomorrow.  Guess I'll miss it.  :-(((\n\nHelp me find my baby!!!",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nWas THAT your argument.  Well, you didn't make it very well.  You started \nfrom the questionable premise that the fire was necessarily an act of\ninsanity, rather than an act of negligence or an accident.  Recall, one\nsurvivor claims that the fire started when a tank knocked over a kerosene \nlamp.  Kind of makes arguments regarding relative sanity somewhat moot, no?\n\n\n\"Nice evasive maneuver, Mr. Chekov, but they're still on our tail.\"\n\nLet me ask it more plainly.  Which of the above complaints about David \nKoresh's religious or sexual proclivities justified an armed raid by the \nBureau of Alcohol, Tobacco, and Firearms?\n\n\n\n\n\nIt's not entirely far-fetched.  Nobody outside the compound would know \nEVERYBODY inside the compound.  Don't forget, the BATF admits having \nagents inside the compound, in any case.\n\n\nI'm simply being the devil's advocate.  There's reasonable doubt by the\nboatload standing in the way of anybody totally swallowing the official \ngovernment story on Waco.\n-- ",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n      Ack, what a public relations nightmare just begging happen.\n\n      \"Gun Lobby pays vigilanties.\"\n\n      \"NRA to shell out dough to gunfighters.\"\n",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nI'm not quite sure how these numbers are generated.  It appears that in\na neutral park Bo's HR and slugging tend to drop (he actually loses two\nhome runs).  Or do they?  What is \"equivalent average?\"\n\nOne thing, when looking at Bo's stats, is that you can see that KC took\naway some homers.  Normally, you expect some would-be homers to go for\ndoubles or triples in big parks, or to be caught, and for that matter you\nexpect lots of doubles and triples anyway.  But Bo, despite his speed, \nhit very few doubles and not that many triples.  So I would expect his\nvalue to have risen quite considerably in a neutral park.  \n\n\nFelix Jose has been a .350/.440 player in a fairly neutral park.\nI would offhand guess the `89-`90 Bo at around a .330/.530 player.\nMaybe .330/.550 .  Not even close.\n\n\nI'd put him about there too.  \n\nNote: I hadn't realized the media had hyped him so much.  I thought he\nwas always viewed by them as a better football player, and only so-so \nat baseball.  He did only have one 30-hr, 100-rbi season",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "  Does anyone know how to convert a targa or similar 24 bit picture into a list\n of R G B values and then convert back to targa after doing operations on the p\nixels R G B codes.\nex.  Targa ---->000100255pixel 1\n001200201pixel 2etc....\nIf no one can help me with this could someone explain how the 24 bit data is st\nored in the targa file and also how its stored in the 8 bit targas.   Thanks\n",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI've used that reference, and found that I needed to go to their\noriginal tech report:\n\n\tMaureen Stone and Tony DeRose,\n\t\"Characterizing Cubic Bezier Curves\"\n\tXerox  EDL-88-8, December 1988\n\nThis report can be obtained for free from:\nXerox Corporation\nPalo Alto Research Center\n3333 Coyote Hill Road\nPalo Alto, California 94303\n+1-415-494-4440\n\nThe TOG paper was good, but this tech report had more interesting details ;-)",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "NMM>From: nielsmm@imv.aau.dk (Niels Mikkel Michelsen)\nNMM>Subject: How to act in front of traffic jerks\n\nNMM>The other day, it was raining cats and dogs, therefor I was going only to\nNMM>the speed limit, on nothing more, on my bike. This guy in his BMW was\nNMM>driving 1-2 meters behind me for 7-800 meters and at the next red light I\nNMM>calmly put the bike on its leg, walked back to this car, he rolled down the\nNMM>window, and I told him he was a total idiot (and the reason why).\n\nNMM>Did I do the right thing?\n\nNMM>Yours Truly :\n\nNMM>                                  Niels Mikkel\n\nWell, sounds great to me! When I have a real BDI cager tailgating me,\nI've found that an effective strategy is to flash my brake light by\npumping the pedal. You will, obviously need a bit of free play in your\nbrake pedal to do this. It seems that even the most brain dead idiot can\nusually discern that a flashing red light directly in front of\nhim/her/it may mean that something is wrong.\n\nThe two problems I'd see with your strategy i",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nWell, I looked for it and didn't manage to find it in my listings for TNN.  Has  \nanybody taped it VHS, and could they be persuaded to lend it to me after they  \nwatch it?  I would be most greatful.\n-- ",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nOne book I have which presents a fairly unbiased account of many religions\nis called _Man's Religions_ by John B. Noss.  It was a textbook in a class\nI had on comparative religion or some such thing.  It has some decent\nbibliographies on each chapter as a jumping off point for further reading.\n\nIt doesn't \"compare\" religions directly but describes each one individually\nand notes a few similarities.  But nothing I have read in it could be even\nremotely described as preachy or Christian based.  In fact, Christianity\nmercifully consumes only 90 or so of its nearly 600 pages.  The book is\ndivided according to major regions of the world where the biggies began \n(India, East Asia, Near East).  There is nothing about New World religions\nfrom the Aztecs, Mayas, Incas, etc.  Just the stuff people kill each\nother over nowadays.  And a few of the older religions snuffed out along\nthe way.  ",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "JOB OPPORTUNITY\n\t\t      ---------------\n\n\nSERI(Systems Engineering Research Institute), of KIST(Korea\nInstitute of Science and Technology) is looking for the resumes\nfor the following position and need them by the end of June (6/30). \nIf you are interested, send resumes to:\n\n\tCAD/CAE lab (6th floor)\n\tSystems Engineering Research Institute\n\tKorea Institute of Science and Technology \n\tYousung-Gu, Eoeun-Dong,\n\tDaejon. Korea\n\t305-600\n\n\n\tCOMPANY: Systems Engineering Research Institute\n\n\tTITLE  : Senior Research Scientist\n\n\tJOB DESCRIPTION : In depth knowledge of C.\n\tWorking knowledge of Computer Aided Design.\n\tWorking knowledge of Computer Graphics.\n\tWorking knowledge of Virtual Reality.\n\tSkills not required but desirable : knowledge of\n\tdata modeling, virtual reality experience,\n\tunderstanding of client/server architecture.\n\n\tREQUIREMENT : Ph.D\n\n\tJOB LOCATION : Daejon, Korea\n\n\tContact Info : Chul-Ho, Lim\n\t\t       CAD/CAE lab (6th floor)\n\t\t       Systems Engineering Research Institute\n\t\t       Korea Institute of S",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\tOn a completely different tack, what was the eventual outcome of\nBabe vs. the Bad-Mouthed Biker?\n\nLater,",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nOn my 59 sporty I had some pinhole leaks open up on the back seam.  I kreme\nit about a year ago and have had no problems at all.  Be real careful as\nthe cleaning part of the solution is hell on paint.\n  -Jim\n",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ": Currently, I use a shareware program called Graphics Workshop.\n: What kinds of things will Hijaak do that these shareware programs\n: will not do?\n\nI also use Graphic Workshop and the only differences that I know of are that\nHijaak has screen capture capabilities and acn convert to/from a couple of\nmore file formats (don't know specifically which one).  In the April 13\nissue of PC Magazine they test the twelve best selling image capture/convert\nutilities, including Hijaak.",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\tDoug> NNTP-Posting-Host: se05.wg2.waii.com\n\n\tDoug> ..continuing on my build problems, I got stuck here build xterm...\n\n\n\tDoug> Undefined                       first referenced\n\tDoug>  symbol                             in file\n\tDoug> index                               /usr/ucblib/libtermcap.a(termcap.o)\n\tDoug> rindex                              /usr/ucblib/libtermcap.a(termcap.o)\n\tDoug> ld: fatal: Symbol referencing errors. No output written to xterm\n\n\nActually .. the problem is that you have to build with LD_LIBRARY_PATH\nunset as well as LD_RUN_PATH.",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Okay all my friends are bitching at me that the map I made in Appsoft Draw\ncan't be displayed in \"xv\"... I checked... It's true, at least with version\n1.0.  My readers on the NeXT have very little trouble on it (Preview messes\nup the .eps, but does fine with the TIFF and ImageViewer0.9a behaves with\nflying colors except it doesn't convert worth *&^^% ;-) )\n\n  Please is there any way I can convert this .drw from Appsoft 1.0 on the NeXT\nto something more reasonable like .gif?  I have access to a sun4 and NeXTstep\n3.0 systems.  any good reliable conversion programs would be helpful... please\nemail, I'll post responses if anyone wants me to... please email that to.\n\nYes I used alphachannel... (god i could choke steve jobs right now ;-) )\n\nYes i know how to archie, but tell me what to archie for ;-)\n\nAlso is there a way to convert to .ps plain format? ImageViiewer0.9 turns\nout nothing recognizable....\n\n     terrychay\n\n---\nsmall editorial\n\n-rw-r--r--  1 tychay   2908404 Apr 18 08:03 Undernet.tiff\n-rw-r--r--  1 tych",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello, my friends and I are running the Homewood Fantasy Baseball\nLeague (pure fantasy baseball teams). Unfortunely, we are running the league\nusing Earl Weaver Baseball II with the Comm. Disk II and we need the stats\nfor the 1992 season. (Preferably the 1992 Major League Stat Disk) We have\nthe '92 total stats but EWB2 needs the split stats otherwise we have 200\ninning games because the Comm. Disk turns total stats into vs. L's stats\nunless you know both right and left -handed stats.",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "One thing is certain, though, its still too cold.  After about 40\n\nHell! This is WARM. I retired my fleece from under the Aerostich last \nmonth when the temperature got aboce 40. Try living a couple of years \non the dole, so you cant afford any heating. You put the gear on in\nOctober, abd you take it off again in May. Getting out on the bike \nseems like a luxury in comparison cos oyur usuallu going somewhere \nwarm. \n\nIts all relative.\n",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nCool - I conjure up this image of BD in Doonesbury...so Dean, how long \nhave you been sleeping with your helmet on??\n",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nCould someone please send me the postal and email address of\nCongruent Corporation (and any competitors they may have).\n\nThank you.\n-- \nsnail@lsl.co.uk      ",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nBe warned, it is not my job to convert you.  That is the job of\nthe Holy Spirit.  And I, frankly, make a lousy one.  I am only\nhere to testify.  Your conversion is between you and God.  I am\n\"out of the loop\".  If you decide to follow Jesus, of which I\nindeed would be estatic, then all the glory be to God.\n",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n-- \nMoOLIT (Motif/Open Look Intrinsic Toolkit allows developers to build \napplications that can switch between Motif and Open Look at run-time,\nwhile OLIT only gives you Open Look.\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi, I'm looking for the 3-D studio driver for the\n\tOak card with 1 M of RAM.\n\tThis would be GREATLY (and I mean that) appreciated",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\nSeems to me that I read in either a recent NY Times\nScience Times or maybe it was Science News that there is\nevidence that ex-smoker's risk of lung cancer never returns\nto that of a person who has never smoked (I think it may\nget close).  I'll find the article and post it since my\nmemory is hazy on the specifics - if you are interested.",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Is there an ftp site for maps of the US.  Preferably aerial\nphotographs?",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "So it looks like I'm going to have to put a couple of bikes in storage\nfor a few months, starting several months from now, and I'm already\ncontemplating how to do it so they're as easy to get going again as\npossible. I have everything under control, I think, besides the\nbatteries. I know that if I buy a $50.00 Battery Tender for each one\nand leave them plugged in the whole time the bikes are in storage,\nthey'll be fine. But I'm not sure that's necessary. I've never heard\nanyone discussing this idea, so maybe there's some reason why it isn't\nso great. But maybe someone can tell me.\n\nWould it be a mistake to fully charge the batteries, drain the\nelectrolyte into separate containers (one for each battery), seal the\ncontainer, close up the batteries, and leave them that way? Then it\nwould seem that when the bikes come out of storage, I could put the\nelectrolyte back in the batteries and they should still be fully\ncharged. What's wrong with this?\n\nOn a related, but different note for you Bay Area Denizens, wasn't\n",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nA brilliant algorithm.  *NOT*\n\nSeriously - it's correct, up to a sign change.  The flaw is obvious, and\nwill therefore not be shown.\n\nsorry about that.\n\n\n",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi Xperts, some simple questions for you:\n\nI've seen a lot of different terms, which seem to mean the same thing.\nWho can give an exact definition what these terms mean:\n\n\t-) multi-screen\n\t-) multi-headed\n\t-) multi-display\n\t-) X-Server zaphod mode\n\nIs there a limit how many screens/displays a single server can handle\n(in an articel a read something about an upper limit of 12) ?\n\nHow is the capability called, if I want to move the cursor from one\nscreen/display to another.\n\nAny hints welcome.\n\nThanks, rainer.",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n   As someone who reads Israeli newpapaers every day, I can state\nwith absolute certainty, that anybody who relies on western media\nto get a picture of what is happening in Israel is not getting an\naccurate picture.  There is tremendous bias in those stories that\ndo get reported.  And the stories that NEVER get mentioned create\na completely false picture of the mideast.\n\n",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I am looking for information on infra red based position encoders.\n\nThe idea would be to bounce the infrared source off a wall and the device would\nread out the distance.\n\npreferable it would be rs-232 addressable.\n\n\n\nAny leads?\n\n",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nThe protocol has to move the whole image from process memory to server\nmemory, this is the hog. The conversions in the XPutImage() are\nfast.\n\n\nYes, by utilizing the MIT-SHM extension, that provides an XPutImage\nderivate that uses shared memory. Fine fast.\n\n\nNo. You can still XPutImage all of the frames onto pixmaps (thus moving\nthem to server memory) and then replay them fastest using XCopyArea()\nBUT be aware, this is a major server memory bummer !\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The amount of energy being spent on ONE LOUSY SYLLOGISM says volumes for the\ntrue position of reason in this group.",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I am considering making a reasonably large application for free\ndistribution (probably copylefted).  I am going to use X.  Now I'm\nbewildered by the huge number of \"standards\" that \"open systems\" has\ncreated.  \n\nI've lived in a fairly tookit-sheltered environment.  Most of the tools\nhere were produced with the Athena Widget set, or X Intrinsics or Xw\n(??).  \n\nIn my humble opinion, they look like crap.  I don't know, however, if\nthis is a characteristic of the tookits, or just poor aestetic taste\nin the programmers.\n\nI would like my app to look a little more \"sculptured\" like mwm.  I\nunderstand, however, that mwm isn't free like the other tookits.\n\nI am getting Linux, so I will have InterViews, but I don't know how it\nwill look.  I get the impression Andrew is from the FSF, but I don't\nknow what it looks like either.\n\nIf you can help explain this toolkit mess to me, I would be much\nobliged.  Which are free?  Which are the best?  Which are portable?  Which\nlooks nice?  Which is not a resource hog?\n\nAlso, if you",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "This may be an FAQ, but I dont know where to get the FAQ list!\nMy OpenLook application has a few buttons. The first button turns\nred(gets highlighted?) as soon as the sprite(mouse) is moved into the\napplication window. How do I suppress this?",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI don't know a great deal about the support for C++ in UIM/X, but I can tell \nyou that there is good support for it in TeleUSE.  In TeleUSE you can call any\nC++ method from a \"D\" module.  What you can do then is to use the \"D\" language\nfor most of your interface code and then use C++ for you application code.\n\nI should tell you that there is some real neat stuff coming out of TeleUSE soon\nin regard to C++, but I can't give you many details.  You should talk to your local sales rep and get the lowdown on what they will be doing in the near furture.\n\nIf you want example code of how C++ integrates with TeleUSE you should look at\n$TeleUSE/examples/Thermometer\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\tYes, but the _rear_ wheel comes off the ground, not the front.\n See, it just HOPS into the air!  Figure.",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nTrue enough. I put it on the ground if it's free of spooge, or directly\non my head otherwise.\n\n\nNot exactly. The helmet has a lot less energy if your head isn't in it, and\nthere's no lump inside to compress the liner against the shell. Is a drop\noff the seat enough to crack the shell? I doubt it, but you can always\nsend it to be inspected.",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Is the virtual mouse simulation in ol{v}wm 3.x available under X11R5?\nI've been told I'm setting the right resource, yet it continues not to\nwork. I'm running olvwm3.3 (or olwm 3) on a Sun 3, X11R5 pl 22.",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "}>}So stop dodging the question.  What is hypocritical about my\n}>}criticizing bad arguments, given that I do this both when I agree\n}>}with the conclusion and when I disagree with the conclusion?  \n}>\n}>You are the one who has claimed to possess the fruits of precognition,\n}>telepathy, and telempathy.  Divine it yourself.\n}\n}Another dodge.  Oh well.  I'm no match for your amazing repertoire\n}of red herrings and smoke screens.  \n}\n}You asked for an apology.  I'm not going to apologize for pointing out\n}that your straw-man argument was a straw-man argument.  Nor for saying\n}that your list of \"bible contradictions\" shows such low standards of\n}scholarship that it should be an embarrassment to anti-inerrantists,\n}just as Josh McDowell should be an embarrassment to the fundies.  Nor\n}for objecting various times to your taking quotes out of context.  Nor\n}for pointing out that \"they do it too\" is not an excuse. Nor for calling\n}your red herrings and smoke screens what they are.\n\nHow about the following inaccurate,",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "AW&ST  had a brief blurb on a Manned Lunar Exploration confernce\nMay 7th  at Crystal City Virginia, under the auspices of AIAA.\n\nDoes anyone know more about this?  How much, to attend????\n\nAnyone want to go?",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi,\n         I have a friend who is working on 2-d and 3-d object recognition. He is looking\nfor references describing algorithms on the following subject areas:\n\nThresholding\nEdge Segmentation\nMarr-Hildreth\nSobel Operator\nChain Codes\nThinning - Skeletonising\n\nIf anybody is willing to post an algorithm that they have implemented which demonstrates\nany of the above topics, it would be much appreciated.\n\nPlease post all replies to my e-mail address. If requested I will post a summary to the\nnewsgroup in a couple of weeks.\n\n\nThanks in advance for all replies",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nGlad to hear this, just a note, Osiris, Mithras and many other\ncult gods resurrected as well, so there's a good chance for all of\nus to maybe end up in a virtual reality simulator, and live forever,\nhurrah!\n\nSorry, this was a joke, some sort of one anyway. I'm the first\nthat connected Osiris with a virtual reality personality database.\nTime to write a book.\n\n\nCheers,\nKent",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nits\nplate.\nmay\n\nWell, there's a big difference between \"just not swinging the bat well\" and\nwhat the Reds are doing at the plate....UUUGGGHHHH!!!!!\n\n  A Reds fan on the verge of a nervous breakdown....\n\n  --Mike\n\n  \"Why is it that the prognosis on Kevin Mitchell is 'Out 2-3 days' no matter\n    what day you read it???\"\n                            -Gary Burbank\n\n------------------------------------------------------------------------\n  I've told you before and I'll tell you again.  The strong\n   survive and the weak disappear.  We do not intend\n   to disappear.\n\n        ---Jimmy Hoffa\n\n                  mtissand@magnus.acs.ohio-state.edu\n------------------------------------------------------------------------\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThere is a mini-epidemic of Coccidiodes that is occurring in,\nI believe, the Owen's Valley/ Bishop area east of the Sierras.\nI don't believe there has been any great insight into the\nincreased incidence in that area. There is a low-level\nof endemic infection in that region. Many people with\nevidence of past exposure to the organism did not have\nserious disease.",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n  Thanks for these surreal moments....\n                                               Srinivas",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Archive-name: Intel-Unix-X-faq\nLast-modified: 30 Mar 1993\n\nNote: This is a major re-organization (and replacement) of my\n      \"Frequently Asked Questions About X386\" FAQ list.\n\nThis article includes answers to:\n\nI) What options do I have for X software on my Intel-based Unix system?\n\t1. Free options\n\t2. Commercial options\nII) What is XFree86 and where do I get it?\n\t3. What is XFree86?\n\t4. What OSs are supported?\n\t5. What video hardware is supported?\n\t6. What about accelerated boards?\n\t7. Why doesn't XFree86 support 16-color VGA modes?\n\t8. What other hardware or software requirements are there?\n\t9. Where can I get source for XFree86?\n\t10. Where can I get binaries for XFree86?\nIV) What general things should I know about running XFree86?\n\t11. Installation directories\n\t12. Configuration files\n\t13. Determining VGA dot clocks and monitor modes\n\t14. Rebuilding/reconfiguring the server from the link kit\nV) What OS-specific things should I know about running XFree86?\n\t15. SVR4\n\t16. SVR3\n\t17. 386BSD\n\t18. Linux\n\t19. Ma",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I posted this several days ago for Dave Butler.  He may have missed it - my\nUsenet board has changed a little.  Just in case he missed it, here it is again.\n\n\nDave Butler writes...\n \nFrom: daveb@pogo.wv.tek.com (Dave Butler)\nSubject: Re: NEW BIBLICAL CONTRADICTIONS [Fallaciously] ANSWERED (Judas)\nDate: Thu Apr  1 20:52:11 1993\n \n\"I can basically restrict this post to showing the type of evidence Mr DeCenso\nhas presented, and answering his two questions (and a couple of his spurious\ninsults and false claims).\"\n \nMY REPLY...\nO.K.\n \nDB...\n[By the way Mr DeCenso, you really should have looked in the index of your\nBauer-Arndt-Gingrich Greek lexicon.  You would have found that the word in\nActs for \"lot\" is \"kleros,\" not \"CHORION\" as stated by Mr Archer, and nowhere\nin the very large discussion of kleros in done the to \"Theological Dictionary\nof the New Testament\" by Bromley, is the meaning \"burial plot\" discussed.  It\ndiscusses the forms of \"kleros\" (eg: kleros, kleroo, etc), and the various\nmeanings of \"kleros\" (e",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\twindow = XCreateWindow(...);\n\tXSetTransientForHint(display, window, window);\n\tXMapWindow(...);",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "WHile we are on the subject of the shuttle software.\n\nwhat ever happened to the hypothesis  that the shuttle flight software\nwas a major factor in the loss of 51-L.  to wit,  that during the\nwind shear event,  the Flight control software  indicated a series\nof very violent engine movements that shocked and set upa harmonic\nresonance  leading to an overstress of the struts.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThere's plenty of legroom on the Kawasaki KLR650.  A bit\nshort in the braking department for spirited street riding,\nbut enough for dirt and for less-agressive street stuff.\n--",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "First game, first at bat.",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "[...]\n\nHow ironic.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi *,\n\nHas anyone out there compile a list of X security holes??  If\nyes, will you please send me a copy of this??  If this is a\nwrong group, please point me to a right one.  Thanks!!\n\nBTW, the list doesn't have to contain the info \"How to use\nthe holes?\".  Instead, I need the info of how to detect\nthe holes, how to seal the holes, and how to monitor the \nactivities if possible.\n\nAny info is welcomed.  Thanks!!\n\n\n  --Eric\n\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Most of the key issues in the 284 line post to which I am following up are\ndealt with in the following post I made on talk.abortion yesterday,\nmodified to correct the next to last paragraph.\n\nMessage-ID: <nyikos.734890344@milo.math.scarolina.edu>\n\nReferences: <nyikos.734360987@milo.math.scarolina.edu> <nyikos.734640769@milo.math.scarolina.edu> <1993Apr13.122356.3612@cbnewsj.cb.att.com>\n\n\n\n\nDean did not.  He called them \"the Great Commission\" but this is NOT\ndescriptive of Jesus's words in Matt. 10:15.\n\nMatt. 10:14, Jerusalem Bible translation:\n\n\t\"And if anyone does not welcome you or listen to what you have\n\tto say, as you walk out of the house or town shake the dust\n\tfrom your feet.\"\n\nMatt. 10:15:\n\n \t\"I tell you solemnly, on the day of Judgment it will not \n \tgo as hard with the land of Sodom and Gomorrah as with \n \tthat town.\"\n\n\n\"> The above is a good description of Kaflowitz, who keeps harping on\n > shaking the dust off the feet but ignoring what Christ said next.\"\n   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^          ",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\tSo, if the Braves run production falls to 1 per game, which is\ncertainly where it's headed (if they're lucky), does that mean they'll finish\nfirst?\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Has anyone ever heard of FET-TRONS (or is it FETRONS, FETTRONS, ...).\nThese were FET replacement modules for vacuum tubes. I'm looking for\napplications where they were used. ",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Sorry about not mentioning platform... my original post was to mac.programmer,\nand then decided to post here to comp.graphics.\n\nI'd like the 3D software to run on primarily Mac in either C, Object Pascal\n(Think or MPW). But, I'll port to Windows later, so a package that runs on\nMac and has a Windows version would be ideal.\n\nI'm looking for a package that has low upfront costs, and reasonable licensing\ncosts... of course :)",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nUsing XPutImage, your source is maintained by the client and the\ndestination is maintained by the server, thus you incur the overhead\nof transporting through whatever client-server communications\nmechanism you are using.\n\nIs it possible for you to maintain your source images in pixmaps?\nThese are maintained by the server, so copying them into a window is\nmuch cheaper.\n\nAlso make sure you are not sending any unnecessary XSyncs, or running\nin XSynchonize mode.\n-- ",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\nJust out of curiousity, how old is Worden?\n--\n_______________________________________________________________________________",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello,\n\nAnyone know of any source code I can get to either create window \ndumps in GIF format, or convert an XWD (x window dump) file \ninto a GIF? Really could be any format I can manipulate in DOS, \ni.e. PCX, BMP, etc.\n\nlater,\n\nshane\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI agree.  This is the danger I see, not the system itself.  That is to say, \nthis is a political issue, not a technical one.\n",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "A few days ago there was a posting in this group by Andrea Winkler\ntitled \"X and Security / X Technical Conference\".  I was one of the\ninstructors of that tutorial.  Unfortunately, my system purged\nthe message before I had a chance to see it, and I don't have\nAndrea's email address.  If someone has Andrea's address and/or\nthe posting, I would really appreciate it if you'd forward it to\nme!\n\nThanks\n--Jeremy\n\nJeremy Epstein\t\t\tInternet: epstein@trwacs.fp.trw.com\nTrusted X Research Group\tVoice: +1 703/803-4947\nTRW Systems Division\nFairfax Virginia",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n    Yip, we had the same problem; the only fix we found was to link static\nsome of the clients, ( btw, we used cc). :-(.\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nYou probably need an X server running on top of MS DOS.  I use Desqview/X\nbut any MS-DOS X server should do.\n\n-- ",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello, I'm doing a paper on censorship in music and I would appreciate it if you took the time to participate in this survey.  Please answer as each question asks ('why?' simply means that you have room to explain your answer, if you chose.).  The last question is for any comments, questions, or suggestions.  Thank you in advance, please E-mail to the address at the end.\n\nI)  are you [male/female]\nII) what is your age? \nIII)what is your major/occupation?\nIV) what type of music do you listen to (check all that apply)?\n      a.  hard rock   b.  metal   c.  alternative   d.  blues    e.  rap\n      f.  jazz    g.  soft rock   h.  easy listening   i.  country   \n      j.  classical   k.  hard core   l.  dance   m.  new age\n      n.  others (did I miss any?)____________\n\n1)  Do you think recordings with objectionable or offensive lyrics be labeled? [yes/no] Why?\n\n\n\n\n2)  Do you think certain recordings should be banned from minors (under 18 years of age)? [yes/no] why?\n\n\n\n\n3)  Do you think certain recordings should ",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Does anyone have any Russian Contacts (Space or other) or contacts in the old\nUSSR/SU or Eastern Europe?\n\nPost them here so we all can talk to them and ask questions..\nI think the cost of email is high, so we would have to  keep the content to\nspecific topics and such..\n\nBasically if we want to save Russia and such, then we need to make contacts,\ncontacts are a form of info, so lets get informing.\n\n==\nMichael Adams, nsmca@acad3.alaska.edu -- I'm not high, just jacked",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have a Fujitsu M2322K which has been removed (I believe) from a digital\nX-Ray machine (takes X-Ray pictures without film).  The Fujitsu part number\nis B03B-4745-B002A.\n\nI have obtained some data on the device, it is 8-inch winchester-type\nof 168 megabyte capacity (though I was told it was over 800 megabytes).\nHowever, there is very little information on the interface standard used.\nIt appears to use two balanced-line connections, but what each connection\ncorresponds to I know not. One connection is a 30-way IDC, the other a\n60-way IDC.\n\nIf anyone has any information on this device, I would be most grateful\nif you could provide it.\n\nThanks.\n\n\nChris Powell.",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nMy Beckman died a few days ago, thanks do about a 4 or 5 foot drop onto a\nlab table.  !@#!@$#!@$@#$  Probably not indicative of anything, but I've\nalready filled out the requisition for a Fluke 87. :-)\n\nOh yeah, and sometimes our measurements here do count.  Not often, but often\nenough that I want at least _one_ good meter!",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThe National Air & Space Museum has both the prototype and the film.\nWhen I was there, some years ago, they had the prototype on display and\nthe film continuously repeating.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Philadelphia at Chicago:  Teams tied for 1st after Sunday\n     Dick Redding battled Chet Brewer in the first game of a dramatic four\ngame series.  One Friday, one Saturday, and a good-old Sunday doubleheader.\n\"What could be better,\" declared Ernie Banks.  Perhaps the fact that the Cubs\nare challenging?\n     \"It's pitching, it's always been pitching that we've lacked,\" announced\nRyne Sandberg.  \"If we can get by Brewer, then beat Carlton, Alexander, or\nBunning - preferrably 2 of the last three - we'll know we might be able to\nwin.\n     \"Lord, I hope we pull it off.\"\n     The Phils scored once in the top of the first; Richie Ashburn singled, Pete\nRose followed with a hit, sending Ashburn around second.  Kiki Cuyler cut\nthe ball off in left center, and threw a bullet in to Ernie Banks, who threw\nto Ron Santo to get Ashburn at third.  Rose went to second on the play.\n     Christobel Torrienti lifted a long fly to center, moving Pete Rose to\nthird.  Schmidt was walked - the Cubs were absolutely refusing to let him",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I addressed most of the key issues in this very long (284 lines) post\nby Dean Kaflowitz in two posts yesterday.  The first was made into the\ntitle post of a new thread, \"Is Dean Kaflowitz terminally irony-impaired?\"\nand the second, more serious one appeared along the thread\n\n\"A Chaney Post, and a Challenge, reissued and revised\"\n\nboth only in talk.abortion, but I am posting its contents into\ntalk.religion.misc as soon as I exit here.\n\nThis should be enough for us to thrash out for the next week or so.  The\nsecond post really grapples with the main bones of contention between us.\nThe first is more lighthearted and tells about such things as \nKaflowitzDebatingPoints [tm], which he continues to rack up on both\ntalk.abortion and talk.religion.misc, while setting follow-ups to \ntalk.abortion alone.  His lame excuse for the latter policy is that\nhe gets a prompt as to where to set follow-ups, and does not follow\ntalk.religion.misc much; this suggests that he is being hypocritical in not\nalso setting his Newsgroups ",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "From the \"JPL Universe\"\nApril 23, 1993\n\nCosmologist Stephen Hawking tours Lab",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ": |> \n: |> XmDrawingArea for drawing with Xlib.  But I would like to take advantage of\n: |> the Graphics Library (GL) available on our IBM RS/6000 (SGI's GL i believe).\n: |> Is it possible to mix X and GL in one application program?\n: |> Can I use GL subroutines in an XmDrawingArea or in an X window opened by me\n: |> with XOpenWindow?\n\nYou can't make GL calls in an XmDrawingArea widget for sure.  \n: \n: There is a widget already defined for GL.  It is the GlxMDraw (motif) or\n: GlxDraw (athena) widget.  It is similar to a XmDrawingArea, except that it\n: allows you to use GL calls to render into the window.  Look at glxlink,\n: glxunlink, glxgetconfig, and glxwinset in the man pages.\n: \n: \n: The GlxMDraw widget works pretty well.  OpenGL will be an improvement.\n\nI can vouch for that. The GL Widget works pretty well. I have been using it\nfor sometime now. I'm not sure though whether you can use Xlib calls to draw\ninto the GL widget. I haven't tried it yet nor have I read the accompanying\ndocumentation completely. ",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi Folks,\n\n   Does anyone have a copy of Playmation they'd be willing to sell me.  I'd \nlove to try it out, but not for the retail $$$.  If you have moved onto \nsomething bigger (3DS) or better (Imagine), I'd love to buy your table scraps.\n\n   If noone is selling, can anyone recommend a place to buy Playmation \nmail-order for cheap?  \n\n   Thanks in advance,\n\n   Mark\n\n\n\n-- ",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "We have a setup with with 13 polaroid transducers and rangefinders. We\nwould like to fire these three at a time with about 5 ms between\nfirings. The three that are being fired do not fire in the same\ndirection. \n\nTo further explain the situation, assume we are firing sonars A,B,C\n5 ms apart each other. We should normally see an echo on A that\ncorresponds to the distance. However, sonar A detects the INIT line\nof sonar B! The detection is actually through the transducer of sonar A;\nwe can see a very faint 50Khz signal on the transducer, exactly at the\ntime the init line of sonar B is activated. \n\nWe feel that there is some ground coupling that is causing this interference.\nWe came to this conclusion since we are using a separate power supply\nfor sonars B and C. \n\nHas anyone else had any problems with these particular units and\nthis type of experience? Your suggestions for remedies will be greatly\nappreciated.\n\n",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Apparently, Part 2 (defensemen numbered 2 through 19) was lost when I posted\nit; to make things worse, I lost my own copy.  I have asked on the Sharks\nmailing list, on which it did get out, to see if someone can mail me a copy\nback.  If someone responds, I will repost it when I get it; otherwise, I will\nre-write it in a day or two and post it.  Sorry about that.\n\n#8\tLARRY DEPALMA\t\tSeason:\t3rd\nAcquired:\t'91-92, free agent from Minnesota\nGrade:\t\tI (C-/D+)\n\nNo netter/fan watching the Sharks, including me, knows where DePalma was at\nthe end of the season; the Sharks appeared to still have his rights, but he\nwasn't in San Jose, he wasn't in Kansas City, and his name hasn't appeared on\nthe waiver wire.  And that kind of invisibility was prevalent for the most part\nfor DePalma.  After being called up October 30 against the Tampa Bay Lightning,\nDePalma had an excellent week, scoring 5 points in 3 games while playing good\ndefense.  Unfortunately, the 27-year-old DePalma then disappeared the rest of\nthe way, getting ju",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nHey! I LIKE quiche, even if I did have to look \nat your note to spell it (assumed) correctly.\n\nReally, you <*sniff*> tough guys are all the same...",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Can anyone recomend a good book or article on inter-client communications\nBESIDES I.C.C.M.?\n\nI've looked everywhere I can and it seems everyone tells you how to do it\nbut nobody SHOWS you how.  O'Reilly has no examples, ICCM has no examples,\nAsente & Swick give no examples - in fact most of the books I've looked at,\nif they discuss ICC at all, simply give a condensed version of the ICCM and\nthen refer you to the ICCM.  I did find one example of how to use Atoms and \nProperties in Young's book and five hours after I bought Young's book I had\nmy applications talking to each other.\n\nI am not sure, however, if thats the best way.  I'd like to stay independent \nof Unix so pipes and/or sockets probably aren't the way to go.  But within X\none can also use messages, the clipboard, and perhaps window groups.\n\nI need a text that discusses the various methods, discusses which method is best\nfor which purpose, and gives examples.  Without examples it's all just words.\n\nThanks in advance",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Since I'm not all too keen on this area of hooking them up, I'm \nasking for help.  I know better than to hook a 12v, 1a stepper line to \none, unless it can take it; however what about if I've got a 24-60v \nstepper.  What sort of curent limmiting circuitry would be involved (a \nsmall schematic would probably be helpfull).  \n        Also, I've looked into the TIPC2701N by TI, and I was wondering \nif I should use the same suggested (by you replying to this message) \ncurrent limiting circuitry on each of the 7 mosfets in the package as \nthat illustrated in the schematic (which you the replyer would hopefully \nhelp me with).\n \n                                ... hmm... different request... \n \n                Thanks.\n\n \n  _________________________________________________\n  Inspiration  |   ___                             |\n  comes to     |  \\   o  baden@sys6626.bison.mb.ca |\n  those who    | (  ^  ) baden@inqmind.bison.mb.ca |\n  seek the     |   /-\\      =] Baden de Bari [=    |\n  unknown.     |                    ",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n ^^^^^^^^^ ^^^ ^^^^^ ^^^^^\n\n Can we assume that this guy studied advertising and not chemistry?  Granted \nit probably a great advertising gimic, but it doesn't sound at all practical.\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Archive-name: space/probe\nLast-modified: $Date: 93/04/01 14:39:19 $\n\nPLANETARY PROBES - HISTORICAL MISSIONS\n\n    This section was lightly adapted from an original posting by Larry Klaes\n    (klaes@verga.enet.dec.com), mostly minor formatting changes. Matthew\n    Wiener (weemba@libra.wistar.upenn.edu) contributed the section on\n    Voyager, and the section on Sakigake was obtained from ISAS material\n    posted by Yoshiro Yamada (yamada@yscvax.ysc.go.jp).\n\nUS PLANETARY MISSIONS\n\n\n    MARINER (VENUS, MARS, & MERCURY FLYBYS AND ORBITERS)\n\n    MARINER 1, the first U.S. attempt to send a spacecraft to Venus, failed\n    minutes after launch in 1962. The guidance instructions from the ground\n    stopped reaching the rocket due to a problem with its antenna, so the\n    onboard computer took control. However, there turned out to be a bug in\n    the guidance software, and the rocket promptly went off course, so the\n    Range Safety Officer destroyed it. Although the bug is sometimes claimed\n    to have been an incorrect",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\nDavidian, who are fascists? Armenians in Azerbaijan are killing Azeri \npeople, invading Azeri soil and they are not fascists, because they \nlack food ha? Strange explanation. There is no excuse for this situation.\n\nHerkesi fasist diye damgala sonra, kendileri fasistligin alasini yapinca,\n\"ac kaldilar da, yiyecekleri yok amcasi, bu seferlik affedin\" de. Yurrruuu, \nyuru de plaka numarani alalim......",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Great, the first advantage of cheap coax, I've ever heard.\n\nCheers   Robert  (HB9NBY)\n",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I need information on the Display PostScript strokeadjust feature.\nThis feature adjusts the endpoints of lines so that the displayed line\nlooks better on low resolution devices.\n\nThe PostScript literature explains the process to some extent.  They\nalso give an example of how to \"emulate\" strokeadjust in PostScript\nenvironments where it is absent.\n\nThe suggested emulation is to modify the coordinates of the endpoints\nof a line using the following formula for each coordinate:\n\n\tnew_coord = (round (old_coord - 0.25)) + 0.25\n\t\nDoing this we end up with all coordinates ending in \".25\".  From\nreading I thought that what they might actually do is:\n\n\tnew_coord = ((trunc (old_coord * 2)) / 2) + 0.25\n\t\nThis results in all the coordinates ending in either \"0.25\" or \"0.75\" \nwhichever is closer.\n\nBy doing some actual comparisons with Display PostScript, I find that\nneither of these is what DPS really uses.  Since I like how the DPS\nresult looks better than how my stuff looks, I'd like to know if\nanyone who knows how DPS d",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "G'Day\n\nWindows NT is a step forward, but not by much. I guess for DOS users who\nthink multi-tasking is really _neat_ (add puke here) and are overjoyed to \nbe able to use more than 64K of memory, its a major improvement. For Windows\nusers its more like an upgrade with facilities most Unix users take for \ngranted. Most of  Windows users only use PCs for text processing or running \n3rd-party applications anyway so the operating system features are not even \na real issue. My ideal operating system:\n\n\tBinary compatible across all plaforms. It should recognize\n\tbinaries and configure on the fly, so I don't have to have\n\tbin/Mac bin/DOS bin/Dec bin/Sun bin/HP etc...\n\n\tMulti-CPU. So I can use the CPUs on my PC and W/S and Mac \n\tand Transputers and DSPs. I don't know a single site which \n\thas gone for a single vendor. I am not going to trade-in \n\t80Mflops per H1 transputer or ultra-fast FFT on DSP chips.\n\tNote NT runs on Symmetric multi-CPU systems.\n\n\tBuilt-in portable GUI/Graphics tools. You can call DrawButton \n\tor ",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n  I think you will find that the active Linux and 386BSD communities are\n  populated by enthusiasts who would object to paying *any* money for software.\n  Otherwise, they would probably have gone for a commercial Unix.\n  An important factor in the Linux community is that source code is always\n  available (this is probably similar in the 386BSD community, however, I'm not\n  really involved there). Many people using Linux like to stay at the cutting\n  (bleeding) edge: ie. when kernel patches, C library or compiler patches come\n  out, people like to rebuild their entire systems. The prime requirement for\n  all Linux software is that it is available under a GNU style public license.\n  Hence, Linux software uses either the Athena widgets or XView.\n  Individuals may write software requiring Motif, but I doubt it is widely\n  adopted.\n\n\t\t\t\tRegards,",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I've a curiousity --\n\n  Whenever a person is put on the 15-day, 30-day or 60-day, \n the person is on the list longer than the specificed time\n\n  I've seen a person on the 15-day for maybe 4 months last year, I don't\n remember what...\n\n I just need a little clarification on the disabled list specifications.\n\n- Scotyy\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi\n\nI am trying to implement a pointer feature in Xlib\n\nI have multiple windows and all can take input and \nshow output simultaneously on all other displays\n\nI want to implement a pointer feature \n\nI would like to get the pointer to come up on all windows once \nI choose pointer in the menu and every one should be able\nto see it\n\nCan you give me some hints as to how I should proceed \nI am new to Xlib\n\n\n\nreplies will be greatly appreciated\n\nThank you",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Alexis Perry asked if low blood potassium could be dangerous.  Yes.\nZZ\n",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Mr. Clinton said today that the horrible tragedy of the Waco fiasco\nshould remind those who join cults of the dangers of doing so.\nNow, I began scratching my head thinking (a bad sign :-), \"don't the \nmainstream religions (in this case Christianity...or the 7th day \nadventist in particular) just keep these guys going ? Isn't Mr. Clinton \ncondemning his own religion ? After all, isn't it a cult too ?\"",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nI don't know any way except to see what modifiers are on in th\nKeypress event.  Of course if there is some reason why you need to\nalways know the state of modifiers even if your windows don't have the\nkeyborads focus you can always ask for KeyPress events from the root\nwindow.  Then you get all the KeyPresses and you always know what have\nbeen pressed.\n\n\nI think this is just a question of how to implement XLookupString.\nYou can always write another function that interprets the KeyPresses\nas you like.  You can look at the implementation of XLookupString from\nthe Xlib sources and then modify it a little bit.",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "For those of you who couldn't find X-Appeal, it is availible at\nthe following sitex:\n\n\tascwide.ascii.co.jp in the /pub/MSDOS/xappeal dir\n\twuarchive.wustl.edu in the /mirrors4/garbo.uwasa.fi/demo\n\tdirectory\n\n\tThe three files are xap13exe.aip, xap10fon.zip and\n   drivers.zip.\n\nJosh",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Subject says it all...\nAnyone know where I can find one.  Binaries are nice, but source would\ndo to.  \n\nThanks in advance,\n\n\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The internal HD in my LC disappeared for a day last week, and I'd like to\nhear any (reasonable) theories folks can suggest for what happened.\n\nIt is an LC, with 10MB of RAM and an 80MB internal drive, running system\n7.1, with a few SCSI devices in a (so far as I know) properly terminated\nchain.\n\nI had shut down the system for a day-- I was out of town and we sometimes\nhave thunderstorms this time of year-- and upon restarting got a blinking\nquestion mark.  I booted from a floppy and saw that my external HD seemed\nokay, but there was no sign of the internal.\n\nI installed a system folder on the external and was, indeed, able to boot\nfrom it.  I tried things like Disk First Aid and Silverlining, to inquire\nabout the internal drive.  They either could not find it or got errors in\ntrying to talk to it. (Silverlining claimed it was a Connor drive, but it\nis a Quantum... )\n\nWell, I'd backed things up, so I was able to work.  But, at some point I\nnoticed that the internal had reappeared.  Now, Disk First Aid says tha",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nPrestone.  I buy it at ShopKo for less \nthan that a _gallon_.    BMW has even more\nexpensive stuff than Kawasaki (must be \nfrom grapes only grown in certain parts of\nthe fatherland), but BMW Dave* said \"Don't \nworry about it -- just change it yearly and\nkeep it topped off\".  It's been keeping \nGretchen happy  since '87, so I guess it's OK.\n\nKept my Rabbit's aluminum radiator hoppy for\n12 years and 130,000 miles, too, so I guess\nit's aluminum safe. \n\n*Former owner of the late lamented Rochester \nBMW Motorcycles and all around good guy.\n\n-- \n\n\n   Pooder  -  Rochester, MN   -  DoD #591  \n -------------------------------------------------------------------------\n   \"What Do *You* Care What Other People Think?\" -- Richard Feynman \n -------------------------------------------------------------------------\n   I share garage space with:   Gretchen - '86 K75   Harvey - '72 CB500  ",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "===\nI aint talking the large or even the \"mining companies\" I am talking the small\nminers, the people who have themselves and a few employees (if at all).The\npeople who go out every year and set up thier sluice box, and such and do\nmining the semi-old fashion way.. (okay they use modern methods toa point).\n\nI am talking the guy who coem to Nome evry year, sets up his tent on the beach\n(the beach was washed away last year) and sets up his/her sluice box and goes\nat it \"mining\".\nI know the large corps, such as Alaska Gold Company, might complain to..\n\nMy opinions are what I learn at the local BS table..\n\nMy original thing/idea was that the way to get space mining was to allow the\neco-freaks thier way.. As they have done with other mineral development.\nYou can't in many places can't go to the bathroom in the woods without some\nform of regulation covering it.. ",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\n\n\n\nWithout doing anything really tricky, the best I've seen is the\nBurr-Brown INA103. Their databook shows a good application of this\nchip as a phantom power mic pre.\n\n-- ",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "<MUNCH!>\n\nIt would be funny if it wasn't so damn *NASTY*; and as non-xian as I am, \nit's hard to believe that someone is pushing black is white and freedom\nis slavery so blatantly.",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello netters\n\nSorry, I don't know if this is the right way of doing this kind of thing,\nprobably should be a CFV, but since I don't have tha ability to create a \nnews group myself, I just want to start the discussion. \n\nI enjoy reading c.g very much, but I often find it difficult to sort out what\nI'm interested in. Everything from screen-drivers, graphics cards, graphics\nprogramming and graphics programs are discused here. What I'd like is a \ncomp.graphics.programmer news group.\nWhat do you other think.\n",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi,\n\ndoes anyone have a keyboard map for a Sun UK type 5 keyboard for use under\nX11/R5 ?\n\nThanks,\n\nNigel.\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "store and reply of mouse and keyboard events\n--------------------------------------------\n\nTo produce regression tests or automatic demo's\nwe would like to store all mouse and keyboard events\nproduced by a user. It should be possible to filter\nthe mouse and keyboard events from the server's queue\nan to store them in a file.\nThis sequence of events, stored in a file, should be given \nto the server's queue as if a user is working.\n\n\n1. Exists a tool that is capable to save and reply all\n   mouse and keyboard events (where)?\n\n2. Where one can catch these events to store them ?\n   In our case the server's queue is on a X Terminal (HP).\n   Where can we catch all events coming from a given\n   server.\n   If this is not possible, can we catch all events given\n   to a certain client and how ?\n   \n3. Where one can send a stored sequence of events to simulate a user ?\n   Is there a central dispatcher on the clients machine who manages\n   all incoming events from a given server and how can we reach it ?\n\n\nThanks in advan",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "[Please accept the following announcement for comp.windows.x.announce. -gf]\n\nA completely revamped version of the X11 browser interface to Archie,\nXarchie, is now available as\n\texport.lcs.mit.edu:/contrib/xarchie-2.0.tar.Z\n\nFor those not familar with Archie or Xarchie, I include part of the\nmanpage intro:\n\n  Xarchie is an X11 browser interface to the Archie Internet information\n  system using the Prospero virtual filesystem protocol.  Archie\n  provides information about files available for ftp anywhere on the\n  Internet; Xarchie displays this information using an easy-to-use,\n  point-and-click interface.  Xarchie allows you to further explore ftp\n  sites by examining directories returned as query matches, and allows\n  you to retrieve files located this way.\n\nXarchie 2.0 has been extensively tested on R4, R5, and a variety of\nother flavors of X, and on a wide range of machines. A summary of the\nnew features (from the README) follows:\n\n  * Major improvements include:\n    - Multiple selections allowed in browser",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\nIn SGI's distribution with their Indigo line (others as well, possibly),\nthey include source code for a GL widget that fits on top of Motif, and\none that's Xt based as well.  You may wish to ask IBM whether they\nsupport this.\n--",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n Currently there are no \"Velcro\" jump boots as issue in\nthe military, there are two other kinds. One is made my\nCochran and sell for $85.00 in either the Clothing sales\nstore or US Cavalry (Price match at the Cav store) the\nsecond co is also sold but somewhat cheaper in design.\nActually they don't care what you wear as long is they\nare 10 eyelets high.\nThere is another boot called a \"Tankers boot\" this has\nsimilar construction to a wellington boot except for the\nboot shape and has straps that wrap around for tightness.\nNice boots\n",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have the March/April version of the X Journal open in front of me.\n\nI'll be working on programming x-clients this summer, and since I don't have\nmuch experience with programming X, I thought this issue might be helpful\nas it has a section on debugging, and a section on the 40 most common errors\nin programming X.\n\nAt the end of the errors section, there are the following references for\ntutorials on X programming style.  They are:\n\nRosenthal, David -   A simple X11 client program\n  Proceedings of the Winter 1988 Usenix Conference, 1988.\n\nLemke, D., and Rosenthal, D. -  Visualizing X11 clients\n  Proceedings of the Winter 1989 Usenix Conference, 1989.\n\n\nDoes anyone know where I could find these in printed or (preferably)\nelectronic form?\n\nOr can you suggest any net resources devoted to the introduction to\nprogramming X (I'll be looking at the bookstore for books, so I am really\nonly asking about what I can find on the net.)\n\nThanks,\n\nDavid Simpson",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have a toggleButton widget (yes widget) and I have a routine\nwhich changes the color of the foreground and background of the\nlabel.  Well, the background changes alright, but the label\ntext does not redraw itself.\n\nI am guessing that I have to force it to redraw with an\nXExposeEvent sent to it via XSendEvent.  Is this the best\nway to get the text up again?  I can't seeem to get\nXSEndEvent to work right.... if this is a good approach,\nmight anyone have an example lying around to show me how to\ndo this?  I've RTFM all evening and did not find a decent\nexample.\n\nPS I keep getting Segmentation Faults in XSEndEvent, tho all\nthe values are as expected.\n\nThanks in Advance",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nPreliminary negotiations started already, I believe.  Though the word\nis that they are going slooooooooooooooooooooooowly.",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I've had my Fluke 8060A here at work for just over 10 years now.\nIt is a wonderful meter.  Several colleagues here have some of the\nnewer Fluke meters, though I still would just as soon hang on to my\n8060.  The 8060 a is the 1980s digial \"analog\" to the Simpson 260\nanalog DMM of the 1950-1960s.  There was/is (?) an 8060B that had\nextended frequency response.\n\nI've got a nifty little pen shaped meter made by Soar that I keep\nin my toolbox at home.  I've had that for six or seven years now\nand only replaced the batteries a couple of timees; it is more than\nadequate for day-to-day hobby use.  I think Soar OEMs their stuff\nfor a number of vendors.  Some of JDR Microdevices' stuff looks\nrather similar to Soar's.\n\n",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Greetings,\n\nMy question is whether the upcoming release of X11R6 will provide\n(strong) authentication between the X clients and server(s). If so,\nwill this feature be based on the Kerberos authentication mechanism\n(and, if so, will Kerberos Version 5 be used)? Please reply via email.\n\nThanks,\n\n--Andre\n-- \nAndre S. Cosma         | RRC 1N-215          |  Bellcore - Security and\nandre@bae.bellcore.com | 444 Hoes Lane       |       Data Services\n(908) 699-8441         | Piscataway, NJ 08854|",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I found an oddity with our SGI Indigo (MIPS R3000 chip).\nWhen xlock +nolock is running, and I am working remotely\nor in batch (at) mode, the runtime of my programs (as timed\nby using clock() in the code itself) is ~25% slower than if\nxlock is NOT running.  No other processes seem to affect my\nruntimes, yet this is very consistent!\n\nAny explanations, real or imagined :)",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nGlad to hear that it's working for you!\n\nI couldn't find it on \"export\".  However, Simon Leinen\n<simon@liasun6.epfl.ch> has added an Imakefile and an Athena\nversion, and made it available for FTP in the file\nliasun3.epfl.ch:/pub/X/contrib/xrpc.tar.z.  (Note the \".z\"\nsuffix; you'll need GNU gzip -- also on liasun3 in /pub/gnu --\nto uncompress it.)  \n\nIf this doesn't work, send me a note and I'd be happy to mail you\na copy; but you probably won't get it until the start of May --\nI'm on holidays as of tomorrow! :-)\n\n-- \nMartin Janzen  janzen@mprgate.mpr.ca (134.87.131.13)\nMPR Teltech Ltd.  8999 Nelson Way  Burnaby, BC, CANADA  V5A 4B5\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\tThere is a free program called 'xkernel' which does just that.\nIt is by Seth Robertson (seth@ctr.columbia.edu).  It takes a sun 3 and\nboots a limited kernel which allows you to run X.  We converted 4\nmachines over this semester and the speedup is enormously appreciable\n-- I find them faster than an NCD 15inch black&white XTerminal that we\nare playing with, and a bigger screen to boot!  As a matter of fact,\nthe department just bought some old sun3s at an auction to convert!\n\n} Xkernel is available for anonymous ftp from ftp.ctr.columbia.edu\n} [128.59.64.40] in /Xkernel/Xkernel.shar (/Xkernel is a symlink to the\n} latest version of Xkernel)\n\n\tNote that the compiled version which is available is for the\nsun 3/50, but compiling to work for a sun 3/1xx should be quite easy.\n\n\tI am not connected with xkernel except as a satisfied\ninstaller and user 8).  I may be able to answer questions; feel free\nto email me.",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nOh gee, a billion dollars!  That'd be just about enough to cover the cost of the\nfeasability study!  Happy, Happy, JOY! JOY!",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n<<<most of message deleted>>>\n\n",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nGeez.  Everyone comes up with Clark, Williams, Thompson.  These guys\nwere all up in 1987.  That's ancient history.  So in the last 6 years,\nnoone, right?  Beck doesn't count.  I said 2 solid years.\n\n\nLet's see what he does w/o the help of a pitchout every other pitch.\nAs I remember, even Bob Brenly had a good throwout percentage under\nRoger Craig, who loved to sacrifice the count for runners being thrown\nout.  Of course, he suffered from 3 ball 1 strike homers a lot too.\nI am not a big fan of Manwaring.\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nJesus also recognized other holy days, like the Passover.  Acts 15 says \nthat no more should be layed on the Gentiles than that which is necessary.\nThe sabbath is not in the list, nor do any of the epistles instruct people\nto keep the 7th day, while Christians were living among people who did not\nkeep the 7th day.  It looks like that would have been a problem.\n\nInstead, we have Scriptures telling us that all days can be esteemed alike\n(Romans 14:5) and that no man should judge us in regard to what kind of\nfood we eat, Jewish holy days we keep, or _in regard to the sabbath. (Col. 2.)\n\n\nI don't think that the Sabbath, or any other command of the law is totally\nirrelevant to modern Christians, but what about Collosions 2, where it says\nthat we are not to be judged in regard to the keeping of the sabbath?",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Contents:Problems with table widgets in R5\n\n\tThe following part of a program (an user interface for a simulation\n\tsystem) did work in R4, but refused to in R5. Of cause, the R4-version\n\tdid not know about the xpTableWidgetClass (we used tableWidgetClass \t\t\tinstead - caught from the net in times of R3) and XpTableChildPosition \t\t\t(formerly XtTblPosition).\n\tSince compiling with R5, the program causes a zero width or height error\n\t(on sparc-stations). The trouble-shooter is the (re)computation of the\n\tmodel_init_table - table widget: though its childs (label and asciiText \n\twidgets) exist, XtQueryGeometry returns a prefered width and height of \t\t\tzero. \n\tThus the following asignment cannot perform anything else but set the \t\t\twidth and height of the newly created widget to zero. No wonder XtPopup \t\tor XtManage- Child create zero width or height errors (dependent on \t\t\twhether width and height of the shell widget are set in the resource \t\t\tfile or not).\n\t\n\tQuestion: Does anyone know, why XtQueryGeometry returns s",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\ndefinitely a lemur.\n\nElvis couldn't spell,  just listen to any of his songs.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I just had an idea. I'm not sure if its been done and I'm just\nremembering it unconsiously, but I thought that in dialog\nboxes and whatever in windowing systems, there should be a\nway to intuitivly set some things checked or unchecked or\nfilled in a certain way. My idea: tape. You know, like putting\na piece of tape over a light switch?\nJust an idea, if you like it, use it.\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "This will be the first of monthly postings of the newsletter of \nthe Long Island Chapter of the Transplant Recipients \nInternational Organization (TRIO).  Unfortunately, I was unable \nto post it before the date of this month's meeting.  I'm \nposting it anyway, and posting it world-wide instead of \nregional, in the hopes that some of the information may be \nuseful or illustrative.  Also, I hope it can be used as an \nexample and inspiration for the posting of other newsletters \nand data related to organ transplantation and donation.  \n\nMike\n\nTransplant Recipients\nInternational Organization\nLong Island Chapter\nP.O. Box 922\nHuntington, NY 11743-0922\t\t NEWSLETTER\n516/421-3258\n                                         APRIL 1993 \n                                         VOLUME IV   No. 8\n\n\nNEXT MEETING\n\n\nThe next meeting is WEDNESDAY APRIL 14 at 8 pm at the Knights \nof Columbus Emerald Manor, 517 Uniondale Avenue in Uniondale.  \nOur guest speaker will be Dr. Lewis Teperman.  Dr. Teperman \ntrained in Pittsburgh under",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nI don't know a whole lot on Proton, but given that it is a multi stage\nrocket,  up to 4 stages, it may not really need the Centaur,  plus\nit may end up seriously beating on said centaur.   \n\nAlso, the centaur is not small,  unless the Proton has an oversize\nshroud you may not be able to get the centaur in under it.\n\nDennis,  you know much about this?",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "In <julkunen.734086202@messi.uku.fi> julkunen@messi.uku.fi (Antero\n\n\nIt's got potential.  Instead of *.chemistry, how about splitting the\nclassification into *.biochemistry (which are probably the topics\nyou're thinking of) and *.pharmaceutical (which otherwise might end up\nin *.(bio)chemistry)?\n\n(This is separate from the issue of whether there is sufficient potential\nnews volume to support either or both groups.)\n\nI'll add 'em to my medical/health newsgroup wish list (which I'm looking\nforward to posting and discussing -- but not for another 10 days or so).",
+    "response": 13,
+    "category": "sci.med"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n  But, think of the *mystique* you are buying into for that extra $7k or\nmore!!!",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nNever said you didn't publish, merely that there is data you don't\npublish,  and that no-one scoriates you for those cases.  \n\nIBM research  publishes plenty, it's why you ended up  with 2 Nobel\nprizes in the last 10 years,  but that some projects are deemed\ncompany confidential.  ATT Bell Labs,  keeps lots of stuff private,\nLike Karamankars algorithm.  Private moeny is entitled to do what\nit pleases, within the bounds of Law,  and For all the keepers of the\ntemple of SCience,  should please shove their pointy little heads\nup their Conically shaped Posterior Orifices.   \n\npat",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n     Would you say the same thing about the Dodgers in '65 or '66?  True,\nCone is probably as good as Drysdale, and they have no Koufax, but still,\nthese teams were winning with home run leaders who had very bad totals, with\nlots of low-scoring games, etc.  And they didn't use relievers, whereas\nJeff Montgomery is having a super season for them.\n     That being said, I still picked them 5th or so, but I think a superb\npitching team can win if they have enough hitting.  There's more of a\nchance of that, I think, than of a team with tremendous hitting but no\npitching.  At least, to me.\n     I wonder, though - which one do you people think would do better - a team\nwith Johnson, Koufax in his prime, Seaver, Carlton, and Young, in no real\norder, as the starters, with Sutter, Fingers, and Lyle in the bullpen, but\nwith a puny offense (assuming good defense, like Mazeroski, Maranville, etc.)\nOr a team with poor pitching, but with an offense of Cobb, Carew, Ruth, Gehrig,\nMays, Schmidt, Wagner, and Bench - again,you ",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nDo you consider Neo-Nazis and white supremists to be Christian?  I'd hardly\nclassify them as Christian.  Do they follow the teachings of Christ?  Love\none another.  Love your neighbour as yourself.  Love your enemies.  Is Jesus\nChrist their Lord and Saviour?  By the persecution of Jews, they are violating\nall the precepts of what Christ died for.  They are in direct violation of\nthe teachings of Christ.  Even Jesus who was crucified by the Jewish leaders\nof that time, loved His enemies by asking the Father for forgiveness of their\nsins.  I am a Christian and I bear no animosity towards Jews or any one else.\nThe enemy is Satan, not our fellow man.\n\nGod be with you,",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Some weeks ago, someone posted an article telling when and where\na hamfest and computerfest was going to be help in Dayton, OH.\nUnfortunately, I lost the article and I was wondering if someone\ncould repost it.\n\nI believe it was being held the 23,24,and 25 of this month at\nthe Dayton convention center but I'm not sure.\n\nAny help and more details would be greatly appreciated.",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nCalled \"gas\".\n\n\nThe balloons were in sufficiently low orbit that they experienced\nsome air resistance.  When they were finally punctured, this \npreasure (and the internal preasure that was needed to maintain\na spherical shape against this resistance) caused them to\ncatastrophically deflated.  The large silvered shards\nthat remained were easily visible for some time before\nreentry, though no longer useful as a passive transponder.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nSo that still leaves the door totally open for Khomeini, Hussein\net rest. They could still be considered true Muslims, and you can't\njudge them, because this is something between God and the person.\n\nYou have to apply your rule as well with atheists/agnostics, you\ndon't know their belief, this is something between them and God.\n\nSo why the hoopla about Khomeini not being a real Muslim, and the\nhoopla about atheists being not real human beings?\n\nCheers,\nKent",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Sherri Nichols writes\n\nOr a young Don Bordello...\n\n\nThere's a strong possibility that the Bucs have absolutely no other catching  \nprospects in the minors at this point -- at least nobody ready for any serious  \nAAA/majors duty.  The main reason they might have stayed with Prince could be  \njust age, especially if Spanky was creeping toward his mid-30s or something.\n \nAll things considered, though, I'd be a lot more comfortable with Spanky behind  \nthe plate than Prince.  Isn't there decent backup backstop out there looking  \nfor work?\n\n",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "instruction": "Based on the premise below can we conclude the hypothesis? options: yes, no",
+    "context": "Premise: That theory, a concept first proposed by Albert Einstein and often reiterated by British astrophysicist Stephen Hawking, seeks to find a single set of equations that can explain all the fundamental forces in the universe: gravity, electromagnetism, and the strong and weak interactive forces among subnuclear particles.\nHypothesis: Stephen Hawking is a physicist.",
+    "response": "yes",
+    "category": "NLI"
+  },
+  {
+    "instruction": "Read the following paragraph and determine if the hypothesis is true. options: yes, no",
+    "context": "Premise: In fact, Woolsey had had no first-hand experience with the world of spies until President Bill Clinton appointed him Director of Central Intelligence.\nHypothesis: James Woolsey is the director of the CIA.",
+    "response": "yes",
+    "category": "NLI"
+  }
+]

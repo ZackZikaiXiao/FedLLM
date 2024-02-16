@@ -1,0 +1,542 @@
+[
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Here are the standings after game 1 of each of the divisional semi-finals.\n(Hey, look who's #4!)  I'll try to post the standings after \"each game\"\n(i.e. every two days).\n\nI managed to recover the email lost up to Saturday night, so all I'm missing\nis mail that arrived between early Saturday morning and Sunday afternoon.\nMany people re-sent their teams, so you may have received two replies back\nfrom me.  If your team name is not on this list, please resend your team\nto me and I'll see what I can do.  Any kind of \"proof\" you sent it on the\nweekend will help your case.  :-)  Seriously, this is only a fun pool and\nI trust each person to be honest.\n\nAgain, sorry for any inconvenience, and I hope the pool is still fun for you.\n\n\t- Andrew\n\n\nUSENET Hockey Playoff Draft Standings\n\nPosn\tTeam\t\t\t\tPts\tRem\tLast Posn\n\n1.\tSneddon Scorers                 43\t25\t(--)\n2.\tThe Borg                        42\t25\t(--)\n\tDave Wessels                    42\t25\t(--)\n4.\tBruce's Rented Mules            41\t25\t(--)\n\tGreat Expectations        ",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Actually, the way I understand it, it is an octapus.\nApparently, a number of years ago, a fan threw an octapus on\nthe ice and the announcer said \"Octapi will not occupy the ice\"\nor something like that, and it's happened ever since.  The fans\ncheer those who pick up the dead octapus with their hands, and\nboo those who use a shovel.",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI think the original post was searching for existing implementations of\nf.i. Gouroud-shading of triangles. This is fairly complex to do with plain\nX. Simpler shading models are implemented already, f.i. in x3d (ask archie\nwhere to get the latest version).\nFor Gouroud, a fast implementation will be possible utilizing some extension\nonly, either MIT-SHM to do the shade in an image and fast update the window\nwith it, or PEX/OpenGL which should be able to shade themselves. The portable\n'vanilla X' way would be to shade in a normal XImage and use XPutImage(),\nwhat would be good enough to do static things as f.i. fractal landscapes\nor such stuff.\n\nTo speak about POVRay, the X previewer that comes with the original source\npackage is not that good, especially in speed, protocol-friendlyness and\nICCCM compliance. Have a look on x256q, my own preview code. It is on\n\n141.76.1.11:pub/gfx/ray/misc/x256q/\n\nThe README states the points where it is better than xwindow.c from\nPOVRay 1.0\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Dear Folks:\n\nIt's a pleasure to be able to announce the release of a new freeware program, \nXavier, an audio and video  extension to InterViews.\n\nXavier(eXtension AV class for IntERviews) is a C++ class library\nthat adds multimedia capability to InterViews. It allows composite\nmultimedia objects to be built from media objects.\n\nSpecifically, it adds audio and video objects to the classes available\nin InterViews 3.0.1/3.1, and it does so without changing the\nsource code for the original classes (though several configuration\nfiles for InterViews need to be changed via a patch file). \n \nCurrently, the Xavier audio classes are only supported on SUN\nworkstations with an audio interface, such as the SPARCstation2.\n\nXavier has been tested in the following environments:\n\nSUN:\n  Machine : SPARCserver470 SPARCstation-IPC\n  OS      : SUN-OS4.1.1 or later\n  C++     : SUN C++ ver2.1\n\nNEC(EWS):\n  Machine : EWS4800/210,230\n  OS      : EWS-UX/V(Rel4.0) WSOS41 Release5.1,Release5.2\n  C++     : C++ Release3.1\n\nIt can be obtain",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nA little supplement Basic Mike's info  :\n\nFor Sundday's opener on ABC, these are the announcing crews :\n\nDevils/Isles at Pittsburgh - Gary Thorne(play-by-play),Bill Clement(color)\nand Al Morganti roaming the halls outside the dressing rooms.\nThis telecast will primarily seen on the East Coast.\n\nSt.Louis at Chicago - Mike Emrick(play - by play),Jim Schoendfeld(color)\nand Tom Mees roaming the halls.\nThis telecast will primarily be seen in the Midwest and parts of the South.\n\nLA at Calgary - Al \"Do You Believe in Mircales?\" Michaels(play by play),\nJohn Davidson(color) and Mark Jones as a roaming reporter.\nThis telecast will be seen in the Western USA.\n\nMontreal's naitive,Jon Saunders will be hosting in the studio.\n\nABC will do \"Up and Close and Personal\" with Mario during Saturday's\nWide World of Sports(4:30EDT).\n\nSunday will be the first NHL playoff or regular network telecast in 13 years...\nnot counting those silly All-Star games on NBC for the last few years...\n\nFor Sunday's games,ABC will use 8 mikes(2 beh",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n...\n\nBut what was wrong with it?  It won't tempt anyone to any kind of sin, as\nfar as I can tell.  It doesn't belittle anyone.  It does not substitute\noffensiveness for humor (it's genuinely funny).\n\nWe shouldn't assume that _all_ jokes that mention sexuality are \"dirty\"\nmerely because so many are.\n\nAnd we should never mistake prudery for spirituality.  It can be the direct\nopposite -- a symptom of the _lack_ of a healthy perspective on God's\ncreation.\n\n",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello world,\n \nI'm attempting to write an 8051 simulator on an IBM PC for teaching\npurposes, so that first-year elec-eng students can 'see' the workings\nof the microcontroller as it performs operations - logical ands, for\nexample, being shown on a bit-by-bit basis (1 AND 1 = 1) so that the\nstudents can see that it's not really a mystical process, but totally\nlogical, for example. Every instruction should show some 'working',\nand not just alter register/memory/port contents.\n \nDoes anyone know of any freely-available example simulation code,\nin Pascal or Modula-2, that would show me where I'm going wrong\nin writing my simulator? [I'm using Ayala's -The 8051 Microcontroller-\nas a reference - the simulator supplied with the package is overkill\nfor simple teaching purposes, I feel, and there's no source code to help\nyou roll your own.]\n \nPlease email me if you can help, or if you know of somewhere more \nappropriate I should be posting this  - I rarely scan these groups.\n \nThanks,",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "In <1993Apr16.140953.5025@vax.cns..edu>, jbrown@vax.cns.muskingum.edu writes...\n\nI would appreciate it if you would not refer to Mr. Maynard by his\ninitials.  Thanks, see you in the Norris finals.\n\nRon",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ": > My question is this:  Is there a means of determining what the state\n: > of CapsLock and/or NumLock is?\n\n: Alright.  Ignore this.  I have delved a bit deeper (XKeyEvent) and\n: found what I was looking for.\n\n: ev->state   has a bunch of masks to check against (LockMask is the one\n: for CapsLock).  Unfortunately, it appears that the NumLock mask varies\n: from server to server.  How does one tell what mask is numlock and\n: which are for Meta (Mod1Mask, Mod2Mask, Mod3Mask, Mod4Mask, Mod5Mask).\n: eg, SGI's vendor server has Mod2Mask being NumLock, whereas Solaris\n: 1.0.1 OpenWindows 3.0 has Mod3Mask for NumLock.  Is there an\n: unambiguous means of determining NumLock's mask at runtime for any\n: given server?  Sorry for the wasted bandwidth and my appalling ignorance.\n\nYou'll have to check the keysym(s) on each of the keys for each\nmodifier. The one with NumLock in its mapping is the modifier\nyou want. A bit ugly perhaps but I think its currently the only\nway to do this (and it does have some precedent as keysy",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI think that Mike Foligno was the captain of the Sabres when he\ngot traded to the Leafs. Also, wasn't Rick Vaive the captain of\nthe Leafs when he got traded to Chicago (with Steve Thomas for\nEd Olcyzk and someone). Speaking of the Leafs, I believe that\nDarryl Sittler was their captain (he'd torn the \"C\" off his\njersey but I think he re-claimed the captaincy later on) when he\nwas traded to the Flyers.\n\nOh yeah, of course, Gretzky was the captain of the Oilers before\nhe was traded wasn't he? ",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Another company, Congruent Corporation of New York City, has also ported Xlib\nXt and Motif 1.1 over to MS Windows NT, which provides full client development\nfor X applications in an NT environment.\n\nIf you are porting InterViews over to MS Windows, I thought InterViews was\na C++ toolkit with C++ classes. If that is so, how can it be built on Xlib,\nunless the classes are calling Xlib functions?\n\nSteve\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I can't believe that the NY Rangers would force its \nplayers to go to Binghamtom to play in the AHL playoffs instead\nof letting them represent their countries in the World Championships.\n\nAnderrson and Zubov are waiting for the NHL to make a decision to this,\nwhile Kovalev has given in and gone down to the minors.\n\nThe Rangers are a disgrace.\n\nps. it has been reported that Neil Smith was very much against\nthe hiring of Mike Keenan. How long will Smith be in NY for?",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi all,\n\nI don't get the sport's channel and I'm desparate for some playoff action\n(especially the Cannucks).  Does anyone know of a sports bar on the Bay\nPeninsula that will be showing hockey games.  I'm looking for something \nbetween redwood City and Mountain View.",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "We developed a toolkit running on the X Window System.\nThe toolkit copes with any languages based on X11R5's i18n\nfacility. As you know, there are 2 kinds of i18n implementation from MIT's \nX11R5 release -- Xsi and Ximp. Our original implementation of the toolkit\nuses Xsi.\n\nOur toolkit manages each character's size based on our own font management system.\nIn order to do that, the 'wchar_t' typed character strings must be decomposed\nto character sets. This means that if one wchar_t type compound string with \nASCII and Kanji mixed, for example, is given, each element of the wchar_t\narray must be checked its corresponding character set based on a bit layout\nand application environment's locale. In this case if the locale is 'japanese',\neach wchar_t character will be classified either to iso8859-1, jisx0208 or so.\n\nWe need a function to do this. The function must check how many characters\nfrom the top are the same character set and what the character set is.\n\nWe could not find any public X11R5 function to do that",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Whatever equipment will work on a mac plus or a mac se will work fine on \na mac portable. It doesn't have a sound input, but there is equipment \nthat works fine with those models mentioned in macuser/macworld.\n",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nPlease, leave heaven out of it.  For his own sake, I pray that Dan does\ntake it literally because that's how God intended it to be taken.  Dan,\nyour view of many groups appears correct from my point of view.\nHowever, I have found a group which is truly meeting requirements laid\ndown by the Bible on what it means to be a disciple of Jesus.  I have no\nclue where wwc is, but please mail me.  I'd really like to get you in\ntouch with them.\n\n[insert deletion of ranting about other religions which obviously has\ngone off-center of Dan's original context]\n\nDan, I'm familiar with this one.  You've got a point, though.  There are\nsome who don't want to turn over everything and be a disciple, some have\nno clue about it because they've not been taught, some have done exactly\nthat and turned over everything to follow Jesus, some are blocked by\ndifficult doctrine taught by uncaring Pharisees and teachers of the law.\nHowever, Jesus pointed out what it takes to follow him and to be his\ndisciple in Luke 9:23-26 and Luke 14:25",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nAll I know is that the Megadrives worked perfectly on both my\nMac Plus and my Powerbook 140.  It was for this reason I assumed\nthe problem had something to do with the Quadra.  Even with the\nQuadra, they mostly worked OK.  The problem occurred when I ejected\na cartridge from a drive: it would start popping up dialog boxes\nsaying \"This cartridge must be formatted with Jasmine Driveware\"\neven though there was no cartridge in the drive.",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nWould if only it were true ...\n\nIf only MIT would fix the !@&$^*@ twm \"InstallWindowColormaps()\" crash bug\nonce and for all, then I could say that I've (almost) unable to crash either\n\"twm\" or \"tvtwm\", which would be a remarkable feat - and most desirable to\nboot.  I mean, this bug has only been reported, oh, a zillion times by now ...\n\nNow *servers*, on the other hand ... (want to crash an OpenWindows 3.0 \"xnews\"\nserver at will?  Just do an 'xbiff -xrm \"XBiff*shapeWindow: on\"'.  Blammo.)\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ": FINLAND:  \n: \n: D-Jyrki Lumme.......20\n: D-Teppo Numminen....20\n: D-Peter Ahola.......13\n: \nWell well, they don't like our defenders (mainly Lumme and Numminen)...\n\n: C-Jari Kurri........25\n: C-Christian Ruuttu..16\n: \nNow, do YOU think that Ruuttu is only worth 16 ? I think it might be 20.\n\n: R-Teemu Selanne.....27\n: \nCompared to Kurri, Selanne's points are too high, lets make it 25 or 26.\n\n\n: well in the Canada Cup and World Championships largely due to the efforts of\n: Markus Ketterer (the goalie), 3-4 or the players listed above and luck. There's\n: presumably a lot of decent players in Finland that wouldn't be superstars at\n: the highest level but still valuable role players, however. My guess would be\n: that the Finnish Canada Cup team would be a .500 team in the NHL.\n\nWow, now, it looks like you don't like our players? What about guys like:\nNieminen, Jutila, Riihijarvi, Varvio, Laukkanen, Makela, Keskinen and (even\nif he is aging) Ruotsalainen? The main difference between finnish and North-\nAmerican pl",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI expect what is going on here is that your colormap is full and, when the new application starts up, it cannot add the colors that it needs to the colormap.\nIt therefore has to pick and choose from the existing colors.  This makes it look\nugly until it's window gets priority.  Then Macx changes the colormap so that\nthe selected app is getting the exact colors it wanted, but now other applications\nare having to make do with it's colormap.\n\nThis is a problem with all color X servers (or at least all color Xservers I have\nseen) when the demands of the applications exceed the size of the colormap.\nMy solution is usually to (1) avoid colormap-greedy apps and (2) display\napplications where color is just icing on the cake in monochrome mode rather\nthan in color (if this is an option for the application).\n\n - Doug Shaker\n\tvoice:\t415/572-0200\n\tfax:\t415/572-1300\n\temail:\tdshaker@qualix.com\n\tmail:\tQualix Group\n\t\t1900 S. Norfolk St., #224\n\t\tSan Mateo, CA 94403",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have been trying to compile some source code for a mpeg animation viewer for\nX Windows. I got the code from a ftp site. I have modified the Makefile as\nthey instructed, no errors there. What happens is that I get the following\nmessage when everything is going to be linked:\n\n\n\tcc  util.o video.o parseblock.o motionvector.o decoders.o  fs2.o fs2fast.o fs4.o hybrid.o hybriderr.o 2x2.o  gdith.o gray.o mono.o main.o jrevdct.o 24bit.o util32.o ordered.o  ordered2.o mb_ordered.o /lib/libX11.so /lib/libXext.so -lm -o mpeg_play\nUndefined\t\t\tfirst referenced\n symbol  \t\t\t    in file\ngetnetpath                          /lib/libX11.so\nt_alloc                             /lib/libX11.so\nt_unbind                            /lib/libX11.so\nt_open                              /lib/libX11.so\nt_rcvdis                            /lib/libX11.so\nnetdir_free                         /lib/libX11.so\nt_error                             /lib/libX11.so\nnetdir_getbyname                    /lib/libX11.so\ngetnetconfigent                     ",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "From: pmetzger@snark.shearson.com (Perry E. Metzger)\n\n\tYou obviously haven't read the information about the system. The chips\n\tput out serial number infomation into the cypher stream to allow\n\tthemselves to be identified. The system does not rely on registering\n\tpeople as owning particular phone units.\n\nAnd probably as a back door to allow re-generation of the secret key.\n\nHave we determined yet that S1 and S2 don't ever change?",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThe only time I've seen similar behaviour is when an X application forked a child\nwithout setting close on exec on the X display connection file descriptor.\nThe shell waited for a ConfigureNotify event that never arrived because it got\npicked up by the child.  Sometimes the shell correctly got the ConfigureNotify if\nthe timing was 'right'.\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nDoes anyone know if there will be alternate games in cities where local\nbroadcast rights are being protected?  I'd really love to see the Bruins a\ncouple times, and with this pro-Patrick bias shown by ESPN something tells me\nthat I will have to wait until the conference finals to see them :-}.\n\n-JPC\n \n-- ",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "this */\n     */\nI tried\nhow can I\n\nDoes the workstation you're using have hardware cursor support?  Or does\nthe server generate a software cursor.  You can generally tell the difference\njust by using it.  If the cursor blinks a lot when there's screen activity,\nit's probably a software cursor.  If it has a hardware cursor, I think you're\nprobably battling a bug in HP's X server.  I'm not familiar with any hardware\ncursor chips that display cursors greater than 64x64.  It's quite possible\nthat the server is just echoing your preferred cursor size without actually\nchecking it.  I vaguely recall that very old MIT server revisions did just \nthat.\n\nIn reality you're probably stuck with a 64x64 maximum size cursor regardless\nof what the server returns.",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI *think* this is correct behavior.  Remember the default\ncolormapFocusPolicy is keyboard (meaning the cmap focus follows the\nkeyboard focus).  Since the dialog is modal, mwm won't allow keyboard\nfocus onto your main shell, and so it won't allow cmap focus either.\n\nSince it sounds as though you have keyboardFocusPolicy:pointer, I\nsuggest you set colormapFocusPolicy:pointer also.  That way, the cmap\nfocus won't slavishly follow keyboard focus, but will beat its own path.\n\n(if you have keyboardFocusPolicy: explicit, you can set cmap focus\nexplicit also, but you then need a binding to f.focus_color, probably on\nMB1).",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI used to think this way, and not just about X. For example, incorrect\nEnglish constructs such as \"its raining\" or \"it's window id\" annoy me.\nHowever, there comes a time when popular usage starts to dictate the way\nthings really are in the world. Indeed, the fact that X won out over NeWS\nwas really down to popular opinion (I know, we all think it's(!) technically\nsuperior as well!).\n\nOn a related topic, who is to say that \"color\" is more or less correct\nthan \"colour\" - being Irish, and hence using English English as opposed\nto American English, I always use the latter except, of course, for API\nterms such as \"XAllocColor\" and \"colormap\".\n\nIn a world that uses the term \"Windows\" to refer to Microsoft Windows,\nperhaps the time has come to accept \"X Windows\" as a valid term for X.\nI think that this is a more concise and uncluttered term than, say,\n\"the X Window System\" and, let's face it, almost everyone uses it.\nUltimately, we all need product sales to more than just X-literate\npeople. In this respect, product",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I hear George Bush (remember him?) will receive an honors degree from\nsome Kuwaiti University for contributing to certain Kuwaiti interests\nnot too long ago.  Do you think it would add much to his resume? ;-)\n\n\n\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "With the kind of team Montreal has now,  they can take the\ncup easily.  The only problem they have right now is that everyone is\ntrying to steal the show and play alone.  They need some massive teamwork.\n\tThey are also in a little of a slump because long-time hockey\nMontreal Canadiens announcer Claude Mouton died last tuesday and it was\nrough on everybody because he has worked with the organization for 21\nyears.  But I know that is no excuse.  But if the Habs manage to get some\ngood teamwork and get into the spirit,  they should have no problem\nwinning in May.",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nNobody ever exposed your crimes like that before? What was your personal \nrole in the murder of Orhan Gunduz and Kemal Arikan, again? How many more\nMuslims will be slaughtered by 'SDPA.ORG' as publicly declared and filed\nwith legal authorities? Please spell it out for us.\n\n\n \"...that more people have to die...\" \n\n                    SDPA <91@urartu.UUCP>\n\n  \"Yes, I stated this and stand by it.\"\n\n                    SDPA <255@urartu.UUCP>\n\n\n    \tJanuary 28, 1982 - Los Angeles\n\tKemal Arikan is slaughtered by two Armenians while driving to work. \n\n    \tMarch 22, 1982 - Cambridge, Massachusetts\n\tPrelude to grisly murder. A gift and import shop belonging to\n\tOrhan Gunduz is blown up. Gunduz receives an ultimatum: Either \n        he gives up his honorary position or he will be \"executed\". He \n        refuses. \"Responsibility\" is claimed by JCAG and SDPA.\n\n    \tMay 4, 1982 - Cambridge, Massachusetts\n\tOrhan Gunduz, the Turkish honorary consul in Boston, would not bow \n\tto the Armenian terrorist ultimatum that he gi",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "We are trying to install a donated hard disk (Miniscribe\nvintage 1988) on a supercheap ancient Compaq XT for\nuse in education.  The only problem is that the\nsupercheap Compaq didn't come with the manual and I\nhaven't been able to figure out how to start the SETUP\nprogram.\n\nI began using PCs after 286s were invented, so I have\na couple of basic questions:\n\n1.  Did XT-class computers even *have* SETUP programs?\n\n2.  If they did (or, do), how do I access it?\n\nIf anybody has any good advice on how to proceed or\nwhat to do next or what to look out for, please let me\nknow.  E-mail is best, but I'll also be watching the\nnewsgroup postings.\n\nThanks in advance,\n-Robert\n\n-- ",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello,\n\nI am testing a port of X11R5 to Coherent, a unix clone OS for Intel architecture\nmachines.  I am seeing a strange problem with text in clients like xvt (a simple\nterminal emulator program).\n\nThe problem manifests it self when the shell echoes typed characters back to the\nserver for display, one at a time.  The characters appear to be too closely\nspaced, with the result being that the 2nd character echoed destroys the \nrightmost edge of the first character, then the 3rd character destroys the \nrightmost edge of the second character, and so on.  It looks like there is an\ninvisible boundary around a character which obscures a portion of the previous\ncharacter.  There is no problem between the characters when the shell returns\na complete line of text... only when the output is a series of individual\ncharacters.\n\nIf anyone has any ideas what the problem might be, or where I should look to\nfind it, it would be much appreciated.\n\nRegards and thanks, Jon Dhuse.\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nWhat's \"loosing?\"  \n\n\nI vote.  I don't consider RKBA an abomination. \n\n\nI'm sure Sarah Brady would be delighted to hear your ranting and\nraving.  However, Clinton has not publically stated that he would\nlike to repeal the Second Amendment.  \"Tough titty\" to you.\n\n\nAre we going to \"make do without\" like the people in New York City? \nYou know New York City: That gun ban utopia you dream about, with\nthe millions of unregistered handguns?  New York City, by the way,\nhas a very high crime rate.\n\nPerhaps you should know about a gungrabber's nightmare - Idaho.\nHere in Idaho, the police give concealed carry permits to anyone\nover 21 without a criminal record.  There are no gungrabber schemes\nsuch as FOIDs, waiting periods, \"gun a month,\" or LTCs.  And horror\nof horrors!  You don't even NEED a permit to carry a concealed\nweapon while outside of city limits (although you do need a permit\nfor concealed carry in an automobile).\n\nI feel a hell of a lot safer in Boise than I would in your gun ban\ndream state (e.g., Washin",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I am looking for an algorithm to determine if a given point is bound by a \npolygon. Does anyone have any such code or a reference to book containing\ninformation on the subject ?\n\n\t\tRegards",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nTrue, coach Matikainen is ready to keep a spot for Teemu all the way\nuntil the medal games. He wants Teppo Numminen, too. And Kurri, but for\nthem the spots cannot be left open for too long. Esa Tikkanen we have\nalready. \n\nEven without these players I think we have pretty good team. Young,\nhungry, talented guys, no old players that have got everything (except\nthe gold). Yesterday's practise game, SWE-FIN 6-6, shows that the two\nworld's best hockey teams ;) are in prime shape.  The Finn line\nRiihijarvi(slightly injured)-Saarikoski-Viitakoski shined. I bet these\ntwo teams are the best in the NHL, too. Roger, Roger?\n\nWhat do you people think about Team Canada with Lindros, Brind'Amour,\nBurke, Ranford, Recchi, Dineen...? Can they beat the Finns:?\n\nCoaching news: \n\n\t       Alpo Suhonen (ex-Jets) to Jokerit (now verified), \n               Boris Majorov (ex-Jokerit) to Tappara,\n\t       Vasili Tichonov (ex-Assat) to San Jose Sharks \n                                             (assistant coach),\n\t       Sakari Pieti",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nIt's really not that hard to do.  There are books out there which explain\neverything, and the basic 3D functions, translation, rotation, shading, and\nhidden line removal are pretty easy.  I wrote a program in a few weeks witht\nhe help of a book, and would be happy to give you my source.\n\tAlso, Quickdraw has a lot of 3D functions built in, and Think pascal\ncan access them, and I would expect that THINK C could as well.  If you can\nfind out how to use the Quickdraw graphics library, it would be an excellent\nchoice, since it has a lot of stuff, and is built into the Mac, so should be\nfast.\n\nLibertarian, atheist, semi-anarchal Techno-Rat.",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Can someone please help me understand the current situation\nregarding SIMMS?\n\nI have a IIsi which I will probably keep for another 2 years.\n\nI would like to add more memory, ie go from 5 MB to 17 MB.\n\nI know that I will need 4 x 4MB, 80ns or faster SIMMS.\n\nWhich SIMMS, 30 pin or 72 pin?\nWould the SIMMS I get today be usable in 2 years with a \nnewer, more powerful system?\n\nAny insight would be appreciated.\n\nThanks.\n\nRob",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Yes! what you are saying is absolutey true, but what you fail to mention is the\nfact that the LCIII uses the new 72 pin simms which allow 32 bit access to\neach simm. In the case of the LC III, it only has one simm slot, but accesses will\nbe 32 bits wides.\n***************************************************************************\n The views expressed in this posting those of the individual author only. \n[BBS Number:(613) 848-1346      MacContent is Victoria\u00d5s first Iconic BBS!]\n***************************************************************************\n\n",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\nActually the book is called \"Seventh Day Adventists believe...\"  And there\nare 27 basica beliefs.  I believe it is printed by the Reveiew and\nHerald Publishing Association.\n\n--\n\n\"Competition is the law of the jungle.\n Cooperation is the law of civilization.\" -- Eldridge Cleaver",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Before I try to teach myself how to write a widget and (perhaps)\nre-invent the wheel...\n\nIs there a PD widget that displays (for example) an 8-bit grey-level\nimage in the same fashion that the Athena Plotter Widget can be used\nto display a plot?\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have attached a copy of an announcement I picked up during my trip to\nMoscow last week.  I have several friends at the Moscow Aviation\nInstitute who have asked me to post this announcement.  (I have done\nsome editing, but the contents is unchanged from the original\nannouncement.) \n\nFor those of you not familiar with the Moscow Aviation Institute, it is\nthe leading Russian school of higher education dedicated to the training\nof aircraft and spacecraft designers.  It specializes in airframe\ndesign, powerplant design, control systems, and power systems.\nVirtually all of the major former Soviet airframe designers (Tupolev,\nSu, Iluchine, Migoyan, etc.) were schooled at MAI.\n\nI had the opportunity to tour the two museums that are maintained at\nMAI.  The aircraft include Mig23, Su 27, Yak 38, the cockpit of an\nF-111(!), among others.  It was a fascinating and eye opening\nexperience, expecially given the fact that the museum was, until a year\nor so ago, closed to virtually everyone.  I also had the opportunity to\ns",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nMaybe I'm too \"religious,\" but when I see a bill to \"establish a right,\"\nI wince.  Keep in mind, what the law giveth, the law can taketh away.\n-- ",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello, recently I have been printing out a lot of files on school's laser printer and feeling guilty about it.  Please help me by showing me where to get a post script viewer for X-windows.  Thank you for your help.\n\n\n\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Just a quick summary of recent findings re. high speed modems. Top three\ncontenders seem to be AT&T Paradyne, ZyXEL, and US Robotics. ZyXEL has the\nbiggest \"cult following\", and can be had for under $300, but I ignored it\nbecause I need something with Mac software, which will work without any\ntweaking.\n\nThe AT&T Dataport earns nearly unanimous praises for reliability. They are\nbackordered at the moment, probably because of the special $299 price in\neffect until May. Its fax capabilities are worse than that of the other two\nmodems. WARNING: AT&T ads say that the modem comes with a Mac kit (cables &\nall), and has lifetime warranty. This applies *only* when you order\ndirectly from Paradyne! I called ElekTek (one of the distributors), and\nthey wanted to charge me $16 for cable, and gave only 1 year warranty...\n\nUSR Sportster for the Mac is also highly (but not as highly) recommended;\nit's only $250 from ClubMac, and if you are willing to roll your own cable\nand don't care about the FAXstf software, you can get th",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\tIn Islam, there is no compulsion, just a tax on dhimini.  In\nJudaism, non-Jews are allowed to do as they wish, and there is no\neffort made to convert them.\n\n\n\n\nAdam Shostack \t\t\t\t       adam@das.harvard.edu",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have WD1007-WA2 ESDI controller with ROM BIOS v.1.1.\nIt has been working fine until I recently upgraded motherboard to 386-40MHz.\nNow, my Maxter drive goes crazy making lots of seeking sound even when the\ndrive is not accessed.  Of course, with numourous hard disk controller errors.\nThese symptoms disappear when I switch to non-turbo mode (8 MHz).\nI suspect some timing dependent Rom Bios routines. (There's a newer version\n2.x) Could anybody help me on this?\nBy the way, my new mother board has AMI Bios, 128k Cache, 8 MHz bus, and\nworks fine with my old MFM drives (I had to dig them up). :-(\nAlso, I will appreciate it very much if somebody send me the phone numbers\n(tech support/BBS) for Western Digital.\nMany thanks in advance.\n\nJay",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\tThere should be no worries about the trans.\n\n\n\tDoes this count?\n\n$ cat dod.faq | mailx -s \"HAHAHHA\" jburnside@ll.mit.edu (waiting to press\n\t\t\t\t\t\t\t return...)\n\nLater,",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The FBI released large amounts of CS tear gas into the compound in\nWaco.  CS tear gas is a fine power.  Is CS inflammable.  Grain dust\nsuspended in air can form an explosive mixture, will CS suspended in air\nform an explosive mix? Could large quantities of CS have fueled the\nrapid spread of fire in the compound?\n \nPlease note I am directing all followups to talk.politics.guns\n",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThere is a very narrow margin of stupidity between accepting my references and\nthose of the Greeks, and you just said you'd rather do the latter! That's fine\nwith me. I was sincere in my offer, but this saves me the effort. It doesn't\ntake a half-brained man to go to any library and check out a bunch of sources\nof decent objectivity. Just ask a good friend for help. !:-)\n\n\n\"Stay on these roads,\"\n\nOnur Yalcin\n-- \nOnur Yalcin \noyalcin@iastate.edu",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I first heard it about academic politics but the same thought seems to\napply to the BMWMOA\n\n\"The politics is so dirty because the stakes are so small.\"\n\nWho cares? I get my dues-worth from the ads and occasional technical\narticles in the \"News\". I skip the generally drab articles about someone's\ntrek across Iowa. If some folks get thrilled by the power of the BMWMOA,\nthey deserve whatever thrills their sad lives provide.\n\nBTW, I voted for new blood just to keep things stirred up.",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nAt least we got somebody the Flyers wanted ;-)\n\nIs this really true?  I have not been keeping up with any news.  If it is,\nwhat's the deal with Neil Smith?  Is he gone, too?\n\n--\n    Keith Keller\t\t\t\tLET'S GO RANGERS!!!!!\n\t\t\t\t\t\tLET'S GO QUAKERS!!!!!\n\tkkeller@mail.sas.upenn.edu\t\tIVY LEAGUE CHAMPS!!!!",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nDidn't your operating system come with X?  SysV usually does as far\nas I know.  You'd do best to contact the people from whom you bought\nths OS.  If you're running Linux or something similar, good luck. :)\n\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Do anyone know about any shading program based on Xlib in the public domain?\nI need an example about how to allocate correct colormaps for the program.\n\nAppreciate the help.",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I am not sure about the tie breaker rules. However, I think if the Islanders win\n(Oh God, Please, Please let them win), the Islanders win the series against \nNJ and advances to third.\n\n********************************************************************************\nOf course no one asked me, I always interject my opinions on maters I have no\nconcern over.",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nAs I've said before, there's no reliable way to find out the size of\nthe window manager decoration.  If your window has been reparented, you\ncan't assume that the window you're parented to is the window that\nholds all of the window manager decoration.  There may be several\nlayers of windows.  Doing multiple XQueryTree's until you get to the\nroot will work in most cases, but there's no guarantee that the outside\ndecoration window is parented to the root window of the display (tvtwm).\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The new name is Florida Panthers.  \nThe panther is an endangered species, mostly located in the Everglades.\nA couple of years ago, there were license plates made with Panthers on\nthem (part of the revenue were to go to some protection fund).\n\nThe name of the new President of the Panthers should be announced today.\n\nAs of yesterday's paper, Huizenga's new hockey team will take the ice at\nthe Miami Arena this fall.  The team has a guaranteed two-year lease with\nthe arena, with four one-year options that could run through 1999.\n\n\"It's not our choice\", James Blosser, a lawyer and Huizenga Aid said\nabout ruling out the arena as a long term option.  \"The NHL told us we \ncan't stay there.  It's not economically feasible.\"\n\nOne reason is because the Miami Heat basketball team controls skybox\nand advertising revenue at the arena, reducing the hockey team's profit\npotential.\n\nThe hockey team is attracting arena site proposals from Broward, Dade, \nand Palm Beach counties.\n\nA leading site is vacant land near Joe Robbie S",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nSooner than you expect. Remember 'Cyprus'?\n\n\nToo bad. In fact, by 1942, Nazi Armenians in Europe had established \na vast network of pro-German collaborators, that extended over two \ncontinents. Thousands of Armenians were serving the German army and \nWaffen-SS in Russia and Western Europe. Armenians were involved in \nespionage and fifth-column activities for Hitler in the Balkans and \nArabian Peninsula. They were promised an 'independent' state under \nGerman 'protection' in an agreement signed by the 'Armenian National \nCouncil.' (A copy of this agreement can be found in the 'Congressional \nRecord,' November 1, 1945; see Document 1.) On this side of the Atlantic, \nNazi Armenians were aware of their brethrens alliance. They had often \nexpressed pro-Nazi sentiments until America entered the war. In summary,\nduring World War II Armenians were carried away with the German might and\ncringing and fawning over the Nazis. In that zeal, the Armenian publication\nin Germany, Hairenik, carried statements as follows:[1]",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi,\n\tI need xrn and xarchie for the HP's (9000/730, version 8 OS), either in\nthe source form or, (preferably) in executable form. Please suggest\nwhere I can find this, \n\tSend e-mail to: rao@cse.uta.edu\nThanks in advance,\nRao.",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nPlease count me in also...\n\nJust can't tell you how excited I was when the Islanders beat the Rangers\nin overtime on last Friday!!!",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi.\n\nI use Emacs and I want to customize my keyboard better.\nWhen I set up stuff in my .emacs with a keymap and define-keys,\nI can only access certain of the keys on my X-Terminal's\nkeyboard. I can't get e.g. F10, Home, End, PgUp, PgDn; they all\nseem to have either the same or no keycode. I have a feeling\nthis can't be fixed in emacs itself, but that I need to do some\nxmodmap stuff. Can someone help me?\n\nBy the way, I've checked the X-FAQ and posted a similar message\nto gnu.emacs.help to no response.\n\nCurrently I have the following in my .emacs file (inside a 'cond'):\n\n ((string-match \"^xterm\" (getenv \"TERM\"))\n;; done by aj 8/92. I don't know what most of this does...\n   (defvar xterm-map (make-sparse-keymap) \"Keymap for xterm special keys\")\n   (define-key esc-map \"[\" 'xterm-prefix)\n   (fset 'xterm-prefix xterm-map)\n  ;;Keys F1 to F12\n   (define-key xterm-map \"224z\" 'goto-line)        ;F1\n   (define-key xterm-map \"225z\" 'what-line)        ;F2\n   (define-key xterm-map \"226z\" 'rmail)            ;F3\n   (define-k",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nIf you specify the rootwindow when you are creating your GC. You may \nuse Xlib to draw over multiple windows. \nI have an application that does something similar for rubber banding.\n\n curs_move = XCreateFontCursor (disp_data, XC_crosshair);\n\n geom_vals.foreground     = blck_pixl ^ grey_dark;\n geom_vals.plane_mask     = AllPlanes;\n geom_vals.line_width     = 0;\n geom_vals.function       = GXxor;\n geom_vals.subwindow_mode = IncludeInferiors;\n evnt_mask= GCForeground | GCPlaneMask | GCLineWidth | GCFunction\n                                                     | GCSubwindowMode;\n geom_gcon= XCreateGC (disp_data, root_iden, evnt_mask, &geom_vals);\n\n\n\nlater I can move the rubber band or bands using the following logic\n\n/**********************************************************************/\n void Tselect::move_bands (int delt_xloc, int delt_yloc)          /****/\nstuff deleted ...\n            XDrawRectangle (disp_data,   root_iden,  geom_gcon,\n                            sele_pntr->rootx, sele_pntr->rooty,\n         ",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nThe Selke candidate forwards main purpose on a shift is to prevent goals\nfrom being scored- not to score them.  When Lemieux or Gilmour play their\nnumber one purpose is to score- defence is secondary- especially considering\nthe line that plays against them is probably a defensive one.  That is\nwhy they are not Selke candidates.\n\n\nSomeone posted something about this assumption being lost in translation\n(it was a few months ago).  Whoever this was please repost it.\n\n\nGainey is the best defensive forward ever.  I stand by that assessment.\nHe was a very good player who belongs in the hall of fame.  Did you\never watch him play? He never made a technical error.\n\n<Babbling deleted>\n\n\nWho are these pundits??  Gilmour was good with St Louis- but he was not the\nbest two-way player in the game when he was with them.  You have overhyped\nGilmour on this net for months.  He is a very good forward- but hardly the\nbest in the NHL.",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The following problem is really bugging me,\nand I would appreciate any help.\n\nI create two windows:\n\nw1 (child to root) with event_mask = ButtonPressMask|KeyPressMask;\nw2 (child to w1) with do_not_propagate_mask = ButtonPressMask|KeyPressMask;\n\n\nKeypress events in w2 are discarded, but ButtonPress events fall through\nto w1, with subwindow set to w2.\n\nFYI, I'm using xnews/olvwm.\n\nAm I doing something fundamentally wrong here?",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThanks for docs info. It turns out that if I leave out colormap updates between\nframes and use tvtwm, my tests with 100 400x400x8 frames on an IPX using the\nserver-resident pixmap method give an astonishing *50* frames per second! And\nVERY smooth. I think I've found the best solution (thanks to the generous help\non this group!) However, I may have colormap questions later.....\n\nDerek\n\n-----------------------------------------------------------",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Absolutely. I'm sure that civilians on both sides would be pleased\nif the fighters (military, guerilla, whatever) would just take their\nargument elsewhere, find an unpopulated area somewhere, and slug it out.  \nAt that point, we will all breath a sigh of relief *and* cheer for\nour side in the struggle.\n",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Please unsubscribe pancamo@blkbox.com.  This user has become inactive and I\nwish to discontinue his participation in this mailing list.",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I am currently attempting to get a copy of the HP Widget set compiled\nunder Linux (SLS Release with kernel 99.6) and am running into some\nproblems.  Actually, it seems that this is more of a GCC question,\nbecause I got it to compile without trouble using cc on an RS/6000.\n\tBasically, there are a number of functions with prototypes\nset up in, let's say, CompositeP.h, for instance, the composite\nwidget's insert_child procedure is set up with the type :\n\n\ttypedef void (*XtWidgetProc) (Widget)\n\nbut in several places in the HP source code, they reference the\ninsert_child procedure and pass it multiple arguments instead of just\none, as the prototype suggests.  For example:\n\n\t(*superclass->composite_class.insert_child)(w, args, p_num_args)\n\nNow, GCC chokes on this, giving an error message that too many arguments\nare passed to the function.  So, does anyone have any suggestions as to\nhow to turn off this checking in GCC, or how I can go about changing the\ncode to accomodate this call without changing /usr/include/X11",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Let's fill in some winners here:\n",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "When I left, it was 4-3, Blues with 2:00 to go!  As I predicted in\n\"@#$%! I was right in the first place!!!\"  Blues in 6!  YES!!!\n\nOf course it's only one game -- that could be the 'Hawks stab in the face to\nwake them up -- that's what playoffs are about, on any given day... :-)",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\nI'll have to disagree with you on this one. I think Vancouver will go as\nBure goes, and if he continues on his goal scoring slump, then they\nwon't even make it out of the first round. I think the Kings will make\nit out of the first round, regardless of who they play. They seem to be\ndoing pretty well, even with that bad game against Minnesota on\nSaturday. I think it'll be either Calgary or Los Angeles to win the\nSmythe (i.e. go on to the conference finals). ",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nYour suggestion to learn something about \"the perversion of Judaism\"\nfrom someone you claim has experience in Israeli intelligence and the\nPLO is like a suggestion to learn something about the conspiracy of\nSesame Street from someone with experience in fashion design and\npizza-making. \n\n\n\"Judeo-Nazism\"?  CPR, you're in a league with Barf Shmidling himself.\nYou can take that as a compliment, if you see it that way.\n",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nJust look at the pbmplus package; it does everything you could ever ask\nfor in converting pbm to almost any format (gif, tga, pcx etc...)",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi.  According to my always questionable newspaper, there's a silver\ndollar being minted in Canada, the back of which commemorates the\nanniversary of the Stanley Cup.  Now, I know full well what coins are\nused every day in Canada.  I can easily fish a few out of my pocket\nchange right now, in fact.  My question is, since the loon is the only\ndollar coin that I know is legal tender, is this just a commemorative\ncoin with no monetary exchange value, or what?  Is it the sort of\nthing that only hockey buffs and coin collectors might covet, with no\nchance of it being circulated?  If it is an uncirculated coin, what's\nthe current cost and what's its potential value?  Just curious.  If no\none knows, I'll take this to soc.culture.canada and rec.collecting (or\nwhatever it is).  Thanks again\n",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I need to write an application which does annotation notes\non existing documents.  The annotation could be done several\ntimes by different people.  The idea is something like having\nseveral acetate transparencies stacked on top of each other\nso that the user can see through all of them.  I've seen\nsomething like this being done by the oclock client.\nCould someone please tell me how to do it in Xt?\nThank you very much.\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nLucky dog... :-)\n\n\n\n\nIt applies with equal force to earlier versions.  Presumably only\nrecently did the author(s) decide it was important enough to mention.\nThe necessity it refers to has always been there, but it's been\nimplicit in the way CreateWindow requests default some attributes of\nthe new window.\n\n\n[...]\n\nThis is because the warning you read is incomplete.  You have to\nprovide not only a colormap but also a border.  The default border is\nCopyFromParent, which is not valid when the window's depth doesn't\nmatch its parent's.  Specify a border-pixmap of the correct depth, or a\nborder-pixel, and the problem should go away.\n\nThere is another problem: I can't find anything to indicate that\nCopyFromParent makes any sense as the border_width parameter to\nXCreateWindow.  Your Xlib implementation probably defines\nCopyFromParent as zero, to simplify the conversion to wire format, so\nyou are unwittingly asking for a border width of zero, due to the Xlib\nimplementation not providing stricter type-checking.  (To ",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nBut ultimately their hockey philosophies are like night and day...\nKeenan believes in pressuring the opposition and taking the\ninitiative (within the limits of his system)...while Roger\nhas a reactive hockey philosophy...which is why Messier will\nbe able to and has played for Keenan, but thought Roger's way\nwas a sure loser.\n\n\nRoger is a great assistant coach...but considering what must be bad\nblood between Nielson and Messier, it would be a mistake to bring\nhim back even in that role.",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "We are looking for a X client which can convert a xwd or a bitmap\nfile into a gif file for use on a Macintosh.\n\n\tThanks",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "UPI Clarinet has just relayed a \"scoop\" from the Toronto Sun\n(or was that Star?  I like the Star myself ...) that Iron Mike\nKeenan has come to an agreement with the New York Rangers for\nnext season.  Interestingly, this comes the day after the Times\nSports had an editorial about how the Rangers need their own\nPat Riley ... who cares about what happens after next season?\n\ngld",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nAs far as I know, Toronto, Pittsburgh, and New York (NL) change their\nuniforms every year.  Every other year (e.g., New York), it will say Mets\nin cursive, New York in cursive, or New York in all caps.  Minor changes,\nbut they do change them often.  Last year, I think they had New York in all\ncaps.  Did Toronto have Blue Jays or Toronto last year?  What about\nPittsburgh?\n\n\nI hate the gray.  They should opt for more color (like the White Sox).\nI hate white team versus gray team.  Spring training uniforms look much\nbetter.",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "By Dave Luecking Of The Post-Dispatch Staff\n\nAt 9:11 Thursday night, the scoreboard watchers at The Arena began to cheer.\nTheir cheer quickly turned into a roar, and finally, the sellout crowd of\n17,816 rose as one to rock the old barn at 5700 Oakland Avenue in a salute to\nthe playoff-bound Blues.\n\nThe scoreboard had just flashed the news from Detroit -- Red Wings 5, Stars 3.\nWith the North Stars' loss, the Blues officially clinched fourth place and the\nfinal playoff spot in the Norris Division. Good thing, because the Blues quit\nplaying.\n\nThey held a 5-1 lead over Tampa Bay when the Detroit-Minnesota final appeared\nwith 3 minutes 52 remaining in the second period. They promptly went to sleep\nand barely held on for a 6-5 victory that nearly slipped away at the buzzer.\nTampa's Bob Beers tipped in a pass from Shawn Chambers, but officiating\nsupervisor John D'Amico and video goal judge Rich Schweigler ruled that the\nshot had gone into the net after time had expired.\n\n``I'm glad I didn't see it go in at the end,\"",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The situation: running a Fortran executable that creats an Xterm.  An option\nin the menu contained in the Xterm runs a Fortran subroutine that creats\na Tektronics-mode Xterm for displaying some graphics.  Typing a <RET> while\nthe Tektronics-mode Xterm (future reference to this will be \"Tek-term\") is\nactive makes the Xterm read future keystrokes but does not shift input focus\nto the Xterm (I'm basing that statement on the fact that the border of the \nTek-term stays the highlighted color and that the Tek-term stays on top of\nXterm.  If what I'm describing isn't input focus, let me know.)  \n\nThe xterm can be brought to the top by clicking the mouse button on it.\n\nSubsequent selections from the Xterm of the menu item that displays graphics \nhighlihts the border and displays the updated graphics, but does not move \nthe Tek-term to the top.  If the Tek-term has been iconized to conserve \nscreen space, it stays an icon.\n\n\nThe desired behavior: one of two options - \n\n    1. Whichever of the windows that is active is ",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\n\n\n\n\n\n\n\nNice try Deepak, but \"tough Whaler squad\" should have clued you in to the\nfact that my Leaf woofing was tongue-in-cheek.\n\nIf playoff hockey is any more intense than the regular season variety then\nit is because the teams are facing each other at least 4 consecutive times\nin 7 days and hockey being the contact sport that it is, some things will\nbe carried over that might dissipate during the regular season.  But that is\nonly for some of the players.  Many of the rest, who have been playing with\ninjuries, who miss their families, or who, like Grant Fuhr, would really\nrather be playing golf, don't really give a damn.  Of course I can't say this\nfor sure, but I believe that this is fairly typical of human nature and I\ndon't think that hockey players are above having what I consider typically\nhuman attitudes.  \n\nWith the recent salary escalations the key players are actually losing \nmoney by participating in the playoffs.  The ones who regard the playoff\n\"take\" as some kind of a bonanza are fringe playe",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nIBM has displayed a 486DX3/99 as a *TECHNOLOGY DEMO*.\n\nThis effectivly means - \"here's some neat technology\". It is not\na commitment to make such an item...\n\n\nGuy",
+    "response": 3,
+    "category": "comp.sys.ibm.pc.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nActually, info@qdeck.com is our customer service department. If you have\ntechnical questions, you can write to support@qdeck.com.\n\n\nI expect the limiting factor will be your server machine, not the network\nitself. To give you a real-world example, here at Quarterdeck we have\nroughly 100 people using DVX to talk to a bunch of unix boxes, novell\nfile servers, and each other. It's not _too_ much of a load on our\nEthernet (with maybe 4 concentrators, so you have 20-30 people on each\nsegment). If you had a badly loaded net, or the apps you wanted to run\nwere very network intensive, you could run into some slowdowns.\n\nBut the biggest problem would be the machine itself. Say you have a 486\n33 with plenty of ram and a fast hard disk and network card. If you have\n10 people running programs off it, you're going to see some slowdowns\nbecause you're now on (effectively) a 3.3 MHz 486. Of course, DVX will\nattempt to see if tasks are idle and make sure they give up their time\nslice, but if you have 10 working programs run",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "..continuing on my build problems, I got stuck here build xterm...\n\ngcc -fpcc-struct-return -o xterm main.o input.o charproc.o cursor.o util.o tabs.o  screen.o scrollbar.o button.o Tekproc.o misc.o  VTPrsTbl.o TekPrsTbl.o data.o menu.o -O2   -R/usr/wgep/X11R5.sos5/lib${LD_RUN_PATH+\\:$LD_RUN_PATH} -L../.././lib/Xaw -lXaw -L../.././lib/Xmu -lXmu -L../.././lib/Xt -lXt -L../.././extensions/lib -lXext -L../.././lib/X -lX11 -L/usr/wgep/X11R5.sos5/lib  -lsocket -lnsl -ltermcap\nUndefined                       first referenced\n symbol                             in file\nindex                               /usr/ucblib/libtermcap.a(termcap.o)\nrindex                              /usr/ucblib/libtermcap.a(termcap.o)\nld: fatal: Symbol referencing errors. No output written to xterm\n*** Error code 1\nmake: Fatal error: Command failed for target `xterm'\n\nAny clues for help?\n",
+    "response": 5,
+    "category": "comp.windows.x"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nWhy not? I believe both the Devils and Islanders got 87 points.\nSay for example, another team had this record : 20-37-47;\nthey had 20*2+47*1+37*0=87 which is the same as their points total.\n(The Islanders' and Devils' records are both 40-37-7.\n\nIt is simple arithmetics and involve no Calculus.\n",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nUh, I'm afraid that your information is slightly out of date... PKWare\nhas obtained a license to export their program to the whole world,\nexcept a very limited list of countries... Draw your own conclusions\nabout the strength of the algorithm... :-)\n\nRegards,\nVesselin",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nThere certainly are muslims who *do not* believe that their dream of \na global Islamic community should be achieved through force. There are, \nhowever, others (and, they are often far more visible/vocal than the \nformer) who *do* accept the establishment of global Islam through force. \nI  would *not* feel threatened by those only accepting or pursuing \n\"Islamicization\" through peaceful means, nor by Jews advocating the same\napproach. Those advocating force as a means of expanding their side's\npower are certainly a threat.\n\nTo Palestinians, Israel is doing just that; maintaining its dominance\nof those *outside* its own \"group\". If I am told that \"I am not one of\nyou\" but you then impose your control on me, damn right you are a threat.\nIf I am a member of a non-muslim minority *inside* the Islamic\nworld and *actively did not* accept my \"minority\" status, I *would also \ncertainly* see Islam's domination as having been acheived, and maintained, \nthrough the powerful coercive force all majorities wield over minor",
+    "response": 17,
+    "category": "talk.politics.mideast"
+  }
+]

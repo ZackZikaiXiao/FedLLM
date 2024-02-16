@@ -1,0 +1,428 @@
+[
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nI too, usually wear sunglasses inside my full face helmet to keep dirt & wind\nout of my contacts.  Mumble, mumble, mumble ...\n",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n   >>So good that there isn't any diff whether or not ATManager is turned\n   >>on or not. Is it worth it to run ATM at all? Especially with these\n   >>better printer technologies ... and TT?\n   >\n   >There are some fonts that are only available as PS fonts.  If you\n   >have a PS font that you want to use, use ATM.  Otherwise, it is\n   >a waste of system resources.\n   >\n\n   -----Or, if you need to use a service bureau and they're only set up to use\n   Type 1 fonts. From what I've heard (pure hearsay) the results of outputting\n   TT fonts as Type 1 is _not_ as good as using high-quality Type 1 fonts in\n   the first place.\n\nUnless you `print' to file with the correct resolution set for the\nfinal output device (image setter).  A problem with TT fonts in Windows\nis that they do get converted to T1 format OK, and the hinting is even used\nwhile this is done, but the resulting T1 fonts are NOT hinted.  The result\nis that they WILL work fine on a device of the resolution assumed by the\nprinter driver when the PS file",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The Hawks won the Norris div, and sealed their fate.  It's bad luck\nto win the Norris.  The Hawks will sweep the Blues in their dreams but will\nlose in 6 in reality.  I predict that in the 6 game with the Blues Belfour\nwill go down on his knees 7000 time s and will spend the rest of the time \nlooking behind him self.  Butcher will pound Roenick and The warthawks have\nno one tough enough to prevent it",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Turkish president Turgur Ozal has passed away today after a heart  attack in Ankara at 11:00 am GMT .\nMr. Ozal was 66 years old.",
+    "response": 18,
+    "category": "talk.politics.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nWhat did this have to do with SF?  And please don't answer\nthat a number of libertarians are SF fans or vice versa. I know a \nnumber of SF fans who are also baseball fans but I don't plan on \nposting the Red Sox schedule.\n",
+    "response": 18,
+    "category": "talk.politics.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n    Don't believe the hype. There is no such thing as a PowerPC slot.",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nAs a matter of fact, yes I do or at least I strive to.  I will not\nbe so proud as to boast that my faith is 100%.  I am still human\nand imperfect and therefore, liable to sin.  Thankfully, there is\nopportunity for repentence and forgiveness.\n\nGod be with you,",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Doesn't Motorola AMCU have something on the BBS yet? (512-891-3733)\n",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have two questions:\n\n1) I have been having troubles with my Wordperfect for Windows.\n   When I try to select and change fonts, etc. some of the text\n   disappears.  I tried to center two lines once, and the second\n   line disappeared.  I can not find the error, and I do not\n   know how to correct it.\n\n2) Is this the right newsgroup?  Where should I go?\n\nE-mail prefered...\n                                                  _____\nWho else is still waiting for \"Naked Gun Part (Pi) | |  \"",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hi folks\n\nI'm planning to buy a LCIII but need advice on choosing a monitor.\nWhat do people recommend for a decent 14\"/15\" monitor?  \n\nI'v looked at some ads and the spec for NEC 4FG/4FGe and the price is \nwithin my budget, but could LCIII be able to use the various resolutions \navailable on 4FG (specifically the 1024x768 resolution)? Does LCIII only \nsupport one resolution?\n\nAlso any recommendations for a reliable mail order place for LCIII or\nmonitors? Does anyone have experience with the following mail-order places?\n\n\tSYEX EXPRESS \t(Houston, Tx)\n\tUSA FLEX \t(Bloomingdale, Il)\n\nThanks,\n\njeff\n\n",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have an addition to the FAQ regarding \"why are there no atheist\nhospitals.\"\n\nIf I recall correctly, Johns Hopkins was built to provide medical\nservices without the \"backing\" of a religious group...thus making it a\nhospital \"dedicated to the glory of [weak] atheism.\"\n\nMight someone check up on this?\n",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The Clipper Chip will have no effect.  Current generation PCs, portable\nand desktop, all have analog voice -> digital voice and vice versa\ncapabilities.  So, I only need a modem output to the telephone,\nand I can interpose any encryption screen on my voice traffic I want.\n\nNot even a big deal, but it will pass muster if the have a way\nof checking whether I am using their Clipper Chip encryption without\na full decoding.\n\nI have been chided for stating that Dorthy Denning was intellectually\ndishonest in the ACM debate and in this newsgroup.  I have previously\nrefrained from suggesting that she is arguing on behalf of consulting\nclients.\n\nNow, I say that it is clear that Dorthy Denning has been functioning\nas a lobbyist, not a computer scientist.  She has used legal ethics\n(truth is what you can convince anyone of), not scientific ethics\n(truth is understanding the external world).\n\nMaybe we can revoke her ACM membership? 8)\n\nLew",
+    "response": 11,
+    "category": "sci.crypt"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have the following equipment for sale:\n\n1. Kenwood TH-28A 2mtr HT\t\t\t$250.00\n\n2. RF Concepts 2mtr Amp (45in->170out)\t\t$275.00\n\n3. Hamtronics Class C Continuous Duty\n\t440mhz 10watt-in ~40watt-out amp\t$250.00\n\nAll prices include shipping/insurance.\n\nFor additional information, contact me at the address below.\n\nDave",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Anyone, \n\n    I am a serious motorcycle enthusiast without a motorcycle, and to\nput it bluntly, it sucks.  I really would like some advice on what would\nbe a good starter bike for me.  I do know one thing however, I need to\nmake my first bike a good one, because buying a second any time soon is\nout of the question.  I am specifically interested in racing bikes, (CBR\n600 F2, GSX-R 750).  I know that this may sound kind of crazy\nconsidering that I've never had a bike before, but I am responsible, a\nfast learner, and in love.  Please give me any advice that you think\nwould help me in my search, including places to look or even specific\nbikes that you want to sell me.\n\n    Thanks  :-)",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nCNN just claimed he bought 104 \"semi-automatic assault rifles\".  And\nthey say Koresh wasn't god-like...  He managed to buy or build a\ncollection of fully-automatic semi-automatic rifles...  Quite a feat,\nI would say.  ;-)\n\nThey're still making charges of \"sexual abuse\" and such, or course.\nNobody seems to have noticed that the Treasury department has nothing\nto do with sex crimes.  Or maybe the feds have recently instituted a\nTAX on sex crimes...  Yeah, that's why the BATF was there, looking for\nunregistered *guns* (\"this is my weapon, this is my gun, this is for\nfighting, this is for...\").\n\n\nI also heard that they're claiming to be cautious because of Koresh's\n\"heated ammunition stockpile\".  I seem to recall that smokeless powder\ntends to decompose at even moderate temperatures.  I would be rather\nsurprised, after a fire of that nature, if *any* of his \"stockpile\" is\nunexploded, or unburned.\n\n\nI seem to recall that aluminum powder is a common component of\nfireworks...  The folks on rec.pyro could probably ",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nYou missed something.  I think it takes off vertically and is intended\nto land the same way.\n\n-- \n\"Insisting on perfect safety is for people who don't have the balls to live\n in the real world.\"   -- Mary Shafer, NASA Ames Dryden",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The following was posted and no doubt retyped by Yigal Ahrens and considering \n the importance of the issue and the almost total blackout except in \n California, I am reposting to other appropriates groups.\n \n \n \n From LA Times, Friday, April 9, 1993.  P. A1.\n \n EVIDENCE OF ADL SPY OPERATION SEIZED BY POLICE\n \n By Richard C. Paddock, Times staff writer\n \n SAN FRANCISCO -- Police on Thursday served search warrants on the\n Anti-Defamation League here and in Los Angeles, seizing evidence of a\n nationwide intelligence network accused of keeping files on more than\n 950 political groups, newspapers and labor unions and as many as\n 12,000 people.\n \n Describing the spy operation in great detail, San Francisco\n authorities simultaneously released voluminous documents telling how\n operatives of the Anti-Defamation League searched through trash and\n infiltrated organizations to gather intelligence on Arab-American,\n right-wing and what they called \"pinko\" organizations.\n \n Representatives of the Anti-Defamation League, ",
+    "response": 18,
+    "category": "talk.politics.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "[deletions...]\n\n\n\nFirst of all, infinity is a mathematical concept created by humans\nto explain certain things in a certain way. We don't know if it actually\napplies to reality, we don't know if anything in the world is infinite.\n\n\nYou don't know if the universe is actually continuous. Continuum is another\nmathematical concept (based on infinity) used to explain things in a certain\nway.\n\n\nI have a pretty good idea of what infinity is. It's a man-made concept, and\nlike many man-made concepts, it has evolved through time. Ancient Greeks had\na different understanding of it.\n\n\nPrecicely. We don't even know if infinity applies to reality.\n",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "To Mr. Millitello -\n\n\tListen, Sammy, can you explain why Buck pitched you in relief\nyesterday?  I figure no-one would know this better than you yourself.\n\nJason A. Miller\n\"some doctor guy\"",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "This kind of argument cries for a comment...\n\n\n \n: >>...God did not create\n: >>disease nor is He responsible for the maladies of newborns.\n: > \n: >>What God did create was life according to a protein code which is\n: >>mutable and can evolve.  Without delving into a deep discussion of\n: >>creationism vs evolutionism, God created the original genetic code\n: >>perfect and without flaw. \n: >  ~~~~~~~     ~~~~~~~ ~~~~\n\nDo you have any evidence for this? If the code was once perfect, and\nhas degraded ever since, we _should_ have some evidence in favour\nof this statement, shouldn't we?\n\nPerhaps the biggest \"imperfection\" of the code is that it is full\nof non-coding regions, introns, which are so called because they\nintervene with the coding regions (exons). An impressive amount of\nevidence suggests that introns are of very ancient origin; it is\nlikely that early exons represented early protein domains.\n\nIs the number of introns decreasing or increasing? It appears that\nintron loss can occur, and species with common ",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "There was a discussion a couple of weeks ago about using different\ncables to \nachieve different resolutions on the Quadra and Centris series.  A\ncompany that sold the cables was mentioned.  Can someone please e-mail me\nthe companies name, address, etc, and any other info that may be relevant?\n\n\n\t\"Just like everything else in life, the right lane ends in half a mile.\"",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n1) So what?\n\n2) It will be interesting to see the reaction when 2.5million queers\n   gather in Washington DC. After all if there are only 6million of\n   us then this is an event unprecidented in history...\n\n\nDon't forget that 25% had 20 or more partners....\n\n\nAnd what did this study show for number of sexual contacts for those\nwho said they where homosexual? Or is that number to inconvient for\nyou....\n\n\nFuck off\n",
+    "response": 18,
+    "category": "talk.politics.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nYes, this is also my understanding of the majority of Islamic laws.\nHowever, I believe there are also certain legal rulings which, in all\nfive schools of law (4 sunni and 1 jaffari), can be levelled against\nmuslim or non-muslims, both within and outside dar-al-islam. I do\nnot know if apostasy (when accompanied by active, persistent, and\nopen hostility to Islam) falls into this category of the law. I do know\nthat\nhistorically, apostasy has very rarely been punished at all, let alone\nby the death penalty.\n\nMy understanding is that Khomeini's ruling was not based on the\nlaw of apostasy (alone). It was well known that Rushdie was an apostate\nlong before he wrote the offending novel and certainly there is no\nprecedent in the Qur'an, hadith, or in Islamic history for indiscriminantly\nlevelling death penalties for apostasy.\n\nI believe the charge levelled against Rushdie was that of \"fasad\". This\nruling applies both within and outside the domain of an\nIslamic state and it can be carried out by individuals. The rewar",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n  Actually, what I think has become more evident, is that you are determined to\n  flaunt your ignorance at all cost.  Jagr did not have a better season than\n  Francis ... to suggest otherwise is an insult to those with a modicum of\n  hockey knowledge.  Save your almost maniacal devotion to the almighty\n  plus/minus ... it is the most misleading hockey stat available.\n\n  Until the NHL publishes a more useful quantifiable statistic including ice\n  time per game and some measure of its \"quality\" (i.e., is the player put out\n  in key situations like protecting a lead late in the game; is he matched up\n  against the other team's top one or two lines; short-handed, etc), I would\n  much rather see the +/- disappear altogether instead of having its dubious\n  merits trumpeted by those with little understanding of its implications.\n\n  Brad\n\n-- \n------------------------------------------------------------------------------\n  Brad K. Gibson                           INTERNET: gibson@geop.ubc.ca\n  Dept. of Geophysics & A",
+    "response": 10,
+    "category": "rec.sport.hockey"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Gremilins have attacked my keyboard and the correction to my followup on audio\nrelays got fouled up.  \nVarying lamp resistance, should read, \"Varying lamp voltage\"\n-- \n73, Tom\n================================================================================\nTom Wagner, Audio Visual Technician.  Malaspina College Nanaimo British Columbia\n(604)753-3245, Loc 2230  Fax:755-8742  Callsign:VE7GDA Weapon:.45 Kentucky Rifle\nSnail mail to:  Site Q4, C2.   RR#4, Nanaimo, British Columbia, Canada, V9R 5X9  ",
+    "response": 12,
+    "category": "sci.electronics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "//I'm using BC++'s ObjectWindows (version 3.1) and trying to get some data \n//processed in a window object. However, when the calling program invokes \n//the window object, it gives up the control to the window object, and keeps \n//executing the next statement. I would like the calling program, after \n//invoking the window object, to wait until the window object is closed. \n//Can I do that? My program may look like:\n\nclass MyWindow : public TWindow\n{\n\t...\n};\n\nvoid MyCallingProg(...)  // Could the calling program be a C function?\n{\t...\n\tMyWindow *MyWinObj;\n\tMyWinObj = new MyWindow(...);\n\tGetApplication()->MakeWindow(MyWinObj);\n\tMyWinObj->Show(SW_SHOWNORMAL);",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nWhat I did NOT get with my drive (CD300i) is the System Install CD you\nlisted as #1.  Any ideas about how I can get one?  I bought my IIvx 8/120\nfrom Direct Express in Chicago (no complaints at all -- good price & good\nservice).\n\nBTW, I've heard that the System Install CD can be used to boot the mac;\nhowever, my drive will NOT accept a CD caddy is the machine is off.  How can\nyou boot with it then?\n\n--Dave\n",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nFishing rights are disputed.  Between 2 nations, no matter *how* \nfriendly, there is ALWAYS fishing disputes.\n\nWhat I was getting at was the 54 40' or fight slogan is OLD STUFF\ndealing with the LAND dispute.  No one is saying 54 40' or fight \nabout fishing rights.  The territorial dispute about the Oregon\nTerritory (we called it) is LONG resolved.\n\nFishing rights...small potatoes.\n\n",
+    "response": 18,
+    "category": "talk.politics.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I have no experience with this particular hardware, but\njust about every month in Macworld there is an add for\nan combined SE accelerator/Video board.  This item sells\nfor about $1000 and comes with a 25MHz 68030/68882 pair,\neight SIMM slots, and a grayscale 21\" monitor.\n\nThis accelerator plugs into the SE's lone expansion port\nand thus no soldering.  You will however, need a long\nTORX wrench to get the case open (but that's not really\na big deal).\n\nDoes that sound like what you were looking for?",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "So far Simmons looks like a total idiot.\n\n\n1) Zane Smith should learn how to \"switchpitch\" and return from the DL. I\nwould rather have Zane Smith pitch right handed than have Moeller pitch at all.\n\n2) I am sure Simmons was ready to say I told you so after Otto had an\nimpressive win last week. NOw Otto's latest debacle has restored Simmon's\nreputation. Now he looks like he is back in his '92 form when he had the\nAL's highest ERA among starters. Four our sake(not Ted's sake), I hope he\npitches with a 3.5 ERA for the rest of the season. Yeah, right.\n\n3) Tomlin and Merced are a bit disappointing. They are still doing decently.\nBUt considering the considerable amount of talent and maturity they have\nshown their first seasons, they seem to have actually gotten a little\nbit worse. Tomlin was almost unhittable his rookie year against lefty batters.\nMerced had a very good OBA his rookie year. He showed a lot of concentration at\nthe plate in his rookie year.\n\n4) Walk: Well, he seems to be on the losing end tonight. BUt",
+    "response": 9,
+    "category": "rec.sport.baseball"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "930418\n\nDo what thou wilt shall be the whole of the Law. [Honestly.]\nThe word of Sin is Restriction. [Would I kid you?]\n\n\nDoes one man's words encompass the majestic vision of thousands\nof individuals?  Quoting a man is not the same as quoting the\nOrder.  Taken out of context, words can be interpreted much\ndifferently than had one applied them within the confines of\ntheir original expression.\n\nI think this is the case regarding Hymenaeus Beta, Frater Superior \nof the Order to which I belong.  When he included that bit\nfrom Merlinus X' he did us all a service.  He showed us the extremes\nto which Order members have been known to go in their fervor.\nI have little knowledge regarding Reuss' background, but surely\nhe was an unusual man, and he was an important force in the Order \nfor many years.\n\nYet as people change so do Orders change, and while we look back\nso carefully at the dirty laundry of O.T.O. remember that this is\nonly the surface skim and that many perspectives are now encompassed\nwhich extend beyond a",
+    "response": 19,
+    "category": "talk.religion.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nRather, people kill people with guns.  The sad truth is: sometimes that is\ngood, or at least, better than the alternative.\n\n\nOk.  There are about 1400 fatal firearm accidents per year [1], and the\nnumber has been in decline since early this century [2].  Most of these\naccidents involve rifles or shot guns, not handguns.\n\n...\n\nIn fact there are both guns and bullets designed specifically for that. \nThe idea that my Ruger Mark II Bull Barrel (a semi-auto 0.22 caliber\nhandgun) was designed to kill or hurt people, even for self defense,\nwould, I'm sure, come as a surprise to its designer.  It certainly isn't\nwhy I have it.  It certainly would hurt someone if you shot them with it,\nand might even kill them, but it is simply wrong to say it was designed to\nkill people.\n\n\nIn fact, that is what happens most of the time.  Most self defensive uses\nof firearms don't involve firing any shots.  Most criminals would prefer\nnot to be shot, and will go to some effort not to be, including doing what\nyou say when you point a ",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "=========================\ncommodore 128\nepson homewriter 10  9 pin printer\n1571 d/s disk drive\n2 joysticks\n1 mouse\nlotsa software, both games and apps.\nrapid fire joystick adapter\n==========================\nabout a year old\n\n$130 OBO\n",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nmy $.02 - Yes and No.  I do not believe the above scenario is not possible.  \nEither they are believing and living (in at least some part) led by God, else \nthey are not.  Believing (intellectually, but waiting(?)) is not enough.\n   Especially important to remember is that no one can judge whether you are \nso committed, nor can you judge someone else.  I guess the closest we can \ncome to know someone's situation is listening to their own statements.  This \ncan be fallible, as is our sense of communion one with another.\n\n\nRegarding this passage, we need to remember that this is a letter to a church \n(at Laodicea), people who are Of the Body of Christ. (Rev.3:14-16)  He talks \nabout their works.  A translation could say that he says their lack of \nconcern makes him sick (to the point of throwing up).\n\n   Right, saving is by faith alone, except that faith does not come alone, if \nyou catch the two meanings.\n   I can offer the explanation that Jesus would that we were either \"on fire \nfor Him\" or so cold we knew",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Forwarded from Doug Griffith, Magellan Project Manager\n\n                     MAGELLAN STATUS REPORT\n                         April 23, 1993\n\n1.  The Magellan spacecraft continues to operate normally, gathering\ngravity data to plot the density variations of Venus in the\nmid-latitudes.  The solar panel offpoint was returned to zero degrees\nand spacecraft temperatures dropped 2-3 degrees C.\n\n2.  An end-to-end test of the Delayed Aerobraking Data readout\nprocess was conducted this week in preparation for the Transition\nExperiment.  There was some difficulty locking up to the data frames,\nand engineers are presently checking whether the problem was in\nequipment at the tracking station.\n\n3.  Magellan has completed 7277 orbits of Venus and is now 32 days\nfrom the end of Cycle 4 and the start of the Transition Experiment.\n\n4.  Magellan scientists were participating in the Brown-Vernadsky\nMicrosymposium at Brown University in Providence, RI, this week.  This\njoint meeting of U.S. and Russian Venus researchers has been",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "The Selective Service Registration should be abolished.  To start with, the\ndraft is immoral.  Whether you agree with that or not, we don't have one now,\nand military experts agree that the quality of the armed forces is superior\nwith a volunteer army than with draftees.  Finally, the government has us\non many lists in many computers (the IRS, Social Security Admistration and\nMotor Vehicle Registries to name a few) and it can find us if it needs to.\nMaintaining yet another list of people is an utter waste of money and time.\nLet's axe this whole department, and reduce the deficit a little bit.\n",
+    "response": 18,
+    "category": "talk.politics.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ": Hello all you windows freaks out there.\n: \n: I bought Windows 3.1 (dutch version) some time ago, and run it on a\n: 286. I recently upgraded my computer to a 486DX33, 256K cache, 4M memory,\n: 212M Maxtor HD. Works real fine, but not with windows.\n: \n: When playing Patience (SOL) or minesweeper, suddenly the system hangs:\n: - I just can't move my mouse anymore.\n: or\n: - Screen goes blank, nothing further\n: or\n: - Screen goes blank, computer seems to reboot, but stops before reaching\n: the end of the memory test.\n: \n: Once (or maybe even twice) I got a message about some illegal kernel call\n: or something (accompanied by a hex adress) and a close-button. When pressing\n: it, the application wouldn't close, though.\n: \n: I haven't experienced this problem with other programs than these, but that's\n: mainly because I haven't really used other programs. I suspect them to hang \n: too.\n: \n: Anything known about this problem. (Or, better, any patches available?)\n: \n: \n: Oh, forgot to tell, if, in CMOS RAM, I make the ",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nOh, that was just a bet.\n",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Is anyone out there using a greyscale handscanner. I'm thinking about\nbuying one. Is the inexpensive Logitech pretty good. I don't need\nsuper high quality scans- but want it to be worth the $$$$.",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hello everybody...\n\nAre there any ftp-sites with wav-files available???\nFrode Kvam :-)\n\n\n--\n_______________________________________________________________________________\n  _/_/_/_/_/   _/_/_/_/        _/_/_/     _/_/_/       _/_/_/_/_/\n  _/           _/      _/    _/      _/   _/    _/     _/\n  _/           _/      _/    _/      _/   _/      _/   _/\n  _/_/_/       _/_/_/_/      _/      _/   _/      _/   _/_/_/\n  _/           _/    _/      _/      _/   _/      _/   _/\n  _/           _/      _/    _/      _/   _/    _/     _/\n  _/           _/      _/      _/_/_/     _/_/_/       _/_/_/_/_/    (C)\n_______________________________________________________________________________\n  Name:         Frode Kvam\n  Univ:         University of Trondheim, dept of informatics\n  E-mail:       frode@ifi.unit.no\n  Snail-mail:   Lademoens Kirkealle 8\n                7042 TRONDHEIM\n  Voice:        + 47 7 50 45 06\n_______________________________________________________________________________",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Excerpts from cmu.comp.sys.mac: 5-Apr-93 Re: SE Serial Port Speed???? by\nSamuel John Kass@andrew. \nactually a 14.4 kbps modem using standard compression (v3.2 v4.2.bis?)\ncna reach 57,600 bps, however I have not seen any server modems that\nhave hardware compression.  I have been told the annex modems here break\nup at ~36k, but I have never seen faster than 14.4kbps.",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\tYou have only shown that a vast majority ( if not all ) would\nagree to this. However, there is nothing against a subjective majority.\n\n\tIn any event, I must challenge your assertion. I know many \nsocieties- heck, many US citizens- willing to trade freedom for \"security\".\n\n\n--- \n\n        \" Whatever promises that have been made can than be broken. \"",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\tThere is no notion of heliocentric, or even galacticentric either.\n\n\n\n--------------------------------------------------------------------------------",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Note the Followup-To: header ...\n\n\nOn my SVR4 Amiga Unix box, I've got -lform, -lmenu, and -lpanel for\nuse with the curses library.  Guess what they provide? :-)\n\nUnix Press, ie. Prentice-Hall, has a programmer's guide for these\ntools, referred to as the FMLI (Forms Mgmt Language Interface) and\nETI (Extended Terminal Interface), now in it's 2nd edition.  It is\nISBN 0-13-020637-7.\n\nParaphrased from the outside back cover:\n\n    FMLI is a high-level programming tool for creating menus, forms,\n    and text frames.  ETI is a set of screen management library\n    subroutines that promote fast development of application programs\n    for window, panel, menu, and form manipulation.\n\nThe FMLI is a shell package which reads ascii text files and produces\nscreen displays for data entry and presentation.  It consists of a\n\"shell-like\" environment of the \"fmli\" program and it's database\nfiles.  It is section 1F in the Unix Press manual.\n\nThe ETI are subroutines, part of the 3X manual section, provide\nsupport for a multi-wind",
+    "response": 1,
+    "category": "comp.graphics"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\tI'm told that some of these companies often sell a plastic, throw\naway after one use, version of the Torx driver, so ask before you buy...\n\t\t\t\t\tMichael",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI currently use an HP DeskJet with Grappler LS ver 1.0, \nand it works on System7.  Course, I only use the SWA Dutch\nand SWA Swiss fonts that came with it, due to the 4x size\nrequirement to print to the HP. (ie: must have 40pnt definition\nto print a 10pnt font)  When I upgraded,  I talked to Orange\nMicro, and they state that ver 1.2 of Grappler LS definitely\nworks with System7.  However, the upgrade was US$40, so I\npassed.\n\nHope this helps?\n\n<marc>\n\n-- ",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI'll throw in a vote for a Metzler \"economy\" tire, the ME77. Good\nfor mid-size older bikes. Rated to 130mph. Wearing well and handles\nmy 12 mile ride(twisties) to work well on the SR500. Costs a bit \nmore than the Chengs/IRC's etc, but still less than the Sport\nMetzlers for the newer bikes. Cost from Chaparral is about $60 for the\nfront, and $70 for the rear.",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "I know that Jet Inc makes refills for the Stylewriter and Deskwriter\nink jet cartridges in several colors....but are pre-filled cartridges\nin color available from anyone (or do I have to use-up one cartridge \nbefore I have a chance to print in color?)\n\nAlso, are inks in process colors (cyan, magenta, yellow) available\nto refill cartridges?",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\nI don't know why it is so obvious.  We are not speaking of acts of the \nflesh.  We are just speaking of emotions.  Emotions are not of themselves\nmoral or immoral, good or bad.  Emotions just are.  The first step is\nnot to label his emotion as good or bad or to numb ourselves so that\nwe hide our true feelings, it is to accept ourselves as we are, as God\naccepts us.  It seems that Paul's anger he has accepted and channeled\nit to a plea to all of us to refrain from passing judgement on those\nafflicted with a disease and to reach out to others.  Give in?  Calling\nhis arguments foolish, belittling them to only quarrels, avoiding action\nbecause of fear to give others a bad feeling, he's not forgiving?\n\nRe-think it, Aaron.  Don't be quick to judge.  He has forgiven those with\nAIDS, he has dealt with and taken responsibility for his feelings and made\nappropriate choices for action on such feelings.  He has not given in to\nhis anger.",
+    "response": 15,
+    "category": "soc.religion.christian"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": ": In article <C4u3x5.Fw7@magpie.linknet.com> manes@magpie.linknet.com (Steve  \n: [...]\n: > I don't know how anyone can state that gun control could have NO\n: > effect on homicide rates.  There were over 250 >accidental< handgun\n: > homicides in America in 1990, most with licensed weapons.  More\n: > American children accidentally shot other children last year (15)\n: > than all the handgun homicides in Great Britain.  (Source: National\n: > Safety Council.  Please... no dictionary arguments about RATES vs\n: > TOTAL NUMBERS, okay?  They're offered for emphasis, not comparison).\n: > \n\n: You're a great debater.  You chose your sources of information, claim them\n: to  be superior,\n\nI've made no such claim.  Please direct my attention towards any\nposting of mine where I claimed superior sources of information.\nIt's probably because I bothered to post any references at all while\nothers seem content to post numbers pulled from the ozone, that\nyou've confused it with fact-twisting.  If so, I apologize.  \n\n: then take th",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Hey,\n   I have some Star Trek Christmas Ornaments for sale.  They are the the\nHallmark Shuttle Craft Galileo.  They went for $24.00 during christmas.  I\nam willing to sell it for that price + shipping.  If you are interested\nand have some questions, please reply... \n",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\n\n\n\n\nIf I recall correctly, the bill would provide for concealed carry if\nthe person takes a 15-hr DPS safety course in firearms and pays a $150\nfee for the license.  The bill is apparently veto-proof in the House,\nbut LtGov Bullock has said it will never come to the floor of the\nSenate and Dreamboat Annie has vowed to veto it if it comes to her\ndesk.  *shrug*",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "David Karr, on the Tue, 20 Apr 1993 01:01:01 GMT wibbled:\n: >In article <1993Apr19.141959.4057@bnr.ca>\n: >\n: >> With regards to the pub brawl, he might have a history of such things.\n: >> Just because he was a biker doesn't make him out to be a reasonable\n: >> person.  Even the DoD might object to him joining, who knows?\n\n: If he had a history of such things, why was it not mentioned in the\n: article, and why did they present the irrelevant detail of where he\n: got his drinking money from?\n\n: I can't say exactly who is at fault here, but from where I sit is\n: looks like we're seeing the results either of the law going way out\n: of hand or of shoddy journalism.\n\n: If the law wants to attach strings to how you spend a settlement, they\n: should put the money in trust.  They don't, so I would assume it's\n: perfectly legitimate to drink it away, though I wouldn't spend it that\n: way myself.\n\n: -- David Karr (karr@cs.cornell.edu)\n\nWe heard about this from a newspaper article.  Journalists and editors\nalways pick ou",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Fellow Texans and Members of Crime Strike in Texas\n \nCrime Strike in Texas has a loosely knit coalition with most\nVictims Rights Groups in Texas. We ask that you write a\nletter protesting the release of the following murderer.\n \nThis letter should be written to :\n \nRaven Kazen - Victims Services\nBoard of Pardons and Paroles\nP.O. Box 13401 - Capital Station\nAustin, Texas 78711\n \nThe letter should be written if at all possible on RED PAPER\nas that was agreed on at one of our first meetings . It\nrepresents the coalition and all of its parts as well as the\nheart ache of those left behind and the blood spilled by\nthese criminals. The letter should have only one name on it\nso it can be filed in the folder of that criminal waiting for\nhis next try at parole.\n \nList of Criminals:\n \nToday we have only one parole to protest , On October 4,\n1990, Mark Steven Hughes rendered numerous blows to the head\nof James Allen Pompa . Ten month old James went into a coma\nand died two days later.\n \nOn July 8, 1992, Mark Steven Hughe",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "",
+    "response": 7,
+    "category": "rec.autos"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\tPerhaps we ought not to have supported a known genocidist?\n\tProvided him with weapon systems, tactical support, technology,\netc.\n\n\tWe made Suddam Hussein.\n\n\tWhat did Bush call him? Oh yes, an ally and a freind.\n\n\n---  \n\n  \" I'd Cheat on Hillary Too.\"",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "There is a guy in NASA Johnson Space Center  that might answer \nyour question. I do not have his name right now but if you follow \nup I can dig that out for you.\n\nC.O.Egalon@larc.nasa.gov",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "There are actually only two of us.  I do Henry, Fred, Tommy and Mary.  Oh yeah,\nthis isn't my real name, I'm a bald headed space baby.",
+    "response": 14,
+    "category": "sci.space"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nOne of the rules for a permanent swap file is that it must be contiguous\n(non-fragmented) space.  I suspect that is more responsible for the\ndifference than the amount of free disk, in your case.\n\n\nIt depends on what you are running.  We had to increase our swap\nfile (I think it is now 20MB) when some applications couldn't\nrun without *everything* else closed.\n",
+    "response": 2,
+    "category": "comp.os.ms-windows.misc"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Looking to save money?  I am your man.  I will mail you \n$5 in food coupons for only$2.50.  Or you will get twice the dollar amount\nof coupons.  So mail $15 and get $30 dollars in coupons. Sounds like a great\ndeal well it is.  Send SASE to 766 S.Elizabeth St. Salt Lake City, Utah 84102\nenclose money in form of a money order.  Personally, I would not trust a person\nto send coupons after money is sent.  Well, let me earn your trust.  Send\n$1 dollar, and I'll send you your $2 in store coupons.  \nThen we'll talk more\ne-mail enquiries to yb025@uafhp.uark.edu",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nSorry.   Wrong.    This is how banks got started in the first place.\nSooner or later your father and his pals will lend money to someone\nwho eventually goes broke, and then they will realise that they\nhavn't been managing risk very well.   Then they will ask themselves\nwhat it is that they need to quantify risk, and to persuade borrowers\nnot to take on greater loans than they can carry.    And since they\ndon't all want the worry of doing the calculations and handling the\nmoney, some of them will specialise in that.\n\nThen they'll reinvent interest, but like good Muslims, they'll call\nit something else.\n\n\nRiiiight.   That's why John Major opened a new government department\na couple of months ago to help to promote minority business.   Because\nthey can do it all themselves by lending one another cups of sugar.",
+    "response": 0,
+    "category": "alt.atheism"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Are there any PDS expansion cards out there that specifically take\nadvantage of the LCIII's 32 bit data path and 25MHz clock speed? If\nthey exist, are they significantly faster than the LC/LCII versions?",
+    "response": 4,
+    "category": "comp.sys.mac.hardware"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "Mediterranean Investment property for Sale\n------------------------------------------\nJavea, Alicante Spain (Costa Blanca)\n\nVilla on a large lot in the wooded (pine) hills \"above the noise\".\n2 bedrooms, living-dining room + glassed-in sun-porch; kitchen &\nbathroom. Large lot surrounded by traditional white wall with\nwrought iron gates: room for an in-ground pool. 2 minutes from the\nsea and supermarket; 10 minutes from town and full amenities. Area\nhas specially favourable microclimate, mentioned in a WHO climate\nreport.\n\nSeat (Fiat) runabout Car, 3 years old may be included, in the deal.\n\nIdeal for retirement or as a family holiday resort.\n\nMust sell for family reasons.\n\nAsking $150,000.\n\nReply by EMAIL or call Canada (613)591-0507\n\n---------------------------------------------------------------------\nSimon Curry, Executive Director                   Tele: (613)991-9001\nThe Royal Society of Canada                       Fax:  (613)991-6996\nPO Box 9734, Ottawa K1G 5J4              Email: curry@doe.carleton.ca\n\n",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nIs the license required for driving a car exclusively on private\nproperty, such as a farm? Here in the United States, the license\nis required only for the use of public roads.\n\n\nWe also have a nation of 250 million people, _many_ issues and\nusually only two candidates for a given office. A President\nmight be willing to abuse mild gun control laws and create\na de-facto ban (something a majority of the people would object to)\nand still be elected: The voters might look at issues like the\ncivil rights of minorities, health care, etc... and vote\nfor the \"lesser of two evils.\" I don't think this is a matter\nof paranoia, since local governments in (for example) New York\nand Chicago have abused existing, mild gun control laws to \ncreate a virtual ban.\n\n\nIn which case, the United States already has adaquate gun control laws:\nAccording to federal statistic, only 7% of gun-wielding criminals\nlegally purchase their own guns from licensed dealers. If that's\nthe point of gun control (to prevent criminals from legally pur",
+    "response": 16,
+    "category": "talk.politics.guns"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nI'm not sure on the older bikes, but the Yamaha Virago 535 has spec'd\nseat height of 27.6 in. and the Honda Shadow 27.2 in. \n",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\n\"Teflon\" is a DuPont-owned tradename for PTFE.  Slick-50 does\nindeed use DuPont Teflon, though some other brands of such\nstuff may use imported PTFE of another brand.\n\n\"Teflon\", being a trade-name, should always by capitalized.\n\n(DuPont disclaims any benefits of PTFE in the oil supply of internal \ncombustion engines, BTW.)",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "My friends and I have a buch of books for sale. They are not\n\tbeing used due to change of job, loss of interest etc.\n\n\tRather than letting them gather dust, we would like to pass them\n\ton to others who may use them (of course at a price :-)\n\n\tTopics Include:\n\t- C/C++/Other Programming Languages\n\t- UNIX/DOS/OS2/Windows/Other Operating System topics (General)\n\t- X/Motif/OLIT/Xwin\n\t- Networking and Digital Signal Processing\n\t- Computer Graphics\n\t- Microprocessors and Computer Architecture\n\t- Math\n\t- Software Engineering/Algorithms/Software Testing\n\t- Databases\n\t- Expert Systems\n\n\tThe list is long and rather than posting it here I will email\n\tit by request.  I am going to keep the list updated and so will\n\trespond to all requests (lucky me :-)\n\n\tIf you are interested drop me a line",
+    "response": 6,
+    "category": "misc.forsale"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "\nFrom _Cycle_World_ magazine (5/93) (who usually never says _anything_\nbad about any motorcycle):\n\n\"The Max certainly has motor, but there are some things it is short of.\nIt is short of chassis.  It loves straight lines; aimed in one, it is\nnicely stable.  But it is not overfond of corners.  Forced into one, it\nprotests, shaking its head, chattering its front tire, grinding its\nfootpegs, and generally making known its preference for straight\npavement.  Bumps?  It doesn't like them either.  Its fork isn't too bad,\nthough it is soft enough that it can be bottomed under hard braking.\nThe shocks, though which work on that short-travel, shaft-drive\nswingarm, are firm to the point of harshness.\"\n\n-----------------------------------------------------------------------------",
+    "response": 8,
+    "category": "rec.motorcycles"
+  },
+  {
+    "instruction": "A piece of short news report will be presented to you, please categorize it.",
+    "context": "who: kmr4@po.CWRU.edu (Keith M. Ryan)\nwhat: <kmr4.1426.733987668@po.cwru.edu>\nwith: rush@leland.Stanford.EDU \nwhat: <1993Apr5.050524.9361@leland.Stanford.EDU>\n \n \nKR> \"Sadly yes. Don't loose any sleep over Old 'Zlumber. Just\nKR> have some fun with him, but he is basically harmless. \nKR> At least, if you don't work in NY city.\"\n \nI don't find it hard to believe that \"Ole 'Zlumber\" really believes\nthe hate and ignorant prattle he writes. The frightening thought is,\nthere are people even worse than he! To say that feminism equals\n\"superiority\" over men is laughable as long as he doesn't then proceed\nto pick up a rifle and start to shoot women as a preemptive strike---\naka the Canada slaughter that occured a few years ago. But then, men\nkilling women is nothing new. Islamic Fundamentalists just have a\n\"better\" excuse (Qu'ran).\n \n    from the Vancouver Sun, Thursday, October 4, 1990\n    by John Davidson, Canadian Press\n \n    MONTREAL-- Perhaps it's the letter to the five-year old\n    daughter that shocks the most.",
+    "response": 0,
+    "category": "alt.atheism"
+  }
+]
